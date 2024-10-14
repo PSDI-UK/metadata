@@ -1,0 +1,435 @@
+{
+   "@context": {
+		"psdiVoc": "http://metadata.psdi.ac.uk/vocabulary#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+		"skosxl":"http://www.w3.org/2008/05/skos-xl#",
+		"dc11": "http://purl.org/dc/elements/1.1/",
+        "dcterms": "http://purl.org/dc/terms/",
+		"foaf": "http://xmlns.com/foaf/0.1/",
+		"dcat": "http://www.w3.org/ns/dcat#",
+		"obo":"http://purl.obolibrary.org/obo/",
+		"rdf:":"http://www.w3.org/2000/01/rdf-schema#",
+		"rdfs":"https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"xsd":"https://www.w3.org/2001/XMLSchema#",
+		"skos:hasTopConcept":{
+			"@type":"@id"
+		},
+		"skos:member":{
+			"@type":"@id"
+		},
+		"skos:broader":{
+			"@type":"@id"
+		},
+		"skos:narrower":{
+			"@type":"@id"
+		},
+		"skos:related":{
+			"@type":"@id"
+		},
+		"skos:Collection":  {
+			"@type":"@id"
+		},
+		"skos:topConceptOf": {
+			"@type":"@id"
+		},
+		"skos:inScheme":{
+			"@type":"@id"
+		},
+		"@language": "en"
+    },
+	"@graph": [
+		{
+			"@id":"psdiVoc:vocabulary",
+			"dcterms:title": "PSDI vocabulary",
+			"dcterms:description": "Definitions of nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
+			"dc11:Version": "0.1.0",
+			"dcterms:conformsTo":"CDIF_core_controlled_vocabulary_1.0",
+			"dcterms:created": {
+				"@value":"2024-04-18T12:01:01Z",
+				"@type": "xsd:dateTime"
+			},
+			"dcterms:modified": {
+				"@value":"2024-09-25T12:01:01Z",
+				"@type": "xsd:dateTime"
+			},
+			"dcterms:creator": {
+				"@id":"psdiVoc:person/orcid.org/0000-0003-2397-1996",
+				"foaf:name":"Aileen Day",
+				"@type":"foaf:Person",
+				"foaf:openid": "https://orcid.org/0000-0003-2397-1996"
+			},
+			"dcterms:contributor": [
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0003-0422-7870",
+					"foaf:name":"Silvia Chiacchiera",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0003-0422-7870"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-3342-3160",
+					"foaf:name":"Brian Matthews",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-3342-3160"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-5250-7653",
+					"foaf:name":"Juan Bicarregui",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-5250-7653"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-5112-835X",
+					"foaf:name":"Catherine Jones",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-5112-835X"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-6431-0612",
+					"foaf:name":"Tom Underwood",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-6431-0612"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-9506-8718",
+					"foaf:name":"Alexander Belozerov",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-9506-8718"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-8414-9272",
+					"foaf:name":"Simon Coles",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-8414-9272"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0003-1721-9212",
+					"foaf:name":"Cerys Willoughby",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0003-1721-9212"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-8286-3835",
+					"foaf:name":"Nicola Knight",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-8286-3835"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0003-1886-0378",
+					"foaf:name":"Philip Leadbitter",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0003-1886-0378"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-7396-0721",
+					"foaf:name":"Mark Anderson",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-7396-0721"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-7348-7612",
+					"foaf:name":"Abraham Nieva De La Hidalga",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-7348-7612"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-4831-9489",
+					"foaf:name":"Samantha Pearman-Kanza",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-4831-9489"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-8271-3431",
+					"foaf:name":"James Gebbie-Rayet",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-8271-3431"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0009-0006-9138-9585",
+					"foaf:name":"Sathya Sai Seetharaman",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0009-0006-9138-9585"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-6199-5094",
+					"foaf:name":"Stavrina Dimosthenous",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-6199-5094"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-9775-687X",
+					"foaf:name":"Christopher Race",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-9775-687X"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0003-4901-9936",
+					"foaf:name":"Ian Bruno",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0003-4901-9936"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0001-7546-5978",
+					"foaf:name":"Kevin Ashley",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0001-7546-5978"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0003-3437-5145",
+					"foaf:name":"Clara Linés",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org//0000-0003-3437-5145"
+				},
+				{
+					"@id":"psdiVoc:person/orcid.org/0000-0002-0846-7831",
+					"foaf:name":"Peter Holt",
+					"@type":"foaf:Person",
+					"foaf:openid":"https://orcid.org/0000-0002-0846-7831"
+				}
+			],
+			"dcterms:publisher": "Physical Sciences Data Infrastructure",
+			"foaf:fundedBy":{
+				"@id":"psdiVoc:organization/ror.org/0439y7842",
+				"@type":"foaf:Organization",
+				"foaf:name":"Engineering and Physical Sciences Research Council (EPSRC)",
+				"foaf:openid":"https://ror.org/0439y7842"
+			},
+			"dc11:subject": [
+				{
+					"@id":"http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557",
+					"@type":"skosxl:Label",
+					"rdfs:label":"physical sciences"
+				}
+			],
+			"skos:ConceptScheme": {
+				"@id":"psdiVoc:vocabularyConceptScheme",
+				"@type":"skos:ConceptScheme",
+				"skos:prefLabel":"PSDI Vocabulary concept scheme",
+				"skos:hasTopConcept": [
+					"psdiVoc:psdi",
+					"psdiVoc:psdiProject",
+					"psdiVoc:pathfinder",
+					"psdiVoc:psdiDeliverable"
+				]
+			},
+			"skos:Collection":[
+				{
+					"@id":"psdiVoc:psdiOverviewCollection",
+					"@type":"skos:Collection",
+					"skos:prefLabel":"PSDI top-level terms collection",
+					"skos:member":[
+						"psdiVoc:psdi",
+						"psdiVoc:psdiProject",
+						"psdiVoc:pathfinder",
+						"psdiVoc:psdiDeliverable",
+						"psdiVoc:psdiPlatform",
+						"psdiVoc:service",
+						"psdiVoc:tool",
+						"psdiVoc:data",
+						"psdiVoc:guidance",
+						"psdiVoc:metadata",
+						"psdiVoc:resource",
+						"psdiVoc:communityActivity"
+					]
+				}
+			],
+			"skos:Concept": [
+				{
+					"@id":"psdiVoc:psdi",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"Physical Sciences Data Infrastructure",
+					"skos:altLabel":"PSDI",
+					"skos:definition":"An Integrated Data Infrastructure* for the Physical Sciences in the UK that brings together and builds upon the various data systems researchers currently use. *'IT Infrastructure' - 'All of the hardware, software, networks, facilities etc. that are required to develop, test, deliver, monitor, control or learning material applications and IT services' [ITIL Glossary of Terms English v.1.0]",
+					"skos:related":[
+						"psdiVoc:psdiProject",
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+					"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:psdiProject",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"PSDI project",
+					"skos:definition":"The project to produce the Physical Sciences Data Infrastructure, its PSDI platform and community activities.",
+					"rdf:type":"foaf:Project",
+					"skos:related":[
+						"psdiVoc:psdi",
+						"psdiVoc:pathfinder",
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+					"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:pathfinder",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"Pathfinder",
+					"skos:definition":"Early deployment project which is part of the wider PSDI project, to seed the PSDI platform with exemplar resources.",
+					"rdf:type":"foaf:Project",
+					"skos:related":[
+						"psdiVoc:psdiProject",
+						"psdiVoc:psdiDeliverable",
+						"psdiVoc:resource"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+					"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:psdiDeliverable",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"PSDI deliverable",
+					"skos:definition":"Top-level deliverable* of the PSDI project.  *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/6700491441]",
+					"skos:broader":[
+						"psdiVoc:psdiPlatform",
+						"psdiVoc:service",
+						"psdiVoc:tool",
+						"psdiVoc:data",
+						"psdiVoc:guidance",
+						"psdiVoc:metadata",
+						"psdiVoc:resource",
+						"psdiVoc:communityActivity"
+					],
+					"skos:related":[
+						"psdiVoc:psdi",
+						"psdiVoc:psdiProject",
+						"psdiVoc:pathfinder"
+					],
+					"skos:Collection":  "psdiVoc:psdiOverviewCollection",
+					"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:psdiPlatform",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"PSDI platform",
+					"skos:definition":"The PSDI platform* is the interface which sits on the Physical Sciences Data Infrastructure and provides common services, tools, metadata and guidance for the various resources in it. *'Platform, N., Sense I.11.a.' - 'A standard system architecture; a (type of) machine and/or operating system, regarded as the base on which software applications are run.' [Oxford English Dictionary, Oxford UP, March 2024, https://doi.org/10.1093/OED/1049097135]",
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:service",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"service",
+					"rdf:type":"dcat:DataService",
+					"skos:definition":"Each service is software - either used directly within the PSDI platform itself or within a web application accessed from it - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). Some services are PSDI-wide and used within different resources and some are specific to a particular resource.",
+					"skos:example":[
+						"user registration",
+						"access management",
+						"structure searching",
+						"format conversion service"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:tool",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"tool",
+					"skos:definition":"A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]",
+					"skos:example":[
+						"format conversion tool",
+						"MagresView library"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:guidance",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"guidance",
+					"skos:definition":"Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023, https://doi.org/10.1093/OED/8957051667]",
+					"skos:example":[
+						"knowledgebase",
+						"support",
+						"helpdesk",
+						"FAQs",
+						"known issue",
+						"policy",
+						"training resource"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:metadata",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"metadata",
+					"skos:definition":"The PSDI metadata is 'data about data' that describes the PSDI platform and its resources, data, services and guidance to facilitate its access and document its provenance.",
+					"rdf:type":"obo:IAO_0000120",
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:resource",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"resource",
+					"skos:definition":"A set of data and/or services and/or tools and/or guidance related to the Physical Sciences that can be accessed through the PSDI platform and has been developed by a PSDI partner (e.g. as part of a Pathfinder).",
+					"rdf:type":"dcat:Resource",
+					"skos:related":[
+						"psdiVoc:pathfinder"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:data",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"data",
+					"skos:definition":"Physical Sciences data associated with a resource, and available for access or download through the PSDI platform.",
+					"rdf:type":"dcat:Dataset",
+					"skos:example":[
+						"database",
+						"dataset",
+						"data collection",
+						"repository",
+						"catalogue"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				},
+				{
+					"@id":"psdiVoc:communityActivity",
+					"@type":"skos:Concept",
+					"skos:prefLabel":"communityActivity",
+					"skos:definition":"Activities* organised as part of the PSDI project  to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]",
+					"skos:example":[
+						"event",
+						"conference",
+						"town hall meeting",
+						"training course",
+						"news"
+					],
+					"skos:narrower":[
+						"psdiVoc:psdiDeliverable"
+					],
+					"skos:Collection": "psdiVoc:psdiOverviewCollection",
+					"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+				}
+			]
+		}
+	]
+}
