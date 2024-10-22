@@ -1,12 +1,12 @@
 {
-   "@context": {
-		"psdiVoc": "http://metadata.psdi.ac.uk/vocabulary#",
-        "skos": "http://www.w3.org/2004/02/skos/core#",
+	"@context": {
+		"psdiVoc":"http://metadata.psdi.ac.uk/vocabulary#",
+		"skos":"http://www.w3.org/2004/02/skos/core#",
 		"skosxl":"http://www.w3.org/2008/05/skos-xl#",
-		"dc11": "http://purl.org/dc/elements/1.1/",
-        "dcterms": "http://purl.org/dc/terms/",
-		"foaf": "http://xmlns.com/foaf/0.1/",
-		"dcat": "http://www.w3.org/ns/dcat#",
+		"dc11":"http://purl.org/dc/elements/1.1/",
+		"dcterms":"http://purl.org/dc/terms/",
+		"foaf":"http://xmlns.com/foaf/0.1/",
+		"dcat":"http://www.w3.org/ns/dcat#",
 		"obo":"http://purl.obolibrary.org/obo/",
 		"rdf:":"http://www.w3.org/2000/01/rdf-schema#",
 		"rdfs":"https://www.w3.org/1999/02/22-rdf-syntax-ns#",
@@ -26,7 +26,7 @@
 		"skos:related":{
 			"@type":"@id"
 		},
-		"skos:Collection":  {
+		"skos:Collection":{
 			"@type":"@id"
 		},
 		"skos:topConceptOf": {
@@ -35,26 +35,26 @@
 		"skos:inScheme":{
 			"@type":"@id"
 		},
-		"@language": "en"
-    },
+		"@language":"en"
+	},
 	"@id":"psdiVoc:vocabulary",
-	"dcterms:title": "PSDI vocabulary",
-	"dcterms:description": "Definitions of nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
-	"dc11:Version": "0.1.0",
+	"dcterms:title":"PSDI vocabulary",
+	"dcterms:description":"Definitions of nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
+	"dc11:Version":"0.1.0",
 	"dcterms:conformsTo":"CDIF_core_controlled_vocabulary_1.0",
 	"dcterms:created": {
 		"@value":"2024-04-18T12:01:01Z",
-		"@type": "xsd:dateTime"
+		"@type":"xsd:dateTime"
 	},
 	"dcterms:modified": {
 		"@value":"2024-09-25T12:01:01Z",
-		"@type": "xsd:dateTime"
+		"@type":"xsd:dateTime"
 	},
 	"dcterms:creator": {
 		"@id":"psdiVoc:person/orcid.org/0000-0003-2397-1996",
 		"foaf:name":"Aileen Day",
 		"@type":"foaf:Person",
-		"foaf:openid": "https://orcid.org/0000-0003-2397-1996"
+		"foaf:openid":"https://orcid.org/0000-0003-2397-1996"
 	},
 	"dcterms:contributor": [
 		{
@@ -184,8 +184,16 @@
 			"foaf:openid":"https://orcid.org/0000-0002-0846-7831"
 		}
 	],
-	"dcterms:publisher": "Physical Sciences Data Infrastructure",
-	"dcterms:license": "https://creativecommons.org/publicdomain/zero/1.0/",
+	"dcterms:publisher":{
+        "@id":"psdiVoc:organization/psdi.ac.uk",
+        "foaf:name":"Physical Sciences Data Infrastructure",
+        "@type":"foaf:Organisation",
+        "foaf:openid": "http://www.psdi.ac.uk"
+    },
+	"dcterms:license":{
+		"@id":"https://creativecommons.org/publicdomain/zero/1.0/",
+		"rdfs:label":"CC0 1.0 Universal"
+	},
 	"foaf:fundedBy":{
 		"@id":"psdiVoc:organization/ror.org/0439y7842",
 		"@type":"foaf:Organization",
@@ -242,9 +250,9 @@
 				"psdiVoc:psdiProject",
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-			"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme",
+			"skos:topConceptOf":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:psdiProject",
@@ -257,9 +265,9 @@
 				"psdiVoc:pathfinder",
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-			"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme",
+			"skos:topConceptOf":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:pathfinder",
@@ -272,15 +280,15 @@
 				"psdiVoc:psdiDeliverable",
 				"psdiVoc:resource"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-			"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme",
+			"skos:topConceptOf":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:psdiDeliverable",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"PSDI deliverable",
-			"skos:definition":"Top-level deliverable* of the PSDI project.  *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/6700491441]",
+			"skos:definition":"Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/6700491441]",
 			"skos:broader":[
 				"psdiVoc:psdiPlatform",
 				"psdiVoc:service",
@@ -296,9 +304,9 @@
 				"psdiVoc:psdiProject",
 				"psdiVoc:pathfinder"
 			],
-			"skos:Collection":  "psdiVoc:psdiOverviewCollection",
-			"skos:topConceptOf": "psdiVoc:vocabularyConceptScheme",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:topConceptOf":"psdiVoc:vocabularyConceptScheme",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:psdiPlatform",
@@ -308,8 +316,8 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:service",
@@ -326,8 +334,8 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:tool",
@@ -341,8 +349,8 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:guidance",
@@ -361,8 +369,8 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:metadata",
@@ -373,23 +381,23 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:resource",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"resource",
 			"skos:definition":"A set of data and/or services and/or tools and/or guidance related to the Physical Sciences that can be accessed through the PSDI platform and has been developed by a PSDI partner (e.g. as part of a Pathfinder).",
-			"rdf:type":"dcat:Resource",
+			"rdf:type":"dcat:Catalog",
 			"skos:related":[
 				"psdiVoc:pathfinder"
 			],
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:data",
@@ -407,14 +415,14 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		},
 		{
 			"@id":"psdiVoc:communityActivity",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"communityActivity",
-			"skos:definition":"Activities* organised as part of the PSDI project  to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]",
+			"skos:definition":"Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]",
 			"skos:example":[
 				"event",
 				"conference",
@@ -425,8 +433,8 @@
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
-			"skos:Collection": "psdiVoc:psdiOverviewCollection",
-			"skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+			"skos:Collection":"psdiVoc:psdiOverviewCollection",
+			"skos:inScheme":"psdiVoc:vocabularyConceptScheme"
 		}
 	]
 }
