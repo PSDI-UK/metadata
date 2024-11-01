@@ -1,0 +1,156 @@
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dcatExt: <http://metadata.psdi.ac.uk/dcatExt#> .
+@prefix spdx: <http://spdx.org/rdf/terms#> .
+@prefix sdo: <https://schema.org/> .
+
+dcatExt:dcatExt <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PSDI DCAT extension"@en ;
+	dcterms:title "PSDI DCAT extension"@en ;
+	dcterms:description "Extension of DCAT to describe PSDI catalogue"@en ;
+	dc11:Version "0.1.0"@en ;
+	dcterms:created "2024-04-18T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
+	dcterms:modified "2024-09-25T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
+	dcterms:creator <http://metadata.psdi.ac.uk/dcatExt#person/orcid.org/0000-0003-2397-1996> ;
+	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	dcterms:publisher <http://metadata.psdi.ac.uk/dcatExt#organization/psdi.ac.uk> ;
+	dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+	foaf:fundedBy <http://metadata.psdi.ac.uk/dcatExt#organization/ror.org/0439y7842> ;
+	a <owl:Ontology> .
+
+<http://metadata.psdi.ac.uk/dcatExt#person/orcid.org/0000-0003-2397-1996> foaf:name "Aileen Day"@en ;
+	foaf:openid "https://orcid.org/0000-0003-2397-1996"@en ;
+	a foaf:Person .
+
+<http://id.loc.gov/vocabulary/iso639-1/en> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "en"@en .
+
+<http://metadata.psdi.ac.uk/dcatExt#organization/psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
+	foaf:openid "http://www.psdi.ac.uk"@en ;
+	a foaf:Organisation .
+
+<https://creativecommons.org/publicdomain/zero/1.0/> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "CC0 1.0 Universal"@en .
+
+<http://metadata.psdi.ac.uk/dcatExt#organization/ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
+	foaf:openid "https://ror.org/0439y7842"@en ;
+	a foaf:Organization .
+
+dcatExt:Tool <https://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf> "dcat:Resource"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Tool"@en ;
+	skos:relatedMatch "sdo:SoftwareApplication"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#isDefinedBy> "http://metadata.psdi.ac.uk/vocabulary/"@en ;
+	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]"@en ;
+	a <owl:Class>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+
+dcatExt:downloadURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "download URL"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
+	skos:definition "The URL of the downloadable file(s) for the tool in a given format."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:repositoryURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "repository URL"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
+	skos:definition "The URL of the repository which contains the code for the tool."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:programmingLanguage <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	skos:closeMatch "http://purl.obolibrary.org/obo/IAO_0000025"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "programming language"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
+	skos:definition "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:deliveryFormat <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "delivery format"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcterms:MediaType"@en ;
+	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation."@en ;
+	skos:scopeNote "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'metadata/test-catalogue.json' (this is not currently in IANA)."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:developmentStatus <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "development status"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
+	skos:definition "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:byteSize <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "byte size"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
+	skos:definition "The size in bytes can be approximated (as a non-negative integer) when the precise size is not known."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:exampleData <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "example data"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcat:Dataset"@en ;
+	skos:definition "An input dataset for this tool. This should be expressed as a DCAT dataset."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:operatingSystem <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "operating system"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
+	skos:definition "Operating systems supported (e.g. Windows :: Wi11, Android). Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+spdx:checkSum <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "checksum"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "spdx:checkSum"@en ;
+	skos:definition "The checksum property provides a mechanism that can be used to verify that the contents of a file or package have not changed [https://www.w3.org/TR/vocab-dcat-3/#bib-spdx]."@en ;
+	skos:editorialNote "The checksum is related to the download URL."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:Guidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf> "dcat:Resource"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "Guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#isDefinedBy> "http://metadata.psdi.ac.uk/vocabulary/"@en ;
+	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals."@en ;
+	a <owl:Class>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
+
+dcatExt:guidanceURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "guidance URL"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
+	skos:definition "The URL of a source of guidance on the installation and/or use about the tool."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:aboutCatalog <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "about data set"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcat:Catalog"@en ;
+	skos:definition "The resource which the guidance refers to."@en ;
+	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT dataset."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:aboutDataset <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "about data set"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcat:Dataset"@en ;
+	skos:definition "The dataset which the guidance refers to."@en ;
+	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT dataset."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:aboutDataService <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "about data servive"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcat:DataService"@en ;
+	skos:definition "The data service which the guidance refers to."@en ;
+	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT data service."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:aboutTool <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "about data servive"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcatExt:Tool"@en ;
+	skos:definition "The tool which the guidance refers to."@en ;
+	skos:scopeNote "This property should be populated if the guidance is about a specific PSDI Tool."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
+dcatExt:relatedGuidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "related guidance"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcatExt:Guidance"@en ;
+	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+

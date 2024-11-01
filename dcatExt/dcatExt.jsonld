@@ -1,0 +1,254 @@
+{
+	"@context": {
+		"dcatExt":"http://metadata.psdi.ac.uk/dcatExt#",
+		"skos":"http://www.w3.org/2004/02/skos/core#",
+		"dc11":"http://purl.org/dc/elements/1.1/",
+		"dcterms":"http://purl.org/dc/terms/",
+		"foaf":"http://xmlns.com/foaf/0.1/",
+		"dcat":"http://www.w3.org/ns/dcat#",
+		"rdf:":"http://www.w3.org/2000/01/rdf-schema#",
+		"rdfs":"https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+		"xsd":"https://www.w3.org/2001/XMLSchema#",
+		"spdx":"http://spdx.org/rdf/terms#",
+    	"sdo":"https://schema.org/",
+    	"@language":"en"
+	},
+ 	"@id":"dcatExt:dcatExt",
+	"@type": "owl:Ontology",
+	"rdfs:label":"PSDI DCAT extension",
+	"dcterms:title":"PSDI DCAT extension",
+	"dcterms:description":"Extension of DCAT to describe PSDI catalogue",
+	"dc11:Version":"0.1.0",
+	"dcterms:created": {
+		"@value":"2024-04-18T12:01:01Z",
+		"@type":"xsd:dateTime"
+	},
+	"dcterms:modified": {
+		"@value":"2024-09-25T12:01:01Z",
+		"@type":"xsd:dateTime"
+	},
+	"dcterms:creator": {
+		"@id":"dcatExt:person/orcid.org/0000-0003-2397-1996",
+		"foaf:name":"Aileen Day",
+		"@type":"foaf:Person",
+		"foaf:openid":"https://orcid.org/0000-0003-2397-1996"
+	},
+	"dcterms:language":{
+        "@id":"http://id.loc.gov/vocabulary/iso639-1/en",
+        "rdfs:label":"en"
+    },
+	"dcterms:publisher":{
+        "@id":"dcatExt:organization/psdi.ac.uk",
+        "foaf:name":"Physical Sciences Data Infrastructure",
+        "@type":"foaf:Organisation",
+        "foaf:openid": "http://www.psdi.ac.uk"
+    },
+	"dcterms:license":{
+		"@id":"https://creativecommons.org/publicdomain/zero/1.0/",
+		"rdfs:label":"CC0 1.0 Universal"
+	},
+	"foaf:fundedBy":{
+		"@id":"dcatExt:organization/ror.org/0439y7842",
+		"@type":"foaf:Organization",
+		"foaf:name":"Engineering and Physical Sciences Research Council (EPSRC)",
+		"foaf:openid":"https://ror.org/0439y7842"
+	},
+	"@graph": [
+		{
+    		"@id": "dcatExt:Tool",
+    		"@type": [
+        		"owl:Class",
+        		"rdfs:Class"
+    		],
+    		"rdfs:subClassOf":"dcat:Resource",
+    		"rdfs:label":"Tool",
+    		"skos:relatedMatch":"sdo:SoftwareApplication",
+    		"rdfs:isDefinedBy": "http://metadata.psdi.ac.uk/vocabulary/",
+    		"skos:definition": "A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]"
+  		},
+  		{
+    		"@id": "dcatExt:downloadURL",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"rdfs:label": "download URL",
+    		"rdfs:range": "rdfs:Resource",
+    		"skos:definition": "The URL of the downloadable file(s) for the tool in a given format."
+  		},
+  		{
+    		"@id": "dcatExt:repositoryURL",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"rdfs:label": "repository URL",
+    		"rdfs:range": "rdfs:Resource",
+    		"skos:definition": "The URL of the repository which contains the code for the tool."
+  		},
+  		{
+    		"@id": "dcatExt:programmingLanguage",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"skos:closeMatch":"http://purl.obolibrary.org/obo/IAO_0000025",
+			"rdfs:label": "programming language",
+    		"rdfs:range": "rdfs:Literal",
+    		"skos:definition": "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible.",
+			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
+  		},
+  		{
+    		"@id": "dcatExt:deliveryFormat",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+			"rdfs:label": "delivery format",
+    		"rdfs:range": "dcterms:MediaType",
+			"subPropertyOf": "dcterms:format",
+    		"skos:definition": "The file format if the tool is available as a single file or package or distribution for download and installation.",
+			"skos:scopeNote": "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'metadata/test-catalogue.json' (this is not currently in IANA)."
+  		},
+  		{
+    		"@id": "dcatExt:developmentStatus",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"skos:closeMatch":"http://www.ebi.ac.uk/swo/maturity/SWO_9000061",
+			"rdfs:label": "development status",
+    		"rdfs:range": "rdfs:Literal",
+    		"skos:definition": "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible.",
+			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
+  		},
+  		{
+    		"@id": "dcatExt:byteSize",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+			"rdfs:label": "byte size",
+    		"rdfs:range": "rdfs:Literal",
+    		"skos:definition": "The size in bytes can be approximated (as a non-negative integer) when the precise size is not known."
+  		},
+		{
+    		"@id": "dcatExt:exampleData",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+			"rdfs:label": "example data",
+    		"rdfs:range": "dcat:Dataset",
+    		"skos:definition": "An input dataset for this tool. This should be expressed as a DCAT dataset."
+  		},
+  		{
+    		"@id": "dcatExt:operatingSystem",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"skos:closeMatch":"http://www.ebi.ac.uk/swo/maturity/SWO_9000061",
+			"rdfs:label": "operating system",
+    		"rdfs:range": "rdfs:Literal",
+    		"skos:definition": "Operating systems supported (e.g. Windows :: Wi11, Android). Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible.",
+			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
+  		},
+		{
+    		"@id": "spdx:checkSum",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+			"rdfs:label": "checksum",
+    		"rdfs:range": "spdx:checkSum",
+    		"skos:definition": "The checksum property provides a mechanism that can be used to verify that the contents of a file or package have not changed [https://www.w3.org/TR/vocab-dcat-3/#bib-spdx].",
+			"skos:editorialNote": "The checksum is related to the download URL."
+  		},
+		{
+    		"@id": "dcatExt:Guidance",
+    		"@type": [
+        		"owl:Class",
+        		"rdfs:Class"
+    		],
+    		"rdfs:subClassOf":"dcat:Resource",
+    		"rdfs:label":"Guidance",
+    		"rdfs:isDefinedBy": "http://metadata.psdi.ac.uk/vocabulary/",
+    		"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals."
+  		},
+  		{
+    		"@id": "dcatExt:guidanceURL",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcat:Resource",
+    		"rdfs:label": "guidance URL",
+    		"rdfs:range": "rdfs:Resource",
+    		"skos:definition": "The URL of a source of guidance on the installation and/or use about the tool."
+  		},
+		{
+    		"@id": "dcatExt:aboutCatalog",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Guidance",
+    		"rdfs:label": "about data set",
+    		"rdfs:range": "dcat:Catalog",
+    		"skos:definition": "The resource which the guidance refers to.",
+			"skos:scopeNote": "This property should be populated if the guidance is about a specific DCAT dataset."
+  		},
+		{
+    		"@id": "dcatExt:aboutDataset",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Guidance",
+    		"rdfs:label": "about data set",
+    		"rdfs:range": "dcat:Dataset",
+    		"skos:definition": "The dataset which the guidance refers to.",
+			"skos:scopeNote": "This property should be populated if the guidance is about a specific DCAT dataset."
+  		},
+		{
+			"@id": "dcatExt:aboutDataService",
+			"@type": [
+				"owl:ObjectProperty", 
+				"rdf:Property"],
+			"rdfs:domain": "dcatExt:Guidance",
+		 	"rdfs:label": "about data servive",
+			"rdfs:range": "dcat:DataService",
+			"skos:definition": "The data service which the guidance refers to.",
+			"skos:scopeNote": "This property should be populated if the guidance is about a specific DCAT data service."
+		},
+		{
+			"@id": "dcatExt:aboutTool",
+			"@type": [
+				"owl:ObjectProperty", 
+				"rdf:Property"],
+			"rdfs:domain": "dcatExt:Guidance",
+		 	"rdfs:label": "about data servive",
+			"rdfs:range": "dcatExt:Tool",
+			"skos:definition": "The tool which the guidance refers to.",
+			"skos:scopeNote": "This property should be populated if the guidance is about a specific PSDI Tool."
+		},
+		{
+			"@id": "dcatExt:relatedGuidance",
+			"@type": [
+				"owl:ObjectProperty", 
+				"rdf:Property"],
+			"rdfs:domain": "dcat:Resource",
+		 	"rdfs:label": "related guidance",
+			"rdfs:range": "dcatExt:Guidance",
+			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."
+		},
+		{
+			"@id": "dcatExt:relatedGuidance",
+			"@type": [
+				"owl:ObjectProperty", 
+				"rdf:Property"],
+			"rdfs:domain": "dcat:Resource",
+		 	"rdfs:label": "related guidance",
+			"rdfs:range": "dcatExt:Guidance",
+			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."
+		}
+	]
+}
