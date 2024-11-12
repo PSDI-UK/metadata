@@ -9,7 +9,8 @@ The PSDI metadata describes the [Physical Sciences Data Infrastructure (PSDI)](h
 This is its working version.
 The metadata is made available in [JSON-LD](https://json-ld.org/) format, and guidance files describing for anyone who wants to use or contribute to it are available in the [https://github.com/orgs/PSDI-UK/guidance/](https://github.com/orgs/PSDI-UK/guidance/) folder.
 A major source of guidance and reference in structuring and populating this metadata was version 1 of  [Cross-Domain Interoperability Framework (CDIF)](https://worldfair-project.eu/):
-* vocabulary.jsonld corresponds to the CORE CONTROLLED VOCABULARY profile
+* [vocabulary.jsonld](./vocabulary.jsonld) corresponds to the CORE CONTROLLED VOCABULARY profile
+* [catalogue.jsonld](./catalogue.jsonld) corresponds to the CORE DISCOVERY profile
 
 ## Background reading
 1. [Cross-Domain Interoperability Framework (CDIF)](https://worldfair-project.eu/cross-domain-interoperability-framework/ )
