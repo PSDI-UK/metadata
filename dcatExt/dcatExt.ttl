@@ -58,26 +58,32 @@ dcatExt:repositoryURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat
 	skos:definition "The URL of the repository which contains the code for the tool."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
+dcatExt:installCommand <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "install command"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
+	skos:definition "Command(s) to install tool if simple installation."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .
+
 dcatExt:programmingLanguage <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
 	skos:closeMatch "http://purl.obolibrary.org/obo/IAO_0000025"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "programming language"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
-	skos:definition "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:definition "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible e.g. 'Programming Language :: Python :: 3.14'. Multiple values are allowed."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
 dcatExt:deliveryFormat <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "delivery format"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcterms:MediaType"@en ;
-	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation."@en ;
-	skos:scopeNote "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'metadata/test-catalogue.json' (this is not currently in IANA)."@en ;
+	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA)."@en ;
+	skos:scopeNote "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
 dcatExt:developmentStatus <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Tool"@en ;
 	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "development status"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
-	skos:definition "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:definition "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible e.g. 'Development Status :: 5 - Production/Stable'."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
@@ -97,7 +103,7 @@ dcatExt:operatingSystem <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dc
 	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "operating system"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Literal"@en ;
-	skos:definition "Operating systems supported (e.g. Windows :: Wi11, Android). Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible."@en ;
+	skos:definition "Optional property - if tool is specific to particular operating systems please indicate them here. Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible (e.g. 'Windows :: Wi11, Android'). Multiple values are allowed."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
@@ -117,7 +123,7 @@ dcatExt:Guidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf> "dcat:
 dcatExt:guidanceURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "guidance URL"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
-	skos:definition "The URL of a source of guidance on the installation and/or use about the tool."@en ;
+	skos:definition "The URL of a source of guidance on the installation and/or use about the resource."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 
 dcatExt:aboutCatalog <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
@@ -151,6 +157,6 @@ dcatExt:aboutTool <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:
 dcatExt:relatedGuidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "related guidance"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcatExt:Guidance"@en ;
-	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."@en ;
+	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
 

@@ -87,6 +87,16 @@
     		"skos:definition": "The URL of the repository which contains the code for the tool."
   		},
   		{
+    		"@id": "dcatExt:installCommand",
+    		"@type": [
+      			"owl:ObjectProperty", 
+      			"rdf:Property"],
+    		"rdfs:domain": "dcatExt:Tool",
+    		"rdfs:label": "install command",
+    		"rdfs:range": "rdfs:Literal",
+    		"skos:definition": "Command(s) to install tool if simple installation."
+  		},
+  		{
     		"@id": "dcatExt:programmingLanguage",
     		"@type": [
       			"owl:ObjectProperty", 
@@ -95,7 +105,7 @@
     		"skos:closeMatch":"http://purl.obolibrary.org/obo/IAO_0000025",
 			"rdfs:label": "programming language",
     		"rdfs:range": "rdfs:Literal",
-    		"skos:definition": "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible.",
+    		"skos:definition": "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible e.g. 'Programming Language :: Python :: 3.14'. Multiple values are allowed.",
 			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
   		},
   		{
@@ -107,8 +117,8 @@
 			"rdfs:label": "delivery format",
     		"rdfs:range": "dcterms:MediaType",
 			"subPropertyOf": "dcterms:format",
-    		"skos:definition": "The file format if the tool is available as a single file or package or distribution for download and installation.",
-			"skos:scopeNote": "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'metadata/test-catalogue.json' (this is not currently in IANA)."
+    		"skos:definition": "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA).",
+			"skos:scopeNote": "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file."
   		},
   		{
     		"@id": "dcatExt:developmentStatus",
@@ -119,7 +129,7 @@
     		"skos:closeMatch":"http://www.ebi.ac.uk/swo/maturity/SWO_9000061",
 			"rdfs:label": "development status",
     		"rdfs:range": "rdfs:Literal",
-    		"skos:definition": "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible.",
+    		"skos:definition": "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible e.g. 'Development Status :: 5 - Production/Stable'.",
 			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
   		},
   		{
@@ -151,7 +161,7 @@
     		"skos:closeMatch":"http://www.ebi.ac.uk/swo/maturity/SWO_9000061",
 			"rdfs:label": "operating system",
     		"rdfs:range": "rdfs:Literal",
-    		"skos:definition": "Operating systems supported (e.g. Windows :: Wi11, Android). Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible.",
+    		"skos:definition": "Optional property - if tool is specific to particular operating systems please indicate them here. Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible (e.g. 'Windows :: Wi11, Android'). Multiple values are allowed.",
 			"skos:editorialNote": "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."
   		},
 		{
@@ -184,7 +194,7 @@
     		"rdfs:domain": "dcat:Resource",
     		"rdfs:label": "guidance URL",
     		"rdfs:range": "rdfs:Resource",
-    		"skos:definition": "The URL of a source of guidance on the installation and/or use about the tool."
+    		"skos:definition": "The URL of a source of guidance on the installation and/or use about the resource."
   		},
 		{
     		"@id": "dcatExt:aboutCatalog",
@@ -238,17 +248,7 @@
 			"rdfs:domain": "dcat:Resource",
 		 	"rdfs:label": "related guidance",
 			"rdfs:range": "dcatExt:Guidance",
-			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."
-		},
-		{
-			"@id": "dcatExt:relatedGuidance",
-			"@type": [
-				"owl:ObjectProperty", 
-				"rdf:Property"],
-			"rdfs:domain": "dcat:Resource",
-		 	"rdfs:label": "related guidance",
-			"rdfs:range": "dcatExt:Guidance",
-			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about this resource or associated with it."
+			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it."
 		}
 	]
 }
