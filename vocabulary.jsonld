@@ -39,7 +39,8 @@
 	},
 	"@id":"psdiVoc:vocabulary",
 	"dcterms:title":"PSDI vocabulary",
-	"dcterms:description":"Definitions of nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
+	"rdfs:label":"PSDI vocabulary",
+	"dcterms:description":"SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
 	"dc11:Version":"0.1.0",
 	"dcterms:conformsTo":"CDIF_core_controlled_vocabulary_1.0",
 	"dcterms:created": {
@@ -388,7 +389,7 @@
 			"@id":"psdiVoc:resource",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"resource",
-			"skos:definition":"A set of data and/or services and/or tools and/or guidance related to the Physical Sciences that can be accessed through the PSDI platform and has been developed by a PSDI partner (e.g. as part of a Pathfinder).",
+			"skos:definition":"A set of data and/or services and/or tools and/or guidance that can be accessed through the PSDI platform and has been developed by a PSDI contributing group relating to a particular Physical Sciences research theme (e.g. as part of a Pathfinder project).",
 			"rdf:type":"dcat:Catalog",
 			"skos:related":[
 				"psdiVoc:pathfinder"
@@ -421,7 +422,7 @@
 		{
 			"@id":"psdiVoc:communityActivity",
 			"@type":"skos:Concept",
-			"skos:prefLabel":"communityActivity",
+			"skos:prefLabel":"community activity",
 			"skos:definition":"Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]",
 			"skos:example":[
 				"event",

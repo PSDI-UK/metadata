@@ -11,7 +11,7 @@
 @prefix obo: <http://purl.obolibrary.org/obo/> .
 
 psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
-	dcterms:description "Definitions of nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform."@en ;
+	dcterms:description "SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform."@en ;
 	dc11:Version "0.1.0"@en ;
 	dcterms:conformsTo "CDIF_core_controlled_vocabulary_1.0"@en ;
 	dcterms:created "2024-04-18T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
@@ -229,7 +229,7 @@ psdiVoc:data skos:prefLabel "data"@en ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme ;
 	a skos:Concept .
 
-psdiVoc:communityActivity skos:prefLabel "communityActivity"@en ;
+psdiVoc:communityActivity skos:prefLabel "community activity"@en ;
 	skos:definition "Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]"@en ;
 	skos:example "event"@en, "conference"@en, "town hall meeting"@en, "training course"@en, "news"@en ;
 	skos:narrower psdiVoc:psdiDeliverable ;

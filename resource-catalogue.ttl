@@ -12,7 +12,7 @@
 
 psdiCat:resourceCatalogue <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "PSDI Resource Catalogue"@en ;
 	dcterms:title "PSDI Resource Catalogue"@en ;
-	dcterms:description "Description of catalogue of resources (data, services, tools and guidance) made available via PSDI."@en ;
+	dcterms:description "DCAT description of catalogue of resources (data, services, tools and guidance) made available via PSDI."@en ;
 	rdfs:about <http://www.psdi.ac.uk/> ;
 	dcat:themeTaxonomy <http://data.europa.eu/8mn/euroscivoc/> ;
 	foaf:homepage <http://www.psdi.ac.uk/> ;
