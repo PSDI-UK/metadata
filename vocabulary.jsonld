@@ -289,7 +289,7 @@
 			"@id":"psdiVoc:psdiDeliverable",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"PSDI deliverable",
-			"skos:definition":"Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/6700491441]",
+			"skos:definition":"Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](https://doi.org/10.1093/OED/6700491441)",
 			"skos:broader":[
 				"psdiVoc:psdiPlatform",
 				"psdiVoc:service",
@@ -313,7 +313,7 @@
 			"@id":"psdiVoc:psdiPlatform",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"PSDI platform",
-			"skos:definition":"The PSDI platform* is the interface which sits on the Physical Sciences Data Infrastructure and provides common services, tools, metadata and guidance for the various resources in it. *'Platform, N., Sense I.11.a.' - 'A standard system architecture; a (type of) machine and/or operating system, regarded as the base on which software applications are run.' [Oxford English Dictionary, Oxford UP, March 2024, https://doi.org/10.1093/OED/1049097135]",
+			"skos:definition":"The PSDI platform* is the interface which sits on the Physical Sciences Data Infrastructure and provides common services, tools, metadata and guidance for the various resources in it. *'Platform, N., Sense I.11.a.' - 'A standard system architecture; a (type of) machine and/or operating system, regarded as the base on which software applications are run.' [Oxford English Dictionary, Oxford UP, March 2024](https://doi.org/10.1093/OED/1049097135)",
 			"skos:narrower":[
 				"psdiVoc:psdiDeliverable"
 			],
@@ -342,7 +342,7 @@
 			"@id":"psdiVoc:tool",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"tool",
-			"skos:definition":"A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]",
+			"skos:definition":"A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991](https://doi.org/10.1109/IEEESTD.1991.106963)",
 			"skos:example":[
 				"format conversion tool",
 				"MagresView library"
@@ -357,7 +357,7 @@
 			"@id":"psdiVoc:guidance",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"guidance",
-			"skos:definition":"Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023, https://doi.org/10.1093/OED/8957051667]",
+			"skos:definition":"Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023](https://doi.org/10.1093/OED/8957051667)",
 			"skos:example":[
 				"knowledgebase",
 				"support",
@@ -423,7 +423,7 @@
 			"@id":"psdiVoc:communityActivity",
 			"@type":"skos:Concept",
 			"skos:prefLabel":"community activity",
-			"skos:definition":"Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023, https://doi.org/10.1093/OED/5595022164]",
+			"skos:definition":"Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023](https://doi.org/10.1093/OED/5595022164)",
 			"skos:example":[
 				"event",
 				"conference",
