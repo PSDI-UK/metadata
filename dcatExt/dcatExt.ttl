@@ -120,12 +120,6 @@ dcatExt:Guidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#subClassOf> "dcat:
 	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals."@en ;
 	a <owl:Class>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Class> .
 
-dcatExt:guidanceURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
-	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "guidance URL"@en ;
-	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
-	skos:definition "The URL of a source of guidance on the installation and/or use about the resource."@en ;
-	a <owl:ObjectProperty>, <rdf:Property> .
-
 dcatExt:aboutCatalog <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcatExt:Guidance"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "about data set"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcat:Catalog"@en ;
@@ -159,4 +153,8 @@ dcatExt:relatedGuidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dc
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "dcatExt:Guidance"@en ;
 	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .
-
+dcatExt:logoURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "URL of logo"@en ;
+	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
+	skos:definition "URL to apporopriate logo image to display with this resource."@en ;
+	a <owl:ObjectProperty>, <rdf:Property> .

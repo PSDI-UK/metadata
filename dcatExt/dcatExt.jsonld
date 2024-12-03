@@ -186,16 +186,6 @@
     		"rdfs:isDefinedBy": "http://metadata.psdi.ac.uk/vocabulary/",
     		"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals."
   		},
-  		{
-    		"@id": "dcatExt:guidanceURL",
-    		"@type": [
-      			"owl:ObjectProperty", 
-      			"rdf:Property"],
-    		"rdfs:domain": "dcat:Resource",
-    		"rdfs:label": "guidance URL",
-    		"rdfs:range": "rdfs:Resource",
-    		"skos:definition": "The URL of a source of guidance on the installation and/or use about the resource."
-  		},
 		{
     		"@id": "dcatExt:aboutCatalog",
     		"@type": [
@@ -249,6 +239,16 @@
 		 	"rdfs:label": "related guidance",
 			"rdfs:range": "dcatExt:Guidance",
 			"skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it."
+		},
+		{
+			"@id": "dcatExt:logoURL",
+			"@type": [
+				"owl:ObjectProperty", 
+				"rdf:Property"],
+			"rdfs:domain": "dcat:Resource",
+		 	"rdfs:label": "URL of logo",
+			"rdfs:range": "rdfs:Resource",
+			"skos:definition": "URL to apporopriate logo image to display with this resource."
 		}
 	]
 }
