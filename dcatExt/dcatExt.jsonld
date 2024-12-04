@@ -248,7 +248,7 @@
 			"rdfs:domain": "dcat:Resource",
 		 	"rdfs:label": "URL of logo",
 			"rdfs:range": "rdfs:Resource",
-			"skos:definition": "URL to apporopriate logo image to display with this resource."
+			"skos:definition": "URL to apporopriate logo image to display with this resource. If possible this should be a url which does not change regularly (although the image at this address can change)."
 		}
 	]
 }

@@ -156,5 +156,5 @@ dcatExt:relatedGuidance <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dc
 dcatExt:logoURL <https://www.w3.org/1999/02/22-rdf-syntax-ns#domain> "dcat:Resource"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "URL of logo"@en ;
 	<https://www.w3.org/1999/02/22-rdf-syntax-ns#range> "rdfs:Resource"@en ;
-	skos:definition "URL to apporopriate logo image to display with this resource."@en ;
+	skos:definition "URL to apporopriate logo image to display with this resource. If possible this should be a url which does not change regularly (although the image at this address can change)."@en ;
 	a <owl:ObjectProperty>, <rdf:Property> .

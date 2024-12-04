@@ -48,7 +48,6 @@
     "dcat:version": "0.1.0",
     "dcterms:conformsTo":"CDIF_core_discovery_1.0",
     "dcterms:creator": {
-        "@id":"psdiCat:person/orcid.org/0000-0003-2397-1996",
         "foaf:name":"Aileen Day",
         "@type":"foaf:Person",
         "foaf:openid": "https://orcid.org/0000-0003-2397-1996"
@@ -66,7 +65,6 @@
         "rdfs:label":"en"
     },
     "dcterms:publisher": {
-        "@id":"psdiCat:organization/psdi.ac.uk",
         "foaf:name":"Physical Sciences Data Infrastructure",
         "@type":"foaf:Organisation",
         "foaf:openid": "http://www.psdi.ac.uk"
@@ -78,10 +76,10 @@
     "dcat:dataservice":{
         "@id": "psdiCat:6bc7c64d-ee3d-430b-be09-f26040886c3c",
         "@type":"dcat:DataService",
-        "dcterms:title":"PSDI cross-search",
-        "rdfs:label":"PSDI cross-search",
+        "dcterms:title":"PSDI data search",
+        "rdfs:label":"PSDI data search",
         "dcterms:type":"dcat:DataService",
-        "dcterms:description":"Cross-search of data within PSDI alongside data from other, external sources.",
+        "dcterms:description":"Search of data within PSDI alongside data from other, external sources.",
         "dcat:landingPage": {
             "@id":"https://data.psdi.ac.uk/"
         },
@@ -106,7 +104,6 @@
             },
             "dcterms:publisher": [
                 {
-                    "@id":"psdiCat:organization/psdi.ac.uk",
                     "foaf:name":"Physical Sciences Data Infrastructure",
                     "@type":"foaf:Organisation",
                     "foaf:openid": "http://www.psdi.ac.uk"
@@ -276,7 +273,6 @@
             },
             "dcterms:publisher": [
                 {
-                    "@id":"psdiCat:organization/psdi.ac.uk",
                     "foaf:name":"Physical Sciences Data Infrastructure",
                     "@type":"foaf:Organisation",
                     "foaf:openid": "http://www.psdi.ac.uk"            
@@ -335,7 +331,6 @@
                 },
                 "dcterms:publisher": [
                     {
-                        "@id":"psdiCat:organization/psdi.ac.uk",
                         "foaf:name":"Physical Sciences Data Infrastructure",
                         "@type":"foaf:Organisation",
                         "foaf:openid": "http://www.psdi.ac.uk"            
@@ -343,25 +338,21 @@
                 ],
                 "dcterms:creator": [
                     {
-                    "@id":"psdiCat:person/orcid.org/0009-0002-4762-5852",
                     "@type":"foaf:Person",
                     "foaf:name":"Raymond Whorley",
                     "foaf:openid":"https://orcid.org/0009-0002-4762-5852"
                     },
                     {
-                    "@id":"psdiCat:person/orcid.org/0000-0002-4831-9489",
                     "@type":"foaf:Person",
                     "foaf:name":" Samantha Pearman-Kanza",
                     "foaf:openid":"https://orcid.org/0000-0002-4831-9489"
                     },
                     {
-                    "@id":"psdiCat:person/orcid.org/0000-0003-0842-4302",
                     "@type":"foaf:Person",
                     "foaf:name":"Jeremy G. Frey",
                     "foaf:openid":" https://orcid.org/0000-0003-0842-4302"
                     },
                     {
-                    "@id":"psdiCat:person/orcid.org/0000-0002-0777-0855",
                     "@type":"foaf:Person",
                     "foaf:name":"Don Cruickshank",
                     "foaf:openid":"https://orcid.org/0000-0002-0777-0855"
