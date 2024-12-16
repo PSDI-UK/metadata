@@ -133,7 +133,9 @@ psdiCat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 dcterms:identifier "psdiCat:530ae29
 	dcatExt:logoURL <http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/continuous> ;
 	<prov:wasGeneratedBy> <https://ukcatalysishub.co.uk/> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessService> "s0000001-0000-0000-0000-temporaryuid; s0000002-0000-0000-0000-temporaryuid"@en .
+	dcat:Distribution [
+		dcat:accessService "psdiCat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"@en ;
+	] .
 
 <http://cdi.ukcatalysishub.org/> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
@@ -168,9 +170,11 @@ psdiCat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba dcterms:identifier "psdiCat:d7cf02e
 	dcatExt:relatedGuidance "psdiCat:f9e34853-7e01-4fb1-ac10-30d8aced63f9"@en ;
 	dcatExt:logoURL <http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png> ;
 	<prov:wasGeneratedBy> <https://materialsgalaxy.stfc.ac.uk/> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessURL> "https://zenodo.org/communities/rexas"@en .
+	dcat:Distribution [
+		dcat:accessURL <https://zenodo.org/communities/rexas> ;
+	] .
 
-<https://zenodo.org/communities/rexas> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://zenodo.org/communities/rexas> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
 <https://www.psdi.ac.uk/contact/> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
@@ -680,7 +684,7 @@ psdiCat:fff10ebe-929b-4781-9dee-c46edf063004 dcterms:identifier "psdiCat:fff10eb
 	dcterms:issued "2025-03-31T00:00:00Z"^^<xsd:dateTime> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	dcatExt:relatedGuidance "psdiCat:a4c91a3b-335d-44d7-9a0a-36f9d806413e"@en ;
+	dcatExt:relatedGuidance "psdiCat:522ab1b5-3270-4a45-ab9b-98407706d9f5"@en ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> .
 
 psdiCat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 dcterms:identifier "psdiCat:89fe0d12-8905-4f45-b8fd-56dc16f6b712"@en ;
@@ -817,15 +821,17 @@ psdiCat:44160b2f-5938-442e-9f0a-652eb55d1c2b dcterms:identifier "psdiCat:44160b2
 	dcat:version "1.1.1"@en ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcterms:title> "PSDI Solubility Data Collection"@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcterms:description> "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format."@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessURL> "https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection"@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:mediaType> "https://www.iana.org/assignments/media-types/text/csv"@en .
+	dcat:Distribution [
+		dcterms:title "PSDI Solubility Data Collection"@en ;
+		dcterms:description "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format."@en ;
+		dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection> ;
+		dcat:mediaType "https://www.iana.org/assignments/media-types/text/csv"@en ;
+	] .
 
 <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "chemical sciences"@en, "chemical sciences"@en, "chemical sciences"@en ;
 	a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
-<https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
 <https://github.com/PSDI-UK/psdi-datasets/blob/main/Solubility_Collection/README.md> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
@@ -864,17 +870,21 @@ psdiCat:a7c82670-d2e2-46c6-920a-74294289aa34 dcterms:identifier "psdiCat:a7c8267
 	dcat:version "1.1.1"@en ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcterms:title> "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcterms:description> "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format."@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:downloadURL> "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv"@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessURL> "https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection"@en ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:mediaType> "https://www.iana.org/assignments/media-types/text/csv"@en .
+	dcat:Distribution [
+		dcterms:title "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
+		dcterms:description "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format."@en ;
+		dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> ;
+		dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection> ;
+		dcat:mediaType "https://www.iana.org/assignments/media-types/text/csv"@en ;
+	] .
 
 <owner> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
-<https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+<https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
 <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/README.md> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
+
+<https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
 
 psdiCat:0ce7f2d9-d187-4398-b113-947856712ec0 dcterms:identifier "psdiCat:0ce7f2d9-d187-4398-b113-947856712ec0"@en ;
 	dcterms:type "dcatExt:Guidance"@en ;
@@ -993,7 +1003,9 @@ psdiCat:bc930fa5-63da-4707-80f8-3c642960796a dcterms:identifier "psdiCat:bc930fa
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessService> "s0000001-0000-0000-0000-temporaryuid"@en .
+	dcat:Distribution [
+		dcat:accessService "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d"@en ;
+	] .
 
 <https://docs.mdanalysis.org/1.1.1/documentation_pages/topology/init.html> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "all simulation topology and trajectory file formats that can be read by MDAnalysis"@en ;
 	a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
@@ -1239,7 +1251,9 @@ psdiCat:771d2ae4-7f19-4258-b144-dc212cef6e43 dcterms:identifier "psdiCat:771d2ae
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessService> "s0000001-0000-0000-0000-temporaryuid"@en .
+	dcat:Distribution [
+		dcat:accessService "psdiCat:40763294-e924-41c5-806c-1d8733d14c63"@en ;
+	] .
 
 psdiCat:40763294-e924-41c5-806c-1d8733d14c63 dcterms:identifier "psdiCat:40763294-e924-41c5-806c-1d8733d14c63"@en ;
 	dcterms:type "dcat:DataService"@en ;
@@ -1389,7 +1403,9 @@ psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 dcterms:identifier "psdiCat:7e87174
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcatExt:logoURL <https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessService> "s0000001-0000-0000-0000-temporaryuid"@en .
+	dcat:Distribution [
+		dcat:accessService "psdiCat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3"@en ;
+	] .
 
 <https://www.ccpnc.ac.uk/docs/magres/magres-format.pdf> <https://www.w3.org/1999/02/22-rdf-syntax-ns#label> "magres"@en ;
 	a <https://www.w3.org/1999/02/22-rdf-syntax-ns#Resource> .
@@ -1752,7 +1768,9 @@ psdiCat:47aba175-b56f-474c-aa70-3db48482f6d4 dcterms:identifier "psdiCat:47aba17
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	dcterms:issued "XXX please fill this in e.g. 2020-01-01T00:00:00Z"^^<xsd:dateTime> ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-	<http://www.w3.org/ns/dcat#Distribution/dcat:accessService> "s0000001-0000-0000-0000-temporaryuid"@en .
+	dcat:Distribution [
+		dcat:accessService "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"@en ;
+	] .
 
 psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 dcterms:identifier "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"@en ;
 	dcterms:type "dcat:DataService"@en ;

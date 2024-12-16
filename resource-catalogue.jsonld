@@ -212,7 +212,9 @@
                         "rdfs:label": "UK Catalysis Hub",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:Distribution/dcat:accessService": "s0000001-0000-0000-0000-temporaryuid; s0000002-0000-0000-0000-temporaryuid"
+                    "dcat:Distribution": {
+                        "dcat:accessService": "psdiCat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"
+                    }
                 },
                 {
                     "@id": "psdiCat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba",
@@ -277,7 +279,12 @@
                         "rdfs:label": "Materials Galaxy",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:Distribution/dcat:accessURL": "https://zenodo.org/communities/rexas"
+                    "dcat:Distribution": {
+                        "dcat:accessURL": {
+                            "@id": "https://zenodo.org/communities/rexas",
+                            "@type": "rdfs:Resource"
+                        }
+                    }
                 }
             ],
             "dcat:DataService": [
@@ -1248,7 +1255,7 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:relatedGuidance": "psdiCat:a4c91a3b-335d-44d7-9a0a-36f9d806413e",
+                "dcatExt:relatedGuidance": "psdiCat:522ab1b5-3270-4a45-ab9b-98407706d9f5",
                 "dcatExt:logoURL": {
                     "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
@@ -1540,10 +1547,15 @@
                         "@id": "http://purl.org/cld/freq/irregular",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:Distribution/dcterms:title": "PSDI Solubility Data Collection",
-                    "dcat:Distribution/dcterms:description": "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format.",
-                    "dcat:Distribution/dcat:accessURL": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
-                    "dcat:Distribution/dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                    "dcat:Distribution": {
+                        "dcterms:title": "PSDI Solubility Data Collection",
+                        "dcterms:description": "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format.",
+                        "dcat:accessURL": {
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
+                            "@type": "rdfs:Resource"
+                        },
+                        "dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                    }
                 },
                 {
                     "@id": "psdiCat:a7c82670-d2e2-46c6-920a-74294289aa34",
@@ -1617,11 +1629,19 @@
                         "@id": "http://purl.org/cld/freq/irregular",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:Distribution/dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
-                    "dcat:Distribution/dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
-                    "dcat:Distribution/dcat:downloadURL": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv",
-                    "dcat:Distribution/dcat:accessURL": "https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
-                    "dcat:Distribution/dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                    "dcat:Distribution": {
+                        "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
+                        "dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
+                        "dcat:downloadURL": {
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv",
+                            "@type": "rdfs:Resource"
+                        },
+                        "dcat:accessURL": {
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
+                            "@type": "rdfs:Resource"
+                        },
+                        "dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                    }
                 }
             ],
             "dcatExt:Guidance": {
@@ -1858,7 +1878,9 @@
                     "@id": "http://purl.org/cld/freq/irregular",
                     "@type": "rdfs:Resource"
                 },
-                "dcat:Distribution/dcat:accessService": "s0000001-0000-0000-0000-temporaryuid"
+                "dcat:Distribution": {
+                    "dcat:accessService": "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d"
+                }
             },
             "dcat:DataService": {
                 "@id": "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d",
@@ -2350,7 +2372,9 @@
                     "@id": "http://purl.org/cld/freq/irregular",
                     "@type": "rdfs:Resource"
                 },
-                "dcat:Distribution/dcat:accessService": "s0000001-0000-0000-0000-temporaryuid"
+                "dcat:Distribution": {
+                    "dcat:accessService": "psdiCat:40763294-e924-41c5-806c-1d8733d14c63"
+                }
             },
             "dcat:DataService": {
                 "@id": "psdiCat:40763294-e924-41c5-806c-1d8733d14c63",
@@ -2666,7 +2690,9 @@
                     "@id": "http://purl.org/cld/freq/irregular",
                     "@type": "rdfs:Resource"
                 },
-                "dcat:Distribution/dcat:accessService": "s0000001-0000-0000-0000-temporaryuid"
+                "dcat:Distribution": {
+                    "dcat:accessService": "psdiCat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3"
+                }
             },
             "dcat:DataService": [
                 {
@@ -3481,7 +3507,9 @@
                     "@id": "http://purl.org/cld/freq/irregular",
                     "@type": "rdfs:Resource"
                 },
-                "dcat:Distribution/dcat:accessService": "s0000001-0000-0000-0000-temporaryuid"
+                "dcat:Distribution": {
+                    "dcat:accessService": "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"
+                }
             },
             "dcat:DataService": {
                 "@id": "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
