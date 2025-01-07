@@ -194,7 +194,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "2025-03-30",
+                        "@value": "2025-03-30T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -264,7 +264,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-10-24",
+                        "@value": "2024-10-24T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -336,7 +336,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "2021-04-12",
+                        "@value": "2021-04-12T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -391,7 +391,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "2021-10-19",
+                        "@value": "2021-10-19T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -457,7 +457,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:issued": {
-                    "@value": "2025-03-30",
+                    "@value": "2025-03-30T12:01:01Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
@@ -518,7 +518,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:issued": {
-                    "@value": "2024-10-28",
+                    "@value": "2024-10-28T12:01:01Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
@@ -541,7 +541,10 @@
             "rdfs:label": "PSDI Data Conversion Service",
             "dcterms:description": "Your one stop shop for file format conversion. PSDI's Data Conversion Service will enable users to seamlessly convert between different file formats and recieve information about the quality of the conversion. This functionality is available as: A PSDI Hosted Web Application, a containerised web app that can be run as a standalone application outside of PSDI, a PSDI Command Line service, and source code for installing and running in your own pipelines. Output from PSDI Pathfinder 2.",
             "dcat:keyword": [
-                "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                "Data Conversion",
+                " Data Convertors",
+                " Data Quality Assessment",
+                " All file formats"
             ],
             "dcat:theme": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -559,11 +562,16 @@
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "http://psdidev2.azurewebsites.net/",
+                "@id": "http://data-conversion.psdi.ac.uk/",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
                 "@id": "http://www.psdi.ac.uk/contact/",
+                "@type": "rdfs:Resource"
+            },
+            "dcterms:isReferencedBy": {
+                "@id": "http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm",
+                "rdfs:label": "PSDI Data Conversion Service Documentation",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -594,7 +602,10 @@
                     "rdfs:label": "PSDI Data Conversion Service",
                     "dcterms:description": "PSDI Hosted Web Application which serves as your one stop shop for file format conversion. PSDI's Data Conversion Service will allow users to explore what formats their data can be converted to and from and will provide details of available convertors which have been tested and ranked with comprehensive quality measures. Many conversions will be able to be performed via our service, and in instances where this cannot occur, users will be directed to external services that will perform this conversion.",
                     "dcat:keyword": [
-                        "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                        "Data Conversion",
+                        " Data Convertors",
+                        " Data Quality Assessment",
+                        " All file formats"
                     ],
                     "dcat:theme": {
                         "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -612,7 +623,7 @@
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "http://www.data-conversion.psdi.ac.uk",
+                        "@id": "http://data-conversion.psdi.ac.uk",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
@@ -620,7 +631,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "http://psdidev2.azurewebsites.net/static/content/documentation.htm",
+                        "@id": "http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm",
                         "rdfs:label": "PSDI Data Conversion Service Documentation",
                         "@type": "rdfs:Resource"
                     },
@@ -656,7 +667,10 @@
                     "rdfs:label": "PSDI Data Conversion Command Line Service",
                     "dcterms:description": "PSDI Command Line service to perform file format conversions either singly or in bulk run on the command line on your computer but querying the PSDI-hosted Data Conversion service backend so that nothing needs to be installed locally.",
                     "dcat:keyword": [
-                        "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                        "Data Conversion",
+                        " Data Convertors",
+                        " Data Quality Assessment",
+                        " All file formats"
                     ],
                     "dcat:theme": {
                         "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -701,7 +715,7 @@
                     },
                     "dcat:endpointDescription": "XXX Sami to fill in when known",
                     "dcat:endpointURL": {
-                        "@id": "data-conversion.psdi.ac.uk",
+                        "@id": "http://data-conversion.psdi.ac.uk/",
                         "@type": "rdfs:Resource"
                     }
                 }
@@ -715,7 +729,10 @@
                     "rdfs:label": "PSDI Data Conversion container image",
                     "dcterms:description": "PSDI Data Conversion Web Application service to perform file format conversions made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Web Application (exploring data formats for conversion, providing details of available conversions, and where possible performing these conversions) but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. If you wish to provide feedback about missing formats or conversions, this will still need to be done via the main PSDI site.",
                     "dcat:keyword": [
-                        "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                        "Data Conversion",
+                        " Data Convertors",
+                        " Data Quality Assessment",
+                        " All file formats"
                     ],
                     "dcat:theme": {
                         "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -733,7 +750,7 @@
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/Dockerfile",
+                        "@id": "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
@@ -762,7 +779,7 @@
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "psdiDcatExt:downloadURL": "http://ghcr.io/tomlunderwood/psdi-data-conversion/data-conversion:v0.1.0",
+                    "psdiDcatExt:downloadURL": "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/",
                     "psdiDcatExt:repositoryURL": {
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion",
                         "@type": "rdfs:Resource"
@@ -789,11 +806,14 @@
                     "@id": "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
                     "dcterms:identifier": "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
                     "dcterms:type": "psdiDcatExt:Tool",
-                    "dcterms:title": "PSDI Data Conversion Service source code",
+                    "dcterms:title": "PSDI Data Conversion Python Library",
                     "rdfs:label": "PSDI Data Conversion Python Library",
                     "dcterms:description": "PSDI Python Library for Data Conversion. This library will be made available as a github source code which can be installed run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application and command line version, but without the file cap limits as the code will be run locally as opposed to on PSDI servers.",
                     "dcat:keyword": [
-                        "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                        "Data Conversion",
+                        " Data Convertors",
+                        " Data Quality Assessment",
+                        " All file formats"
                     ],
                     "dcat:theme": {
                         "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -840,7 +860,7 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.1.1",
-                    "psdiDcatExt:relatedGuidance": "psdiDcat:6d689e1a-f906-49b2-b159-745b63d79412",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:38a7f9dc-e7ea-4bf8-8a33-b0dd8d25326c",
                     "psdiDcatExt:logoURL": {
                         "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
@@ -862,7 +882,10 @@
                 "rdfs:label": "Fairsharing.org file format catalogue entries",
                 "dcterms:description": "XXX Sami to review: Descriptions of file formats which PSDI Data Conversion Services can convert to and from in Fairsharing.org.\nThere should be a page on the knowledgebase (or somewhere) about the service as a whole and how people can use it.",
                 "dcat:keyword": [
-                    "Data Conversion, Data Convertors, Data Quality Assessment, All file formats"
+                    "Data Conversion",
+                    " Data Convertors",
+                    " Data Quality Assessment",
+                    " All file formats"
                 ],
                 "dcat:theme": {
                     "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -881,6 +904,7 @@
                 },
                 "dcat:landingPage": {
                     "@id": "http://fairsharing.org/search?q=psdi",
+                    "rdfs:label": "PSDI collection of file formats in FairSharing",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -918,7 +942,7 @@
             "rdfs:label": "PSDI Data Revival Service",
             "dcterms:description": "Data Revival enables you to seamlessly convert your handwritten lab book pages into machine-readable data, pulling out the important chemistry knowledge. Output from PSDI Pathfinder 2.",
             "dcat:keyword": [
-                "XXX Sam or Sami to fill in"
+                "Lab Notebooks, Handwritten Notes, Chemical Information, Artificial Intelligence, Data, Data Retrieval"
             ],
             "dcat:theme": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -939,7 +963,8 @@
                 "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                 "@type": "foaf:Organisation",
                 "dcat:hadRole": {
-                    "@id": "resourceProvider",
+                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                    "rdfs:label": "resourceProvider",
                     "@type": "rdfs:Resource"
                 }
             },
@@ -974,7 +999,7 @@
                 "rdfs:label": "PSDI Data Revival Service",
                 "dcterms:description": "Data Revival enables you to seamlessly convert your handwritten lab book pages into machine-readable data, pulling out the important chemistry knowledge. Output from PSDI Pathfinder 2.",
                 "dcat:keyword": [
-                    "XXX Sam or Sami to fill in"
+                    "Lab Notebooks, Handwritten Notes, Chemical Information, Artificial Intelligence, Data, Data Retrieval"
                 ],
                 "dcat:theme": {
                     "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -995,7 +1020,8 @@
                     "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
-                        "@id": "resourceProvider",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                        "rdfs:label": "resourceProvider",
                         "@type": "rdfs:Resource"
                     }
                 },
@@ -1034,7 +1060,7 @@
                 "rdfs:label": "PSDI Data Revival Service Documentation?",
                 "dcterms:description": "XXX Sam or Sami to fill in",
                 "dcat:keyword": [
-                    "XXX Sam or Sami to fill in"
+                    "Lab Notebooks, Handwritten Notes, Chemical Information, Artificial Intelligence, Data, Data Retrieval"
                 ],
                 "dcat:theme": {
                     "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
@@ -1055,12 +1081,13 @@
                     "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
-                        "@id": "resourceProvider",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                        "rdfs:label": "resourceProvider",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX Sam or Sami to fill in",
+                    "@id": "http://XXXpleasefillinwithURL",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1119,7 +1146,7 @@
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "XXX URL for ELN Guidance in PSDI Knowledgebase?",
+                "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
@@ -1175,7 +1202,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "labtrove.psdi.ac.uk",
+                    "@id": "http://labtrove.psdi.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1237,7 +1264,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX needs filling in when known",
+                    "@id": "http://XXXneedsFillingInWhenKnown",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1257,7 +1284,7 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "psdiDcatExt:relatedGuidance": "psdiDcat:522ab1b5-3270-4a45-ab9b-98407706d9f5",
+                "psdiDcatExt:relatedGuidance": "psdiDcat:04f02ca0-d547-4653-8c87-bf984adcafaf",
                 "psdiDcatExt:logoURL": {
                     "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
@@ -1294,7 +1321,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXXfill in with URL for Labtrove documentation",
+                    "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/labtrove/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1347,7 +1374,7 @@
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "XXXfill in with URL for OneNote guidance",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/onenote",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
@@ -1400,7 +1427,7 @@
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "XXXfill in with URL for ELN GUIDANCE in Knowledgebase",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
@@ -1507,7 +1534,8 @@
                         "foaf:name": "Meng2022: Solubility",
                         "@type": "foaf:Organisation",
                         "dcat:hadRole": {
-                            "@id": "resourceProvider",
+                            "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                            "rdfs:label": "resourceProvider",
                             "@type": "rdfs:Resource"
                         }
                     },
@@ -1533,7 +1561,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "10/20/2024T12:01:01Z",
+                        "@value": "2024-10-20T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -1589,7 +1617,8 @@
                         "foaf:name": "National Institute of Standards and Technology",
                         "@type": "foaf:Organisation",
                         "dcat:hadRole": {
-                            "@id": "owner",
+                            "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/owner",
+                            "rdfs:label": "owner",
                             "@type": "rdfs:Resource"
                         }
                     },
@@ -1615,7 +1644,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:issued": {
-                        "@value": "10/20/2024T12:01:01Z",
+                        "@value": "2024-10-20T12:01:01Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -1676,13 +1705,13 @@
                     "foaf:name": "Steven M Wilson",
                     "@type": "foaf:Person",
                     "dcat:hadRole": {
-                        "@id": "author",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author",
+                        "rdfs:label": "author",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "or the knowledgebase site?",
-                    "rdfs:label": "Will be the pure link to report",
+                    "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1737,13 +1766,13 @@
                     "foaf:name": "Jennifer R. Hiscock",
                     "@type": "foaf:Person",
                     "dcat:hadRole": {
-                        "@id": "author",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author",
+                        "rdfs:label": "author",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "or the knowledgebase site?",
-                    "rdfs:label": "Will be the pure link to report",
+                    "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1796,7 +1825,7 @@
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "XXX J&J please fill in when final url is known: http://UrlForPF4sBitOfPSDIInvenio",
+                "@id": "http://UrlForPF4sBitOfPSDIInvenio",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
@@ -1815,10 +1844,10 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "psdiDcatExt:relatedGuidance": "psdiDcat:92c4c1e5-85e8-45fb-82cf-cfacf7ee2971",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:aa277528-9c45-4c02-834a-991597332ce6",
             "psdiDcatExt:logoURL": {
-                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                "rdfs:label": "PSDI logo",
+                "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                "rdfs:label": "BioSimDB logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
@@ -1847,7 +1876,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX J&J please fill in when final url is known: http://UrlForPF4sBitOfPSDIInvenio",
+                    "@id": "http://UrlForPF4sBitOfPSDIInvenio",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1872,8 +1901,8 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                    "rdfs:label": "BioSimDB logo",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:accrualPeriodicity": {
@@ -1910,7 +1939,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX J&J please fill in when final url is known: http://UrlForPF4sBitOfPSDIInvenio",
+                    "@id": "http://UrlForPF4sBitOfPSDIInvenio",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -1926,8 +1955,8 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                    "rdfs:label": "BioSimDB logo",
                     "@type": "rdfs:Resource"
                 }
             },
@@ -1998,8 +2027,8 @@
                     "dcat:version": "v2.0.8",
                     "psdiDcatExt:relatedGuidance": "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
                     "psdiDcatExt:logoURL": {
-                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                        "rdfs:label": "PSDI logo",
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                        "rdfs:label": "BioSimDB logo",
                         "@type": "rdfs:Resource"
                     },
                     "psdiDcatExt:repositoryURL": {
@@ -2076,8 +2105,8 @@
                     "dcat:version": "v.1.0.0",
                     "psdiDcatExt:relatedGuidance": "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
                     "psdiDcatExt:logoURL": {
-                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                        "rdfs:label": "PSDI logo",
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                        "rdfs:label": "BioSimDB logo",
                         "@type": "rdfs:Resource"
                     },
                     "psdiDcatExt:repositoryURL": {
@@ -2149,8 +2178,8 @@
                     },
                     "dcat:version": "v.1.0.0",
                     "psdiDcatExt:logoURL": {
-                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                        "rdfs:label": "PSDI logo",
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                        "rdfs:label": "BioSimDB logo",
                         "@type": "rdfs:Resource"
                     },
                     "psdiDcatExt:repositoryURL": {
@@ -2206,8 +2235,8 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                    "rdfs:label": "BioSimDB logo",
                     "@type": "rdfs:Resource"
                 },
                 "psdiDcatExt:aboutTool": "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68"
@@ -2238,7 +2267,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "http://aiida-gromacs.readthedocs.io/en/latest/\nXXX J&J please fill in with knowledgebase URL when known",
+                    "@id": "http://XXXKNOWLEDGEBASEARTICLEWHENKNOWN",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -2258,8 +2287,8 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://github.com/PSDI-UK/biosimdb-app/blob/main/biosimdb_app/templates/images/BioSimDB-logo-pastel.svg",
+                    "rdfs:label": "BioSimDB logo",
                     "@type": "rdfs:Resource"
                 },
                 "psdiDcatExt:aboutCatalog": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
@@ -2269,15 +2298,15 @@
             "@id": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
             "dcterms:identifier": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
             "dcterms:type": "dcat:Catalog",
-            "dcterms:title": "Machine Learning Interatomic Potentials (MLIP)",
+            "dcterms:title": "Data to Knowledge",
             "rdfs:label": "MLIP",
-            "dcterms:description": "XXX Please review and fill in.",
+            "dcterms:description": "Machine Learning in the materials modelling have revolutionised and transformed the field in the last few years. Based on availability of good data from computations and/or experiment one can use machine learning to train expert systems using large language models (à la chatGPT), train surrogate models to predict properties or structure avoiding the use of simulations or simply speed up simulations by using machine learnt interatomic potentials (MLIPs). Our path finder is dedicated to making possible the creation of these models by providing data infrastructure, workflows for creation and exploitation of machine learnt models. Output from PSDI Pathfinder 5.",
             "dcat:keyword": [
                 "XXX Please fill in"
             ],
             "dcat:theme": {
-                "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d\" ?",
-                "rdfs:label": "XXX Please fill in - maybe \"machine learning",
+                "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                "rdfs:label": "machine learning",
                 "@type": "rdfs:Resource"
             },
             "dcterms:publisher": {
@@ -2291,7 +2320,7 @@
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "XXX please fill in when url is known: http://UrlForPF5sBitOfPSDIInvenio",
+                "@id": "http://data-collections.psdi.ac.uk/communities/mlip",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
@@ -2312,23 +2341,22 @@
             },
             "psdiDcatExt:relatedGuidance": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
             "psdiDcatExt:logoURL": {
-                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                "rdfs:label": "PSDI logo",
+                "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
                 "@id": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43",
                 "dcterms:identifier": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43",
                 "dcterms:type": "dcat:Dataset",
-                "dcterms:title": "MLIP data collection (is this just one collection in invenio, or should it be separated into two datasets: (1) for MLIP xyz files and (2) AIIDA process recording)?",
-                "rdfs:label": "MLIP data collection",
+                "dcterms:title": "Data to Knowledge community data collections",
+                "rdfs:label": "Data to Knowledge community data collections",
                 "dcterms:description": "XXX MLIP data collection consisting of MLIP xyz files and AIIDA process recording data.",
                 "dcat:keyword": [
                     "XXX Please fill in"
                 ],
                 "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d\" ?",
-                    "rdfs:label": "XXX Please fill in - maybe \"machine learning",
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                    "rdfs:label": "machine learning",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
@@ -2342,7 +2370,7 @@
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX http://UrlForPF5sBitOfPSDIInvenio",
+                    "@id": "http://data-collections.psdi.ac.uk/communities/mlip",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -2362,12 +2390,16 @@
                     "@value": "2025-03-31T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
+                "dcterms:license": {
+                    "@id": "http://license3url",
+                    "rdfs:label": "XXXLICENSE3",
+                    "@type": "rdfs:Resource"
+                },
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:accrualPeriodicity": {
@@ -2378,137 +2410,329 @@
                     "dcat:accessService": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63"
                 }
             },
-            "dcat:DataService": {
-                "@id": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
-                "dcterms:identifier": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
-                "dcterms:type": "dcat:DataService",
-                "dcterms:title": "MLIP data search and deposition service",
-                "rdfs:label": "MLIP data search and deposition service",
-                "dcterms:description": "XXX Please review and fill in.",
-                "dcat:keyword": [
-                    "XXX Please fill in"
-                ],
-                "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d\" ?",
-                    "rdfs:label": "XXX Please fill in - maybe \"machine learning",
-                    "@type": "rdfs:Resource"
+            "dcat:DataService": [
+                {
+                    "@id": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
+                    "dcterms:identifier": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
+                    "dcterms:type": "dcat:DataService",
+                    "dcterms:title": "Data to Knowledge data search service",
+                    "rdfs:label": "Data to Knowledge data search service",
+                    "dcterms:description": "XXX Please fill in",
+                    "dcat:keyword": [
+                        "XXX please fill in"
+                    ],
+                    "dcat:theme": {
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                        "rdfs:label": "machine learning",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:publisher": {
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Organisation"
+                    },
+                    "dcterms:creator": {
+                        "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
+                        "foaf:name": "Alin Marin Elena",
+                        "@type": "foaf:Person"
+                    },
+                    "dcat:landingPage": {
+                        "@id": "http://data-collections.psdi.ac.uk/communities/mlip",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:contactPoint": {
+                        "@id": "http://www.psdi.ac.uk/contact/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:language": {
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                        "rdfs:label": "en",
+                        "@type": "rdfs:Resource"
+                    },
+                    "adms:status": {
+                        "@id": "http://purl.org/adms/status/UnderDevelopment",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "dcat:version": "1.1.1",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:servesDataset": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"
                 },
-                "dcterms:publisher": {
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Organisation"
+                {
+                    "@id": "psdiDcat:0f8446cf-430a-4979-bb02-db15ccc07fcd",
+                    "dcterms:identifier": "psdiDcat:0f8446cf-430a-4979-bb02-db15ccc07fcd",
+                    "dcterms:type": "dcat:DataService",
+                    "dcterms:title": "Data to Knowledge deposition service",
+                    "rdfs:label": "Data to Knowledge deposition service",
+                    "dcterms:description": "XXX Please fill in",
+                    "dcat:keyword": [
+                        "XXX please fill in"
+                    ],
+                    "dcat:theme": {
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                        "rdfs:label": "machine learning",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:publisher": {
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Organisation"
+                    },
+                    "dcterms:creator": {
+                        "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
+                        "foaf:name": "Alin Marin Elena",
+                        "@type": "foaf:Person"
+                    },
+                    "dcat:landingPage": {
+                        "@id": "http://data-collections.psdi.ac.uk/communities/mlip",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:contactPoint": {
+                        "@id": "http://www.psdi.ac.uk/contact/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:language": {
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                        "rdfs:label": "en",
+                        "@type": "rdfs:Resource"
+                    },
+                    "adms:status": {
+                        "@id": "http://purl.org/adms/status/UnderDevelopment",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:psdiLoginRequired"
+                    },
+                    "dcat:version": "1.1.1",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:servesDataset": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"
+                }
+            ],
+            "psdiDcatExt:Tool": [
+                {
+                    "@id": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
+                    "dcterms:identifier": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
+                    "dcterms:type": "psdiDcatExt:Tool",
+                    "dcterms:title": "janus-core, MLIP tool",
+                    "rdfs:label": "janus-core, MLIP tool",
+                    "dcterms:description": "XXX please fill in",
+                    "dcat:keyword": [
+                        "XXX please fill in"
+                    ],
+                    "dcat:theme": {
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                        "rdfs:label": "machine learning",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:publisher": {
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Organisation"
+                    },
+                    "dcterms:creator": {
+                        "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
+                        "foaf:name": "Alin M. Elena",
+                        "@type": "foaf:Person"
+                    },
+                    "dcat:landingPage": {
+                        "@id": "http://github.com/stfc/janus-core",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:contactPoint": {
+                        "@id": "http://www.psdi.ac.uk/contact/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:language": {
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                        "rdfs:label": "en",
+                        "@type": "rdfs:Resource"
+                    },
+                    "adms:status": {
+                        "@id": "http://purl.org/adms/status/UnderDevelopment",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2024-02-04T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": {
+                        "@id": "http://opensource.org/license/bsd-3-clause",
+                        "rdfs:label": "BSD-3-Clause license",
+                        "@type": "rdfs:Resource"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "dcat:version": "XXX please fill in e.g. 1.1.1",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://raw.githubusercontent.com/stfc/janus-core/main/docs/source/images/janus-core-100.png",
+                        "@type": "rdfs:Resource"
+                    },
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/stfc/janus-core",
+                        "@type": "rdfs:Resource"
+                    },
+                    "psdiDcatExt:installCommand": "python3 -m pip install janus-core",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python; Programming Language :: Python :: 3; Programming Language :: Python :: 3.9; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11; Programming Language :: Python :: 3.12; Programming Language :: Python :: 3.13",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha"
                 },
-                "dcterms:creator": {
-                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
-                    "foaf:name": "Alin Marin Elena",
-                    "@type": "foaf:Person"
+                {
+                    "@id": "psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386",
+                    "dcterms:identifier": "psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386",
+                    "dcterms:type": "psdiDcatExt:Tool",
+                    "dcterms:title": "aiida-mlip, workflow management for MLIP",
+                    "dcterms:description": "XXX please fill in",
+                    "dcat:keyword": [
+                        "XXX please fill in"
+                    ],
+                    "dcat:theme": {
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                        "rdfs:label": "machine learning",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:publisher": {
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Organisation"
+                    },
+                    "dcterms:creator": {
+                        "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
+                        "foaf:name": "Alin M. Elena",
+                        "@type": "foaf:Person"
+                    },
+                    "dcat:landingPage": {
+                        "@id": "http://github.com/stfc/aiida-mlip",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:contactPoint": {
+                        "@id": "http://www.psdi.ac.uk/contact/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:language": {
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                        "rdfs:label": "en",
+                        "@type": "rdfs:Resource"
+                    },
+                    "adms:status": {
+                        "@id": "http://purl.org/adms/status/UnderDevelopment",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2024-01-28T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": {
+                        "@id": "http://opensource.org/license/bsd-3-clause",
+                        "rdfs:label": "BSD-3-Clause license",
+                        "@type": "rdfs:Resource"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://raw.githubusercontent.com/stfc/aiida-mlip/main/docs/source/images/aiida-mlip-100.png",
+                        "@type": "rdfs:Resource"
+                    },
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/stfc/aiida-mlip",
+                        "@type": "rdfs:Resource"
+                    },
+                    "psdiDcatExt:installCommand": "pip install aiida-mlip",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python; Programming Language :: Python :: 3; Programming Language :: Python :: 3.9; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11; Programming Language :: Python :: 3.12",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable"
                 },
-                "dcat:landingPage": {
-                    "@id": "XXX http://UrlForPF5sBitOfPSDIInvenio",
-                    "@type": "rdfs:Resource"
-                },
-                "dcat:contactPoint": {
-                    "@id": "http://www.psdi.ac.uk/contact/",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:language": {
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
-                    "rdfs:label": "en",
-                    "@type": "rdfs:Resource"
-                },
-                "adms:status": {
-                    "@id": "http://purl.org/adms/status/UnderDevelopment",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:issued": {
-                    "@value": "2025-03-31T00:00:00Z",
-                    "@type": "xsd:dateTime"
-                },
-                "odrl:hasPolicy": {
-                    "@id": "psdiPol:openAccess"
-                },
-                "dcat:version": "1.1.1",
-                "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
-                    "@type": "rdfs:Resource"
-                },
-                "dcat:servesDataset": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"
-            },
-            "psdiDcatExt:Tool": {
-                "@id": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
-                "dcterms:identifier": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
-                "dcterms:type": "psdiDcatExt:Tool",
-                "dcterms:title": "abcd database tools",
-                "rdfs:label": "abcd database tools",
-                "dcterms:description": "XXX please fill in",
-                "dcat:keyword": [
-                    "XXX Please fill in"
-                ],
-                "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d\" ?",
-                    "rdfs:label": "XXX Please fill in - maybe \"machine learning",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:publisher": {
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Organisation"
-                },
-                "dcterms:creator": {
-                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
-                    "foaf:name": "Alin Marin Elena",
-                    "@type": "foaf:Person"
-                },
-                "dcat:landingPage": {
-                    "@id": "http://github.com/libAtoms/abcd/",
-                    "@type": "rdfs:Resource"
-                },
-                "dcat:contactPoint": {
-                    "@id": "http://github.com/libAtoms/abcd/issues",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:isReferencedBy": {
-                    "@id": "http://libatoms.github.io/abcd/",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:language": {
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
-                    "rdfs:label": "en",
-                    "@type": "rdfs:Resource"
-                },
-                "dcterms:issued": {
-                    "@value": "2019-03-31T00:00:00Z",
-                    "@type": "xsd:dateTime"
-                },
-                "odrl:hasPolicy": {
-                    "@id": "psdiPol:openAccess"
-                },
-                "dcat:version": "XXX please fill in e.g. 1.1.1",
-                "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
-                    "@type": "rdfs:Resource"
-                },
-                "psdiDcatExt:repositoryURL": {
-                    "@id": "http://github.com/libAtoms/abcd/",
-                    "@type": "rdfs:Resource"
-                },
-                "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.9"
-            },
+                {
+                    "@id": "psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d",
+                    "dcterms:identifier": "psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d",
+                    "dcterms:type": "psdiDcatExt:Tool",
+                    "dcterms:title": "abcd, data management for MLIP",
+                    "dcterms:description": "XXX please fill in",
+                    "dcat:keyword": [
+                        "XXX please fill in"
+                    ],
+                    "dcat:theme": {
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                        "rdfs:label": "machine learning",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:publisher": {
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Organisation"
+                    },
+                    "dcterms:creator": {
+                        "foaf:openid": "http://orcid.org/0000-0002-8180-2034",
+                        "foaf:name": "Gábor Csányi",
+                        "@type": "foaf:Person"
+                    },
+                    "dcat:landingPage": {
+                        "@id": "http://github.com/libAtoms/abcd/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcat:contactPoint": {
+                        "@id": "http://www.psdi.ac.uk/contact/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:isReferencedBy": {
+                        "@id": "http://libatoms.github.io/abcd/",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:language": {
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                        "rdfs:label": "en",
+                        "@type": "rdfs:Resource"
+                    },
+                    "adms:status": {
+                        "@id": "http://purl.org/adms/status/UnderDevelopment",
+                        "@type": "rdfs:Resource"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2019-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "dcat:version": "XXX please fill in e.g. 1.1.1",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
+                        "@type": "rdfs:Resource"
+                    },
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/libAtoms/abcd/",
+                        "@type": "rdfs:Resource"
+                    }
+                }
+            ],
             "psdiDcatExt:Guidance": {
                 "@id": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
                 "dcterms:identifier": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
                 "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "MLIP training",
                 "rdfs:label": "MLIP training",
-                "dcterms:description": "XXX Please review and fill in.",
+                "dcterms:description": "XXX please fill in",
                 "dcat:keyword": [
                     "XXX Please fill in"
                 ],
                 "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d\" ?",
-                    "rdfs:label": "XXX Please fill in - maybe \"machine learning",
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                    "rdfs:label": "machine learning",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
@@ -2518,11 +2742,11 @@
                 },
                 "dcterms:creator": {
                     "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
-                    "foaf:name": "Alin Marin Elena",
+                    "foaf:name": "Alin M. Elena",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX Please fill in",
+                    "@id": "http://github.com/stfc/janus-tutorials/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
@@ -2535,18 +2759,62 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:issued": {
-                    "@value": "XXX please fill in e.g. 2025-03-31T00:00:00Z",
+                    "@value": "2024-05-26T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
                 "psdiDcatExt:logoURL": {
-                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
-                    "rdfs:label": "PSDI logo",
+                    "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
                     "@type": "rdfs:Resource"
                 },
                 "psdiDcatExt:aboutCatalog": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
+            },
+            "dcat:Guidance": {
+                "@id": "psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4",
+                "dcterms:identifier": "psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4",
+                "dcterms:type": "dcat:Guidance",
+                "dcterms:title": "Chemistry and Materials Machine Learning School (CAMML)",
+                "dcterms:description": "XXX please fill in",
+                "dcat:keyword": [
+                    "XXX Please fill in"
+                ],
+                "dcat:theme": {
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                    "rdfs:label": "machine learning",
+                    "@type": "rdfs:Resource"
+                },
+                "dcterms:publisher": {
+                    "foaf:openid": "http://www.psdi.ac.uk",
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Organisation"
+                },
+                "dcterms:creator": {
+                    "foaf:openid": "http://orcid.org/0000-0001-8286-3835",
+                    "foaf:name": "Nicola Knight",
+                    "@type": "foaf:Person"
+                },
+                "dcat:landingPage": {
+                    "@id": "http://camml.ac.uk/",
+                    "@type": "rdfs:Resource"
+                },
+                "dcat:contactPoint": {
+                    "@id": "http://www.psdi.ac.uk/contact/",
+                    "@type": "rdfs:Resource"
+                },
+                "dcterms:language": {
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en",
+                    "rdfs:label": "en",
+                    "@type": "rdfs:Resource"
+                },
+                "odrl:hasPolicy": {
+                    "@id": "psdiPol:openAccess"
+                },
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://avatars.githubusercontent.com/u/160307904?s=200&v=4",
+                    "@type": "rdfs:Resource"
+                }
             }
         },
         {
@@ -2767,9 +3035,9 @@
                     "@id": "psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
                     "dcterms:identifier": "psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
                     "dcterms:type": "dcat:DataService",
-                    "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) MagresView 1.6",
-                    "rdfs:label": "CCP-NC MagresView 1.6",
-                    "dcterms:description": "MagresView 1.6 embedded in web front end for the Collaborative Computational Project for NMR Crystallography (CCP-NC). Crystal structure and NMR tensor visualisation from .magres files.  SSNMR parameters like magnetic shielding and electric field gradient can be visually represented as scaled ellipsoids super-imposed on the crystal structure for visualisation.",
+                    "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) 2.0 MagresView",
+                    "rdfs:label": "CCP-NC MagresView",
+                    "dcterms:description": "MagresView embedded in web front end for the Collaborative Computational Project for NMR Crystallography (CCP-NC). Crystal structure and NMR tensor visualisation from .magres files.  SSNMR parameters like magnetic shielding and electric field gradient can be visually represented as scaled ellipsoids super-imposed on the crystal structure for visualisation.",
                     "dcat:keyword": [
                         "Magresview",
                         " SSNMR",
@@ -2819,10 +3087,15 @@
                         "@value": "2025-03-31T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
+                    "dcterms:license": {
+                        "@id": "http://opensource.org/license/mit",
+                        "rdfs:label": "The MIT License",
+                        "@type": "rdfs:Resource"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.6.2",
+                    "dcat:version": "2.0.0",
                     "psdiDcatExt:logoURL": {
                         "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
@@ -2898,7 +3171,7 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "2.0.0",
-                    "psdiDcatExt:relatedGuidance": "psdiDcat:ac95b75f-6b9d-417e-abcc-15df08ca8842",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:f6ab8642-eaad-4a72-8c06-a4961d5fb2ff",
                     "psdiDcatExt:logoURL": {
                         "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
@@ -2997,7 +3270,7 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "0.9.2",
-                    "psdiDcatExt:relatedGuidance": "psdiDcat:4e56b202-546b-4fde-a02d-1b06d63d8f1d",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:71e7272d-80f5-480d-8f9a-60712084730e",
                     "psdiDcatExt:logoURL": {
                         "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
@@ -3025,8 +3298,8 @@
                 "XXX Please fill in"
             ],
             "dcat:theme": {
-                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e)\" - anything else?",
-                "rdfs:label": "XXX Please fill in. I thought maybe \"data processing",
+                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                "rdfs:label": "data processing",
                 "@type": "rdfs:Resource"
             },
             "dcterms:publisher": {
@@ -3044,11 +3317,11 @@
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:isReferencedBy": {
-                "@id": "",
+                "@id": "http://materialsgalaxy.stfc.ac.uk/tours",
                 "rdfs:label": "Interactive Galaxy tours",
                 "@type": "rdfs:Resource"
             },
@@ -3078,8 +3351,8 @@
                         "XXX Please fill in"
                     ],
                     "dcat:theme": {
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e)\" - anything else?",
-                        "rdfs:label": "XXX Please fill in. I thought maybe \"data processing",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                        "rdfs:label": "data processing",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:publisher": {
@@ -3097,11 +3370,11 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "",
+                        "@id": "http://materialsgalaxy.stfc.ac.uk/tours",
                         "rdfs:label": "Interactive Galaxy tours",
                         "@type": "rdfs:Resource"
                     },
@@ -3144,8 +3417,8 @@
                         "XXX Please fill in"
                     ],
                     "dcat:theme": {
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e)\" - anything else?",
-                        "rdfs:label": "XXX Please fill in. I thought maybe \"data processing",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                        "rdfs:label": "data processing",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:publisher": {
@@ -3163,7 +3436,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -3211,8 +3484,8 @@
                     "XXX Please fill in"
                 ],
                 "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e)\" - anything else?",
-                    "rdfs:label": "XXX Please fill in. I thought maybe \"data processing",
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                    "rdfs:label": "data processing",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
@@ -3230,7 +3503,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3267,8 +3540,8 @@
                     "XXX Please fill in"
                 ],
                 "dcat:theme": {
-                    "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e)\" - anything else?",
-                    "rdfs:label": "XXX Please fill in. I thought maybe \"data processing",
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                    "rdfs:label": "data processing",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
@@ -3286,7 +3559,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3366,8 +3639,8 @@
                 "@type": "rdfs:Resource"
             },
             "dcterms:publisher": {
-                "foaf:openid": "http://www.psdi.ac.uk",
-                "foaf:name": "PSDI",
+                "foaf:openid": "http://ror.org/013a0r905",
+                "foaf:name": "Henry Royce Institute",
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
@@ -3376,21 +3649,21 @@
                 "@type": "foaf:Person"
             },
             "prov:qualifiedAttribution": {
-                "foaf:openid": "http://www.royce.ac.uk",
-                "foaf:name": "The Henry Royce Institute for advanced materials",
+                "foaf:openid": "http://ror.org/013a0r905",
+                "foaf:name": "The Henry Royce Institute",
                 "@type": "foaf:Organisation",
                 "dcat:hadRole": {
-                    "@id": "resourceProvider",
+                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                    "rdfs:label": "resourceProvider",
                     "@type": "rdfs:Resource"
                 }
             },
             "dcat:landingPage": {
-                "@id": "micrograph.royce.ac.uk",
+                "@id": "http://micrograph.royce.ac.uk",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "happy for PSDI to act as intermediary in the building stages",
-                "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                "@id": "mailto:datacuration@royce.ac.uk",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -3408,8 +3681,8 @@
             },
             "psdiDcatExt:relatedGuidance": "psdiDcat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
             "psdiDcatExt:logoURL": {
-                "@id": "one that won't change preferably",
-                "rdfs:label": "url for logo",
+                "@id": "http://urlForLogo",
+                "rdfs:label": "XXX urlForLogo that won't change preferably",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
@@ -3465,8 +3738,8 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "foaf:name": "PSDI",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "Henry Royce Institute",
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
@@ -3475,21 +3748,21 @@
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "http://www.royce.ac.uk",
-                    "foaf:name": "The Henry Royce Institute for advanced materials",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "The Henry Royce Institute",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
-                        "@id": "resourceProvider",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                        "rdfs:label": "resourceProvider",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX please fill in with main url for repository",
+                    "@id": "http://micrograph.royce.ac.uk/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "@id": "mailto:datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3566,8 +3839,8 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "foaf:name": "PSDI",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "Henry Royce Institute",
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
@@ -3576,21 +3849,21 @@
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "http://www.royce.ac.uk",
-                    "foaf:name": "The Henry Royce Institute for advanced materials",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "The Henry Royce Institute",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
-                        "@id": "resourceProvider",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                        "rdfs:label": "resourceProvider",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX please fill in with main url for repository",
+                    "@id": "http://micrograph.royce.ac.uk/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "@id": "mailto:datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3662,8 +3935,8 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:publisher": {
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "foaf:name": "PSDI",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "Henry Royce Institute",
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
@@ -3672,21 +3945,21 @@
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "http://www.royce.ac.uk",
-                    "foaf:name": "The Henry Royce Institute for advanced materials",
+                    "foaf:openid": "http://ror.org/013a0r905",
+                    "foaf:name": "The Henry Royce Institute",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
-                        "@id": "resourceProvider",
+                        "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider",
+                        "rdfs:label": "resourceProvider",
                         "@type": "rdfs:Resource"
                     }
                 },
                 "dcat:landingPage": {
-                    "@id": "XXX please fill in with URL for guidance",
+                    "@id": "http://XXXPleaseFillInWithURLforGuidance",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "@id": "mailto:datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
