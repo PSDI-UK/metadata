@@ -11,9 +11,9 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lexend:400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://psdi-uk.github.io/psdi-common-style/css/psdi-common.css">
+  <link rel="stylesheet" href="https://psdi-uk.github.io/css-template/psdi-common.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js" type="module"></script>
+  <script src="https://psdi-uk.github.io/css-template/psdi-common.js" type="module"></script>
   <title>PSDI metadata</title>
 </head>
 
@@ -31,7 +31,7 @@
   <header class="header" id="psdi-header"></header>
 
   <script type="module">
-    import { setTitle, setHeaderLinksSource } from "https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js";
+    import { setTitle, setHeaderLinksSource } from "https://psdi-uk.github.io/css-template/psdi-common.js";
     setTitle("Metadata");
     setHeaderLinksSource("index_files/header-links.html");
   </script>
@@ -59,10 +59,11 @@
       <p>
         <ul>
           <li>https://psdi-uk.github.io/metadata/</li>
-          <li>├── <a href="./vocabulary.jsonld">vocabulary.jsonld</a> (SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform)</li>
-          <li>├── <a href="./resource-catalogue.jsonld">resource-catalogue.jsonld</a> ( DCAT description of catalogue of resources (data, services, tools and guidance) made available via PSDI)</li>
-          <li>└── dcatExt</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <a href="./dcatExt/dcatExt.jsonld">dcatExt/dcatExt.jsonld</a> (extension of DCAT to describe PSDI catalogue)</li>
+          <li>├── vocabulary/</li>
+		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href="./vocabulary/psdi-voc.jsonld">psdi-voc.jsonld</a> (SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform)</li>
+          <li>└── resource-catalogue/</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href="./resource-catalogue/psdi-dcat.jsonld">psdi-dcat.jsonld</a> ( DCAT description of catalogue of resources (data, services, tools and guidance) made available via PSDI)</li>
+		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <a href="./resource-catalogue/psdi-dcat-ext.jsonld">psdi-dcat-ext.jsonld</a> (extension of DCAT to describe PSDI catalogue)</li>
         </ul>
       </p>
     </div>

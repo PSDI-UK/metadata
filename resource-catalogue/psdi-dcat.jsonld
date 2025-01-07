@@ -1,20 +1,22 @@
 {
     "@context": {
-        "psdiCat": "http://metadata.psdi.ac.uk/resource-catalogue#",
+        "psdiDcat": "http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat#",
+        "psdiDcatExt": "http://metadata.psdi.ac.uk/psdi-dcat-ext#",
         "psdiPol": "http://metadata.psdi.ac.uk/access-policies#",
+        "adms": "http://www.w3.org/ns/adms#",
+        "dc11": "http://purl.org/dc/elements/1.1/",
         "dcat": "http://www.w3.org/ns/dcat#",
-        "dcatExt": "http://metadata.psdi.ac.uk/dcatExt#",
-        "dc": "http://purl.org/dc/elements/1.1/",
         "dcterms": "http://purl.org/dc/terms/",
         "foaf": "http://xmlns.com/foaf/0.1/",
         "odrl": "http://www.w3.org/ns/odrl/2/",
-        "adms": "http://www.w3.org/ns/adms#",
-        "rdf": "http://www.w3.org/2000/01/rdf-schema#",
-        "rdfs": "https://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "prov": "http://www.w3.org/ns/prov#",
+        "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
         "spdx": "http://spdx.org/rdf/terms#",
+        "xsd": "http://www.w3.org/2001/XMLSchema#",
         "@language": "en"
     },
-    "@id": "psdiCat:resourceCatalogue",
+    "@id": "psdiDcat:resourceCatalogue",
     "@type": "dcat:Catalog",
     "rdfs:label": "PSDI Resource Catalogue",
     "dcterms:title": "PSDI Resource Catalogue",
@@ -54,7 +56,7 @@
     "dcterms:creator": {
         "foaf:name": "Aileen Day",
         "@type": "foaf:Person",
-        "foaf:openid": "https://orcid.org/0000-0003-2397-1996"
+        "foaf:openid": "http://orcid.org/0000-0003-2397-1996"
     },
     "dcterms:issued": {
         "@value": "2024-04-18T12:01:01Z",
@@ -74,30 +76,30 @@
         "foaf:openid": "http://www.psdi.ac.uk"
     },
     "dcterms:license": {
-        "@id": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "@id": "http://creativecommons.org/publicdomain/zero/1.0/",
         "rdfs:label": "CC0 1.0 Universal"
     },
     "dcat:DataService": {
-        "@id": "psdiCat:6bc7c64d-ee3d-430b-be09-f26040886c3c",
+        "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c",
         "@type": "dcat:DataService",
         "dcterms:title": "PSDI data search",
         "rdfs:label": "PSDI data search",
         "dcterms:type": "dcat:DataService",
         "dcterms:description": "Search of data within PSDI alongside data from other, external sources.",
         "dcat:landingPage": {
-            "@id": "https://data.psdi.ac.uk/"
+            "@id": "http://data.psdi.ac.uk/"
         },
         "dcat:servesDataset": [
             {
-                "@id": "psdiCat:7c707ddb-da2e-4c57-83f0-f77499afccc7",
+                "@id": "psdiDcat:7c707ddb-da2e-4c57-83f0-f77499afccc7",
                 "rdfs:label": "CCP-NC Magres database"
             }
         ]
     },
     "dcat:Catalog": [
         {
-            "@id": "psdiCat:c670ea46-1db5-4439-9fef-a922c6452ebb",
-            "dcterms:identifier": "psdiCat:c670ea46-1db5-4439-9fef-a922c6452ebb",
+            "@id": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb",
+            "dcterms:identifier": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Thematic portal",
             "rdfs:label": "Thematic portal",
@@ -119,16 +121,16 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                 "foaf:name": "Abraham Nieva De La Hidalga",
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp",
+                "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -143,16 +145,16 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcatExt:relatedGuidance": "psdiCat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
-            "dcatExt:logoURL": {
+            "psdiDcatExt:relatedGuidance": "psdiDcat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
+            "psdiDcatExt:logoURL": {
                 "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                 "rdfs:label": "Catalysis Hub CDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": [
                 {
-                    "@id": "psdiCat:530ae29a-89eb-4562-b918-1fb66d8bfdb2",
-                    "dcterms:identifier": "psdiCat:530ae29a-89eb-4562-b918-1fb66d8bfdb2",
+                    "@id": "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2",
+                    "dcterms:identifier": "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2",
                     "dcterms:type": "dcat:Dataset",
                     "dcterms:title": "Catalysis Data Infrastructure (CDI) database",
                     "rdfs:label": "CDI database",
@@ -174,7 +176,7 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                        "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                         "foaf:name": "Abraham Nieva De La Hidalga",
                         "@type": "foaf:Person"
                     },
@@ -183,7 +185,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                        "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -198,7 +200,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcatExt:logoURL": {
+                    "psdiDcatExt:logoURL": {
                         "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                         "rdfs:label": "Catalysis Hub CDI logo",
                         "@type": "rdfs:Resource"
@@ -208,17 +210,17 @@
                         "@type": "rdfs:Resource"
                     },
                     "prov:wasGeneratedBy": {
-                        "@id": "https://ukcatalysishub.co.uk/",
+                        "@id": "http://ukcatalysishub.co.uk/",
                         "rdfs:label": "UK Catalysis Hub",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:Distribution": {
-                        "dcat:accessService": "psdiCat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"
+                        "dcat:accessService": "psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"
                     }
                 },
                 {
-                    "@id": "psdiCat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba",
-                    "dcterms:identifier": "psdiCat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba",
+                    "@id": "psdiDcat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba",
+                    "dcterms:identifier": "psdiDcat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba",
                     "dcterms:type": "dcat:Dataset",
                     "dcterms:title": "XAFS Galaxy RO-Crates",
                     "rdfs:label": "Example Galaxy XAFS workflows",
@@ -240,20 +242,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                        "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                         "foaf:name": "Abraham Nieva De La Hidalga",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://zenodo.org/communities/rexas",
+                        "@id": "http://zenodo.org/communities/rexas",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:conformsTo": {
-                        "@id": "https://www.researchobject.org/ro-crate/",
+                        "@id": "http://www.researchobject.org/ro-crate/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -268,20 +270,20 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcatExt:relatedGuidance": "psdiCat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
-                    "dcatExt:logoURL": {
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
+                    "psdiDcatExt:logoURL": {
                         "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                         "rdfs:label": "Catalysis Hub CDI logo",
                         "@type": "rdfs:Resource"
                     },
                     "prov:wasGeneratedBy": {
-                        "@id": "https://materialsgalaxy.stfc.ac.uk/",
+                        "@id": "http://materialsgalaxy.stfc.ac.uk/",
                         "rdfs:label": "Materials Galaxy",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:Distribution": {
                         "dcat:accessURL": {
-                            "@id": "https://zenodo.org/communities/rexas",
+                            "@id": "http://zenodo.org/communities/rexas",
                             "@type": "rdfs:Resource"
                         }
                     }
@@ -289,8 +291,8 @@
             ],
             "dcat:DataService": [
                 {
-                    "@id": "psdiCat:fc2fbf02-8638-414b-acb9-a16ea44dfff0",
-                    "dcterms:identifier": "psdiCat:fc2fbf02-8638-414b-acb9-a16ea44dfff0",
+                    "@id": "psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0",
+                    "dcterms:identifier": "psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Catalysis Data Infrastructure (CDI) portal",
                     "rdfs:label": "CDI portal",
@@ -312,7 +314,7 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                        "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                         "foaf:name": "Abraham Nieva De La Hidalga",
                         "@type": "foaf:Person"
                     },
@@ -321,7 +323,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                        "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -341,16 +343,16 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "0.9",
-                    "dcatExt:logoURL": {
+                    "psdiDcatExt:logoURL": {
                         "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                         "rdfs:label": "Catalysis Hub CDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:servesDataset": "psdiCat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"
+                    "dcat:servesDataset": "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"
                 },
                 {
-                    "@id": "psdiCat:7a029bb3-5a5b-474e-8592-679a36d73818",
-                    "dcterms:identifier": "psdiCat:7a029bb3-5a5b-474e-8592-679a36d73818",
+                    "@id": "psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818",
+                    "dcterms:identifier": "psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Catalysis Data Infrastructure (CDI) bibliographic data web service",
                     "rdfs:label": "CDI bibliographic data web service",
@@ -371,12 +373,12 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                        "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                         "foaf:name": "Abraham Nieva De La Hidalga",
                         "@type": "foaf:Person"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                        "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -396,7 +398,7 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "0.9",
-                    "dcatExt:logoURL": {
+                    "psdiDcatExt:logoURL": {
                         "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                         "rdfs:label": "Catalysis Hub CDI logo",
                         "@type": "rdfs:Resource"
@@ -406,13 +408,13 @@
                         "@id": "http://cdi.ukcatalysishub.org/get_pubs.json",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:servesDataset": "psdiCat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"
+                    "dcat:servesDataset": "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"
                 }
             ],
-            "dcatExt:Tool": {
-                "@id": "psdiCat:fdc8a7a1-5ac6-413e-befa-ef7dfb3ef059",
-                "dcterms:identifier": "psdiCat:fdc8a7a1-5ac6-413e-befa-ef7dfb3ef059",
-                "dcterms:type": "dcatExt:Tool",
+            "psdiDcatExt:Tool": {
+                "@id": "psdiDcat:fdc8a7a1-5ac6-413e-befa-ef7dfb3ef059",
+                "dcterms:identifier": "psdiDcat:fdc8a7a1-5ac6-413e-befa-ef7dfb3ef059",
+                "dcterms:type": "psdiDcatExt:Tool",
                 "dcterms:title": "Thematic portal code",
                 "rdfs:label": "Thematic portal code",
                 "dcterms:description": "Code to create a configurable thematic portal to display summary report of output publications and impact of a specified theme (based on grant) or insitution. Displaying significant indicators of research production  derived from publications and their supporting data.",
@@ -433,16 +435,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                    "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                     "foaf:name": "Abraham Nieva De La Hidalga",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp",
+                    "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                    "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -462,22 +464,22 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.0",
-                "dcatExt:logoURL": {
+                "psdiDcatExt:logoURL": {
                     "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                     "rdfs:label": "Catalysis Hub CDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:repositoryURL": {
-                    "@id": "https://github.com/UK-Catalysis-Hub/ukcathubapp",
+                "psdiDcatExt:repositoryURL": {
+                    "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:programmingLanguage": "Programming Language :: Ruby",
-                "dcatExt:developmentStatus": "Development Status :: 4 - Beta"
+                "psdiDcatExt:programmingLanguage": "Programming Language :: Ruby",
+                "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta"
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
-                "dcterms:identifier": "psdiCat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
+                "dcterms:identifier": "psdiDcat:f9e34853-7e01-4fb1-ac10-30d8aced63f9",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "Mini-tutorials for XAFS RO-Crates in Galaxy",
                 "rdfs:label": "Mini-tutorials for XAFS RO-Crates in Galaxy",
                 "dcterms:description": "Tutorials showing how to import RO-Crates and Workflows into Galaxy. Intended as a quickstart to allow quickly inspecting RO-Crates and Workflows published during the PSDI project and supported by PSDI infrastructure (Materials Galaxy)",
@@ -498,16 +500,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0001-7348-7612",
+                    "foaf:openid": "http://orcid.org/0000-0001-7348-7612",
                     "foaf:name": "Abraham Nieva De La Hidalga",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://xerte.cardiff.ac.uk/play_22519",
+                    "@id": "http://xerte.cardiff.ac.uk/play_22519",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -523,17 +525,17 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "0.5",
-                "dcatExt:logoURL": {
+                "psdiDcatExt:logoURL": {
                     "@id": "http://cdi.ukcatalysishub.org/assets/ukchcdi_logo_sm-6fc115a0146498a284ca1aba68bc70c7ffaa5077357aaa89a03a0c532eb79ef9.png",
                     "rdfs:label": "Catalysis Hub CDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutDataset": "psdiCat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba"
+                "psdiDcatExt:aboutDataset": "psdiDcat:d7cf02ec-4b19-45e3-8918-b8f7752dcbba"
             }
         },
         {
-            "@id": "psdiCat:7bcc430a-fdc9-413e-bf32-bf163236430b",
-            "dcterms:identifier": "psdiCat:7bcc430a-fdc9-413e-bf32-bf163236430b",
+            "@id": "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b",
+            "dcterms:identifier": "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "PSDI Data Conversion Service",
             "rdfs:label": "PSDI Data Conversion Service",
@@ -552,16 +554,16 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                 "foaf:name": "Samuel Hyder",
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "https://psdidev2.azurewebsites.net/",
+                "@id": "http://psdidev2.azurewebsites.net/",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.psdi.ac.uk/contact/",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -577,16 +579,16 @@
                 "@value": "2025-03-31T00:00:00Z",
                 "@type": "xsd:dateTime"
             },
-            "dcatExt:relatedGuidance": "psdiCat:02b109f2-2b1b-4921-ba86-815bea93baad",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:02b109f2-2b1b-4921-ba86-815bea93baad",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:DataService": [
                 {
-                    "@id": "psdiCat:8334f94b-1c6e-4034-a5ab-71c6df375cba",
-                    "dcterms:identifier": "psdiCat:8334f94b-1c6e-4034-a5ab-71c6df375cba",
+                    "@id": "psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba",
+                    "dcterms:identifier": "psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "PSDI Data Conversion Service",
                     "rdfs:label": "PSDI Data Conversion Service",
@@ -605,7 +607,7 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                        "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                         "foaf:name": "Samuel Hyder",
                         "@type": "foaf:Person"
                     },
@@ -614,11 +616,11 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://psdidev2.azurewebsites.net/static/content/documentation.htm",
+                        "@id": "http://psdidev2.azurewebsites.net/static/content/documentation.htm",
                         "rdfs:label": "PSDI Data Conversion Service Documentation",
                         "@type": "rdfs:Resource"
                     },
@@ -639,16 +641,16 @@
                         "@id": "psdiPol:psdiLoginRequired"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:relatedGuidance": "psdiCat:02b109f2-2b1b-4921-ba86-815bea93baad",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:02b109f2-2b1b-4921-ba86-815bea93baad",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     }
                 },
                 {
-                    "@id": "psdiCat:952ac185-5350-4162-a26f-0be0277c5acd",
-                    "dcterms:identifier": "psdiCat:952ac185-5350-4162-a26f-0be0277c5acd",
+                    "@id": "psdiDcat:952ac185-5350-4162-a26f-0be0277c5acd",
+                    "dcterms:identifier": "psdiDcat:952ac185-5350-4162-a26f-0be0277c5acd",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "PSDI Data Conversion Command Line Service",
                     "rdfs:label": "PSDI Data Conversion Command Line Service",
@@ -667,12 +669,12 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                        "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                         "foaf:name": "Samuel Hyder",
                         "@type": "foaf:Person"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -692,8 +694,8 @@
                         "@id": "psdiPol:psdiLoginRequired"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
@@ -704,11 +706,11 @@
                     }
                 }
             ],
-            "dcatExt:Tool": [
+            "psdiDcatExt:Tool": [
                 {
-                    "@id": "psdiCat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306",
-                    "dcterms:identifier": "psdiCat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306",
+                    "dcterms:identifier": "psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "PSDI Data Conversion container image",
                     "rdfs:label": "PSDI Data Conversion container image",
                     "dcterms:description": "PSDI Data Conversion Web Application service to perform file format conversions made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Web Application (exploring data formats for conversion, providing details of available conversions, and where possible performing these conversions) but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. If you wish to provide feedback about missing formats or conversions, this will still need to be done via the main PSDI site.",
@@ -726,16 +728,16 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                        "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                         "foaf:name": "Samuel Hyder",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion/blob/main/Dockerfile",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/Dockerfile",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion/issues",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -755,21 +757,21 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:downloadURL": "https://ghcr.io/tomlunderwood/psdi-data-conversion/data-conversion:v0.1.0",
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion",
+                    "psdiDcatExt:downloadURL": "http://ghcr.io/tomlunderwood/psdi-data-conversion/data-conversion:v0.1.0",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:installCommand": "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:v0.0.1",
-                    "dcatExt:programmingLanguage": "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell",
-                    "dcatExt:deliveryFormat": "application/vnd.docker.distribution.manifest.v2+json",
-                    "dcatExt:developmentStatus": "Development Status :: 3 - Alpha",
-                    "dcatExt:byteSize": 482152581,
+                    "psdiDcatExt:installCommand": "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:v0.0.1",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell",
+                    "psdiDcatExt:deliveryFormat": "application/vnd.docker.distribution.manifest.v2+json",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha",
+                    "psdiDcatExt:byteSize": 482152581,
                     "spdx:checkSum": {
                         "@type": "spdx:checkSum",
                         "spdx:algorithm": {
@@ -784,9 +786,9 @@
                     }
                 },
                 {
-                    "@id": "psdiCat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
-                    "dcterms:identifier": "psdiCat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
+                    "dcterms:identifier": "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "PSDI Data Conversion Service source code",
                     "rdfs:label": "PSDI Data Conversion Python Library",
                     "dcterms:description": "PSDI Python Library for Data Conversion. This library will be made available as a github source code which can be installed run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application and command line version, but without the file cap limits as the code will be run locally as opposed to on PSDI servers.",
@@ -804,20 +806,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                        "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                         "foaf:name": "Samuel Hyder",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion/issues",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md",
                         "rdfs:label": "psdi-data-conversion github repository README",
                         "@type": "rdfs:Resource"
                     },
@@ -838,24 +840,24 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:relatedGuidance": "psdiCat:6d689e1a-f906-49b2-b159-745b63d79412",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:6d689e1a-f906-49b2-b159-745b63d79412",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/PSDI-UK/psdi-data-conversion",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:programmingLanguage": "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell",
-                    "dcatExt:developmentStatus": "Development Status :: 3 - Alpha"
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha"
                 }
             ],
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:02b109f2-2b1b-4921-ba86-815bea93baad",
-                "dcterms:identifier": "psdiCat:02b109f2-2b1b-4921-ba86-815bea93baad",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:02b109f2-2b1b-4921-ba86-815bea93baad",
+                "dcterms:identifier": "psdiDcat:02b109f2-2b1b-4921-ba86-815bea93baad",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "Fairsharing.org file format catalogue entries",
                 "rdfs:label": "Fairsharing.org file format catalogue entries",
                 "dcterms:description": "XXX Sami to review: Descriptions of file formats which PSDI Data Conversion Services can convert to and from in Fairsharing.org.\nThere should be a page on the knowledgebase (or somewhere) about the service as a whole and how people can use it.",
@@ -873,16 +875,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://www.linkedin.com/in/sam-hyder-172a86250/",
+                    "foaf:openid": "http://www.linkedin.com/in/sam-hyder-172a86250/",
                     "foaf:name": "Samuel Hyder",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://fairsharing.org/search?q=psdi",
+                    "@id": "http://fairsharing.org/search?q=psdi",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -901,16 +903,16 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             }
         },
         {
-            "@id": "psdiCat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
-            "dcterms:identifier": "psdiCat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
+            "@id": "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
+            "dcterms:identifier": "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "PSDI Data Revival Service",
             "rdfs:label": "PSDI Data Revival Service",
@@ -934,7 +936,7 @@
                 "@type": "foaf:Person"
             },
             "prov:qualifiedAttribution": {
-                "foaf:openid": "https://labs.futureworlds.com/data-revival/",
+                "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                 "@type": "foaf:Organisation",
                 "dcat:hadRole": {
                     "@id": "resourceProvider",
@@ -946,7 +948,7 @@
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.data-revival.com/#contact",
+                "@id": "http://www.data-revival.com/#contact",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -958,15 +960,15 @@
                 "@id": "http://purl.org/adms/status/UnderDevelopment",
                 "@type": "rdfs:Resource"
             },
-            "dcatExt:relatedGuidance": "psdiCat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:DataService": {
-                "@id": "psdiCat:f350b410-23d2-4c25-9a7d-51d7d0263537",
-                "dcterms:identifier": "psdiCat:f350b410-23d2-4c25-9a7d-51d7d0263537",
+                "@id": "psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537",
+                "dcterms:identifier": "psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537",
                 "dcterms:type": "dcat:DataService",
                 "dcterms:title": "PSDI Data Revival Service",
                 "rdfs:label": "PSDI Data Revival Service",
@@ -990,7 +992,7 @@
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://labs.futureworlds.com/data-revival/",
+                    "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
                         "@id": "resourceProvider",
@@ -1002,7 +1004,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.data-revival.com/#contact",
+                    "@id": "http://www.data-revival.com/#contact",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1017,17 +1019,17 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:psdiLoginRequired"
                 },
-                "dcatExt:relatedGuidance": "psdiCat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:relatedGuidance": "psdiDcat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
-                "dcterms:identifier": "psdiCat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
+                "dcterms:identifier": "psdiDcat:354e4a3a-f36f-45fb-be28-4af4d2427e58",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "PSDI Data Revival Service Documentation?",
                 "rdfs:label": "PSDI Data Revival Service Documentation?",
                 "dcterms:description": "XXX Sam or Sami to fill in",
@@ -1050,7 +1052,7 @@
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://labs.futureworlds.com/data-revival/",
+                    "foaf:openid": "http://labs.futureworlds.com/data-revival/",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
                         "@id": "resourceProvider",
@@ -1062,7 +1064,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.data-revival.com/#contact",
+                    "@id": "http://www.data-revival.com/#contact",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1077,18 +1079,18 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutCatalog": "psdiCat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
-                "dcatExt:aboutDataService": "psdiCat:f350b410-23d2-4c25-9a7d-51d7d0263537"
+                "psdiDcatExt:aboutCatalog": "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d",
+                "psdiDcatExt:aboutDataService": "psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537"
             }
         },
         {
-            "@id": "psdiCat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da",
-            "dcterms:identifier": "psdiCat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da",
+            "@id": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da",
+            "dcterms:identifier": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "PSDI Digital Lab Notebook Guidance",
             "rdfs:label": "PSDI Digital Lab Notebook Guidance",
@@ -1121,7 +1123,7 @@
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.psdi.ac.uk/contact/",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -1136,15 +1138,15 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcatExt:relatedGuidance": "psdiCat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:DataService": {
-                "@id": "psdiCat:d32605b6-d9a2-4744-bfe2-837f0d8c6547",
-                "dcterms:identifier": "psdiCat:d32605b6-d9a2-4744-bfe2-837f0d8c6547",
+                "@id": "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547",
+                "dcterms:identifier": "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547",
                 "dcterms:type": "dcat:DataService",
                 "dcterms:title": "LabTrove ELN Demonstrator",
                 "rdfs:label": "LabTrove ELN Demonstrator",
@@ -1177,7 +1179,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1197,17 +1199,17 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:relatedGuidance": "psdiCat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:relatedGuidance": "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             },
-            "dcatExt:Tool": {
-                "@id": "psdiCat:fff10ebe-929b-4781-9dee-c46edf063004",
-                "dcterms:identifier": "psdiCat:fff10ebe-929b-4781-9dee-c46edf063004",
-                "dcterms:type": "dcatExt:Tool",
+            "psdiDcatExt:Tool": {
+                "@id": "psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004",
+                "dcterms:identifier": "psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004",
+                "dcterms:type": "psdiDcatExt:Tool",
                 "dcterms:title": "LabTrove Container Image",
                 "rdfs:label": "LabTrove Container Image",
                 "dcterms:description": "PSDI LabTrove - this is the Lightweight, web based \"blogging\" service made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Labtrove Exemplar but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. The setup instructions will explain how to install this and run it yourself and how to configure it with your own authentication system if you wish.",
@@ -1239,7 +1241,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1255,17 +1257,17 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:relatedGuidance": "psdiCat:522ab1b5-3270-4a45-ab9b-98407706d9f5",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:relatedGuidance": "psdiDcat:522ab1b5-3270-4a45-ab9b-98407706d9f5",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
-                "dcterms:identifier": "psdiCat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
+                "dcterms:identifier": "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "LabTrove Documentation",
                 "rdfs:label": "LabTrove Documentation",
                 "dcat:keyword": [
@@ -1296,7 +1298,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1307,17 +1309,17 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutDataService": "psdiCat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"
+                "psdiDcatExt:aboutDataService": "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"
             },
             "dcat:Guidance": [
                 {
-                    "@id": "psdiCat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
-                    "dcterms:identifier": "psdiCat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
+                    "@id": "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
+                    "dcterms:identifier": "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f",
                     "dcterms:type": "dcat:Guidance",
                     "dcterms:title": "OneNote Guidance",
                     "rdfs:label": "OneNote Guidance",
@@ -1349,7 +1351,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -1360,16 +1362,16 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:aboutCatalog": "psdiCat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
+                    "psdiDcatExt:aboutCatalog": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
                 },
                 {
-                    "@id": "psdiCat:9dd03bfc-4c81-478b-a949-23a42e5ccc41",
-                    "dcterms:identifier": "psdiCat:9dd03bfc-4c81-478b-a949-23a42e5ccc41",
+                    "@id": "psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41",
+                    "dcterms:identifier": "psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41",
                     "dcterms:type": "dcat:Guidance",
                     "dcterms:title": "ELN Guidance in PSDI Knowledgebase",
                     "rdfs:label": "ELN Guidance in PSDI Knowledgebase",
@@ -1402,7 +1404,7 @@
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -1413,18 +1415,18 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:aboutCatalog": "psdiCat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
+                    "psdiDcatExt:aboutCatalog": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
                 }
             ]
         },
         {
-            "@id": "psdiCat:d9b4f050-69bb-467a-bc6c-c58bc0f25204",
-            "dcterms:identifier": "psdiCat:d9b4f050-69bb-467a-bc6c-c58bc0f25204",
+            "@id": "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204",
+            "dcterms:identifier": "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Building Data Collections",
             "rdfs:label": "Building Data Collections",
@@ -1443,16 +1445,16 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://www.linkedin.com/in/jack-doyle-175183323/",
+                "foaf:openid": "http://www.linkedin.com/in/jack-doyle-175183323/",
                 "foaf:name": "Jack Doyle",
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main",
+                "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.psdi.ac.uk/contact/",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -1468,16 +1470,16 @@
                 "@id": "psdiPol:openAccess"
             },
             "dcat:version": "1.1.1",
-            "dcatExt:relatedGuidance": "psdiCat:0ce7f2d9-d187-4398-b113-947856712ec0",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": [
                 {
-                    "@id": "psdiCat:44160b2f-5938-442e-9f0a-652eb55d1c2b",
-                    "dcterms:identifier": "psdiCat:44160b2f-5938-442e-9f0a-652eb55d1c2b",
+                    "@id": "psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b",
+                    "dcterms:identifier": "psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b",
                     "dcterms:type": "dcat:Dataset",
                     "dcterms:title": "PSDI Physical Chemistry Properties Data Collection",
                     "rdfs:label": "psdi_physical_chemistry_properties_data",
@@ -1501,7 +1503,7 @@
                         "@type": "foaf:Person"
                     },
                     "prov:qualifiedAttribution": {
-                        "foaf:openid": "https://doi.org/10.1038/s41597-022-01154-3",
+                        "foaf:openid": "http://doi.org/10.1038/s41597-022-01154-3",
                         "foaf:name": "Meng2022: Solubility",
                         "@type": "foaf:Organisation",
                         "dcat:hadRole": {
@@ -1510,15 +1512,15 @@
                         }
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
+                        "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/Solubility_Collection/README.md",
+                        "@id": "http://github.com/PSDI-UK/psdi-datasets/blob/main/Solubility_Collection/README.md",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -1538,8 +1540,8 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
@@ -1551,19 +1553,19 @@
                         "dcterms:title": "PSDI Solubility Data Collection",
                         "dcterms:description": "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format.",
                         "dcat:accessURL": {
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
+                            "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection",
                             "@type": "rdfs:Resource"
                         },
-                        "dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                        "dcat:mediaType": "http://www.iana.org/assignments/media-types/text/csv"
                     }
                 },
                 {
-                    "@id": "psdiCat:a7c82670-d2e2-46c6-920a-74294289aa34",
-                    "dcterms:identifier": "psdiCat:a7c82670-d2e2-46c6-920a-74294289aa34",
+                    "@id": "psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34",
+                    "dcterms:identifier": "psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34",
                     "dcterms:type": "dcat:Dataset",
                     "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
                     "rdfs:label": "psdi_cmc_data",
-                    "dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
+                    "dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" http://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival http://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
                     "dcat:keyword": [
                         "critical micelle concentration, electronic supplementary information"
                     ],
@@ -1578,12 +1580,12 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0009-0009-9897-333X",
+                        "foaf:openid": "http://orcid.org/0009-0009-9897-333X",
                         "foaf:name": "Thomas Allam",
                         "@type": "foaf:Person"
                     },
                     "prov:qualifiedAttribution": {
-                        "foaf:openid": "https://doi.org/10.6028/NBS.NSRDS.36",
+                        "foaf:openid": "http://doi.org/10.6028/NBS.NSRDS.36",
                         "foaf:name": "National Institute of Standards and Technology",
                         "@type": "foaf:Organisation",
                         "dcat:hadRole": {
@@ -1592,15 +1594,15 @@
                         }
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
+                        "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.psdi.ac.uk/contact/",
+                        "@id": "http://www.psdi.ac.uk/contact/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/README.md",
+                        "@id": "http://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/README.md",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -1620,8 +1622,8 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.1.1",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
@@ -1631,23 +1633,23 @@
                     },
                     "dcat:Distribution": {
                         "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
-                        "dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" https://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival https://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
+                        "dcterms:description": "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" http://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival http://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format.",
                         "dcat:downloadURL": {
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv",
+                            "@id": "http://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv",
                             "@type": "rdfs:Resource"
                         },
                         "dcat:accessURL": {
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
+                            "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection",
                             "@type": "rdfs:Resource"
                         },
-                        "dcat:mediaType": "https://www.iana.org/assignments/media-types/text/csv"
+                        "dcat:mediaType": "http://www.iana.org/assignments/media-types/text/csv"
                     }
                 }
             ],
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:0ce7f2d9-d187-4398-b113-947856712ec0",
-                "dcterms:identifier": "psdiCat:0ce7f2d9-d187-4398-b113-947856712ec0",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0",
+                "dcterms:identifier": "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "PSDI Second Harmonic Generation (SHG) Exemplar: Case Study for Legacy Data Resurrection",
                 "rdfs:label": "psdi_shg_exemplar",
                 "dcterms:description": "This case study involved reconstructing a set of databases containing data from a series of Second Harmonic Generation (SHG) experiments so that the models built using the data could be reevaluated in future. As part of this work a modern dashboard to view the data was also created.",
@@ -1665,12 +1667,12 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://www.linkedin.com/in/jack-doyle-175183323/",
+                    "foaf:openid": "http://www.linkedin.com/in/jack-doyle-175183323/",
                     "foaf:name": "Jack Doyle",
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://www.linkedin.com/in/stephen-wilson-017a7150/)?",
+                    "foaf:openid": "http://www.linkedin.com/in/stephen-wilson-017a7150/)?",
                     "foaf:name": "Steven M Wilson",
                     "@type": "foaf:Person",
                     "dcat:hadRole": {
@@ -1684,7 +1686,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1700,18 +1702,18 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             },
             "dcat:Guidance": {
-                "@id": "psdiCat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd",
-                "dcterms:identifier": "psdiCat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd",
+                "@id": "psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd",
+                "dcterms:identifier": "psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd",
                 "dcterms:type": "dcat:Guidance",
                 "dcterms:title": "PSDI ESI Exemplar: Case study of unlocking useful information in ESIs and making the data machine-readable",
-                "dcterms:description": "This case study examines the issues of loosing data in ESIs as the key raw datapoints get embedded within PDFs. Data was extracted from the supplementary information of the paper - Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded' https://doi.org/10.1002/cmdc.202000533 and converted into JSON. This process was docmented to demonstrate how this type of data can be made avaialble in a more machine-readable fashion.",
+                "dcterms:description": "This case study examines the issues of loosing data in ESIs as the key raw datapoints get embedded within PDFs. Data was extracted from the supplementary information of the paper - Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded' http://doi.org/10.1002/cmdc.202000533 and converted into JSON. This process was docmented to demonstrate how this type of data can be made avaialble in a more machine-readable fashion.",
                 "dcat:keyword": [
                     "critical micelle concentration, electronic supplementary information"
                 ],
@@ -1726,12 +1728,12 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0009-0009-9897-333X",
+                    "foaf:openid": "http://orcid.org/0009-0009-9897-333X",
                     "foaf:name": "Thomas Allam",
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://orcid.org/0000-0002-1406-8802",
+                    "foaf:openid": "http://orcid.org/0000-0002-1406-8802",
                     "foaf:name": "Jennifer R. Hiscock",
                     "@type": "foaf:Person",
                     "dcat:hadRole": {
@@ -1745,7 +1747,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1761,16 +1763,16 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             }
         },
         {
-            "@id": "psdiCat:b01dc999-4bb5-49d8-8a45-23cef457d6b4",
-            "dcterms:identifier": "psdiCat:b01dc999-4bb5-49d8-8a45-23cef457d6b4",
+            "@id": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4",
+            "dcterms:identifier": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "BioSim (Biomolecular Simulations) data resource",
             "rdfs:label": "BioSim data resource",
@@ -1789,7 +1791,7 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                 "foaf:name": "Jas Kalayan",
                 "@type": "foaf:Person"
             },
@@ -1798,7 +1800,7 @@
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.psdi.ac.uk/contact/",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -1813,15 +1815,15 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcatExt:relatedGuidance": "psdiCat:92c4c1e5-85e8-45fb-82cf-cfacf7ee2971",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:92c4c1e5-85e8-45fb-82cf-cfacf7ee2971",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
-                "@id": "psdiCat:bc930fa5-63da-4707-80f8-3c642960796a",
-                "dcterms:identifier": "psdiCat:bc930fa5-63da-4707-80f8-3c642960796a",
+                "@id": "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a",
+                "dcterms:identifier": "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a",
                 "dcterms:type": "dcat:Dataset",
                 "dcterms:title": "BioSimDB (Biomolecular Simulations Database)",
                 "rdfs:label": "BioSimDB",
@@ -1840,7 +1842,7 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                    "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                     "foaf:name": "Jas Kalayan",
                     "@type": "foaf:Person"
                 },
@@ -1849,11 +1851,11 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:conformsTo": {
-                    "@id": "https://docs.mdanalysis.org/1.1.1/documentation_pages/topology/init.html",
+                    "@id": "http://docs.mdanalysis.org/1.1.1/documentation_pages/topology/init.html",
                     "rdfs:label": "all simulation topology and trajectory file formats that can be read by MDAnalysis",
                     "@type": "rdfs:Resource"
                 },
@@ -1869,8 +1871,8 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
@@ -1879,12 +1881,12 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:Distribution": {
-                    "dcat:accessService": "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d"
+                    "dcat:accessService": "psdiDcat:8eaa377d-fa93-4b98-ba2b-27d85413349d"
                 }
             },
             "dcat:DataService": {
-                "@id": "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d",
-                "dcterms:identifier": "psdiCat:8eaa377d-fa93-4b98-ba2b-27d85413349d",
+                "@id": "psdiDcat:8eaa377d-fa93-4b98-ba2b-27d85413349d",
+                "dcterms:identifier": "psdiDcat:8eaa377d-fa93-4b98-ba2b-27d85413349d",
                 "dcterms:type": "dcat:DataService",
                 "dcterms:title": "Biomolecular simulation service for deposition and exploration of data",
                 "rdfs:label": "BioSimDB deposition and exploration service",
@@ -1903,7 +1905,7 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                    "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                     "foaf:name": "Jas Kalayan",
                     "@type": "foaf:Person"
                 },
@@ -1912,7 +1914,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -1923,17 +1925,17 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 }
             },
-            "dcatExt:Tool": [
+            "psdiDcatExt:Tool": [
                 {
-                    "@id": "psdiCat:772d0dc0-e082-44ef-a450-fa674c775e68",
-                    "dcterms:identifier": "psdiCat:772d0dc0-e082-44ef-a450-fa674c775e68",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68",
+                    "dcterms:identifier": "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "GROMACS plugin for AiiDA",
                     "rdfs:label": "aiida-gromacs",
                     "dcterms:description": "A plugin for using GROMACS with AiiDA for molecular dynamics simulation data provenance",
@@ -1951,25 +1953,25 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                        "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                         "foaf:name": "Jas Kalayan",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/aiida-gromacs",
+                        "@id": "http://github.com/PSDI-UK/aiida-gromacs",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/PSDI-UK/aiida-gromacs/issues",
+                        "@id": "http://github.com/PSDI-UK/aiida-gromacs/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:conformsTo": {
-                        "@id": "https://peps.python.org/pep-0008/",
+                        "@id": "http://peps.python.org/pep-0008/",
                         "rdfs:label": "PEP8",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://aiida-gromacs.readthedocs.io/en/latest/",
+                        "@id": "http://aiida-gromacs.readthedocs.io/en/latest/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -1986,7 +1988,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/mit",
+                        "@id": "http://opensource.org/license/mit",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -1994,24 +1996,24 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "v2.0.8",
-                    "dcatExt:relatedGuidance": "psdiCat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/PSDI-UK/aiida-gromacs",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/PSDI-UK/aiida-gromacs",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:programmingLanguage": "Programming Language :: Python :: 3.8",
-                    "dcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
-                    "dcatExt:exampleData": "psdiCat:bc930fa5-63da-4707-80f8-3c642960796a"
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.8",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
+                    "psdiDcatExt:exampleData": "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a"
                 },
                 {
-                    "@id": "psdiCat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6",
-                    "dcterms:identifier": "psdiCat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6",
+                    "dcterms:identifier": "psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "Amber plugin for AiiDA",
                     "rdfs:label": "aiida-amber",
                     "dcterms:description": "A plugin for using Amber with AiiDA for molecular dynamics simulation data provenance",
@@ -2029,25 +2031,25 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                        "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                         "foaf:name": "Jas Kalayan",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/aiida-gromacs",
+                        "@id": "http://github.com/PSDI-UK/aiida-gromacs",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/PSDI-UK/aiida-amber/issues",
+                        "@id": "http://github.com/PSDI-UK/aiida-amber/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:conformsTo": {
-                        "@id": "https://peps.python.org/pep-0008/",
+                        "@id": "http://peps.python.org/pep-0008/",
                         "rdfs:label": "PEP8",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://aiida-amber.readthedocs.io/en/latest/",
+                        "@id": "http://aiida-amber.readthedocs.io/en/latest/",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -2064,7 +2066,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/mit",
+                        "@id": "http://opensource.org/license/mit",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -2072,24 +2074,24 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "v.1.0.0",
-                    "dcatExt:relatedGuidance": "psdiCat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/PSDI-UK/aiida-gromacs",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/PSDI-UK/aiida-gromacs",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:programmingLanguage": "Programming Language :: Python :: 3.8",
-                    "dcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
-                    "dcatExt:exampleData": "psdiCat:bc930fa5-63da-4707-80f8-3c642960796a"
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.8",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
+                    "psdiDcatExt:exampleData": "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a"
                 },
                 {
-                    "@id": "psdiCat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
-                    "dcterms:identifier": "psdiCat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
+                    "dcterms:identifier": "psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "Demo BioSim database with local web interface",
                     "rdfs:label": "Demo-BioSimDB",
                     "dcterms:description": "A demonstration of the web interface for uploading and exploring simulation and provenance files saved in local SQLite database",
@@ -2107,20 +2109,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                        "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                         "foaf:name": "Jas Kalayan",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/PSDI-UK/biosimdb-app",
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/PSDI-UK/biosimdb-app/issues",
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:conformsTo": {
-                        "@id": "https://peps.python.org/pep-0008/",
+                        "@id": "http://peps.python.org/pep-0008/",
                         "rdfs:label": "PEP8",
                         "@type": "rdfs:Resource"
                     },
@@ -2138,7 +2140,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/mit",
+                        "@id": "http://opensource.org/license/mit",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -2146,22 +2148,22 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "v.1.0.0",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/PSDI-UK/biosimdb-app",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/PSDI-UK/biosimdb-app",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:programmingLanguage": "Programming Language :: Python :: 3.1"
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.1"
                 }
             ],
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
-                "dcterms:identifier": "psdiCat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
+                "dcterms:identifier": "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "Cloud based Jupyter aiida-gromacs demo/training",
                 "rdfs:label": "Cloud based Jupyter aiida-gromacs demo/training",
                 "dcterms:description": "Tutorials with pre-loaded user environments for using aiida-gromacs to produce provenance workflows for biomolecular simulations",
@@ -2179,16 +2181,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                    "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                     "foaf:name": "Jas Kalayan",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://www.ccpbiosim.ac.uk/psdi-demo",
+                    "@id": "http://www.ccpbiosim.ac.uk/psdi-demo",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2203,16 +2205,16 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutTool": "psdiCat:772d0dc0-e082-44ef-a450-fa674c775e68"
+                "psdiDcatExt:aboutTool": "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68"
             },
             "dcat:Guidance": {
-                "@id": "psdiCat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
-                "dcterms:identifier": "psdiCat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
+                "@id": "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
+                "dcterms:identifier": "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51",
                 "dcterms:type": "dcat:Guidance",
                 "dcterms:title": "knowledgebase article on resource as a whole (?)",
                 "rdfs:label": "knowledgebase article on resource as a whole (?)",
@@ -2231,16 +2233,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-6833-1864",
+                    "foaf:openid": "http://orcid.org/0000-0002-6833-1864",
                     "foaf:name": "Jas Kalayan",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://aiida-gromacs.readthedocs.io/en/latest/\nXXX J&J please fill in with knowledgebase URL when known",
+                    "@id": "http://aiida-gromacs.readthedocs.io/en/latest/\nXXX J&J please fill in with knowledgebase URL when known",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2255,17 +2257,17 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutCatalog": "psdiCat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
+                "psdiDcatExt:aboutCatalog": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
             }
         },
         {
-            "@id": "psdiCat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
-            "dcterms:identifier": "psdiCat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
+            "@id": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
+            "dcterms:identifier": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Machine Learning Interatomic Potentials (MLIP)",
             "rdfs:label": "MLIP",
@@ -2284,7 +2286,7 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://orcid.org/0000-0002-7013-6670",
+                "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
                 "foaf:name": "Alin Marin Elena",
                 "@type": "foaf:Person"
             },
@@ -2293,7 +2295,7 @@
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.psdi.ac.uk/contact/",
+                "@id": "http://www.psdi.ac.uk/contact/",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -2308,15 +2310,15 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcatExt:relatedGuidance": "psdiCat:6974a979-d7f2-4c89-80c7-ba67930661d2",
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:relatedGuidance": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
-                "@id": "psdiCat:771d2ae4-7f19-4258-b144-dc212cef6e43",
-                "dcterms:identifier": "psdiCat:771d2ae4-7f19-4258-b144-dc212cef6e43",
+                "@id": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43",
+                "dcterms:identifier": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43",
                 "dcterms:type": "dcat:Dataset",
                 "dcterms:title": "MLIP data collection (is this just one collection in invenio, or should it be separated into two datasets: (1) for MLIP xyz files and (2) AIIDA process recording)?",
                 "rdfs:label": "MLIP data collection",
@@ -2335,7 +2337,7 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-7013-6670",
+                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
                     "foaf:name": "Alin Marin Elena",
                     "@type": "foaf:Person"
                 },
@@ -2344,7 +2346,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2363,8 +2365,8 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
@@ -2373,12 +2375,12 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:Distribution": {
-                    "dcat:accessService": "psdiCat:40763294-e924-41c5-806c-1d8733d14c63"
+                    "dcat:accessService": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63"
                 }
             },
             "dcat:DataService": {
-                "@id": "psdiCat:40763294-e924-41c5-806c-1d8733d14c63",
-                "dcterms:identifier": "psdiCat:40763294-e924-41c5-806c-1d8733d14c63",
+                "@id": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
+                "dcterms:identifier": "psdiDcat:40763294-e924-41c5-806c-1d8733d14c63",
                 "dcterms:type": "dcat:DataService",
                 "dcterms:title": "MLIP data search and deposition service",
                 "rdfs:label": "MLIP data search and deposition service",
@@ -2397,7 +2399,7 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-7013-6670",
+                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
                     "foaf:name": "Alin Marin Elena",
                     "@type": "foaf:Person"
                 },
@@ -2406,7 +2408,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2426,17 +2428,17 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "1.1.1",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcat:servesDataset": "psdiCat:771d2ae4-7f19-4258-b144-dc212cef6e43"
+                "dcat:servesDataset": "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"
             },
-            "dcatExt:Tool": {
-                "@id": "psdiCat:6bcaa538-a26f-4720-a505-bada3aa52f55",
-                "dcterms:identifier": "psdiCat:6bcaa538-a26f-4720-a505-bada3aa52f55",
-                "dcterms:type": "dcatExt:Tool",
+            "psdiDcatExt:Tool": {
+                "@id": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
+                "dcterms:identifier": "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55",
+                "dcterms:type": "psdiDcatExt:Tool",
                 "dcterms:title": "abcd database tools",
                 "rdfs:label": "abcd database tools",
                 "dcterms:description": "XXX please fill in",
@@ -2454,20 +2456,20 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-7013-6670",
+                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
                     "foaf:name": "Alin Marin Elena",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://github.com/libAtoms/abcd/",
+                    "@id": "http://github.com/libAtoms/abcd/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://github.com/libAtoms/abcd/issues",
+                    "@id": "http://github.com/libAtoms/abcd/issues",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:isReferencedBy": {
-                    "@id": "https://libatoms.github.io/abcd/",
+                    "@id": "http://libatoms.github.io/abcd/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2483,21 +2485,21 @@
                     "@id": "psdiPol:openAccess"
                 },
                 "dcat:version": "XXX please fill in e.g. 1.1.1",
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:repositoryURL": {
-                    "@id": "https://github.com/libAtoms/abcd/",
+                "psdiDcatExt:repositoryURL": {
+                    "@id": "http://github.com/libAtoms/abcd/",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:programmingLanguage": "Programming Language :: Python :: 3.9"
+                "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.9"
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:6974a979-d7f2-4c89-80c7-ba67930661d2",
-                "dcterms:identifier": "psdiCat:6974a979-d7f2-4c89-80c7-ba67930661d2",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
+                "dcterms:identifier": "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "MLIP training",
                 "rdfs:label": "MLIP training",
                 "dcterms:description": "XXX Please review and fill in.",
@@ -2515,7 +2517,7 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0002-7013-6670",
+                    "foaf:openid": "http://orcid.org/0000-0002-7013-6670",
                     "foaf:name": "Alin Marin Elena",
                     "@type": "foaf:Person"
                 },
@@ -2524,7 +2526,7 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.psdi.ac.uk/contact/",
+                    "@id": "http://www.psdi.ac.uk/contact/",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -2539,17 +2541,17 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutCatalog": "psdiCat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
+                "psdiDcatExt:aboutCatalog": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
             }
         },
         {
-            "@id": "psdiCat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e",
-            "dcterms:identifier": "psdiCat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e",
+            "@id": "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e",
+            "dcterms:identifier": "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC)",
             "rdfs:label": "CCP-NC",
@@ -2572,20 +2574,20 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://orcid.org/0000-0003-4485-3446",
+                "foaf:openid": "http://orcid.org/0000-0003-4485-3446",
                 "foaf:name": "John Kane Shenton",
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "https://www.ccpnc.ac.uk/database/",
+                "@id": "http://www.ccpnc.ac.uk/database/",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "https://www.ccpnc.ac.uk/contact",
+                "@id": "http://www.ccpnc.ac.uk/contact",
                 "@type": "rdfs:Resource"
             },
             "dcterms:isReferencedBy": {
-                "@id": "https://www.ccpnc.ac.uk/database/faqs.html",
+                "@id": "http://www.ccpnc.ac.uk/database/faqs.html",
                 "rdfs:label": "CCP-NC database - Frequently Asked Questions",
                 "@type": "rdfs:Resource"
             },
@@ -2605,14 +2607,14 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
-                "@id": "psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
-                "dcterms:identifier": "psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
+                "@id": "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
+                "dcterms:identifier": "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
                 "dcterms:type": "dcat:Dataset",
                 "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres database",
                 "rdfs:label": "CCP-NC Magres database",
@@ -2638,25 +2640,25 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0003-4485-3446",
+                    "foaf:openid": "http://orcid.org/0000-0003-4485-3446",
                     "foaf:name": "John Kane Shenton",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://www.ccpnc.ac.uk/database/",
+                    "@id": "http://www.ccpnc.ac.uk/database/",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "https://www.ccpnc.ac.uk/contact",
+                    "@id": "http://www.ccpnc.ac.uk/contact",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:conformsTo": {
-                    "@id": "https://www.ccpnc.ac.uk/docs/magres/magres-format.pdf",
+                    "@id": "http://www.ccpnc.ac.uk/docs/magres/magres-format.pdf",
                     "rdfs:label": "magres",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:isReferencedBy": {
-                    "@id": "https://www.ccpnc.ac.uk/database/faqs.html",
+                    "@id": "http://www.ccpnc.ac.uk/database/faqs.html",
                     "rdfs:label": "CCP-NC database - Frequently Asked Questions",
                     "@type": "rdfs:Resource"
                 },
@@ -2674,15 +2676,15 @@
                     "@type": "xsd:dateTime"
                 },
                 "dcterms:license": {
-                    "@id": "https://creativecommons.org/licenses/by/4.0/deed.en",
+                    "@id": "http://creativecommons.org/licenses/by/4.0/deed.en",
                     "rdfs:label": "CC-By v4.0",
                     "@type": "rdfs:Resource"
                 },
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
@@ -2691,13 +2693,13 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:Distribution": {
-                    "dcat:accessService": "psdiCat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3"
+                    "dcat:accessService": "psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3"
                 }
             },
             "dcat:DataService": [
                 {
-                    "@id": "psdiCat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3",
-                    "dcterms:identifier": "psdiCat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3",
+                    "@id": "psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3",
+                    "dcterms:identifier": "psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database search",
                     "rdfs:label": "CCP-NC MAGRES database search",
@@ -2720,20 +2722,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0009-0006-9138-9585",
+                        "foaf:openid": "http://orcid.org/0009-0006-9138-9585",
                         "foaf:name": "Sathya Sai Seetharaman",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://www.ccpnc.ac.uk/database/",
+                        "@id": "http://www.ccpnc.ac.uk/database/",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.ccpnc.ac.uk/contact",
+                        "@id": "http://www.ccpnc.ac.uk/contact",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://www.ccpnc.ac.uk/database/faqs.html",
+                        "@id": "http://www.ccpnc.ac.uk/database/faqs.html",
                         "rdfs:label": "CCP-NC database - Frequently Asked Questions",
                         "@type": "rdfs:Resource"
                     },
@@ -2754,16 +2756,16 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.0.0",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:servesDataset": "psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"
+                    "dcat:servesDataset": "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"
                 },
                 {
-                    "@id": "psdiCat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
-                    "dcterms:identifier": "psdiCat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
+                    "@id": "psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
+                    "dcterms:identifier": "psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) MagresView 1.6",
                     "rdfs:label": "CCP-NC MagresView 1.6",
@@ -2787,20 +2789,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0003-4485-3446",
+                        "foaf:openid": "http://orcid.org/0000-0003-4485-3446",
                         "foaf:name": "John Kane Shenton",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://www.ccpnc.ac.uk/magresview/magresview/magres_view.html",
+                        "@id": "http://www.ccpnc.ac.uk/magresview/magresview/magres_view.html",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://www.ccpnc.ac.uk/contact",
+                        "@id": "http://www.ccpnc.ac.uk/contact",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://doi.org/10.1016/j.ssnmr.2016.05.004",
+                        "@id": "http://doi.org/10.1016/j.ssnmr.2016.05.004",
                         "rdfs:label": "Visualization and processing of computed solid-state NMR parameters: MagresView and MagresPython",
                         "@type": "rdfs:Resource"
                     },
@@ -2821,19 +2823,19 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "1.6.2",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:servesDataset": "psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"
+                    "dcat:servesDataset": "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"
                 }
             ],
-            "dcatExt:Tool": [
+            "psdiDcatExt:Tool": [
                 {
-                    "@id": "psdiCat:22ce2e1a-1e37-4773-a574-27658e395438",
-                    "dcterms:identifier": "psdiCat:22ce2e1a-1e37-4773-a574-27658e395438",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:22ce2e1a-1e37-4773-a574-27658e395438",
+                    "dcterms:identifier": "psdiDcat:22ce2e1a-1e37-4773-a574-27658e395438",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "Collaborative Computational Project for NMR Crystallography (CCP-NC) MagresView 2.0 library",
                     "rdfs:label": "CCP-NC MagresView 2.0 library",
                     "dcterms:description": "A tool to visualize predicted NMR parameters in an intuitive, graphically accessible way and convert these parameters into input files for the most common NMR simulation programs. SSNMR parameters like magnetic shielding and electric field gradient can be visually represented as scaled ellipsoids super-imposed on the crystal structure for visualisation.",
@@ -2857,20 +2859,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0003-4485-3446",
+                        "foaf:openid": "http://orcid.org/0000-0003-4485-3446",
                         "foaf:name": "John Kane Shenton",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/CCP-NC/magresview-2/tree/main",
+                        "@id": "http://github.com/CCP-NC/magresview-2/tree/main",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/CCP-NC/magresview-2/issues",
+                        "@id": "http://github.com/CCP-NC/magresview-2/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://doi.org/10.1016/j.ssnmr.2016.05.004",
+                        "@id": "http://doi.org/10.1016/j.ssnmr.2016.05.004",
                         "rdfs:label": "Visualization and processing of computed solid-state NMR parameters: MagresView and MagresPython",
                         "@type": "rdfs:Resource"
                     },
@@ -2888,7 +2890,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/mit",
+                        "@id": "http://opensource.org/license/mit",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -2896,22 +2898,22 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "2.0.0",
-                    "dcatExt:relatedGuidance": "psdiCat:ac95b75f-6b9d-417e-abcc-15df08ca8842",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:ac95b75f-6b9d-417e-abcc-15df08ca8842",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:downloadURL": "https://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip",
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/CCP-NC/magresview-2/tree/main",
+                    "psdiDcatExt:downloadURL": "http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/CCP-NC/magresview-2/tree/main",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:installCommand": "docker pull https://github.com/CCP-NC/magresview-2/blob/main/Dockerfile ???",
-                    "dcatExt:programmingLanguage": "Programming Language :: JavaScript",
-                    "dcatExt:developmentStatus": "Development Status :: 4 - Beta",
-                    "dcatExt:byteSize": 8226347,
-                    "dcatExt:exampleData": "psdiCat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
+                    "psdiDcatExt:installCommand": "docker pull http://github.com/CCP-NC/magresview-2/blob/main/Dockerfile ???",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: JavaScript",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta",
+                    "psdiDcatExt:byteSize": 8226347,
+                    "psdiDcatExt:exampleData": "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771",
                     "spdx:checkSum": {
                         "@type": "spdx:checkSum",
                         "spdx:algorithm": {
@@ -2926,9 +2928,9 @@
                     }
                 },
                 {
-                    "@id": "psdiCat:51c04def-007c-4536-8441-015aa097b30c",
-                    "dcterms:identifier": "psdiCat:51c04def-007c-4536-8441-015aa097b30c",
-                    "dcterms:type": "dcatExt:Tool",
+                    "@id": "psdiDcat:51c04def-007c-4536-8441-015aa097b30c",
+                    "dcterms:identifier": "psdiDcat:51c04def-007c-4536-8441-015aa097b30c",
+                    "dcterms:type": "psdiDcatExt:Tool",
                     "dcterms:title": "Soprano",
                     "rdfs:label": "Soprano",
                     "dcterms:description": "A Python library to aid in general crystallography tasks, including NMR parameter manipulation, using among other things simple machine learning algorithms. It ships with its own set of tutorials, and the site provides documentation as well.",
@@ -2956,20 +2958,20 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0003-4485-3446",
+                        "foaf:openid": "http://orcid.org/0000-0003-4485-3446",
                         "foaf:name": "John Kane Shenton",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://github.com/CCP-NC/soprano/",
+                        "@id": "http://github.com/CCP-NC/soprano/",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "https://github.com/CCP-NC/soprano/issues",
+                        "@id": "http://github.com/CCP-NC/soprano/issues",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
-                        "@id": "https://ccp-nc.github.io/soprano/intro.html",
+                        "@id": "http://ccp-nc.github.io/soprano/intro.html",
                         "rdfs:label": "Soprano Github pages",
                         "@type": "rdfs:Resource"
                     },
@@ -2987,7 +2989,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://www.gnu.org/licenses/lgpl-3.0.en.html",
+                        "@id": "http://www.gnu.org/licenses/lgpl-3.0.en.html",
                         "rdfs:label": "GNU Lesser General Public License",
                         "@type": "rdfs:Resource"
                     },
@@ -2995,26 +2997,26 @@
                         "@id": "psdiPol:openAccess"
                     },
                     "dcat:version": "0.9.2",
-                    "dcatExt:relatedGuidance": "psdiCat:4e56b202-546b-4fde-a02d-1b06d63d8f1d",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:relatedGuidance": "psdiDcat:4e56b202-546b-4fde-a02d-1b06d63d8f1d",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:downloadURL": "https://pypi.org/project/Soprano/#files",
-                    "dcatExt:repositoryURL": {
-                        "@id": "https://github.com/CCP-NC/soprano/",
+                    "psdiDcatExt:downloadURL": "http://pypi.org/project/Soprano/#files",
+                    "psdiDcatExt:repositoryURL": {
+                        "@id": "http://github.com/CCP-NC/soprano/",
                         "@type": "rdfs:Resource"
                     },
-                    "dcatExt:installCommand": "pip install soprano",
-                    "dcatExt:programmingLanguage": "Programming Language :: Python :: 3.9",
-                    "dcatExt:developmentStatus": "Development Status :: 4 - Beta"
+                    "psdiDcatExt:installCommand": "pip install soprano",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.9",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta"
                 }
             ]
         },
         {
-            "@id": "psdiCat:dac6ab91-fd6e-43e1-b54a-55adc7548b14",
-            "dcterms:identifier": "psdiCat:dac6ab91-fd6e-43e1-b54a-55adc7548b14",
+            "@id": "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14",
+            "dcterms:identifier": "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Galaxy workflow management system",
             "rdfs:label": "Galaxy",
@@ -3033,16 +3035,16 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://orcid.org/0000-0003-2777-5167",
+                "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
                 "foaf:name": "Leandro Liborio",
                 "@type": "foaf:Person"
             },
             "dcat:landingPage": {
-                "@id": "https://materialsgalaxy.stfc.ac.uk/",
+                "@id": "http://materialsgalaxy.stfc.ac.uk/",
                 "@type": "rdfs:Resource"
             },
             "dcat:contactPoint": {
-                "@id": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
                 "@type": "rdfs:Resource"
             },
             "dcterms:isReferencedBy": {
@@ -3059,15 +3061,15 @@
                 "@id": "http://purl.org/adms/status/UnderDevelopment",
                 "@type": "rdfs:Resource"
             },
-            "dcatExt:logoURL": {
-                "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+            "psdiDcatExt:logoURL": {
+                "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:DataService": [
                 {
-                    "@id": "psdiCat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a",
-                    "dcterms:identifier": "psdiCat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a",
+                    "@id": "psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a",
+                    "dcterms:identifier": "psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Galaxy workflow management system service",
                     "rdfs:label": "Galaxy workflow management system service",
@@ -3086,16 +3088,16 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0003-2777-5167",
+                        "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
                         "foaf:name": "Leandro Liborio",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://materialsgalaxy.stfc.ac.uk/",
+                        "@id": "http://materialsgalaxy.stfc.ac.uk/",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                        "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:isReferencedBy": {
@@ -3117,7 +3119,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/MIT",
+                        "@id": "http://opensource.org/license/MIT",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -3125,15 +3127,15 @@
                         "@id": "psdiPol:nonPsdiLoginRequired"
                     },
                     "dcat:version": "XXX please check 24.1.2",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     }
                 },
                 {
-                    "@id": "psdiCat:66d10e20-66ea-49a7-a29a-be94cd2be77b",
-                    "dcterms:identifier": "psdiCat:66d10e20-66ea-49a7-a29a-be94cd2be77b",
+                    "@id": "psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b",
+                    "dcterms:identifier": "psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b",
                     "dcterms:type": "dcat:DataService",
                     "dcterms:title": "Galaxy API",
                     "rdfs:label": "Galaxy API",
@@ -3152,16 +3154,16 @@
                         "@type": "foaf:Organisation"
                     },
                     "dcterms:creator": {
-                        "foaf:openid": "https://orcid.org/0000-0003-2777-5167",
+                        "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
                         "foaf:name": "Leandro Liborio",
                         "@type": "foaf:Person"
                     },
                     "dcat:landingPage": {
-                        "@id": "https://materialsgalaxy.stfc.ac.uk/api/docs",
+                        "@id": "http://materialsgalaxy.stfc.ac.uk/api/docs",
                         "@type": "rdfs:Resource"
                     },
                     "dcat:contactPoint": {
-                        "@id": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                        "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
                         "@type": "rdfs:Resource"
                     },
                     "dcterms:language": {
@@ -3178,7 +3180,7 @@
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
-                        "@id": "https://opensource.org/license/MIT",
+                        "@id": "http://opensource.org/license/MIT",
                         "rdfs:label": "The MIT License",
                         "@type": "rdfs:Resource"
                     },
@@ -3186,22 +3188,22 @@
                         "@id": "psdiPol:nonPsdiLoginRequired"
                     },
                     "dcat:version": "XXX please fill in e.g. 1.1.1",
-                    "dcatExt:logoURL": {
-                        "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                    "psdiDcatExt:logoURL": {
+                        "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource"
                     },
-                    "dcat:endpointDescription": "https://materialsgalaxy.stfc.ac.uk/api/docs",
+                    "dcat:endpointDescription": "http://materialsgalaxy.stfc.ac.uk/api/docs",
                     "dcat:endpointURL": {
-                        "@id": "https://materialsgalaxy.stfc.ac.uk/api/docs#/datasets/index_api_datasets_get",
+                        "@id": "http://materialsgalaxy.stfc.ac.uk/api/docs#/datasets/index_api_datasets_get",
                         "@type": "rdfs:Resource"
                     }
                 }
             ],
-            "dcatExt:Tool": {
-                "@id": "psdiCat:264b7f86-9ba9-4418-bfd2-c8e642c72dc7",
-                "dcterms:identifier": "psdiCat:264b7f86-9ba9-4418-bfd2-c8e642c72dc7",
-                "dcterms:type": "dcatExt:Tool",
+            "psdiDcatExt:Tool": {
+                "@id": "psdiDcat:264b7f86-9ba9-4418-bfd2-c8e642c72dc7",
+                "dcterms:identifier": "psdiDcat:264b7f86-9ba9-4418-bfd2-c8e642c72dc7",
+                "dcterms:type": "psdiDcatExt:Tool",
                 "dcterms:title": "“The Muon Spectroscopy Computational Project” code",
                 "rdfs:label": "“The Muon Spectroscopy Computational Project” code",
                 "dcterms:description": "XXX Please review and fill in.",
@@ -3219,16 +3221,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0003-2777-5167",
+                    "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
                     "foaf:name": "Leandro Liborio",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://github.com/muon-spectroscopy-computational-project",
+                    "@id": "http://github.com/muon-spectroscopy-computational-project",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                    "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3237,27 +3239,27 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:license": {
-                    "@id": "https://opensource.org/license/mit",
+                    "@id": "http://opensource.org/license/mit",
                     "rdfs:label": "The MIT License",
                     "@type": "rdfs:Resource"
                 },
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:repositoryURL": {
-                    "@id": "https://github.com/muon-spectroscopy-computational-project",
+                "psdiDcatExt:repositoryURL": {
+                    "@id": "http://github.com/muon-spectroscopy-computational-project",
                     "@type": "rdfs:Resource"
                 }
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8",
-                "dcterms:identifier": "psdiCat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8",
+                "dcterms:identifier": "psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "\"The Muon Spectroscopy Computational Project\" documentation and tutorials",
                 "rdfs:label": "The Muon Spectroscopy Computational Project documentation and tutorials",
                 "dcterms:description": "\"The Muon Spectroscopy Computational Project\" documentation and tutorials on Github pages (linked to from PSDI knowledgebase)",
@@ -3275,16 +3277,16 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://orcid.org/0000-0003-2777-5167",
+                    "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
                     "foaf:name": "Leandro Liborio",
                     "@type": "foaf:Person"
                 },
                 "dcat:landingPage": {
-                    "@id": "https://muon-spectroscopy-computational-project.github.io/software.html",
+                    "@id": "http://muon-spectroscopy-computational-project.github.io/software.html",
                     "@type": "rdfs:Resource"
                 },
                 "dcat:contactPoint": {
-                    "@id": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?",
+                    "@id": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3303,21 +3305,21 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcatExt:logoURL": {
-                    "@id": "https://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
+                "psdiDcatExt:logoURL": {
+                    "@id": "http://www.psdi.ac.uk/wp-content/uploads/2022/01/PSDI_Logo_CMYK-01.svg",
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource"
                 },
-                "dcatExt:aboutCatalog": "psdiCat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"
+                "psdiDcatExt:aboutCatalog": "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"
             }
         },
         {
-            "@id": "psdiCat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
-            "dcterms:identifier": "psdiCat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
+            "@id": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
+            "dcterms:identifier": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
             "dcterms:type": "dcat:Catalog",
             "dcterms:title": "Open Materials Micrograph Repository",
             "rdfs:label": "Open Materials Micrograph Repository",
-            "dcterms:description": "The Open Materials Micrograph Repository (OM2R) is a free and open repository for materials micrographs and nanographs. We support optical light microscopy and electron microscopy, covering scanning electron microscopy (SEM), transmission electron microscopy (TEM), and scanning transmission electron microscopy (STEM). OM2R is free and open to query on the front-end without registration. Account registration is required to submit your data, and use the API features on OM2R. OM2R is supported by the MIDAS Programme Grant, Physical Sciences Data Infrastructure (PSDI) and the Engineering and Physical Sciences Research Council (EPSRC). Please use the PSDI contact form (https://www.psdi.ac.uk/contact/) if you have any feature suggestions, or want to get involved.",
+            "dcterms:description": "The Open Materials Micrograph Repository (OM2R) is a free and open repository for materials micrographs and nanographs. We support optical light microscopy and electron microscopy, covering scanning electron microscopy (SEM), transmission electron microscopy (TEM), and scanning transmission electron microscopy (STEM). OM2R is free and open to query on the front-end without registration. Account registration is required to submit your data, and use the API features on OM2R. OM2R is supported by the MIDAS Programme Grant, Physical Sciences Data Infrastructure (PSDI) and the Engineering and Physical Sciences Research Council (EPSRC). Please use the PSDI contact form (http://www.psdi.ac.uk/contact/) if you have any feature suggestions, or want to get involved.",
             "dcat:keyword": [
                 "microscopy",
                 " electron microscopy",
@@ -3369,12 +3371,12 @@
                 "@type": "foaf:Organisation"
             },
             "dcterms:creator": {
-                "foaf:openid": "https://www.linkedin.com/in/benjefferson/",
+                "foaf:openid": "http://www.linkedin.com/in/benjefferson/",
                 "foaf:name": "Ben Jefferson",
                 "@type": "foaf:Person"
             },
             "prov:qualifiedAttribution": {
-                "foaf:openid": "https://www.royce.ac.uk",
+                "foaf:openid": "http://www.royce.ac.uk",
                 "foaf:name": "The Henry Royce Institute for advanced materials",
                 "@type": "foaf:Organisation",
                 "dcat:hadRole": {
@@ -3388,7 +3390,7 @@
             },
             "dcat:contactPoint": {
                 "@id": "happy for PSDI to act as intermediary in the building stages",
-                "rdfs:label": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
                 "@type": "rdfs:Resource"
             },
             "dcterms:language": {
@@ -3401,18 +3403,18 @@
                 "@type": "rdfs:Resource"
             },
             "dcterms:license": {
-                "@id": "https://creativecommons.org/licenses/by/4.0/",
+                "@id": "http://creativecommons.org/licenses/by/4.0/",
                 "@type": "rdfs:Resource"
             },
-            "dcatExt:relatedGuidance": "psdiCat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
-            "dcatExt:logoURL": {
+            "psdiDcatExt:relatedGuidance": "psdiDcat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
+            "psdiDcatExt:logoURL": {
                 "@id": "one that won't change preferably",
                 "rdfs:label": "url for logo",
                 "@type": "rdfs:Resource"
             },
             "dcat:Dataset": {
-                "@id": "psdiCat:47aba175-b56f-474c-aa70-3db48482f6d4",
-                "dcterms:identifier": "psdiCat:47aba175-b56f-474c-aa70-3db48482f6d4",
+                "@id": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4",
+                "dcterms:identifier": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4",
                 "dcterms:type": "dcat:Dataset",
                 "dcterms:title": "Open Materials Micrograph Repository",
                 "rdfs:label": "Open Materials Micrograph Repository",
@@ -3468,12 +3470,12 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://www.linkedin.com/in/benjefferson/",
+                    "foaf:openid": "http://www.linkedin.com/in/benjefferson/",
                     "foaf:name": "Ben Jefferson",
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://www.royce.ac.uk",
+                    "foaf:openid": "http://www.royce.ac.uk",
                     "foaf:name": "The Henry Royce Institute for advanced materials",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
@@ -3487,7 +3489,7 @@
                 },
                 "dcat:contactPoint": {
                     "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3508,12 +3510,12 @@
                     "@type": "rdfs:Resource"
                 },
                 "dcat:Distribution": {
-                    "dcat:accessService": "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"
+                    "dcat:accessService": "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"
                 }
             },
             "dcat:DataService": {
-                "@id": "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
-                "dcterms:identifier": "psdiCat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
+                "@id": "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
+                "dcterms:identifier": "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
                 "dcterms:type": "dcat:DataService",
                 "dcterms:title": "Open Materials Micrograph Repository user interface",
                 "rdfs:label": "Open Materials Micrograph Repository user interface",
@@ -3569,12 +3571,12 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://www.linkedin.com/in/benjefferson/",
+                    "foaf:openid": "http://www.linkedin.com/in/benjefferson/",
                     "foaf:name": "Ben Jefferson",
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://www.royce.ac.uk",
+                    "foaf:openid": "http://www.royce.ac.uk",
                     "foaf:name": "The Henry Royce Institute for advanced materials",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
@@ -3588,7 +3590,7 @@
                 },
                 "dcat:contactPoint": {
                     "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3605,12 +3607,12 @@
                     "@type": "xsd:dateTime"
                 },
                 "dcat:version": "XXX please fill in e.g. 1.1.1",
-                "dcat:servesDataset": "psdiCat:47aba175-b56f-474c-aa70-3db48482f6d4"
+                "dcat:servesDataset": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4"
             },
-            "dcatExt:Guidance": {
-                "@id": "psdiCat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
-                "dcterms:identifier": "psdiCat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
-                "dcterms:type": "dcatExt:Guidance",
+            "psdiDcatExt:Guidance": {
+                "@id": "psdiDcat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
+                "dcterms:identifier": "psdiDcat:59718554-a9d7-46ac-a80e-5188f6faa4f4",
+                "dcterms:type": "psdiDcatExt:Guidance",
                 "dcterms:title": "Documentation",
                 "rdfs:label": "Documentation",
                 "dcterms:description": "XXX Please review and fill in",
@@ -3665,12 +3667,12 @@
                     "@type": "foaf:Organisation"
                 },
                 "dcterms:creator": {
-                    "foaf:openid": "https://www.linkedin.com/in/benjefferson/",
+                    "foaf:openid": "http://www.linkedin.com/in/benjefferson/",
                     "foaf:name": "Ben Jefferson",
                     "@type": "foaf:Person"
                 },
                 "prov:qualifiedAttribution": {
-                    "foaf:openid": "https://www.royce.ac.uk",
+                    "foaf:openid": "http://www.royce.ac.uk",
                     "foaf:name": "The Henry Royce Institute for advanced materials",
                     "@type": "foaf:Organisation",
                     "dcat:hadRole": {
@@ -3684,7 +3686,7 @@
                 },
                 "dcat:contactPoint": {
                     "@id": "happy for PSDI to act as intermediary in the building stages",
-                    "rdfs:label": "via https://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
+                    "rdfs:label": "via http://www.psdi.ac.uk/contact/ or do you have another method of contact?  datacuration@royce.ac.uk",
                     "@type": "rdfs:Resource"
                 },
                 "dcterms:language": {
@@ -3700,9 +3702,8 @@
                     "@value": "XXX please fill this in e.g. 2020-01-01T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
-                "dcatExt:aboutCatalog": "psdiCat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7"
+                "psdiDcatExt:aboutCatalog": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7"
             }
         }
-    ],
-    "dcat:Dataset": null
+    ]
 }
