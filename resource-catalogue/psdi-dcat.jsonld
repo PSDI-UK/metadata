@@ -394,7 +394,33 @@
             "dcterms:description": "This collection of topics provides guidance about the resources provided by PSDI and how to use them.",
             "dcat:keyword": [
                 "psdi, documentation, guidance, resources, psdi-resources, learn"
-            ]
+            ],
+            "dcterms:publisher": {
+                "foaf:name": "PSDI",
+                "@type": "foaf:Organisation",
+                "foaf:openid": "http://www.psdi.ac.uk"
+            },
+            "dcat:landingPage": {
+                "@type": "rdfs:Resource",
+                "@id": "https://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-resources"
+            },
+            "dcat:contactPoint": {
+                "@type": "vcard:Kind",
+                "vcard:hasEmail": "support@psdi.ac.uk"
+            },
+            "dcterms:language": {
+                "rdfs:label": "en",
+                "@type": "rdfs:Resource",
+                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+            },
+            "adms:status": {
+                "@type": "rdfs:Resource",
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "odrl:hasPolicy": {
+                "@id": "psdiPol:openAccess"
+            },
+            "psdiDcatExt:displayPriority": 1
         }
     ],
     "dcat:Catalog": [
