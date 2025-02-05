@@ -75,6 +75,7 @@ psdiDcatExt:programmingLanguage <rdfs:domain> "psdiDcatExt:Tool"@en ;
 psdiDcatExt:deliveryFormat <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	<rdfs:label> "delivery format"@en ;
 	<rdfs:range> "dcterms:MediaType"@en ;
+	<rdfs:subPropertyOf> "dcterms:format"@en ;
 	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA)."@en ;
 	skos:scopeNote "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -158,5 +159,29 @@ psdiDcatExt:logoURL <rdfs:domain> "dcat:Resource"@en ;
 	<rdfs:label> "URL of logo"@en ;
 	<rdfs:range> "rdfs:Resource"@en ;
 	skos:definition "URL to apporopriate logo image to display with this resource. If possible this should be a url which does not change regularly (although the image at this address can change)."@en ;
+	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+dcterms:bibliographicCitation <rdfs:domain> "dcat:Resource"@en ;
+	<rdfs:label> "Bibliographic Citation"@en ;
+	<rdfs:range> "rdfs:Literal"@en ;
+	skos:definition "A bibliographic reference for the resource."@en ;
+	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+psdiDcatExt:displayPriority <rdfs:domain> "dcat:Resource"@en ;
+	<rdfs:label> "Display Priority"@en ;
+	<rdfs:range> "rdfs:Literal"@en ;
+	skos:definition "Integer used to determine order of resources when listed alongside others."@en ;
+	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+psdiDcatExt:primaryResourceTheme <rdfs:domain> "dcat:Resource"@en ;
+	<rdfs:label> "Primary Resource Theme"@en ;
+	<rdfs:range> "dcat:Catalog"@en ;
+	skos:definition "Primary parent resource theme that this resource belongs to."@en ;
+	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
+psdiDcatExt:additionalResourceTheme <rdfs:domain> "dcat:Resource"@en ;
+	<rdfs:label> "Additional Resource Theme"@en ;
+	<rdfs:range> "dcat:Catalog"@en ;
+	skos:definition "Additional (non-primary) parent resource theme that this resource belongs to - can be multiple values."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 

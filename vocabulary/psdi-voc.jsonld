@@ -50,7 +50,7 @@
         "@type": "xsd:dateTime"
     },
     "dcterms:modified": {
-        "@value": "2024-09-25T12:01:01Z",
+        "@value": "2025-02-03T12:01:01Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:creator": {
@@ -270,10 +270,7 @@
             "skos:definition": "Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/6700491441)",
             "skos:broader": [
                 "psdiVoc:psdiPlatform",
-                "psdiVoc:service",
-                "psdiVoc:tool",
-                "psdiVoc:data",
-                "psdiVoc:guidance",
+                "psdiVoc:resource",
                 "psdiVoc:metadata",
                 "psdiVoc:resourceTheme",
                 "psdiVoc:communityActivity"
@@ -311,7 +308,7 @@
                 "format conversion service"
             ],
             "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+                "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
@@ -326,7 +323,7 @@
                 "MagresView library"
             ],
             "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+                "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
@@ -346,7 +343,7 @@
                 "training resource"
             ],
             "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+                "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
@@ -392,7 +389,25 @@
                 "catalogue"
             ],
             "skos:narrower": [
+                "psdiVoc:resource"
+            ],
+            "skos:Collection": "psdiVoc:psdiOverviewCollection",
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVoc:resource",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "resource",
+            "skos:definition": "A general term for data or a service, tool or guidance associated with Physical Sciences and made available for access or download through the PSDI platform.",
+            "rdf:type": "dcat:Resource",
+            "skos:narrower": [
                 "psdiVoc:psdiDeliverable"
+            ],
+            "skos:broader": [
+                "psdiVoc:data",
+                "psdiVoc:service",
+                "psdiVoc:tool",
+                "psdiVoc:guidance"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme"

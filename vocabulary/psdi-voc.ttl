@@ -16,7 +16,7 @@ psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
 	dc11:Version "0.1.0"@en ;
 	dcterms:conformsTo "CDIF_core_controlled_vocabulary_1.0"@en ;
 	dcterms:created "2024-04-18T12:01:01Z"^^xsd:dateTime ;
-	dcterms:modified "2024-09-25T12:01:01Z"^^xsd:dateTime ;
+	dcterms:modified "2025-02-03T12:01:01Z"^^xsd:dateTime ;
 	dcterms:creator [
 		rdf:type foaf:Person ;
 		foaf:name "Aileen Day"@en ;
@@ -121,7 +121,7 @@ psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
 	dc11:subject <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> ;
 	skos:ConceptScheme psdiVoc:vocabularyConceptScheme ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
-	skos:Concept psdiVoc:psdi, psdiVoc:psdiProject, psdiVoc:pathfinder, psdiVoc:psdiDeliverable, psdiVoc:psdiPlatform, psdiVoc:service, psdiVoc:tool, psdiVoc:guidance, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:data, psdiVoc:communityActivity .
+	skos:Concept psdiVoc:psdi, psdiVoc:psdiProject, psdiVoc:pathfinder, psdiVoc:psdiDeliverable, psdiVoc:psdiPlatform, psdiVoc:service, psdiVoc:tool, psdiVoc:guidance, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:data, psdiVoc:resource, psdiVoc:communityActivity .
 
 <http://creativecommons.org/publicdomain/zero/1.0/> <rdfs:label> "CC0 1.0 Universal"@en .
 
@@ -163,7 +163,7 @@ psdiVoc:pathfinder skos:prefLabel "Pathfinder"@en ;
 
 psdiVoc:psdiDeliverable skos:prefLabel "PSDI deliverable"@en ;
 	skos:definition "Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/6700491441)"@en ;
-	skos:broader psdiVoc:psdiPlatform, psdiVoc:service, psdiVoc:tool, psdiVoc:data, psdiVoc:guidance, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:communityActivity ;
+	skos:broader psdiVoc:psdiPlatform, psdiVoc:resource, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:communityActivity ;
 	skos:related psdiVoc:psdi, psdiVoc:psdiProject, psdiVoc:pathfinder ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:topConceptOf psdiVoc:vocabularyConceptScheme ;
@@ -181,14 +181,14 @@ psdiVoc:service skos:prefLabel "service"@en ;
 	a "dcat:DataService"@en, skos:Concept ;
 	skos:definition "Each service is software - either used directly within the PSDI platform itself or within a web application accessed from it - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). Some services are PSDI-wide and used within different resource themes and some are specific to a particular resource theme."@en ;
 	skos:example "user registration"@en, "access management"@en, "structure searching"@en, "format conversion service"@en ;
-	skos:narrower psdiVoc:psdiDeliverable ;
+	skos:narrower psdiVoc:resource ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme .
 
 psdiVoc:tool skos:prefLabel "tool"@en ;
 	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991](http://doi.org/10.1109/IEEESTD.1991.106963)"@en ;
 	skos:example "format conversion tool"@en, "MagresView library"@en ;
-	skos:narrower psdiVoc:psdiDeliverable ;
+	skos:narrower psdiVoc:resource ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme ;
 	a skos:Concept .
@@ -196,7 +196,7 @@ psdiVoc:tool skos:prefLabel "tool"@en ;
 psdiVoc:guidance skos:prefLabel "guidance"@en ;
 	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resource themes and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023](http://doi.org/10.1093/OED/8957051667)"@en ;
 	skos:example "knowledgebase"@en, "support"@en, "helpdesk"@en, "FAQs"@en, "known issue"@en, "policy"@en, "training resource"@en ;
-	skos:narrower psdiVoc:psdiDeliverable ;
+	skos:narrower psdiVoc:resource ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme ;
 	a skos:Concept .
@@ -220,7 +220,15 @@ psdiVoc:data skos:prefLabel "data"@en ;
 	skos:definition "Physical Sciences data associated with a resource theme, and available for access or download through the PSDI platform."@en ;
 	a "dcat:Dataset"@en, skos:Concept ;
 	skos:example "database"@en, "dataset"@en, "data collection"@en, "repository"@en, "catalogue"@en ;
+	skos:narrower psdiVoc:resource ;
+	skos:Collection psdiVoc:psdiOverviewCollection ;
+	skos:inScheme psdiVoc:vocabularyConceptScheme .
+
+psdiVoc:resource skos:prefLabel "resource"@en ;
+	skos:definition "A general term for data or a service, tool or guidance associated with Physical Sciences and made available for access or download through the PSDI platform."@en ;
+	a "dcat:Resource"@en, skos:Concept ;
 	skos:narrower psdiVoc:psdiDeliverable ;
+	skos:broader psdiVoc:data, psdiVoc:service, psdiVoc:tool, psdiVoc:guidance ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme .
 
