@@ -47,7 +47,7 @@ psdiDcat:resourceCatalogue rdfs:label "PSDI Resource Catalogue"@en ;
 	dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
 	dcat:DataService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c, psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08, psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6, psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 ;
 	psdiDcatExt:Guidance psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981, psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387, psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317, psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9 ;
-	dcat:Catalog psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622, psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5, psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7, psdiDcat:84701c55-30cc-4719-9195-7d62aa93bdde, psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb, psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b, psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d, psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da, psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204, psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a, psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4, psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992, psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e, psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14, psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
+	dcat:Catalog psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91, psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622, psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5, psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7, psdiDcat:84701c55-30cc-4719-9195-7d62aa93bdde, psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb, psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b, psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d, psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da, psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204, psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a, psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4, psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992, psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e, psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14, psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
 	psdiDcatExt:Tool psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 ;
 	a dcat:Catalog .
 
@@ -59,8 +59,8 @@ psdiDcat:resourceCatalogue rdfs:label "PSDI Resource Catalogue"@en ;
 <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> rdfs:label "physical sciences"@en ;
 	a <skosxl:Label> .
 
-<http://id.loc.gov/vocabulary/iso639-1/en> rdfs:label "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en ;
-	a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource .
+<http://id.loc.gov/vocabulary/iso639-1/en> rdfs:label "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en, "en"@en ;
+	a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource .
 
 <http://creativecommons.org/publicdomain/zero/1.0/> rdfs:label "CC0 1.0 Universal"@en .
 
@@ -89,7 +89,7 @@ psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c dcterms:identifier "psdiDcat:6bc7c
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 1 ;
 	dcat:endpointURL <http://data-search.psdi.ac.uk> ;
 	dcat:servesDataset "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en .
@@ -101,14 +101,15 @@ psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c dcterms:identifier "psdiDcat:6bc7c
 
 <http://purl.org/adms/status/UnderDevelopment> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
-	rdfs:label "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+	rdfs:label "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en, "PSDI logo"@en .
 
 psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 dcterms:identifier "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"@en ;
 	dcterms:type "dcat:DataService"@en ;
 	dcterms:title "Community Data Collections"@en ;
 	rdfs:label "Community Data Collections"@en ;
-	dcterms:description "Invenio repository to store and search data from specific use cases"@en ;
+	dcterms:description "Community Data Collections is a multi-institution, subject-based research data repository for the Physical Sciences Data Infrastructure (PSDI). The repository is for openly available data, currently in the BioSim and Data to Knowledge communities, to enable users to publish, share, find and re-use relevant data. FAIR principles are met through the adoption of a thorough metadata schema which includes custom fields relevant to the science in addition to standard properties for data. Anyone may access the metadata and full items free of charge and we intend to grow the Community Data Collections over time with the inclusion of additional, relevant scientific communities."@en ;
+	dcat:keyword "Data, Search, FAIR, re-use, bio simulations, AiiDA, MLIP"@en ;
 	dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
 	dcterms:publisher [
 		rdf:type foaf:Organisation ;
@@ -128,7 +129,7 @@ psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 dcterms:identifier "psdiDcat:d8161
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	dcterms:bibliographicCitation "https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg"@en ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 1 ;
 	dcat:endpointURL <http://data-collections.psdi.ac.uk> ;
 	dcat:servesDataset " psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"@en .
@@ -154,7 +155,7 @@ psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6 dcterms:identifier "psdiDcat:2927c
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 1 ;
 	dcat:endpointURL <http://guidance.psdi.ac.uk> .
 
@@ -179,6 +180,7 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 dcterms:identifier "psdiDcat:62af1
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance " psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae"@en ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 1 ;
 	dcat:endpointURL <http://learn.psdi.ac.uk> .
 
@@ -276,10 +278,32 @@ psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9 dcterms:identifier "psdiDcat:5f0b1
 
 <https://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-resources> a rdfs:Resource .
 
+psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 dcterms:identifier "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"@en ;
+	dcterms:type "dcat:Catalog"@en ;
+	dcterms:title "Container images in the PSDI Container Registry"@en ;
+	dcterms:publisher [
+		rdf:type foaf:Organisation ;
+		foaf:name "PSDI"@en ;
+		foaf:openid "http://www.psdi.ac.uk"@en ;
+	] ;
+	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	psdiDcatExt:Tool psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d .
+
+psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d dcterms:identifier "psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d"@en ;
+	dcterms:type "psdiDcatExt:Tool"@en ;
+	dcterms:title "DL_MONTE Container Image"@en ;
+	dcterms:publisher [
+		rdf:type foaf:Organisation ;
+		foaf:name "PSDI"@en ;
+		foaf:openid "http://www.psdi.ac.uk"@en ;
+	] ;
+	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+	psdiDcatExt:primaryResourceTheme "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"@en .
+
 psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 dcterms:identifier "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
 	dcterms:type "dcat:Catalog"@en ;
-	dcterms:title "Data Sources for PSDI Data Cross Search"@en ;
-	rdfs:label "Data Sources for PSDI Data Cross Search"@en ;
+	dcterms:title "Data Sources for PSDI Cross Data Search"@en ;
+	rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
 	dcterms:description "These are the data sources which are searched by the PSDI Cross Data Search."@en ;
 	dcat:keyword "physical sciences"@en ;
 	dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
@@ -290,7 +314,7 @@ psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 dcterms:identifier "psdiDcat:e0ed0
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 3 ;
 	dcat:Dataset psdiDcat:e0e14403-1575-43db-a677-89aa515968e4, psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6, psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76, psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6 .
 
@@ -315,7 +339,7 @@ psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 dcterms:identifier "psdiDcat:e0e14
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/Completed> ;
 	odrl:hasPolicy psdiPol:ukAcademicsOnly ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
 	dcat:Distribution [
@@ -353,7 +377,7 @@ Propersea performs best for organic compounds and performance on inorganics, org
 	adms:status <http://purl.org/adms/status/Completed> ;
 	dcterms:issued "2020-09-27T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:ukAcademicsOnly ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
 	dcat:Distribution [
@@ -427,7 +451,7 @@ psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5 dcterms:identifier "psdiDcat:1c4e7
 	dcterms:issued "1971-12-31T12:01:01Z"^^xsd:dateTime ;
 	dcterms:license <https://www.ccdc.cam.ac.uk/licence-agreement/> ;
 	odrl:hasPolicy psdiPol:ukAcademicsOnly ;
-	psdiDcatExt:logoURL <https://images.app.goo.gl/1m7tMqkVaABDq8G36> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803 .
 
@@ -449,7 +473,8 @@ psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5 dcterms:identifier "psdiDcat:1c4e7
 <https://www.ccdc.cam.ac.uk/licence-agreement/> a rdfs:Resource, rdfs:Resource ;
 	rdfs:label "CCDC License Agreement"@en, "CCDC License Agreement"@en .
 
-<https://images.app.goo.gl/1m7tMqkVaABDq8G36> a rdfs:Resource, rdfs:Resource .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> a rdfs:Resource, rdfs:Resource ;
+	rdfs:label "CCDC logo"@en, "CCDC logo"@en .
 
 psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803 dcterms:identifier "psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803"@en ;
 	dcterms:type "dcat:Dataset"@en ;
@@ -487,7 +512,7 @@ psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803 dcterms:identifier "psdiDcat:07d83
 	dcterms:issued "1971-12-31T12:01:01Z"^^xsd:dateTime ;
 	dcterms:license <https://www.ccdc.cam.ac.uk/licence-agreement/> ;
 	odrl:hasPolicy psdiPol:ukAcademicsOnly ;
-	psdiDcatExt:logoURL <https://images.app.goo.gl/1m7tMqkVaABDq8G36> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5"@en ;
 	psdiDcatExt:additionalResourceTheme "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
@@ -728,7 +753,7 @@ psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb dcterms:identifier "psdiDcat:c670e
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance "psdiDcat:f9e34853-7e01-4fb1-ac10-30d8aced63f9"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
 	dcat:DataService psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0, psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 ;
@@ -739,7 +764,7 @@ psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb dcterms:identifier "psdiDcat:c670e
 
 <http://github.com/UK-Catalysis-Hub/ukcathubapp> a rdfs:Resource, rdfs:Resource, rdfs:Resource .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "Catalysis Hub CDI logo"@en, "Catalysis Hub CDI logo"@en, "Catalysis Hub CDI logo"@en, "Catalysis Hub CDI logo"@en, "Catalysis Hub CDI logo"@en .
 
 psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 dcterms:identifier "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en ;
@@ -767,7 +792,7 @@ psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 dcterms:identifier "psdiDcat:530ae
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dcterms:issued "2025-03-30T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
 	psdiDcatExt:additionalResourceTheme "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
@@ -811,7 +836,7 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 dcterms:identifier "psdiDcat:fc2fb
 	dcterms:issued "2021-04-12T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "0.9"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
 	dcat:servesDataset "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en .
@@ -841,7 +866,7 @@ psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 dcterms:identifier "psdiDcat:7a029
 	dcterms:issued "2021-10-19T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "0.9"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
 	dcat:endpointDescription "XXX Abraham - is there a link to the formal description of the web service in a webpage anywhere?"@en ;
@@ -877,7 +902,7 @@ psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306 dcterms:identifier "psdiDcat:fa4cf
 	dcterms:issued "2025-03-30T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
@@ -912,7 +937,7 @@ psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b dcterms:identifier "psdiDcat:7bcc4
 	dcterms:issued "2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	dcterms:license <https://www.gnu.org/licenses/gpl-3.0.en.html> ;
 	psdiDcatExt:relatedGuidance "psdiDcat:3dcb4aca-e44b-4354-b90b-6b4faa89b286"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:DataService psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba ;
 	psdiDcatExt:Tool psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306, psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039, psdiDcat:64af3a23-2d41-4079-a014-db366096434a .
@@ -957,7 +982,7 @@ psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba dcterms:identifier "psdiDcat:8334f
 	odrl:hasPolicy psdiPol:psdiLoginRequired ;
 	dcat:version "1.1.1"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:3dcb4aca-e44b-4354-b90b-6b4faa89b286"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en .
 
@@ -990,7 +1015,7 @@ psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 dcterms:identifier "psdiDcat:17eb8
 	dcterms:issued "2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
 	psdiDcatExt:downloadURL "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/"@en ;
@@ -1042,7 +1067,7 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 dcterms:identifier "psdiDcat:5ccd8
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:dc29b0a3-e294-4c79-948c-920c979badb1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/psdi-data-conversion> ;
@@ -1077,7 +1102,7 @@ psdiDcat:64af3a23-2d41-4079-a014-db366096434a dcterms:identifier "psdiDcat:64af3
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	dcterms:issued "2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en .
 
@@ -1110,7 +1135,7 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d dcterms:identifier "psdiDcat:1d0c3
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:DataService psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 .
 
@@ -1146,7 +1171,7 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 dcterms:identifier "psdiDcat:f350b
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:psdiLoginRequired ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d"@en .
 
@@ -1176,7 +1201,7 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da dcterms:identifier "psdiDcat:7fcea
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:DataService psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547, psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11 ;
 	psdiDcatExt:Tool psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 ;
@@ -1215,7 +1240,7 @@ psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 dcterms:identifier "psdiDcat:d3260
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en .
 
@@ -1252,7 +1277,7 @@ The filters are relevant criteria of ELNs the users can choose from. Examples of
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	dcterms:issued "2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en .
 
@@ -1287,7 +1312,7 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 dcterms:identifier "psdiDcat:fff10
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en .
 
@@ -1317,7 +1342,7 @@ psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 dcterms:identifier "psdiDcat:89fe0
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
 	psdiDcatExt:aboutDataService "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"@en .
@@ -1348,7 +1373,7 @@ psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f dcterms:identifier "psdiDcat:d8cc7
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en .
@@ -1379,7 +1404,7 @@ psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 dcterms:identifier "psdiDcat:9dd03
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en .
@@ -1412,7 +1437,7 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 dcterms:identifier "psdiDcat:d9b4f
 	adms:status <http://purl.org/adms/status/Completed> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b, psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 .
 
@@ -1455,7 +1480,7 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b dcterms:identifier "psdiDcat:44160
 	dcterms:issued "2024-10-20T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204"@en ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -1507,7 +1532,7 @@ psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 dcterms:identifier "psdiDcat:a7c82
 	dcterms:issued "2024-10-20T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204"@en ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -1532,8 +1557,8 @@ psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a dcterms:identifier "psdiDcat:61577
 	dcterms:type "dcat:Catalog"@en ;
 	dcterms:title "Case Studies: Discovering Value in Legacy Data"@en ;
 	rdfs:label "Case Studies: Discovering Value in Legacy Data"@en ;
-	dcterms:description "This resource holds both the useful data collections that have been created and curated from a variety of sources to be made available to the community, and the data exemplars that have been developed as part of our case studies to investigate different methods of improving data capture, quality and sharing, and how to resurrect legacy data in a meaningful manner."@en ;
-	dcat:keyword "solubility, boiling points, henrys law constants, LogS, melting points, mole fractions, critical micelle concentration, electronic supplementary information, second harmonic generation"@en ;
+	dcterms:description "This resource holds the data exemplars and case study reports that have been developed as part of our case studies to investigate different methods of discovering value in legacy data. This includes identifying methods of resurrecting legacy data in a meaningful manner, and how to improve the quality of existing datasets."@en ;
+	dcat:keyword "electronic supplementary information, second harmonic generation"@en ;
 	dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d> ;
 	dcterms:publisher [
 		rdf:type foaf:Organisation ;
@@ -1555,7 +1580,7 @@ psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a dcterms:identifier "psdiDcat:61577
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:Guidance psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0, psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd .
 
@@ -1591,7 +1616,7 @@ psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0 dcterms:identifier "psdiDcat:0ce7f
 	adms:status <http://purl.org/adms/status/Completed> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a"@en .
 
@@ -1631,7 +1656,7 @@ psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd dcterms:identifier "psdiDcat:e29a8
 	adms:status <http://purl.org/adms/status/Completed> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a"@en .
 
@@ -1661,7 +1686,7 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 dcterms:identifier "psdiDcat:b01dc
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance "psdiDcat:aa277528-9c45-4c02-834a-991597332ce6"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a ;
 	psdiDcatExt:Tool psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68, psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6, psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef ;
@@ -1672,7 +1697,7 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 dcterms:identifier "psdiDcat:b01dc
 
 <http://UrlForPF4sBitOfPSDIInvenio> a rdfs:Resource, rdfs:Resource .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "BioSimDB logo"@en, "BioSimDB logo"@en, "BioSimDB logo"@en, "BioSimDB logo"@en, "BioSimDB logo"@en, "BioSimDB logo"@en, "BioSimDB logo"@en .
 
 psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a dcterms:identifier "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a"@en ;
@@ -1701,7 +1726,7 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a dcterms:identifier "psdiDcat:bc930
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -1743,7 +1768,7 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 dcterms:identifier "psdiDcat:772d0
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "v2.0.8"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/aiida-gromacs> ;
@@ -1789,7 +1814,7 @@ psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6 dcterms:identifier "psdiDcat:60d5f
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "v.1.0.0"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/aiida-gromacs> ;
@@ -1828,7 +1853,7 @@ psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef dcterms:identifier "psdiDcat:89d1d
 	dcterms:license <http://opensource.org/license/mit> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "v.1.0.0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/biosimdb-app> ;
@@ -1861,7 +1886,7 @@ psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 dcterms:identifier "psdiDcat:d543b
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dcterms:issued "2024-05-23T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	psdiDcatExt:aboutTool "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68"@en .
@@ -1893,7 +1918,7 @@ psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 dcterms:identifier "psdiDcat:e930c
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dcterms:issued "2024-05-23T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en .
@@ -1926,7 +1951,7 @@ psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 dcterms:identifier "psdiDcat:aa3bd
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 ;
 	psdiDcatExt:Tool psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55, psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386, psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d ;
@@ -1937,7 +1962,7 @@ psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 dcterms:identifier "psdiDcat:aa3bd
 
 <http://data-collections.psdi.ac.uk/communities/mlip> a rdfs:Resource, rdfs:Resource .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "MLIP logo"@en, "MLIP logo"@en, "MLIP logo"@en, "MLIP logo"@en, "MLIP logo"@en .
 
 psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 dcterms:identifier "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"@en ;
@@ -1967,7 +1992,7 @@ psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 dcterms:identifier "psdiDcat:771d2
 	dcterms:issued "2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	dcterms:license <http://license3url> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -2006,7 +2031,7 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 dcterms:identifier "psdiDcat:6bcaa
 	dcterms:license <http://opensource.org/license/bsd-3-clause> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "XXX please fill in e.g. 1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-t-janusCore.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-t-janusCore.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/stfc/janus-core> ;
@@ -2019,7 +2044,7 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 dcterms:identifier "psdiDcat:6bcaa
 <http://opensource.org/license/bsd-3-clause> a rdfs:Resource, rdfs:Resource ;
 	rdfs:label "BSD-3-Clause license"@en, "BSD-3-Clause license"@en .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-t-janusCore.png> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-t-janusCore.png> a rdfs:Resource ;
 	rdfs:label "janus-core logo"@en .
 
 psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 dcterms:identifier "psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386"@en ;
@@ -2048,7 +2073,7 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 dcterms:identifier "psdiDcat:290bd
 	dcterms:issued "2024-01-28T00:00:00Z"^^xsd:dateTime ;
 	dcterms:license <http://opensource.org/license/bsd-3-clause> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-t-aiida.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-t-aiida.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/stfc/aiida-mlip> ;
@@ -2058,7 +2083,7 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 dcterms:identifier "psdiDcat:290bd
 
 <http://github.com/stfc/aiida-mlip> a rdfs:Resource, rdfs:Resource .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-t-aiida.png> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-t-aiida.png> a rdfs:Resource ;
 	rdfs:label "aiida-mlip logo"@en .
 
 psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d dcterms:identifier "psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d"@en ;
@@ -2088,7 +2113,7 @@ psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d dcterms:identifier "psdiDcat:f9886
 	dcterms:issued "2019-03-31T00:00:00Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "XXX please fill in e.g. 1.1.1"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
 	psdiDcatExt:repositoryURL <http://github.com/libAtoms/abcd/> .
@@ -2122,7 +2147,7 @@ psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 dcterms:identifier "psdiDcat:6974a
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dcterms:issued "2024-05-26T00:00:00Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en .
@@ -2152,7 +2177,7 @@ psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 dcterms:identifier "psdiDcat:cdbcf
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/mlip-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en .
 
@@ -2185,7 +2210,7 @@ psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e dcterms:identifier "psdiDcat:6e9f1
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	dcterms:issued "2018-03-19T10:46:52Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 ;
 	dcat:DataService psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3, psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 ;
@@ -2199,7 +2224,7 @@ psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e dcterms:identifier "psdiDcat:6e9f1
 <http://www.ccpnc.ac.uk/database/faqs.html> a rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "CCP-NC database - Frequently Asked Questions"@en, "CCP-NC database - Frequently Asked Questions"@en, "CCP-NC database - Frequently Asked Questions"@en .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "CCP-NC logo"@en, "CCP-NC logo"@en, "CCP-NC logo"@en, "CCP-NC logo"@en, "CCP-NC logo"@en, "CCP-NC logo"@en .
 
 psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 dcterms:identifier "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"@en ;
@@ -2231,7 +2256,7 @@ psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 dcterms:identifier "psdiDcat:7e871
 	dcterms:issued "2018-03-19T10:46:52Z"^^xsd:dateTime ;
 	dcterms:license <http://creativecommons.org/licenses/by/4.0/deed.en> ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
 	dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -2273,7 +2298,7 @@ psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 dcterms:identifier "psdiDcat:17bd0
 	dcterms:issued "2018-03-19T10:46:52Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "1.0.0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
 	dcat:servesDataset "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"@en .
@@ -2307,7 +2332,7 @@ psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 dcterms:identifier "psdiDcat:1fc5c
 	dcterms:license <http://opensource.org/license/mit> ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "2.0.0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
 	dcat:servesDataset "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"@en .
@@ -2347,7 +2372,7 @@ psdiDcat:22ce2e1a-1e37-4773-a574-27658e395438 dcterms:identifier "psdiDcat:22ce2
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "2.0.0"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:f6ab8642-eaad-4a72-8c06-a4961d5fb2ff"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
 	psdiDcatExt:downloadURL "http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip"@en ;
@@ -2395,7 +2420,7 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c dcterms:identifier "psdiDcat:51c04
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "0.9.2"@en ;
 	psdiDcatExt:relatedGuidance "psdiDcat:71e7272d-80f5-480d-8f9a-60712084730e"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/ccpnc-r.png> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
 	psdiDcatExt:downloadURL "http://pypi.org/project/Soprano/#files"@en ;
@@ -2437,7 +2462,7 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 dcterms:identifier "psdiDcat:dac6a
 	dcterms:isReferencedBy <http://materialsgalaxy.stfc.ac.uk/tours> ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	dcat:Dataset psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 ;
 	dcat:DataService psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a, psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b ;
@@ -2453,7 +2478,7 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 dcterms:identifier "psdiDcat:dac6a
 <http://materialsgalaxy.stfc.ac.uk/tours> a rdfs:Resource, rdfs:Resource ;
 	rdfs:label "Interactive Galaxy tours"@en, "Interactive Galaxy tours"@en .
 
-<https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource, rdfs:Resource ;
 	rdfs:label "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en, "Galaxy logo"@en .
 
 psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 dcterms:identifier "psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7"@en ;
@@ -2483,7 +2508,7 @@ psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 dcterms:identifier "psdiDcat:f40b1
 	dcterms:issued "2024-10-24T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	psdiDcatExt:relatedGuidance "psdiDcat:f8c98217-7299-44f5-9a35-dac6c32ec52e"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	prov:wasGeneratedBy <http://materialsgalaxy.stfc.ac.uk/> ;
@@ -2524,7 +2549,7 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a dcterms:identifier "psdiDcat:65c2d
 	dcterms:license <http://opensource.org/license/MIT> ;
 	odrl:hasPolicy psdiPol:nonPsdiLoginRequired ;
 	dcat:version "24.1.2"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
 
@@ -2560,7 +2585,7 @@ psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b dcterms:identifier "psdiDcat:66d10
 	dcterms:license <http://opensource.org/license/MIT> ;
 	odrl:hasPolicy psdiPol:nonPsdiLoginRequired ;
 	dcat:version "1.4.0"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	dcat:endpointDescription "http://materialsgalaxy.stfc.ac.uk/api/docs"@en ;
@@ -2599,7 +2624,7 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 dcterms:identifier "psdiDcat:0d209
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	dcterms:issued "XXX please fill in e.g. 2025-03-31T00:00:00Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2628,7 +2653,7 @@ psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2 dcterms:identifier "psdiDcat:39ffb
 		vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ;
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2657,7 +2682,7 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f dcterms:identifier "psdiDcat:95494
 		vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ;
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2686,7 +2711,7 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 dcterms:identifier "psdiDcat:ff6a1
 		vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ;
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2715,7 +2740,7 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 dcterms:identifier "psdiDcat:b1dda
 		vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ;
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2748,7 +2773,7 @@ psdiDcat:f8c98217-7299-44f5-9a35-dac6c32ec52e dcterms:identifier "psdiDcat:f8c98
 	dcterms:issued "2024-10-28T12:01:01Z"^^xsd:dateTime ;
 	odrl:hasPolicy psdiPol:openAccess ;
 	dcat:version "0.5"@en ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutDataset "psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7"@en .
@@ -2777,7 +2802,7 @@ psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 dcterms:identifier "psdiDcat:5bbc1
 		vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ;
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en .
@@ -2806,6 +2831,7 @@ psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 dcterms:identifier "psdiDcat:2ac60
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
 	psdiDcatExt:relatedGuidance " psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae"@en ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:Guidance psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7, psdiDcat:294760c8-20de-4155-9951-08bccc87a593, psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974, psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9, psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc, psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0, psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1, psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae .
 
@@ -2832,6 +2858,7 @@ psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 dcterms:identifier "psdiDcat:d3e91
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2859,6 +2886,7 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 dcterms:identifier "psdiDcat:29476
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2884,6 +2912,7 @@ psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 dcterms:identifier "psdiDcat:ec1bc
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2909,6 +2938,7 @@ psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 dcterms:identifier "psdiDcat:7bf58
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2934,6 +2964,7 @@ psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc dcterms:identifier "psdiDcat:0b8c7
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2959,6 +2990,7 @@ psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 dcterms:identifier "psdiDcat:e14e0
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -2984,6 +3016,7 @@ psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 dcterms:identifier "psdiDcat:b6790
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -3009,6 +3042,7 @@ psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae dcterms:identifier "psdiDcat:76a1e
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 2 ;
 	psdiDcatExt:primaryResourceTheme "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
 	psdiDcatExt:aboutCatalog "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en .
@@ -3031,6 +3065,7 @@ psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 dcterms:identifier "psdiDcat:a363e
 	] ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-	psdiDcatExt:logoURL <https://github.com/PSDI-UK/psdi-common-style/blob/main/store/resource-catalogue-logos/psdi.svg> ;
+	odrl:hasPolicy psdiPol:openAccess ;
+	psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
 	psdiDcatExt:displayPriority 1 .
 
