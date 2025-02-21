@@ -27,7 +27,8 @@
 	foaf:openid "https://orcid.org/0000-0003-2397-1996"@en ;
 	a foaf:Person .
 
-<http://id.loc.gov/vocabulary/iso639-1/en> <rdfs:label> "en"@en .
+<http://id.loc.gov/vocabulary/iso639-1/en> a dcterms:LinguisticSystem ;
+	<rdfs:label> "en"@en .
 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
 	foaf:openid "http://www.psdi.ac.uk"@en ;
@@ -47,33 +48,33 @@ psdiDcatExt:Tool <rdfs:subClassOf> "dcat:Resource"@en ;
 	a <owl:Class>, <rdfs:Class> .
 
 psdiDcatExt:downloadURL <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "download URL"@en ;
+	<rdfs:label> "Download URL"@en ;
 	<rdfs:range> "rdfs:Resource"@en ;
 	skos:definition "The URL of the downloadable file(s) for the tool in a given format."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:repositoryURL <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "repository URL"@en ;
+	<rdfs:label> "Repository URL"@en ;
 	<rdfs:range> "rdfs:Resource"@en ;
 	skos:definition "The URL of the repository which contains the code for the tool."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:installCommand <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "install command"@en ;
+	<rdfs:label> "Install Command"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "Command(s) to install tool if simple installation."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:programmingLanguage <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	skos:closeMatch "http://purl.obolibrary.org/obo/IAO_0000025"@en ;
-	<rdfs:label> "programming language"@en ;
+	<rdfs:label> "Programming Language"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "A language in which source code is written that is intended to be executed/run by a software interpreter. Programming languages are ways to write instructions that specify what to do, and sometimes, how to do it. Where possible Version should be specified too. Takes values from 'Programming Language' classifiers in https://pypi.org/classifiers where possible e.g. 'Programming Language :: Python :: 3.14'. Multiple values are allowed."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:deliveryFormat <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "delivery format"@en ;
+	<rdfs:label> "Delivery Format"@en ;
 	<rdfs:range> "dcterms:MediaType"@en ;
 	<rdfs:subPropertyOf> "dcterms:format"@en ;
 	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA)."@en ;
@@ -82,34 +83,34 @@ psdiDcatExt:deliveryFormat <rdfs:domain> "psdiDcatExt:Tool"@en ;
 
 psdiDcatExt:developmentStatus <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
-	<rdfs:label> "development status"@en ;
+	<rdfs:label> "Development Status"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "Development status is an information content entity which indicates the maturity of a software entity within the context of the software life cycle. Takes values from 'Development Status' classifiers in https://pypi.org/classifiers where possible e.g. 'Development Status :: 5 - Production/Stable'."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:byteSize <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "byte size"@en ;
+	<rdfs:label> "Byte Size"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "The size in bytes can be approximated (as a non-negative integer) when the precise size is not known."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:exampleData <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "example data"@en ;
+	<rdfs:label> "Example Data"@en ;
 	<rdfs:range> "dcat:Dataset"@en ;
 	skos:definition "An input dataset for this tool. This should be expressed as a DCAT dataset."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:operatingSystem <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
-	<rdfs:label> "operating system"@en ;
+	<rdfs:label> "Operating System"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "Optional property - if tool is specific to particular operating systems please indicate them here. Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible (e.g. 'Windows :: Wi11, Android'). Multiple values are allowed."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 spdx:checkSum <rdfs:domain> "psdiDcatExt:Tool"@en ;
-	<rdfs:label> "checksum"@en ;
+	<rdfs:label> "Checksum"@en ;
 	<rdfs:range> "spdx:checkSum"@en ;
 	skos:definition "The checksum property provides a mechanism that can be used to verify that the contents of a file or package have not changed [https://www.w3.org/TR/vocab-dcat-3/#bib-spdx]."@en ;
 	skos:editorialNote "The checksum is related to the download URL."@en ;
@@ -121,42 +122,27 @@ psdiDcatExt:Guidance <rdfs:subClassOf> "dcat:Resource"@en ;
 	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resources and data management and reproducibility principals."@en ;
 	a <owl:Class>, <rdfs:Class> .
 
-psdiDcatExt:aboutCatalog <rdfs:domain> "psdiDcatExt:Guidance"@en ;
-	<rdfs:label> "about data set"@en ;
-	<rdfs:range> "dcat:Catalog"@en ;
+psdiDcatExt:relatedResource <rdfs:domain> "psdiDcatExt:Guidance"@en ;
+	<rdfs:label> "About Resource"@en ;
+	<rdfs:range> "dcat:Resource"@en ;
 	skos:definition "The resource which the guidance refers to."@en ;
-	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT dataset."@en ;
-	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-psdiDcatExt:aboutDataset <rdfs:domain> "psdiDcatExt:Guidance"@en ;
-	<rdfs:label> "about data set"@en ;
-	<rdfs:range> "dcat:Dataset"@en ;
-	skos:definition "The dataset which the guidance refers to."@en ;
-	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT dataset."@en ;
-	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-psdiDcatExt:aboutDataService <rdfs:domain> "psdiDcatExt:Guidance"@en ;
-	<rdfs:label> "about data servive"@en ;
-	<rdfs:range> "dcat:DataService"@en ;
-	skos:definition "The data service which the guidance refers to."@en ;
-	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT data service."@en ;
-	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-psdiDcatExt:aboutTool <rdfs:domain> "psdiDcatExt:Guidance"@en ;
-	<rdfs:label> "about data servive"@en ;
-	<rdfs:range> "psdiDcatExt:Tool"@en ;
-	skos:definition "The tool which the guidance refers to."@en ;
-	skos:scopeNote "This property should be populated if the guidance is about a specific PSDI Tool."@en ;
+	skos:scopeNote "This property should be populated if the guidance is about a specific DCAT resource."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:relatedGuidance <rdfs:domain> "dcat:Resource"@en ;
-	<rdfs:label> "related guidance"@en ;
+	<rdfs:label> "Related Guidance"@en ;
 	<rdfs:range> "psdiDcatExt:Guidance"@en ;
 	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
+psdiDcatExt:furtherInformation <rdfs:domain> "dcat:Resource"@en ;
+	<rdfs:label> "URL containing further information about this Resource"@en ;
+	<rdfs:range> "rdfs:Resource"@en ;
+	skos:definition "URL containing further information about this Resource for PSDI users and contributors."@en ;
+	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
+
 psdiDcatExt:logoURL <rdfs:domain> "dcat:Resource"@en ;
-	<rdfs:label> "URL of logo"@en ;
+	<rdfs:label> "Logo URL"@en ;
 	<rdfs:range> "rdfs:Resource"@en ;
 	skos:definition "URL to apporopriate logo image to display with this resource. If possible this should be a url which does not change regularly (although the image at this address can change)."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
@@ -164,24 +150,12 @@ psdiDcatExt:logoURL <rdfs:domain> "dcat:Resource"@en ;
 dcterms:bibliographicCitation <rdfs:domain> "dcat:Resource"@en ;
 	<rdfs:label> "Bibliographic Citation"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
-	skos:definition "A bibliographic reference for the resource."@en ;
+	skos:definition "A bibliographic reference for the resource. This field is optional, but should be filled in if the resource license requires its users to provide attribution."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:displayPriority <rdfs:domain> "dcat:Resource"@en ;
 	<rdfs:label> "Display Priority"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
 	skos:definition "Integer used to determine order of resources when listed alongside others."@en ;
-	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-psdiDcatExt:primaryResourceTheme <rdfs:domain> "dcat:Resource"@en ;
-	<rdfs:label> "Primary Resource Theme"@en ;
-	<rdfs:range> "dcat:Catalog"@en ;
-	skos:definition "Primary parent resource theme that this resource belongs to."@en ;
-	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
-
-psdiDcatExt:additionalResourceTheme <rdfs:domain> "dcat:Resource"@en ;
-	<rdfs:label> "Additional Resource Theme"@en ;
-	<rdfs:range> "dcat:Catalog"@en ;
-	skos:definition "Additional (non-primary) parent resource theme that this resource belongs to - can be multiple values."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
