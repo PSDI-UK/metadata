@@ -286,6 +286,7 @@
                 "foaf:openid": "http://www.psdi.ac.uk"
             },
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Knowledge Base",
                 "@type": "foaf:Document",
                 "@id": "http://guidance.psdi.ac.uk"
             },
@@ -327,7 +328,14 @@
                 "@type": "skos:Concept",
                 "@id": "http://purl.org/dc/dcmitype/Service"
             },
-            "dcterms:description": "Interactive training courses provided by PSDI",
+            "dcterms:description": "Interactive online teaching for a range of individuals, with the aim of upskilling them in areas that their own institutions or workplaces may not provide training.",
+            "dcat:keyword": [
+                "Training",
+                "Teaching",
+                "Self Learning",
+                "Coding",
+                "Research Skills"
+            ],
             "dcterms:publisher": {
                 "foaf:name": "PSDI",
                 "@type": "foaf:Agent",
@@ -439,244 +447,46 @@
             }
         }
     ],
-    "psdiDcatExt:Guidance": [
-        {
-            "@id": "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981",
-            "dcterms:identifier": "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981",
-            "@type": "psdiDcatExt:Guidance",
-            "dcterms:title": "Research Data Management Guidance",
-            "rdfs:label": "Research Data Management Guidance",
-            "dcterms:type": {
-                "skos:prefLabel": "Text",
-                "@type": "skos:Concept",
-                "@id": "http://purl.org/dc/dcmitype/Text"
-            },
-            "dcterms:description": "This collection of topics provides an introduction to research data management, identifying research data and creating a data inventory,  and a discussion of research data types and the research data lifecycle. The Data Management Planning section describes how you can better manage your data by planning up front using Data Management Plans, including an example of a DMP for physical scientists. This section also includes topics on best practices for managing data when working with others, and also where you can get further help with your research data management.",
-            "dcat:keyword": [
-                "plan",
-                "research",
-                "data",
-                "management",
-                "fair",
-                "rdm"
-            ],
-            "dcterms:publisher": {
-                "foaf:name": "PSDI",
-                "@type": "foaf:Agent",
-                "foaf:openid": "http://www.psdi.ac.uk"
-            },
-            "dcat:landingPage": {
-                "rdfs:label": "Research Data Management",
-                "@type": "foaf:Document",
-                "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/research-data-management"
-            },
-            "dcat:contactPoint": {
-                "@type": "vcard:Kind",
-                "vcard:hasEmail": "support@psdi.ac.uk"
-            },
-            "dcterms:language": {
-                "rdfs:label": "en",
-                "@type": "dcterms:LinguisticSystem",
-                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-            },
-            "adms:status": {
-                "@type": "rdfs:Resource",
-                "@id": "http://purl.org/adms/status/UnderDevelopment"
-            },
-            "odrl:hasPolicy": {
-                "@id": "psdiPol:openAccess"
-            },
-            "psdiDcatExt:logoURL": {
-                "rdfs:label": "PSDI logo",
-                "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
-            },
-            "psdiDcatExt:displayPriority": 1
-        },
-        {
-            "@id": "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387",
-            "dcterms:identifier": "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387",
-            "@type": "psdiDcatExt:Guidance",
-            "dcterms:title": "Sharing Data and FAIR Guidance",
-            "rdfs:label": "Sharing Data and FAIR Guidance",
-            "dcterms:type": {
-                "skos:prefLabel": "Text",
-                "@type": "skos:Concept",
-                "@id": "http://purl.org/dc/dcmitype/Text"
-            },
-            "dcterms:description": "This collection of topics provides guidance on good practices for sharing your research data. This section introduces the FAIR principles and their importance, and provides step by step guidance on what is needed to make your research data and related outputs such as code and methods FAIR, whether or not you share them publicly.",
-            "dcat:keyword": [
-                "research",
-                "data",
-                "fair",
-                "sharing",
-                "reuse",
-                "accessibility",
-                "findability",
-                "interoperability",
-                "reusability"
-            ],
-            "dcterms:publisher": {
-                "foaf:name": "PSDI",
-                "@type": "foaf:Agent",
-                "foaf:openid": "http://www.psdi.ac.uk"
-            },
-            "dcat:landingPage": {
-                "rdfs:label": "Sharing Data and FAIR",
-                "@type": "foaf:Document",
-                "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/sharing-data-and-fair"
-            },
-            "dcat:contactPoint": {
-                "@type": "vcard:Kind",
-                "vcard:hasEmail": "support@psdi.ac.uk"
-            },
-            "dcterms:language": {
-                "rdfs:label": "en",
-                "@type": "dcterms:LinguisticSystem",
-                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-            },
-            "adms:status": {
-                "@type": "rdfs:Resource",
-                "@id": "http://purl.org/adms/status/UnderDevelopment"
-            },
-            "odrl:hasPolicy": {
-                "@id": "psdiPol:openAccess"
-            },
-            "psdiDcatExt:logoURL": {
-                "rdfs:label": "PSDI logo",
-                "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
-            },
-            "psdiDcatExt:displayPriority": 1
-        },
-        {
-            "@id": "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317",
-            "dcterms:identifier": "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317",
-            "@type": "psdiDcatExt:Guidance",
-            "dcterms:title": "Metadata Guidance",
-            "rdfs:label": "Metadata Guidance",
-            "dcterms:type": {
-                "skos:prefLabel": "Text",
-                "@type": "skos:Concept",
-                "@id": "http://purl.org/dc/dcmitype/Text"
-            },
-            "dcterms:description": "This topic collection provides an introduction to metadata and standards, and why they are important for research data. This topic collection also provides information about how PSDI uses metadata to manage and describe our resources.",
-            "dcat:keyword": [
-                "metadata",
-                "standards",
-                "psdi",
-                "vocabularies",
-                "ontologies",
-                "json-ld"
-            ],
-            "dcterms:publisher": {
-                "foaf:name": "PSDI",
-                "@type": "foaf:Agent",
-                "foaf:openid": "http://www.psdi.ac.uk"
-            },
-            "dcat:landingPage": {
-                "rdfs:label": "Metadata",
-                "@type": "foaf:Document",
-                "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/metadata"
-            },
-            "dcat:contactPoint": {
-                "@type": "vcard:Kind",
-                "vcard:hasEmail": "support@psdi.ac.uk"
-            },
-            "dcterms:language": {
-                "rdfs:label": "en",
-                "@type": "dcterms:LinguisticSystem",
-                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-            },
-            "adms:status": {
-                "@type": "rdfs:Resource",
-                "@id": "http://purl.org/adms/status/UnderDevelopment"
-            },
-            "odrl:hasPolicy": {
-                "@id": "psdiPol:openAccess"
-            },
-            "psdiDcatExt:logoURL": {
-                "rdfs:label": "PSDI logo",
-                "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
-            },
-            "psdiDcatExt:displayPriority": 1
-        },
-        {
-            "@id": "psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9",
-            "dcterms:identifier": "psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9",
-            "@type": "psdiDcatExt:Guidance",
-            "dcterms:title": "PSDI Resources Guidance",
-            "rdfs:label": "PSDI Resources Guidance",
-            "dcterms:type": {
-                "skos:prefLabel": "Text",
-                "@type": "skos:Concept",
-                "@id": "http://purl.org/dc/dcmitype/Text"
-            },
-            "dcterms:description": "This collection of topics provides guidance about the resources provided by PSDI and how to use them.",
-            "dcat:keyword": [
-                "psdi",
-                "documentation",
-                "guidance",
-                "resources",
-                "psdi-resources",
-                "learn"
-            ],
-            "dcterms:publisher": {
-                "foaf:name": "PSDI",
-                "@type": "foaf:Agent",
-                "foaf:openid": "http://www.psdi.ac.uk"
-            },
-            "dcat:landingPage": {
-                "rdfs:label": "PSDI Resources",
-                "@type": "foaf:Document",
-                "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-resources"
-            },
-            "dcat:contactPoint": {
-                "@type": "vcard:Kind",
-                "vcard:hasEmail": "support@psdi.ac.uk"
-            },
-            "dcterms:language": {
-                "rdfs:label": "en",
-                "@type": "dcterms:LinguisticSystem",
-                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-            },
-            "adms:status": {
-                "@type": "rdfs:Resource",
-                "@id": "http://purl.org/adms/status/UnderDevelopment"
-            },
-            "odrl:hasPolicy": {
-                "@id": "psdiPol:openAccess"
-            },
-            "psdiDcatExt:logoURL": {
-                "rdfs:label": "PSDI logo",
-                "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
-            },
-            "psdiDcatExt:displayPriority": 1
-        }
-    ],
     "dcat:Catalog": [
         {
             "@id": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91",
             "dcterms:identifier": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91",
             "@type": "dcat:Catalog",
-            "dcterms:title": "Container images in the PSDI Container Registry",
+            "dcterms:title": "Container Image Registry",
+            "rdfs:label": "Container Image Registry",
             "dcterms:type": {
                 "skos:prefLabel": "Collection",
                 "@type": "skos:Concept",
                 "@id": "http://purl.org/dc/dcmitype/Collection"
             },
-            "dcterms:description": "Computing environments, including software applications and their dependencies, can be packaged into containers to improve their portability and ease of use. This resource is a registry of containers developed by PSDI geared towards researchers in the physical sciences.",
+            "dcterms:description": "Computing environments, including software applications and their dependencies, can be packaged into containers to improve their portability and ease of installation and use. This resource is a registry of containers developed by PSDI geared towards researchers in the physical sciences.",
+            "dcat:keyword": [
+                "container images",
+                "Docker",
+                "Singularity"
+            ],
+            "dcat:theme": {
+                "skos:prefLabel": "physical sciences",
+                "@type": "skos:Concept",
+                "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+            },
             "dcterms:publisher": {
                 "foaf:name": "PSDI",
                 "@type": "foaf:Agent",
                 "foaf:openid": "http://www.psdi.ac.uk"
             },
+            "dcterms:creator": {
+                "foaf:name": "Tom Underwood",
+                "@type": "foaf:Agent",
+                "foaf:openid": "http://orcid.org/0000-0001-6431-0612"
+            },
             "dcterms:language": {
                 "rdfs:label": "en",
                 "@type": "dcterms:LinguisticSystem",
                 "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+            },
+            "odrl:hasPolicy": {
+                "@id": "psdiPol:openAccess"
             },
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
@@ -690,6 +500,7 @@
                     "dcterms:identifier": "psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d",
                     "@type": "psdiDcatExt:Tool",
                     "dcterms:title": "DL_MONTE Container Image",
+                    "rdfs:label": "DL_MONTE Container Image",
                     "dcterms:type": {
                         "skos:prefLabel": "Software",
                         "@type": "skos:Concept",
@@ -760,14 +571,16 @@
                         "@id": "https://github.com/PSDI-UK/dlmonte-container"
                     },
                     "psdiDcatExt:installCommand": "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:latest",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Fortran; Programming Language :: Unix Shell",
                     "psdiDcatExt:deliveryFormat": "application/vnd.docker.distribution.manifest.v2+json",
                     "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha"
                 },
                 {
-                    "@id": "psdiDcat:efe84e44-b42a-4dac-8f9c-8b4ecf1c80d3",
-                    "dcterms:identifier": "psdiDcat:efe84e44-b42a-4dac-8f9c-8b4ecf1c80d3",
+                    "@id": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
+                    "dcterms:identifier": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
                     "@type": "psdiDcatExt:Tool",
-                    "dcterms:title": "Dsync",
+                    "dcterms:title": "Dsync (Data Transfer, Synchronisation and Sharing) Tool",
+                    "rdfs:label": "Dsync (Data Transfer, Synchronisation and Sharing) Tool",
                     "dcterms:type": {
                         "skos:prefLabel": "Software",
                         "@type": "skos:Concept",
@@ -799,7 +612,7 @@
                         {
                             "foaf:name": "Amali Pawula Hewage",
                             "@type": "foaf:Agent",
-                            "foaf:openid": "https://www.linkedin.com/in/amali-shashiprabha-rajapaksha"
+                            "foaf:openid": "http://www.linkedin.com/in/amali-shashiprabha-rajapaksha"
                         },
                         {
                             "foaf:name": "Tom Underwood",
@@ -838,6 +651,7 @@
                         "@id": "https://github.com/PSDI-UK/data-transfer-container"
                     },
                     "psdiDcatExt:installCommand": "docker pull ghcr.io/psdi-uk/data-transfer-container/data-transfer:latest",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Unix Shell",
                     "psdiDcatExt:deliveryFormat": "application/vnd.docker.distribution.manifest.v2+json",
                     "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha"
                 }
@@ -854,7 +668,7 @@
                 "@type": "skos:Concept",
                 "@id": "http://purl.org/dc/dcmitype/Collection"
             },
-            "dcterms:description": "These are the data sources which are searched by the PSDI Cross Data Search.",
+            "dcterms:description": "This resource theme contains data sources which can be searched by the PSDI Cross Data Search.",
             "dcat:keyword": [
                 "physical sciences"
             ],
@@ -1053,8 +867,8 @@
                     "@id": "psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76",
                     "dcterms:identifier": "psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76",
                     "@type": "dcat:Dataset",
-                    "dcterms:title": "Chemotion Data",
-                    "rdfs:label": "Chemotion Data",
+                    "dcterms:title": "Chemotion Repository",
+                    "rdfs:label": "Chemotion Repository",
                     "dcterms:type": {
                         "skos:prefLabel": "Dataset",
                         "@type": "skos:Concept",
@@ -1075,14 +889,56 @@
                         "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
                     },
                     "dcterms:publisher": {
-                        "foaf:name": "PSDI",
+                        "foaf:name": "Karlsruhe Institute of Technology",
                         "@type": "foaf:Agent",
-                        "foaf:openid": "http://www.psdi.ac.uk"
+                        "foaf:openid": "http://ror.org/04t3en479"
                     },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Prof. Stefan Bräse",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0003-4845-3191"
+                        },
+                        {
+                            "foaf:name": "Dr. Nicole Jung",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0001-9513-2468"
+                        },
+                        {
+                            "foaf:name": "Dr. Pierre Tremouilhac",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-0487-3947"
+                        },
+                        {
+                            "foaf:name": "Pei-Chi Huang",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-9976-4507"
+                        },
+                        {
+                            "foaf:name": "Chia-Lin Lin",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-9772-0455"
+                        },
+                        {
+                            "foaf:name": "Dr. Yu-Chieh Huang",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-4261-9886"
+                        },
+                        {
+                            "foaf:name": "Dr. An Nguyen",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-1692-6778"
+                        },
+                        {
+                            "foaf:name": "Dr. Felix Bach",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0002-5035-7978"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "About Chemotion",
                         "@type": "foaf:Document",
-                        "@id": "https://www.chemotion-repository.ne"
+                        "@id": "https://www.chemotion-repository.net"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -1093,10 +949,34 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": [
+                        {
+                            "rdfs:label": "Creative Commons Attribution-ShareAlike 4.0 International License",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "http://creativecommons.org/licenses/by-sa/4.0/"
+                        },
+                        {
+                            "rdfs:label": "Creative Commons Attribution 4.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "http://creativecommons.org/licenses/by/4.0/"
+                        },
+                        {
+                            "rdfs:label": "CC0 1.0 Universal",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "http://creativecommons.org/publicdomain/zero/1.0/"
+                        }
+                    ],
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "About Chemotion",
                         "@type": "rdfs:Resource",
-                        "@id": "https://www.chemotion-repository.ne"
+                        "@id": "https://www.chemotion.net/docs/repo"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Chemotion logo",
@@ -1106,14 +986,19 @@
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                    },
+                    "dcat:Distribution": {
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"
+                        }
                     }
                 },
                 {
                     "@id": "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
                     "dcterms:identifier": "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
                     "@type": "dcat:Dataset",
-                    "dcterms:title": "STFC Open Data",
-                    "rdfs:label": "STFC Open Data",
+                    "dcterms:title": "eData: the STFC Research Data Repository",
+                    "rdfs:label": "eData: the STFC Research Data Repository",
                     "dcterms:type": {
                         "skos:prefLabel": "Dataset",
                         "@type": "skos:Concept",
@@ -1133,9 +1018,9 @@
                         "@id": "http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee"
                     },
                     "dcterms:publisher": {
-                        "foaf:name": "PSDI",
+                        "foaf:name": "Science and Technology Facilities Council",
                         "@type": "foaf:Agent",
-                        "foaf:openid": "http://www.psdi.ac.uk"
+                        "foaf:openid": "https://ror.org/057g20z61"
                     },
                     "dcat:landingPage": {
                         "rdfs:label": "About eData",
@@ -1151,10 +1036,17 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
-                    "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "About eData",
+                    "adms:status": {
                         "@type": "rdfs:Resource",
-                        "@id": "https://edata.stfc.ac.uk/home"
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "eData Guidance",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://edata.stfc.ac.uk/info/edata-guidance"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "STFC logo",
@@ -1164,6 +1056,11 @@
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                    },
+                    "dcat:Distribution": {
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"
+                        }
                     }
                 }
             ]
@@ -1406,11 +1303,319 @@
             }
         },
         {
+            "@id": "dbb09221-f69d-4751-9f51-7623209d2c70",
+            "dcterms:identifier": "dbb09221-f69d-4751-9f51-7623209d2c70",
+            "@type": "dcat:Catalog",
+            "dcterms:title": "PSDI Knowledge Base Topics",
+            "rdfs:label": "PSDI Knowledge Base Topics",
+            "dcterms:type": {
+                "skos:prefLabel": "Collection",
+                "@type": "skos:Concept",
+                "@id": "http://purl.org/dc/dcmitype/Collection"
+            },
+            "dcterms:description": "The PSDI Knowledge Base provides guidance and training materials for physical scientists on a range of topics related to data and PSDI technology and resources. Those topics are described in this resource theme.",
+            "dcat:keyword": [
+                "guidance",
+                "support",
+                "help",
+                "training",
+                "learning"
+            ],
+            "dcterms:publisher": {
+                "foaf:name": "PSDI",
+                "@type": "foaf:Agent",
+                "foaf:openid": "http://www.psdi.ac.uk"
+            },
+            "dcterms:creator": {
+                "foaf:name": "Cerys Willoughby",
+                "@type": "foaf:Agent",
+                "foaf:openid": "http://orcid.org/0000-0003-1721-9212"
+            },
+            "dcat:landingPage": {
+                "rdfs:label": "PSDI Knowledge Base",
+                "@type": "foaf:Document",
+                "@id": "http://guidance.psdi.ac.uk"
+            },
+            "dcat:contactPoint": {
+                "@type": "vcard:Kind",
+                "vcard:hasEmail": "support@psdi.ac.uk"
+            },
+            "dcterms:language": {
+                "rdfs:label": "en",
+                "@type": "dcterms:LinguisticSystem",
+                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+            },
+            "adms:status": {
+                "@type": "rdfs:Resource",
+                "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "odrl:hasPolicy": {
+                "@id": "psdiPol:openAccess"
+            },
+            "psdiDcatExt:displayPriority": 1,
+            "psdiDcatExt:Guidance": [
+                {
+                    "@id": "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981",
+                    "dcterms:identifier": "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981",
+                    "@type": "psdiDcatExt:Guidance",
+                    "dcterms:title": "Research Data Management Guidance",
+                    "rdfs:label": "Research Data Management Guidance",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Text",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Text"
+                    },
+                    "dcterms:description": "This collection of topics provides an introduction to research data management, identifying research data and creating a data inventory,  and a discussion of research data types and the research data lifecycle. The Data Management Planning section describes how you can better manage your data by planning up front using Data Management Plans, including an example of a DMP for physical scientists. This section also includes topics on best practices for managing data when working with others, and also where you can get further help with your research data management.",
+                    "dcat:keyword": [
+                        "plan",
+                        "research",
+                        "data",
+                        "management",
+                        "fair",
+                        "rdm"
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://www.psdi.ac.uk"
+                    },
+                    "dcterms:creator": {
+                        "foaf:name": "Cerys Willoughby",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://orcid.org/0000-0003-1721-9212"
+                    },
+                    "dcat:landingPage": {
+                        "rdfs:label": "Research Data Management",
+                        "@type": "foaf:Document",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/research-data-management"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "PSDI logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    },
+                    "psdiDcatExt:displayPriority": 1,
+                    "dcat:inCatalog": {
+                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                    }
+                },
+                {
+                    "@id": "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387",
+                    "dcterms:identifier": "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387",
+                    "@type": "psdiDcatExt:Guidance",
+                    "dcterms:title": "Sharing Data and FAIR Guidance",
+                    "rdfs:label": "Sharing Data and FAIR Guidance",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Text",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Text"
+                    },
+                    "dcterms:description": "This collection of topics provides guidance on good practices for sharing your research data. This section introduces the FAIR principles and their importance, and provides step by step guidance on what is needed to make your research data and related outputs such as code and methods FAIR, whether or not you share them publicly.",
+                    "dcat:keyword": [
+                        "research",
+                        "data",
+                        "fair",
+                        "sharing",
+                        "reuse",
+                        "accessibility",
+                        "findability",
+                        "interoperability",
+                        "reusability"
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://www.psdi.ac.uk"
+                    },
+                    "dcterms:creator": {
+                        "foaf:name": "Cerys Willoughby",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://orcid.org/0000-0003-1721-9212"
+                    },
+                    "dcat:landingPage": {
+                        "rdfs:label": "Sharing Data and FAIR",
+                        "@type": "foaf:Document",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/sharing-data-and-fair"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "PSDI logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    },
+                    "psdiDcatExt:displayPriority": 1,
+                    "dcat:inCatalog": {
+                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                    }
+                },
+                {
+                    "@id": "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317",
+                    "dcterms:identifier": "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317",
+                    "@type": "psdiDcatExt:Guidance",
+                    "dcterms:title": "Metadata Guidance",
+                    "rdfs:label": "Metadata Guidance",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Text",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Text"
+                    },
+                    "dcterms:description": "This topic collection provides an introduction to metadata and standards, and why they are important for research data. This topic collection also provides information about how PSDI uses metadata to manage and describe our resources.",
+                    "dcat:keyword": [
+                        "metadata",
+                        "standards",
+                        "psdi",
+                        "vocabularies",
+                        "ontologies",
+                        "json-ld"
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://www.psdi.ac.uk"
+                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Cerys Willoughby",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0003-1721-9212"
+                        },
+                        {
+                            "foaf:name": "Aileen Day",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0003-2397-1996"
+                        }
+                    ],
+                    "dcat:landingPage": {
+                        "rdfs:label": "Metadata",
+                        "@type": "foaf:Document",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/metadata"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "PSDI logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    },
+                    "psdiDcatExt:displayPriority": 1,
+                    "dcat:inCatalog": {
+                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                    }
+                },
+                {
+                    "@id": "psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9",
+                    "dcterms:identifier": "psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9",
+                    "@type": "psdiDcatExt:Guidance",
+                    "dcterms:title": "PSDI Resources Guidance",
+                    "rdfs:label": "PSDI Resources Guidance",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Text",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Text"
+                    },
+                    "dcterms:description": "This collection of topics provides guidance about the resources provided by PSDI and how to use them.",
+                    "dcat:keyword": [
+                        "psdi",
+                        "documentation",
+                        "guidance",
+                        "resources",
+                        "psdi-resources",
+                        "learn"
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://www.psdi.ac.uk"
+                    },
+                    "dcterms:creator": {
+                        "foaf:name": "Cerys Willoughby",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://orcid.org/0000-0003-1721-9212"
+                    },
+                    "dcat:landingPage": {
+                        "rdfs:label": "PSDI Resources",
+                        "@type": "foaf:Document",
+                        "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-resources"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "PSDI logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    },
+                    "psdiDcatExt:displayPriority": 1,
+                    "dcat:inCatalog": {
+                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                    }
+                }
+            ]
+        },
+        {
             "@id": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
             "dcterms:identifier": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7",
             "@type": "dcat:Catalog",
-            "dcterms:title": "Open Materials Micrograph Repository",
-            "rdfs:label": "Open Materials Micrograph Repository",
+            "dcterms:title": "Open Materials Micrograph Repository (O2MR)",
+            "rdfs:label": "Open Materials Micrograph Repository (O2MR)",
             "dcterms:type": {
                 "skos:prefLabel": "Collection",
                 "@type": "skos:Concept",
@@ -1558,8 +1763,8 @@
                 "@id": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4",
                 "dcterms:identifier": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4",
                 "@type": "dcat:Dataset",
-                "dcterms:title": "Open Materials Micrograph Repository",
-                "rdfs:label": "Open Materials Micrograph Repository",
+                "dcterms:title": "Open Materials Micrograph Repository (O2MR)",
+                "rdfs:label": "Open Materials Micrograph Repository (O2MR)",
                 "dcterms:type": {
                     "skos:prefLabel": "Dataset",
                     "@type": "skos:Concept",
@@ -1716,8 +1921,8 @@
                 "@id": "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
                 "dcterms:identifier": "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78",
                 "@type": "dcat:DataService",
-                "dcterms:title": "Open Materials Micrograph Repository User Interface",
-                "rdfs:label": "Open Materials Micrograph Repository User Interface",
+                "dcterms:title": "Open Materials Micrograph Repository (O2MR) User Interface",
+                "rdfs:label": "Open Materials Micrograph Repository (O2MR) User Interface",
                 "dcterms:type": {
                     "skos:prefLabel": "Service",
                     "@type": "skos:Concept",
@@ -1873,8 +2078,8 @@
                 "@id": "psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d",
                 "dcterms:identifier": "psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d",
                 "@type": "psdiDcatExt:Tool",
-                "dcterms:title": "Ampletracks",
-                "rdfs:label": "Ampletracks",
+                "dcterms:title": "Ampletracks codebase",
+                "rdfs:label": "Ampletracks codebase",
                 "dcterms:type": {
                     "skos:prefLabel": "Software",
                     "@type": "skos:Concept",
@@ -2174,6 +2379,7 @@
                         "foaf:openid": "http://orcid.org/0000-0001-7348-7612"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "Catalysis Data Infrastructure Portal",
                         "@type": "foaf:Document",
                         "@id": "http://cdi.ukcatalysishub.org/"
                     },
@@ -2208,6 +2414,7 @@
                         "@id": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"
                     },
                     "dcat:endpointURL": {
+                        "rdfs:label": "Catalysis Data Infrastructure Portal",
                         "@type": "rdfs:Resource",
                         "@id": "http://cdi.ukcatalysishub.org/"
                     },
@@ -2226,6 +2433,7 @@
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Service"
                     },
+                    "dcterms:description": "Web service to deliever publication data from Catalysis Data Infrastucture portal.",
                     "dcat:keyword": [
                         "catalysis",
                         "publications",
@@ -2246,6 +2454,11 @@
                         "foaf:name": "Abraham Nieva De La Hidalga",
                         "@type": "foaf:Agent",
                         "foaf:openid": "http://orcid.org/0000-0001-7348-7612"
+                    },
+                    "dcat:landingPage": {
+                        "rdfs:label": "Catalysis Data Infrastructure Portal web service",
+                        "@type": "foaf:Document",
+                        "@id": "http://cdi.ukcatalysishub.org/get_pubs.json"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -3188,8 +3401,17 @@
                 "ELN",
                 "Digital Lab Notebooks",
                 "Notebooking",
-                "notebook, Research Data Management",
-                "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, onenote, labtrove, note-taking, notes"
+                "notebook",
+                "Research Data Management",
+                "FAIR Data",
+                "Metadata",
+                "digital-notebook",
+                "eln",
+                "electronic-laboratory-notebook",
+                "onenote",
+                "labtrove",
+                "note-taking",
+                "notes"
             ],
             "dcat:theme": [
                 {
@@ -3299,8 +3521,17 @@
                         "ELN",
                         "Digital Lab Notebooks",
                         "Notebooking",
-                        "notebook, Research Data Management",
-                        "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, labtrove, note-taking, notes"
+                        "notebook",
+                        "Research Data Management",
+                        "FAIR Data",
+                        "Metadata",
+                        "digital-notebook",
+                        "eln",
+                        "electronic-laboratory-notebook",
+                        "onenote",
+                        "labtrove",
+                        "note-taking",
+                        "notes"
                     ],
                     "dcat:theme": [
                         {
@@ -3407,8 +3638,13 @@
                         "ELN",
                         "Digital Lab Notebooks",
                         "Notebooking",
-                        "notebook, Research Data Management",
-                        "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, note-taking, notes"
+                        "notebook",
+                        "Research Data Management",
+                        "FAIR Data",
+                        "Metadata",
+                        "digital-notebook",
+                        "eln",
+                        "electronic-laboratory-notebook"
                     ],
                     "dcat:theme": [
                         {
@@ -3512,8 +3748,17 @@
                     "ELN",
                     "Digital Lab Notebooks",
                     "Notebooking",
-                    "notebook, Research Data Management",
-                    "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, labtrove, note-taking, notes"
+                    "notebook",
+                    "Research Data Management",
+                    "FAIR Data",
+                    "Metadata",
+                    "digital-notebook",
+                    "eln",
+                    "electronic-laboratory-notebook",
+                    "onenote",
+                    "labtrove",
+                    "note-taking",
+                    "notes"
                 ],
                 "dcat:theme": [
                     {
@@ -3612,8 +3857,17 @@
                         "ELN",
                         "Digital Lab Notebooks",
                         "Notebooking",
-                        "notebook, Research Data Management",
-                        "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, labtrove, note-taking, notes"
+                        "notebook",
+                        "Research Data Management",
+                        "FAIR Data",
+                        "Metadata",
+                        "digital-notebook",
+                        "eln",
+                        "electronic-laboratory-notebook",
+                        "onenote",
+                        "labtrove",
+                        "note-taking",
+                        "notes"
                     ],
                     "dcat:theme": [
                         {
@@ -3712,8 +3966,16 @@
                         "ELN",
                         "Digital Lab Notebooks",
                         "Notebooking",
-                        "notebook, Research Data Management",
-                        "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, onenote, labtrove, note-taking, notes"
+                        "notebook",
+                        "Research Data Management",
+                        "FAIR Data",
+                        "Metadata",
+                        "digital-notebook",
+                        "eln",
+                        "electronic-laboratory-notebook",
+                        "onenote",
+                        "note-taking",
+                        "notes"
                     ],
                     "dcat:theme": [
                         {
@@ -3803,8 +4065,13 @@
                         "ELN",
                         "Digital Lab Notebooks",
                         "Notebooking",
-                        "notebook, Research Data Management",
-                        "FAIR Data, Metadata, digital-notebook, eln, electronic-laboratory-notebook, onenote, labtrove, note-taking, notes"
+                        "notebook",
+                        "Research Data Management",
+                        "FAIR Data",
+                        "Metadata",
+                        "digital-notebook",
+                        "eln",
+                        "electronic-laboratory-notebook"
                     ],
                     "dcat:theme": [
                         {
@@ -8168,7 +8435,12 @@
                 "Soft Skills",
                 "Guidance",
                 "Support",
-                "Upskill"
+                "Upskill",
+                "Training",
+                "Teaching",
+                "Self Learning",
+                "Coding",
+                "Research Skills"
             ],
             "dcterms:publisher": {
                 "foaf:name": "PSDI",
@@ -8224,6 +8496,9 @@
                 "@type": "rdfs:Resource",
                 "@id": "http://purl.org/adms/status/UnderDevelopment"
             },
+            "odrl:hasPolicy": {
+                "@id": "psdiPol:openAccess"
+            },
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
@@ -8251,7 +8526,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8306,6 +8586,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8337,7 +8621,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8392,6 +8681,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8423,7 +8716,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8478,6 +8776,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8509,7 +8811,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8564,6 +8871,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8595,7 +8906,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8650,6 +8966,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8681,7 +9001,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8736,6 +9061,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8767,7 +9096,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8822,6 +9156,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8853,7 +9191,12 @@
                         "Soft Skills",
                         "Guidance",
                         "Support",
-                        "Upskill"
+                        "Upskill",
+                        "Training",
+                        "Teaching",
+                        "Self Learning",
+                        "Coding",
+                        "Research Skills"
                     ],
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
@@ -8909,6 +9252,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:license": {
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
@@ -8920,56 +9267,6 @@
                     }
                 }
             ]
-        }
-    ],
-    "psdiDcatExt:Tool": [
-        {
-            "@id": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
-            "dcterms:identifier": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
-            "@type": "psdiDcatExt:Tool",
-            "dcterms:title": "Data Transfer, Synchronisation and Sharing",
-            "rdfs:label": "Data Transfer, Synchronisation and Sharing",
-            "dcterms:type": {
-                "skos:prefLabel": "Software",
-                "@type": "skos:Concept",
-                "@id": "http://purl.org/dc/dcmitype/Software"
-            },
-            "dcterms:description": "To be filled in",
-            "dcat:keyword": [
-                "To be filled in"
-            ],
-            "dcat:theme": {
-                "skos:prefLabel": "physical sciences",
-                "@type": "skos:Concept",
-                "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
-            },
-            "dcterms:publisher": {
-                "foaf:name": "PSDI",
-                "@type": "foaf:Agent",
-                "foaf:openid": "http://www.psdi.ac.uk"
-            },
-            "dcat:contactPoint": {
-                "@type": "vcard:Kind",
-                "vcard:hasEmail": "support@psdi.ac.uk"
-            },
-            "dcterms:language": {
-                "rdfs:label": "en",
-                "@type": "dcterms:LinguisticSystem",
-                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-            },
-            "adms:status": {
-                "@type": "rdfs:Resource",
-                "@id": "http://purl.org/adms/status/UnderDevelopment"
-            },
-            "odrl:hasPolicy": {
-                "@id": "psdiPol:openAccess"
-            },
-            "psdiDcatExt:logoURL": {
-                "rdfs:label": "PSDI logo",
-                "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
-            },
-            "psdiDcatExt:displayPriority": 1
         }
     ]
 }
