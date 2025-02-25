@@ -6,14 +6,14 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="https://psdi-uk.github.io/css-template/images/logo.svg">
+  <link rel="icon" type="image/x-icon" href="https://psdi-uk.github.io/psdi-common-style/img/logo.svg">
   <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lexend:400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://psdi-uk.github.io/css-template/psdi-common.css">
+  <link rel="stylesheet" href="https://psdi-uk.github.io/psdi-common-style/css/psdi-common.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://psdi-uk.github.io/css-template/psdi-common.js" type="module"></script>
+  <script src="https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js" type="module"></script>
   <title>PSDI metadata</title>
 </head>
 
@@ -31,7 +31,7 @@
   <header class="header" id="psdi-header"></header>
 
   <script type="module">
-    import { setTitle, setHeaderLinksSource } from "https://psdi-uk.github.io/css-template/psdi-common.js";
+    import { setTitle, setHeaderLinksSource } from "https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js";
     setTitle("Metadata");
     setHeaderLinksSource("index_files/header-links.html");
   </script>
@@ -45,10 +45,14 @@
 
   <div class="body-panel">
     <div class="max-width-box">
-	    <h2>Summary</h2>
-	    <p>The PSDI metadata for the <a href="https://www.psdi.ac.uk/">Physical Sciences Data Infrastructure (PSDI)</a> project.</p>
-      <p>Guidance about the PSDI metadata can be found at <a href="https://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-metadata">PSDI metadata guidance in the PSDI knowledgebase</a>.</p>
-	    <p>The metadata is made available in <a href="https://json-ld.org/">JSON-LD format</a> (.jsonld files) and equivalent <a href="https://www.w3.org/TR/turtle/">Terse RDF Triple Language</a> (.ttl files).</p>
+      <h2>Summary</h2>
+      <p>The PSDI metadata for the <a href="https://www.psdi.ac.uk/">Physical Sciences Data Infrastructure (PSDI)</a>
+        project.</p>
+      <p>Guidance about the PSDI metadata can be found at <a
+          href="https://psdi-uk.github.io/docusaurus-pages/docs/category/psdi-metadata">PSDI metadata guidance in the
+          PSDI knowledgebase</a>.</p>
+      <p>The metadata is made available in <a href="https://json-ld.org/">JSON-LD format</a> (.jsonld files) and
+        equivalent <a href="https://www.w3.org/TR/turtle/">Terse RDF Triple Language</a> (.ttl files).</p>
     </div>
   </div>
 
@@ -57,18 +61,24 @@
     <div class="max-width-box">
       <h2>Metadata available:</h2>
       <p>
-        <ul>
-          <li>https://psdi-uk.github.io/metadata/</li>
-          <li>├── vocabulary/</li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href="./vocabulary/psdi-voc.jsonld">psdi-voc.jsonld</a> (SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform)</li>
-          <li>└── resource-catalogue/</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a href="./resource-catalogue/psdi-dcat.jsonld">psdi-dcat.jsonld</a> ( DCAT description of catalogue of resources (data, services, tools and guidance) made available via PSDI)</li>
-		  <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <a href="./resource-catalogue/psdi-dcat-ext.jsonld">psdi-dcat-ext.jsonld</a> (extension of DCAT to describe PSDI catalogue)</li>
-        </ul>
+      <ul>
+        <li>https://psdi-uk.github.io/metadata/</li>
+        <li>├── vocabulary/</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a
+            href="./vocabulary/psdi-voc.jsonld">psdi-voc.jsonld</a> (SKOS vocabulary definining nomenclature used within
+          the PSDI project and the resulting PSDI infrastructure and its platform)</li>
+        <li>└── resource-catalogue/</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;├── <a
+            href="./resource-catalogue/psdi-dcat.jsonld">psdi-dcat.jsonld</a> ( DCAT description of catalogue of
+          resources (data, services, tools and guidance) made available via PSDI)</li>
+        <li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;└── <a
+            href="./resource-catalogue/psdi-dcat-ext.jsonld">psdi-dcat-ext.jsonld</a> (extension of DCAT to describe
+          PSDI catalogue)</li>
+      </ul>
       </p>
     </div>
   </div>
-  
+
   <footer class="footer" id="psdi-footer"></footer>
 
 </body>
