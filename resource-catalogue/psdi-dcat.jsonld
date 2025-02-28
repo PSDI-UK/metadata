@@ -3785,6 +3785,7 @@
                     },
                     "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "ELN Finder",
                         "@type": "rdfs:Resource",
                         "@id": "https://eln-finder.ulb.tu-darmstadt.de/info/page/about"
                     },
@@ -4610,8 +4611,9 @@
                     },
                     "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "Github README",
                         "@type": "rdfs:Resource",
-                        "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection#readme"
+                        "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection#readme"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -4628,7 +4630,7 @@
                     },
                     "dcat:Distribution": {
                         "dcterms:title": "PSDI Solubility Data Collection",
-                        "dcterms:description": "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions. [And CMC?] These can be downloaded in .CSV format.",
+                        "dcterms:description": "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions",
                         "dcat:accessURL": {
                             "@type": "rdfs:Resource",
                             "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection"
@@ -4722,6 +4724,7 @@
                     },
                     "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "Github README",
                         "@type": "rdfs:Resource",
                         "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/README.md"
                     },
@@ -5553,6 +5556,7 @@
                     },
                     "dcat:version": "v2.0.8",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "aiida-gromacs documentation",
                         "@type": "rdfs:Resource",
                         "@id": "http://aiida-gromacs.readthedocs.io/en/latest/"
                     },
@@ -5708,6 +5712,7 @@
                     },
                     "dcat:version": "v.1.0.0",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "aiida-amber documentation",
                         "@type": "rdfs:Resource",
                         "@id": "http://aiida-amber.readthedocs.io/en/latest/"
                     },
@@ -6515,6 +6520,7 @@
                     },
                     "dcat:version": "XXX please fill in e.g. 1.1.1",
                     "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "abcd’s documentation",
                         "@type": "rdfs:Resource",
                         "@id": "http://libatoms.github.io/abcd/"
                     },
