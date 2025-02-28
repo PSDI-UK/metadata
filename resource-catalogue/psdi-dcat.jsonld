@@ -980,7 +980,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Chemotion logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-chemotion.png"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-d-chemotion.png"
                     },
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
@@ -1050,7 +1050,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "STFC logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-stfcOpenData.png"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-d-stfcOpenData.png"
                     },
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
@@ -1307,8 +1307,8 @@
             }
         },
         {
-            "@id": "dbb09221-f69d-4751-9f51-7623209d2c70",
-            "dcterms:identifier": "dbb09221-f69d-4751-9f51-7623209d2c70",
+            "@id": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70",
+            "dcterms:identifier": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70",
             "@type": "dcat:Catalog",
             "dcterms:title": "PSDI Knowledge Base Topics",
             "rdfs:label": "PSDI Knowledge Base Topics",
@@ -1421,7 +1421,7 @@
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
-                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                        "@id": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70"
                     }
                 },
                 {
@@ -1485,7 +1485,7 @@
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
-                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                        "@id": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70"
                     }
                 },
                 {
@@ -1553,7 +1553,7 @@
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
-                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                        "@id": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70"
                     }
                 },
                 {
@@ -1614,7 +1614,7 @@
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
-                        "@id": "dbb09221-f69d-4751-9f51-7623209d2c70"
+                        "@id": "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70"
                     }
                 }
             ]
@@ -8659,9 +8659,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8754,9 +8753,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8849,9 +8847,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -8944,9 +8941,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -9039,9 +9035,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -9134,9 +9129,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -9229,9 +9223,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
@@ -9324,9 +9317,8 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
-                    "dcterms:license": {
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "\"odrl:hasPolicy\": {\n   \"@id\":\"psdiPol:openAccess\"\n}"
+                    "odrl:hasPolicy": {
+                        "@id": "psdiPol:openAccess"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
