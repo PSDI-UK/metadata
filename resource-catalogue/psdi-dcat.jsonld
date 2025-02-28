@@ -161,7 +161,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
@@ -243,11 +243,9 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
-            "dcat:inCatalog": {
-                "@id": "1"
-            },
+            "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
                 "@type": "rdfs:Resource",
                 "@id": "http://data-collections.psdi.ac.uk"
@@ -309,7 +307,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
@@ -438,7 +436,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
@@ -491,7 +489,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 3,
             "psdiDcatExt:Tool": [
@@ -559,7 +557,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
@@ -579,8 +577,8 @@
                     "@id": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
                     "dcterms:identifier": "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2",
                     "@type": "psdiDcatExt:Tool",
-                    "dcterms:title": "Dsync (Data Transfer, Synchronisation and Sharing) Tool",
-                    "rdfs:label": "Dsync (Data Transfer, Synchronisation and Sharing) Tool",
+                    "dcterms:title": "DSync (Data Transfer and Synchronisation) Container",
+                    "rdfs:label": "DSync (Data Transfer and Synchronisation) Container",
                     "dcterms:type": {
                         "skos:prefLabel": "Software",
                         "@type": "skos:Concept",
@@ -640,8 +638,9 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
+                    "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"
                     },
@@ -694,7 +693,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 3,
             "dcterms:hasPart": [
@@ -764,7 +763,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -847,7 +846,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -981,7 +980,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Chemotion logo",
                         "@type": "rdfs:Resource",
-                        "@id": "https://www.chemotion-repository.net/images/repo/Chemotion-V1.png"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-chemotion.png"
                     },
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
@@ -997,14 +996,14 @@
                     "@id": "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
                     "dcterms:identifier": "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6",
                     "@type": "dcat:Dataset",
-                    "dcterms:title": "eData: the STFC Research Data Repository",
-                    "rdfs:label": "eData: the STFC Research Data Repository",
+                    "dcterms:title": "STFC Open Data",
+                    "rdfs:label": "STFC Open Data",
                     "dcterms:type": {
                         "skos:prefLabel": "Dataset",
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Dataset"
                     },
-                    "dcterms:description": "eData is an institutional repository where STFC staff can deposit data and software that underpin journal articles and other published research. It includes data from STFCs experimental facilities, e.g. the ISIS Neutron and Muon Source and the Central Laser Facility. This resource is the subset of the records in eData which have DOIs.",
+                    "dcterms:description": "The source labelled \"STFC Open Data\" incorporates data records and software records from from STFCs experimental facilities: ISIS Neutron and Muon Source and the Central Laser Facility, as well as \"long-tail\" data that researchers share in the STFC eData institutional repository. As long as a DOI is minted for a data record or a software record orininating in STFC, it is published in DataCite, which is the source of the \"STFC Open Data\" collection in PSDI.",
                     "dcat:keyword": [
                         "experimental data",
                         "simulation data",
@@ -1051,7 +1050,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "STFC logo",
                         "@type": "rdfs:Resource",
-                        "@id": "https://www.ukri.org/wp-content/uploads/2022/03/ukri-stfc-square-logo.png"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-stfcOpenData.png"
                     },
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
@@ -1292,9 +1291,14 @@
                 "dcat:inCatalog": {
                     "@id": "psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5"
                 },
-                "dcterms:isPartOf": {
-                    "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
-                },
+                "dcterms:isPartOf": [
+                    {
+                        "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                    },
+                    {
+                        "@id": "psdiDcat:84701c55-30cc-4719-9195-7d62aa93bdde"
+                    }
+                ],
                 "dcat:Distribution": {
                     "dcat:accessService": {
                         "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"
@@ -1352,6 +1356,11 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
+            "psdiDcatExt:logoURL": {
+                "rdfs:label": "PSDI logo",
+                "@type": "rdfs:Resource",
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
+            },
             "psdiDcatExt:displayPriority": 1,
             "psdiDcatExt:Guidance": [
                 {
@@ -1408,7 +1417,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
@@ -1472,7 +1481,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
@@ -1540,7 +1549,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
@@ -1601,7 +1610,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 1,
                     "dcat:inCatalog": {
@@ -1756,7 +1765,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "dcat:Dataset": {
@@ -1901,7 +1910,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -2060,7 +2069,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -2178,7 +2187,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -2192,6 +2201,69 @@
                 "psdiDcatExt:programmingLanguage": "Programming Language :: PHP",
                 "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable"
             }
+        },
+        {
+            "@id": "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38",
+            "dcterms:identifier": "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38",
+            "@type": "dcat:Catalog",
+            "dcterms:title": "OPTIMADE Data Providers",
+            "rdfs:label": "OPTIMADE Data Providers",
+            "dcterms:type": {
+                "skos:prefLabel": "Collection",
+                "@type": "skos:Concept",
+                "@id": "http://purl.org/dc/dcmitype/Collection"
+            },
+            "dcterms:description": "The Open Databases Integration for Materials Design (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API. This resource theme contains data providers that make their data available via an Optimade endpoint and are thus searchable via PSDI Cross Data Search.",
+            "dcat:keyword": [
+                "OPTIMADE",
+                "data providers",
+                "materials",
+                "crystals",
+                "database"
+            ],
+            "dcat:theme": {
+                "skos:prefLabel": "crystallography",
+                "@type": "skos:Concept",
+                "@id": "http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959"
+            },
+            "dcterms:publisher": {
+                "foaf:name": "Optimade",
+                "@type": "foaf:Agent",
+                "foaf:openid": "http://www.optimade.org/"
+            },
+            "dcterms:creator": {
+                "foaf:name": "The OPTIMADE Consortium",
+                "@type": "foaf:Agent",
+                "foaf:openid": "http://www.optimade.org/contributors"
+            },
+            "dcat:landingPage": {
+                "rdfs:label": "Optimade",
+                "@type": "foaf:Document",
+                "@id": "http://www.optimade.org/"
+            },
+            "dcat:contactPoint": {
+                "vcard:Name": "Optimade github issues",
+                "@type": "vcard:Kind",
+                "vcard:hasURL": "http://github.com/Materials-Consortia/OPTIMADE/issues"
+            },
+            "dcterms:language": {
+                "rdfs:label": "en",
+                "@type": "dcterms:LinguisticSystem",
+                "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+            },
+            "dcat:version": "1.2.0",
+            "psdiDcatExt:furtherInformation": {
+                "rdfs:label": "OPTIMADE Resources",
+                "@type": "rdfs:Resource",
+                "@id": "http://www.optimade.org/resources"
+            },
+            "psdiDcatExt:logoURL": {
+                "rdfs:label": "Optimade logo",
+                "@type": "rdfs:Resource",
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+            },
+            "dcterms:bibliographicCitation": "Should you wish to cite the OPTIMADE specification, please use the following:\n- Evans et al, Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange, Digital Discovery (2024) 10.1039/D4DD00039K (preprint: 10.48550/arXiv.2402.0057)\n- Andersen et al, OPTIMADE, an API for exchanging materials data, Sci. Data 8, 217 (2021) 10.1038/s41597-021-00974-z\n- Andersen et al, The OPTIMADE Specification, Zenodo, 10.5281/zenodo.4195050",
+            "psdiDcatExt:displayPriority": 3
         },
         {
             "@id": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb",
@@ -2677,7 +2749,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "dcat:DataService": {
@@ -2782,7 +2854,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -2882,7 +2954,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -3008,7 +3080,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -3099,7 +3171,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -3237,7 +3309,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "dcat:DataService": {
@@ -3372,7 +3444,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -3500,7 +3572,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "dcat:DataService": [
@@ -3610,7 +3682,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -3719,7 +3791,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -3832,7 +3904,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
                     "@type": "rdfs:Resource",
-                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                    "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:inCatalog": {
@@ -3933,7 +4005,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -4041,7 +4113,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -4137,7 +4209,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -4257,7 +4329,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "dcat:Dataset": [
@@ -4544,7 +4616,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -4656,7 +4728,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -4776,7 +4848,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "psdiDcatExt:Guidance": [
@@ -4880,7 +4952,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -5106,7 +5178,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -8502,7 +8574,7 @@
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "PSDI logo",
                 "@type": "rdfs:Resource",
-                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
             },
             "psdiDcatExt:displayPriority": 2,
             "psdiDcatExt:Guidance": [
@@ -8594,7 +8666,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -8689,7 +8761,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -8784,7 +8856,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -8879,7 +8951,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -8974,7 +9046,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -9069,7 +9141,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -9164,7 +9236,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -9259,7 +9331,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "PSDI logo",
                         "@type": "rdfs:Resource",
-                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg"
+                        "@id": "http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {

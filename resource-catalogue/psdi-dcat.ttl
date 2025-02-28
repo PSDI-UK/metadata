@@ -39,6 +39,7 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
         psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d,
         psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7,
         psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7,
+        psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38,
         psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a,
         psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e,
         psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b,
@@ -138,17 +139,17 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
     rdfs:label "XXXLICENSE3"@en .
 
 psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6 a dcat:Dataset ;
-    rdfs:label "eData: the STFC Research Data Repository"@en ;
+    rdfs:label "STFC Open Data"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <https://edata.stfc.ac.uk/info/edata-guidance> ;
-    psdiDcatExt:logoURL <https://www.ukri.org/wp-content/uploads/2022/03/ukri-stfc-square-logo.png> ;
-    dcterms:description "eData is an institutional repository where STFC staff can deposit data and software that underpin journal articles and other published research. It includes data from STFCs experimental facilities, e.g. the ISIS Neutron and Muon Source and the Central Laser Facility. This resource is the subset of the records in eData which have DOIs."@en ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-stfcOpenData.png> ;
+    dcterms:description "The source labelled \"STFC Open Data\" incorporates data records and software records from from STFCs experimental facilities: ISIS Neutron and Muon Source and the Central Laser Facility, as well as \"long-tail\" data that researchers share in the STFC eData institutional repository. As long as a DOI is minted for a data record or a software record orininating in STFC, it is published in DataCite, which is the source of the \"STFC Open Data\" collection in PSDI."@en ;
     dcterms:identifier "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "Science and Technology Facilities Council"@en ;
             foaf:openid "https://ror.org/057g20z61"@en ] ;
-    dcterms:title "eData: the STFC Research Data Repository"@en ;
+    dcterms:title "STFC Open Data"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
@@ -168,31 +169,31 @@ psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76 a dcat:Dataset ;
     rdfs:label "Chemotion Repository"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <https://www.chemotion.net/docs/repo> ;
-    psdiDcatExt:logoURL <https://www.chemotion-repository.net/images/repo/Chemotion-V1.png> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-chemotion.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Dr. An Nguyen"@en ;
             foaf:openid "http://orcid.org/0000-0002-1692-6778"@en ],
         [ a foaf:Agent ;
-            foaf:name "Chia-Lin Lin"@en ;
-            foaf:openid "http://orcid.org/0000-0002-9772-0455"@en ],
+            foaf:name "Pei-Chi Huang"@en ;
+            foaf:openid "http://orcid.org/0000-0002-9976-4507"@en ],
         [ a foaf:Agent ;
             foaf:name "Dr. Yu-Chieh Huang"@en ;
             foaf:openid "http://orcid.org/0000-0002-4261-9886"@en ],
         [ a foaf:Agent ;
-            foaf:name "Pei-Chi Huang"@en ;
-            foaf:openid "http://orcid.org/0000-0002-9976-4507"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Prof. Stefan Bräse"@en ;
-            foaf:openid "http://orcid.org/0000-0003-4845-3191"@en ],
+            foaf:name "Dr. Felix Bach"@en ;
+            foaf:openid "http://orcid.org/0000-0002-5035-7978"@en ],
         [ a foaf:Agent ;
             foaf:name "Dr. Nicole Jung"@en ;
             foaf:openid "http://orcid.org/0000-0001-9513-2468"@en ],
         [ a foaf:Agent ;
-            foaf:name "Dr. Felix Bach"@en ;
-            foaf:openid "http://orcid.org/0000-0002-5035-7978"@en ],
+            foaf:name "Chia-Lin Lin"@en ;
+            foaf:openid "http://orcid.org/0000-0002-9772-0455"@en ],
         [ a foaf:Agent ;
             foaf:name "Dr. Pierre Tremouilhac"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0487-3947"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-0487-3947"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Prof. Stefan Bräse"@en ;
+            foaf:openid "http://orcid.org/0000-0003-4845-3191"@en ] ;
     dcterms:description "Chemotion Repository is an open repository of chemical data created by the Karlsruhe Institute of Technology. The focus of the repository is synthetic and analytical chemistry data. It includes data pertaining to reactions, molecules and physical samples. Data in the repository is uploaded by the community, and is subject to peer review. Moreover, the data is well structured and in a machine-readable format."@en ;
     dcterms:identifier "psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -222,7 +223,7 @@ psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76 a dcat:Dataset ;
 psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387 a psdiDcatExt:Guidance ;
     rdfs:label "Sharing Data and FAIR Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
@@ -253,10 +254,10 @@ psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387 a psdiDcatExt:Guidance ;
 psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0 a psdiDcatExt:Guidance ;
     rdfs:label "psdi_shg_exemplar"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jack Doyle"@en ;
-            foaf:openid "http://www.linkedin.com/in/jack-doyle-175183323/"@en ],
+            foaf:name "Donald Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
@@ -264,11 +265,11 @@ psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0 a psdiDcatExt:Guidance ;
             foaf:name "Stephen Gow"@en ;
             foaf:openid "http://orcid.org/0000-0003-0121-1697"@en ],
         [ a foaf:Agent ;
-            foaf:name "Donald Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
-        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jack Doyle"@en ;
+            foaf:openid "http://www.linkedin.com/in/jack-doyle-175183323/"@en ] ;
     dcterms:description "This case study involved reconstructing a set of databases containing data from a series of Second Harmonic Generation (SHG) experiments so that the models built using the data could be reevaluated in future. As part of this work a modern dashboard to view the data was also created."@en ;
     dcterms:identifier "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -346,18 +347,12 @@ psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 a psdiDcatExt:Tool ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:downloadURL "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/"@en ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:v0.0.1"@en ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/psdi-data-conversion> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
             foaf:name "Raymond Whorley"@en ;
             foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samuel Hyder"@en ;
-            foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ],
         [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
@@ -365,8 +360,14 @@ psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 a psdiDcatExt:Tool ;
             foaf:name "Bryan Gillis"@en ;
             foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
         [ a foaf:Agent ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samuel Hyder"@en ;
+            foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ] ;
     dcterms:description "PSDI Data Conversion Web Application service to perform file format conversions made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Web Application (exploring data formats for conversion, providing details of available conversions, and where possible performing these conversions) but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. If you wish to provide feedback about missing formats or conversions, this will still need to be done via the main PSDI site."@en ;
     dcterms:identifier "psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -482,14 +483,14 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python; Programming Language :: Python :: 3; Programming Language :: Python :: 3.9; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11; Programming Language :: Python :: 3.12"@en ;
     psdiDcatExt:repositoryURL <http://github.com/stfc/aiida-mlip> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Federica Zanca"@en ;
+            foaf:openid "http://orcid.org/0000-0002-6054-9260"@en ],
+        [ a foaf:Agent ;
             foaf:name "Jacob Wilkins"@en ;
             foaf:openid ""@en ],
         [ a foaf:Agent ;
             foaf:name "Elliott Kasoar"@en ;
             foaf:openid "http://orcid.org/0009-0005-2015-9478"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Federica Zanca"@en ;
-            foaf:openid "http://orcid.org/0000-0002-6054-9260"@en ],
         [ a foaf:Agent ;
             foaf:name "Alin M. Elena"@en ;
             foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ] ;
@@ -515,7 +516,7 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 a psdiDcatExt:Tool ;
 psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6 a dcat:DataService ;
     rdfs:label "PSDI Knowledge Base"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:description "The PSDI Knowledge Base provides guidance and training materials for physical scientists on a range of topics related to data and PSDI technology and resources. The Knowledge Base also provides technical support information, including FAQs and how to raise a support request for users of PSDI."@en ;
     dcterms:identifier "psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -536,15 +537,47 @@ psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6 a dcat:DataService ;
     dcat:landingPage <http://guidance.psdi.ac.uk> ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38 a dcat:Catalog ;
+    rdfs:label "OPTIMADE Data Providers"@en ;
+    psdiDcatExt:displayPriority 3 ;
+    psdiDcatExt:furtherInformation <http://www.optimade.org/resources> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:bibliographicCitation """Should you wish to cite the OPTIMADE specification, please use the following:
+- Evans et al, Developments and applications of the OPTIMADE API for materials discovery, design, and data exchange, Digital Discovery (2024) 10.1039/D4DD00039K (preprint: 10.48550/arXiv.2402.0057)
+- Andersen et al, OPTIMADE, an API for exchanging materials data, Sci. Data 8, 217 (2021) 10.1038/s41597-021-00974-z
+- Andersen et al, The OPTIMADE Specification, Zenodo, 10.5281/zenodo.4195050"""@en ;
+    dcterms:creator [ a foaf:Agent ;
+            foaf:name "The OPTIMADE Consortium"@en ;
+            foaf:openid "http://www.optimade.org/contributors"@en ] ;
+    dcterms:description "The Open Databases Integration for Materials Design (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API. This resource theme contains data providers that make their data available via an Optimade endpoint and are thus searchable via PSDI Cross Data Search."@en ;
+    dcterms:identifier "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher [ a foaf:Agent ;
+            foaf:name "Optimade"@en ;
+            foaf:openid "http://www.optimade.org/"@en ] ;
+    dcterms:title "OPTIMADE Data Providers"@en ;
+    dcterms:type dcmitype:Collection ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:Name "Optimade github issues"@en ;
+            vcard:hasURL "http://github.com/Materials-Consortia/OPTIMADE/issues"@en ] ;
+    dcat:keyword "OPTIMADE"@en,
+        "crystals"@en,
+        "data providers"@en,
+        "database"@en,
+        "materials"@en ;
+    dcat:landingPage <http://www.optimade.org/> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> ;
+    dcat:version "1.2.0"@en .
+
 psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Patrick Austin"@en ;
-            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
-        [ a foaf:Agent ;
             foaf:name "Leandro Liborio"@en ;
             foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Patrick Austin"@en ;
+            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
         [ a foaf:Agent ;
             foaf:name "Subindev Devadasan"@en ;
             foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ] ;
@@ -578,12 +611,9 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection#readme> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
             foaf:name "Joanna Grundy"@en ;
             foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
         [ a foaf:Agent ;
@@ -592,6 +622,9 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
         [ a foaf:Agent ;
             foaf:name "Joshua Cheung"@en ;
             foaf:openid "http://orcid.org/0009-0003-9952-3468"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Matthew Partridge"@en ;
             foaf:openid "http://orcid.org/0000-0001-5280-8309"@en ] ;
@@ -624,20 +657,32 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
     odrl:hasPolicy psdiPol:openAccess ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent [ foaf:name "Williams2015: Melting Point"@en ;
+                    foaf:openid "http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent [ foaf:name "SolProp: Miscibility"@en ;
+                    foaf:openid "http://pubs.acs.org/doi/10.1021/jacs.2c01768"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent [ foaf:name "Meng2022: Solubility"@en ;
                     foaf:openid "http://doi.org/10.1038/s41597-022-01154-3"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "BigSolDB Miscibility"@en ;
-                    foaf:openid "http://doi.org/10.26434/chemrxiv-2023-qqslt"@en ] ],
+            prov:agent [ foaf:name "Delaney2004: Solubility"@en ;
+                    foaf:openid "http://doi.org/10.1021/ci034243x"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Cheraoui1994: Boiling Point"@en ;
-                    foaf:openid "http://doi.org/10.1039/FT9949000097"@en ] ],
+            prov:agent [ foaf:name "Bergstrom2003: Melting Point"@en ;
+                    foaf:openid "http://doi.org/10.1021/ci020280x"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Boobier2020: Miscibility, Solubility"@en ;
-                    foaf:openid "http://doi.org/10.1038/s41467-020-19594-z"@en ] ],
+            prov:agent [ foaf:name "DDB2023: Miscibility"@en ;
+                    foaf:openid "http://www.ddbst.com/ddb-vle.html"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent [ foaf:name "Lowe2023: Solubility"@en ;
+                    foaf:openid "http://doi.org/10.1021/acs.chemrestox.2c00379"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent [ foaf:name "IUPAC: Miscibility"@en ;
@@ -648,44 +693,32 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
                     foaf:openid "http://doi.org/10.5194/acp-23-10901-2023"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "DDB2023: Miscibility"@en ;
-                    foaf:openid "http://www.ddbst.com/ddb-vle.html"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Delaney2004: Solubility"@en ;
-                    foaf:openid "http://doi.org/10.1021/ci034243x"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Williams2015: Melting Point"@en ;
-                    foaf:openid "http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent [ foaf:name "WikiData: Boiling Point, Melting Point"@en ;
                     foaf:openid "http://query.wikidata.org/"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "SolProp: Miscibility"@en ;
-                    foaf:openid "http://pubs.acs.org/doi/10.1021/jacs.2c01768"@en ] ],
+            prov:agent [ foaf:name "Boobier2020: Miscibility, Solubility"@en ;
+                    foaf:openid "http://doi.org/10.1038/s41467-020-19594-z"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Lowe2023: Solubility"@en ;
-                    foaf:openid "http://doi.org/10.1021/acs.chemrestox.2c00379"@en ] ],
+            prov:agent [ foaf:name "BigSolDB Miscibility"@en ;
+                    foaf:openid "http://doi.org/10.26434/chemrxiv-2023-qqslt"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent [ foaf:name "BioQuest: Boiling Point, Melting Point"@en ;
                     foaf:openid "http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Kim2024: Boiling Point"@en ;
-                    foaf:openid "http://doi.org/10.1021/acs.jchemed.3c01040"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent [ foaf:name "Bergstrom2003: Melting Point"@en ;
-                    foaf:openid "http://doi.org/10.1021/ci020280x"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent [ foaf:name "Llompart2024: Solubility"@en ;
-                    foaf:openid "http://doi.org/10.1038/s41597-024-03105-6"@en ] ] .
+                    foaf:openid "http://doi.org/10.1038/s41597-024-03105-6"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent [ foaf:name "Cheraoui1994: Boiling Point"@en ;
+                    foaf:openid "http://doi.org/10.1039/FT9949000097"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent [ foaf:name "Kim2024: Boiling Point"@en ;
+                    foaf:openid "http://doi.org/10.1021/acs.jchemed.3c01040"@en ] ] .
 
 psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     rdfs:label "Soprano"@en ;
@@ -737,13 +770,13 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
 psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317 a psdiDcatExt:Guidance ;
     rdfs:label "Metadata Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Cerys Willoughby"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
-        [ a foaf:Agent ;
             foaf:name "Aileen Day"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2397-1996"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-2397-1996"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cerys Willoughby"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
     dcterms:description "This topic collection provides an introduction to metadata and standards, and why they are important for research data. This topic collection also provides information about how PSDI uses metadata to manage and describe our resources."@en ;
     dcterms:identifier "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -770,15 +803,15 @@ psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d a psdiDcatExt:Tool ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://github.com/Ampletracks/Ampletracks/blob/main/README.md> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: PHP"@en ;
     psdiDcatExt:repositoryURL <http://github.com/Ampletracks/Ampletracks> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Ben Jefferson"@en ;
-            foaf:openid "http://www.linkedin.com/in/benjefferson/"@en ],
-        [ a foaf:Agent ;
             foaf:name "Stavrina Dimosthenous"@en ;
             foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ben Jefferson"@en ;
+            foaf:openid "http://www.linkedin.com/in/benjefferson/"@en ],
         [ a foaf:Agent ;
             foaf:name "Christopher Race"@en ;
             foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ] ;
@@ -812,14 +845,14 @@ psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 a dcat:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Subindev Devadasan"@en ;
-            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
-        [ a foaf:Agent ;
             foaf:name "Leandro Liborio"@en ;
             foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
         [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
-            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ] ;
+            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Subindev Devadasan"@en ;
+            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ] ;
     dcterms:description "Hands on tutorial for finding muon stopping site with pymuon-suite using Galaxy"@en ;
     dcterms:identifier "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -828,9 +861,9 @@ psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 a dcat:Guidance ;
             foaf:openid "http://www.psdi.ac.uk"@en ] ;
     dcterms:title "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -850,27 +883,27 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/psdi-data-conversion> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
             foaf:name "Raymond Whorley"@en ;
             foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
         [ a foaf:Agent ;
             foaf:name "Samuel Hyder"@en ;
             foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ],
         [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+            foaf:name "Bryan Gillis"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Bryan Gillis"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
     dcterms:description "PSDI Python Library for Data Conversion. This library will be made available via PyPy and can be installed and run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application but without the file cap limits as the code will be run locally as opposed to on PSDI servers."@en ;
     dcterms:identifier "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -898,7 +931,7 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
 psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9 a psdiDcatExt:Guidance ;
     rdfs:label "PSDI Resources Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
@@ -995,7 +1028,7 @@ psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6 a psdiDcatExt:Tool ;
 psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
     rdfs:label "PSDI Interactive Learning (Moodle)"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:description "Interactive online teaching for a range of individuals, with the aim of upskilling them in areas that their own institutions or workplaces may not provide training."@en ;
     dcterms:identifier "psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1018,7 +1051,7 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
             dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
+            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 ;
@@ -1027,13 +1060,13 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
             dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
+            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
@@ -1044,7 +1077,7 @@ psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6 a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/propersea> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:description """Propersea is a online resource (currently in end stage testing) designed to provide predictions for a range of molecular and physicochemical properties for small molecules. The predicted properties include: melting point, boiling point, density, logP, solubility, polarizability and more. It will also predict the IUPAC name for the molecule. The properties are predicted through a variety of algorithms, including RDKit algorithms: Semi-empirical quantum methods; Fragment/ atom  contribution calculations; Bayesian Additive Regression Trees; Transformer neural networks.
 The predicted value is returned in the results interface. For those properties predicted using the Bayesian algorithms it also returns an interval for the 95% confidence, along with a measure of how well the molecule compares to molecules contained in the training set. Where a property prediction is deemed non-sensical due to the predicted phase, the property may be omitted from results.
 Propersea performs best for organic compounds and performance on inorganics, orgometallics and inorganic-organic mixtures is known to be lower. Reliability metrics for these compounds would show as ‘Low’ or ‘Very Low’"""@en ;
@@ -1080,25 +1113,25 @@ Propersea performs best for organic compounds and performance on inorganics, org
 psdiDcat:64af3a23-2d41-4079-a014-db366096434a a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Command Line Application"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+            foaf:name "Bryan Gillis"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
         [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
+            foaf:name "Raymond Whorley"@en ;
+            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
             foaf:name "Samuel Hyder"@en ;
             foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ],
         [ a foaf:Agent ;
-            foaf:name "Bryan Gillis"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Raymond Whorley"@en ;
-            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ] ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
     dcterms:description "PSDI Command Line interface for Data Conversion. This application will be made avaialble via GitHub and can be installed and run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application but without the file cap limits as the code will be run locally as opposed to on PSDI servers."@en ;
     dcterms:identifier "psdiDcat:64af3a23-2d41-4079-a014-db366096434a"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -1128,14 +1161,14 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a a dcat:DataService ;
         <http://www.youtube.com/c/galaxyproject> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Leandro Liborio"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
-        [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
             foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
         [ a foaf:Agent ;
             foaf:name "Subindev Devadasan"@en ;
-            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ] ;
+            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leandro Liborio"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ] ;
     dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments."@en ;
     dcterms:identifier "psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a"@en ;
     dcterms:issued "2024-02-20T00:00:00+00:00"^^xsd:dateTime ;
@@ -1148,9 +1181,9 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a a dcat:DataService ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointURL <http://materialsgalaxy.stfc.ac.uk/> ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
@@ -1181,11 +1214,11 @@ psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b a dcat:DataService ;
             foaf:name "Leandro Liborio"@en ;
             foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
         [ a foaf:Agent ;
-            foaf:name "Patrick Austin"@en ;
-            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
-        [ a foaf:Agent ;
             foaf:name "Subindev Devadasan"@en ;
-            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ] ;
+            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Patrick Austin"@en ;
+            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ] ;
     dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments. API level access to Galaxy allows programmatic use of the platform."@en ;
     dcterms:identifier "psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b"@en ;
     dcterms:issued "2024-02-20T00:00:00+00:00"^^xsd:dateTime ;
@@ -1228,26 +1261,26 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python; Programming Language :: Python :: 3; Programming Language :: Python :: 3.9; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11; Programming Language :: Python :: 3.12; Programming Language :: Python :: 3.13"@en ;
     psdiDcatExt:repositoryURL <http://github.com/stfc/janus-core> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "David Mason"@en ;
-            foaf:openid ""@en ],
+            foaf:name "Elliott Kasoar"@en ;
+            foaf:openid "http://orcid.org/0009-0005-2015-9478"@en ],
         [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
             foaf:openid "http://orcid.org/0000-0002-6279-7823"@en ],
         [ a foaf:Agent ;
-            foaf:name "Alin M. Elena"@en ;
-            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ],
-        [ a foaf:Agent ;
             foaf:name "Jacob Wilkins"@en ;
             foaf:openid ""@en ],
         [ a foaf:Agent ;
-            foaf:name "Elliott Kasoar"@en ;
-            foaf:openid "http://orcid.org/0009-0005-2015-9478"@en ],
+            foaf:name "Harvey Devereux"@en ;
+            foaf:openid "http://orcid.org/0000-0001-9449-7350"@en ],
         [ a foaf:Agent ;
             foaf:name "Federica Zanca"@en ;
             foaf:openid "http://orcid.org/0000-0002-6054-9260"@en ],
         [ a foaf:Agent ;
-            foaf:name "Harvey Devereux"@en ;
-            foaf:openid "http://orcid.org/0000-0001-9449-7350"@en ] ;
+            foaf:name "David Mason"@en ;
+            foaf:openid ""@en ],
+        [ a foaf:Agent ;
+            foaf:name "Alin M. Elena"@en ;
+            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ] ;
     dcterms:description "XXX please fill in"@en ;
     dcterms:identifier "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55"@en ;
     dcterms:issued "2024-02-04T00:00:00+00:00"^^xsd:dateTime ;
@@ -1271,7 +1304,7 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 a psdiDcatExt:Tool ;
 psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981 a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
@@ -1300,25 +1333,25 @@ psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
-            foaf:name "Raymond Whorley"@en ;
-            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
-        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samuel Hyder"@en ;
-            foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ],
+            foaf:name "Raymond Whorley"@en ;
+            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Bryan Gillis"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samuel Hyder"@en ;
+            foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ] ;
     dcterms:description "PSDI Hosted Web Application which serves as your one stop shop for file format conversion. PSDI's Data Conversion Service will allow users to explore what formats their data can be converted to and from and will provide details of available convertors which have been tested and ranked with comprehensive quality measures. Many conversions will be able to be performed via our service, and in instances where this cannot occur, users will be directed to external services that will perform this conversion."@en ;
     dcterms:identifier "psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -1416,7 +1449,7 @@ psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d a psdiDcatExt:Tool ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:downloadURL "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte"@en ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:latest"@en ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Fortran; Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <https://github.com/PSDI-UK/dlmonte-container> ;
     dcterms:creator [ a foaf:Agent ;
@@ -1459,11 +1492,11 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f a psdiDcatExt:Guidance ;
             foaf:name "Subindev Devadasan"@en ;
             foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
         [ a foaf:Agent ;
-            foaf:name "Leandro Liborio"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
-        [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
-            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ] ;
+            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leandro Liborio"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ] ;
     dcterms:description "MuSpinSim documentation that includes theory behind MuspinSim, tutorials and examples."@en ;
     dcterms:identifier "psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1491,12 +1524,13 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f a psdiDcatExt:Guidance ;
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
 psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 a psdiDcatExt:Tool ;
-    rdfs:label "Dsync (Data Transfer, Synchronisation and Sharing) Tool"@en ;
+    rdfs:label "DSync (Data Transfer and Synchronisation) Container"@en ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
+    psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:downloadURL "https://ghcr.io/psdi-uk/data-transfer-container/data-transfer"@en ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/data-transfer-container/data-transfer:latest"@en ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <https://github.com/PSDI-UK/data-transfer-container> ;
     dcterms:creator [ a foaf:Agent ;
@@ -1511,7 +1545,7 @@ psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 a psdiDcatExt:Tool ;
     dcterms:publisher [ a foaf:Agent ;
             foaf:name "PSDI"@en ;
             foaf:openid "http://www.psdi.ac.uk"@en ] ;
-    dcterms:title "Dsync (Data Transfer, Synchronisation and Sharing) Tool"@en ;
+    dcterms:title "DSync (Data Transfer and Synchronisation) Container"@en ;
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
@@ -1533,20 +1567,20 @@ psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 a dcat:Dataset ;
     rdfs:label "psdi_cmc_data"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/README.md> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jeremy Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
-        [ a foaf:Agent ;
             foaf:name "Samuel Munday"@en ;
             foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+            foaf:name "Jeremy Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
             foaf:name "Thomas Allam"@en ;
-            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ] ;
+            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
     dcterms:description "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" http://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival http://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format."@en ;
     dcterms:identifier "psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34"@en ;
     dcterms:issued "2024-10-20T12:01:01+00:00"^^xsd:dateTime ;
@@ -1580,14 +1614,14 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Subindev Devadasan"@en ;
-            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
-        [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
             foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
         [ a foaf:Agent ;
             foaf:name "Leandro Liborio"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Subindev Devadasan"@en ;
+            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ] ;
     dcterms:description "Documentation page of Xray Larch"@en ;
     dcterms:identifier "psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1597,9 +1631,9 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     dcterms:title "Xray Larch Documentation"@en ;
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1621,11 +1655,11 @@ psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 a psdiDcatExt:Guidance ;
             foaf:name "Chris Mellor"@en ;
             foaf:openid ""@en ],
         [ a foaf:Agent ;
+            foaf:name "Nicola Knight"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
+        [ a foaf:Agent ;
             foaf:name "Alex Ganose"@en ;
             foaf:openid "http://orcid.org/0000-0002-4486-3321"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Alin-Marin Elena"@en ;
-            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ],
         [ a foaf:Agent ;
             foaf:name "Keith Butler"@en ;
             foaf:openid "http://orcid.org/0000-0001-5432-5597"@en ],
@@ -1633,11 +1667,11 @@ psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 a psdiDcatExt:Guidance ;
             foaf:name "Ioan-Bogdan Magdău"@en ;
             foaf:openid "http://orcid.org/0000-0002-3963-5076"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
             foaf:name "Reinhard Maurer"@en ;
-            foaf:openid "http://orcid.org/0000-0002-3004-785X"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-3004-785X"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Alin-Marin Elena"@en ;
+            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ] ;
     dcterms:description "XXX please fill in"@en ;
     dcterms:identifier "psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1658,22 +1692,22 @@ psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11 a dcat:DataService ;
     rdfs:label "ELN Finder"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://eln-finder.ulb.tu-darmstadt.de/info/page/about> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
+            foaf:openid "0009-0000-6422-0342"@en ] ;
     dcterms:description """ELNFinder is a resource that PSDI actively contributes to. The ELN Finder helps researchers and staff from research infrastructure institutions to select the appropriate software for an electronic lab notebook ELN from the wide range of available ELNs. It is based on a DSpace 7 repository whose entries contains rich information about ELN tools.
 
 The entries in the ELN Finder are based on a metadata schema that was developed with the goal of describing an ELN as accurately as possible. The metadata schema contains attributes and filters.
@@ -1712,7 +1746,7 @@ psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 a dcat:Dataset ;
     rdfs:label "Chemical Availability Search (ChASe)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/chase> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:description "The Chemical Availability Search (ChASe) is a database of commercially available chemicals that can be searched to return availability information. Pricing and supplier information is provided for over 250,000 unique chemicals from many UK suppliers. The information given by ChASe is Product Name; Supplier; Country; Quantity; Price; Unit Price; Catalogue Number; link to supplier website"@en ;
     dcterms:identifier "psdiDcat:e0e14403-1575-43db-a677-89aa515968e4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1739,16 +1773,16 @@ psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 a dcat:Dataset ;
 
 psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jeremy Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
-        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Thomas Allam"@en ;
-            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ] ;
+            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jeremy Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
     dcterms:description "This case study examines the issues of loosing data in ESIs as the key raw datapoints get embedded within PDFs. Data was extracted from the supplementary information of the paper - Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded' http://doi.org/10.1002/cmdc.202000533 and converted into JSON. This process was docmented to demonstrate how this type of data can be made avaialble in a more machine-readable fashion."@en ;
     dcterms:identifier "psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1774,67 +1808,70 @@ psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd a psdiDcatExt:Guidance ;
                     foaf:openid "http://www.linkedin.com/in/kendrickng1/"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent [ foaf:name "Jessica E. Boles"@en ;
+                    foaf:openid "http://www.linkedin.com/in/jessica-boles-a67791194/"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent [ foaf:name "Nyasha Allen"@en ;
                     foaf:openid "http://orcid.org/0000-0002-9971-6118"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Laura R. Blackholly"@en ;
-                    foaf:openid "http://www.linkedin.com/in/laura-blackholly-74409482/"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Daniel P. Mulvihill"@en ;
-                    foaf:openid "http://orcid.org/0000-0003-2502-5274"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Helena J. Shepherd"@en ;
-                    foaf:openid "http://orcid.org/0000-0003-0832-4475"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Dr. George T. Williams"@en ;
-                    foaf:openid "http://orcid.org/0000-0001-6162-8895"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent [ foaf:name "Ben Wilson"@en ;
                     foaf:openid "http://www.linkedin.com/in/ben-wilson-kent/"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Jennifer R. Hiscock"@en ;
-                    foaf:openid "http://orcid.org/0000-0002-1406-8802"@en ] ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent [ foaf:name "Lisa J. White"@en ;
                     foaf:openid "http://orcid.org/0000-0001-9492-6143"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Jessica E. Boles"@en ;
-                    foaf:openid "http://www.linkedin.com/in/jessica-boles-a67791194/"@en ] ],
+            prov:agent [ foaf:name "Laura R. Blackholly"@en ;
+                    foaf:openid "http://www.linkedin.com/in/laura-blackholly-74409482/"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent [ foaf:name "Dr. George T. Williams"@en ;
+                    foaf:openid "http://orcid.org/0000-0001-6162-8895"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent [ foaf:name "Jennifer R. Hiscock"@en ;
+                    foaf:openid "http://orcid.org/0000-0002-1406-8802"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent [ foaf:name "Dominique F. Chu"@en ;
+                    foaf:openid "http://orcid.org/0000-0002-3706-2905"@en ] ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent [ foaf:name "Helena J. Shepherd"@en ;
+                    foaf:openid "http://orcid.org/0000-0003-0832-4475"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent [ foaf:name "Rebecca J. Ellaby"@en ;
                     foaf:openid "http://www.linkedin.com/in/rebecca-ellaby/"@en ] ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent [ foaf:name "Dominique F. Chu"@en ;
-                    foaf:openid "http://orcid.org/0000-0002-3706-2905"@en ] ] .
+            prov:agent [ foaf:name "Daniel P. Mulvihill"@en ;
+                    foaf:openid "http://orcid.org/0000-0003-2502-5274"@en ] ] .
 
 psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     rdfs:label "PSDI Data Revival"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Louis McLean"@en ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
@@ -1843,20 +1880,17 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
             foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
+            foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samuel Munday"@en ;
-            foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
         [ a foaf:Agent ;
             foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
+            foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samuel Munday"@en ;
+            foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
         [ a foaf:Agent ;
             foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ] ;
@@ -1950,11 +1984,11 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Subindev Devadasan"@en ;
-            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
-        [ a foaf:Agent ;
             foaf:name "Patrick Austin"@en ;
             foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Subindev Devadasan"@en ;
+            foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
         [ a foaf:Agent ;
             foaf:name "Leandro Liborio"@en ;
             foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ] ;
@@ -1987,19 +2021,19 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
 psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
     rdfs:label "LabTrove Container Image"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
     dcterms:description "PSDI LabTrove - this is the Lightweight, web based \"blogging\" service made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Labtrove Exemplar but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. The setup instructions will explain how to install this and run it yourself and how to configure it with your own authentication system if you wish."@en ;
     dcterms:identifier "psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -2068,6 +2102,15 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
 
 <http://purl.org/cld/freq/continuous> a dcterms:Frequency .
 
+<http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-chemotion.png> a rdfs:Resource ;
+    rdfs:label "Chemotion logo"@en .
+
+<http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/PSDIcrossSearchData-d-stfcOpenData.png> a rdfs:Resource ;
+    rdfs:label "STFC logo"@en .
+
+<http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
+    rdfs:label "Optimade logo"@en .
+
 <http://www.ccpbiosim.ac.uk/psdi-demo> a foaf:Document .
 
 <http://www.ccpnc.ac.uk/docs/magres/magres-format.pdf> a dcterms:Standard ;
@@ -2081,6 +2124,12 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
 
 <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/owner> a rdfs:Resource ;
     rdfs:label "owner"@en .
+
+<http://www.optimade.org/> a foaf:Document ;
+    rdfs:label "Optimade"@en .
+
+<http://www.optimade.org/resources> a rdfs:Resource ;
+    rdfs:label "OPTIMADE Resources"@en .
 
 <http://www.psdi.ac.uk/> a rdfs:Resource .
 
@@ -2132,16 +2181,10 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
 <https://www.chemotion-repository.net> a foaf:Document ;
     rdfs:label "About Chemotion"@en .
 
-<https://www.chemotion-repository.net/images/repo/Chemotion-V1.png> a rdfs:Resource ;
-    rdfs:label "Chemotion logo"@en .
-
 <https://www.chemotion.net/docs/repo> a rdfs:Resource ;
     rdfs:label "About Chemotion"@en .
 
 <https://www.researchobject.org/ro-crate/> a dcterms:Standard .
-
-<https://www.ukri.org/wp-content/uploads/2022/03/ukri-stfc-square-logo.png> a rdfs:Resource ;
-    rdfs:label "STFC logo"@en .
 
 <https://xraypy.github.io/xraylarch/> a foaf:Document .
 
@@ -2172,9 +2215,6 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
 
 <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
     skos:prefLabel "organic compound"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> a skos:Concept ;
-    skos:prefLabel "crystallography"@en .
 
 <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a> a skos:Concept ;
     skos:prefLabel "organometallic chemistry"@en .
@@ -2235,7 +2275,8 @@ DOI: 10.1107/S2052520616003954"""@en ;
             foaf:openid "http://en.wikipedia.org/wiki/Olga_Kennard"@en ] ;
     dcterms:description "The CSD is the world’s largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation."@en ;
     dcterms:identifier "psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803"@en ;
-    dcterms:isPartOf psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
+    dcterms:isPartOf psdiDcat:84701c55-30cc-4719-9195-7d62aa93bdde,
+        psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
     dcterms:issued "1971-12-31T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <http://www.ccdc.cam.ac.uk/licence-agreement/> ;
@@ -2274,25 +2315,25 @@ DOI: 10.1107/S2052520616003954"""@en ;
 psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc a psdiDcatExt:Guidance ;
     rdfs:label "Version Control and Github"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Philip Leadbitter"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
             foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Philip Leadbitter"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ] ;
     dcterms:identifier "psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -2405,33 +2446,15 @@ DOI: 10.1107/S2052520616003954"""@en ;
 psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
     rdfs:label "PSDI Data Revival"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Jeremy G. Frey"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Daniel Cancado"@en ;
+            foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
+            foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
@@ -2440,10 +2463,28 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jeremy G. Frey"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Daniel Cancado"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
             foaf:name "Samuel Munday"@en ;
             foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
         [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
+            foaf:name "Finlay Morrison"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ] ;
     dcterms:description "Data Revival enables you to seamlessly convert your handwritten lab book pages into machine-readable data, pulling out the important chemistry knowledge."@en ;
     dcterms:identifier "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d"@en ;
@@ -2473,7 +2514,7 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
 psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
     rdfs:label "Python II"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Joanna Grundy"@en ;
             foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
@@ -2481,17 +2522,17 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
             foaf:name "Nicola Knight"@en ;
             foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Philip Leadbitter"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
     dcterms:identifier "psdiDcat:294760c8-20de-4155-9951-08bccc87a593"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -2522,14 +2563,14 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
 psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 a dcat:Dataset ;
     rdfs:label "Open Materials Micrograph Repository (O2MR)"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Ben Jefferson"@en ;
-            foaf:openid "http://www.linkedin.com/in/benjefferson/"@en ],
-        [ a foaf:Agent ;
             foaf:name "Christopher Race"@en ;
             foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ben Jefferson"@en ;
+            foaf:openid "http://www.linkedin.com/in/benjefferson/"@en ],
         [ a foaf:Agent ;
             foaf:name "Stavrina Dimosthenous"@en ;
             foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ] ;
@@ -2598,16 +2639,16 @@ psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 a dcat:Dataset ;
 psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 a dcat:DataService ;
     rdfs:label "Open Materials Micrograph Repository (O2MR) User Interface"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Stavrina Dimosthenous"@en ;
-            foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ],
+            foaf:name "Christopher Race"@en ;
+            foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ],
         [ a foaf:Agent ;
             foaf:name "Ben Jefferson"@en ;
             foaf:openid "http://www.linkedin.com/in/benjefferson/"@en ],
         [ a foaf:Agent ;
-            foaf:name "Christopher Race"@en ;
-            foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ] ;
+            foaf:name "Stavrina Dimosthenous"@en ;
+            foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ] ;
     dcterms:description "Search and view micrographs and associated metadata in the Open Materials Micrograph Repository (OM2R)."@en ;
     dcterms:identifier "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2683,14 +2724,14 @@ psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 a psdiDcatExt:Guidance ;
             foaf:name "Elliott Kasoar"@en ;
             foaf:openid "http://orcid.org/0009-0005-2015-9478"@en ],
         [ a foaf:Agent ;
-            foaf:name "Jacob Wilkins"@en ;
-            foaf:openid ""@en ],
-        [ a foaf:Agent ;
             foaf:name "Federica Zanca"@en ;
             foaf:openid "http://orcid.org/0000-0002-6054-9260"@en ],
         [ a foaf:Agent ;
             foaf:name "Alin M. Elena"@en ;
-            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-7013-6670"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jacob Wilkins"@en ;
+            foaf:openid ""@en ] ;
     dcterms:description "XXX please fill in"@en ;
     dcterms:identifier "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2"@en ;
     dcterms:issued "2024-05-26T00:00:00+00:00"^^xsd:dateTime ;
@@ -2714,25 +2755,25 @@ psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 a psdiDcatExt:Guidance ;
 psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
-        [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
             foaf:name "Philip Leadbitter"@en ;
             foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
+            foaf:name "Nicola Knight"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ] ;
     dcterms:identifier "psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -2801,11 +2842,11 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 a psdiDcatExt:Tool ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcterms:conformsTo <http://peps.python.org/pep-0008/> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "James Gebbie-Rayet"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ],
-        [ a foaf:Agent ;
             foaf:name "Jas Kalayan"@en ;
-            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ],
+        [ a foaf:Agent ;
+            foaf:name "James Gebbie-Rayet"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ] ;
     dcterms:description "A plugin for using GROMACS with AiiDA for molecular dynamics simulation data provenance"@en ;
     dcterms:identifier "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
@@ -2851,10 +2892,10 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 a psdiDcatExt:Tool ;
         "trajectory"@en ;
     dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:7bdc8a6c-1110-4211-8c2e-8d115c2d1e0f ;
+            dcterms:relation psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
+            dcterms:relation psdiDcat:7bdc8a6c-1110-4211-8c2e-8d115c2d1e0f ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
@@ -2896,25 +2937,25 @@ psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 a dcat:DataService ;
 psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 a psdiDcatExt:Guidance ;
     rdfs:label "Command Line and Bash"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+            foaf:name "Philip Leadbitter"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
-            foaf:name "Philip Leadbitter"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
-        [ a foaf:Agent ;
             foaf:name "Nicola Knight"@en ;
             foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
         [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ] ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ] ;
     dcterms:identifier "psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -2945,14 +2986,8 @@ psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 a psdiDcatExt:Guidance ;
 psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 a psdiDcatExt:Guidance ;
     rdfs:label "Digital Notebooks and ELNs Guidance"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Cerys Willoughby"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
@@ -2960,7 +2995,13 @@ psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 a psdiDcatExt:Guidance ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cerys Willoughby"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
     dcterms:description "This topic collection provides guidance on using and implementing different kinds of electronic notebooks for recording your research. This includes the benefits and barriers to adopting digital notebooks, how to choose a digital notebook for your research project, and steps to deploying an ELN solution successfully."@en ;
     dcterms:identifier "psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2991,25 +3032,25 @@ psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 a psdiDcatExt:Guidance ;
 psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 a psdiDcatExt:Guidance ;
     rdfs:label "Literature and Referencing"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Philip Leadbitter"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
+            foaf:name "Nicola Knight"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+            foaf:name "Philip Leadbitter"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
             foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ] ;
     dcterms:identifier "psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -3040,20 +3081,20 @@ psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 a psdiDcatExt:Guidance ;
 psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 a dcat:DataService ;
     rdfs:label "LabTrove ELN Demonstrator"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
         [ ],
         [ a foaf:Agent ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
     dcterms:description "This is a demonstrator of the LabTrove ELN Service for users to trial in the browser before deciding whether they want to download and implement a version themselves. LabTrove is a lightweight, web based, Laboratory \"Blog\" that can be used as an ELN, or to supplement an ELN. This demonstrator will give users a feel for how LabTrove operates, and enable them to explore the different features and functionality. Please note, the data cached in this instance will be wiped as soon as the browser window is closed, if you want to use LabTrove to formally store data, please download and run your own version."@en ;
     dcterms:identifier "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -3095,22 +3136,22 @@ psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 a dcat:DataService ;
 psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 a psdiDcatExt:Guidance ;
     rdfs:label "Python I"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
             foaf:name "Nicola Knight"@en ;
             foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
         [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Philip Leadbitter"@en ;
             foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ] ;
@@ -3204,22 +3245,22 @@ psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 a psdiDcatExt:Guidance ;
 psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f a psdiDcatExt:Guidance ;
     rdfs:label "Using a Generic Digital Notebook as an ELN (OneNote)"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Cerys Willoughby"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
             foaf:openid "0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cerys Willoughby"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
     dcterms:description "This topic collection describes how to implement a generic digital notebook (such as OneNote) as an Electronic Lab Notebook. Templates and examples are provided for using digital notebooks with students and researchers."@en ;
     dcterms:identifier "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3253,25 +3294,25 @@ psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f a psdiDcatExt:Guidance ;
 psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 a psdiDcatExt:Guidance ;
     rdfs:label "Ethics"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
             foaf:name "Philip Leadbitter"@en ;
             foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
+            foaf:name "Nicola Knight"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
+        [ a foaf:Agent ;
             foaf:name "Joanna Grundy"@en ;
             foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
         [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ] ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
     dcterms:identifier "psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -3304,11 +3345,11 @@ psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "James Gebbie-Rayet"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ],
-        [ a foaf:Agent ;
             foaf:name "Jas Kalayan"@en ;
-            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ],
+        [ a foaf:Agent ;
+            foaf:name "James Gebbie-Rayet"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ] ;
     dcterms:description "Documentation for installation, use and development guidence for the aiida-gromacs plugin"@en ;
     dcterms:identifier "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
@@ -3362,25 +3403,25 @@ psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 a psdiDcatExt:Guidance ;
 psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 a psdiDcatExt:Guidance ;
     rdfs:label "Machine Learning I"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
+        [ a foaf:Agent ;
             foaf:name "Nicola Knight"@en ;
             foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Philip Leadbitter"@en ;
             foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
-        [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ] ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
     dcterms:identifier "psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher [ a foaf:Agent ;
@@ -3575,6 +3616,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://data.europa.eu/8mn/euroscivoc/2fba9c5c-193c-47ec-81f5-518020bff496> a skos:Concept ;
     skos:prefLabel "Ceramics"@en .
 
+<http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> a skos:Concept ;
+    skos:prefLabel "crystallography"@en .
+
 <http://data.europa.eu/8mn/euroscivoc/3c7d4f8a-c885-4c6d-a41b-b3ff1cb3669c> a skos:Concept ;
     skos:prefLabel "Biomaterials"@en .
 
@@ -3618,22 +3662,22 @@ psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a a dcat:Catalog ;
     psdiDcatExt:Guidance psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0,
         psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Jack Doyle"@en ;
-            foaf:openid "http://www.linkedin.com/in/jack-doyle-175183323/"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Stephen Gow"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0121-1697"@en ],
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
             foaf:name "Thomas Allam"@en ;
             foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Stephen Gow"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0121-1697"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Jack Doyle"@en ;
+            foaf:openid "http://www.linkedin.com/in/jack-doyle-175183323/"@en ],
         [ a foaf:Agent ;
             foaf:name "Donald Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
@@ -3662,7 +3706,7 @@ psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 a dcat:Catalog ;
     psdiDcatExt:Tool psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d,
         psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 ;
     psdiDcatExt:displayPriority 3 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Tom Underwood"@en ;
             foaf:openid "http://orcid.org/0000-0001-6431-0612"@en ] ;
@@ -3683,22 +3727,22 @@ psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 a dcat:Catalog ;
 psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 a psdiDcatExt:Guidance ;
     rdfs:label "LabTrove Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Cerys Willoughby"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
-        [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+            foaf:name "Cerys Willoughby"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ] ;
+            foaf:openid "0009-0000-6422-0342"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
     dcterms:description "This documentation provides in-depth user guidance on how to use the PSDI version of the LabTrove ELN."@en ;
     dcterms:identifier "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3735,16 +3779,17 @@ psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 a psdiDcatExt:Guidance ;
 
 psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
     rdfs:label "Community Data Collections"@en ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:displayPriority 1 ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Andrew Harper"@en ;
-            foaf:openid "http://linkedin.com/in/andrew-harper-654456241"@en ],
+            foaf:name "Callum Webb"@en ;
+            foaf:openid "http://orcid.org/0009-0005-9011-2472"@en ],
         [ a foaf:Agent ;
             foaf:name "Gemma Poulter"@en ;
             foaf:openid "http://orcid.org/0009-0001-9720-3378"@en ],
         [ a foaf:Agent ;
-            foaf:name "Callum Webb"@en ;
-            foaf:openid "http://orcid.org/0009-0005-9011-2472"@en ] ;
+            foaf:name "Andrew Harper"@en ;
+            foaf:openid "http://linkedin.com/in/andrew-harper-654456241"@en ] ;
     dcterms:description "Community Data Collections is a multi-institution, subject-based research data repository for the Physical Sciences Data Infrastructure (PSDI). The repository is for openly available data, currently in the BioSim and Data to Knowledge communities, to enable users to publish, share, find and re-use relevant data. FAIR principles are met through the adoption of a thorough metadata schema which includes custom fields relevant to the science in addition to standard properties for data. Anyone may access the metadata and full items free of charge and we intend to grow the Community Data Collections over time with the inclusion of additional, relevant scientific communities."@en ;
     dcterms:identifier "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3757,7 +3802,6 @@ psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <http://data-collections.psdi.ac.uk> ;
-    dcat:inCatalog <file:///C:/psdi/metadata/resource-catalogue/1> ;
     dcat:keyword "AiiDA"@en,
         "FAIR"@en,
         "MLIP"@en,
@@ -3774,31 +3818,31 @@ psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
 psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
     rdfs:label "Data Collections for Chemical Modelling"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
-            foaf:openid "http://orcid.org/0009-0007-0037-0035"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Samuel Munday"@en ;
-            foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Thomas Allam"@en ;
-            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ],
-        [ a foaf:Agent ;
             foaf:name "Joshua Cheung"@en ;
             foaf:openid "http://orcid.org/0009-0003-9952-3468"@en ],
         [ a foaf:Agent ;
             foaf:name "Samantha Pearman-Kanza"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
+            foaf:name "Ashley Unitt"@en ;
+            foaf:openid "http://orcid.org/0009-0007-0037-0035"@en ],
+        [ a foaf:Agent ;
             foaf:name "Matthew Partridge"@en ;
             foaf:openid "http://orcid.org/0000-0001-5280-8309"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Joanna Grundy"@en ;
+            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
-            foaf:name "Joanna Grundy"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ] ;
+            foaf:name "Samuel Munday"@en ;
+            foaf:openid "http://orcid.org/0000-0001-5404-6934"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Thomas Allam"@en ;
+            foaf:openid "http://orcid.org/0009-0009-9897-333X"@en ] ;
     dcterms:description "This resource holds both the useful data collections that have been created and curated from a variety of sources to be made available to the community, and the data exemplars that have been developed as part of our case studies to investigate different methods of improving data capture, quality and sharing, and how to resurrect legacy data in a meaningful manner."@en ;
     dcterms:identifier "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3851,7 +3895,7 @@ psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 a dcat:Catalog ;
     rdfs:label "Open Materials Micrograph Repository (O2MR)"@en ;
     psdiDcatExt:Tool psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Christopher Race"@en ;
             foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ],
@@ -3932,11 +3976,11 @@ psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 a dcat:Dataset ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:conformsTo <http://www.ccpnc.ac.uk/docs/magres/magres-format.pdf> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Sathya Sai Seetharaman"@en ;
-            foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ],
-        [ a foaf:Agent ;
             foaf:name "John Kane Shenton"@en ;
-            foaf:openid "http://orcid.org/0000-0003-4485-3446"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-4485-3446"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Sathya Sai Seetharaman"@en ;
+            foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ] ;
     dcterms:description "The Collaborative Computational Project for NMR Crystallography (CCP-NC) database of calculated solid-state NMR data from DFT codes in MAGRES format."@en ;
     dcterms:identifier "psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771"@en ;
     dcterms:issued "2018-03-19T10:46:52+00:00"^^xsd:dateTime ;
@@ -3976,11 +4020,11 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
         <http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Groups/index.html>,
         <http://www.wwpdb.org/documentation/file-format-content/format32/v3.2.html> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "James Gebbie-Rayet"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ],
-        [ a foaf:Agent ;
             foaf:name "Jas Kalayan"@en ;
-            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ] ;
+            foaf:openid "http://orcid.org/0000-0002-6833-1864"@en ],
+        [ a foaf:Agent ;
+            foaf:name "James Gebbie-Rayet"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ] ;
     dcterms:description "Topology, trajectory and AiiDA data provenance files from molecular dynamics simulations of biomolecules stored in a repository specifically designed for storing them."@en ;
     dcterms:identifier "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4043,6 +4087,7 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
         psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9,
         psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981 ;
     psdiDcatExt:displayPriority 1 ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
             foaf:name "Cerys Willoughby"@en ;
             foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
@@ -4104,25 +4149,25 @@ psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b a dcat:Catalog ;
         psdiDcat:64af3a23-2d41-4079-a014-db366096434a ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+            foaf:name "Bryan Gillis"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ],
         [ a foaf:Agent ;
             foaf:name "Samuel Hyder"@en ;
             foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en ],
         [ a foaf:Agent ;
-            foaf:name "Raymond Whorley"@en ;
-            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
+            foaf:name "Raymond Whorley"@en ;
+            foaf:openid "http://orcid.org/0009-0002-4762-5852"@en ],
         [ a foaf:Agent ;
-            foaf:name "Bryan Gillis"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4478-1270"@en ] ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ] ;
     dcterms:description "Your one stop shop for file format conversion. PSDI's Data Conversion Service will enable users to seamlessly convert between different file formats and recieve information about the quality of the conversion. This functionality is available as: A PSDI Hosted Web Application, a containerised web application that can be run as a standalone application outside of PSDI, a standalone Command Line service that can be installed and run locally, and a python library for downloading and including in your own pipelines."@en ;
     dcterms:identifier "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
@@ -4197,11 +4242,11 @@ psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e a dcat:Catalog ;
     psdiDcatExt:furtherInformation <http://www.ccpnc.ac.uk/database/faqs.html> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "John Kane Shenton"@en ;
-            foaf:openid "http://orcid.org/0000-0003-4485-3446"@en ],
-        [ a foaf:Agent ;
             foaf:name "Sathya Sai Seetharaman"@en ;
-            foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ] ;
+            foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ],
+        [ a foaf:Agent ;
+            foaf:name "John Kane Shenton"@en ;
+            foaf:openid "http://orcid.org/0000-0003-4485-3446"@en ] ;
     dcterms:description "The Collaborative Computational Project for NMR Crystallography (CCP-NC) combines experimental NMR and computation to provide new insight, with atomic resolution, into structure, disorder, and dynamics in the solid state. Output from PSDI Pathfinder 6."@en ;
     dcterms:identifier "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
     dcterms:issued "2018-03-19T10:46:52+00:00"^^xsd:dateTime ;
@@ -4259,13 +4304,13 @@ psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:furtherInformation <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Callum Webb"@en ;
-            foaf:openid "http://orcid.org/0009-0005-9011-2472"@en ],
-        [ a foaf:Agent ;
             foaf:name "Mehmet Giritli"@en ;
             foaf:openid "http://orcid.org/0009-0001-7735-0100"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Callum Webb"@en ;
+            foaf:openid "http://orcid.org/0009-0005-9011-2472"@en ],
         [ a foaf:Agent ;
             foaf:name "Gemma Poulter"@en ;
             foaf:openid "http://orcid.org/0009-0001-9720-3378"@en ] ;
@@ -4298,22 +4343,22 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
         psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
     psdiDcatExt:Tool psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
-        [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
             foaf:openid "0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
-            foaf:name "Don Cruickshank"@en ;
-            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
+            foaf:name "Cerys Willoughby"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
         [ a foaf:Agent ;
             foaf:name "Jeremy G. Frey"@en ;
             foaf:openid "http://orcid.org/0000-0003-0842-4302"@en ],
         [ a foaf:Agent ;
-            foaf:name "Cerys Willoughby"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ] ;
+            foaf:name "Don Cruickshank"@en ;
+            foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ] ;
     dcterms:description "This resource theme contains in-depth information about all aspects of process recording, ranging from information and exemplars on Research Data Management and FAIR Data, and detailed guidance on how to select and implement Digital Lab Notebooks, including both generic notebooking tools and Electronic Lab Notebooks. There are links to full lists of the different software available, tools to aid with selection, and case studies of successful Digital Lab Notebook implementations, and an interactive demo of the UoS ELN LabTrove to demonstrate how it is being used as a living example."@en ;
     dcterms:identifier "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4344,10 +4389,10 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
         "onenote"@en ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
+            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
+            dcterms:relation psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
@@ -4356,7 +4401,7 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
 psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 a dcat:Catalog ;
     rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
     psdiDcatExt:displayPriority 3 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:description "This resource theme contains data sources which can be searched by the PSDI Cross Data Search."@en ;
     dcterms:hasPart psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803,
         psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
@@ -4501,25 +4546,25 @@ psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 a dcat:Catalog ;
         psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0,
         psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> ;
+    psdiDcatExt:logoURL <http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Nicola Knight"@en ;
-            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
-        [ a foaf:Agent ;
             foaf:name "Joanna Grundy"@en ;
             foaf:openid "http://orcid.org/0000-0003-2583-5680"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Philip Leadbitter"@en ;
-            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ],
         [ a foaf:Agent ;
             foaf:name "Louise Saul"@en ;
             foaf:openid "http://orcid.org/0009-0000-6422-0342"@en ],
         [ a foaf:Agent ;
+            foaf:name "Samantha Pearman-Kanza"@en ;
+            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nicola Knight"@en ;
+            foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ],
+        [ a foaf:Agent ;
             foaf:name "Don Cruickshank"@en ;
             foaf:openid "http://orcid.org/0000-0002-0777-0855"@en ],
         [ a foaf:Agent ;
-            foaf:name "Samantha Pearman-Kanza"@en ;
-            foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ] ;
+            foaf:name "Philip Leadbitter"@en ;
+            foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ] ;
     dcterms:description "The modern researcher is required to have a skill set that goes beyond the domain specific research skills that they develop in their degrees and the employment. The skills for scientists’ guidance content is comprised of a selection of interactive learning content, guidance articles and best practises that are designed to upskill researchers in basic computing skills, research data management skills and research support skills that will help a researcher across all facets of their work. We are working with the community to develop and expand the offering of guidance available through PSDI."@en ;
     dcterms:identifier "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4569,14 +4614,14 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
         <http://www.youtube.com/c/galaxyproject> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Patrick Austin"@en ;
+            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ],
+        [ a foaf:Agent ;
             foaf:name "Subindev Devadasan"@en ;
             foaf:openid "https://orcid.org/0009-0001-1723-4394"@en ],
         [ a foaf:Agent ;
             foaf:name "Leandro Liborio"@en ;
-            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Patrick Austin"@en ;
-            foaf:openid "https://orcid.org/0000-0002-6279-7823"@en ] ;
+            foaf:openid "http://orcid.org/0000-0003-2777-5167"@en ] ;
     dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments."@en ;
     dcterms:identifier "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4591,9 +4636,9 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
     dcat:Dataset psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 ;
     dcat:Guidance psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -4634,7 +4679,7 @@ dcmitype:Collection a skos:Concept ;
 dcmitype:Text a skos:Concept ;
     skos:prefLabel "Text"@en .
 
-<http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.svg> a rdfs:Resource ;
+<http://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi.png> a rdfs:Resource ;
     rdfs:label "PSDI logo"@en .
 
 <http://purl.org/adms/status/UnderDevelopment> a rdfs:Resource .
