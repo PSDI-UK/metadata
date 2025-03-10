@@ -1,5 +1,7 @@
 {
     "@context": {
+        "@version": 1.1,
+        
         "psdiDcat": "http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat#",
         "psdiDcatExt": "http://metadata.psdi.ac.uk/psdi-dcat-ext#",
         "psdiPol": "http://metadata.psdi.ac.uk/access-policies#",
@@ -22,7 +24,11 @@
     "@type": "dcat:Catalog",
     "rdfs:label": "PSDI Resource Catalogue",
     "dcterms:title": "PSDI Resource Catalogue",
-    "dcterms:type": "dcat:Catalog",
+    "dcterms:type": {
+        "skos:prefLabel": "Collection",
+        "@type": "skos:Concept",
+        "@id": "http://purl.org/dc/dcmitype/Collection"
+    },
     "dcterms:description": "DCAT description of catalogue of resources (data, services, tools and guidance) made available via PSDI.",
     "rdf:about": {
         "@id": "http://www.psdi.ac.uk/",
@@ -1051,7 +1057,7 @@
                     "psdiDcatExt:displayPriority": 3,
                     "dcterms:title": "Materials Cloud Archive: MC Archive c8-gy (c8-gy)",
                     "rdfs:label": "MC Archive c8-gy",
-                    "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: Z. Wang et al., Machine learning-accelerated discovery of A₂BC₂ ternary electrides with diverse anionic electron densities, Materials Cloud Archive 2023.181 (2023) doi: 10.24435/materialscloud:c8-gy"
+                    "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: Z. Wang et al., Machine learning-accelerated discovery of A2BC2 ternary electrides with diverse anionic electron densities, Materials Cloud Archive 2023.181 (2023) doi: 10.24435/materialscloud:c8-gy"
                 },
                 {
                     "@type": "dcat:Dataset",
@@ -1705,7 +1711,7 @@
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Dataset"
                     },
-                    "dcterms:description": "Propersea is a online resource (currently in end stage testing) designed to provide predictions for a range of molecular and physicochemical properties for small molecules. The predicted properties include: melting point, boiling point, density, logP, solubility, polarizability and more. It will also predict the IUPAC name for the molecule. The properties are predicted through a variety of algorithms, including RDKit algorithms: Semi-empirical quantum methods; Fragment/ atom  contribution calculations; Bayesian Additive Regression Trees; Transformer neural networks.\nThe predicted value is returned in the results interface. For those properties predicted using the Bayesian algorithms it also returns an interval for the 95% confidence, along with a measure of how well the molecule compares to molecules contained in the training set. Where a property prediction is deemed non-sensical due to the predicted phase, the property may be omitted from results.\nPropersea performs best for organic compounds and performance on inorganics, orgometallics and inorganic-organic mixtures is known to be lower. Reliability metrics for these compounds would show as ‘Low’ or ‘Very Low’",
+                    "dcterms:description": "Propersea is a online resource (currently in end stage testing) designed to provide predictions for a range of molecular and physicochemical properties for small molecules. The predicted properties include: melting point, boiling point, density, logP, solubility, polarizability and more. It will also predict the IUPAC name for the molecule. The properties are predicted through a variety of algorithms, including RDKit algorithms: Semi-empirical quantum methods; Fragment/ atom  contribution calculations; Bayesian Additive Regression Trees; Transformer neural networks.\nThe predicted value is returned in the results interface. For those properties predicted using the Bayesian algorithms it also returns an interval for the 95% confidence, along with a measure of how well the molecule compares to molecules contained in the training set. Where a property prediction is deemed non-sensical due to the predicted phase, the property may be omitted from results.\nPropersea performs best for organic compounds and performance on inorganics, orgometallics and inorganic-organic mixtures is known to be lower. Reliability metrics for these compounds would show as 'Low' or 'Very Low'",
                     "dcat:keyword": [
                         "molecule",
                         "predicted property",
@@ -1990,7 +1996,7 @@
                 "@type": "skos:Concept",
                 "@id": "http://purl.org/dc/dcmitype/Collection"
             },
-            "dcterms:description": "The CSD is the world’s largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation.",
+            "dcterms:description": "The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation.",
             "dcat:keyword": [
                 "crystal structures",
                 "structural chemistry",
@@ -2102,7 +2108,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Dataset"
                 },
-                "dcterms:description": "The CSD is the world’s largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation.",
+                "dcterms:description": "The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation.",
                 "dcat:keyword": [
                     "crystal structures",
                     "structural chemistry",
@@ -4562,7 +4568,7 @@
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Service"
                     },
-                    "dcterms:description": "ELNFinder is a resource that PSDI actively contributes to. The ELN Finder helps researchers and staff from research infrastructure institutions to select the appropriate software for an electronic lab notebook ELN from the wide range of available ELNs. It is based on a DSpace 7 repository whose entries contains rich information about ELN tools.\n\nThe entries in the ELN Finder are based on a metadata schema that was developed with the goal of describing an ELN as accurately as possible. The metadata schema contains attributes and filters.\n\nThe filters are relevant criteria of ELNs the users can choose from. Examples of filters are import and export capabilities, search capability, delivery model, data storage or pricing model. Users can use them to create a list of suitable ELNs that meet their selection criteria. For the sake of clarity, they are divided into categories: General, Usability, Core functions (Daily work), Extended functions (Daily work), Compliance with legal requirements, Integration in RDM and IT environment. Categories with the term “Daily work” contain functionalities that are used for the documentation on a daily basis.",
+                    "dcterms:description": "ELNFinder is a resource that PSDI actively contributes to. The ELN Finder helps researchers and staff from research infrastructure institutions to select the appropriate software for an electronic lab notebook ELN from the wide range of available ELNs. It is based on a DSpace 7 repository whose entries contains rich information about ELN tools.\n\nThe entries in the ELN Finder are based on a metadata schema that was developed with the goal of describing an ELN as accurately as possible. The metadata schema contains attributes and filters.\n\nThe filters are relevant criteria of ELNs the users can choose from. Examples of filters are import and export capabilities, search capability, delivery model, data storage or pricing model. Users can use them to create a list of suitable ELNs that meet their selection criteria. For the sake of clarity, they are divided into categories: General, Usability, Core functions (Daily work), Extended functions (Daily work), Compliance with legal requirements, Integration in RDM and IT environment. Categories with the term 'Daily work' contain functionalities that are used for the documentation on a daily basis.",
                     "dcat:keyword": [
                         "Process Recording",
                         "ELN",
@@ -7378,7 +7384,7 @@
                     },
                     "dcat:version": "XXX please fill in e.g. 1.1.1",
                     "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "abcd’s documentation",
+                        "rdfs:label": "abcd's documentation",
                         "@type": "rdfs:Resource",
                         "@id": "http://libatoms.github.io/abcd/"
                     },
@@ -9361,7 +9367,7 @@
                 "@type": "skos:Concept",
                 "@id": "http://purl.org/dc/dcmitype/Collection"
             },
-            "dcterms:description": "The modern researcher is required to have a skill set that goes beyond the domain specific research skills that they develop in their degrees and the employment. The skills for scientists’ guidance content is comprised of a selection of interactive learning content, guidance articles and best practises that are designed to upskill researchers in basic computing skills, research data management skills and research support skills that will help a researcher across all facets of their work. We are working with the community to develop and expand the offering of guidance available through PSDI.",
+            "dcterms:description": "The modern researcher is required to have a skill set that goes beyond the domain specific research skills that they develop in their degrees and the employment. The skills for scientists' guidance content is comprised of a selection of interactive learning content, guidance articles and best practises that are designed to upskill researchers in basic computing skills, research data management skills and research support skills that will help a researcher across all facets of their work. We are working with the community to develop and expand the offering of guidance available through PSDI.",
             "dcat:keyword": [
                 "Skill",
                 "Research Skill",

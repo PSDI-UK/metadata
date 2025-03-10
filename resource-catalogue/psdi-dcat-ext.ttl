@@ -44,7 +44,7 @@ psdiDcatExt:Tool <rdfs:subClassOf> "dcat:Resource"@en ;
 	<rdfs:label> "Tool"@en ;
 	skos:relatedMatch "sdo:SoftwareApplication"@en ;
 	<rdfs:isDefinedBy> "http://metadata.psdi.ac.uk/vocabulary/"@en ;
-	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]"@en ;
+	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one's own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991, https://doi.org/10.1109/IEEESTD.1991.106963]"@en ;
 	a <owl:Class>, <rdfs:Class> .
 
 psdiDcatExt:downloadURL <rdfs:domain> "psdiDcatExt:Tool"@en ;

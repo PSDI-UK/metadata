@@ -186,7 +186,7 @@ psdiVoc:service skos:prefLabel "service"@en ;
 	skos:inScheme psdiVoc:vocabularyConceptScheme .
 
 psdiVoc:tool skos:prefLabel "tool"@en ;
-	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one’s own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991](http://doi.org/10.1109/IEEESTD.1991.106963)"@en ;
+	skos:definition "A tool is software* - downloaded from the PSDI platform and run via one's own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991](http://doi.org/10.1109/IEEESTD.1991.106963)"@en ;
 	skos:example "format conversion tool"@en, "MagresView library"@en ;
 	skos:narrower psdiVoc:resource ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
