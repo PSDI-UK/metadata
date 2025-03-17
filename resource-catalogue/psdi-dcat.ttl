@@ -162,14 +162,14 @@ psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6 a dcat:Dataset ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <https://edata.stfc.ac.uk/info/edata-guidance> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-d-stfcOpenData.png> ;
-    dcterms:description "The source labelled \"STFC Open Data\" incorporates data records and software records from from STFCs experimental facilities: ISIS Neutron and Muon Source and the Central Laser Facility, as well as \"long-tail\" data that researchers share in the STFC eData institutional repository. As long as a DOI is minted for a data record or a software record orininating in STFC, it is published in DataCite, which is the source of the \"STFC Open Data\" collection in PSDI."@en ;
+    dcterms:description "STFC Open Data includes data and software records from STFC's experimental facilities, such as the ISIS Neutron and Muon Source and the Central Laser Facility. This data source also features long-tail data shared by researchers in the STFC eData institutional repository. Any data or software record originating from STFC with a DOI is published in DataCite, which serves as the source for the \"STFC Open Data\" collection in PSDI."@en ;
     dcterms:identifier "psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <https://ror.org/057g20z61> ;
     dcterms:title "STFC Open Data"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:c1e681c2-69ea-491c-984a-be80615a7394 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
@@ -181,6 +181,11 @@ psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6 a dcat:Dataset ;
     dcat:landingPage <https://edata.stfc.ac.uk/home> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> ;
     odrl:hasPolicy psdiPol:openAccess .
+
+psdiDcat:027b6677-4cb7-4f0e-b109-4d6881f8276a a dcat:Distribution ;
+    dcterms:title "BioSimDB (Biomolecular Simulations Database)"@en ;
+    dcat:accessService psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 ;
+    dcat:accessURL <http://UrlForPF4sBitOfPSDIInvenio> .
 
 psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76 a dcat:Dataset ;
     rdfs:label "Chemotion Repository"@en ;
@@ -195,7 +200,7 @@ psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76 a dcat:Dataset ;
         <http://orcid.org/0000-0002-9772-0455>,
         <http://orcid.org/0000-0002-9976-4507>,
         <http://orcid.org/0000-0003-4845-3191> ;
-    dcterms:description "Chemotion Repository is an open repository of chemical data created by the Karlsruhe Institute of Technology. The focus of the repository is synthetic and analytical chemistry data. It includes data pertaining to reactions, molecules and physical samples. Data in the repository is uploaded by the community, and is subject to peer review. Moreover, the data is well structured and in a machine-readable format."@en ;
+    dcterms:description "The Chemotion Repository is an open repository of well-structured and machine-readable chemical data created by the Karlsruhe Institute of Technology. The focus of the repository is synthetic and analytical chemistry data. It includes data pertaining to reactions, molecules and physical samples. Data in the repository is uploaded by the community, and is subject to peer review."@en ;
     dcterms:identifier "psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by-sa/4.0/>,
@@ -205,7 +210,7 @@ psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76 a dcat:Dataset ;
     dcterms:title "Chemotion Repository"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:df1ba5d3-7200-42c5-bcaa-d3509c5ecd65 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
@@ -224,7 +229,7 @@ psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This collection of topics provides guidance on good practices for sharing your research data. This section introduces the FAIR principles and their importance, and provides step by step guidance on what is needed to make your research data and related outputs such as code and methods FAIR, whether or not you share them publicly."@en ;
+    dcterms:description "This collection of topics provides guidance on good practices for sharing your research data. This section introduces the FAIR principles and their importance, and provides step by step guidance on what is needed to make your research data and related outputs such as code and methods findable, accessible, interoperable, and reusable, whether or not you share them publicly. Guidance is given on choosing and writing licenses for your data, creating a data package to share or archive, and considerations for choosing a repository."@en ;
     dcterms:identifier "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -255,7 +260,7 @@ psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0003-0121-1697>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://www.linkedin.com/in/jack-doyle-175183323/> ;
-    dcterms:description "This case study involved reconstructing a set of databases containing data from a series of Second Harmonic Generation (SHG) experiments so that the models built using the data could be reevaluated in future. As part of this work a modern dashboard to view the data was also created."@en ;
+    dcterms:description "This case study involved reconstructing a set of databases containing data from a series of Second Harmonic Generation (SHG) experiments to enable future reevaluation of the models built using this data. Additionally, a modern dashboard was developed to facilitate the visualization and exploration of the data."@en ;
     dcterms:identifier "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -281,7 +286,7 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Collection of tutorials developed and maintained by the worldwide Galaxy community . Includes tutorial for galaxy users, developers and administrators etc."@en ;
+    dcterms:description "Collection of tutorials developed and maintained by the worldwide Galaxy community. Includes tutorial for galaxy users, developers and administrators."@en ;
     dcterms:identifier "psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8"@en ;
     dcterms:issued "2017-07-19T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -290,9 +295,9 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -328,7 +333,7 @@ psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Data Conversion Web Application service to perform file format conversions made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Web Application (exploring data formats for conversion, providing details of available conversions, and where possible performing these conversions) but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. If you wish to provide feedback about missing formats or conversions, this will still need to be done via the main PSDI site."@en ;
+    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Data Conversion Container Image is a Docker container which can be run on your own computing infrastructure within Docker. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
     dcterms:identifier "psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -350,13 +355,23 @@ psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 a psdiDcatExt:Tool ;
     dcat:version "1.1.1"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:1a03eae8-4b54-49d1-8b56-c42f31deeae5 a dcat:Distribution ;
+    dcterms:title "Open Materials Micrograph Repository (O2MR)"@en ;
+    dcat:accessService psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 ;
+    dcat:accessURL <http://micrograph.royce.ac.uk> .
+
+psdiDcat:1b9bfe49-a77f-466c-8d50-8b00ef15ee21 a dcat:Distribution ;
+    dcterms:title "PSDI Solubility Data Collection"@en ;
+    dcat:accessURL <http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection> ;
+    dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en .
+
 psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 a dcat:DataService ;
     rdfs:label "CCP-NC MagresView"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1016/j.ssnmr.2016.05.004> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-4485-3446> ;
-    dcterms:description "MagresView embedded in web front end for the Collaborative Computational Project for NMR Crystallography (CCP-NC). Crystal structure and NMR tensor visualisation from .magres files.  SSNMR parameters like magnetic shielding and electric field gradient can be visually represented as scaled ellipsoids super-imposed on the crystal structure for visualisation."@en ;
+    dcterms:description "MagresView provides an online interface for the Collaborative Computational Project for NMR Crystallography (CCP-NC). This visualisation tool enables crystal structure and NMR tensor visualisation from .magres files.  SSNMR parameters like magnetic shielding and electric field gradient can be displayed as scaled ellipsoids super-imposed on the crystal structure for visualisation."@en ;
     dcterms:identifier "psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -433,7 +448,7 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0002-7013-6670>,
         <http://orcid.org/0009-0004-9147-3475>,
         <http://orcid.org/0009-0005-2015-9478> ;
-    dcterms:description "XXX please fill in"@en ;
+    dcterms:description "AiiDA-MLIP is a plugin for AiiDA, a versatile workflow management system designed for simulations in materials and molecular sciences. Beyond managing workflows, AiiDA distinguishes itself from traditional tools by providing detailed data provenance, ensuring transparency and reproducibility in simulations. AiiDA-MLIP integrates the Janus core into the AiiDA ecosystem, enabling seamless utilization of machine-learned interatomic potentials (MLIPs) within this robust framework."@en ;
     dcterms:identifier "psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386"@en ;
     dcterms:issued "2024-01-28T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -445,7 +460,9 @@ psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386 a psdiDcatExt:Tool ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX please fill in"@en ;
+    dcat:keyword "AiiDA"@en,
+        "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en ;
     dcat:landingPage <http://github.com/stfc/aiida-mlip> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     odrl:hasPolicy psdiPol:openAccess .
@@ -454,7 +471,7 @@ psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6 a dcat:DataService ;
     rdfs:label "PSDI Knowledge Base"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-knowledgeBase.svg> ;
-    dcterms:description "The PSDI Knowledge Base provides guidance and training materials for physical scientists on a range of topics related to data and PSDI technology and resources. The Knowledge Base also provides technical support information, including FAQs and how to raise a support request for users of PSDI."@en ;
+    dcterms:description "The PSDI Knowledge Base serves as a comprehensive resource for physical scientists and research support staff, offering guidance on a variety of themes related to research data, PSDI technologies and related resources. It also provides centralized access to a variety of training and learning, including self-paced courses, tutorials, webinar recordings, and in-person sessions such as workshops and summer schools. Additionally, the Knowledge Base offers technical support resources, including FAQs to address common challenges, guidance on how to contact us, and how to raise a support request if you can't find an answer to your question."@en ;
     dcterms:identifier "psdiDcat:2927c4a2-0178-4cc9-a839-240ec1d343a6"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -529,16 +546,16 @@ psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Tutorials and installation gidelines for PyMuonSuite and Muspinsim"@en ;
+    dcterms:description "Tutorials and installation gidelines for PyMuonSuite (Collection of scripts and utilities for muon spectroscopy) and MuspinSim (a program designed to carry out spin dynamics calculations for muon science experiments)."@en ;
     dcterms:identifier "psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "PyMuonSuite and MuspinSim Tutorials"@en ;
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -564,7 +581,7 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0003-9952-3468> ;
-    dcterms:description "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions"@en ;
+    dcterms:description "This collection of datasets focuses on solubility-related information, including boiling points, Henry's law constants, LogS, melting points, and mole fractions. The Physical Chemistry Properties Data Collection provides carefully curated and standardized data on key chemical properties, empowering researchers to effectively model, analyze, and drive innovation in the field of physical chemistry."@en ;
     dcterms:identifier "psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b"@en ;
     dcterms:issued "2024-10-20T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -572,10 +589,7 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
     dcterms:title "Physical Chemistry Properties Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution [ dcterms:description "This is a collection of datasets containing information relevant to solubility: Boiling Points, Henrys Law Constants, LogS, Melting Points, Mole Fractions"@en ;
-            dcterms:title "PSDI Solubility Data Collection"@en ;
-            dcat:accessURL <http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection> ;
-            dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en ] ;
+    dcat:Distribution psdiDcat:1b9bfe49-a77f-466c-8d50-8b00ef15ee21 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 ;
@@ -606,6 +620,10 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
         <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table>,
         <http://www.ddbst.com/ddb-vle.html> .
 
+psdiDcat:4df1f995-05f0-4571-9e5a-99ca035c3fea a dcat:Distribution ;
+    dcterms:title "Example Galaxy XAFS RO-Crate Workflows"@en ;
+    dcat:accessURL <http://zenodo.org/communities/rexas> .
+
 psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     rdfs:label "Soprano"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
@@ -618,7 +636,7 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.9"@en ;
     psdiDcatExt:repositoryURL <http://github.com/CCP-NC/soprano/> ;
     dcterms:creator <http://orcid.org/0000-0003-4485-3446> ;
-    dcterms:description "A Python library to aid in general crystallography tasks, including NMR parameter manipulation, using among other things simple machine learning algorithms. It ships with its own set of tutorials, and the site provides documentation as well."@en ;
+    dcterms:description "Soprano is a Python library to help scientists working with crystallography and simulations to generate, manipulate, run calculations on and analyse large data sets of crystal structures. It provides a number of functionalities to help automate many common tasks in computational crystallography, including NMR parameter manipulation. Documentation and tutorials are provided to help users get started with the library."@en ;
     dcterms:identifier "psdiDcat:51c04def-007c-4536-8441-015aa097b30c"@en ;
     dcterms:issued "2016-10-26T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -654,7 +672,7 @@ psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317 a psdiDcatExt:Guidance ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-1721-9212>,
         <http://orcid.org/0000-0003-2397-1996> ;
-    dcterms:description "This topic collection provides an introduction to metadata and standards, and why they are important for research data. This topic collection also provides information about how PSDI uses metadata to manage and describe our resources."@en ;
+    dcterms:description "This topic collection provides an introduction to metadata and standards, and why they are important for research data. This topic collection also provides information about how PSDI uses metadata to manage and describe our resources, including the terminology used in PSDI; an overview of the PSDI metadata profiles available, vocabulary descriptions, and guidelines for using PSDI metadata."@en ;
     dcterms:identifier "psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -673,6 +691,16 @@ psdiDcat:5332f286-8062-410e-a071-2dbe86cf8317 a psdiDcatExt:Guidance ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/category/metadata> ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:550b01c7-8a32-4ea9-b7fc-34fae7b887d7 a dcat:Distribution ;
+    dcterms:title "Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres Database"@en ;
+    dcat:accessService psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 ;
+    dcat:accessURL <http://www.ccpnc.ac.uk/database/> .
+
+psdiDcat:56b60b60-5e2e-4e97-a1aa-96ec47e3fc00 a dcat:Distribution ;
+    dcterms:title "Data to Knowledge Community Data Collections"@en ;
+    dcat:accessService psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 ;
+    dcat:accessURL <http://data-collections.psdi.ac.uk/communities/mlip> .
+
 psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d a psdiDcatExt:Tool ;
     rdfs:label "Ampletracks codebase"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
@@ -684,7 +712,7 @@ psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d a psdiDcatExt:Tool ;
     dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
         <http://orcid.org/0000-0002-9775-687X>,
         <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "Ampletracks is a flexible and hierarchical database specifically designed for storing data about material samples. Ampletracks is a flexible and heirarchical database specifically designed for storing data about material samples."@en ;
+    dcterms:description "Ampletracks is a flexible and hierarchical database specifically designed for storing data about material samples. Ampletracks has been designed to meet the following fundamental goals: Keep track of material samples and associated artefacts (physical or virtual) in order to reduce the risk of loss and speed up the process of locating them; Record meta data about samples and associated artefacts systematically in a way that can be shared easily; Record the relationships between samples and associated artefacts, and track their ancestry. Whilst Ampletracks has been designed with materials science in mind, the flexibility inherent in the system means that it is likely to be useful in other contexts."@en ;
     dcterms:identifier "psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d"@en ;
     dcterms:issued "2022-12-04T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -711,15 +739,15 @@ psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 a dcat:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Hands on tutorial for finding muon stopping site with pymuon-suite using Galaxy"@en ;
+    dcterms:description "Hands on tutorial for finding muon stopping site with pymuon-suite using Galaxy. Will answer the questions: What are stopping sites and why is finding them important? What computational techniques can be used to find stopping sites? How can Galaxy help me with my analysis?"@en ;
     dcterms:identifier "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -748,7 +776,7 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Python Library for Data Conversion. This library will be made available via PyPy and can be installed and run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application but without the file cap limits as the code will be run locally as opposed to on PSDI servers."@en ;
+    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Python Library for Data Conversion is available via PyPy, and can be installed and run on your own computing infrastructure, enabling you to includea data conversion in your own pipelines. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
     dcterms:identifier "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -769,12 +797,18 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
     dcat:version "1.1.1"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:5e1d3fcf-5131-44d2-bd44-513cdb84a63c a dcat:Distribution ;
+    dcterms:title "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
+    dcat:accessURL <http://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection> ;
+    dcat:downloadURL <http://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> ;
+    dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en .
+
 psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9 a psdiDcatExt:Guidance ;
     rdfs:label "PSDI Resources Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This collection of topics provides guidance about the resources provided by PSDI and how to use them."@en ;
+    dcterms:description "This collection of topics provides guidance about selected resources provided by PSDI and how to use them."@en ;
     dcterms:identifier "psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -805,7 +839,7 @@ psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6 a psdiDcatExt:Tool ;
     dcterms:conformsTo <http://peps.python.org/pep-0008/> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "A plugin for using Amber with AiiDA for molecular dynamics simulation data provenance"@en ;
+    dcterms:description "The Amber plugin for AiiDA aims to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations."@en ;
     dcterms:identifier "psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -859,7 +893,7 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
     rdfs:label "PSDI Interactive Learning (Moodle)"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-moodle.png> ;
-    dcterms:description "Interactive online teaching for a range of individuals, with the aim of upskilling them in areas that their own institutions or workplaces may not provide training."@en ;
+    dcterms:description "A range of interactive, self-paced learning modules provided by PSDI."@en ;
     dcterms:identifier "psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -876,28 +910,28 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
         "Training"@en ;
     dcat:landingPage <http://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
+            dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
+            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -906,9 +940,7 @@ psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6 a dcat:Dataset ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/propersea> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
-    dcterms:description """Propersea is a online resource (currently in end stage testing) designed to provide predictions for a range of molecular and physicochemical properties for small molecules. The predicted properties include: melting point, boiling point, density, logP, solubility, polarizability and more. It will also predict the IUPAC name for the molecule. The properties are predicted through a variety of algorithms, including RDKit algorithms: Semi-empirical quantum methods; Fragment/ atom  contribution calculations; Bayesian Additive Regression Trees; Transformer neural networks.
-The predicted value is returned in the results interface. For those properties predicted using the Bayesian algorithms it also returns an interval for the 95% confidence, along with a measure of how well the molecule compares to molecules contained in the training set. Where a property prediction is deemed non-sensical due to the predicted phase, the property may be omitted from results.
-Propersea performs best for organic compounds and performance on inorganics, orgometallics and inorganic-organic mixtures is known to be lower. Reliability metrics for these compounds would show as 'Low' or 'Very Low'"""@en ;
+    dcterms:description "Propersea predicts a wide range of molecular and physicochemical properties for small molecules, such as melting and boiling points, density, solubility, polarizability, and more. Propersea can also predict IUPAC names using a machine learning model developed by the PSDS team. It employs various algorithms, including RDKit, semi-empirical quantum methods, Bayesian regression trees, and transformer neural networks. Results include predicted values, confidence intervals (for Bayesian models), and comparisons to molecules in the training set. Propersea excels with organic compounds but performs less reliably with inorganics and organometallics, as indicated by lower reliability metrics. These property predictions play a vital role in physical sciences, helping researchers save time and resources while accelerating the development of innovative materials, reactions, treatments, and others."@en ;
     dcterms:identifier "psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6"@en ;
     dcterms:issued "2020-09-27T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -916,9 +948,7 @@ Propersea performs best for organic compounds and performance on inorganics, org
     dcterms:title "Propersea (Property Prediction)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution [ dcterms:title "Propersea (Property Prediction)"@en ;
-            dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
-            odrl:hasPolicy psdiPol:ukAcademicsOnly ] ;
+    dcat:Distribution psdiDcat:f8eec32f-9534-4c63-812e-5f9261cd4b2a ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
@@ -946,7 +976,7 @@ psdiDcat:64af3a23-2d41-4079-a014-db366096434a a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Command Line interface for Data Conversion. This application will be made avaialble via GitHub and can be installed and run on your own computing infrastructure. It will contain all of the same conversion functionality of the web application but without the file cap limits as the code will be run locally as opposed to on PSDI servers."@en ;
+    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Command Line interface for Data Conversion application can be installed and run on your own computing infrastructure. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
     dcterms:identifier "psdiDcat:64af3a23-2d41-4079-a014-db366096434a"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -975,7 +1005,7 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a a dcat:DataService ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments."@en ;
+    dcterms:description "Post-processing experimental and simulation data from large-scale experiments conducted at national facilities requires integrating diverse software tools from various domains into cohesive workflows. Although these workflows can be highly complex, the software tools and data associated with them can be effectively managed using the open-source, web-based Galaxy Workflow Management System. Designed for FAIR data analysis, Galaxy enables users to run code in interactive environments, share and publish results, workflows, and visualisations, and ensure reproducibility by capturing and packaging the data, metadata, and provenance models essential for replicating and understanding their analyses. Use cases are provided for muon science and catalysis experiments, with plans to expand to other large-scale experiments."@en ;
     dcterms:identifier "psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a"@en ;
     dcterms:issued "2024-02-20T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1017,7 +1047,7 @@ psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b a dcat:DataService ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments. API level access to Galaxy allows programmatic use of the platform."@en ;
+    dcterms:description "Galaxy is an open-source scientific workflow system designed to make research more accessible, reproducible and transparent. Galaxy manages the software tools and data associated with post-processing of large scale experimental and simulation data performed at national facilities. The Galaxy API enables users to programmatic access to the Galaxy platform enabling users to automate tasks and carry out more complex actions than are possible using the web interface. More information about how to use the Galaxy API and the available endpoints by following the link to the documentation."@en ;
     dcterms:identifier "psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b"@en ;
     dcterms:issued "2024-02-20T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1063,7 +1093,7 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0002-7013-6670>,
         <http://orcid.org/0009-0004-9147-3475>,
         <http://orcid.org/0009-0005-2015-9478> ;
-    dcterms:description "XXX please fill in"@en ;
+    dcterms:description "Janus_core provides versatile tools for exploring a range of machine learning interatomic potentials. It can be accessed through the command line, Python scripts, Jupyter Notebooks, or a web interface. The platform supports various tasks, from basic calculations like single-point energies and geometry optimization to more advanced analyses, such as phonon calculations, molecular dynamics simulations, and nudged elastic band methods."@en ;
     dcterms:identifier "psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55"@en ;
     dcterms:issued "2024-02-04T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1075,7 +1105,9 @@ psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55 a psdiDcatExt:Tool ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX please fill in"@en ;
+    dcat:keyword "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en,
+        "janus-core"@en ;
     dcat:landingPage <http://github.com/stfc/janus-core> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "XXX please fill in e.g. 1.1.1"@en ;
@@ -1086,7 +1118,7 @@ psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This collection of topics provides an introduction to research data management, identifying research data and creating a data inventory,  and a discussion of research data types and the research data lifecycle. The Data Management Planning section describes how you can better manage your data by planning up front using Data Management Plans, including an example of a DMP for physical scientists. This section also includes topics on best practices for managing data when working with others, and also where you can get further help with your research data management."@en ;
+    dcterms:description "This collection of topics provides an introduction to research data management, including a discussion of different research data types, how to identify your own research data, and creating a data inventory. Guidance is provided on the different stages of the research data lifecycle and the benefits of data management planning, and the role of the Data Management Plan (DMP) together with an example DMP for physical scientists. This section also includes topics on best practices for managing data when working with others, and where you can get additional help with managing your research data."@en ;
     dcterms:identifier "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1105,6 +1137,11 @@ psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981 a psdiDcatExt:Guidance ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/category/research-data-management> ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:822c7d92-76a0-49ba-ac98-4f00ec4b23ae a dcat:Distribution ;
+    dcterms:title "Cambridge Structural Database (CSD)"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://www.ccdc.cam.ac.uk/solutions/software/csd/> .
+
 psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1116,7 +1153,7 @@ psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba a dcat:DataService ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Hosted Web Application which serves as your one stop shop for file format conversion. PSDI's Data Conversion Service will allow users to explore what formats their data can be converted to and from and will provide details of available convertors which have been tested and ranked with comprehensive quality measures. Many conversions will be able to be performed via our service, and in instances where this cannot occur, users will be directed to external services that will perform this conversion."@en ;
+    dcterms:description "The PSDI Data Conversion Service is your one stop shop for file format conversion. PSDI's Data Conversion Service is our online service enabling users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. Users can explore possible conversions, identify compatible formats for their data, and access details about the available converters that have been tested and ranked using comprehensive quality measures. While many conversions can be handled directly through the service, users will be guided to external tools for conversions not supported within the platform."@en ;
     dcterms:identifier "psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1149,7 +1186,7 @@ psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef a psdiDcatExt:Tool ;
     dcterms:conformsTo <http://peps.python.org/pep-0008/> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "A demonstration of the web interface for uploading and exploring simulation and provenance files saved in local SQLite database"@en ;
+    dcterms:description "This demo application will create an SQLite database that can be used to include aiida archive files produced from several aiida plugins (aiida -gromacs and -amber presently). This database can be used to store and explore archive files and gives a taster for how biomolecular MD simulation data provenance can be stored for multiple research projects."@en ;
     dcterms:identifier "psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef"@en ;
     dcterms:issued "2024-09-01T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1208,7 +1245,7 @@ psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Fortran; Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <https://github.com/PSDI-UK/dlmonte-container> ;
     dcterms:creator <http://orcid.org/0000-0001-6431-0612> ;
-    dcterms:description "This is a container image corresponding to the Monte Carlo molecular simulation program DL_MONTE. DL_MONTE supports many Monte Carlo methods, including grand-canonical Monte Carlo and advanced free energy methods such as Wang-Landau. Moreover it supports a many types of interatomic interactions and hence can be used to model a wide range of materials and fluids. This image can be used to execute DL_MONTE simulations using DL_MONTE input files on their computer. This might be more appealing to a user than using a DL_MONTE binary, something which the user must typically compile from the source code themselves."@en ;
+    dcterms:description "The DL_MONTE Container Image enables users to run the Monte Carlo molecular simulation program DL_MONTE on their own computing infrastructure. The tool supports many Monte Carlo methods, including grand-canonical Monte Carlo and advanced free energy techniques such as Wang-Landau. The tool supports many types of interatomic interactions facilitating the modelling of a wide range of materials and fluids. The container enables users to run DL_MONTE simulations directly with input files, removing the need to manually compile a DL_MONTE binary from the source code."@en ;
     dcterms:identifier "psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1241,16 +1278,16 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "MuSpinSim documentation that includes theory behind MuspinSim, tutorials and examples."@en ;
+    dcterms:description "Documentation of the MuSpinSim program for spin dynamics calculations for muon science experiments, including the theory behind MuspinSim, tutorials and examples."@en ;
     dcterms:identifier "psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "MuSpinSim Documentation"@en ;
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1277,7 +1314,7 @@ psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 a psdiDcatExt:Tool ;
     psdiDcatExt:repositoryURL <https://github.com/PSDI-UK/data-transfer-container> ;
     dcterms:creator <http://orcid.org/0000-0001-6431-0612>,
         <http://www.linkedin.com/in/amali-shashiprabha-rajapaksha> ;
-    dcterms:description "Transferring data betweeen different locations is important for researchers because it enables them to share data with their colleagues, and back up their data. To do this efficiently, researchers may need to use specialist software which is difficult for them to set up on the computer systems they use for their research. Our tool packages various pieces of software for transferring data to /from S3 storage - a type of  storage commonly employed in cloud computing -  into a single container image. This enables researchers to transfer data to/from S3 storage more easily, without the hassle of installing the various pieces of software themselves on their computer systems."@en ;
+    dcterms:description "Transferring data is crucial for researchers to share information with colleagues and back up their work. However, setting up specialized software for this can be challenging. The Data Transfer and Synchronisation (DSync) tool simplifies this process by bundling the necessary software for transferring data to and from S3 storage - commonly used in cloud computing - into a single container image. This makes it easier for researchers to manage data transfers without having to install and configure the software themselves."@en ;
     dcterms:identifier "psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1308,7 +1345,7 @@ psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 a dcat:Dataset ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0009-9897-333X> ;
-    dcterms:description "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" http://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival http://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format."@en ;
+    dcterms:description "This dataset is derived from the National Institute of Standards and Technology (NIST) publication, \"Critical Micelle Concentrations of Aqueous Surfactant Systems\" (http://doi.org/10.6028/NBS.NSRDS.36). The data was extracted using the AI-driven Data Revival service (http://www.data-revival.com/), then manually enhanced by adding SMILES strings, and finally reprocessed by Data Revival to be fully converted into a machine-readable format for improved accessibility and interoperability."@en ;
     dcterms:identifier "psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34"@en ;
     dcterms:issued "2024-10-20T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1316,11 +1353,7 @@ psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 a dcat:Dataset ;
     dcterms:title "Critical Micelle Concentration (CMC) Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution [ dcterms:description "This is a dataset based on the information in the National Institute of Standards and Technology (NIST) Book on \"Critical micelle concentrations of aqueous surfactant systems\" http://doi.org/10.6028/NBS.NSRDS.36. This was extracted by Data Revival http://www.data-revival.com/, manually curated to add SMILES strings, and then re-processed by Data Revival again to be fully converted into a machine-readable format."@en ;
-            dcterms:title "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
-            dcat:accessURL <http://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection> ;
-            dcat:downloadURL <http://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> ;
-            dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en ] ;
+    dcat:Distribution psdiDcat:5e1d3fcf-5131-44d2-bd44-513cdb84a63c ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 ;
@@ -1338,7 +1371,7 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Documentation page of Xray Larch"@en ;
+    dcterms:description "Documentation for \"Larch: Data Analysis Tools for X-ray Spectroscopy\". Larch is a open-source library and set of applications for processing and analyzing X-ray absorption and fluorescence spectroscopy data and X-ray fluorescence and diffraction image data from synchrotron beamlines. Larch provides a comprehensive set of analysis tools for X-ray absorption fine-structure spectroscopy (XAFS), including both X-ray absorption near-edge spectroscopy (XANES) and extended X-ray absorption fine-structure spectroscopy (EXAFS). Larch also provides visualization and analysis tools for X-ray fluorescence (XRF) spectra and XRF and X-ray diffraction (XRD) images as collected at scanning X-ray microprobe beamlines."@en ;
     dcterms:identifier "psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1362,6 +1395,18 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
+psdiDcat:c1e681c2-69ea-491c-984a-be80615a7394 a dcat:Distribution ;
+    dcterms:title "STFC Open Data"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://edata.stfc.ac.uk/home> .
+
+psdiDcat:c5be2a39-867a-4dcc-a606-8855bc85ca9e a dcat:Distribution ;
+    dcterms:title "Catalysis Data Infrastructure (CDI) Database"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c,
+        psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818,
+        psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 ;
+    dcat:accessURL <http://cdi.ukcatalysishub.org/> .
+
 psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
@@ -1372,7 +1417,7 @@ psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-4486-3321>,
         <http://orcid.org/0000-0002-7013-6670>,
         <http://www.linkedin.com/in/christina-mellor-78568374> ;
-    dcterms:description "XXX please fill in"@en ;
+    dcterms:description "Training is at the core of this resource theme. The Chemistry and Materials Machine Learning (CaMML) school is run by PSDI in collaboration with a range of communities. Training is targeted towards PhD students, in particular those in the Materials and Molecular Simulations field, who have experience of coding but are not highly experienced with machine learning. The aim of this in-person training is to introduce attendees to the latest methods of machine learning for the atomistic simulation of materials."@en ;
     dcterms:identifier "psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1381,7 +1426,9 @@ psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX Please fill in"@en ;
+    dcat:keyword "Machine Learning"@en,
+        "materials simulations"@en,
+        "molecular simulations"@en ;
     dcat:landingPage <http://camml.ac.uk/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     odrl:hasPolicy psdiPol:openAccess .
@@ -1398,11 +1445,7 @@ psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11 a dcat:DataService ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description """ELNFinder is a resource that PSDI actively contributes to. The ELN Finder helps researchers and staff from research infrastructure institutions to select the appropriate software for an electronic lab notebook ELN from the wide range of available ELNs. It is based on a DSpace 7 repository whose entries contains rich information about ELN tools.
-
-The entries in the ELN Finder are based on a metadata schema that was developed with the goal of describing an ELN as accurately as possible. The metadata schema contains attributes and filters.
-
-The filters are relevant criteria of ELNs the users can choose from. Examples of filters are import and export capabilities, search capability, delivery model, data storage or pricing model. Users can use them to create a list of suitable ELNs that meet their selection criteria. For the sake of clarity, they are divided into categories: General, Usability, Core functions (Daily work), Extended functions (Daily work), Compliance with legal requirements, Integration in RDM and IT environment. Categories with the term "Daily work" contain functionalities that are used for the documentation on a daily basis."""@en ;
+    dcterms:description "ELNFinder, a resource actively supported by PSDI, assists researchers and staff from research institutions to select the most suitable Electronic Lab Notebook (ELN) software for their needs. Users can easily filter the extensive list of ELNs by key criteria such as import/export capabilities, search functionality, delivery model, data storage, and pricing options. The filters are grouped into useful categories: General, Usability, Core Functions (used for daily work), Extended Functions (used for daily work), Compliance with Legal Requirements, and Integration into Research Data Management (RDM) and IT environments. Users can use these filters to generate a list of ELNs that match their specific requirements."@en ;
     dcterms:identifier "psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1430,21 +1473,24 @@ The filters are relevant criteria of ELNs the users can choose from. Examples of
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     dcat:version "1.1.1"@en .
 
+psdiDcat:df1ba5d3-7200-42c5-bcaa-d3509c5ecd65 a dcat:Distribution ;
+    dcterms:title "Chemotion Repository"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://www.chemotion-repository.net> .
+
 psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 a dcat:Dataset ;
     rdfs:label "Chemical Availability Search (ChASe)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/chase> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
-    dcterms:description "The Chemical Availability Search (ChASe) is a database of commercially available chemicals that can be searched to return availability information. Pricing and supplier information is provided for over 250,000 unique chemicals from many UK suppliers. The information given by ChASe is Product Name; Supplier; Country; Quantity; Price; Unit Price; Catalogue Number; link to supplier website"@en ;
+    dcterms:description "The Chemical Availability Search helps researchers find and compare chemicals from various suppliers for their projects. It saves time and resources by identifying readily available compounds, budget-friendly options, or alternatives. Users can search by drawing a molecule or entering a compound name through the PSDI Cross Data Search service. The tool provides details for over 250,000 chemicals from UK suppliers, including product name, supplier, country, quantity, price, unit price, catalogue number, and a link to the supplier's website."@en ;
     dcterms:identifier "psdiDcat:e0e14403-1575-43db-a677-89aa515968e4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Chemical Availability Search (ChASe)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution [ dcterms:title "Chemical Availability Search (ChASe)"@en ;
-            dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
-            odrl:hasPolicy psdiPol:ukAcademicsOnly ] ;
+    dcat:Distribution psdiDcat:eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
@@ -1463,7 +1509,7 @@ psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0009-9897-333X> ;
-    dcterms:description "This case study examines the issues of loosing data in ESIs as the key raw datapoints get embedded within PDFs. Data was extracted from the supplementary information of the paper - Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded' http://doi.org/10.1002/cmdc.202000533 and converted into JSON. This process was docmented to demonstrate how this type of data can be made avaialble in a more machine-readable fashion."@en ;
+    dcterms:description "This case study explores the challenges of losing valuable raw data when it is embedded within PDFs as part of supplementary information (ESIs). To address this, data was extracted from the supplementary information of the paper titled \"Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded, Self-Associating Amphiphiles\" (http://doi.org/10.1002/cmdc.202000533) and converted into JSON format. The process was carefully documented to showcase how such data can be transformed into a more machine-readable format, improving accessibility and usability for further analysis."@en ;
     dcterms:identifier "psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1493,6 +1539,11 @@ psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd a psdiDcatExt:Guidance ;
         <http://www.linkedin.com/in/laura-blackholly-74409482/>,
         <http://www.linkedin.com/in/rebecca-ellaby/> .
 
+psdiDcat:eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6 a dcat:Distribution ;
+    dcterms:title "Chemical Availability Search (ChASe)"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://data-search-dev.psdi.ac.uk> .
+
 psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     rdfs:label "PSDI Data Revival"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1501,16 +1552,7 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Daniel Cancado"@en ;
+            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Hannah Gittins"@en ;
@@ -1519,18 +1561,27 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
             foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
+            foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
+            foaf:name "Daniel Cancado"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ashley Unitt"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302> ;
-    dcterms:description "Data Revival enables you to seamlessly convert your handwritten lab book pages into machine-readable data, pulling out the important chemistry knowledge."@en ;
+    dcterms:description "The majority of laboratories and research groups have stacks of paper notebooks filled with valuable data that is difficult and time-consuming to access and use. Data Revival is an AI-driven service that can seamlessly convert your handwritten lab book pages into machine-readable data, unlocking the potential of your chemistry data. Operating with a high degree of accuracy, Data Revival creates relational links across your chemical data and enables users to run semantic searches across potentially millions of data points, including complex chemical structures. PSDI offers users the chance to experience Data Revival's capabilities firsthand."@en ;
     dcterms:identifier "psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1551,13 +1602,18 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     odrl:hasPolicy psdiPol:psdiLoginRequired ;
     prov:qualifiedAttribution <http://labs.futureworlds.com/data-revival/> .
 
+psdiDcat:f8eec32f-9534-4c63-812e-5f9261cd4b2a a dcat:Distribution ;
+    dcterms:title "Propersea (Property Prediction)"@en ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://data-search-dev.psdi.ac.uk> .
+
 psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d a psdiDcatExt:Tool ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://libatoms.github.io/abcd/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
     psdiDcatExt:repositoryURL <http://github.com/libAtoms/abcd/> ;
     dcterms:creator <http://orcid.org/0000-0002-8180-2034> ;
-    dcterms:description "XXX please fill in"@en ;
+    dcterms:description "abcd, Data Management for Machine Learning Interatomic Potentials (MLIP), offers a suite of tools that allow users to programmatically import data from a repository and utilize it on their local infrastructure. This enables exploration of data in ways that would be too resource-intensive for a general service. Designed specifically for machine-learned interatomic potentials, abcd supports both OpenSearch and MongoDB as backend options, giving users flexibility in their setup. The tool is developed in collaboration with the University of Cambridge."@en ;
     dcterms:identifier "psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d"@en ;
     dcterms:issued "2019-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1568,7 +1624,9 @@ psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d a psdiDcatExt:Tool ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX please fill in"@en ;
+    dcat:keyword "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en,
+        "abcd"@en ;
     dcat:landingPage <http://github.com/libAtoms/abcd/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "XXX please fill in e.g. 1.1.1"@en ;
@@ -1582,7 +1640,7 @@ psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306 a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Ruby"@en ;
     psdiDcatExt:repositoryURL <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Code to create a configurable thematic portal to display summary report of output publications and impact of a specified theme (based on grant) or insitution. Displaying significant indicators of research production  derived from publications and their supporting data."@en ;
+    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Users can create custom portals using the Thematic Portal Code, allowing them to tailor reports to their specific data."@en ;
     dcterms:identifier "psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306"@en ;
     dcterms:issued "2025-03-30T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1607,7 +1665,7 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Documentation page of mudirac with theory and example usage."@en ;
+    dcterms:description "Documentation of the MuDirac simulation software (simulation software that integrates the Dirac equation for muonic atoms to compute their X-Ray transition energie) with theory and example usage."@en ;
     dcterms:identifier "psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -1639,7 +1697,7 @@ psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "PSDI LabTrove - this is the Lightweight, web based \"blogging\" service made available as a Docker container which can be made run on your own computing infrastructure within Docker. This will have the same functionality as the PSDI Labtrove Exemplar but run as your own standalone web application, meaning that no data is passed to PSDI, and PSDI doesn't log any of your activity. The setup instructions will explain how to install this and run it yourself and how to configure it with your own authentication system if you wish."@en ;
+    dcterms:description "PSDI LabTrove is a lightweight, blog-based Electronic Laboratory Notebook that can be run locally using Docker. The LabTrove Container Image provides the same functionality as the online PSDI LabTrove Exemplar version, but operates as a standalone web application, meaning none of your data or activity is shared with PSDI. You can also configure it to use your own authentication system if needed. Setup instructions are provided to help you install, configure, and run the application on your infrastructure."@en ;
     dcterms:identifier "psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1682,10 +1740,14 @@ psdiDcat:optimade-aflow-aflow a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "AFLOW (aflow)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-aflow-aflow-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://aflow.org> .
+
+psdiDcat:optimade-aflow-aflow-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aflow.org/API/optimade/> .
 
 psdiDcat:optimade-alexandria-alexandria-pbe a dcat:Dataset ;
     rdfs:label "alexandria"@en ;
@@ -1696,10 +1758,14 @@ psdiDcat:optimade-alexandria-alexandria-pbe a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Alexandria: alexandria (alexandria-pbe)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-alexandria-alexandria-pbe-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
+
+psdiDcat:optimade-alexandria-alexandria-pbe-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://alexandria.icams.rub.de/pbe> .
 
 psdiDcat:optimade-alexandria-alexandria-pbesol a dcat:Dataset ;
     rdfs:label "alexandria"@en ;
@@ -1710,10 +1776,14 @@ psdiDcat:optimade-alexandria-alexandria-pbesol a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Alexandria: alexandria (alexandria-pbesol)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-alexandria-alexandria-pbesol-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
+
+psdiDcat:optimade-alexandria-alexandria-pbesol-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://alexandria.icams.rub.de/pbesol> .
 
 psdiDcat:optimade-cmr-cmr a dcat:Dataset ;
     rdfs:label "Computational materials repository (CMR)"@en ;
@@ -1724,10 +1794,14 @@ psdiDcat:optimade-cmr-cmr a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Computational materials repository (CMR) (cmr)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-cmr-cmr-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://cmr.fysik.dtu.dk> .
+
+psdiDcat:optimade-cmr-cmr-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://cmr-optimade.fysik.dtu.dk> .
 
 psdiDcat:optimade-cod-cod a dcat:Dataset ;
     rdfs:label "Crystallography Open Database"@en ;
@@ -1738,10 +1812,14 @@ psdiDcat:optimade-cod-cod a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Crystallography Open Database (cod)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-cod-cod-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.crystallography.net/cod> .
+
+psdiDcat:optimade-cod-cod-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://www.crystallography.net/cod/optimade> .
 
 psdiDcat:optimade-mcloud-2dtopo a dcat:Dataset ;
     rdfs:label "2D topological insulators"@en ;
@@ -1752,10 +1830,14 @@ psdiDcat:optimade-mcloud-2dtopo a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: 2D topological insulators (2dtopo)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-2dtopo-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/2dtopo> .
+
+psdiDcat:optimade-mcloud-2dtopo-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/2dtopo/optimade> .
 
 psdiDcat:optimade-mcloud-curated-cofs a dcat:Dataset ;
     rdfs:label "CURATED covalent organic frameworks database"@en ;
@@ -1766,10 +1848,14 @@ psdiDcat:optimade-mcloud-curated-cofs a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: CURATED covalent organic frameworks database (curated-cofs)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-curated-cofs-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/curated-cofs> .
+
+psdiDcat:optimade-mcloud-curated-cofs-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/curated-cofs/optimade> .
 
 psdiDcat:optimade-mcloud-mc2d a dcat:Dataset ;
     rdfs:label "MC2D - Materials Cloud two-dimensional crystals database"@en ;
@@ -1780,10 +1866,14 @@ psdiDcat:optimade-mcloud-mc2d a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database (mc2d)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-mc2d-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc2d> .
+
+psdiDcat:optimade-mcloud-mc2d-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/mc2d/optimade> .
 
 psdiDcat:optimade-mcloud-mc3d a dcat:Dataset ;
     rdfs:label "MC3D - Materials Cloud three-dimensional crystals database"@en ;
@@ -1794,10 +1884,14 @@ psdiDcat:optimade-mcloud-mc3d a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database (mc3d)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-mc3d-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc3d> .
+
+psdiDcat:optimade-mcloud-mc3d-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/mc3d/optimade> .
 
 psdiDcat:optimade-mcloud-pyrene-mofs a dcat:Dataset ;
     rdfs:label "Pyrene-based metal organic frameworks"@en ;
@@ -1808,10 +1902,14 @@ psdiDcat:optimade-mcloud-pyrene-mofs a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: Pyrene-based metal organic frameworks (pyrene-mofs)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-pyrene-mofs-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/pyrene-mofs> .
+
+psdiDcat:optimade-mcloud-pyrene-mofs-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/pyrene-mofs/optimade> .
 
 psdiDcat:optimade-mcloud-scdm a dcat:Dataset ;
     rdfs:label "Automated high-throughput Wannierisation"@en ;
@@ -1822,10 +1920,14 @@ psdiDcat:optimade-mcloud-scdm a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: Automated high-throughput Wannierisation (scdm)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-scdm-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/autowannier> .
+
+psdiDcat:optimade-mcloud-scdm-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/autowannier/optimade> .
 
 psdiDcat:optimade-mcloud-stoceriaitf a dcat:Dataset ;
     rdfs:label "SrTiO3-CeO2 interfaces"@en ;
@@ -1836,10 +1938,14 @@ psdiDcat:optimade-mcloud-stoceriaitf a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: SrTiO3-CeO2 interfaces (stoceriaitf)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-stoceriaitf-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/stoceriaitf> .
+
+psdiDcat:optimade-mcloud-stoceriaitf-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/stoceriaitf/optimade> .
 
 psdiDcat:optimade-mcloud-tc-applicability a dcat:Dataset ;
     rdfs:label "Applicability of tail-corrections in the molecular simulations of porous materials"@en ;
@@ -1850,10 +1956,14 @@ psdiDcat:optimade-mcloud-tc-applicability a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials (tc-applicability)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-tc-applicability-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tc-applicability> .
+
+psdiDcat:optimade-mcloud-tc-applicability-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/tc-applicability/optimade> .
 
 psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide a dcat:Dataset ;
     rdfs:label "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"@en ;
@@ -1864,10 +1974,14 @@ psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 (tin-antimony-sulfoiodide)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> .
+
+psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade> .
 
 psdiDcat:optimade-mcloudarchive-5p-vq a dcat:Dataset ;
     rdfs:label "MC Archive 5p-vq"@en ;
@@ -1878,10 +1992,14 @@ psdiDcat:optimade-mcloudarchive-5p-vq a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud Archive: MC Archive 5p-vq (5p-vq)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloudarchive-5p-vq-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.114> .
+
+psdiDcat:optimade-mcloudarchive-5p-vq-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade.materialscloud.org/archive/5p-vq> .
 
 psdiDcat:optimade-mcloudarchive-c8-gy a dcat:Dataset ;
     rdfs:label "MC Archive c8-gy"@en ;
@@ -1892,10 +2010,14 @@ psdiDcat:optimade-mcloudarchive-c8-gy a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud Archive: MC Archive c8-gy (c8-gy)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloudarchive-c8-gy-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2023.181> .
+
+psdiDcat:optimade-mcloudarchive-c8-gy-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade.materialscloud.org/archive/c8-gy> .
 
 psdiDcat:optimade-mcloudarchive-vg-ya a dcat:Dataset ;
     rdfs:label "MC Archive vg-ya"@en ;
@@ -1906,10 +2028,14 @@ psdiDcat:optimade-mcloudarchive-vg-ya a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud Archive: MC Archive vg-ya (vg-ya)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloudarchive-vg-ya-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.65> .
+
+psdiDcat:optimade-mcloudarchive-vg-ya-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade.materialscloud.org/archive/vg-ya> .
 
 psdiDcat:optimade-mcloudarchive-zk-gc a dcat:Dataset ;
     rdfs:label "MC Archive zk-gc"@en ;
@@ -1920,10 +2046,14 @@ psdiDcat:optimade-mcloudarchive-zk-gc a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Cloud Archive: MC Archive zk-gc (zk-gc)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mcloudarchive-zk-gc-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2025.32> .
+
+psdiDcat:optimade-mcloudarchive-zk-gc-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade.materialscloud.org/archive/zk-gc> .
 
 psdiDcat:optimade-mp-mp a dcat:Dataset ;
     rdfs:label "The Materials Project"@en ;
@@ -1934,10 +2064,14 @@ psdiDcat:optimade-mp-mp a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "The Materials Project (mp)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mp-mp-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://www.materialsproject.org> .
+
+psdiDcat:optimade-mp-mp-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade.materialsproject.org> .
 
 psdiDcat:optimade-mpdd-mpdd a dcat:Dataset ;
     rdfs:label "Material-Property-Descriptor Database"@en ;
@@ -1948,10 +2082,14 @@ psdiDcat:optimade-mpdd-mpdd a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Material-Property-Descriptor Database (mpdd)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mpdd-mpdd-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://phaseslab.com/mpdd> .
+
+psdiDcat:optimade-mpdd-mpdd-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://mpddoptimade.phaseslab.org> .
 
 psdiDcat:optimade-mpds-mpds a dcat:Dataset ;
     rdfs:label "Materials Platform for Data Science"@en ;
@@ -1962,10 +2100,14 @@ psdiDcat:optimade-mpds-mpds a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Materials Platform for Data Science (mpds)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mpds-mpds-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://mpds.io> .
+
+psdiDcat:optimade-mpds-mpds-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://api.mpds.io> .
 
 psdiDcat:optimade-mpod-mpod a dcat:Dataset ;
     rdfs:label "Material Properties Open Database (MPOD)"@en ;
@@ -1976,10 +2118,14 @@ psdiDcat:optimade-mpod-mpod a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Material Properties Open Database (MPOD) (mpod)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-mpod-mpod-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <http://mpod.cimav.edu.mx> .
+
+psdiDcat:optimade-mpod-mpod-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://mpod_optimade.cimav.edu.mx> .
 
 psdiDcat:optimade-nmd-nmd a dcat:Dataset ;
     rdfs:label "novel materials discovery (NOMAD)"@en ;
@@ -1990,10 +2136,14 @@ psdiDcat:optimade-nmd-nmd a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "novel materials discovery (NOMAD) (nmd)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-nmd-nmd-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://nomad-lab.eu> .
+
+psdiDcat:optimade-nmd-nmd-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://nomad-lab.eu/prod/rae/optimade/> .
 
 psdiDcat:optimade-odbx-gnome a dcat:Dataset ;
     rdfs:label "Google DeepMind's Gnome Dataset"@en ;
@@ -2004,10 +2154,14 @@ psdiDcat:optimade-odbx-gnome a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "open database of xtals: Google DeepMind's Gnome Dataset (gnome)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-odbx-gnome-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <https://github.com/ml-evs/optimade-gnome> .
+
+psdiDcat:optimade-odbx-gnome-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <https://optimade-gnome.odbx.science> .
 
 psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
     rdfs:label "Open Materials Database (omdb) production database"@en ;
@@ -2018,16 +2172,24 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
     dcterms:isPartOf "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "Open Materials Database: Open Materials Database (omdb) production database (omdb_production)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:optimade-omdb-omdb_production-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "optimade provider"@en ;
     dcat:landingPage <http://openmaterialsdb.se> .
 
+psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
+    dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
+    dcat:accessURL <http://optimade.openmaterialsdb.se> .
+
 <http://mmcif.wwpdb.org/dictionaries/mmcif_pdbx_v50.dic/Groups/index.html> a dcterms:Standard ;
     rdfs:label "MMCIF"@en .
 
+<http://mpddoptimade.phaseslab.org> a rdfs:Resource .
+
 <http://mpod.cimav.edu.mx> a foaf:Document ;
     rdfs:label "homepage for Material Properties Open Database (MPOD)"@en .
+
+<http://mpod_optimade.cimav.edu.mx> a rdfs:Resource .
 
 <http://opendatacommons.org/licenses/by/1-0/> a dcterms:LicenseDocument ;
     rdfs:label "ODC-By v1.0"@en .
@@ -2037,6 +2199,8 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 
 <http://openmaterialsdb.se> a foaf:Document ;
     rdfs:label "homepage for Open Materials Database (omdb) production database"@en .
+
+<http://optimade.openmaterialsdb.se> a rdfs:Resource .
 
 <http://orcid.org/0000-0001-5432-5597> a foaf:Agent ;
     foaf:name "Keith Butler"@en ;
@@ -2173,6 +2337,32 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 <https://aflow.org> a foaf:Document ;
     rdfs:label "homepage for AFLOW"@en .
 
+<https://aflow.org/API/optimade/> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/2dtopo/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/autowannier/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/curated-cofs/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/mc2d/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/mc3d/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/pyrene-mofs/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/stoceriaitf/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/tc-applicability/optimade> a rdfs:Resource .
+
+<https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade> a rdfs:Resource .
+
+<https://alexandria.icams.rub.de/pbe> a rdfs:Resource .
+
+<https://alexandria.icams.rub.de/pbesol> a rdfs:Resource .
+
+<https://api.mpds.io> a rdfs:Resource .
+
 <https://archive.materialscloud.org/record/2023.181> a foaf:Document ;
     rdfs:label "homepage for MC Archive c8-gy"@en .
 
@@ -2188,11 +2378,10 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 <https://bioblend.readthedocs.io> a rdfs:Resource ;
     rdfs:label "BioBlend documentation"@en .
 
+<https://cmr-optimade.fysik.dtu.dk> a rdfs:Resource .
+
 <https://cmr.fysik.dtu.dk> a foaf:Document ;
     rdfs:label "homepage for Computational materials repository (CMR)"@en .
-
-<https://edata.stfc.ac.uk/home> a foaf:Document ;
-    rdfs:label "About eData"@en .
 
 <https://edata.stfc.ac.uk/info/edata-guidance> a rdfs:Resource ;
     rdfs:label "eData Guidance"@en .
@@ -2230,6 +2419,20 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 
 <https://nomad-lab.eu> a foaf:Document ;
     rdfs:label "homepage for novel materials discovery (NOMAD)"@en .
+
+<https://nomad-lab.eu/prod/rae/optimade/> a rdfs:Resource .
+
+<https://optimade-gnome.odbx.science> a rdfs:Resource .
+
+<https://optimade.materialscloud.org/archive/5p-vq> a rdfs:Resource .
+
+<https://optimade.materialscloud.org/archive/c8-gy> a rdfs:Resource .
+
+<https://optimade.materialscloud.org/archive/vg-ya> a rdfs:Resource .
+
+<https://optimade.materialscloud.org/archive/zk-gc> a rdfs:Resource .
+
+<https://optimade.materialsproject.org> a rdfs:Resource .
 
 <https://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
     foaf:name "Cerys Willoughby"@en ;
@@ -2275,14 +2478,13 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 
 <https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html> a foaf:Document .
 
-<https://www.chemotion-repository.net> a foaf:Document ;
-    rdfs:label "About Chemotion"@en .
-
 <https://www.chemotion.net/docs/repo> a rdfs:Resource ;
     rdfs:label "About Chemotion"@en .
 
 <https://www.crystallography.net/cod> a foaf:Document ;
     rdfs:label "homepage for Crystallography Open Database"@en .
+
+<https://www.crystallography.net/cod/optimade> a rdfs:Resource .
 
 <https://www.materialscloud.org/discover/curated-cofs> a foaf:Document ;
     rdfs:label "homepage for CURATED covalent organic frameworks database"@en .
@@ -2318,8 +2520,6 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 
 <https://xraypy.github.io/xraylarch/> a foaf:Document .
 
-<http://UrlForPF4sBitOfPSDIInvenio> a foaf:Document .
-
 <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> a foaf:Document .
 
 <http://cdi.ukcatalysishub.org/get_pubs.json> a rdfs:Resource,
@@ -2332,10 +2532,11 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
 <http://data-collections.psdi.ac.uk> a rdfs:Resource,
         foaf:Document .
 
-<http://data-collections.psdi.ac.uk/communities/mlip> a foaf:Document .
-
 <http://data-conversion.psdi.ac.uk> a rdfs:Resource,
         foaf:Document .
+
+<http://data-search-dev.psdi.ac.uk> a rdfs:Resource ;
+    rdfs:label "PSDI Cross Data Search"@en .
 
 <http://data-search.psdi.ac.uk> a rdfs:Resource,
         foaf:Document .
@@ -2483,7 +2684,8 @@ C. R. Groom, I. J. Bruno, M. P. Lightfoot and S. C. Ward, Acta Cryst. (2016). B7
 DOI: 10.1107/S2052520616003954"""@en ;
     dcterms:conformsTo <http://www.coretrustseal.org/> ;
     dcterms:creator <http://en.wikipedia.org/wiki/Olga_Kennard> ;
-    dcterms:description "The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation."@en ;
+    dcterms:description """The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed to identify areas of risk or strategies for optimisation. 
+The CSD can be searched via the PSDI Cross Data Search service allowing results to be combined with other data sources to generate novel insights to guide the design of new molecules and materials."""@en ;
     dcterms:identifier "psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803"@en ;
     dcterms:isPartOf psdiDcat:84701c55-30cc-4719-9195-7d62aa93bdde,
         psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
@@ -2494,7 +2696,7 @@ DOI: 10.1107/S2052520616003954"""@en ;
     dcterms:title "Cambridge Structural Database (CSD)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ] ;
+    dcat:Distribution psdiDcat:822c7d92-76a0-49ba-ac98-4f00ec4b23ae ;
     dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> ;
     dcat:inCatalog psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5 ;
     dcat:keyword "CoreTrustSeal"@en,
@@ -2524,7 +2726,7 @@ psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course is designed to help an individual understand the principles of version control and how it is effective in research projects. Individuals will also learn about the common version control methods and evaluate how software such as GitHub implements version control and learn the vocabulary associated with this"@en ;
+    dcterms:description "This course is designed to help participants understand the principles of version control and how it can be used effectively in research projects. Participants will explore common version control methods, learn the associated terminology and find out how software like GitHub implements these methods."@en ;
     dcterms:identifier "psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -2560,7 +2762,7 @@ psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 a dcat:DataService ;
     psdiDcatExt:furtherInformation <http://www.ccpnc.ac.uk/database/faqs.html> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> ;
     dcterms:creator <http://orcid.org/0009-0006-9138-9585> ;
-    dcterms:description "Web front end to access the Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database, to search it for MAGRES files by DOI, Magnetic shielding, Electric Field Gradient Vzz, Chemical name, Form, Unit cell formula, Molecular formula, MRD reference number, External database reference and/or License or to deposit MAGRES files (restricted to those who login with their ORCID ID.)"@en ;
+    dcterms:description "Web front end to access the Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database. The database can be used to search for MAGRES files by DOI, Magnetic shielding, Electric Field Gradient Vzz, Chemical name, Form, Unit cell formula, Molecular formula, MRD reference number, External database reference and/or License. Users who have logged into the database using the ORCID ID can also deposit their own MAGRES files."@en ;
     dcterms:identifier "psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3"@en ;
     dcterms:issued "2018-03-19T10:46:52+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2593,7 +2795,8 @@ C. R. Groom, I. J. Bruno, M. P. Lightfoot and S. C. Ward, Acta Cryst. (2016). B7
 DOI: 10.1107/S2052520616003954"""@en ;
     dcterms:conformsTo <http://www.coretrustseal.org/> ;
     dcterms:creator <http://en.wikipedia.org/wiki/Olga_Kennard> ;
-    dcterms:description "The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed before to identify areas of risk or strategies for optimisation."@en ;
+    dcterms:description """The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed to identify areas of risk or strategies for optimisation. 
+The CSD can be searched via the PSDI Cross Data Search service allowing results to be combined with other data sources to generate novel insights to guide the design of new molecules and materials."""@en ;
     dcterms:identifier "psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5"@en ;
     dcterms:issued "1971-12-31T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2627,19 +2830,19 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Daniel Cancado"@en ;
+            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
+            foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Finlay Morrison"@en ;
@@ -2648,18 +2851,18 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
             foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
+            foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
-            foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302> ;
-    dcterms:description "Data Revival enables you to seamlessly convert your handwritten lab book pages into machine-readable data, pulling out the important chemistry knowledge."@en ;
+    dcterms:description "The majority of laboratories and research groups have stacks of paper notebooks filled with valuable data that is difficult and time-consuming to access and use. Data Revival is an AI-driven service that can seamlessly convert your handwritten lab book pages into machine-readable data, unlocking the potential of your chemistry data. Operating with a high degree of accuracy, Data Revival creates relational links across your chemical data and enables users to run semantic searches across potentially millions of data points, including complex chemical structures. PSDI offers users the chance to experience Data Revival's capabilities firsthand."@en ;
     dcterms:identifier "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -2686,7 +2889,7 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
-    dcterms:description "This course is designed to follow on from the basics of programming though Python. If you have programmed before, then this will be a matter of learning the syntax and some of the individual quirks of Python. For people who have not programmed before, this will expand upon the teaching presented in Python I"@en ;
+    dcterms:description "This course builds on the basics of programming covered in the Python I course. For beginners, it expands on the foundational concepts taught in first course. For more experienced programmers, further examples and guidance are added to help you master Python syntax and its unique features."@en ;
     dcterms:identifier "psdiDcat:294760c8-20de-4155-9951-08bccc87a593"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -2719,7 +2922,7 @@ psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 a dcat:Dataset ;
     dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
         <http://orcid.org/0000-0002-9775-687X>,
         <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "The Open Materials Micrograph Repository (OM2R) is a free and open repository for materials micrographs and nanographs. We support optical light microscopy and electron microscopy, covering scanning electron microscopy (SEM), transmission electron microscopy (TEM), and scanning transmission electron microscopy (STEM)."@en ;
+    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for reuse. It supports optical light microscopy and electron microscopy, including SEM, TEM, and STEM. Beyond optical micrography, O2MR accommodates data from any material that can be represented as an image. Users can submit records, search micrographs, and curate collections, making it a valuable resource for materials research."@en ;
     dcterms:identifier "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -2727,7 +2930,7 @@ psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 a dcat:Dataset ;
     dcterms:title "Open Materials Micrograph Repository (O2MR)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 ] ;
+    dcat:Distribution psdiDcat:1a03eae8-4b54-49d1-8b56-c42f31deeae5 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 ;
@@ -2784,7 +2987,7 @@ psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 a dcat:DataService ;
     dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
         <http://orcid.org/0000-0002-9775-687X>,
         <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "Search and view micrographs and associated metadata in the Open Materials Micrograph Repository (OM2R)."@en ;
+    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for use and reuse. The O2MR extends to data acquired from materials that can be represented as an image, not limited to optical micrography. The O2MR will enable users to submit records, search for records of materials micrographs, and curate collections of records. Search is supported by a data model that enables the use of (combined) filtering on features such as material class, processing, acquisition technique, and reuse potential, such as educational, reference and machine learning purposes."@en ;
     dcterms:identifier "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -2852,7 +3055,7 @@ psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-7013-6670>,
         <http://orcid.org/0009-0004-9147-3475>,
         <http://orcid.org/0009-0005-2015-9478> ;
-    dcterms:description "XXX please fill in"@en ;
+    dcterms:description "Training is at the core of this resource theme. These tools help users to get started using our tools."@en ;
     dcterms:identifier "psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2"@en ;
     dcterms:issued "2024-05-26T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2862,7 +3065,8 @@ psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX Please fill in"@en ;
+    dcat:keyword "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en ;
     dcat:landingPage <http://github.com/stfc/janus-tutorials/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
@@ -2878,7 +3082,7 @@ psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0009-0000-6422-0342>,
         <https://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This course is all about Research Data Management. In this course the individual will learn about the data lifecycle and identify the different stages of the data lifecycle, reflect on the relevance of collaborative working environments and learn how to identify and manage different types of data within your project"@en ;
+    dcterms:description "This course provides an introduction to Research Data Management. Participants will explore the data lifecycle, identify its various stages, understand the importance of collaborative working environments, and learn how to identify and manage different types of data within their projects."@en ;
     dcterms:identifier "psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -2915,7 +3119,7 @@ psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 a dcat:Dataset ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:creator <http://orcid.org/0000-0002-7013-6670> ;
-    dcterms:description "XXX MLIP data collection consisting of MLIP xyz files and AIIDA process recording data."@en ;
+    dcterms:description "Data-to-Knowledge Collections provide curated datasets specifically designed for use in machine learning or generated through machine learning processes. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIP XYZ files used for training, the trained MLIP models, and, where available, additional metadata such as AIIDA provenance information. By making these datasets accessible, researchers without the resources to generate such data themselves can leverage them for machine learning. Additionally, the MLIP models can be directly applied in modeling tasks, enabling broader exploration and advancements in research."@en ;
     dcterms:identifier "psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2926,11 +3130,14 @@ psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 a dcat:Dataset ;
     dcterms:title "Data to Knowledge Community Data Collections"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 ] ;
+    dcat:Distribution psdiDcat:56b60b60-5e2e-4e97-a1aa-96ec47e3fc00 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 ;
-    dcat:keyword "XXX Please fill in"@en ;
+    dcat:keyword "AIIDA provenance records"@en,
+        "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en,
+        "machine learning"@en ;
     dcat:landingPage <http://data-collections.psdi.ac.uk/communities/mlip> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     odrl:hasPolicy psdiPol:openAccess .
@@ -2947,7 +3154,7 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 a psdiDcatExt:Tool ;
     dcterms:conformsTo <http://peps.python.org/pep-0008/> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "A plugin for using GROMACS with AiiDA for molecular dynamics simulation data provenance"@en ;
+    dcterms:description "The GROMACS plugin for AiiDA aims to enable the capture and sharing of the full provenance of data when parameterising and running molecular dynamics simulations."@en ;
     dcterms:identifier "psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2989,10 +3196,10 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 a psdiDcatExt:Tool ;
         "trajectory"@en ;
     dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:7bdc8a6c-1110-4211-8c2e-8d115c2d1e0f ;
+            dcterms:relation psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
+            dcterms:relation psdiDcat:7bdc8a6c-1110-4211-8c2e-8d115c2d1e0f ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
@@ -3005,7 +3212,7 @@ psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Web service to deliever publication data from Catalysis Data Infrastucture portal."@en ;
+    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. The Catalysis Data Infrastructure (CDI) Bibliographic Data Web Service provides a way to access publication data from Catalysis Data Infrastructure portal programmatically."@en ;
     dcterms:identifier "psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818"@en ;
     dcterms:issued "2021-10-19T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3078,7 +3285,7 @@ psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This topic collection provides guidance on using and implementing different kinds of electronic notebooks for recording your research. This includes the benefits and barriers to adopting digital notebooks, how to choose a digital notebook for your research project, and steps to deploying an ELN solution successfully."@en ;
+    dcterms:description "This topic collection offers practical guidance on selecting and implementing electronic notebooks for research. It covers the benefits and challenges of adopting digital notebooks and advice on choosing the right notebook for your project. Additionally guidance is provided on considerations for moving from paper to digital and steps needed to successfully deploy an ELN solution."@en ;
     dcterms:identifier "psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3111,7 +3318,7 @@ psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course will cover the basics of Literature and Referencing relevant to physical sciences, and will help any individual that completes it identify the different scholarly sources and understanding the purposes of citations within their work and why they are important to the scientific process."@en ;
+    dcterms:description "This course covers the fundamentals of literature and referencing in the physical sciences. Participants will learn to identify various scholarly sources, understand the purposes of citations, and appreciate their importance in the scientific process.This course covers the fundamentals of literature and referencing in the physical sciences. Participants will learn to identify various scholarly sources, understand the purposes of citations, and appreciate their importance in the scientific process."@en ;
     dcterms:identifier "psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3154,7 +3361,7 @@ psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 a dcat:DataService ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This is a demonstrator of the LabTrove ELN Service for users to trial in the browser before deciding whether they want to download and implement a version themselves. LabTrove is a lightweight, web based, Laboratory \"Blog\" that can be used as an ELN, or to supplement an ELN. This demonstrator will give users a feel for how LabTrove operates, and enable them to explore the different features and functionality. Please note, the data cached in this instance will be wiped as soon as the browser window is closed, if you want to use LabTrove to formally store data, please download and run your own version."@en ;
+    dcterms:description "LabTrove is a lightweight, blog-based Electronic Laboratory Notebook (ELN) that can be run through a browser. LabTrove provides facilities for users to record their experiments through both manual creation of records and the automatic capture of data from scientific instruments. LabTrove enables users to define their own semantics for their projects to facilitate linking together processes, data, and analysis from experiments. Templates can be created to standardise the format of information and data captured across a team or repeated experiments. The LabTrove ELN Demonstrator enables users to try it out and explore its features before deciding whether to download and implement the full version for themselves. Any data stored in this demonstrator will be cleared when the browser window is closed. To formally store data, users should download and run their own instance of LabTrove."@en ;
     dcterms:identifier "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3198,7 +3405,7 @@ psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
-    dcterms:description "This course is designed to teach the basics of programming though Python. If you have programmed before, then this will be a matter of learning the syntax and some of the individual quirks of Python. For people who have not programmed before, this will teach you what you need to know, using Python."@en ;
+    dcterms:description "This course is designed to teach participants the basics of programming using Python. For new programmers, the course will teach you the fundamentals of programming using Python as an example. Whilst those who are more familiar with programming concepts can use the course to learn Python syntax and its unique features."@en ;
     dcterms:identifier "psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3231,7 +3438,7 @@ psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 a psdiDcatExt:Guidance ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "Tutorials with pre-loaded user environments for using aiida-gromacs to produce provenance workflows for biomolecular simulations"@en ;
+    dcterms:description "Tutorials with pre-loaded user environments for using aiida-gromacs to produce provenance workflows for biomolecular simulations."@en ;
     dcterms:identifier "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3325,7 +3532,7 @@ psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0001-8286-3835>,
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course will provide a general background to research integrity, the ethical review process, ethics as applied to data in AI/ML, and Responsible Research and Innovation."@en ;
+    dcterms:description "This course provides an introduction to the subject of ethics and research integrity. This includes details of the ethical review process, how ethics needs to be applied to data that is used for Machine Learning and Artificial Intelligence. The course also provides guidance on Responsible Research and Innovation."@en ;
     dcterms:identifier "psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3361,7 +3568,7 @@ psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 a psdiDcatExt:Guidance ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "Documentation for installation, use and development guidence for the aiida-gromacs plugin"@en ;
+    dcterms:description "Documentation for installation, use and development guidance for the aiida-gromacs plugin."@en ;
     dcterms:identifier "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51"@en ;
     dcterms:issued "2024-05-23T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3417,7 +3624,7 @@ psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 a psdiDcatExt:Guidance ;
         <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
-    dcterms:description "This course provides an introduction to machine learning. This course focuses on machine learning from a mathematical point of view and goes into the fundamental maths behind the core concepts of fitting data to lines using linear and polynomial regressions. This is a more advanced course, and is aimed at those with a good grasp of mathematics and python coding already."@en ;
+    dcterms:description "This course offers an introduction to machine learning, emphasizing its mathematical foundations. It delves into the essential mathematics behind core concepts, such as fitting data to lines using linear and polynomial regressions. Designed for advanced learners, this course is ideal for those already proficient in mathematics and Python coding."@en ;
     dcterms:identifier "psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3450,14 +3657,14 @@ psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 a dcat:Dataset ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:conformsTo <https://www.researchobject.org/ro-crate/> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Reproducible XAFS Processing and Analysis FAIR Data Objects (RO-Crate format)"@en ;
+    dcterms:description "The Reproducible XAFS Analyses Zenodo Community provides the published results of X-ray absorption fine structure (XAFS) analyses reproduced using X-ray absorption spectroscopy (XAS) Galaxy tools developed in collaboration with PSDI, and use cases and data from the UK Catalysis Hub. The results shared in the Reproducible XAFS Analyses Zenodo Community are in the form of FAIR Data Objects in RO-Crate format and provide examples relevant to the catalysis domain."@en ;
     dcterms:identifier "psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7"@en ;
     dcterms:issued "2024-10-24T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Example Galaxy XAFS RO-Crate Workflows"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessURL <http://zenodo.org/communities/rexas> ] ;
+    dcat:Distribution psdiDcat:4df1f995-05f0-4571-9e5a-99ca035c3fea ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
@@ -3480,12 +3687,13 @@ psdiDcat:f8c98217-7299-44f5-9a35-dac6c32ec52e a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Tutorials showing how to import RO-Crates and Workflows into Galaxy. Intended as a quickstart to allow quickly inspecting RO-Crates and Workflows published during the PSDI project and supported by PSDI infrastructure (Materials Galaxy)"@en ;
+    dcterms:description "The Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy provide a brief introduction to working with RO-Crates in Galaxy. The development of the tutorials originated as quickstart guidance for running and inspecting workflows used for the reproduction of X-ray absorption fine structure (XAFS) analyses. These self-paced learning resources cover three aspects of the RO-Crate lifecycle in the Galaxy platform: Importing (and running) a workflow, Creation (Exporting) an RO-Crate and Importing (and inspecting) an RO-Crate."@en ;
     dcterms:identifier "psdiDcat:f8c98217-7299-44f5-9a35-dac6c32ec52e"@en ;
     dcterms:issued "2024-10-28T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy"@en ;
+    dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
@@ -3509,7 +3717,7 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Thematic portal to display summary report of output publications and impact of \"Catalysis Hub\" outputs: Publications, Authors, Institution versus year, top researchers, distribution by country and theme."@en ;
+    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Tools are available for users to create their own portals for customised data analysis. The Catalysis Data Infrastructure (CDI) serves as an example, showcasing how thematic portals can summarise catalysis research data and demonstrate the potential of these tools."@en ;
     dcterms:identifier "psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"@en ;
     dcterms:issued "2021-04-12T12:01:01+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3529,8 +3737,6 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 a dcat:DataService ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.9"@en ;
     odrl:hasPolicy psdiPol:openAccess .
-
-<http://micrograph.royce.ac.uk> a foaf:Document .
 
 <http://micrograph.royce.ac.uk/> a rdfs:Resource,
         foaf:Document .
@@ -3638,9 +3844,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://www.ccdc.cam.ac.uk/licence-agreement/> a dcterms:LicenseDocument ;
     rdfs:label "CCDC License Agreement"@en .
 
-<http://www.ccdc.cam.ac.uk/solutions/software/csd/> a foaf:Document ;
-    rdfs:label "the Cambridge Structural Database"@en .
-
 <http://www.ccdc.cam.ac.uk/support-and-resources/> a rdfs:Resource ;
     rdfs:label "CCDC Support and Resources"@en .
 
@@ -3649,7 +3852,8 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     vcard:hasURL "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/"@en .
 
 <http://www.ccpnc.ac.uk/magresview/magresview/magres_view.html> a rdfs:Resource,
-        foaf:Document .
+        foaf:Document ;
+    rdfs:label "MagresView"@en .
 
 <http://www.coretrustseal.org/> a dcterms:Standard ;
     rdfs:label "CoreTrustSeal"@en .
@@ -3723,6 +3927,10 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://zenodo.org/communities/rexas> a rdfs:Resource,
         foaf:Document .
 
+<https://edata.stfc.ac.uk/home> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "About eData"@en .
+
 <https://eln-finder.ulb.tu-darmstadt.de/home> a rdfs:Resource,
         foaf:Document .
 
@@ -3744,13 +3952,19 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://tddft.org/bmg/data.php> a foaf:Document ;
     rdfs:label "homepage for alexandria"@en .
 
-<http://cdi.ukcatalysishub.org/> a rdfs:Resource,
+<https://www.chemotion-repository.net> a rdfs:Resource,
         foaf:Document ;
-    rdfs:label "Catalysis Data Infrastructure Portal"@en .
+    rdfs:label "About Chemotion"@en .
+
+<http://UrlForPF4sBitOfPSDIInvenio> a rdfs:Resource,
+        foaf:Document .
 
 <http://creativecommons.org/licenses/by/4.0/> a dcterms:LicenseDocument ;
     rdfs:label "CC-By v4.0"@en,
         "Creative Commons Attribution 4.0"@en .
+
+<http://data-collections.psdi.ac.uk/communities/mlip> a rdfs:Resource,
+        foaf:Document .
 
 <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41> a skos:Concept ;
     skos:prefLabel "Microscopy"@en .
@@ -3817,7 +4031,7 @@ psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a a dcat:Catalog ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0009-9897-333X>,
         <http://www.linkedin.com/in/jack-doyle-175183323/> ;
-    dcterms:description "This resource holds the data exemplars and case study reports that have been developed as part of our case studies to investigate different methods of discovering value in legacy data. This includes identifying methods of resurrecting legacy data in a meaningful manner, and how to improve the quality of existing datasets."@en ;
+    dcterms:description "This resource presents data exemplars and detailed case study reports from our investigations into unlocking the potential of legacy data. It highlights our approaches to meaningfully revive outdated datasets, enhancing their quality, and maximising their value. These efforts aim to provide practical guidance on methods for resurrecting data, uncovering value in hidden data sources, and accelerating scientific progress."@en ;
     dcterms:identifier "psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3842,7 +4056,7 @@ psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 a dcat:Catalog ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-6431-0612> ;
-    dcterms:description "Computing environments, including software applications and their dependencies, can be packaged into containers to improve their portability and ease of installation and use. This resource is a registry of containers developed by PSDI geared towards researchers in the physical sciences."@en ;
+    dcterms:description "Computing environments, including software applications and dependencies, can be packaged into containers to enhance portability, installation, and usability. This resource is a registry of PSDI-developed containers designed for researchers in the physical sciences."@en ;
     dcterms:identifier "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3904,7 +4118,7 @@ psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
     dcterms:creator <http://linkedin.com/in/andrew-harper-654456241>,
         <http://orcid.org/0009-0001-9720-3378>,
         <http://orcid.org/0009-0005-9011-2472> ;
-    dcterms:description "Community Data Collections is a multi-institution, subject-based research data repository for the Physical Sciences Data Infrastructure (PSDI). The repository is for openly available data, currently in the BioSim and Data to Knowledge communities, to enable users to publish, share, find and re-use relevant data. FAIR principles are met through the adoption of a thorough metadata schema which includes custom fields relevant to the science in addition to standard properties for data. Anyone may access the metadata and full items free of charge and we intend to grow the Community Data Collections over time with the inclusion of additional, relevant scientific communities."@en ;
+    dcterms:description "Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets, currently serving the BioSim and Data to Knowledge communities, to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand Community Data Collections by including additional relevant scientific communities in the future."@en ;
     dcterms:identifier "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3939,7 +4153,7 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
         <http://orcid.org/0009-0003-9952-3468>,
         <http://orcid.org/0009-0007-0037-0035>,
         <http://orcid.org/0009-0009-9897-333X> ;
-    dcterms:description "This resource holds both the useful data collections that have been created and curated from a variety of sources to be made available to the community, and the data exemplars that have been developed as part of our case studies to investigate different methods of improving data capture, quality and sharing, and how to resurrect legacy data in a meaningful manner."@en ;
+    dcterms:description "This resource theme offers access to carefully curated data collections from diverse sources, as well as data exemplars developed through case studies. These exemplars explore innovative methods to enhance data capture, improve quality, facilitate sharing, and revive legacy data in meaningful ways. Our goal is to create, store, and manage robust data collections in the physical sciences, ensuring they are easily accessible to researchers. By simplifying data discovery and reuse, we promote broader utilisation and accelerate scientific advancements."@en ;
     dcterms:identifier "psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3966,6 +4180,9 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
     dcat:version "1.1.1"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
+<http://micrograph.royce.ac.uk> a rdfs:Resource,
+        foaf:Document .
+
 <http://orcid.org/0000-0001-6431-0612> a foaf:Agent ;
     foaf:name "Tom Underwood"@en ;
     foaf:openid "http://orcid.org/0000-0001-6431-0612"@en .
@@ -3989,6 +4206,10 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
 <http://peps.python.org/pep-0008/> a dcterms:Standard ;
     rdfs:label "PEP8"@en .
 
+<http://www.ccdc.cam.ac.uk/solutions/software/csd/> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "the Cambridge Structural Database"@en .
+
 <http://www.ccpnc.ac.uk/database/faqs.html> a rdfs:Resource ;
     rdfs:label "CCP-NC database - Frequently Asked Questions"@en .
 
@@ -4010,6 +4231,10 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> a rdfs:Resource ;
     rdfs:label "Data Sources for PSDI Cross Data Search logo"@en .
 
+<http://cdi.ukcatalysishub.org/> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Catalysis Data Infrastructure Portal"@en .
+
 <http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> a skos:Concept ;
     skos:prefLabel "Materials Engineering"@en,
         "materials engineering"@en .
@@ -4025,7 +4250,7 @@ psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 a dcat:Catalog ;
     dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
         <http://orcid.org/0000-0002-9775-687X>,
         <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "The Open Materials Micrograph Repository (OM2R) is a free and open repository for materials micrographs and nanographs. We support optical light microscopy and electron microscopy, covering scanning electron microscopy (SEM), transmission electron microscopy (TEM), and scanning transmission electron microscopy (STEM). OM2R is free and open to query on the front-end without registration. Account registration is required to submit your data, and use the API features on OM2R. OM2R is supported by the MIDAS Programme Grant, Physical Sciences Data Infrastructure (PSDI) and the Engineering and Physical Sciences Research Council (EPSRC). Please use the PSDI contact form (http://www.psdi.ac.uk/contact/) if you have any feature suggestions, or want to get involved."@en ;
+    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for use and reuse. The O2MR extends to data acquired from materials that can be represented as an image, not limited to optical micrography. The O2MR will enable users to submit records, search for records of materials micrographs, and curate collections of records. Search is supported by a data model that enables the use of (combined) filtering on features such as material class, processing, acquisition technique, and reuse potential, such as educational, reference and machine learning purposes."@en ;
     dcterms:identifier "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
@@ -4103,7 +4328,7 @@ psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 a dcat:Dataset ;
     dcterms:title "Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres Database"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 ] ;
+    dcat:Distribution psdiDcat:550b01c7-8a32-4ea9-b7fc-34fae7b887d7 ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
     dcat:inCatalog psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e ;
     dcat:keyword "CASTEP"@en,
@@ -4129,14 +4354,14 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
         <http://www.wwpdb.org/documentation/file-format-content/format32/v3.2.html> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "Topology, trajectory and AiiDA data provenance files from molecular dynamics simulations of biomolecules stored in a repository specifically designed for storing them."@en ;
+    dcterms:description "Topology, trajectory, and AiiDA data provenance files from molecular dynamics simulations of biomolecules are stored in a repository specifically designed for their preservation and accessibility."@en ;
     dcterms:identifier "psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "BioSimDB (Biomolecular Simulations Database)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution [ dcat:accessService psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 ] ;
+    dcat:Distribution psdiDcat:027b6677-4cb7-4f0e-b109-4d6881f8276a ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 ;
@@ -4196,10 +4421,8 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
     skos:prefLabel "data processing"@en .
 
 <http://www.ccpnc.ac.uk/contact> a vcard:Kind ;
+    vcard:Name "CCP-NC contact us"@en ;
     vcard:hasURL "http://www.ccpnc.ac.uk/contact"@en .
-
-<http://www.ccpnc.ac.uk/database/> a rdfs:Resource,
-        foaf:Document .
 
 <http://www.linkedin.com/in/benjefferson/> a foaf:Agent ;
     foaf:name "Ben Jefferson"@en ;
@@ -4220,7 +4443,7 @@ psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 a dcat:Dataset ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/continuous> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "SQL database of publications, authors, institutions, and data objects generated by UK Catalysis Hub researchers."@en ;
+    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. The Catalysis Data Infrastructure (CDI) serves as an example - its SQL database contains information about publications, authors, institutions, and data objects generated by UK Catalysis Hub researchers."@en ;
     dcterms:identifier "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en ;
     dcterms:isPartOf psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
     dcterms:issued "2025-03-30T12:01:01+00:00"^^xsd:dateTime ;
@@ -4228,9 +4451,7 @@ psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 a dcat:Dataset ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Catalysis Data Infrastructure (CDI) Database"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution [ dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c,
-                psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818,
-                psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 ] ;
+    dcat:Distribution psdiDcat:c5be2a39-867a-4dcc-a606-8855bc85ca9e ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
     dcat:inCatalog psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb ;
     dcat:keyword "FAIR DO"@en,
@@ -4255,7 +4476,7 @@ psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b a dcat:Catalog ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "Your one stop shop for file format conversion. PSDI's Data Conversion Service will enable users to seamlessly convert between different file formats and recieve information about the quality of the conversion. This functionality is available as: A PSDI Hosted Web Application, a containerised web application that can be run as a standalone application outside of PSDI, a standalone Command Line service that can be installed and run locally, and a python library for downloading and including in your own pipelines."@en ;
+    dcterms:description "Your one-stop shop for file format conversion, PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and assess the quality of proposed conversions. Several options are available, depending on whether you want to upload your data to PSDI or run the conversion locally or as part of your own applications. These options include: the PSDI Hosted Web Application, a containerised web application that can run standalone outside of PSDI, a standalone Command Line service that can be installed and run locally, and a Python library for integration into your own pipelines."@en ;
     dcterms:identifier "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4283,7 +4504,7 @@ psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb a dcat:Catalog ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "Thematic portal to display summary report of output publications and impact of a specified theme (based on grant) or insitution. Example instances are available for \"Catalysis Hub\" outputs but tools are available to start other instances with other themes. Displaying Publications, Authors, Institution versus year, top researchers, distribution by country and theme. Output from PSDI Pathfinder 1."@en ;
+    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Tools are available for users to create their own portals for customised data analysis. The Catalysis Data Infrastructure (CDI) serves as an example, showcasing how thematic portals can summarise catalysis research data and demonstrate the potential of these tools."@en ;
     dcterms:identifier "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4314,7 +4535,7 @@ psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70 a dcat:Catalog ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "The PSDI Knowledge Base provides guidance and training materials for physical scientists on a range of topics related to data and PSDI technology and resources. Those topics are described in this resource theme."@en ;
+    dcterms:description "The PSDI Knowledge Base offers guidance and training materials for physical scientists covering various themes related to working with scientific research data, and using the technologies and resources provided by PSDI. The main collections of topics provided are described in this resource theme."@en ;
     dcterms:identifier "psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4361,6 +4582,10 @@ psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70 a dcat:Catalog ;
     foaf:name "The Henry Royce Institute"@en ;
     foaf:openid "http://ror.org/013a0r905"@en .
 
+<http://www.ccpnc.ac.uk/database/> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "CCP-NC Database"@en .
+
 <http://www.linkedin.com/in/sam-hyder-172a86250/> a foaf:Agent ;
     foaf:name "Samuel Hyder"@en ;
     foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en .
@@ -4389,7 +4614,7 @@ psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e a dcat:Catalog ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0003-4485-3446>,
         <http://orcid.org/0009-0006-9138-9585> ;
-    dcterms:description "The Collaborative Computational Project for NMR Crystallography (CCP-NC) combines experimental NMR and computation to provide new insight, with atomic resolution, into structure, disorder, and dynamics in the solid state. Output from PSDI Pathfinder 6."@en ;
+    dcterms:description "The Collaborative Computational Project for NMR Crystallography (CCP-NC) supports a multidisciplinary community by developing and integrating software tools that advance NMR crystallography. By combining experimental NMR with computational methods, CCP-NC enables researchers to gain atomic-scale insights into structure, disorder, and dynamics in the solid state. A key resource is its repository for first-principles NMR calculations, which standardises data using the .magres file format. The project also provides specialised software, such as MagresView, for data processing and visualisation, along with tools for electronic structure calculations and ab initio NMR parameter prediction. Additionally, CCP-NC offers training opportunities and access to high-performance computing (HPC) through the Young supercomputer, further enhancing research capabilities. Through these resources, CCP-NC empowers researchers to conduct cutting-edge NMR crystallography, improving efficiency, fostering collaboration, and expanding professional networks. By facilitating the development and adoption of advanced computational methods, the project contributes to the broader scientific community, driving innovation in materials research."@en ;
     dcterms:identifier "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"@en ;
     dcterms:issued "2018-03-19T10:46:52+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4464,7 +4689,7 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This resource theme contains in-depth information about all aspects of process recording, ranging from information and exemplars on Research Data Management and FAIR Data, and detailed guidance on how to select and implement Digital Lab Notebooks, including both generic notebooking tools and Electronic Lab Notebooks. There are links to full lists of the different software available, tools to aid with selection, and case studies of successful Digital Lab Notebook implementations, and an interactive demo of the UoS ELN LabTrove to demonstrate how it is being used as a living example."@en ;
+    dcterms:description "This resource theme provides a range of services and guidance to help users explore and appreciate the importance of digital notebooks in documenting their experiments and research. The guidance introduces the benefits of both generic digital notebooks and Electronic Laboratory Notebooks (ELNs), covering their implementation and considerations for transitioning from paper to paperless laboratories. The resource theme includes case studies and exemplars, such as OneNote for students and a variety of ELNs. ELNFinder, for which PSDI is an active collaborator, helps users find the most suitable ELN based on a comprehensive set of criteria. PSDI Digital Lab Notebook Resources also include the free-to-use LabTrove ELN, which can be trialed through an online demo or downloaded as a container image for individual or departmental use."@en ;
     dcterms:identifier "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4492,10 +4717,10 @@ psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
         "onenote"@en ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
+            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
+            dcterms:relation psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
@@ -4505,7 +4730,7 @@ psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 a dcat:Catalog ;
     rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
-    dcterms:description "This resource theme contains data sources which can be searched by the PSDI Cross Data Search."@en ;
+    dcterms:description "This resource theme includes data sources searchable via the PSDI Cross Data Search service. Users can search for substances (e.g., molecules or crystal structures) or publication references, depending on the selected data sources. It incorporates data from PSDI, partners, OPTIMADE providers, and other relevant external sources, offering a comprehensive discovery tool for the research community."@en ;
     dcterms:hasPart psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803,
         psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
     dcterms:identifier "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
@@ -4548,7 +4773,8 @@ psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 a dcat:Catalog ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
     dcterms:creator <http://orcid.org/0000-0002-7013-6670> ;
-    dcterms:description "Machine Learning in the materials modelling have revolutionised and transformed the field in the last few years. Based on availability of good data from computations and/or experiment one can use machine learning to train expert systems using large language models (such as chatGPT), train surrogate models to predict properties or structure avoiding the use of simulations or simply speed up simulations by using machine learnt interatomic potentials (MLIPs). Our path finder is dedicated to making possible the creation of these models by providing data infrastructure, workflows for creation and exploitation of machine learnt models. Output from PSDI Pathfinder 5."@en ;
+    dcterms:description """Machine learning has transformed the field of materials modelling in the last few years. Given access to high-quality data from computations and/or experiments, machine learning can be used to develop expert systems powered by large language models (such as ChatGPT). These expert systems can be to train surrogate models that can predict properties of structures, eliminating the need for simulations, or speed up simulations by using machine learnt interatomic potentials (MLIPs). The Data to Knowledge resource theme is dedicated to making the creation of these models possible by providing data infrastructure and workflows enabling the generation and exploitation of these machine learnt models. 
+The Data to Knowledge collections comprise curated datasets designed for use in machine learning or generated through machine learning. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIPs XYZ files used for training, the trained model itself, and, where possible, related data such as AIIDA provenance records. Making these datasets available enables those without the resources to compute data themselves to utilise them for machine learning and modelling. Training is a central focus of this resource theme. We provide two types of training: general training and tool-specific training. Our general training is provided as self-paced learning online."""@en ;
     dcterms:identifier "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4558,7 +4784,10 @@ psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 a dcat:Catalog ;
     dcat:Dataset psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "XXX Please fill in"@en ;
+    dcat:keyword "AIIDA provenance records"@en,
+        "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en,
+        "machine learning"@en ;
     dcat:landingPage <http://data-collections.psdi.ac.uk/communities/mlip> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 ;
@@ -4577,7 +4806,7 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 a dcat:Catalog ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "A collection of tools and services for biomolecular simulation data provenance capture, sharing and exploring. Output from PSDI Pathfinder 4."@en ;
+    dcterms:description "BioSim is a collection of tools and services designed to transform biomolecular simulations by capturing and archiving the full provenance of each simulation. It meticulously records every step - from experimental structures to force field configurations and computational parameters - ensuring research is reproducible, transparent, and efficient. This approach helps scientists to avoid redundant efforts, improves the reliability of findings, and supports AI-driven drug discovery and molecular modelling."@en ;
     dcterms:identifier "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4664,7 +4893,7 @@ psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 a dcat:Catalog ;
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "The modern researcher is required to have a skill set that goes beyond the domain specific research skills that they develop in their degrees and the employment. The Skills4Scientists guidance content is comprised of a selection of interactive learning content, guidance articles and best practises that are designed to upskill researchers in basic computing skills, research data management skills and research support skills that will help a researcher across all facets of their work. We are working with the community to develop and expand the offering of guidance available through PSDI."@en ;
+    dcterms:description "Today's researchers must possess skills that extend beyond the specialised knowledge gained through their degrees and professional roles. The Skills4Scientists guidance materials are designed to enhance researchers' capabilities in areas such as computing, research data management, and other transferable research skills, supporting them in all aspects of their work. These resources include interactive learning materials, practical guidance topics, and best practices. Additionally, we are collaborating with the community to continuously grow and improve the guidance offered through PSDI."@en ;
     dcterms:identifier "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4728,7 +4957,7 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "The post-processing of experimental and simulation data, associated to large scale experiments performed at national facilities, requires that different software tools from various domains are connected into workflows.  These workflows can be quite complex and, this project uses the open-source, web-based Galaxy platform to manage the software tools and data associated to these workflows. Galaxy is a platform for FAIR data analysis that enable users to: run code in interactive environments; share and publish results, workflows and their associated visualizations; and ensure the reproducibility of their results by capturing and packaging data, metadata and provenance models required for repeating and understanding their data analyses. Initial use cases are muon science and catalysis experiments, and there are plans to expand to other large scale experiments."@en ;
+    dcterms:description "Post-processing experimental and simulation data from large-scale experiments conducted at national facilities requires integrating diverse software tools from various domains into cohesive workflows. Although these workflows can be highly complex, the software tools and data associated with them can be effectively managed using the open-source, web-based Galaxy Workflow Management System. Designed for FAIR data analysis, Galaxy enables users to run code in interactive environments, share and publish results, workflows, and visualisations, and ensure reproducibility by capturing and packaging the data, metadata, and provenance models essential for replicating and understanding their analyses. Use cases are provided for muon science and catalysis experiments, with plans to expand to other large-scale experiments."@en ;
     dcterms:identifier "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4740,9 +4969,9 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
     dcat:Dataset psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 ;
     dcat:Guidance psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -4797,11 +5026,11 @@ dcmitype:Collection a skos:Concept ;
         "Samantha Pearman-Kanza"@en ;
     foaf:openid "http://orcid.org/0000-0002-4831-9489"@en .
 
-dcmitype:Text a skos:Concept ;
-    skos:prefLabel "Text"@en .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
     rdfs:label "Optimade logo"@en .
+
+dcmitype:Text a skos:Concept ;
+    skos:prefLabel "Text"@en .
 
 psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"@en ;
@@ -4811,7 +5040,7 @@ psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c a dcat:DataService ;
     dcterms:creator <http://orcid.org/0009-0001-7735-0100>,
         <http://orcid.org/0009-0001-9720-3378>,
         <http://orcid.org/0009-0005-9011-2472> ;
-    dcterms:description "Data search across PSDI and non-PSDI data sources. This consists of (1) a user interface to search over a set of core fields which are equivalent across the source data sources and (2) an advanced search which allows more complex searches to be performed, including custom fields for the data sources in the form of an OPTIMADE gateway query. A query can be performed to find data associated with any general substance (via its chemical formulae; name; number of elements) and this search can be enhanced by a more detailed search for specific elemental composition using a periodic table interface. In addition, more specialised searches are also available if the substance is known to be made up of molecules, take a crystalline form, or display other bulk symmetry or periodicity based on fields relevant to those. When data search results are returned, summary information is shown for each, and a link to the source of the data (authentication may be requireds to access these)."@en ;
+    dcterms:description "The PSDI Cross Data Search service enables users to search for data across data sources provided by PSDI and other relevant data sources from the wider community using our online interface. The service provides a number of different ways to perform a search, for example searching substances by chemical formula, name, or number of elements, with the option to refine searches using a periodic table interface. Specialised searches can also be performed for molecules using  molecular structures, crystalline forms, or specific symmetry or periodicity characteristics. There is also an advanced search option, enabling custom queries to be constructed for users who know which fields in the data sources they want to search. The search results provide both a summary of the data and links to the source of the data. Although the majority of data sources are completely open, authentication may be required for some data sources."@en ;
     dcterms:identifier "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
