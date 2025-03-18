@@ -295,9 +295,9 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -745,9 +745,9 @@ psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 a dcat:Guidance ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -910,28 +910,28 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
         "Training"@en ;
     dcat:landingPage <http://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
+            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
+            dcterms:relation psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
+            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -1015,9 +1015,9 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a a dcat:DataService ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointURL <http://materialsgalaxy.stfc.ac.uk/> ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
@@ -1378,9 +1378,9 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     dcterms:title "Xray Larch Documentation"@en ;
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1549,25 +1549,10 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louis McLean"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
+            foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Leon Mutter"@en ;
@@ -1576,7 +1561,22 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
             foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
             foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louis McLean"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Hannah Gittins"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -1672,9 +1672,9 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
     dcterms:title "MuDirac Documentation"@en ;
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -2721,8 +2721,7 @@ psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc a psdiDcatExt:Guidance ;
     rdfs:label "Version Control and Github"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0000-6422-0342> ;
@@ -2830,34 +2829,34 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
+            foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
+            foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Ashley Unitt"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Hannah Gittins"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -2885,8 +2884,7 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
     rdfs:label "Python II"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
     dcterms:description "This course builds on the basics of programming covered in the Python I course. For beginners, it expands on the foundational concepts taught in first course. For more experienced programmers, further examples and guidance are added to help you master Python syntax and its unique features."@en ;
@@ -2899,8 +2897,7 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword ""@en,
-        "Functions"@en,
+    dcat:keyword "Functions"@en,
         "Good Coding Practise"@en,
         "Iteration"@en,
         "Lambda Functions"@en,
@@ -3237,8 +3234,7 @@ psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 a psdiDcatExt:Guidance ;
     rdfs:label "Command Line and Bash"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0000-6422-0342> ;
@@ -3252,8 +3248,7 @@ psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword ""@en,
-        "Bash"@en,
+    dcat:keyword "Bash"@en,
         "Coding"@en,
         "Command Line"@en,
         "Guidance"@en,
@@ -3328,8 +3323,7 @@ psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword ""@en,
-        "Branch"@en,
+    dcat:keyword "Branch"@en,
         "Changes"@en,
         "Coding"@en,
         "Collaborative Working"@en,
@@ -3401,8 +3395,7 @@ psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 a psdiDcatExt:Guidance ;
     rdfs:label "Python I"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
     dcterms:description "This course is designed to teach participants the basics of programming using Python. For new programmers, the course will teach you the fundamentals of programming using Python as an example. Whilst those who are more familiar with programming concepts can use the course to learn Python syntax and its unique features."@en ;
@@ -3542,8 +3535,7 @@ psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 a psdiDcatExt:Guidance ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword ""@en,
-        "AI"@en,
+    dcat:keyword "AI"@en,
         "Applications"@en,
         "Best Practises"@en,
         "Bias"@en,
@@ -3620,8 +3612,7 @@ psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 a psdiDcatExt:Guidance ;
     rdfs:label "Machine Learning I"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680> ;
     dcterms:description "This course offers an introduction to machine learning, emphasizing its mathematical foundations. It delves into the essential mathematics behind core concepts, such as fitting data to lines using linear and polynomial regressions. Designed for advanced learners, this course is ideal for those already proficient in mathematics and Python coding."@en ;
