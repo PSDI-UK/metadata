@@ -64,11 +64,11 @@
         "foaf:openid": "http://orcid.org/0000-0003-2397-1996"
     },
     "dcterms:issued": {
-        "@value": "2025-03-01T12:01:01Z",
+        "@value": "2025-01-07T00:00:00Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:modified": {
-        "@value": "2025-03-01T12:01:01Z",
+        "@value": "2025-03-19T00:00:00Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:language": {
@@ -139,6 +139,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Cross Data Search",
                 "@type": "foaf:Document",
                 "@id": "http://data-search.psdi.ac.uk"
             },
@@ -155,6 +156,10 @@
                 "@type": "rdfs:Resource",
                 "@id": "http://purl.org/adms/status/UnderDevelopment"
             },
+            "dcterms:issued": {
+                "@value": "2025-03-31T00:00:00Z",
+                "@type": "xsd:dateTime"
+            },
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
@@ -170,6 +175,7 @@
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
+                "rdfs:label": "PSDI Cross Data Search",
                 "@type": "rdfs:Resource",
                 "@id": "http://data-search.psdi.ac.uk"
             },
@@ -230,6 +236,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Community Data Collections",
                 "@type": "foaf:Document",
                 "@id": "http://data-collections.psdi.ac.uk"
             },
@@ -246,6 +253,10 @@
                 "@type": "rdfs:Resource",
                 "@id": "http://purl.org/adms/status/UnderDevelopment"
             },
+            "dcterms:issued": {
+                "@value": "2025-03-31T00:00:00Z",
+                "@type": "xsd:dateTime"
+            },
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
@@ -256,6 +267,7 @@
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
+                "rdfs:label": "PSDI Community Data Collections",
                 "@type": "rdfs:Resource",
                 "@id": "http://data-collections.psdi.ac.uk"
             },
@@ -296,7 +308,7 @@
             "dcat:landingPage": {
                 "rdfs:label": "PSDI Knowledge Base",
                 "@type": "foaf:Document",
-                "@id": "http://guidance.psdi.ac.uk"
+                "@id": "https://psdi-uk.github.io/docusaurus-pages/"
             },
             "dcat:contactPoint": {
                 "@type": "vcard:Kind",
@@ -311,6 +323,10 @@
                 "@type": "rdfs:Resource",
                 "@id": "http://purl.org/adms/status/UnderDevelopment"
             },
+            "dcterms:issued": {
+                "@value": "2025-01-01T00:00:00Z",
+                "@type": "xsd:dateTime"
+            },
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
@@ -321,8 +337,9 @@
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
+                "rdfs:label": "PSDI Knowledge Base",
                 "@type": "rdfs:Resource",
-                "@id": "http://guidance.psdi.ac.uk"
+                "@id": "https://psdi-uk.github.io/docusaurus-pages/"
             }
         },
         {
@@ -351,6 +368,7 @@
                 "@id": "http://www.psdi.ac.uk"
             },
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Interactive Learning",
                 "@type": "foaf:Document",
                 "@id": "http://learn.psdi.ac.uk"
             },
@@ -366,6 +384,10 @@
             "adms:status": {
                 "@type": "rdfs:Resource",
                 "@id": "http://purl.org/adms/status/UnderDevelopment"
+            },
+            "dcterms:issued": {
+                "@value": "2025-03-31T00:00:00Z",
+                "@type": "xsd:dateTime"
             },
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
@@ -451,6 +473,7 @@
             },
             "psdiDcatExt:displayPriority": 1,
             "dcat:endpointURL": {
+                "rdfs:label": "PSDI Interactive Learning",
                 "@type": "rdfs:Resource",
                 "@id": "http://learn.psdi.ac.uk"
             }
@@ -1621,10 +1644,12 @@
                         "@id": "http://orcid.org/0000-0001-6431-0612"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "dlmonte-container github repository",
                         "@type": "foaf:Document",
                         "@id": "https://github.com/PSDI-UK/dlmonte-container"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "dlmonte-container github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "https://github.com/psdi-uk/dlmonte-container/issues",
                         "@id": "https://github.com/psdi-uk/dlmonte-container/issues"
@@ -1638,6 +1663,21 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2024-10-27T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": {
+                        "rdfs:label": "BSD-3-Clause license",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://opensource.org/license/bsd-3-clause"
+                    },
+                    "dcat:version": "0.0.7",
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "dlmonte-container README",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://github.com/PSDI-UK/dlmonte-container/blob/main/README.md"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Container Image Registry logo",
                         "@type": "rdfs:Resource",
@@ -1647,8 +1687,9 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"
                     },
-                    "psdiDcatExt:downloadURL": "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte",
+                    "psdiDcatExt:downloadURL": "dlmonte-container download url (https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)",
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "dlmonte-container github repository",
                         "@type": "rdfs:Resource",
                         "@id": "https://github.com/PSDI-UK/dlmonte-container"
                     },
@@ -1706,10 +1747,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "data-transfer-container github repository",
                         "@type": "foaf:Document",
                         "@id": "https://github.com/PSDI-UK/data-transfer-container"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "data-transfer-container github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "https://github.com/PSDI-UK/data-transfer-container/issues",
                         "@id": "https://github.com/PSDI-UK/data-transfer-container/issues"
@@ -1723,6 +1766,16 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2025-01-05T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcat:version": "0.0.11",
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "data-transfer-container README",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://github.com/PSDI-UK/data-transfer-container/blob/main/README.md"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Container Image Registry logo",
                         "@type": "rdfs:Resource",
@@ -1732,8 +1785,9 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"
                     },
-                    "psdiDcatExt:downloadURL": "https://ghcr.io/psdi-uk/data-transfer-container/data-transfer",
+                    "psdiDcatExt:downloadURL": "data-transfer-container download url (https://ghcr.io/psdi-uk/data-transfer-container/data-transfer)",
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "data-transfer-container github repository",
                         "@type": "rdfs:Resource",
                         "@id": "https://github.com/PSDI-UK/data-transfer-container"
                     },
@@ -1842,6 +1896,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/Completed"
                     },
+                    "dcterms:issued": {
+                        "@value": "2020-09-27T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:ukAcademicsOnly"
                     },
@@ -1859,6 +1917,10 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
                     },
+                    "dcterms:accrualPeriodicity": {
+                        "@type": "dcterms:Frequency",
+                        "@id": "http://purl.org/cld/freq/irregular"
+                    },
                     "dcat:Distribution": {
                         "@id": "psdiDcat:eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6",
                         "@type": "dcat:Distribution",
@@ -1866,7 +1928,7 @@
                         "dcat:accessURL": {
                             "rdfs:label": "PSDI Cross Data Search",
                             "@type": "rdfs:Resource",
-                            "@id": "http://data-search-dev.psdi.ac.uk"
+                            "@id": "http://data-search.psdi.ac.uk"
                         },
                         "dcat:accessService": {
                             "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"
@@ -1927,7 +1989,7 @@
                         "@id": "http://purl.org/adms/status/Completed"
                     },
                     "dcterms:issued": {
-                        "@value": "2020-09-27T12:01:01Z",
+                        "@value": "2020-09-27T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -1947,6 +2009,10 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
                     },
+                    "dcterms:accrualPeriodicity": {
+                        "@type": "dcterms:Frequency",
+                        "@id": "http://purl.org/cld/freq/irregular"
+                    },
                     "dcat:Distribution": {
                         "@id": "psdiDcat:f8eec32f-9534-4c63-812e-5f9261cd4b2a",
                         "@type": "dcat:Distribution",
@@ -1954,7 +2020,7 @@
                         "dcat:accessURL": {
                             "rdfs:label": "PSDI Cross Data Search",
                             "@type": "rdfs:Resource",
-                            "@id": "http://data-search-dev.psdi.ac.uk"
+                            "@id": "http://data-search.psdi.ac.uk"
                         },
                         "dcat:accessService": {
                             "@id": "psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c"
@@ -2060,6 +2126,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2021-06-25T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "dcterms:license": [
                         {
                             "rdfs:label": "Creative Commons Attribution-ShareAlike 4.0 International License",
@@ -2093,6 +2163,10 @@
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                    },
+                    "dcterms:accrualPeriodicity": {
+                        "@type": "dcterms:Frequency",
+                        "@id": "http://purl.org/cld/freq/irregular"
                     },
                     "dcat:Distribution": {
                         "@id": "psdiDcat:df1ba5d3-7200-42c5-bcaa-d3509c5ecd65",
@@ -2156,6 +2230,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2023-01-29T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
@@ -2172,6 +2250,10 @@
                     "psdiDcatExt:displayPriority": 3,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                    },
+                    "dcterms:accrualPeriodicity": {
+                        "@type": "dcterms:Frequency",
+                        "@id": "http://purl.org/cld/freq/irregular"
                     },
                     "dcat:Distribution": {
                         "@id": "psdiDcat:c1e681c2-69ea-491c-984a-be80615a7394",
@@ -2258,7 +2340,7 @@
                 }
             },
             "dcat:landingPage": {
-                "rdfs:label": "the Cambridge Structural Database",
+                "rdfs:label": "Cambridge Structural Database",
                 "@type": "foaf:Document",
                 "@id": "http://www.ccdc.cam.ac.uk/solutions/software/csd/"
             },
@@ -2283,7 +2365,7 @@
                 "@id": "http://purl.org/adms/status/Completed"
             },
             "dcterms:issued": {
-                "@value": "1971-12-31T12:01:01Z",
+                "@value": "1971-12-31T00:00:00Z",
                 "@type": "xsd:dateTime"
             },
             "dcterms:license": {
@@ -2375,7 +2457,7 @@
                     }
                 },
                 "dcat:landingPage": {
-                    "rdfs:label": "the Cambridge Structural Database",
+                    "rdfs:label": "Cambridge Structural Database",
                     "@type": "foaf:Document",
                     "@id": "http://www.ccdc.cam.ac.uk/solutions/software/csd/"
                 },
@@ -2400,7 +2482,7 @@
                     "@id": "http://purl.org/adms/status/Completed"
                 },
                 "dcterms:issued": {
-                    "@value": "1971-12-31T12:01:01Z",
+                    "@value": "1971-12-31T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "dcterms:license": {
@@ -2439,7 +2521,7 @@
                     "@type": "dcat:Distribution",
                     "dcterms:title": "Cambridge Structural Database (CSD)",
                     "dcat:accessURL": {
-                        "rdfs:label": "the Cambridge Structural Database",
+                        "rdfs:label": "Cambridge Structural Database",
                         "@type": "rdfs:Resource",
                         "@id": "http://www.ccdc.cam.ac.uk/solutions/software/csd/"
                     },
@@ -2483,7 +2565,7 @@
             "dcat:landingPage": {
                 "rdfs:label": "PSDI Knowledge Base",
                 "@type": "foaf:Document",
-                "@id": "http://guidance.psdi.ac.uk"
+                "@id": "https://psdi-uk.github.io/docusaurus-pages/"
             },
             "dcat:contactPoint": {
                 "@type": "vcard:Kind",
@@ -2558,6 +2640,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
@@ -2623,6 +2709,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -2695,6 +2785,10 @@
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
@@ -2757,6 +2851,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -2902,6 +3000,7 @@
                 }
             },
             "dcat:landingPage": {
+                "rdfs:label": "Open Materials Micrograph Repository",
                 "@type": "foaf:Document",
                 "@id": "http://micrograph.royce.ac.uk"
             },
@@ -3058,6 +3157,7 @@
                     }
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "Open Materials Micrograph Repository",
                     "@type": "foaf:Document",
                     "@id": "http://micrograph.royce.ac.uk"
                 },
@@ -3073,6 +3173,10 @@
                 "adms:status": {
                     "@type": "rdfs:Resource",
                     "@id": "http://purl.org/adms/status/UnderDevelopment"
+                },
+                "dcterms:issued": {
+                    "@value": "2025-03-31T00:00:00Z",
+                    "@type": "xsd:dateTime"
                 },
                 "dcterms:license": {
                     "rdfs:label": "CC-By v4.0",
@@ -3097,6 +3201,7 @@
                     "@type": "dcat:Distribution",
                     "dcterms:title": "Open Materials Micrograph Repository (O2MR)",
                     "dcat:accessURL": {
+                        "rdfs:label": "Open Materials Micrograph Repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://micrograph.royce.ac.uk"
                     },
@@ -3234,8 +3339,9 @@
                     }
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "Open Materials Micrograph Repository",
                     "@type": "foaf:Document",
-                    "@id": "http://micrograph.royce.ac.uk/"
+                    "@id": "http://micrograph.royce.ac.uk"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -3250,7 +3356,10 @@
                     "@type": "rdfs:Resource",
                     "@id": "http://purl.org/adms/status/UnderDevelopment"
                 },
-                "dcat:version": "XXX please fill in e.g. 1.1.1",
+                "dcterms:issued": {
+                    "@value": "2025-03-31T00:00:00Z",
+                    "@type": "xsd:dateTime"
+                },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "O2MR logo",
                     "@type": "rdfs:Resource",
@@ -3261,8 +3370,9 @@
                     "@id": "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7"
                 },
                 "dcat:endpointURL": {
+                    "rdfs:label": "Open Materials Micrograph Repository",
                     "@type": "rdfs:Resource",
-                    "@id": "http://micrograph.royce.ac.uk/"
+                    "@id": "http://micrograph.royce.ac.uk"
                 },
                 "dcat:servesDataset": {
                     "@id": "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4"
@@ -3355,11 +3465,7 @@
                     "@id": "http://purl.org/adms/status/UnderDevelopment"
                 },
                 "dcterms:issued": {
-                    "@value": "2022-12-04T12:01:01Z",
-                    "@type": "xsd:dateTime"
-                },
-                "dcterms:modified": {
-                    "@value": "2024-07-28T12:01:01Z",
+                    "@value": "2022-12-04T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "dcterms:license": {
@@ -3429,10 +3535,12 @@
                 "@id": "http://orcid.org/0000-0001-7348-7612"
             },
             "dcat:landingPage": {
+                "rdfs:label": "ukcathubapp github repository",
                 "@type": "foaf:Document",
                 "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp"
             },
             "dcat:contactPoint": {
+                "vcard:Name": "ukcathubapp github issues",
                 "@type": "vcard:Kind",
                 "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                 "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
@@ -3500,10 +3608,12 @@
                     "@id": "http://orcid.org/0000-0001-7348-7612"
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "Catalysis Data Infrastructure thematic portal",
                     "@type": "foaf:Document",
                     "@id": "http://cdi.ukcatalysishub.org/"
                 },
                 "dcat:contactPoint": {
+                    "vcard:Name": "ukcathubapp github issues",
                     "@type": "vcard:Kind",
                     "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                     "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
@@ -3514,7 +3624,7 @@
                     "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                 },
                 "dcterms:issued": {
-                    "@value": "2025-03-30T12:01:01Z",
+                    "@value": "2022-10-14T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
@@ -3600,6 +3710,7 @@
                         "@id": "http://cdi.ukcatalysishub.org/"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "ukcathubapp github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                         "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
@@ -3614,7 +3725,7 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2021-04-12T12:01:01Z",
+                        "@value": "2021-04-12T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -3680,6 +3791,7 @@
                         "@id": "http://cdi.ukcatalysishub.org/get_pubs.json"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "ukcathubapp github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
                         "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
@@ -3694,7 +3806,7 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2021-10-19T12:01:01Z",
+                        "@value": "2021-10-19T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -3711,6 +3823,7 @@
                         "@id": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"
                     },
                     "dcat:endpointURL": {
+                        "rdfs:label": "CDI bibliographic data web service",
                         "@type": "rdfs:Resource",
                         "@id": "http://cdi.ukcatalysishub.org/get_pubs.json"
                     },
@@ -3773,7 +3886,7 @@
                     "@id": "http://purl.org/adms/status/UnderDevelopment"
                 },
                 "dcterms:issued": {
-                    "@value": "2025-03-30T12:01:01Z",
+                    "@value": "2025-03-30T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
@@ -3790,6 +3903,7 @@
                     "@id": "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"
                 },
                 "psdiDcatExt:repositoryURL": {
+                    "rdfs:label": "ukcathubapp github repository",
                     "@type": "rdfs:Resource",
                     "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp"
                 },
@@ -3865,6 +3979,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Data Conversion Service",
                 "@type": "foaf:Document",
                 "@id": "http://data-conversion.psdi.ac.uk/"
             },
@@ -3898,7 +4013,7 @@
             "dcat:qualifiedRelation": {
                 "@type": "dcat:Relationship",
                 "dcterms:relation": {
-                    "@id": "psdiDcat:3dcb4aca-e44b-4354-b90b-6b4faa89b286"
+                    "@id": "psdiDcat:8070e4aa-9dd5-4f39-9e3b-e121317ef361"
                 },
                 "dcat:hadRole": {
                     "@id": "http://www.iana.org/assignments/relation/describedby"
@@ -3978,8 +4093,9 @@
                     }
                 ],
                 "dcat:landingPage": {
+                    "rdfs:label": "PSDI Data Conversion Service",
                     "@type": "foaf:Document",
-                    "@id": "http://data-conversion.psdi.ac.uk"
+                    "@id": "http://data-conversion.psdi.ac.uk/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -4001,20 +4117,10 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:psdiLoginRequired"
                 },
-                "dcat:version": "1.1.1",
                 "psdiDcatExt:furtherInformation": {
                     "rdfs:label": "PSDI Data Conversion Service Documentation",
                     "@type": "rdfs:Resource",
                     "@id": "http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm"
-                },
-                "dcat:qualifiedRelation": {
-                    "@type": "dcat:Relationship",
-                    "dcterms:relation": {
-                        "@id": "psdiDcat:3dcb4aca-e44b-4354-b90b-6b4faa89b286"
-                    },
-                    "dcat:hadRole": {
-                        "@id": "http://www.iana.org/assignments/relation/describedby"
-                    }
                 },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "Data Conversion Service logo",
@@ -4026,8 +4132,9 @@
                     "@id": "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"
                 },
                 "dcat:endpointURL": {
+                    "rdfs:label": "PSDI Data Conversion Service",
                     "@type": "rdfs:Resource",
-                    "@id": "http://data-conversion.psdi.ac.uk"
+                    "@id": "http://data-conversion.psdi.ac.uk/"
                 }
             },
             "psdiDcatExt:Tool": [
@@ -4099,10 +4206,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "psdi-data-conversion github repository",
                         "@type": "foaf:Document",
                         "@id": "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "psdi-data-conversion github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/PSDI-UK/psdi-data-conversion/issues",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion/issues"
@@ -4123,7 +4232,11 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "psdi-data-conversion github repository README",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Data Conversion Service logo",
                         "@type": "rdfs:Resource",
@@ -4133,8 +4246,9 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"
                     },
-                    "psdiDcatExt:downloadURL": "http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/",
+                    "psdiDcatExt:downloadURL": "latst version of psdi-data-conversion container (http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/)",
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "psdi-data-conversion github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion"
                     },
@@ -4219,10 +4333,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "psdi-data-conversion github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "psdi-data-conversion github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/PSDI-UK/psdi-data-conversion/issues",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion/issues"
@@ -4243,20 +4359,10 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "psdi-data-conversion github repository README",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md"
-                    },
-                    "dcat:qualifiedRelation": {
-                        "@type": "dcat:Relationship",
-                        "dcterms:relation": {
-                            "@id": "psdiDcat:dc29b0a3-e294-4c79-948c-920c979badb1"
-                        },
-                        "dcat:hadRole": {
-                            "@id": "http://www.iana.org/assignments/relation/describedby"
-                        }
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Data Conversion Service logo",
@@ -4268,6 +4374,7 @@
                         "@id": "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "psdi-data-conversion github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/PSDI-UK/psdi-data-conversion"
                     },
@@ -4355,6 +4462,11 @@
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
+                    },
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "psdi-data-conversion github repository README",
+                        "@type": "rdfs:Resource",
+                        "@id": "http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Data Conversion Service logo",
@@ -4484,10 +4596,12 @@
                 }
             },
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Data Revival service",
                 "@type": "foaf:Document",
                 "@id": "http://www.data-revival.psdi.ac.uk"
             },
             "dcat:contactPoint": {
+                "vcard:Name": "Data Revivial contact",
                 "@type": "vcard:Kind",
                 "vcard:hasURL": "http://www.data-revival.com/#contact",
                 "@id": "http://www.data-revival.com/#contact"
@@ -4623,10 +4737,12 @@
                     }
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "PSDI Data Revival service",
                     "@type": "foaf:Document",
                     "@id": "http://www.data-revival.psdi.ac.uk"
                 },
                 "dcat:contactPoint": {
+                    "vcard:Name": "Data Revivial contact",
                     "@type": "vcard:Kind",
                     "vcard:hasURL": "http://www.data-revival.com/#contact",
                     "@id": "http://www.data-revival.com/#contact"
@@ -4653,6 +4769,7 @@
                     "@id": "psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d"
                 },
                 "dcat:endpointURL": {
+                    "rdfs:label": "PSDI Data Revival service",
                     "@type": "rdfs:Resource",
                     "@id": "http://www.data-revival.psdi.ac.uk"
                 }
@@ -4737,6 +4854,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "Introduction to Digital Notebooks and Electronic Laboratory Notebooks",
                 "@type": "foaf:Document",
                 "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/"
             },
@@ -4858,8 +4976,9 @@
                         {}
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "PSDI LabTrove website",
                         "@type": "foaf:Document",
-                        "@id": "http://labtrove.psdi.ac.uk"
+                        "@id": "http://labtrove.psdi.ac.uk/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -4881,7 +5000,6 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "dcat:qualifiedRelation": {
                         "@type": "dcat:Relationship",
                         "dcterms:relation": {
@@ -4901,8 +5019,9 @@
                         "@id": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
                     },
                     "dcat:endpointURL": {
+                        "rdfs:label": "PSDI LabTrove website",
                         "@type": "rdfs:Resource",
-                        "@id": "http://labtrove.psdi.ac.uk"
+                        "@id": "http://labtrove.psdi.ac.uk/"
                     }
                 },
                 {
@@ -4980,6 +5099,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "ELN Finder",
                         "@type": "foaf:Document",
                         "@id": "https://eln-finder.ulb.tu-darmstadt.de/home"
                     },
@@ -4997,12 +5117,11 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2025-03-31T00:00:00Z",
+                        "@value": "2023-02-10T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "ELN Finder",
+                        "rdfs:label": "About ELN Finder",
                         "@type": "rdfs:Resource",
                         "@id": "https://eln-finder.ulb.tu-darmstadt.de/info/page/about"
                     },
@@ -5016,6 +5135,7 @@
                         "@id": "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
                     },
                     "dcat:endpointURL": {
+                        "rdfs:label": "ELN Finder",
                         "@type": "rdfs:Resource",
                         "@id": "https://eln-finder.ulb.tu-darmstadt.de/home"
                     }
@@ -5095,6 +5215,7 @@
                     }
                 ],
                 "dcat:landingPage": {
+                    "rdfs:label": "LabTrove Container Image",
                     "@type": "foaf:Document",
                     "@id": "http://XXXneedsFillingInWhenKnown"
                 },
@@ -5114,7 +5235,6 @@
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
-                "dcat:version": "1.1.1",
                 "dcat:qualifiedRelation": {
                     "@type": "dcat:Relationship",
                     "dcterms:relation": {
@@ -5226,6 +5346,10 @@
                         "rdfs:label": "en",
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -5340,6 +5464,10 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
@@ -5440,6 +5568,10 @@
                         "rdfs:label": "en",
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-01-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -5553,6 +5685,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "psdi-datasets github repository",
                 "@type": "foaf:Document",
                 "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main"
             },
@@ -5572,7 +5705,6 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcat:version": "1.1.1",
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "Data Collections for Chemical Modelling logo",
                 "@type": "rdfs:Resource",
@@ -5870,6 +6002,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Physical_Chemistry_Properties_Data_Collection in github repository",
                         "@type": "foaf:Document",
                         "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection"
                     },
@@ -5887,13 +6020,12 @@
                         "@id": "http://purl.org/adms/status/Completed"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-10-20T12:01:01Z",
+                        "@value": "2024-10-20T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "Github README",
                         "@type": "rdfs:Resource",
@@ -5917,8 +6049,9 @@
                         "@type": "dcat:Distribution",
                         "dcterms:title": "PSDI Solubility Data Collection",
                         "dcat:accessURL": {
+                            "rdfs:label": "Physical_Chemistry_Properties_Data_Collection in github repository",
                             "@type": "rdfs:Resource",
-                            "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/Physical_Chemical_Properties_Data_Collection"
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection"
                         },
                         "dcat:mediaType": "http://www.iana.org/assignments/media-types/text/csv"
                     }
@@ -5991,6 +6124,7 @@
                         }
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "CMC_Collection in github repository",
                         "@type": "foaf:Document",
                         "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/CMC_Collection"
                     },
@@ -6008,13 +6142,12 @@
                         "@id": "http://purl.org/adms/status/Completed"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-10-20T12:01:01Z",
+                        "@value": "2024-10-20T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "Github README",
                         "@type": "rdfs:Resource",
@@ -6038,12 +6171,14 @@
                         "@type": "dcat:Distribution",
                         "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
                         "dcat:downloadURL": {
+                            "rdfs:label": "NIST_Table_of_Critical_Micelle_Concentration_Values",
                             "@type": "rdfs:Resource",
-                            "@id": "http://github.com/PSDI-UK/psdi-datasets/blob/main/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv"
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv"
                         },
                         "dcat:accessURL": {
+                            "rdfs:label": "CMC_Collection in github repository",
                             "@type": "rdfs:Resource",
-                            "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main/CMC_Collection"
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/CMC_Collection"
                         },
                         "dcat:mediaType": "http://www.iana.org/assignments/media-types/text/csv"
                     }
@@ -6128,8 +6263,9 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "Case Studies: Discovering Value in Legacy Data",
                 "@type": "foaf:Document",
-                "@id": "http://github.com/PSDI-UK/psdi-datasets/tree/main"
+                "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite"
             },
             "dcat:contactPoint": {
                 "@type": "vcard:Kind",
@@ -6147,7 +6283,6 @@
             "odrl:hasPolicy": {
                 "@id": "psdiPol:openAccess"
             },
-            "dcat:version": "1.1.1",
             "psdiDcatExt:logoURL": {
                 "rdfs:label": "Case Studies Resource Theme logo",
                 "@type": "rdfs:Resource",
@@ -6240,6 +6375,7 @@
                         }
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "Resurrecting SHG Case Study",
                         "@type": "foaf:Document",
                         "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite"
                     },
@@ -6259,7 +6395,6 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Case Studies Resource Theme logo",
                         "@type": "rdfs:Resource",
@@ -6494,6 +6629,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Making ESI Machine-Readable Case Study",
                         "@type": "foaf:Document",
                         "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite"
                     },
@@ -6513,7 +6649,6 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "1.1.1",
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Case Studies Resource Theme logo",
                         "@type": "rdfs:Resource",
@@ -6608,8 +6743,9 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                 "@type": "foaf:Document",
-                "@id": "http://UrlForPF4sBitOfPSDIInvenio"
+                "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb"
             },
             "dcat:contactPoint": {
                 "@type": "vcard:Kind",
@@ -6724,8 +6860,9 @@
                     }
                 ],
                 "dcat:landingPage": {
+                    "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                     "@type": "foaf:Document",
-                    "@id": "http://UrlForPF4sBitOfPSDIInvenio"
+                    "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -6762,6 +6899,10 @@
                     "@type": "rdfs:Resource",
                     "@id": "http://purl.org/adms/status/UnderDevelopment"
                 },
+                "dcterms:issued": {
+                    "@value": "2025-03-31T00:00:00Z",
+                    "@type": "xsd:dateTime"
+                },
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
@@ -6783,8 +6924,9 @@
                     "@type": "dcat:Distribution",
                     "dcterms:title": "BioSimDB (Biomolecular Simulations Database)",
                     "dcat:accessURL": {
+                        "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                         "@type": "rdfs:Resource",
-                        "@id": "http://UrlForPF4sBitOfPSDIInvenio"
+                        "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb"
                     },
                     "dcat:accessService": {
                         "@id": "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"
@@ -6873,10 +7015,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "aiida-gromacs github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/PSDI-UK/aiida-gromacs"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "aiida-gromacs github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/PSDI-UK/aiida-gromacs/issues",
                         "@id": "http://github.com/PSDI-UK/aiida-gromacs/issues"
@@ -6896,7 +7040,7 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-05-23T12:01:01Z",
+                        "@value": "2024-05-23T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
@@ -6907,7 +7051,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "v2.0.8",
+                    "dcat:version": "2.0.8",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "aiida-gromacs documentation",
                         "@type": "rdfs:Resource",
@@ -6943,6 +7087,7 @@
                         "@id": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "aiida-gromacs github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/PSDI-UK/aiida-gromacs"
                     },
@@ -7033,10 +7178,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "aiida-amber github repository",
                         "@type": "foaf:Document",
-                        "@id": "http://github.com/PSDI-UK/aiida-gromacs"
+                        "@id": "http://github.com/PSDI-UK/aiida-amber"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "aiida-amber github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/PSDI-UK/aiida-amber/issues",
                         "@id": "http://github.com/PSDI-UK/aiida-amber/issues"
@@ -7056,7 +7203,7 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-05-23T12:01:01Z",
+                        "@value": "2024-05-23T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
@@ -7067,7 +7214,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "v.1.0.0",
+                    "dcat:version": "1.0.0",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "aiida-amber documentation",
                         "@type": "rdfs:Resource",
@@ -7092,8 +7239,9 @@
                         "@id": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "aiida-amber github repository",
                         "@type": "rdfs:Resource",
-                        "@id": "http://github.com/PSDI-UK/aiida-gromacs"
+                        "@id": "http://github.com/PSDI-UK/aiida-amber"
                     },
                     "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.8",
                     "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
@@ -7183,10 +7331,12 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "biosimdb-app github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/PSDI-UK/biosimdb-app"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "biosimdb-app github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/PSDI-UK/biosimdb-app/issues",
                         "@id": "http://github.com/PSDI-UK/biosimdb-app/issues"
@@ -7206,7 +7356,7 @@
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
                     },
                     "dcterms:issued": {
-                        "@value": "2024-09-01T12:01:01Z",
+                        "@value": "2024-09-01T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "dcterms:license": {
@@ -7217,7 +7367,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "v.1.0.0",
+                    "dcat:version": "1.0.0",
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "BioSimDB logo",
                         "@type": "rdfs:Resource",
@@ -7228,6 +7378,7 @@
                         "@id": "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "biosimdb-app github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/PSDI-UK/biosimdb-app"
                     },
@@ -7316,6 +7467,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Cloud Based Jupyter aiida-gromacs Demo",
                         "@type": "foaf:Document",
                         "@id": "http://www.ccpbiosim.ac.uk/psdi-demo"
                     },
@@ -7327,10 +7479,6 @@
                         "rdfs:label": "en",
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                    },
-                    "dcterms:issued": {
-                        "@value": "2024-05-23T12:01:01Z",
-                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -7447,10 +7595,6 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
-                    "dcterms:issued": {
-                        "@value": "2024-05-23T12:01:01Z",
-                        "@type": "xsd:dateTime"
-                    },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
@@ -7511,8 +7655,9 @@
                 "@id": "http://orcid.org/0000-0002-7013-6670"
             },
             "dcat:landingPage": {
+                "rdfs:label": "PSDI Community Data Collection - Data to Knowledge",
                 "@type": "foaf:Document",
-                "@id": "http://data-collections.psdi.ac.uk/communities/mlip"
+                "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge"
             },
             "dcat:contactPoint": {
                 "@type": "vcard:Kind",
@@ -7581,8 +7726,9 @@
                     "@id": "http://orcid.org/0000-0002-7013-6670"
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "PSDI Community Data Collection - Data to Knowledge",
                     "@type": "foaf:Document",
-                    "@id": "http://data-collections.psdi.ac.uk/communities/mlip"
+                    "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -7601,23 +7747,6 @@
                     "@value": "2025-03-31T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
-                "dcterms:license": [
-                    {
-                        "rdfs:label": "XXXLICENSE1",
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "http://license1url"
-                    },
-                    {
-                        "rdfs:label": "XXXLICENSE2",
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "http://license2url"
-                    },
-                    {
-                        "rdfs:label": "XXXLICENSE3",
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "http://license3url"
-                    }
-                ],
                 "odrl:hasPolicy": {
                     "@id": "psdiPol:openAccess"
                 },
@@ -7639,8 +7768,9 @@
                     "@type": "dcat:Distribution",
                     "dcterms:title": "Data to Knowledge Community Data Collections",
                     "dcat:accessURL": {
+                        "rdfs:label": "PSDI Community Data Collection - Data to Knowledge",
                         "@type": "rdfs:Resource",
-                        "@id": "http://data-collections.psdi.ac.uk/communities/mlip"
+                        "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge"
                     },
                     "dcat:accessService": {
                         "@id": "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"
@@ -7721,6 +7851,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "janus-core github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/stfc/janus-core"
                     },
@@ -7749,7 +7880,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "XXX please fill in e.g. 1.1.1",
+                    "dcat:version": "0.7.4",
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "janus-core logo",
                         "@type": "rdfs:Resource",
@@ -7760,6 +7891,7 @@
                         "@id": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "janus-core github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/stfc/janus-core"
                     },
@@ -7821,6 +7953,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "aiida-mlip github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/stfc/aiida-mlip"
                     },
@@ -7849,6 +7982,7 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
+                    "dcat:version": "0.2.1",
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "aiida-mlip logo",
                         "@type": "rdfs:Resource",
@@ -7859,6 +7993,7 @@
                         "@id": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "aiida-mlip github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/stfc/aiida-mlip"
                     },
@@ -7900,6 +8035,7 @@
                         "@id": "http://orcid.org/0000-0002-8180-2034"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "abcd github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/libAtoms/abcd/"
                     },
@@ -7923,7 +8059,6 @@
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
                     },
-                    "dcat:version": "XXX please fill in e.g. 1.1.1",
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "abcd's documentation",
                         "@type": "rdfs:Resource",
@@ -7939,6 +8074,7 @@
                         "@id": "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"
                     },
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "abcd github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/libAtoms/abcd/"
                     }
@@ -8272,6 +8408,7 @@
                     }
                 ],
                 "dcat:landingPage": {
+                    "rdfs:label": "CCP-NC Database",
                     "@type": "foaf:Document",
                     "@id": "http://www.ccpnc.ac.uk/database/"
                 },
@@ -8573,10 +8710,12 @@
                         "@id": "http://orcid.org/0000-0003-4485-3446"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "magresview-2 github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/CCP-NC/magresview-2/tree/main"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "magresview-2 github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/CCP-NC/magresview-2/issues",
                         "@id": "http://github.com/CCP-NC/magresview-2/issues"
@@ -8626,8 +8765,9 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"
                     },
-                    "psdiDcatExt:downloadURL": "http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip",
+                    "psdiDcatExt:downloadURL": "magresview- github download url (http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip)",
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "magresview- github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/CCP-NC/magresview-2/tree/main"
                     },
@@ -8694,10 +8834,12 @@
                         "@id": "http://orcid.org/0000-0003-4485-3446"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "soprano github repository",
                         "@type": "foaf:Document",
                         "@id": "http://github.com/CCP-NC/soprano/"
                     },
                     "dcat:contactPoint": {
+                        "vcard:Name": "soprano github issues",
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://github.com/CCP-NC/soprano/issues",
                         "@id": "http://github.com/CCP-NC/soprano/issues"
@@ -8754,8 +8896,9 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"
                     },
-                    "psdiDcatExt:downloadURL": "http://pypi.org/project/Soprano/#files",
+                    "psdiDcatExt:downloadURL": "Soprano PyPI download files (http://pypi.org/project/Soprano/#files)",
                     "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "Soprano github repository",
                         "@type": "rdfs:Resource",
                         "@id": "http://github.com/CCP-NC/soprano/"
                     },
@@ -8934,6 +9077,7 @@
                     "@id": "http://orcid.org/0000-0001-7348-7612"
                 },
                 "dcat:landingPage": {
+                    "rdfs:label": "Reproducible XAFS Analyses",
                     "@type": "foaf:Document",
                     "@id": "http://zenodo.org/communities/rexas"
                 },
@@ -8942,6 +9086,7 @@
                     "vcard:hasEmail": "support@psdi.ac.uk"
                 },
                 "dcterms:conformsTo": {
+                    "rdfs:label": "Research Object Crate, RO-Crate",
                     "@type": "dcterms:Standard",
                     "@id": "https://www.researchobject.org/ro-crate/"
                 },
@@ -8951,7 +9096,11 @@
                     "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                 },
                 "dcterms:issued": {
-                    "@value": "2024-10-24T12:01:01Z",
+                    "@value": "2024-09-26T00:00:00Z",
+                    "@type": "xsd:dateTime"
+                },
+                "dcterms:modified": {
+                    "@value": "2024-10-30T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
                 "odrl:hasPolicy": {
@@ -8980,6 +9129,7 @@
                     "@type": "dcat:Distribution",
                     "dcterms:title": "Example Galaxy XAFS RO-Crate Workflows",
                     "dcat:accessURL": {
+                        "rdfs:label": "Reproducible XAFS Analyses",
                         "@type": "rdfs:Resource",
                         "@id": "http://zenodo.org/communities/rexas"
                     }
@@ -9371,6 +9521,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Galaxy Training",
                         "@type": "foaf:Document",
                         "@id": "https://training.galaxyproject.org/"
                     },
@@ -9420,10 +9571,122 @@
                     }
                 },
                 {
+                    "@id": "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1",
+                    "dcterms:identifier": "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1",
+                    "@type": "psdiDcatExt:Guidance",
+                    "dcterms:title": "Galaxy Training Network: Finding the Muon Stopping Site",
+                    "rdfs:label": "Galaxy Training Network: Finding the Muon Stopping Site",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Text",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Text"
+                    },
+                    "dcterms:description": "Hands on tutorial for finding muon stopping site with pymuon-suite using Galaxy. Will answer the questions: What are stopping sites and why is finding them important? What computational techniques can be used to find stopping sites? How can Galaxy help me with my analysis?",
+                    "dcat:keyword": [
+                        "workflows",
+                        "FAIR",
+                        "Galaxy",
+                        "Muon Spectroscopy",
+                        "X-ray Absorption Spectroscopy",
+                        "Neutrons"
+                    ],
+                    "dcat:theme": [
+                        {
+                            "skos:prefLabel": "data processing",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                        },
+                        {
+                            "skos:prefLabel": "absorption spectroscopy",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808"
+                        },
+                        {
+                            "skos:prefLabel": "spectroscopy",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8"
+                        },
+                        {
+                            "skos:prefLabel": "condensed matter physics",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf"
+                        },
+                        {
+                            "skos:prefLabel": "catalysis",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6"
+                        }
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "foaf:openid": "http://www.psdi.ac.uk",
+                        "@id": "http://www.psdi.ac.uk"
+                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Leandro Liborio",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
+                            "@id": "http://orcid.org/0000-0003-2777-5167"
+                        },
+                        {
+                            "foaf:name": "Patrick Austin",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "https://orcid.org/0000-0002-6279-7823",
+                            "@id": "https://orcid.org/0000-0002-6279-7823"
+                        },
+                        {
+                            "foaf:name": "Subindev Devadasan",
+                            "@type": "foaf:Agent",
+                            "foaf:openid": "https://orcid.org/0009-0001-1723-4394",
+                            "@id": "https://orcid.org/0009-0001-1723-4394"
+                        }
+                    ],
+                    "dcat:landingPage": {
+                        "rdfs:label": "Finding the muon stopping site with pymuon-suite in Galaxy",
+                        "@type": "foaf:Document",
+                        "@id": "https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html"
+                    },
+                    "dcat:contactPoint": [
+                        {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk"
+                        },
+                        {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com"
+                        }
+                    ],
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2024-02-26T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "Galaxy logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
+                    },
+                    "psdiDcatExt:displayPriority": 2,
+                    "dcat:inCatalog": {
+                        "@id": "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"
+                    }
+                },
+                {
                     "@id": "psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2",
                     "dcterms:identifier": "psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2",
                     "@type": "psdiDcatExt:Guidance",
                     "dcterms:title": "PyMuonSuite and MuspinSim Tutorials",
+                    "rdfs:label": "PyMuonSuite and MuspinSim Tutorials",
                     "dcterms:type": {
                         "skos:prefLabel": "Text",
                         "@type": "skos:Concept",
@@ -9492,6 +9755,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "The Muon Spectroscopy Computational Project",
                         "@type": "foaf:Document",
                         "@id": "https://muon-spectroscopy-computational-project.github.io/tutorials.html"
                     },
@@ -9510,6 +9774,14 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2023-03-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Galaxy logo",
                         "@type": "rdfs:Resource",
@@ -9525,6 +9797,7 @@
                     "dcterms:identifier": "psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f",
                     "@type": "psdiDcatExt:Guidance",
                     "dcterms:title": "MuSpinSim Documentation",
+                    "rdfs:label": "MuSpinSim Documentation",
                     "dcterms:type": {
                         "skos:prefLabel": "Text",
                         "@type": "skos:Concept",
@@ -9593,6 +9866,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "MuSpinSim's documentation",
                         "@type": "foaf:Document",
                         "@id": "https://muon-spectroscopy-computational-project.github.io/muspinsim/"
                     },
@@ -9611,6 +9885,14 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2024-08-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Galaxy logo",
                         "@type": "rdfs:Resource",
@@ -9626,6 +9908,7 @@
                     "dcterms:identifier": "psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775",
                     "@type": "psdiDcatExt:Guidance",
                     "dcterms:title": "MuDirac Documentation",
+                    "rdfs:label": "MuDirac Documentation",
                     "dcterms:type": {
                         "skos:prefLabel": "Text",
                         "@type": "skos:Concept",
@@ -9694,6 +9977,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "MuDirac's documentation",
                         "@type": "foaf:Document",
                         "@id": "https://muon-spectroscopy-computational-project.github.io/mudirac/"
                     },
@@ -9712,6 +9996,14 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2020-09-01T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Galaxy logo",
                         "@type": "rdfs:Resource",
@@ -9727,6 +10019,7 @@
                     "dcterms:identifier": "psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58",
                     "@type": "psdiDcatExt:Guidance",
                     "dcterms:title": "Xray Larch Documentation",
+                    "rdfs:label": "Xray Larch Documentation",
                     "dcterms:type": {
                         "skos:prefLabel": "Text",
                         "@type": "skos:Concept",
@@ -9795,6 +10088,7 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Larch, Data Analysis Tools for X-ray Spectroscopy",
                         "@type": "foaf:Document",
                         "@id": "https://xraypy.github.io/xraylarch/"
                     },
@@ -9812,6 +10106,14 @@
                         "rdfs:label": "en",
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2024-10-24T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Galaxy logo",
@@ -9862,6 +10164,7 @@
                         "@id": "http://orcid.org/0000-0001-7348-7612"
                     },
                     "dcat:landingPage": {
+                        "rdfs:label": "Importing an RO-Crate",
                         "@type": "foaf:Document",
                         "@id": "http://xerte.cardiff.ac.uk/play_22519"
                     },
@@ -9874,8 +10177,12 @@
                         "@type": "dcterms:LinguisticSystem",
                         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
                     },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/Completed"
+                    },
                     "dcterms:issued": {
-                        "@value": "2024-10-28T12:01:01Z",
+                        "@value": "2024-10-28T00:00:00Z",
                         "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
@@ -9901,103 +10208,7 @@
                         }
                     }
                 }
-            ],
-            "dcat:Guidance": {
-                "@id": "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1",
-                "dcterms:identifier": "psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1",
-                "@type": "dcat:Guidance",
-                "dcterms:title": "Galaxy Training Network: Finding the Muon Stopping Site",
-                "dcterms:description": "Hands on tutorial for finding muon stopping site with pymuon-suite using Galaxy. Will answer the questions: What are stopping sites and why is finding them important? What computational techniques can be used to find stopping sites? How can Galaxy help me with my analysis?",
-                "dcat:keyword": [
-                    "workflows",
-                    "FAIR",
-                    "Galaxy",
-                    "Muon Spectroscopy",
-                    "X-ray Absorption Spectroscopy",
-                    "Neutrons"
-                ],
-                "dcat:theme": [
-                    {
-                        "skos:prefLabel": "data processing",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
-                    },
-                    {
-                        "skos:prefLabel": "absorption spectroscopy",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808"
-                    },
-                    {
-                        "skos:prefLabel": "spectroscopy",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8"
-                    },
-                    {
-                        "skos:prefLabel": "condensed matter physics",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf"
-                    },
-                    {
-                        "skos:prefLabel": "catalysis",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6"
-                    }
-                ],
-                "dcterms:publisher": {
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Agent",
-                    "foaf:openid": "http://www.psdi.ac.uk",
-                    "@id": "http://www.psdi.ac.uk"
-                },
-                "dcterms:creator": [
-                    {
-                        "foaf:name": "Leandro Liborio",
-                        "@type": "foaf:Agent",
-                        "foaf:openid": "http://orcid.org/0000-0003-2777-5167",
-                        "@id": "http://orcid.org/0000-0003-2777-5167"
-                    },
-                    {
-                        "foaf:name": "Patrick Austin",
-                        "@type": "foaf:Agent",
-                        "foaf:openid": "https://orcid.org/0000-0002-6279-7823",
-                        "@id": "https://orcid.org/0000-0002-6279-7823"
-                    },
-                    {
-                        "foaf:name": "Subindev Devadasan",
-                        "@type": "foaf:Agent",
-                        "foaf:openid": "https://orcid.org/0009-0001-1723-4394",
-                        "@id": "https://orcid.org/0009-0001-1723-4394"
-                    }
-                ],
-                "dcat:landingPage": {
-                    "@type": "foaf:Document",
-                    "@id": "https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html"
-                },
-                "dcat:contactPoint": [
-                    {
-                        "@type": "vcard:Kind",
-                        "vcard:hasEmail": "support@psdi.ac.uk"
-                    },
-                    {
-                        "@type": "vcard:Kind",
-                        "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com"
-                    }
-                ],
-                "dcterms:language": {
-                    "rdfs:label": "en",
-                    "@type": "dcterms:LinguisticSystem",
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                },
-                "psdiDcatExt:logoURL": {
-                    "rdfs:label": "Galaxy logo",
-                    "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
-                },
-                "psdiDcatExt:displayPriority": 2,
-                "dcat:inCatalog": {
-                    "@id": "psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14"
-                }
-            }
+            ]
         },
         {
             "@id": "psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7",
@@ -10027,6 +10238,11 @@
                 "Coding",
                 "Research Skills"
             ],
+            "dcat:theme": {
+                "skos:prefLabel": "physical sciences",
+                "@type": "skos:Concept",
+                "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+            },
             "dcterms:publisher": {
                 "foaf:name": "PSDI",
                 "@type": "foaf:Agent",
@@ -10072,6 +10288,7 @@
                 }
             ],
             "dcat:landingPage": {
+                "rdfs:label": "Skills4Scientists",
                 "@type": "foaf:Document",
                 "@id": "https://psdi-uk.github.io/docusaurus-pages/docs/training/self-paced-learning/skills4scientists/"
             },
@@ -10126,6 +10343,11 @@
                         "Logic",
                         "Functions"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10153,8 +10375,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Python I Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10168,6 +10391,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10207,6 +10434,11 @@
                         "Objects",
                         "Good Coding Practise"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10234,8 +10466,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Python II Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10249,6 +10482,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10291,6 +10528,11 @@
                         "Uses of Machine Learning",
                         "ML"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10318,8 +10560,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Machine Learning I Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10333,6 +10576,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10379,6 +10626,11 @@
                         "Shell",
                         "Terminal"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10412,8 +10664,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Command Line and Bash Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10427,6 +10680,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10505,8 +10762,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Version Control and Github Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10520,6 +10778,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10591,8 +10853,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Ethics Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10606,6 +10869,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10654,6 +10921,11 @@
                         "Self Learning",
                         "Coding"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10687,8 +10959,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Literature and Referencing Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10702,6 +10975,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
@@ -10748,6 +11025,11 @@
                         "Culture",
                         "Data Life Cycle"
                     ],
+                    "dcat:theme": {
+                        "skos:prefLabel": "physical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304"
+                    },
                     "dcterms:publisher": {
                         "foaf:name": "PSDI",
                         "@type": "foaf:Agent",
@@ -10781,8 +11063,9 @@
                         }
                     ],
                     "dcat:landingPage": {
+                        "rdfs:label": "Research Data Management Skills4Scientists",
                         "@type": "foaf:Document",
-                        "@id": "http://learn.psdi.ac.uk/moodle/"
+                        "@id": "http://learn.psdi.ac.uk/moodle/XXX"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
@@ -10796,6 +11079,10 @@
                     "adms:status": {
                         "@type": "rdfs:Resource",
                         "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2025-03-31T00:00:00Z",
+                        "@type": "xsd:dateTime"
                     },
                     "odrl:hasPolicy": {
                         "@id": "psdiPol:openAccess"
