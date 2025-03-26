@@ -112,7 +112,7 @@ psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
 		foaf:name "Physical Sciences Data Infrastructure"@en ;
 		foaf:openid "http://www.psdi.ac.uk"@en ;
 	] ;
-	dcterms:license <http://creativecommons.org/publicdomain/zero/1.0/> ;
+	dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
 	foaf:fundedBy [
 		rdf:type foaf:Organization ;
 		foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
@@ -123,7 +123,8 @@ psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:Concept psdiVoc:psdi, psdiVoc:psdiProject, psdiVoc:pathfinder, psdiVoc:psdiDeliverable, psdiVoc:psdiPlatform, psdiVoc:service, psdiVoc:tool, psdiVoc:guidance, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:data, psdiVoc:resource, psdiVoc:communityActivity .
 
-<http://creativecommons.org/publicdomain/zero/1.0/> <rdfs:label> "CC0 1.0 Universal"@en .
+<https://spdx.org/licenses/CC0-1.0.html> <rdfs:label> "Creative Commons Zero v1.0 Universal"@en ;
+	a dcterms:LicenseDocument .
 
 <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> <rdfs:label> "physical sciences"@en ;
 	a skosxl:Label .
@@ -194,7 +195,7 @@ psdiVoc:tool skos:prefLabel "tool"@en ;
 	a skos:Concept .
 
 psdiVoc:guidance skos:prefLabel "guidance"@en ;
-	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resource themes and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023](http://doi.org/10.1093/OED/8957051667)"@en ;
+	skos:definition "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resource themes and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023](http://doi.org/10.1093/OED/8957051667)"@en ;
 	skos:example "knowledgebase"@en, "support"@en, "helpdesk"@en, "FAQs"@en, "known issue"@en, "policy"@en, "training resource"@en ;
 	skos:narrower psdiVoc:resource ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;

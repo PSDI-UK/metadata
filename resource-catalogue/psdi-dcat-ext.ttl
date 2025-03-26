@@ -19,7 +19,7 @@
 	dcterms:creator <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
 	dcterms:publisher <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/psdi.ac.uk> ;
-	dcterms:license <https://creativecommons.org/publicdomain/zero/1.0/> ;
+	dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
 	foaf:fundedBy <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/ror.org/0439y7842> ;
 	a <owl:Ontology> .
 
@@ -34,7 +34,8 @@
 	foaf:openid "http://www.psdi.ac.uk"@en ;
 	a foaf:Organisation .
 
-<https://creativecommons.org/publicdomain/zero/1.0/> <rdfs:label> "CC0 1.0 Universal"@en .
+<https://spdx.org/licenses/CC0-1.0.html> <rdfs:label> "Creative Commons Zero v1.0 Universal"@en ;
+	a dcterms:LicenseDocument .
 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
 	foaf:openid "https://ror.org/0439y7842"@en ;

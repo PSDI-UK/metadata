@@ -45,8 +45,9 @@
         "foaf:openid": "http://www.psdi.ac.uk"
     },
 	"dcterms:license":{
-		"@id":"https://creativecommons.org/publicdomain/zero/1.0/",
-		"rdfs:label":"CC0 1.0 Universal"
+		"@id":"https://spdx.org/licenses/CC0-1.0.html",
+		"@type": "dcterms:LicenseDocument",
+		"rdfs:label":"Creative Commons Zero v1.0 Universal"
 	},
 	"foaf:fundedBy":{
 		"@id":"psdiDcatExt:organization/ror.org/0439y7842",
