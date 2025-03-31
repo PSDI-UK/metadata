@@ -30,9 +30,7 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
     dcat:Catalog psdiDcat:1c4e7833-32a5-45ce-8c89-b5678de085a5,
         psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d,
         psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7,
-        psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7,
         psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38,
-        psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a,
         psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e,
         psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b,
         psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da,
@@ -56,11 +54,6 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
     dcat:themeTaxonomy <http://data.europa.eu/8mn/euroscivoc/40c0f173-baa3-48a3-9fe6-d6e8fb366a00> ;
     dcat:themes <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> .
 
-<http://XXXKNOWLEDGEBASEARTICLEWHENKNOWN> a foaf:Document .
-
-<http://XXXneedsFillingInWhenKnown> a foaf:Document ;
-    rdfs:label "LabTrove Container Image"@en .
-
 <http://aiida-amber.readthedocs.io/en/latest/> a rdfs:Resource ;
     rdfs:label "aiida-amber documentation"@en .
 
@@ -78,17 +71,20 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
 <http://creativecommons.org/licenses/by-sa/4.0/> a dcterms:LicenseDocument ;
     rdfs:label "Creative Commons Attribution-ShareAlike 4.0 International License"@en .
 
+<http://creativecommons.org/licenses/by/4.0/> a dcterms:LicenseDocument ;
+    rdfs:label "Creative Commons Attribution 4.0"@en .
+
 <http://creativecommons.org/licenses/by/4.0/deed.en> a dcterms:LicenseDocument ;
     rdfs:label "CC-By v4.0"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/00401515-e61c-4f33-bcb0-33ff40c6aa20> a skos:Concept ;
-    skos:prefLabel "relational database"@en .
 
 <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> a skos:Concept ;
     skos:prefLabel "natural sciences"@en .
 
 <http://data.europa.eu/8mn/euroscivoc/40c0f173-baa3-48a3-9fe6-d6e8fb366a00> a skos:ConceptScheme ;
     dcterms:title "EuroSciVoc"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d> a skos:Concept ;
+    skos:prefLabel "nonlinear optics"@en .
 
 <http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800> a skos:Concept ;
     skos:prefLabel "computer and information sciences"@en .
@@ -102,11 +98,8 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
 <http://doi.org/10.1063/1.5024450> a rdfs:Resource ;
     rdfs:label "Computational prediction of muon stopping sites using ab initio random structure searching"@en .
 
-<http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest> a foaf:Document ;
-    rdfs:label "psdi-data-conversion github repository"@en .
-
-<http://github.com/Ampletracks/Ampletracks/blob/main/README.md> a rdfs:Resource ;
-    rdfs:label "Ampletracks GitHub repository README"@en .
+<http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> a rdfs:Resource ;
+    rdfs:label "magresview github download url"@en .
 
 <http://github.com/CCP-NC/magresview-2/issues> a vcard:Kind ;
     vcard:Name "magresview-2 github issues"@en ;
@@ -117,7 +110,7 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
     vcard:hasURL "http://github.com/CCP-NC/soprano/issues"@en .
 
 <http://github.com/Materials-Consortia/OPTIMADE/issues> a vcard:Kind ;
-    vcard:Name "Optimade github issues"@en ;
+    vcard:Name "OPTIMADE github issues"@en ;
     vcard:hasURL "http://github.com/Materials-Consortia/OPTIMADE/issues"@en .
 
 <http://github.com/PSDI-UK/aiida-amber/issues> a vcard:Kind ;
@@ -132,13 +125,31 @@ psdiDcat:resourceCatalogue a dcat:Catalog ;
     vcard:Name "biosimdb-app github issues"@en ;
     vcard:hasURL "http://github.com/PSDI-UK/biosimdb-app/issues"@en .
 
+<http://github.com/PSDI-UK/psdi-data-conversion> a rdfs:Resource ;
+    rdfs:label "psdi-data-conversion github repository"@en .
+
 <http://github.com/PSDI-UK/psdi-datasets/tree/main> a foaf:Document ;
     rdfs:label "psdi-datasets github repository"@en .
 
-<http://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection#readme> a rdfs:Resource ;
-    rdfs:label "Github README"@en .
-
 <http://github.com/stfc/janus-tutorials/> a foaf:Document .
+
+<http://learn.psdi.ac.uk/moodle/Ethics> a foaf:Document ;
+    rdfs:label "Ethics Skills4Scientists"@en .
+
+<http://learn.psdi.ac.uk/moodle/Litandref> a foaf:Document ;
+    rdfs:label "Literature and Referencing Skills4Scientists"@en .
+
+<http://learn.psdi.ac.uk/moodle/Python1> a foaf:Document ;
+    rdfs:label "Python I Skills4Scientists"@en .
+
+<http://learn.psdi.ac.uk/moodle/Python2> a foaf:Document ;
+    rdfs:label "Python II Skills4Scientists"@en .
+
+<http://learn.psdi.ac.uk/moodle/RDM> a foaf:Document ;
+    rdfs:label "Research Data Management Skills4Scientists"@en .
+
+<http://learn.psdi.ac.uk/moodle/Versioncontrol> a foaf:Document ;
+    rdfs:label "Version Control and Github Skills4Scientists"@en .
 
 <http://libatoms.github.io/abcd/> a rdfs:Resource ;
     rdfs:label "abcd's documentation"@en .
@@ -170,7 +181,7 @@ psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6 a dcat:Dataset ;
         "laser"@en,
         "simulation data"@en,
         "spectra"@en ;
-    dcat:landingPage <https://edata.stfc.ac.uk/home> ;
+    dcat:landingPage <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -222,7 +233,8 @@ psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387 a psdiDcatExt:Guidance ;
     rdfs:label "Sharing Data and FAIR Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
+    dcterms:creator <http://orcid.org/0000-0003-1721-9212>,
+        <http://orcid.org/0009-0000-6422-0342> ;
     dcterms:description "This collection of topics provides guidance on good practices for sharing your research data. This section introduces the FAIR principles and their importance, and provides step by step guidance on what is needed to make your research data and related outputs such as code and methods findable, accessible, interoperable, and reusable, whether or not you share them publicly. Guidance is given on choosing and writing licenses for your data, creating a data package to share or archive, and considerations for choosing a repository."@en ;
     dcterms:identifier "psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387"@en ;
     dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
@@ -246,33 +258,6 @@ psdiDcat:06f88b4e-5d6c-4dc1-8ddd-51099c5bd387 a psdiDcatExt:Guidance ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/category/sharing-data-and-fair> ;
     odrl:hasPolicy psdiPol:openAccess .
 
-psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0 a psdiDcatExt:Guidance ;
-    rdfs:label "psdi_shg_exemplar"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/caseStudies-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0121-1697>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://www.linkedin.com/in/jack-doyle-175183323/> ;
-    dcterms:description "This case study involved reconstructing a set of databases containing data from a series of Second Harmonic Generation (SHG) experiments to enable future reevaluation of the models built using this data. Additionally, a modern dashboard was developed to facilitate the visualization and exploration of the data."@en ;
-    dcterms:identifier "psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Resurrecting Second Harmonic Generation (SHG) Case Study"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a ;
-    dcat:keyword "second harmonic generation"@en ;
-    dcat:landingPage <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
-        <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
-        <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
-    odrl:hasPolicy psdiPol:openAccess ;
-    prov:qualifiedAttribution <http://www.linkedin.com/in/stephen-wilson-017a7150/)?> .
-
 psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -289,9 +274,9 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -310,54 +295,11 @@ psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8 a psdiDcatExt:Guidance ;
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     odrl:hasPolicy psdiPol:openAccess .
 
-psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306 a psdiDcatExt:Tool ;
-    rdfs:label "PSDI Data Conversion container image"@en ;
-    psdiDcatExt:byteSize 482152581 ;
-    psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
-    psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:downloadURL "latst version of psdi-data-conversion container (http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest/)"@en ;
-    psdiDcatExt:furtherInformation <http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md> ;
-    psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:v0.0.1"@en ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
-    psdiDcatExt:programmingLanguage "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell"@en ;
-    psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/psdi-data-conversion> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4478-1270>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0009-0002-4762-5852>,
-        <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Data Conversion Container Image is a Docker container which can be run on your own computing infrastructure within Docker. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
-    dcterms:identifier "psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PSDI Data Conversion Container Image"@en ;
-    dcterms:type dcmitype:Software ;
-    spdx:checkSum [ a spdx:checkSum ;
-            spdx:algorithm spdx:d4e4247 ;
-            spdx:checksumValue "de9d85cf2b8f5843ad8bcf03a3abf49c360c607f47c84c8b33a6ad18da5e72a1"^^xsd:hexBinary ] ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint <http://github.com/PSDI-UK/psdi-data-conversion/issues> ;
-    dcat:inCatalog psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b ;
-    dcat:keyword "All file formats"@en,
-        "Data Conversion"@en,
-        "Data Convertors"@en,
-        "Data Quality Assessment"@en ;
-    dcat:landingPage <http://ghcr.io/PSDI-UK/psdi-data-conversion/data-conversion:latest> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:1a03eae8-4b54-49d1-8b56-c42f31deeae5 a dcat:Distribution ;
-    dcterms:title "Open Materials Micrograph Repository (O2MR)"@en ;
-    dcat:accessService psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 ;
-    dcat:accessURL <http://micrograph.royce.ac.uk> .
-
 psdiDcat:1b9bfe49-a77f-466c-8d50-8b00ef15ee21 a dcat:Distribution ;
     dcterms:title "PSDI Solubility Data Collection"@en ;
-    dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection> ;
-    dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en .
+    dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets> ;
+    dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip> ;
+    dcat:mediaType "https://www.iana.org/assignments/media-types/application/zip"@en .
 
 psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 a dcat:DataService ;
     rdfs:label "CCP-NC MagresView"@en ;
@@ -375,7 +317,7 @@ psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 a dcat:DataService ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
-    dcat:endpointURL <http://www.ccpnc.ac.uk/magresview/magresview/magres_view.html> ;
+    dcat:endpointURL <https://ccp-nc.github.io/magresview-2/> ;
     dcat:inCatalog psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e ;
     dcat:keyword "EFG"@en,
         "Magnetic Shielding"@en,
@@ -383,9 +325,10 @@ psdiDcat:1fc5c6f3-62cc-4087-a5e2-11497f161f27 a dcat:DataService ;
         "Magresview"@en,
         "NMR"@en,
         "SSNMR"@en ;
-    dcat:landingPage <http://www.ccpnc.ac.uk/magresview/magresview/magres_view.html> ;
+    dcat:landingPage <https://ccp-nc.github.io/magresview-2/> ;
     dcat:servesDataset psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -394,7 +337,7 @@ psdiDcat:22ce2e1a-1e37-4773-a574-27658e395438 a psdiDcatExt:Tool ;
     psdiDcatExt:byteSize 8226347 ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:downloadURL "magresview- github download url (http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip)"@en ;
+    psdiDcatExt:downloadURL <http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> ;
     psdiDcatExt:exampleData psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1016/j.ssnmr.2016.05.004> ;
     psdiDcatExt:installCommand "docker pull http://github.com/CCP-NC/magresview-2/blob/main/Dockerfile ???"@en ;
@@ -427,7 +370,8 @@ psdiDcat:22ce2e1a-1e37-4773-a574-27658e395438 a psdiDcatExt:Tool ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation psdiDcat:f6ab8642-eaad-4a72-8c06-a4961d5fb2ff ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -536,43 +480,10 @@ psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38 a dcat:Catalog ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> ;
     dcat:version "1.2.0"@en .
 
-psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2 a psdiDcatExt:Guidance ;
-    rdfs:label "PyMuonSuite and MuspinSim Tutorials"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
-        <https://orcid.org/0000-0002-6279-7823>,
-        <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Tutorials and installation gidelines for PyMuonSuite (Collection of scripts and utilities for muon spectroscopy) and MuspinSim (a program designed to carry out spin dynamics calculations for muon science experiments)."@en ;
-    dcterms:identifier "psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2"@en ;
-    dcterms:issued "2023-03-01T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PyMuonSuite and MuspinSim Tutorials"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
-        [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
-    dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
-    dcat:keyword "FAIR"@en,
-        "Galaxy"@en,
-        "Muon Spectroscopy"@en,
-        "Neutrons"@en,
-        "X-ray Absorption Spectroscopy"@en,
-        "workflows"@en ;
-    dcat:landingPage <https://muon-spectroscopy-computational-project.github.io/tutorials.html> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
-        <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
-        <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
-        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
-
 psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection#readme> ;
+    psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:creator <http://orcid.org/0000-0001-5280-8309>,
@@ -587,7 +498,7 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Physical Chemistry Properties Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
-    adms:status <http://purl.org/adms/status/Completed> ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:Distribution psdiDcat:1b9bfe49-a77f-466c-8d50-8b00ef15ee21 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
@@ -598,23 +509,14 @@ psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b a dcat:Dataset ;
         "melting points"@en,
         "mole fractions"@en,
         "solubility"@en ;
-    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection> ;
+    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     odrl:hasPolicy psdiPol:openAccess ;
-    prov:qualifiedAttribution <http://doi.org/10.1021/acs.chemrestox.2c00379>,
-        <http://doi.org/10.1021/acs.jchemed.3c01040>,
-        <http://doi.org/10.1021/ci020280x>,
+    prov:qualifiedAttribution <http://doi.org/10.1021/ci020280x>,
         <http://doi.org/10.1021/ci034243x>,
-        <http://doi.org/10.1038/s41467-020-19594-z>,
         <http://doi.org/10.1038/s41597-022-01154-3>,
-        <http://doi.org/10.1038/s41597-024-03105-6>,
-        <http://doi.org/10.1039/FT9949000097>,
-        <http://doi.org/10.26434/chemrxiv-2023-qqslt>,
         <http://doi.org/10.5194/acp-23-10901-2023>,
-        <http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426>,
         <http://iupac.org/what-we-do/databases/solubility-data-series/>,
-        <http://pubs.acs.org/doi/10.1021/jacs.2c01768>,
-        <http://query.wikidata.org/>,
         <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table>,
         <http://www.ddbst.com/ddb-vle.html> .
 
@@ -626,7 +528,7 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     rdfs:label "Soprano"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:downloadURL "Soprano PyPI download files (http://pypi.org/project/Soprano/#files)"@en ;
+    psdiDcatExt:downloadURL <http://pypi.org/project/Soprano/#files> ;
     psdiDcatExt:furtherInformation <http://ccp-nc.github.io/soprano/intro.html>,
         <http://doi.org/10.1063/1.5024450> ;
     psdiDcatExt:installCommand "pip install soprano"@en ;
@@ -660,7 +562,8 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation psdiDcat:71e7272d-80f5-480d-8f9a-60712084730e ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "0.9.2"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -700,37 +603,6 @@ psdiDcat:56b60b60-5e2e-4e97-a1aa-96ec47e3fc00 a dcat:Distribution ;
     dcat:accessService psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 ;
     dcat:accessURL <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> .
 
-psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d a psdiDcatExt:Tool ;
-    rdfs:label "Ampletracks codebase"@en ;
-    psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://github.com/Ampletracks/Ampletracks/blob/main/README.md> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/o2mr-r.svg> ;
-    psdiDcatExt:programmingLanguage "Programming Language :: PHP"@en ;
-    psdiDcatExt:repositoryURL <http://github.com/Ampletracks/Ampletracks> ;
-    dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
-        <http://orcid.org/0000-0002-9775-687X>,
-        <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "Ampletracks is a flexible and hierarchical database specifically designed for storing data about material samples. Ampletracks has been designed to meet the following fundamental goals: Keep track of material samples and associated artefacts (physical or virtual) in order to reduce the risk of loss and speed up the process of locating them; Record meta data about samples and associated artefacts systematically in a way that can be shared easily; Record the relationships between samples and associated artefacts, and track their ancestry. Whilst Ampletracks has been designed with materials science in mind, the flexibility inherent in the system means that it is likely to be useful in other contexts."@en ;
-    dcterms:identifier "psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d"@en ;
-    dcterms:issued "2022-12-04T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <http://opensource.org/license/mit> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Ampletracks codebase"@en ;
-    dcterms:type dcmitype:Software ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 ;
-    dcat:keyword "database"@en,
-        "material samples"@en ;
-    dcat:landingPage <http://github.com/Ampletracks/Ampletracks> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/00401515-e61c-4f33-bcb0-33ff40c6aa20>,
-        <http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> ;
-    odrl:hasPolicy psdiPol:openAccess ;
-    prov:qualifiedAttribution <http://ror.org/013a0r905> .
-
 psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1 a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -768,7 +640,7 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python Library"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md> ;
+    psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: JavaScript; Programming Language :: Python :: 3; Programming Language :: Unix Shell"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/psdi-data-conversion> ;
@@ -778,28 +650,28 @@ psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039 a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Python Library for Data Conversion is available via PyPy, and can be installed and run on your own computing infrastructure, enabling you to includea data conversion in your own pipelines. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
+    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. This enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Python Library for Data Conversion is available via PyPi and can be installed and run on your own computing infrastructure, enabling you to include a data conversion in your own pipelines. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
     dcterms:identifier "psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "PSDI Data Conversion Python Library"@en ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint <http://github.com/PSDI-UK/psdi-data-conversion/issues> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b ;
-    dcat:keyword "All file formats"@en,
-        "Data Conversion"@en,
+    dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
-    dcat:landingPage <http://github.com/PSDI-UK/psdi-data-conversion> ;
+    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:5e1d3fcf-5131-44d2-bd44-513cdb84a63c a dcat:Distribution ;
     dcterms:title "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
-    dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/CMC_Collection> ;
-    dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> ;
-    dcat:mediaType "http://www.iana.org/assignments/media-types/text/csv"@en .
+    dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> ;
+    dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip> ;
+    dcat:mediaType "https://www.iana.org/assignments/media-types/application/zip"@en .
 
 psdiDcat:5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9 a psdiDcatExt:Guidance ;
     rdfs:label "PSDI Resources Guidance"@en ;
@@ -879,9 +751,6 @@ psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6 a psdiDcatExt:Tool ;
         "structural biology"@en,
         "trajectory"@en ;
     dcat:landingPage <http://github.com/PSDI-UK/aiida-amber> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
@@ -910,28 +779,22 @@ psdiDcat:62af1a1c-f4c9-48ee-acc2-45b19fb8b231 a dcat:DataService ;
         "Training"@en ;
     dcat:landingPage <http://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
+            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
+            dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation psdiDcat:294760c8-20de-4155-9951-08bccc87a593 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 ;
+            dcterms:relation psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -970,7 +833,7 @@ psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6 a dcat:Dataset ;
 psdiDcat:64af3a23-2d41-4079-a014-db366096434a a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Command Line Application"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md> ;
+    psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0002-4478-1270>,
@@ -978,7 +841,7 @@ psdiDcat:64af3a23-2d41-4079-a014-db366096434a a psdiDcatExt:Tool ;
         <http://orcid.org/0000-0003-0842-4302>,
         <http://orcid.org/0009-0002-4762-5852>,
         <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Command Line interface for Data Conversion application can be installed and run on your own computing infrastructure. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
+    dcterms:description "PSDI Data Conversion is your one stop shop for file format conversion. This enables users to seamlessly convert between different file formats and view information about the quality of the proposed conversion. The PSDI Command Line interface for Data Conversion application can be installed and run on your own computing infrastructure. It contains all of the same file conversion functionality of our online service but without the need to upload your data to PSDI and without any restrictions on file sizes."@en ;
     dcterms:identifier "psdiDcat:64af3a23-2d41-4079-a014-db366096434a"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -988,10 +851,10 @@ psdiDcat:64af3a23-2d41-4079-a014-db366096434a a psdiDcatExt:Tool ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b ;
-    dcat:keyword "All file formats"@en,
-        "Data Conversion"@en,
+    dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
+    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -1017,9 +880,9 @@ psdiDcat:65c2df45-5a3a-4796-8cbc-9922ee5d2a6a a dcat:DataService ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <http://materialsgalaxy.stfc.ac.uk/> ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
@@ -1059,9 +922,9 @@ psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b a dcat:DataService ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointDescription <http://materialsgalaxy.stfc.ac.uk/api/docs> ;
     dcat:endpointURL <https://materialsgalaxy.stfc.ac.uk/api/> ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
@@ -1119,7 +982,8 @@ psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981 a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0003-1721-9212> ;
+    dcterms:creator <http://orcid.org/0000-0003-1721-9212>,
+        <http://orcid.org/0009-0000-6422-0342> ;
     dcterms:description "This collection of topics provides an introduction to research data management, including a discussion of different research data types, how to identify your own research data, and creating a data inventory. Guidance is provided on the different stages of the research data lifecycle and the benefits of data management planning, and the role of the Data Management Plan (DMP) together with an example DMP for physical scientists. This section also includes topics on best practices for managing data when working with others, and where you can get additional help with managing your research data."@en ;
     dcterms:identifier "psdiDcat:74f53465-3cf8-49ff-be58-f7a5b749a981"@en ;
     dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
@@ -1148,7 +1012,7 @@ psdiDcat:822c7d92-76a0-49ba-ac98-4f00ec4b23ae a dcat:Distribution ;
 psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
+    psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0002-4478-1270>,
@@ -1168,8 +1032,7 @@ psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba a dcat:DataService ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <http://data-conversion.psdi.ac.uk/> ;
     dcat:inCatalog psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b ;
-    dcat:keyword "All file formats"@en,
-        "Data Conversion"@en,
+    dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
     dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
@@ -1238,7 +1101,7 @@ psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d a psdiDcatExt:Tool ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 3 ;
-    psdiDcatExt:downloadURL "dlmonte-container download url (https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)"@en ;
+    psdiDcatExt:downloadURL <https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)> ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/dlmonte-container/blob/main/README.md> ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:latest"@en ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> ;
@@ -1282,7 +1145,7 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Documentation of the MuSpinSim program for spin dynamics calculations for muon science experiments, including the theory behind MuspinSim, tutorials and examples."@en ;
+    dcterms:description "Documentation of the underlying MuSpinSim muon software tool that has been implemented as a Galaxy tool in our Galaxy instance. Muspinsim models spin dynamics calculations for muon science experiments."@en ;
     dcterms:identifier "psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f"@en ;
     dcterms:issued "2024-08-01T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1291,9 +1154,9 @@ psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f a psdiDcatExt:Guidance ;
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1313,7 +1176,7 @@ psdiDcat:a363e1c8-e1e0-47a3-a8d7-17f36c731ac2 a psdiDcatExt:Tool ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:downloadURL "data-transfer-container download url (https://ghcr.io/psdi-uk/data-transfer-container/data-transfer)"@en ;
+    psdiDcatExt:downloadURL <https://ghcr.io/psdi-uk/data-transfer-container/data-transfer> ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/data-transfer-container/blob/main/README.md> ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/data-transfer-container/data-transfer:latest"@en ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> ;
@@ -1361,14 +1224,14 @@ psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 a dcat:Dataset ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Critical Micelle Concentration (CMC) Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
-    adms:status <http://purl.org/adms/status/Completed> ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:Distribution psdiDcat:5e1d3fcf-5131-44d2-bd44-513cdb84a63c ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 ;
     dcat:keyword "critical micelle concentration"@en,
         "electronic supplementary information"@en ;
-    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/CMC_Collection> ;
+    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     odrl:hasPolicy psdiPol:openAccess ;
     prov:qualifiedAttribution <http://doi.org/10.6028/NBS.NSRDS.36> .
@@ -1380,7 +1243,7 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Documentation for \"Larch: Data Analysis Tools for X-ray Spectroscopy\". Larch is a open-source library and set of applications for processing and analyzing X-ray absorption and fluorescence spectroscopy data and X-ray fluorescence and diffraction image data from synchrotron beamlines. Larch provides a comprehensive set of analysis tools for X-ray absorption fine-structure spectroscopy (XAFS), including both X-ray absorption near-edge spectroscopy (XANES) and extended X-ray absorption fine-structure spectroscopy (EXAFS). Larch also provides visualization and analysis tools for X-ray fluorescence (XRF) spectra and XRF and X-ray diffraction (XRD) images as collected at scanning X-ray microprobe beamlines."@en ;
+    dcterms:description "Documentation for the underlying Larch open-source library that has been implemented as a Galaxy tool in our Galaxy instance. Larch is used for processing and analysing X-ray absorption and fluorescence spectroscopy data, and X-ray fluorescence and diffraction image data obtained from synchrotron beamlines. Larch provides a comprehensive set of analysis tools for X-ray absorption fine-structure spectroscopy (XAFS), including both X-ray absorption near-edge spectroscopy (XANES) and extended X-ray absorption fine-structure spectroscopy (EXAFS). Larch also provides visualization and analysis tools for X-ray fluorescence (XRF) spectra and XRF and X-ray diffraction (XRD) images as collected at scanning X-ray microprobe beamlines."@en ;
     dcterms:identifier "psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58"@en ;
     dcterms:issued "2024-10-24T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1389,9 +1252,9 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1409,7 +1272,7 @@ psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58 a psdiDcatExt:Guidance ;
 psdiDcat:c1e681c2-69ea-491c-984a-be80615a7394 a dcat:Distribution ;
     dcterms:title "STFC Open Data"@en ;
     dcat:accessService psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c ;
-    dcat:accessURL <https://edata.stfc.ac.uk/home> .
+    dcat:accessURL <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> .
 
 psdiDcat:c5be2a39-867a-4dcc-a606-8855bc85ca9e a dcat:Distribution ;
     dcterms:title "Catalysis Data Infrastructure (CDI) Database"@en ;
@@ -1511,44 +1374,9 @@ psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 a dcat:Dataset ;
         "commercial"@en,
         "price"@en,
         "supplier"@en ;
-    dcat:landingPage <http://www.psds.ac.uk/chase> ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-product> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:ukAcademicsOnly .
-
-psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd a psdiDcatExt:Guidance ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/caseStudies-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0009-0009-9897-333X> ;
-    dcterms:description "This case study explores the challenges of losing valuable raw data when it is embedded within PDFs as part of supplementary information (ESIs). To address this, data was extracted from the supplementary information of the paper titled \"Towards the Prediction of Antimicrobial Efficacy for Hydrogen Bonded, Self-Associating Amphiphiles\" (http://doi.org/10.1002/cmdc.202000533) and converted into JSON format. The process was carefully documented to showcase how such data can be transformed into a more machine-readable format, improving accessibility and usability for further analysis."@en ;
-    dcterms:identifier "psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Making Electronic Supplementary Information (ESI) Machine-Readable Case Study"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a ;
-    dcat:keyword "critical micelle concentration"@en,
-        "electronic supplementary information"@en ;
-    dcat:landingPage <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
-        <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
-    odrl:hasPolicy psdiPol:openAccess ;
-    prov:qualifiedAttribution <http://orcid.org/0000-0001-6162-8895>,
-        <http://orcid.org/0000-0001-9492-6143>,
-        <http://orcid.org/0000-0002-1406-8802>,
-        <http://orcid.org/0000-0002-3706-2905>,
-        <http://orcid.org/0000-0002-9971-6118>,
-        <http://orcid.org/0000-0003-0832-4475>,
-        <http://orcid.org/0000-0003-2502-5274>,
-        <http://www.linkedin.com/in/ben-wilson-kent/>,
-        <http://www.linkedin.com/in/jessica-boles-a67791194/>,
-        <http://www.linkedin.com/in/kendrickng1/>,
-        <http://www.linkedin.com/in/laura-blackholly-74409482/>,
-        <http://www.linkedin.com/in/rebecca-ellaby/> .
 
 psdiDcat:eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6 a dcat:Distribution ;
     dcterms:title "Chemical Availability Search (ChASe)"@en ;
@@ -1560,34 +1388,34 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Daniel Cancado"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
+            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ashley Unitt"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
             foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
+            foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
+            foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
+            foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -1599,8 +1427,10 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
     dcterms:title "PSDI Data Revival Service"@en ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint <http://www.data-revival.com/#contact> ;
-    dcat:endpointURL <http://www.data-revival.psdi.ac.uk> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:Name "Data Revivial contact"@en ;
+            vcard:hasEmail "contact@data-revival.com"@en ] ;
+    dcat:endpointURL <http://www.data-revival.com/> ;
     dcat:inCatalog psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d ;
     dcat:keyword "Artificial Intelligence"@en,
         "Chemical Information"@en,
@@ -1608,7 +1438,7 @@ psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 a dcat:DataService ;
         "Data Retrieval"@en,
         "Handwritten Notes"@en,
         "Lab Notebooks"@en ;
-    dcat:landingPage <http://www.data-revival.psdi.ac.uk> ;
+    dcat:landingPage <http://www.data-revival.com/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     odrl:hasPolicy psdiPol:psdiLoginRequired ;
     prov:qualifiedAttribution <http://labs.futureworlds.com/data-revival/> .
@@ -1650,7 +1480,7 @@ psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306 a psdiDcatExt:Tool ;
     psdiDcatExt:programmingLanguage "Programming Language :: Ruby"@en ;
     psdiDcatExt:repositoryURL <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Users can create custom portals using the Thematic Portal Code, allowing them to tailor reports to their specific data."@en ;
+    dcterms:description "The code for the thematic portal is open source, enabling communities to customize it to meet their specific needs. Its flexibility allows for rapid deployment and personalization, including logos, custom headings, and tailored functionality. The open-source licensing ensures communities can download, modify, and adapt the code further. We offer support for deployment on institutional servers or commercial platforms."@en ;
     dcterms:identifier "psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306"@en ;
     dcterms:issued "2025-03-30T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1676,7 +1506,7 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Documentation of the MuDirac simulation software (simulation software that integrates the Dirac equation for muonic atoms to compute their X-Ray transition energie) with theory and example usage."@en ;
+    dcterms:description "Documentation of the underlying MuDirac muon software tool that has been implemented as a Galaxy tool in our Galaxy instance. The MuDirac simulation software integrates the Dirac equation for muonic atoms and compute their X-Ray transition energies."@en ;
     dcterms:identifier "psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775"@en ;
     dcterms:issued "2020-09-01T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -1702,47 +1532,6 @@ psdiDcat:ff6a1907-c519-4f6e-99a5-f6c27bb43775 a psdiDcatExt:Guidance ;
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 a psdiDcatExt:Tool ;
-    rdfs:label "LabTrove Container Image"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "PSDI LabTrove is a lightweight, blog-based Electronic Laboratory Notebook that can be run locally using Docker. The LabTrove Container Image provides the same functionality as the online PSDI LabTrove Exemplar version, but operates as a standalone web application, meaning none of your data or activity is shared with PSDI. You can also configure it to use your own authentication system if needed. Setup instructions are provided to help you install, configure, and run the application on your infrastructure."@en ;
-    dcterms:identifier "psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "LabTrove Container Image"@en ;
-    dcterms:type dcmitype:Software ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "labtrove"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://XXXneedsFillingInWhenKnown> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
 psdiDcat:optimade-aflow-aflow a dcat:Dataset ;
     rdfs:label "AFLOW"@en ;
     psdiDcatExt:displayPriority 3 ;
@@ -1754,7 +1543,7 @@ psdiDcat:optimade-aflow-aflow a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-aflow-aflow-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://aflow.org> .
 
 psdiDcat:optimade-aflow-aflow-i a dcat:Distribution ;
@@ -1772,7 +1561,7 @@ psdiDcat:optimade-alexandria-alexandria-pbe a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-alexandria-alexandria-pbe-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
 
 psdiDcat:optimade-alexandria-alexandria-pbe-i a dcat:Distribution ;
@@ -1790,7 +1579,7 @@ psdiDcat:optimade-alexandria-alexandria-pbesol a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-alexandria-alexandria-pbesol-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
 
 psdiDcat:optimade-alexandria-alexandria-pbesol-i a dcat:Distribution ;
@@ -1808,7 +1597,7 @@ psdiDcat:optimade-cmr-cmr a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-cmr-cmr-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://cmr.fysik.dtu.dk> .
 
 psdiDcat:optimade-cmr-cmr-i a dcat:Distribution ;
@@ -1826,7 +1615,7 @@ psdiDcat:optimade-cod-cod a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-cod-cod-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.crystallography.net/cod> .
 
 psdiDcat:optimade-cod-cod-i a dcat:Distribution ;
@@ -1844,7 +1633,7 @@ psdiDcat:optimade-mcloud-2dtopo a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-2dtopo-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/2dtopo> .
 
 psdiDcat:optimade-mcloud-2dtopo-i a dcat:Distribution ;
@@ -1862,7 +1651,7 @@ psdiDcat:optimade-mcloud-curated-cofs a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-curated-cofs-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/curated-cofs> .
 
 psdiDcat:optimade-mcloud-curated-cofs-i a dcat:Distribution ;
@@ -1880,7 +1669,7 @@ psdiDcat:optimade-mcloud-mc2d a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-mc2d-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc2d> .
 
 psdiDcat:optimade-mcloud-mc2d-i a dcat:Distribution ;
@@ -1898,7 +1687,7 @@ psdiDcat:optimade-mcloud-mc3d a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-mc3d-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc3d> .
 
 psdiDcat:optimade-mcloud-mc3d-i a dcat:Distribution ;
@@ -1916,7 +1705,7 @@ psdiDcat:optimade-mcloud-pyrene-mofs a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-pyrene-mofs-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/pyrene-mofs> .
 
 psdiDcat:optimade-mcloud-pyrene-mofs-i a dcat:Distribution ;
@@ -1934,7 +1723,7 @@ psdiDcat:optimade-mcloud-scdm a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-scdm-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/autowannier> .
 
 psdiDcat:optimade-mcloud-scdm-i a dcat:Distribution ;
@@ -1952,7 +1741,7 @@ psdiDcat:optimade-mcloud-stoceriaitf a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-stoceriaitf-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/stoceriaitf> .
 
 psdiDcat:optimade-mcloud-stoceriaitf-i a dcat:Distribution ;
@@ -1970,7 +1759,7 @@ psdiDcat:optimade-mcloud-tc-applicability a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-tc-applicability-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tc-applicability> .
 
 psdiDcat:optimade-mcloud-tc-applicability-i a dcat:Distribution ;
@@ -1988,7 +1777,7 @@ psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> .
 
 psdiDcat:optimade-mcloud-tin-antimony-sulfoiodide-i a dcat:Distribution ;
@@ -2006,7 +1795,7 @@ psdiDcat:optimade-mcloudarchive-5p-vq a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloudarchive-5p-vq-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.114> .
 
 psdiDcat:optimade-mcloudarchive-5p-vq-i a dcat:Distribution ;
@@ -2024,7 +1813,7 @@ psdiDcat:optimade-mcloudarchive-c8-gy a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloudarchive-c8-gy-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2023.181> .
 
 psdiDcat:optimade-mcloudarchive-c8-gy-i a dcat:Distribution ;
@@ -2042,7 +1831,7 @@ psdiDcat:optimade-mcloudarchive-vg-ya a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloudarchive-vg-ya-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.65> .
 
 psdiDcat:optimade-mcloudarchive-vg-ya-i a dcat:Distribution ;
@@ -2060,7 +1849,7 @@ psdiDcat:optimade-mcloudarchive-zk-gc a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mcloudarchive-zk-gc-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2025.32> .
 
 psdiDcat:optimade-mcloudarchive-zk-gc-i a dcat:Distribution ;
@@ -2078,7 +1867,7 @@ psdiDcat:optimade-mp-mp a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mp-mp-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialsproject.org> .
 
 psdiDcat:optimade-mp-mp-i a dcat:Distribution ;
@@ -2096,7 +1885,7 @@ psdiDcat:optimade-mpdd-mpdd a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mpdd-mpdd-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://phaseslab.com/mpdd> .
 
 psdiDcat:optimade-mpdd-mpdd-i a dcat:Distribution ;
@@ -2114,7 +1903,7 @@ psdiDcat:optimade-mpds-mpds a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mpds-mpds-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://mpds.io> .
 
 psdiDcat:optimade-mpds-mpds-i a dcat:Distribution ;
@@ -2132,7 +1921,7 @@ psdiDcat:optimade-mpod-mpod a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-mpod-mpod-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <http://mpod.cimav.edu.mx> .
 
 psdiDcat:optimade-mpod-mpod-i a dcat:Distribution ;
@@ -2150,7 +1939,7 @@ psdiDcat:optimade-nmd-nmd a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-nmd-nmd-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://nomad-lab.eu> .
 
 psdiDcat:optimade-nmd-nmd-i a dcat:Distribution ;
@@ -2168,7 +1957,7 @@ psdiDcat:optimade-odbx-gnome a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-odbx-gnome-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://github.com/ml-evs/optimade-gnome> .
 
 psdiDcat:optimade-odbx-gnome-i a dcat:Distribution ;
@@ -2186,7 +1975,7 @@ psdiDcat:optimade-omdb-omdb_production a dcat:Dataset ;
     dcterms:type dcmitype:Dataset ;
     dcat:Distribution psdiDcat:optimade-omdb-omdb_production-i ;
     dcat:inCatalog "psdiDcat:33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
-    dcat:keyword "optimade provider"@en ;
+    dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <http://openmaterialsdb.se> .
 
 psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
@@ -2294,23 +2083,23 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 <http://psdi-uk.github.io/docusaurus-pages/docs/category/sharing-data-and-fair> a foaf:Document ;
     rdfs:label "Sharing Data and FAIR"@en .
 
-<http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/labtrove/> a foaf:Document ;
-    rdfs:label "LabTrove documentation"@en .
-
-<http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/onenote> a foaf:Document ;
-    rdfs:label "Using OneNote as an ELN"@en .
-
 <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> a rdfs:Resource ;
     rdfs:label "Using PSDI Cross Data Search"@en .
 
+<http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
+    skos:prefLabel "data processing"@en .
+
 <http://purl.org/cld/freq/continuous> a dcterms:Frequency .
+
+<http://pypi.org/project/Soprano/#files> a rdfs:Resource ;
+    rdfs:label "Soprano PyPI download files"@en .
 
 <http://ror.org/04t3en479> a foaf:Agent ;
     foaf:name "Karlsruhe Institute of Technology"@en ;
     foaf:openid "http://ror.org/04t3en479"@en .
 
-<http://www.ccpbiosim.ac.uk/psdi-demo> a foaf:Document ;
-    rdfs:label "Cloud Based Jupyter aiida-gromacs Demo"@en .
+spdx:d4e4247 a spdx:ChecksumAlgorithm ;
+    rdfs:label "checksumAlgorithm_sha256"@en .
 
 <http://www.ccpnc.ac.uk/docs/magres/magres-format.pdf> a dcterms:Standard ;
     rdfs:label "magres"@en .
@@ -2341,6 +2130,9 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 
 <http://www.psdi.ac.uk/> a foaf:Document ;
     rdfs:label "PSDI homepage"@en .
+
+<http://www.psds.ac.uk/chase> a rdfs:Resource ;
+    rdfs:label "About ChASe"@en .
 
 <http://www.wwpdb.org/documentation/file-format-content/format32/v3.2.html> a dcterms:Standard ;
     rdfs:label "PDB"@en .
@@ -2397,11 +2189,20 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 <https://cmr.fysik.dtu.dk> a foaf:Document ;
     rdfs:label "homepage for Computational materials repository (CMR)"@en .
 
+<https://data-search.psdi.ac.uk/find-a-product> a foaf:Document ;
+    rdfs:label "PSDI Cross Data Search - find a chemical product"@en .
+
 <https://edata.stfc.ac.uk/info/edata-guidance> a rdfs:Resource ;
     rdfs:label "eData Guidance"@en .
 
 <https://eln-finder.ulb.tu-darmstadt.de/info/page/about> a rdfs:Resource ;
     rdfs:label "About ELN Finder"@en .
+
+<https://ghcr.io/psdi-uk/data-transfer-container/data-transfer> a rdfs:Resource ;
+    rdfs:label "data-transfer-container download url"@en .
+
+<https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)> a rdfs:Resource ;
+    rdfs:label "dlmonte-container download url"@en .
 
 <https://github.com/PSDI-UK/data-transfer-container/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "data-transfer-container README"@en .
@@ -2413,11 +2214,17 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 <https://github.com/PSDI-UK/dlmonte-container/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "dlmonte-container README"@en .
 
-<https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/NIST_Table_of_Critical_Micelle_Concentration_Values.csv> a rdfs:Resource ;
-    rdfs:label "NIST_Table_of_Critical_Micelle_Concentration_Values"@en .
-
 <https://github.com/PSDI-UK/psdi-datasets/blob/main/Data_Collections/CMC_Collection/README.md> a rdfs:Resource ;
     rdfs:label "Github README"@en .
+
+<https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> a rdfs:Resource ;
+    rdfs:label "Github README"@en .
+
+<https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip> a rdfs:Resource ;
+    rdfs:label "NIST_Table_of_Critical_Micelle_Concentration_Values"@en .
+
+<https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip> a rdfs:Resource ;
+    rdfs:label "Physical_Chemistry_Properties_Data_Collection zip file"@en .
 
 <https://github.com/ml-evs/optimade-gnome> a foaf:Document ;
     rdfs:label "homepage for Google DeepMind's Gnome Dataset"@en .
@@ -2437,9 +2244,6 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 
 <https://muon-spectroscopy-computational-project.github.io/muspinsim/> a foaf:Document ;
     rdfs:label "MuSpinSim's documentation"@en .
-
-<https://muon-spectroscopy-computational-project.github.io/tutorials.html> a foaf:Document ;
-    rdfs:label "The Muon Spectroscopy Computational Project"@en .
 
 <https://nomad-lab.eu> a foaf:Document ;
     rdfs:label "homepage for novel materials discovery (NOMAD)"@en .
@@ -2508,6 +2312,9 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 <https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html> a foaf:Document ;
     rdfs:label "Finding the muon stopping site with pymuon-suite in Galaxy"@en .
 
+<https://www.ccpbiosim.ac.uk/notebooks> a foaf:Document ;
+    rdfs:label "Cloud Based Jupyter aiida-gromacs Demo"@en .
+
 <https://www.chemotion.net/docs/repo> a rdfs:Resource ;
     rdfs:label "About Chemotion"@en .
 
@@ -2573,18 +2380,6 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
 <http://doi.org/10.1016/j.ssnmr.2016.05.004> a rdfs:Resource ;
     rdfs:label "Visualization and processing of computed solid-state NMR parameters: MagresView and MagresPython"@en .
 
-<http://doi.org/10.1021/acs.chemrestox.2c00379> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.1021/acs.chemrestox.2c00379> ;
-    foaf:name "Lowe2023: Solubility"@en ;
-    foaf:openid "http://doi.org/10.1021/acs.chemrestox.2c00379"@en .
-
-<http://doi.org/10.1021/acs.jchemed.3c01040> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.1021/acs.jchemed.3c01040> ;
-    foaf:name "Kim2024: Boiling Point"@en ;
-    foaf:openid "http://doi.org/10.1021/acs.jchemed.3c01040"@en .
-
 <http://doi.org/10.1021/ci020280x> a prov:Attribution ;
     dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
     prov:agent <http://doi.org/10.1021/ci020280x> ;
@@ -2597,35 +2392,11 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
     foaf:name "Delaney2004: Solubility"@en ;
     foaf:openid "http://doi.org/10.1021/ci034243x"@en .
 
-<http://doi.org/10.1038/s41467-020-19594-z> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.1038/s41467-020-19594-z> ;
-    foaf:name "Boobier2020: Miscibility, Solubility"@en ;
-    foaf:openid "http://doi.org/10.1038/s41467-020-19594-z"@en .
-
 <http://doi.org/10.1038/s41597-022-01154-3> a prov:Attribution ;
     dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
     prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ;
     foaf:name "Meng2022: Solubility"@en ;
     foaf:openid "http://doi.org/10.1038/s41597-022-01154-3"@en .
-
-<http://doi.org/10.1038/s41597-024-03105-6> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.1038/s41597-024-03105-6> ;
-    foaf:name "Llompart2024: Solubility"@en ;
-    foaf:openid "http://doi.org/10.1038/s41597-024-03105-6"@en .
-
-<http://doi.org/10.1039/FT9949000097> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.1039/FT9949000097> ;
-    foaf:name "Cheraoui1994: Boiling Point"@en ;
-    foaf:openid "http://doi.org/10.1039/FT9949000097"@en .
-
-<http://doi.org/10.26434/chemrxiv-2023-qqslt> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://doi.org/10.26434/chemrxiv-2023-qqslt> ;
-    foaf:name "BigSolDB Miscibility"@en ;
-    foaf:openid "http://doi.org/10.26434/chemrxiv-2023-qqslt"@en .
 
 <http://doi.org/10.5194/acp-23-10901-2023> a prov:Attribution ;
     dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
@@ -2643,19 +2414,9 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
     foaf:name "Olga Kennard"@en ;
     foaf:openid "http://en.wikipedia.org/wiki/Olga_Kennard"@en .
 
-<http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426> ;
-    foaf:name "Williams2015: Melting Point"@en ;
-    foaf:openid "http://figshare.com/articles/dataset/Melting_Point_and_Pyrolysis_Point_Data_for_Tens_of_Thousands_of_Chemicals/2007426"@en .
-
-<http://github.com/Ampletracks/Ampletracks> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "Ampletracks GitHub repository"@en .
-
 <http://github.com/CCP-NC/magresview-2/tree/main> a rdfs:Resource,
         foaf:Document ;
-    rdfs:label "magresview- github repository"@en,
+    rdfs:label "magresview github repository"@en,
         "magresview-2 github repository"@en .
 
 <http://github.com/CCP-NC/soprano/> a rdfs:Resource,
@@ -2675,10 +2436,6 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
         foaf:Document ;
     rdfs:label "biosimdb-app github repository"@en .
 
-<http://github.com/PSDI-UK/psdi-data-conversion/issues> a vcard:Kind ;
-    vcard:Name "psdi-data-conversion github issues"@en ;
-    vcard:hasURL "http://github.com/PSDI-UK/psdi-data-conversion/issues"@en .
-
 <http://github.com/libAtoms/abcd/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "abcd github repository"@en .
@@ -2696,10 +2453,6 @@ psdiDcat:optimade-omdb-omdb_production-i a dcat:Distribution ;
     prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ;
     foaf:name "IUPAC: Miscibility"@en ;
     foaf:openid "http://iupac.org/what-we-do/databases/solubility-data-series/"@en .
-
-<http://labtrove.psdi.ac.uk/> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI LabTrove website"@en .
 
 <http://learn.psdi.ac.uk> a rdfs:Resource,
         foaf:Document ;
@@ -2793,7 +2546,7 @@ psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc a psdiDcatExt:Guidance ;
         "Tracked Changes"@en,
         "Version Control"@en,
         "Work Flow"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/Versioncontrol> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 a dcat:DataService ;
@@ -2820,7 +2573,8 @@ psdiDcat:17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3 a dcat:DataService ;
         "SSNMR"@en ;
     dcat:landingPage <http://www.ccpnc.ac.uk/database/> ;
     dcat:servesDataset psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "1.0.0"@en ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -2870,22 +2624,7 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
             foaf:name "Yuehua Yin"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Louis McLean"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Ashley Unitt"@en ;
@@ -2899,6 +2638,21 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
         [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Finlay Morrison"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louis McLean"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-0842-4302> ;
@@ -2910,14 +2664,16 @@ psdiDcat:1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d a dcat:Catalog ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:DataService psdiDcat:f350b410-23d2-4c25-9a7d-51d7d0263537 ;
-    dcat:contactPoint <http://www.data-revival.com/#contact> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:Name "Data Revivial contact"@en ;
+            vcard:hasEmail "contact@data-revival.com"@en ] ;
     dcat:keyword "Artificial Intelligence"@en,
         "Chemical Information"@en,
         "Data"@en,
         "Data Retrieval"@en,
         "Handwritten Notes"@en,
         "Lab Notebooks"@en ;
-    dcat:landingPage <http://www.data-revival.psdi.ac.uk> ;
+    dcat:landingPage <http://www.data-revival.com/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     prov:qualifiedAttribution <http://labs.futureworlds.com/data-revival/> .
 
@@ -2950,142 +2706,9 @@ psdiDcat:294760c8-20de-4155-9951-08bccc87a593 a psdiDcatExt:Guidance ;
         "Research Skill"@en,
         "Skill"@en,
         "Technical"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/Python2> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 a dcat:Dataset ;
-    rdfs:label "Open Materials Micrograph Repository (O2MR)"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/o2mr-r.svg> ;
-    dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
-    dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
-        <http://orcid.org/0000-0002-9775-687X>,
-        <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for reuse. It supports optical light microscopy and electron microscopy, including SEM, TEM, and STEM. Beyond optical micrography, O2MR accommodates data from any material that can be represented as an image. Users can submit records, search micrographs, and curate collections, making it a valuable resource for materials research."@en ;
-    dcterms:identifier "psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Open Materials Micrograph Repository (O2MR)"@en ;
-    dcterms:type dcmitype:Dataset ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution psdiDcat:1a03eae8-4b54-49d1-8b56-c42f31deeae5 ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 ;
-    dcat:keyword "4d stem"@en,
-        "4d-stem"@en,
-        "4dstem"@en,
-        "alloy"@en,
-        "alloys"@en,
-        "ceramic"@en,
-        "ceramics"@en,
-        "characterisation"@en,
-        "composite material"@en,
-        "composite materials"@en,
-        "composites"@en,
-        "electron microscopy"@en,
-        "engineering"@en,
-        "engineering materials"@en,
-        "functional materials"@en,
-        "light microscopy"@en,
-        "material characterisation"@en,
-        "material characterization"@en,
-        "materials characterisation"@en,
-        "materials characterization"@en,
-        "materials engineering"@en,
-        "materials science"@en,
-        "metal"@en,
-        "metals"@en,
-        "micrograph"@en,
-        "micrography"@en,
-        "microscopy"@en,
-        "nanograph"@en,
-        "nanography"@en,
-        "optical microscopy"@en,
-        "scanning electron microscopy"@en,
-        "scanning transmission electron microscopy"@en,
-        "sem"@en,
-        "stem"@en,
-        "tem"@en,
-        "transmission electron microscopy"@en ;
-    dcat:landingPage <http://micrograph.royce.ac.uk> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
-        <http://data.europa.eu/8mn/euroscivoc/2fba9c5c-193c-47ec-81f5-518020bff496>,
-        <http://data.europa.eu/8mn/euroscivoc/3c7d4f8a-c885-4c6d-a41b-b3ff1cb3669c>,
-        <http://data.europa.eu/8mn/euroscivoc/65f1cb53-0694-477b-9900-61ac8ad78c67>,
-        <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1>,
-        <http://data.europa.eu/8mn/euroscivoc/b235ad52-5fbd-4bad-b83f-60b1b43757f3>,
-        <http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> ;
-    prov:qualifiedAttribution <http://ror.org/013a0r905> .
-
-psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 a dcat:DataService ;
-    rdfs:label "Open Materials Micrograph Repository (O2MR) User Interface"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/o2mr-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
-        <http://orcid.org/0000-0002-9775-687X>,
-        <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for use and reuse. The O2MR extends to data acquired from materials that can be represented as an image, not limited to optical micrography. The O2MR will enable users to submit records, search for records of materials micrographs, and curate collections of records. Search is supported by a data model that enables the use of (combined) filtering on features such as material class, processing, acquisition technique, and reuse potential, such as educational, reference and machine learning purposes."@en ;
-    dcterms:identifier "psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Open Materials Micrograph Repository (O2MR) User Interface"@en ;
-    dcterms:type dcmitype:Service ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:endpointURL <http://micrograph.royce.ac.uk> ;
-    dcat:inCatalog psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 ;
-    dcat:keyword "4d stem"@en,
-        "4d-stem"@en,
-        "4dstem"@en,
-        "alloy"@en,
-        "alloys"@en,
-        "ceramic"@en,
-        "ceramics"@en,
-        "characterisation"@en,
-        "composite material"@en,
-        "composite materials"@en,
-        "composites"@en,
-        "electron microscopy"@en,
-        "engineering"@en,
-        "engineering materials"@en,
-        "functional materials"@en,
-        "light microscopy"@en,
-        "material characterisation"@en,
-        "material characterization"@en,
-        "materials characterisation"@en,
-        "materials characterization"@en,
-        "materials engineering"@en,
-        "materials science"@en,
-        "metal"@en,
-        "metals"@en,
-        "micrograph"@en,
-        "micrography"@en,
-        "microscopy"@en,
-        "nanograph"@en,
-        "nanography"@en,
-        "optical microscopy"@en,
-        "scanning electron microscopy"@en,
-        "scanning transmission electron microscopy"@en,
-        "sem"@en,
-        "stem"@en,
-        "tem"@en,
-        "transmission electron microscopy"@en ;
-    dcat:landingPage <http://micrograph.royce.ac.uk> ;
-    dcat:servesDataset psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
-        <http://data.europa.eu/8mn/euroscivoc/2fba9c5c-193c-47ec-81f5-518020bff496>,
-        <http://data.europa.eu/8mn/euroscivoc/3c7d4f8a-c885-4c6d-a41b-b3ff1cb3669c>,
-        <http://data.europa.eu/8mn/euroscivoc/65f1cb53-0694-477b-9900-61ac8ad78c67>,
-        <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1>,
-        <http://data.europa.eu/8mn/euroscivoc/b235ad52-5fbd-4bad-b83f-60b1b43757f3>,
-        <http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> ;
-    prov:qualifiedAttribution <http://ror.org/013a0r905> .
 
 psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 a psdiDcatExt:Guidance ;
     rdfs:label "Machine Learning Interatomic Potentials (MLIP) Training"@en ;
@@ -3152,7 +2775,7 @@ psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae a psdiDcatExt:Guidance ;
         "Sharing"@en,
         "Skill"@en,
         "Technical"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/RDM> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -3236,9 +2859,6 @@ psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 a psdiDcatExt:Tool ;
         "trajectory"@en ;
     dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:7bdc8a6c-1110-4211-8c2e-8d115c2d1e0f ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
@@ -3252,7 +2872,7 @@ psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. The Catalysis Data Infrastructure (CDI) Bibliographic Data Web Service provides a way to access publication data from Catalysis Data Infrastructure portal programmatically."@en ;
+    dcterms:description "The data of the community portal is accessible programmatically through custom web services (API calls). Each entity can respond to call with JSON data which can be used to create custom views or feed third party applications. For example, the UK catalysis hub uses a web service that delivers filtered bibliographic lists of publications, is used to populate the publications pages on its website and to generate custom reports. We can assist in developing tailored services to meet specific community requirements."@en ;
     dcterms:identifier "psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818"@en ;
     dcterms:issued "2021-10-19T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3271,47 +2891,6 @@ psdiDcat:7a029bb3-5a5b-474e-8592-679a36d73818 a dcat:DataService ;
     dcat:servesDataset psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.9"@en ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9 a psdiDcatExt:Guidance ;
-    rdfs:label "Command Line and Bash"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0003-1886-0378>,
-        <http://orcid.org/0000-0003-2583-5680>,
-        <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course is designed to help the individual understand the core concepts behind using the command line as an input for coding on a computer. The course focuses on bash shell, covering basic commands, how to navigate a file structure through the command line, using pipes, understanding errors and writing scripts to perform repetitive tasks."@en ;
-    dcterms:identifier "psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Command Line and Bash"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword "Bash"@en,
-        "Coding"@en,
-        "Command Line"@en,
-        "Guidance"@en,
-        "Reseach Support"@en,
-        "Research Data Management"@en,
-        "Research Skill"@en,
-        "Research Skills"@en,
-        "Self Learning"@en,
-        "Shell"@en,
-        "Skill"@en,
-        "Soft Skills"@en,
-        "Support"@en,
-        "Teaching"@en,
-        "Technical"@en,
-        "Terminal"@en,
-        "Training"@en,
-        "Upskill"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 a psdiDcatExt:Guidance ;
@@ -3390,52 +2969,8 @@ psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1 a psdiDcatExt:Guidance ;
         "Tracked Changes"@en,
         "Version Control"@en,
         "Work Flow"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/Litandref> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 a dcat:DataService ;
-    rdfs:label "LabTrove ELN Demonstrator"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-s-labTrove.svg> ;
-    dcterms:creator [ ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "LabTrove is a lightweight, blog-based Electronic Laboratory Notebook (ELN) that can be run through a browser. LabTrove provides facilities for users to record their experiments through both manual creation of records and the automatic capture of data from scientific instruments. LabTrove enables users to define their own semantics for their projects to facilitate linking together processes, data, and analysis from experiments. Templates can be created to standardise the format of information and data captured across a team or repeated experiments. The LabTrove ELN Demonstrator enables users to try it out and explore its features before deciding whether to download and implement the full version for themselves. Any data stored in this demonstrator will be cleared when the browser window is closed. To formally store data, users should download and run their own instance of LabTrove."@en ;
-    dcterms:identifier "psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "LabTrove ELN Demonstrator"@en ;
-    dcterms:type dcmitype:Service ;
-    adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:endpointURL <http://labtrove.psdi.ac.uk/> ;
-    dcat:inCatalog psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "labtrove"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://labtrove.psdi.ac.uk/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 a psdiDcatExt:Guidance ;
@@ -3470,7 +3005,7 @@ psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7 a psdiDcatExt:Guidance ;
         "Technical"@en,
         "Tuples"@en,
         "Variables"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/Python1> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
 
@@ -3480,7 +3015,7 @@ psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 a psdiDcatExt:Guidance ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "Tutorials with pre-loaded user environments for using aiida-gromacs to produce provenance workflows for biomolecular simulations."@en ;
+    dcterms:description "Tutorials with pre-loaded user environments for using aiida-gromacs to produce provenance workflows for biomolecular simulations ('Lysozyme MD simulation with aiida-gromacs' and 'GPCR coarse-grained simulation setup with aiida-gromacs')."@en ;
     dcterms:identifier "psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -3518,53 +3053,13 @@ psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 a psdiDcatExt:Guidance ;
         "simulation software"@en,
         "structural biology"@en,
         "trajectory"@en ;
-    dcat:landingPage <http://www.ccpbiosim.ac.uk/psdi-demo> ;
+    dcat:landingPage <https://www.ccpbiosim.ac.uk/notebooks> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68 ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f a psdiDcatExt:Guidance ;
-    rdfs:label "Using a Generic Digital Notebook as an ELN (OneNote)"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
-    dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This topic collection describes how to implement a generic digital notebook (such as OneNote) as an Electronic Lab Notebook. Templates and examples are provided for using digital notebooks with students and researchers."@en ;
-    dcterms:identifier "psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f"@en ;
-    dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Using a Generic Digital Notebook as an ELN (OneNote)"@en ;
-    dcterms:type dcmitype:Text ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/onenote> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 a psdiDcatExt:Guidance ;
@@ -3601,96 +3096,7 @@ psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 a psdiDcatExt:Guidance ;
         "Self Learning"@en,
         "Skill"@en,
         "Technical"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 a psdiDcatExt:Guidance ;
-    rdfs:label "Knowledge Base Article on Resource as a Whole (?)"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
-        <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "Documentation for installation, use and development guidance for the aiida-gromacs plugin."@en ;
-    dcterms:identifier "psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Knowledge Base Article on Resource as a Whole (?)"@en ;
-    dcterms:type dcmitype:Text ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 ;
-    dcat:keyword "aiida-gromacs"@en,
-        "aiida-plugin"@en,
-        "alchemical free energy"@en,
-        "alphafold"@en,
-        "amber"@en,
-        "biomolecular simulation"@en,
-        "biomolecules"@en,
-        "computational biochemistry"@en,
-        "computational biology"@en,
-        "computational chemistry"@en,
-        "data provenance"@en,
-        "data storage"@en,
-        "dna"@en,
-        "drug discovery"@en,
-        "enhanced sampling"@en,
-        "free energy"@en,
-        "membranes"@en,
-        "metadynamics"@en,
-        "molecular biology"@en,
-        "molecular dynamics"@en,
-        "pdb"@en,
-        "protein dynamics"@en,
-        "protein folding"@en,
-        "proteins"@en,
-        "provenance"@en,
-        "simulation provenance"@en,
-        "simulation software"@en,
-        "structural biology"@en,
-        "trajectory"@en ;
-    dcat:landingPage <http://XXXKNOWLEDGEBASEARTICLEWHENKNOWN> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
-        <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 a psdiDcatExt:Guidance ;
-    rdfs:label "Machine Learning I"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0003-1886-0378>,
-        <http://orcid.org/0000-0003-2583-5680> ;
-    dcterms:description "This course offers an introduction to machine learning, emphasizing its mathematical foundations. It delves into the essential mathematics behind core concepts, such as fitting data to lines using linear and polynomial regressions. Designed for advanced learners, this course is ideal for those already proficient in mathematics and Python coding."@en ;
-    dcterms:identifier "psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Machine Learning I"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 ;
-    dcat:keyword "AI"@en,
-        "Algebra"@en,
-        "Linear Regression"@en,
-        "ML"@en,
-        "Machine Learning"@en,
-        "Mathematics"@en,
-        "Maths"@en,
-        "Normal Equation"@en,
-        "Python"@en,
-        "Regression"@en,
-        "Research Skill"@en,
-        "Skill"@en,
-        "Technical"@en,
-        "Uses of Machine Learning"@en ;
-    dcat:landingPage <http://learn.psdi.ac.uk/moodle/XXX> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
+    dcat:landingPage <http://learn.psdi.ac.uk/moodle/Ethics> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 a dcat:Dataset ;
@@ -3761,7 +3167,7 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 a dcat:DataService ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Tools are available for users to create their own portals for customised data analysis. The Catalysis Data Infrastructure (CDI) serves as an example, showcasing how thematic portals can summarise catalysis research data and demonstrate the potential of these tools."@en ;
+    dcterms:description "The deployed Thematic Portal for the UK Catalysis Hub (CDI) offers summary reports on publications and research impact within this important scientific domain. It provides insights into publications, authors, institutions, top researchers, countries, and themes, while tracking changes over time to identify research trends. This use case illustrates how thematic portals can showcase research productivity, emphasize emerging trends, and simplify access to supporting data."@en ;
     dcterms:identifier "psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0"@en ;
     dcterms:issued "2021-04-12T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3792,59 +3198,13 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 a dcat:DataService ;
     foaf:name "Matthew Partridge"@en ;
     foaf:openid "http://orcid.org/0000-0001-5280-8309"@en .
 
-<http://orcid.org/0000-0001-6162-8895> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0001-6162-8895> ;
-    foaf:name "Dr. George T. Williams"@en ;
-    foaf:openid "http://orcid.org/0000-0001-6162-8895"@en .
-
 <http://orcid.org/0000-0001-9449-7350> a foaf:Agent ;
     foaf:name "Harvey Devereux"@en ;
     foaf:openid "http://orcid.org/0000-0001-9449-7350"@en .
 
-<http://orcid.org/0000-0001-9492-6143> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0001-9492-6143> ;
-    foaf:name "Lisa J. White"@en ;
-    foaf:openid "http://orcid.org/0000-0001-9492-6143"@en .
-
-<http://orcid.org/0000-0002-1406-8802> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0002-1406-8802> ;
-    foaf:name "Jennifer R. Hiscock"@en ;
-    foaf:openid "http://orcid.org/0000-0002-1406-8802"@en .
-
-<http://orcid.org/0000-0002-3706-2905> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0002-3706-2905> ;
-    foaf:name "Dominique F. Chu"@en ;
-    foaf:openid "http://orcid.org/0000-0002-3706-2905"@en .
-
-<http://orcid.org/0000-0002-9971-6118> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0002-9971-6118> ;
-    foaf:name "Nyasha Allen"@en ;
-    foaf:openid "http://orcid.org/0000-0002-9971-6118"@en .
-
-<http://orcid.org/0000-0003-0121-1697> a foaf:Agent ;
-    foaf:name "Stephen Gow"@en ;
-    foaf:openid "http://orcid.org/0000-0003-0121-1697"@en .
-
-<http://orcid.org/0000-0003-0832-4475> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0003-0832-4475> ;
-    foaf:name "Helena J. Shepherd"@en ;
-    foaf:openid "http://orcid.org/0000-0003-0832-4475"@en .
-
 <http://orcid.org/0000-0003-2397-1996> a foaf:Agent ;
     foaf:name "Aileen Day"@en ;
     foaf:openid "http://orcid.org/0000-0003-2397-1996"@en .
-
-<http://orcid.org/0000-0003-2502-5274> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://orcid.org/0000-0003-2502-5274> ;
-    foaf:name "Daniel P. Mulvihill"@en ;
-    foaf:openid "http://orcid.org/0000-0003-2502-5274"@en .
 
 <http://orcid.org/0009-0001-9720-3378> a foaf:Agent ;
     foaf:name "Gemma Poulter"@en ;
@@ -3858,23 +3218,12 @@ psdiDcat:fc2fbf02-8638-414b-acb9-a16ea44dfff0 a dcat:DataService ;
     foaf:name "Callum Webb"@en ;
     foaf:openid "http://orcid.org/0009-0005-9011-2472"@en .
 
+<http://orcid.org/0009-0009-9897-333X> a foaf:Agent ;
+    foaf:name "Thomas Allam"@en ;
+    foaf:openid "http://orcid.org/0009-0009-9897-333X"@en .
+
 <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> a foaf:Document ;
     rdfs:label "Introduction to Digital Notebooks and Electronic Laboratory Notebooks"@en .
-
-<http://pubs.acs.org/doi/10.1021/jacs.2c01768> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://pubs.acs.org/doi/10.1021/jacs.2c01768> ;
-    foaf:name "SolProp: Miscibility"@en ;
-    foaf:openid "http://pubs.acs.org/doi/10.1021/jacs.2c01768"@en .
-
-<http://query.wikidata.org/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://query.wikidata.org/> ;
-    foaf:name "WikiData: Boiling Point, Melting Point"@en ;
-    foaf:openid "http://query.wikidata.org/"@en .
-
-spdx:d4e4247 a spdx:ChecksumAlgorithm ;
-    rdfs:label "checksumAlgorithm_sha256"@en .
 
 <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> a prov:Attribution ;
     dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
@@ -3892,19 +3241,8 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     vcard:Name "CCDC Contact Support"@en ;
     vcard:hasURL "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/"@en .
 
-<http://www.ccpnc.ac.uk/magresview/magresview/magres_view.html> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "MagresView"@en .
-
 <http://www.coretrustseal.org/> a dcterms:Standard ;
     rdfs:label "CoreTrustSeal"@en .
-
-<http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm> a rdfs:Resource ;
-    rdfs:label "PSDI Data Conversion Service Documentation"@en .
-
-<http://www.data-revival.com/#contact> a vcard:Kind ;
-    vcard:Name "Data Revivial contact"@en ;
-    vcard:hasURL "http://www.data-revival.com/#contact"@en .
 
 <http://www.ddbst.com/ddb-vle.html> a prov:Attribution ;
     dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
@@ -3912,55 +3250,11 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     foaf:name "DDB2023: Miscibility"@en ;
     foaf:openid "http://www.ddbst.com/ddb-vle.html"@en .
 
-<http://www.linkedin.com/in/ben-wilson-kent/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/ben-wilson-kent/> ;
-    foaf:name "Ben Wilson"@en ;
-    foaf:openid "http://www.linkedin.com/in/ben-wilson-kent/"@en .
-
-<http://www.linkedin.com/in/jack-doyle-175183323/> a foaf:Agent ;
-    foaf:name "Jack Doyle"@en ;
-    foaf:openid "http://www.linkedin.com/in/jack-doyle-175183323/"@en .
-
-<http://www.linkedin.com/in/jessica-boles-a67791194/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194/> ;
-    foaf:name "Jessica E. Boles"@en ;
-    foaf:openid "http://www.linkedin.com/in/jessica-boles-a67791194/"@en .
-
-<http://www.linkedin.com/in/kendrickng1/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/kendrickng1/> ;
-    foaf:name "Kendrick K. L. Ng"@en ;
-    foaf:openid "http://www.linkedin.com/in/kendrickng1/"@en .
-
-<http://www.linkedin.com/in/laura-blackholly-74409482/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482/> ;
-    foaf:name "Laura R. Blackholly"@en ;
-    foaf:openid "http://www.linkedin.com/in/laura-blackholly-74409482/"@en .
-
-<http://www.linkedin.com/in/rebecca-ellaby/> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/rebecca-ellaby/> ;
-    foaf:name "Rebecca J. Ellaby"@en ;
-    foaf:openid "http://www.linkedin.com/in/rebecca-ellaby/"@en .
-
-<http://www.linkedin.com/in/stephen-wilson-017a7150/)?> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-    prov:agent <http://www.linkedin.com/in/stephen-wilson-017a7150/)?> ;
-    foaf:name "Steven M Wilson"@en ;
-    foaf:openid "http://www.linkedin.com/in/stephen-wilson-017a7150/)?"@en .
-
 <http://www.optimade.org/> a foaf:Agent,
         foaf:Document ;
-    rdfs:label "Optimade"@en ;
-    foaf:name "Optimade"@en ;
+    rdfs:label "OPTIMADE website"@en ;
+    foaf:name "OPTIMADE"@en ;
     foaf:openid "http://www.optimade.org/"@en .
-
-<http://www.psds.ac.uk/chase> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "About ChASe"@en .
 
 <http://www.psds.ac.uk/propersea> a rdfs:Resource,
         foaf:Document ;
@@ -3970,9 +3264,12 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         foaf:Document ;
     rdfs:label "Reproducible XAFS Analyses"@en .
 
-<https://edata.stfc.ac.uk/home> a rdfs:Resource,
+<https://ccp-nc.github.io/magresview-2/> a rdfs:Resource,
         foaf:Document ;
-    rdfs:label "About eData"@en .
+    rdfs:label "MagresView"@en .
+
+<https://data-conversion.psdi.ac.uk/static/content/documentation.htm> a rdfs:Resource ;
+    rdfs:label "PSDI Data Conversion Service Documentation"@en .
 
 <https://eln-finder.ulb.tu-darmstadt.de/home> a rdfs:Resource,
         foaf:Document ;
@@ -3986,13 +3283,17 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         foaf:Document ;
     rdfs:label "dlmonte-container github repository"@en .
 
-<https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/CMC_Collection> a rdfs:Resource,
+<https://github.com/PSDI-UK/psdi-datasets> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Physical_Chemistry_Properties_Data_Collection in github repository"@en .
+
+<https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "CMC_Collection in github repository"@en .
 
-<https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collections/Physical_Chemistry_Properties_Data_Collection> a rdfs:Resource,
+<https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> a rdfs:Resource,
         foaf:Document ;
-    rdfs:label "Physical_Chemistry_Properties_Data_Collection in github repository"@en .
+    rdfs:label "About eData"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> a rdfs:Resource ;
     rdfs:label "CCDC logo"@en .
@@ -4000,8 +3301,8 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> a rdfs:Resource ;
     rdfs:label "Data Revival logo"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-s-labTrove.svg> a rdfs:Resource ;
-    rdfs:label "LabTrove logo"@en .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> a rdfs:Resource ;
+    rdfs:label "PSDI Digital Lab Notebook Resources logo"@en .
 
 <https://tddft.org/bmg/data.php> a foaf:Document ;
     rdfs:label "homepage for alexandria"@en .
@@ -4010,55 +3311,18 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         foaf:Document ;
     rdfs:label "About Chemotion"@en .
 
-<http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> a foaf:Document ;
-    rdfs:label "Case Studies: Discovering Value in Legacy Data"@en,
-        "Making ESI Machine-Readable Case Study"@en,
-        "Resurrecting SHG Case Study"@en .
-
-<http://creativecommons.org/licenses/by/4.0/> a dcterms:LicenseDocument ;
-    rdfs:label "CC-By v4.0"@en,
-        "Creative Commons Attribution 4.0"@en .
-
 <http://data-conversion.psdi.ac.uk/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Data Conversion Service"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41> a skos:Concept ;
-    skos:prefLabel "Microscopy"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/2fba9c5c-193c-47ec-81f5-518020bff496> a skos:Concept ;
-    skos:prefLabel "Ceramics"@en .
-
 <http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> a skos:Concept ;
     skos:prefLabel "crystallography"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/3c7d4f8a-c885-4c6d-a41b-b3ff1cb3669c> a skos:Concept ;
-    skos:prefLabel "Biomaterials"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d> a skos:Concept ;
-    skos:prefLabel "nonlinear optics"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/65f1cb53-0694-477b-9900-61ac8ad78c67> a skos:Concept ;
-    skos:prefLabel "Geology"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> a skos:Concept ;
-    skos:prefLabel "Nano-materials"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/b235ad52-5fbd-4bad-b83f-60b1b43757f3> a skos:Concept ;
-    skos:prefLabel "Metallurgy"@en .
 
 <http://doi.org/10.1093/nar/gkae410> a rdfs:Resource ;
     rdfs:label "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update"@en .
 
 <http://galaxyproject.org/> a rdfs:Resource ;
     rdfs:label "Galaxy community hub"@en .
-
-<http://github.com/PSDI-UK/psdi-data-conversion> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "psdi-data-conversion github repository"@en .
-
-<http://github.com/PSDI-UK/psdi-data-conversion/blob/main/README.md> a rdfs:Resource ;
-    rdfs:label "psdi-data-conversion github repository README"@en .
 
 <http://github.com/UK-Catalysis-Hub/ukcathubapp> a rdfs:Resource,
         foaf:Document ;
@@ -4077,33 +3341,49 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         foaf:Document ;
     rdfs:label "Materials Galaxy homepage"@en .
 
-psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a a dcat:Catalog ;
-    rdfs:label "Case Studies: Discovering Value in Legacy Data"@en ;
-    psdiDcatExt:Guidance psdiDcat:0ce7f2d9-d187-4398-b113-947856712ec0,
-        psdiDcat:e29a8e03-eec9-4fd4-9d14-6a86c19938cd ;
+psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
+    rdfs:label "PSDI Digital Lab Notebook Resources"@en ;
+    psdiDcatExt:Guidance psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/caseStudies-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
+    dcterms:creator [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "0009-0000-6422-0342"@en ],
+        <http://orcid.org/0000-0002-0777-0855>,
         <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0121-1697>,
         <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0009-0009-9897-333X>,
-        <http://www.linkedin.com/in/jack-doyle-175183323/> ;
-    dcterms:description "This resource presents data exemplars and detailed case study reports from our investigations into unlocking the potential of legacy data. It highlights our approaches to meaningfully revive outdated datasets, enhancing their quality, and maximising their value. These efforts aim to provide practical guidance on methods for resurrecting data, uncovering value in hidden data sources, and accelerating scientific progress."@en ;
-    dcterms:identifier "psdiDcat:61577a4d-ced8-4ebd-9443-88a54b74de1a"@en ;
+        <http://orcid.org/0000-0003-1721-9212> ;
+    dcterms:description "This resource theme provides a range of services and guidance to help users explore and appreciate the importance of digital notebooks in documenting their experiments and research. The guidance introduces the benefits of both generic digital notebooks and Electronic Laboratory Notebooks (ELNs), and the different considerations for implementation in laboratories. The resource theme includes case studies and exemplars. It also links to ELNFinder which is an external service for which PSDI is an active collaborator. This service helps users find the most suitable ELN based on a comprehensive set of criteria."@en ;
+    dcterms:identifier "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Case Studies: Discovering Value in Legacy Data"@en ;
+    dcterms:title "PSDI Digital Lab Notebook Resources"@en ;
     dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/Completed> ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:DataService psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11 ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "electronic supplementary information"@en,
-        "second harmonic generation"@en ;
-    dcat:landingPage <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
-        <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
-        <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
+    dcat:keyword "Digital Lab Notebooks"@en,
+        "ELN"@en,
+        "FAIR Data"@en,
+        "Metadata"@en,
+        "Notebooking"@en,
+        "Process Recording"@en,
+        "Research Data Management"@en,
+        "digital-notebook"@en,
+        "electronic-laboratory-notebook"@en,
+        "eln"@en,
+        "labtrove"@en,
+        "note-taking"@en,
+        "notebook"@en,
+        "notes"@en,
+        "onenote"@en ;
+    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 a dcat:Catalog ;
@@ -4125,50 +3405,6 @@ psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91 a dcat:Catalog ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
 
-psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712 a psdiDcatExt:Guidance ;
-    rdfs:label "LabTrove Documentation"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-s-labTrove.svg> ;
-    dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This documentation provides in-depth user guidance on how to use the PSDI version of the LabTrove ELN."@en ;
-    dcterms:identifier "psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712"@en ;
-    dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "LabTrove Documentation"@en ;
-    dcterms:type dcmitype:Text ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "labtrove"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/examples/labtrove/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
 psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
     rdfs:label "Community Data Collections"@en ;
     psdiDcatExt:displayPriority 1 ;
@@ -4176,7 +3412,7 @@ psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08 a dcat:DataService ;
     dcterms:creator <http://linkedin.com/in/andrew-harper-654456241>,
         <http://orcid.org/0009-0001-9720-3378>,
         <http://orcid.org/0009-0005-9011-2472> ;
-    dcterms:description "Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets, currently serving the BioSim and Data to Knowledge communities, to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand Community Data Collections by including additional relevant scientific communities in the future."@en ;
+    dcterms:description "Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets, currently serving the BioSim and Data to Knowledge communities, to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users and we encourage members of the relevant communities to upload their data to PSDI Community Data Collections, in line with the relevant data curation policies. Authentication to PSDI will be required to do this. Plans are in place to expand Community Data Collections in the future by including additional relevant scientific communities."@en ;
     dcterms:identifier "psdiDcat:d81616df-3daf-44c3-98b4-841e277dfe08"@en ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4218,7 +3454,7 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Data Collections for Chemical Modelling"@en ;
     dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/Completed> ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:Dataset psdiDcat:44160b2f-5938-442e-9f0a-652eb55d1c2b,
         psdiDcat:a7c82670-d2e2-46c6-920a-74294289aa34 ;
     dcat:contactPoint [ a vcard:Kind ;
@@ -4268,7 +3504,7 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
 <http://www.ccpnc.ac.uk/database/faqs.html> a rdfs:Resource ;
     rdfs:label "CCP-NC database - Frequently Asked Questions"@en .
 
-<http://www.data-revival.psdi.ac.uk> a rdfs:Resource,
+<http://www.data-revival.com/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Data Revival service"@en .
 
@@ -4286,9 +3522,6 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
 <https://psdi-uk.github.io/docusaurus-pages/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Knowledge Base"@en .
-
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/caseStudies-r.svg> a rdfs:Resource ;
-    rdfs:label "Case Studies Resource Theme logo"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> a rdfs:Resource ;
     rdfs:label "Container Image Registry logo"@en .
@@ -4308,75 +3541,42 @@ psdiDcat:d9b4f050-69bb-467a-bc6c-c58bc0f25204 a dcat:Catalog ;
         foaf:Document ;
     rdfs:label "PSDI Cross Data Search"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> a skos:Concept ;
-    skos:prefLabel "Materials Engineering"@en,
-        "materials engineering"@en .
+<http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
+    skos:prefLabel "chemical sciences"@en .
 
-psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7 a dcat:Catalog ;
-    rdfs:label "Open Materials Micrograph Repository (O2MR)"@en ;
-    psdiDcatExt:Tool psdiDcat:5b584eb3-3b07-48c5-bb89-3e5382eeea2d ;
+psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b a dcat:Catalog ;
+    rdfs:label "PSDI Data Conversion"@en ;
+    psdiDcatExt:Tool psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039,
+        psdiDcat:64af3a23-2d41-4079-a014-db366096434a ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/o2mr-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-6199-5094>,
-        <http://orcid.org/0000-0002-9775-687X>,
-        <http://www.linkedin.com/in/benjefferson/> ;
-    dcterms:description "The Open Materials Micrograph Repository (O2MR) is a platform for sharing and accessing materials micrographs for use and reuse. The O2MR extends to data acquired from materials that can be represented as an image, not limited to optical micrography. The O2MR will enable users to submit records, search for records of materials micrographs, and curate collections of records. Search is supported by a data model that enables the use of (combined) filtering on features such as material class, processing, acquisition technique, and reuse potential, such as educational, reference and machine learning purposes."@en ;
-    dcterms:identifier "psdiDcat:2f05bae4-66cd-4aa6-b8cd-20b48f7248d7"@en ;
+    psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
+    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
+        <http://orcid.org/0000-0002-4478-1270>,
+        <http://orcid.org/0000-0002-4831-9489>,
+        <http://orcid.org/0000-0003-0842-4302>,
+        <http://orcid.org/0009-0002-4762-5852>,
+        <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
+    dcterms:description "Your one-stop shop for file format conversion, PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and assess the quality of proposed conversions. Several options are available, depending on whether you want to upload your data to PSDI or run the conversion locally or as part of your own applications. These options include: the PSDI Hosted Web Application, a standalone Command Line application that can be installed and run locally, and a Python library for integration into your own pipelines."@en ;
+    dcterms:identifier "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
+    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <http://creativecommons.org/licenses/by/4.0/> ;
+    dcterms:license <http://www.gnu.org/licenses/gpl-3.0.en.html> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Open Materials Micrograph Repository (O2MR)"@en ;
+    dcterms:title "PSDI Data Conversion"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService psdiDcat:5b2ee0ea-6955-42f4-991e-f9d8ec050b78 ;
-    dcat:Dataset psdiDcat:47aba175-b56f-474c-aa70-3db48482f6d4 ;
+    dcat:DataService psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "4d stem"@en,
-        "4d-stem"@en,
-        "4dstem"@en,
-        "alloy"@en,
-        "alloys"@en,
-        "ceramic"@en,
-        "ceramics"@en,
-        "characterisation"@en,
-        "composite material"@en,
-        "composite materials"@en,
-        "composites"@en,
-        "electron microscopy"@en,
-        "engineering"@en,
-        "engineering materials"@en,
-        "functional materials"@en,
-        "light microscopy"@en,
-        "material characterisation"@en,
-        "material characterization"@en,
-        "materials characterisation"@en,
-        "materials characterization"@en,
-        "materials engineering"@en,
-        "materials science"@en,
-        "metal"@en,
-        "metals"@en,
-        "micrograph"@en,
-        "micrography"@en,
-        "microscopy"@en,
-        "nanograph"@en,
-        "nanography"@en,
-        "optical microscopy"@en,
-        "scanning electron microscopy"@en,
-        "scanning transmission electron microscopy"@en,
-        "sem"@en,
-        "stem"@en,
-        "tem"@en,
-        "transmission electron microscopy"@en ;
-    dcat:landingPage <http://micrograph.royce.ac.uk> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
-        <http://data.europa.eu/8mn/euroscivoc/2fba9c5c-193c-47ec-81f5-518020bff496>,
-        <http://data.europa.eu/8mn/euroscivoc/3c7d4f8a-c885-4c6d-a41b-b3ff1cb3669c>,
-        <http://data.europa.eu/8mn/euroscivoc/65f1cb53-0694-477b-9900-61ac8ad78c67>,
-        <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1>,
-        <http://data.europa.eu/8mn/euroscivoc/b235ad52-5fbd-4bad-b83f-60b1b43757f3>,
-        <http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad> ;
-    prov:qualifiedAttribution <http://ror.org/013a0r905> .
+    dcat:keyword "Data Conversion"@en,
+        "Data Convertors"@en,
+        "Data Quality Assessment"@en ;
+    dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:8070e4aa-9dd5-4f39-9e3b-e121317ef361 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
 psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 a dcat:Dataset ;
     rdfs:label "CCP-NC Magres database"@en ;
@@ -4410,7 +3610,8 @@ psdiDcat:7e871747-1bd3-4abf-8fe3-dc4ec55b3771 a dcat:Dataset ;
         "Quantum Espresso"@en,
         "SSNMR"@en ;
     dcat:landingPage <http://www.ccpnc.ac.uk/database/> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
@@ -4476,34 +3677,28 @@ psdiDcat:bc930fa5-63da-4707-80f8-3c642960796a a dcat:Dataset ;
     foaf:name "Samuel Munday"@en ;
     foaf:openid "http://orcid.org/0000-0001-5404-6934"@en .
 
-<http://orcid.org/0000-0002-6199-5094> a foaf:Agent ;
-    foaf:name "Stavrina Dimosthenous"@en ;
-    foaf:openid "http://orcid.org/0000-0002-6199-5094"@en .
+<http://orcid.org/0000-0002-4478-1270> a foaf:Agent ;
+    foaf:name "Bryan Gillis"@en ;
+    foaf:openid "http://orcid.org/0000-0002-4478-1270"@en .
 
-<http://orcid.org/0000-0002-9775-687X> a foaf:Agent ;
-    foaf:name "Christopher Race"@en ;
-    foaf:openid "http://orcid.org/0000-0002-9775-687X"@en .
-
-<http://orcid.org/0009-0009-9897-333X> a foaf:Agent ;
-    foaf:name "Thomas Allam"@en ;
-    foaf:openid "http://orcid.org/0009-0009-9897-333X"@en .
-
-<http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
-    skos:prefLabel "data processing"@en .
+<http://orcid.org/0009-0002-4762-5852> a foaf:Agent ;
+    foaf:name "Raymond Whorley"@en ;
+    foaf:openid "http://orcid.org/0009-0002-4762-5852"@en .
 
 <http://www.ccpnc.ac.uk/contact> a vcard:Kind ;
     vcard:Name "CCP-NC contact us"@en ;
     vcard:hasURL "http://www.ccpnc.ac.uk/contact"@en .
 
-<http://www.linkedin.com/in/benjefferson/> a foaf:Agent ;
-    foaf:name "Ben Jefferson"@en ;
-    foaf:openid "http://www.linkedin.com/in/benjefferson/"@en .
+<http://www.linkedin.com/in/sam-hyder-172a86250/> a foaf:Agent ;
+    foaf:name "Samuel Hyder"@en ;
+    foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> a rdfs:Resource ;
-    rdfs:label "PSDI Digital Lab Notebook Resources logo"@en .
+<https://pypi.org/project/psdi-data-conversion/> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "psdi-data-conversion PyPi"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/o2mr-r.svg> a rdfs:Resource ;
-    rdfs:label "O2MR logo"@en .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> a rdfs:Resource ;
+    rdfs:label "Data Conversion Service logo"@en .
 
 <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> a vcard:Kind ;
     vcard:Name "ukcathubapp github issues"@en ;
@@ -4515,7 +3710,7 @@ psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 a dcat:Dataset ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/continuous> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. The Catalysis Data Infrastructure (CDI) serves as an example - its SQL database contains information about publications, authors, institutions, and data objects generated by UK Catalysis Hub researchers."@en ;
+    dcterms:description "The database model for the CDI underpins the knowledge graph of a research community, linking research products (publications, data) and entities (researchers, institutions). It enables data discovery, showcases collaborations, and provides insights into research output. While centred on Published Works, Researchers, Institutions, Research Themes, and Data Objects, it can be extended to support domain-specific data (e.g., chemical entities, materials, analysis methods) tailored to the needs of different communities."@en ;
     dcterms:identifier "psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en ;
     dcterms:isPartOf psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 ;
     dcterms:issued "2022-10-14T00:00:00+00:00"^^xsd:dateTime ;
@@ -4534,49 +3729,13 @@ psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 a dcat:Dataset ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     odrl:hasPolicy psdiPol:openAccess .
 
-psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b a dcat:Catalog ;
-    rdfs:label "PSDI Data Conversion"@en ;
-    psdiDcatExt:Tool psdiDcat:17eb8ab9-d2c3-46b9-bc1b-d352073f1306,
-        psdiDcat:5ccd88f7-c182-42a1-9c55-c325ffe30039,
-        psdiDcat:64af3a23-2d41-4079-a014-db366096434a ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:furtherInformation <http://www.data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
-    dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4478-1270>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0009-0002-4762-5852>,
-        <http://www.linkedin.com/in/sam-hyder-172a86250/> ;
-    dcterms:description "Your one-stop shop for file format conversion, PSDI's Data Conversion Service enables users to seamlessly convert between different file formats and assess the quality of proposed conversions. Several options are available, depending on whether you want to upload your data to PSDI or run the conversion locally or as part of your own applications. These options include: the PSDI Hosted Web Application, a containerised web application that can run standalone outside of PSDI, a standalone Command Line service that can be installed and run locally, and a Python library for integration into your own pipelines."@en ;
-    dcterms:identifier "psdiDcat:7bcc430a-fdc9-413e-bf32-bf163236430b"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <http://www.gnu.org/licenses/gpl-3.0.en.html> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PSDI Data Conversion"@en ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService psdiDcat:8334f94b-1c6e-4034-a5ab-71c6df375cba ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "All file formats"@en,
-        "Data Conversion"@en,
-        "Data Convertors"@en,
-        "Data Quality Assessment"@en ;
-    dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:8070e4aa-9dd5-4f39-9e3b-e121317ef361 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
-
 psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb a dcat:Catalog ;
     rdfs:label "Thematic portal"@en ;
     psdiDcatExt:Tool psdiDcat:fa4cf273-773f-48b3-aace-7aebdbc27306 ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
-    dcterms:description "A Thematic Portal provides a summary report on publications and research impact within a specific scientific theme, based on a selected grant or institution. It presents information on publications, authors, institutions, top researchers, countries, and themes, tracking changes over time to highlight key research trends. Tools are available for users to create their own portals for customised data analysis. The Catalysis Data Infrastructure (CDI) serves as an example, showcasing how thematic portals can summarise catalysis research data and demonstrate the potential of these tools."@en ;
+    dcterms:description "The Physical Sciences Data Infrastructure (PSDI) is set to become the largest UK data infrastructure for the physical sciences, supporting diverse research communities in accessing and sharing data resources. Community portals are designed to provide customized access points, enabling communities to showcase the research outputs generated using PSDI's resources and services. The database, services, code, and deployed portal demonstrate the benefits of community portals, highlighting their adaptability and ease of customization and deployment for diverse research communities."@en ;
     dcterms:identifier "psdiDcat:c670ea46-1db5-4439-9fef-a922c6452ebb"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4624,25 +3783,18 @@ psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70 a dcat:Catalog ;
     dcat:landingPage <https://psdi-uk.github.io/docusaurus-pages/> ;
     odrl:hasPolicy psdiPol:openAccess .
 
-<http://micrograph.royce.ac.uk> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "Open Materials Micrograph Repository"@en .
+<http://opensource.org/license/mit> a dcterms:LicenseDocument ;
+    rdfs:label "The MIT License"@en .
 
 <http://orcid.org/0000-0001-8286-3835> a foaf:Agent ;
     foaf:name "Nicola Knight"@en ;
     foaf:openid "http://orcid.org/0000-0001-8286-3835"@en .
 
-<http://orcid.org/0000-0002-4478-1270> a foaf:Agent ;
-    foaf:name "Bryan Gillis"@en ;
-    foaf:openid "http://orcid.org/0000-0002-4478-1270"@en .
-
 <http://orcid.org/0000-0003-4485-3446> a foaf:Agent ;
     foaf:name "John Kane Shenton"@en ;
     foaf:openid "http://orcid.org/0000-0003-4485-3446"@en .
 
-<http://orcid.org/0009-0002-4762-5852> a foaf:Agent ;
-    foaf:name "Raymond Whorley"@en ;
-    foaf:openid "http://orcid.org/0009-0002-4762-5852"@en .
+<http://purl.org/adms/status/Completed> a rdfs:Resource .
 
 <http://ror.org/00zbfm828> a prov:Attribution,
         foaf:Agent ;
@@ -4652,25 +3804,12 @@ psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70 a dcat:Catalog ;
         "Cambridge Crystallographic Data Centre"@en ;
     foaf:openid "http://ror.org/00zbfm828"@en .
 
-<http://ror.org/013a0r905> a prov:Attribution ;
-    dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-    prov:agent <http://ror.org/013a0r905> ;
-    foaf:name "The Henry Royce Institute"@en ;
-    foaf:openid "http://ror.org/013a0r905"@en .
-
 <http://www.ccpnc.ac.uk/database/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "CCP-NC Database"@en .
 
-<http://www.linkedin.com/in/sam-hyder-172a86250/> a foaf:Agent ;
-    foaf:name "Samuel Hyder"@en ;
-    foaf:openid "http://www.linkedin.com/in/sam-hyder-172a86250/"@en .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> a rdfs:Resource ;
     rdfs:label "Catalysis Hub CDI logo"@en .
-
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> a rdfs:Resource ;
-    rdfs:label "Data Conversion Service logo"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> a rdfs:Resource ;
     rdfs:label "PSDI Knowledge Base Topics"@en .
@@ -4678,8 +3817,17 @@ psdiDcat:dbb09221-f69d-4751-9f51-7623209d2c70 a dcat:Catalog ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> a rdfs:Resource ;
     rdfs:label "MLIP logo"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> a skos:Concept ;
-    skos:prefLabel "mass spectrometry"@en .
+<http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a> a skos:Concept ;
+    skos:prefLabel "soft matter physics"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b> a skos:Concept ;
+    skos:prefLabel "molecular biology"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> a skos:Concept ;
+    skos:prefLabel "simulation software"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a> a skos:Concept ;
+    skos:prefLabel "quantum chemistry"@en .
 
 psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e a dcat:Catalog ;
     rdfs:label "CCP-NC"@en ;
@@ -4708,176 +3856,13 @@ psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e a dcat:Catalog ;
         "NMR"@en,
         "SSNMR"@en ;
     dcat:landingPage <http://www.ccpnc.ac.uk/database/> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/22aa7f46-de22-440d-8864-ff867878f11f> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-<http://opensource.org/license/mit> a dcterms:LicenseDocument ;
-    rdfs:label "The MIT License"@en .
-
-<http://orcid.org/0000-0002-7013-6670> a foaf:Agent ;
-    foaf:name "Alin M. Elena"@en,
-        "Alin Marin Elena"@en,
-        "Alin-Marin Elena"@en ;
-    foaf:openid "http://orcid.org/0000-0002-7013-6670"@en .
-
-<http://orcid.org/0009-0000-6422-0342> a foaf:Agent ;
-    foaf:name "Louise Saul"@en ;
-    foaf:openid "http://orcid.org/0009-0000-6422-0342"@en .
-
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> a rdfs:Resource ;
-    rdfs:label "CCP-NC logo"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a> a skos:Concept ;
-    skos:prefLabel "soft matter physics"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b> a skos:Concept ;
-    skos:prefLabel "molecular biology"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> a skos:Concept ;
-    skos:prefLabel "catalysis"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> a skos:Concept ;
-    skos:prefLabel "simulation software"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
-    skos:prefLabel "machine learning"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
-    skos:prefLabel "chemical sciences"@en .
-
-psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da a dcat:Catalog ;
-    rdfs:label "PSDI Digital Lab Notebook Resources"@en ;
-    psdiDcatExt:Guidance psdiDcat:89fe0d12-8905-4f45-b8fd-56dc16f6b712,
-        psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41,
-        psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
-    psdiDcatExt:Tool psdiDcat:fff10ebe-929b-4781-9dee-c46edf063004 ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
-    dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This resource theme provides a range of services and guidance to help users explore and appreciate the importance of digital notebooks in documenting their experiments and research. The guidance introduces the benefits of both generic digital notebooks and Electronic Laboratory Notebooks (ELNs), covering their implementation and considerations for transitioning from paper to paperless laboratories. The resource theme includes case studies and exemplars, such as OneNote for students and a variety of ELNs. ELNFinder, for which PSDI is an active collaborator, helps users find the most suitable ELN based on a comprehensive set of criteria. PSDI Digital Lab Notebook Resources also include the free-to-use LabTrove ELN, which can be trialed through an online demo or downloaded as a container image for individual or departmental use."@en ;
-    dcterms:identifier "psdiDcat:7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PSDI Digital Lab Notebook Resources"@en ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService psdiDcat:d32605b6-d9a2-4744-bfe2-837f0d8c6547,
-        psdiDcat:d520fdb5-ebae-4746-80dd-59c5231cee11 ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "labtrove"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:d8cc707a-0e0e-4ea6-9b9d-68996d65e62f ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:9dd03bfc-4c81-478b-a949-23a42e5ccc41 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
-    odrl:hasPolicy psdiPol:openAccess .
-
-psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 a dcat:Catalog ;
-    rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
-    psdiDcatExt:displayPriority 3 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
-    dcterms:description "This resource theme includes data sources searchable via the PSDI Cross Data Search service. Users can search for substances (e.g., molecules or crystal structures) or publication references, depending on the selected data sources. It incorporates data from PSDI, partners, OPTIMADE providers, and other relevant external sources, offering a comprehensive discovery tool for the research community."@en ;
-    dcterms:hasPart psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803,
-        psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
-    dcterms:identifier "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Data Sources for PSDI Cross Data Search"@en ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6,
-        psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76,
-        psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6,
-        psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 ;
-    dcat:keyword "physical sciences"@en ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
-
-<http://orcid.org/0000-0001-7348-7612> a foaf:Agent ;
-    foaf:name "Abraham Nieva De La Hidalga"@en ;
-    foaf:openid "http://orcid.org/0000-0001-7348-7612"@en .
-
-<http://orcid.org/0000-0001-8271-3431> a foaf:Agent ;
-    foaf:name "James Gebbie-Rayet"@en ;
-    foaf:openid "http://orcid.org/0000-0001-8271-3431"@en .
-
-<http://orcid.org/0000-0002-6833-1864> a foaf:Agent ;
-    foaf:name "Jas Kalayan"@en ;
-    foaf:openid "http://orcid.org/0000-0002-6833-1864"@en .
-
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> a rdfs:Resource ;
-    rdfs:label "BioSimDB logo"@en .
-
-<http://learn.psdi.ac.uk/moodle/XXX> a foaf:Document ;
-    rdfs:label "Command Line and Bash Skills4Scientists"@en,
-        "Ethics Skills4Scientists"@en,
-        "Literature and Referencing Skills4Scientists"@en,
-        "Machine Learning I Skills4Scientists"@en,
-        "Python I Skills4Scientists"@en,
-        "Python II Skills4Scientists"@en,
-        "Research Data Management Skills4Scientists"@en,
-        "Version Control and Github Skills4Scientists"@en .
-
-psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 a dcat:Catalog ;
-    rdfs:label "MLIP"@en ;
-    psdiDcatExt:Guidance psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2,
-        psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 ;
-    psdiDcatExt:Tool psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386,
-        psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55,
-        psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
-    dcterms:creator <http://orcid.org/0000-0002-7013-6670> ;
-    dcterms:description """Machine learning has transformed the field of materials modelling in the last few years. Given access to high-quality data from computations and/or experiments, machine learning can be used to develop expert systems powered by large language models (such as ChatGPT). These expert systems can be to train surrogate models that can predict properties of structures, eliminating the need for simulations, or speed up simulations by using machine learnt interatomic potentials (MLIPs). The Data to Knowledge resource theme is dedicated to making the creation of these models possible by providing data infrastructure and workflows enabling the generation and exploitation of these machine learnt models. 
-The Data to Knowledge collections comprise curated datasets designed for use in machine learning or generated through machine learning. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIPs XYZ files used for training, the trained model itself, and, where possible, related data such as AIIDA provenance records. Making these datasets available enables those without the resources to compute data themselves to utilise them for machine learning and modelling. Training is a central focus of this resource theme. We provide two types of training: general training and tool-specific training. Our general training is provided as self-paced learning online."""@en ;
-    dcterms:identifier "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Data to Knowledge"@en ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "AIIDA provenance records"@en,
-        "MLIP"@en,
-        "Machine Learning Interatomic Potentials"@en,
-        "machine learning"@en ;
-    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     odrl:hasPolicy psdiPol:openAccess .
 
 psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 a dcat:Catalog ;
     rdfs:label "BioSim data resource"@en ;
-    psdiDcatExt:Guidance psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57,
-        psdiDcat:e930c04c-66ec-41cf-b629-e56fe17bcc51 ;
+    psdiDcatExt:Guidance psdiDcat:d543bbab-ce55-41ca-a4ab-b61ff0bbfd57 ;
     psdiDcatExt:Tool psdiDcat:60d5fc04-1980-4362-9fd8-fe4cb37c02c6,
         psdiDcat:772d0dc0-e082-44ef-a450-fa674c775e68,
         psdiDcat:89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef ;
@@ -4885,7 +3870,7 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 a dcat:Catalog ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
-    dcterms:description "BioSim is a collection of tools and services designed to transform biomolecular simulations by capturing and archiving the full provenance of each simulation. It meticulously records every step - from experimental structures to force field configurations and computational parameters - ensuring research is reproducible, transparent, and efficient. This approach helps scientists to avoid redundant efforts, improves the reliability of findings, and supports AI-driven drug discovery and molecular modelling."@en ;
+    dcterms:description "BioSimDR (Biomolecular Simulation Data Resources) is a collection of tools and data services designed to transform and store biomolecular simulations by capturing and archiving the full provenance of each simulation. Our tools can be used to meticulously record every step - from experimental structures to force field configurations and computational parameters - ensuring research is reproducible, transparent, and efficient. Our data services allow for biomolecular simulations to be stored, shared, and discovered in one place. This approach helps scientists to avoid redundant efforts, improves the reliability of findings, and supports AI-driven drug discovery and molecular modelling."@en ;
     dcterms:identifier "psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
@@ -4926,13 +3911,24 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 a dcat:Catalog ;
         "structural biology"@en,
         "trajectory"@en ;
     dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation psdiDcat:aa277528-9c45-4c02-834a-991597332ce6 ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
     odrl:hasPolicy psdiPol:openAccess .
+
+<http://orcid.org/0000-0001-8271-3431> a foaf:Agent ;
+    foaf:name "James Gebbie-Rayet"@en ;
+    foaf:openid "http://orcid.org/0000-0001-8271-3431"@en .
+
+<http://orcid.org/0000-0002-6833-1864> a foaf:Agent ;
+    foaf:name "Jas Kalayan"@en ;
+    foaf:openid "http://orcid.org/0000-0002-6833-1864"@en .
+
+<http://orcid.org/0000-0002-7013-6670> a foaf:Agent ;
+    foaf:name "Alin M. Elena"@en,
+        "Alin Marin Elena"@en,
+        "Alin-Marin Elena"@en ;
+    foaf:openid "http://orcid.org/0000-0002-7013-6670"@en .
 
 <http://orcid.org/0000-0003-1886-0378> a foaf:Agent ;
     foaf:name "Philip Leadbitter"@en ;
@@ -4942,28 +3938,26 @@ psdiDcat:b01dc999-4bb5-49d8-8a45-23cef457d6b4 a dcat:Catalog ;
     foaf:name "Joanna Grundy"@en ;
     foaf:openid "http://orcid.org/0000-0003-2583-5680"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808> a skos:Concept ;
-    skos:prefLabel "absorption spectroscopy"@en .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> a rdfs:Resource ;
+    rdfs:label "BioSimDB logo"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8> a skos:Concept ;
-    skos:prefLabel "spectroscopy"@en .
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> a rdfs:Resource ;
+    rdfs:label "CCP-NC logo"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6> a skos:Concept ;
+<http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> a skos:Concept ;
     skos:prefLabel "catalysis"@en .
 
-<http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> a skos:Concept ;
-    skos:prefLabel "condensed matter physics"@en .
+<http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
+    skos:prefLabel "machine learning"@en .
 
 psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 a dcat:Catalog ;
     rdfs:label "PSDI Skills4Scientists"@en ;
     psdiDcatExt:Guidance psdiDcat:0b8c77cf-0e18-4f15-b75f-81a8ed655fbc,
         psdiDcat:294760c8-20de-4155-9951-08bccc87a593,
         psdiDcat:76a1e069-ada0-41a6-bff9-fa7236d3a4ae,
-        psdiDcat:7bf5826f-51f8-4242-90aa-b694136deec9,
         psdiDcat:b67907c2-490b-445c-8420-fee8cdde1cd1,
         psdiDcat:d3e919be-ec5c-4164-95f8-8b94c83280f7,
-        psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0,
-        psdiDcat:ec1bc078-cd49-41e4-8087-995c0597a974 ;
+        psdiDcat:e14e0d9e-8bca-43d1-96c5-36f274a5ace0 ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8286-3835>,
@@ -4999,6 +3993,82 @@ psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 a dcat:Catalog ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     odrl:hasPolicy psdiPol:openAccess .
 
+psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622 a dcat:Catalog ;
+    rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
+    psdiDcatExt:displayPriority 3 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
+    dcterms:description "This resource theme includes data sources searchable via the PSDI Cross Data Search service. Users can search for substances (e.g., molecules or crystal structures) or publication references, depending on the selected data sources. It incorporates data from PSDI, partners, OPTIMADE providers, and other relevant external sources, offering a comprehensive discovery tool for the research community."@en ;
+    dcterms:hasPart psdiDcat:07d83ee6-bad9-4c23-abea-ac70745b0803,
+        psdiDcat:530ae29a-89eb-4562-b918-1fb66d8bfdb2 ;
+    dcterms:identifier "psdiDcat:e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "Data Sources for PSDI Cross Data Search"@en ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:Dataset psdiDcat:01c14e6c-7dd2-4e25-96f2-75bb02400ed6,
+        psdiDcat:06bdf98c-e51b-4656-a424-2c9e80b68c76,
+        psdiDcat:6304dad5-8c21-4d05-aa38-349b641ffbf6,
+        psdiDcat:e0e14403-1575-43db-a677-89aa515968e4 ;
+    dcat:keyword "physical sciences"@en ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
+
+<http://orcid.org/0000-0001-7348-7612> a foaf:Agent ;
+    foaf:name "Abraham Nieva De La Hidalga"@en ;
+    foaf:openid "http://orcid.org/0000-0001-7348-7612"@en .
+
+<http://orcid.org/0009-0000-6422-0342> a foaf:Agent ;
+    foaf:name "Louise Saul"@en ;
+    foaf:openid "http://orcid.org/0009-0000-6422-0342"@en .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> a rdfs:Resource ;
+    rdfs:label "Skills4Scientists logo"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808> a skos:Concept ;
+    skos:prefLabel "absorption spectroscopy"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8> a skos:Concept ;
+    skos:prefLabel "spectroscopy"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6> a skos:Concept ;
+    skos:prefLabel "catalysis"@en .
+
+psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992 a dcat:Catalog ;
+    rdfs:label "MLIP"@en ;
+    psdiDcatExt:Guidance psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2,
+        psdiDcat:cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4 ;
+    psdiDcatExt:Tool psdiDcat:290bd5d1-95fa-49f5-958e-f62b2ed66386,
+        psdiDcat:6bcaa538-a26f-4720-a505-bada3aa52f55,
+        psdiDcat:f988614a-ab07-4fb6-b0ee-83f19024399d ;
+    psdiDcatExt:displayPriority 2 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
+    dcterms:creator <http://orcid.org/0000-0002-7013-6670> ;
+    dcterms:description """Machine learning has transformed the field of materials modelling in the last few years. Given access to high-quality data from computations and/or experiments, machine learning can be used to develop expert systems powered by large language models (such as ChatGPT). These expert systems can be to train surrogate models that can predict properties of structures, eliminating the need for simulations, or speed up simulations by using machine learnt interatomic potentials (MLIPs). The Data to Knowledge resource theme is dedicated to making the creation of these models possible by providing data infrastructure and workflows enabling the generation and exploitation of these machine learnt models. 
+The Data to Knowledge collections comprise curated datasets designed for use in machine learning or generated through machine learning. An example is the Machine Learning Interatomic Potentials (MLIPs) data collection, which includes MLIPs XYZ files used for training, the trained model itself, and, where possible, related data such as AIIDA provenance records. Making these datasets available enables those without the resources to compute data themselves to utilise them for machine learning and modelling. Training is a central focus of this resource theme. We provide two types of training: general training and tool-specific training. Our general training is provided as self-paced learning online."""@en ;
+    dcterms:identifier "psdiDcat:aa3bd192-f865-45fd-9d0b-b6a9d6071992"@en ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "Data to Knowledge"@en ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:Dataset psdiDcat:771d2ae4-7f19-4258-b144-dc212cef6e43 ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+    dcat:keyword "AIIDA provenance records"@en,
+        "MLIP"@en,
+        "Machine Learning Interatomic Potentials"@en,
+        "machine learning"@en ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation psdiDcat:6974a979-d7f2-4c89-80c7-ba67930661d2 ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
+    odrl:hasPolicy psdiPol:openAccess .
+
+<http://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
+    foaf:name "Cerys Willoughby"@en ;
+    foaf:openid "http://orcid.org/0000-0003-1721-9212"@en .
+
 <http://orcid.org/0000-0003-2777-5167> a foaf:Agent ;
     foaf:name "Leandro Liborio"@en ;
     foaf:openid "http://orcid.org/0000-0003-2777-5167"@en .
@@ -5011,18 +4081,23 @@ psdiDcat:2ac608e9-ad90-4216-881d-30004331ebf7 a dcat:Catalog ;
     foaf:name "Subindev Devadasan"@en ;
     foaf:openid "https://orcid.org/0009-0001-1723-4394"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> a rdfs:Resource ;
-    rdfs:label "Skills4Scientists logo"@en .
+<http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> a skos:Concept ;
+    skos:prefLabel "data exchange"@en .
 
 <http://purl.org/cld/freq/irregular> a dcterms:Frequency .
+
+<http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> a rdfs:Resource ;
+    rdfs:label "resourceProvider"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource ;
     rdfs:label "Galaxy logo"@en .
 
+<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
+    skos:prefLabel "data processing"@en .
+
 psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
     rdfs:label "Galaxy"@en ;
     psdiDcatExt:Guidance psdiDcat:0d209bb0-6bda-4d27-b3f0-10346f9a55b8,
-        psdiDcat:39ffbb7e-8cea-4287-98f0-d268b14ae4f2,
         psdiDcat:5bbc1e38-2c64-4752-addd-70920f5159f1,
         psdiDcat:95494058-7de8-4a22-9da1-c68f4497c40f,
         psdiDcat:b1dda790-7dcb-4588-899a-238080ed7c58,
@@ -5049,9 +4124,9 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
         psdiDcat:66d10e20-66ea-49a7-a29a-be94cd2be77b ;
     dcat:Dataset psdiDcat:f40b1d5b-2b86-4381-959b-74ec89b854c7 ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -5065,40 +4140,15 @@ psdiDcat:dac6ab91-fd6e-43e1-b54a-55adc7548b14 a dcat:Catalog ;
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
-    foaf:name "Cerys Willoughby"@en ;
-    foaf:openid "http://orcid.org/0000-0003-1721-9212"@en .
-
-<http://purl.org/adms/status/Completed> a rdfs:Resource .
-
-<http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> a rdfs:Resource ;
-    rdfs:label "author"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> a skos:Concept ;
-    skos:prefLabel "data exchange"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> a skos:Concept ;
-    skos:prefLabel "physical sciences"@en .
+<http://orcid.org/0000-0002-0777-0855> a foaf:Agent ;
+    foaf:name "Don Cruickshank"@en ;
+    foaf:openid "http://orcid.org/0000-0002-0777-0855"@en .
 
 dcmitype:Software a skos:Concept ;
     skos:prefLabel "Software"@en .
 
-dcmitype:Service a skos:Concept ;
-    skos:prefLabel "Service"@en .
-
-<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
-    skos:prefLabel "data processing"@en .
-
-dcmitype:Collection a skos:Concept ;
-    skos:prefLabel "Collection"@en .
-
-<http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> a rdfs:Resource ;
-    rdfs:label "resourceProvider"@en .
-
-<http://orcid.org/0000-0002-0777-0855> a foaf:Agent ;
-    foaf:name "Don Cruickshank"@en,
-        "Donald Cruickshank"@en ;
-    foaf:openid "http://orcid.org/0000-0002-0777-0855"@en .
+<http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> a skos:Concept ;
+    skos:prefLabel "physical sciences"@en .
 
 <http://orcid.org/0000-0003-0842-4302> a foaf:Agent ;
     foaf:name "Jeremy Frey"@en,
@@ -5106,16 +4156,25 @@ dcmitype:Collection a skos:Concept ;
         "Samantha Pearman-Kanza"@en ;
     foaf:openid "http://orcid.org/0000-0003-0842-4302"@en .
 
+dcmitype:Service a skos:Concept ;
+    skos:prefLabel "Service"@en .
+
+<http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> a skos:Concept ;
+    skos:prefLabel "condensed matter physics"@en .
+
 <http://orcid.org/0000-0002-4831-9489> a foaf:Agent ;
     foaf:name "Jeremy G. Frey"@en,
         "Samantha Pearman-Kanza"@en ;
     foaf:openid "http://orcid.org/0000-0002-4831-9489"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
-    rdfs:label "Optimade logo"@en .
+dcmitype:Collection a skos:Concept ;
+    skos:prefLabel "Collection"@en .
 
 dcmitype:Text a skos:Concept ;
     skos:prefLabel "Text"@en .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
+    rdfs:label "OPTIMADE logo"@en .
 
 psdiDcat:6bc7c64d-ee3d-430b-be09-f26040886c3c a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"@en ;
