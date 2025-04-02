@@ -13,118 +13,118 @@
 psdiVoc:vocabulary dcterms:title "PSDI vocabulary"@en ;
 	<rdfs:label> "PSDI vocabulary"@en ;
 	dcterms:description "SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform."@en ;
-	dc11:Version "0.1.0"@en ;
+	dc11:Version "1.0.0"@en ;
 	dcterms:conformsTo "CDIF_core_controlled_vocabulary_1.0"@en ;
 	dcterms:created "2024-04-18T12:01:01Z"^^xsd:dateTime ;
-	dcterms:modified "2025-02-03T12:01:01Z"^^xsd:dateTime ;
-	dcterms:creator [
-		rdf:type foaf:Person ;
-		foaf:name "Aileen Day"@en ;
-		foaf:openid "http://orcid.org/0000-0003-2397-1996"@en ;
-	] ;
-	dcterms:contributor [
-		rdf:type foaf:Person ;
-		foaf:name "Silvia Chiacchiera"@en ;
-		foaf:openid "http://orcid.org/0000-0003-0422-7870"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Brian Matthews"@en ;
-		foaf:openid "http://orcid.org/0000-0002-3342-3160"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Juan Bicarregui"@en ;
-		foaf:openid "http://orcid.org/0000-0001-5250-7653"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Catherine Jones"@en ;
-		foaf:openid "http://orcid.org/0000-0002-5112-835X"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Tom Underwood"@en ;
-		foaf:openid "http://orcid.org/0000-0001-6431-0612"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Alexander Belozerov"@en ;
-		foaf:openid "http://orcid.org/0000-0001-9506-8718"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Simon Coles"@en ;
-		foaf:openid "http://orcid.org/0000-0001-8414-9272"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Cerys Willoughby"@en ;
-		foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Nicola Knight"@en ;
-		foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Philip Leadbitter"@en ;
-		foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Mark Anderson"@en ;
-		foaf:openid "http://orcid.org/0000-0001-7396-0721"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Abraham Nieva De La Hidalga"@en ;
-		foaf:openid "http://orcid.org/0000-0001-7348-7612"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Samantha Pearman-Kanza"@en ;
-		foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "James Gebbie-Rayet"@en ;
-		foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Sathya Sai Seetharaman"@en ;
-		foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Stavrina Dimosthenous"@en ;
-		foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Christopher Race"@en ;
-		foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Ian Bruno"@en ;
-		foaf:openid "http://orcid.org/0000-0003-4901-9936"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Kevin Ashley"@en ;
-		foaf:openid "http://orcid.org/0000-0001-7546-5978"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Clara Linés"@en ;
-		foaf:openid "http://orcid.org//0000-0003-3437-5145"@en ;
-	], [
-		rdf:type foaf:Person ;
-		foaf:name "Peter Holt"@en ;
-		foaf:openid "http://orcid.org/0000-0002-0846-7831"@en ;
-	] ;
-	dcterms:publisher [
-		rdf:type foaf:Organisation ;
-		foaf:name "Physical Sciences Data Infrastructure"@en ;
-		foaf:openid "http://www.psdi.ac.uk"@en ;
-	] ;
+	dcterms:modified "2025-03-27T14:37:01Z"^^xsd:dateTime ;
+	dcterms:creator <http://orcid.org/0000-0003-2397-1996> ;
+	dcterms:contributor <http://orcid.org/0000-0003-0422-7870>, <http://orcid.org/0000-0002-3342-3160>, <http://orcid.org/0000-0001-5250-7653>, <http://orcid.org/0000-0002-5112-835X>, <http://orcid.org/0000-0001-6431-0612>, <http://orcid.org/0000-0001-9506-8718>, <http://orcid.org/0000-0001-8414-9272>, <http://orcid.org/0000-0003-1721-9212>, <http://orcid.org/0000-0001-8286-3835>, <http://orcid.org/0000-0003-1886-0378>, <http://orcid.org/0000-0001-7396-0721>, <http://orcid.org/0000-0001-7348-7612>, <http://orcid.org/0000-0002-4831-9489>, <http://orcid.org/0000-0001-8271-3431>, <http://orcid.org/0009-0006-9138-9585>, <http://orcid.org/0000-0002-6199-5094>, <http://orcid.org/0000-0002-9775-687X>, <http://orcid.org/0000-0003-4901-9936>, <http://orcid.org/0000-0001-7546-5978>, <http://orcid.org//0000-0003-3437-5145>, <http://orcid.org/0000-0002-0846-7831> ;
+	dcterms:publisher <http://www.psdi.ac.uk> ;
 	dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
-	foaf:fundedBy [
-		rdf:type foaf:Organization ;
-		foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
-		foaf:openid "http://ror.org/0439y7842"@en ;
-	] ;
+	foaf:fundedBy <http://ror.org/0439y7842> ;
 	dc11:subject <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> ;
 	skos:ConceptScheme psdiVoc:vocabularyConceptScheme ;
 	skos:Collection psdiVoc:psdiOverviewCollection ;
 	skos:Concept psdiVoc:psdi, psdiVoc:psdiProject, psdiVoc:pathfinder, psdiVoc:psdiDeliverable, psdiVoc:psdiPlatform, psdiVoc:service, psdiVoc:tool, psdiVoc:guidance, psdiVoc:metadata, psdiVoc:resourceTheme, psdiVoc:data, psdiVoc:resource, psdiVoc:communityActivity .
 
+<http://orcid.org/0000-0003-2397-1996> foaf:name "Aileen Day"@en ;
+	foaf:openid "http://orcid.org/0000-0003-2397-1996"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0003-0422-7870> foaf:name "Silvia Chiacchiera"@en ;
+	foaf:openid "http://orcid.org/0000-0003-0422-7870"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-3342-3160> foaf:name "Brian Matthews"@en ;
+	foaf:openid "http://orcid.org/0000-0002-3342-3160"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-5250-7653> foaf:name "Juan Bicarregui"@en ;
+	foaf:openid "http://orcid.org/0000-0001-5250-7653"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-5112-835X> foaf:name "Catherine Jones"@en ;
+	foaf:openid "http://orcid.org/0000-0002-5112-835X"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-6431-0612> foaf:name "Tom Underwood"@en ;
+	foaf:openid "http://orcid.org/0000-0001-6431-0612"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-9506-8718> foaf:name "Alexander Belozerov"@en ;
+	foaf:openid "http://orcid.org/0000-0001-9506-8718"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-8414-9272> foaf:name "Simon Coles"@en ;
+	foaf:openid "http://orcid.org/0000-0001-8414-9272"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0003-1721-9212> foaf:name "Cerys Willoughby"@en ;
+	foaf:openid "http://orcid.org/0000-0003-1721-9212"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-8286-3835> foaf:name "Nicola Knight"@en ;
+	foaf:openid "http://orcid.org/0000-0001-8286-3835"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0003-1886-0378> foaf:name "Philip Leadbitter"@en ;
+	foaf:openid "http://orcid.org/0000-0003-1886-0378"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-7396-0721> foaf:name "Mark Anderson"@en ;
+	foaf:openid "http://orcid.org/0000-0001-7396-0721"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-7348-7612> foaf:name "Abraham Nieva De La Hidalga"@en ;
+	foaf:openid "http://orcid.org/0000-0001-7348-7612"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-4831-9489> foaf:name "Samantha Pearman-Kanza"@en ;
+	foaf:openid "http://orcid.org/0000-0002-4831-9489"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-8271-3431> foaf:name "James Gebbie-Rayet"@en ;
+	foaf:openid "http://orcid.org/0000-0001-8271-3431"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0009-0006-9138-9585> foaf:name "Sathya Sai Seetharaman"@en ;
+	foaf:openid "http://orcid.org/0009-0006-9138-9585"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-6199-5094> foaf:name "Stavrina Dimosthenous"@en ;
+	foaf:openid "http://orcid.org/0000-0002-6199-5094"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-9775-687X> foaf:name "Christopher Race"@en ;
+	foaf:openid "http://orcid.org/0000-0002-9775-687X"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0003-4901-9936> foaf:name "Ian Bruno"@en ;
+	foaf:openid "http://orcid.org/0000-0003-4901-9936"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0001-7546-5978> foaf:name "Kevin Ashley"@en ;
+	foaf:openid "http://orcid.org/0000-0001-7546-5978"@en ;
+	a foaf:Person .
+
+<http://orcid.org//0000-0003-3437-5145> foaf:name "Clara Linés"@en ;
+	foaf:openid "http://orcid.org//0000-0003-3437-5145"@en ;
+	a foaf:Person .
+
+<http://orcid.org/0000-0002-0846-7831> foaf:name "Peter Holt"@en ;
+	foaf:openid "http://orcid.org/0000-0002-0846-7831"@en ;
+	a foaf:Person .
+
+<http://www.psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
+	foaf:openid "http://www.psdi.ac.uk"@en ;
+	a foaf:Organization .
+
 <https://spdx.org/licenses/CC0-1.0.html> <rdfs:label> "Creative Commons Zero v1.0 Universal"@en ;
 	a dcterms:LicenseDocument .
+
+<http://ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
+	foaf:openid "http://ror.org/0439y7842"@en ;
+	a foaf:Organization .
 
 <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> <rdfs:label> "physical sciences"@en ;
 	a skosxl:Label .
