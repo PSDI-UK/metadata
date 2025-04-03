@@ -45,7 +45,7 @@
     },
     "dcat:contactPoint": {
         "@type": "vcard:Kind",
-        "vcard:email": "support@psdi.ac.uk"
+        "vcard:hasEmail": "support@psdi.ac.uk"
     },
     "dcat:keyword": [
         "Physical Sciences",
@@ -1669,7 +1669,7 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:837eb69a-a3b4-4ed7-a495-d1908dae0e91"
                     },
-                    "psdiDcatExt:downloadURL": "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)",
+                    "psdiDcatExt:downloadURL": "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte",
                     "psdiDcatExt:repositoryURL": {
                         "rdfs:label": "dlmonte-container github repository",
                         "@type": "rdfs:Resource",
@@ -6829,7 +6829,7 @@
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e"
                     },
-                    "psdiDcatExt:downloadURL": "http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip",
+                    "psdiDcatExt:downloadURL": "https://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip",
                     "psdiDcatExt:repositoryURL": {
                         "rdfs:label": "magresview github repository",
                         "@type": "rdfs:Resource",

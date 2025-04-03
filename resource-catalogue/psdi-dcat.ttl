@@ -507,7 +507,7 @@ psdiDcat:51c04def-007c-4536-8441-015aa097b30c a psdiDcatExt:Tool ;
     rdfs:label "Soprano"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:downloadURL "http://pypi.org/project/Soprano/#files"@en ;
+    psdiDcatExt:downloadURL "https://pypi.org/project/Soprano/#files"@en ;
     psdiDcatExt:furtherInformation <http://ccp-nc.github.io/soprano/intro.html>,
         <http://doi.org/10.1063/1.5024450> ;
     psdiDcatExt:installCommand "pip install soprano"@en ;
@@ -1080,7 +1080,7 @@ psdiDcat:94032602-00a9-4640-a730-b6cd7bf3547d a psdiDcatExt:Tool ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 3 ;
-    psdiDcatExt:downloadURL "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte)"@en ;
+    psdiDcatExt:downloadURL "https://ghcr.io/psdi-uk/dlmonte-container/dlmonte"@en ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/dlmonte-container/blob/main/README.md> ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/dlmonte-container/dlmonte:latest"@en ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> ;
