@@ -941,7 +941,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1005,7 +1005,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1> a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1092,7 +1092,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f> a psdiDcatExt:Guidance ;
     rdfs:label "MuSpinSim Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1106,9 +1106,9 @@
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1164,7 +1164,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58> a psdiDcatExt:Guidance ;
     rdfs:label "Xray Larch Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1224,7 +1224,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1384,25 +1384,25 @@
         "Training"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ec1bc078-cd49-41e4-8087-995c0597a974> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/7bf5826f-51f8-4242-90aa-b694136deec9> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/7bf5826f-51f8-4242-90aa-b694136deec9> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ec1bc078-cd49-41e4-8087-995c0597a974> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
@@ -1416,7 +1416,7 @@
         <http://help.galaxyproject.org/>,
         <http://materialsgalaxy.stfc.ac.uk/tours>,
         <http://www.youtube.com/c/galaxyproject> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1458,7 +1458,7 @@
         <http://help.galaxyproject.org/>,
         <http://www.youtube.com/c/galaxyproject>,
         <https://bioblend.readthedocs.io> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
@@ -1473,9 +1473,9 @@
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointDescription <http://materialsgalaxy.stfc.ac.uk/api/docs> ;
     dcat:endpointURL <https://materialsgalaxy.stfc.ac.uk/api/> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
@@ -1569,34 +1569,34 @@
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Daniel Cancado"@en ;
+            foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Cheryl Hardy"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Daniel Cancado"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Yuehua Yin"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
+            foaf:name "Leon Mutter"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
+            foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -1779,7 +1779,7 @@
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     psdiDcatExt:furtherInformation <http://aiida-amber.readthedocs.io/en/latest/> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-aiida-amber-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaAmber.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/aiida-amber> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -1899,7 +1899,7 @@
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> a psdiDcatExt:Tool ;
     rdfs:label "Demo-BioSimDB"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-resources-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg)> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.1"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/biosimdb-app> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -2368,14 +2368,17 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://pypi.org/project/Soprano/#files> a rdfs:Resource ;
     rdfs:label "Soprano PyPI download files"@en .
 
-<https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-aiida-amber-logo.svg> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-d-data.svg> a rdfs:Resource ;
+    rdfs:label "BioSimDB logo"@en .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> a rdfs:Resource ;
+    rdfs:label "BioSimDR logo"@en .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaAmber.svg> a rdfs:Resource ;
     rdfs:label "aiida-amber logo"@en .
 
-<https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-aiida-gromacs-logo.svg> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaGromacs.svg> a rdfs:Resource ;
     rdfs:label "aiida-gromacs logo"@en .
-
-<https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-database-logo.svg> a rdfs:Resource ;
-    rdfs:label "BioSimDB logo"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-s-elnFinder.svg> a rdfs:Resource ;
     rdfs:label "ELNFinder logo"@en .
@@ -2653,7 +2656,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
     rdfs:label "Example Galaxy XAFS RO-Crate Workflows"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:conformsTo <https://www.researchobject.org/ro-crate/> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
@@ -2911,7 +2914,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> a psdiDcatExt:Guidance ;
     rdfs:label "Cloud Based Jupyter aiida-gromacs Demo/Training"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-resources-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg)> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
@@ -3003,7 +3006,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> a psdiDcatExt:Guidance ;
     rdfs:label "Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
     dcterms:description "The Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy provide a brief introduction to working with RO-Crates in Galaxy. The development of the tutorials originated as quickstart guidance for running and inspecting workflows used for the reproduction of X-ray absorption fine structure (XAFS) analyses. These self-paced learning resources cover three aspects of the RO-Crate lifecycle in the Galaxy platform: Importing (and running) a workflow, Creation (Exporting) an RO-Crate and Importing (and inspecting) an RO-Crate."@en ;
@@ -3080,34 +3083,34 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Louis McLean"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Yuehua Yin"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
+            foaf:name "Hannah Gittins"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
             foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Yuehua Yin"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louis McLean"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -3221,7 +3224,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     psdiDcatExt:furtherInformation <http://aiida-gromacs.readthedocs.io/en/latest/> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-aiida-gromacs-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaGromacs.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"@en ;
     psdiDcatExt:repositoryURL <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3384,6 +3387,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "About eData"@en .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg)> a rdfs:Resource ;
+    rdfs:label "BioSimDR logo"@en .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> a rdfs:Resource ;
     rdfs:label "CCDC logo"@en .
@@ -3622,9 +3628,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         foaf:Document ;
     rdfs:label "PSDI Knowledge Base"@en .
 
-<https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-resources-logo.svg> a rdfs:Resource ;
-    rdfs:label "BioSimDR logo"@en .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> a rdfs:Resource ;
     rdfs:label "Container Image Registry logo"@en .
 
@@ -3717,7 +3720,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> a dcat:Dataset ;
     rdfs:label "BioSimDB"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-database-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-d-data.svg> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
     dcterms:conformsTo <http://aiida.readthedocs.io/projects/aiida-core/en/stable/internals/storage/sqlite_zip.html>,
         <http://docs.mdanalysis.org/1.1.1/documentation_pages/topology/init.html>,
@@ -3977,7 +3980,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68>,
         <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/CCPBioSim/branding/refs/heads/main/logos/biosim-resources-logo.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
         <http://orcid.org/0000-0002-6833-1864> ;
     dcterms:description "BioSimDR (Biomolecular Simulation Data Resources) is a collection of tools and data services designed to transform and store biomolecular simulations by capturing and archiving the full provenance of each simulation. Our tools can be used to meticulously record every step - from experimental structures to force field configurations and computational parameters - ensuring research is reproducible, transparent, and efficient. Our data services allow for biomolecular simulations to be stored, shared, and discovered in one place. This approach helps scientists to avoid redundant efforts, improves the reliability of findings, and supports AI-driven drug discovery and molecular modelling."@en ;
@@ -4196,7 +4199,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
 <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> a rdfs:Resource ;
     rdfs:label "Resource provider"@en .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> a rdfs:Resource ;
     rdfs:label "Galaxy logo"@en .
 
 <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
@@ -4216,7 +4219,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         <http://help.galaxyproject.org/>,
         <http://materialsgalaxy.stfc.ac.uk/tours>,
         <http://www.youtube.com/c/galaxyproject> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
     dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
         <https://orcid.org/0000-0002-6279-7823>,
         <https://orcid.org/0009-0001-1723-4394> ;
