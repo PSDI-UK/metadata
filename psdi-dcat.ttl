@@ -11,7 +11,7 @@
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/catalogue/resourceCatalogue> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/catalogue/resourceCatalogue> a dcat:Catalog ;
     rdfs:label "PSDI Resource Catalogue"@en ;
     dcterms:conformsTo "CDIF_core_discovery_1.0"@en ;
     dcterms:creator <http://orcid.org/0000-0003-2397-1996> ;
@@ -25,25 +25,25 @@
     dcterms:title "PSDI Resource Catalogue"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Catalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/2927c4a2-0178-4cc9-a839-240ec1d343a6>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
+    dcat:Catalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/2927c4a2-0178-4cc9-a839-240ec1d343a6>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "Physical Sciences"@en,
@@ -126,7 +126,7 @@
     foaf:name "Andrew Harper"@en ;
     foaf:openid "http://linkedin.com/in/andrew-harper-654456241"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6> a dcat:Dataset ;
     rdfs:label "STFC Open Data"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <https://edata.stfc.ac.uk/info/edata-guidance> ;
@@ -142,10 +142,10 @@
     dcterms:title "STFC Open Data"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/c1e681c2-69ea-491c-984a-be80615a7394> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/c1e681c2-69ea-491c-984a-be80615a7394> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:keyword "experimental data"@en,
         "inelastic neutron scattering"@en,
         "laser"@en,
@@ -154,7 +154,7 @@
     dcat:landingPage <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/06bdf98c-e51b-4656-a424-2c9e80b68c76> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/06bdf98c-e51b-4656-a424-2c9e80b68c76> a dcat:Dataset ;
     rdfs:label "Chemotion Repository"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <https://www.chemotion.net/docs/repo> ;
@@ -180,10 +180,10 @@
     dcterms:title "Chemotion Repository"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/df1ba5d3-7200-42c5-bcaa-d3509c5ecd65> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/df1ba5d3-7200-42c5-bcaa-d3509c5ecd65> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:keyword "boiling point"@en,
         "melting point"@en,
         "molecules"@en,
@@ -193,7 +193,7 @@
     dcat:landingPage <https://www.chemotion-repository.net> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b> a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> ;
@@ -213,10 +213,10 @@
     dcterms:title "Physical Chemistry Properties Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> ;
     dcat:keyword "LogS"@en,
         "boiling points"@en,
         "henrys law constants"@en,
@@ -233,7 +233,7 @@
         <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table>,
         <http://www.ddbst.com/ddb-vle.html> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/propersea> ;
@@ -248,10 +248,10 @@
     dcterms:title "Propersea (Property Prediction)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/f8eec32f-9534-4c63-812e-5f9261cd4b2a> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/f8eec32f-9534-4c63-812e-5f9261cd4b2a> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:keyword "IUPAC name"@en,
         "RDKit"@en,
         "boiling point"@en,
@@ -265,7 +265,7 @@
     dcat:landingPage <http://www.psds.ac.uk/propersea> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> a dcat:Dataset ;
     rdfs:label "psdi_cmc_data"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> ;
@@ -284,17 +284,17 @@
     dcterms:title "Critical Micelle Concentration (CMC) Data Collection"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> ;
     dcat:keyword "critical micelle concentration"@en,
         "electronic supplementary information"@en ;
     dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution <http://doi.org/10.6028/NBS.NSRDS.36> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/e0e14403-1575-43db-a677-89aa515968e4> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/e0e14403-1575-43db-a677-89aa515968e4> a dcat:Dataset ;
     rdfs:label "Chemical Availability Search (ChASe)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.psds.ac.uk/chase> ;
@@ -309,10 +309,10 @@
     dcterms:title "Chemical Availability Search (ChASe)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:keyword "availability"@en,
         "chemical"@en,
         "commercial"@en,
@@ -321,7 +321,7 @@
     dcat:landingPage <http://www.psds.ac.uk/chase> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-aflow-aflow> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow> a dcat:Dataset ;
     rdfs:label "AFLOW"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -332,12 +332,12 @@
     dcterms:isPartOf "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:title "AFLOW (aflow)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-aflow-aflow-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://aflow.org> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-alexandria-alexandria-pbe> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbe> a dcat:Dataset ;
     rdfs:label "alexandria"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -349,12 +349,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "Alexandria: alexandria (alexandria-pbe)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
     rdfs:label "alexandria"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -366,12 +366,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "Alexandria: alexandria (alexandria-pbesol)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://tddft.org/bmg/data.php> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-cmr-cmr> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cmr-cmr> a dcat:Dataset ;
     rdfs:label "Computational materials repository (CMR)"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -383,12 +383,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-SA-4.0.html> ;
     dcterms:title "Computational materials repository (CMR) (cmr)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-cmr-cmr-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cmr-cmr-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://cmr.fysik.dtu.dk> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-cod-cod> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cod-cod> a dcat:Dataset ;
     rdfs:label "Crystallography Open Database"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -400,12 +400,12 @@
     dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
     dcterms:title "Crystallography Open Database (cod)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-cod-cod-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cod-cod-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.crystallography.net/cod> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-2dtopo> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-2dtopo> a dcat:Dataset ;
     rdfs:label "2D topological insulators"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -417,12 +417,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: 2D topological insulators (2dtopo)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-2dtopo-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/2dtopo> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-curated-cofs> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-curated-cofs> a dcat:Dataset ;
     rdfs:label "CURATED covalent organic frameworks database"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -434,12 +434,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: CURATED covalent organic frameworks database (curated-cofs)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/curated-cofs> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-mc2d> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc2d> a dcat:Dataset ;
     rdfs:label "MC2D - Materials Cloud two-dimensional crystals database"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -451,12 +451,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database (mc2d)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-mc2d-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc2d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-mc3d> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d> a dcat:Dataset ;
     rdfs:label "MC3D - Materials Cloud three-dimensional crystals database"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -468,12 +468,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-SA-4.0.html> ;
     dcterms:title "Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database (mc3d)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-mc3d-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/mc3d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-pyrene-mofs> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-pyrene-mofs> a dcat:Dataset ;
     rdfs:label "Pyrene-based metal organic frameworks"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -485,12 +485,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: Pyrene-based metal organic frameworks (pyrene-mofs)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/discover/pyrene-mofs> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-scdm> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-scdm> a dcat:Dataset ;
     rdfs:label "Automated high-throughput Wannierisation"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -502,12 +502,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: Automated high-throughput Wannierisation (scdm)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-scdm-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-scdm-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/autowannier> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-stoceriaitf> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-stoceriaitf> a dcat:Dataset ;
     rdfs:label "SrTiO3-CeO2 interfaces"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -519,12 +519,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: SrTiO3-CeO2 interfaces (stoceriaitf)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/stoceriaitf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-tc-applicability> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tc-applicability> a dcat:Dataset ;
     rdfs:label "Applicability of tail-corrections in the molecular simulations of porous materials"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -536,12 +536,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials (tc-applicability)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-tc-applicability-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tc-applicability-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tc-applicability> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide> a dcat:Dataset ;
     rdfs:label "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -553,12 +553,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 (tin-antimony-sulfoiodide)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-5p-vq> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-5p-vq> a dcat:Dataset ;
     rdfs:label "MC Archive 5p-vq"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -570,12 +570,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud Archive: MC Archive 5p-vq (5p-vq)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-5p-vq-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-5p-vq-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.114> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-c8-gy> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-c8-gy> a dcat:Dataset ;
     rdfs:label "MC Archive c8-gy"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -587,12 +587,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud Archive: MC Archive c8-gy (c8-gy)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-c8-gy-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-c8-gy-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2023.181> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-vg-ya> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-vg-ya> a dcat:Dataset ;
     rdfs:label "MC Archive vg-ya"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -604,12 +604,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud Archive: MC Archive vg-ya (vg-ya)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-vg-ya-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-vg-ya-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2024.65> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-zk-gc> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-zk-gc> a dcat:Dataset ;
     rdfs:label "MC Archive zk-gc"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -621,12 +621,12 @@
     dcterms:license <https://spdx.org/licenses/> ;
     dcterms:title "Materials Cloud Archive: MC Archive zk-gc (zk-gc)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-zk-gc-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-zk-gc-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://archive.materialscloud.org/record/2025.32> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mp-mp> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mp-mp> a dcat:Dataset ;
     rdfs:label "The Materials Project"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -638,12 +638,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "The Materials Project (mp)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mp-mp-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://www.materialsproject.org> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpdd-mpdd> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpdd-mpdd> a dcat:Dataset ;
     rdfs:label "Material-Property-Descriptor Database"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -655,12 +655,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-NC-SA-4.0.html> ;
     dcterms:title "Material-Property-Descriptor Database (mpdd)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpdd-mpdd-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://phaseslab.com/mpdd> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpds-mpds> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpds-mpds> a dcat:Dataset ;
     rdfs:label "Materials Platform for Data Science"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -672,12 +672,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "Materials Platform for Data Science (mpds)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpds-mpds-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://mpds.io> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpod-mpod> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpod-mpod> a dcat:Dataset ;
     rdfs:label "Material Properties Open Database (MPOD)"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -689,12 +689,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "Material Properties Open Database (MPOD) (mpod)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpod-mpod-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpod-mpod-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <http://mpod.cimav.edu.mx> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-nmd-nmd> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd> a dcat:Dataset ;
     rdfs:label "novel materials discovery (NOMAD)"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -706,12 +706,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "novel materials discovery (NOMAD) (nmd)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-nmd-nmd-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://nomad-lab.eu> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-odbx-gnome> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome> a dcat:Dataset ;
     rdfs:label "Google DeepMind's Gnome Dataset"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -723,12 +723,12 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-NC-4.0.html> ;
     dcterms:title "open database of xtals: Google DeepMind's Gnome Dataset (gnome)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-odbx-gnome-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <https://github.com/ml-evs/optimade-gnome> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-omdb-omdb_production> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> a dcat:Dataset ;
     rdfs:label "Open Materials Database (omdb) production database"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
@@ -740,175 +740,175 @@
     dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
     dcterms:title "Open Materials Database: Open Materials Database (omdb) production database (omdb_production)"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-omdb-omdb_production-i> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i> ;
     dcat:inCatalog "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"@en ;
     dcat:keyword "OPTIMADE provider"@en ;
     dcat:landingPage <http://openmaterialsdb.se> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> a dcat:Distribution ;
     dcterms:title "BioSimDB (Biomolecular Simulations Database)"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
     dcat:accessURL <https://data-collections.psdi.ac.uk/communities/biosimdb> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21> a dcat:Distribution ;
     dcterms:title "Physical Chemistry Properties Data Collection"@en ;
     dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets> ;
     dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/4df1f995-05f0-4571-9e5a-99ca035c3fea> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/4df1f995-05f0-4571-9e5a-99ca035c3fea> a dcat:Distribution ;
     dcterms:title "Example Galaxy XAFS RO-Crate Workflows"@en ;
     dcat:accessURL <http://zenodo.org/communities/rexas> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/550b01c7-8a32-4ea9-b7fc-34fae7b887d7> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/550b01c7-8a32-4ea9-b7fc-34fae7b887d7> a dcat:Distribution ;
     dcterms:title "Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres Database"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3> ;
     dcat:accessURL <http://www.ccpnc.ac.uk/database/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/56b60b60-5e2e-4e97-a1aa-96ec47e3fc00> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/56b60b60-5e2e-4e97-a1aa-96ec47e3fc00> a dcat:Distribution ;
     dcterms:title "Data to Knowledge Community Data Collections"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
     dcat:accessURL <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c> a dcat:Distribution ;
     dcterms:title "PSDI Critical Micelle Concentration (CMC) Data Collection"@en ;
     dcat:accessURL <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> ;
     dcat:downloadURL <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip> ;
     dcat:mediaType <https://www.iana.org/assignments/media-types/application/zip> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/822c7d92-76a0-49ba-ac98-4f00ec4b23ae> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/822c7d92-76a0-49ba-ac98-4f00ec4b23ae> a dcat:Distribution ;
     dcterms:title "Cambridge Structural Database (CSD)"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://www.ccdc.cam.ac.uk/solutions/software/csd/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/c1e681c2-69ea-491c-984a-be80615a7394> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/c1e681c2-69ea-491c-984a-be80615a7394> a dcat:Distribution ;
     dcterms:title "STFC Open Data"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/c5be2a39-867a-4dcc-a606-8855bc85ca9e> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/c5be2a39-867a-4dcc-a606-8855bc85ca9e> a dcat:Distribution ;
     dcterms:title "Catalysis Data Infrastructure (CDI) Database"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> ;
     dcat:accessURL <http://cdi.ukcatalysishub.org/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/df1ba5d3-7200-42c5-bcaa-d3509c5ecd65> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/df1ba5d3-7200-42c5-bcaa-d3509c5ecd65> a dcat:Distribution ;
     dcterms:title "Chemotion Repository"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://www.chemotion-repository.net> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/eebd4ff9-9c83-4a42-9332-b23e8fe5c8c6> a dcat:Distribution ;
     dcterms:title "Chemical Availability Search (ChASe)"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://data-search.psdi.ac.uk> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/f8eec32f-9534-4c63-812e-5f9261cd4b2a> a dcat:Distribution ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/f8eec32f-9534-4c63-812e-5f9261cd4b2a> a dcat:Distribution ;
     dcterms:title "Propersea (Property Prediction)"@en ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://data-search.psdi.ac.uk> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-aflow-aflow-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aflow.org/API/optimade/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://alexandria.icams.rub.de/pbe> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://alexandria.icams.rub.de/pbesol> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-cmr-cmr-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cmr-cmr-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://cmr-optimade.fysik.dtu.dk> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-cod-cod-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cod-cod-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://www.crystallography.net/cod/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-2dtopo-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/2dtopo/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/curated-cofs/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-mc2d-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/mc2d/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-mc3d-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/mc3d/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/pyrene-mofs/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-scdm-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-scdm-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/autowannier/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/stoceriaitf/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-tc-applicability-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tc-applicability-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/tc-applicability/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-5p-vq-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-5p-vq-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade.materialscloud.org/archive/5p-vq> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-c8-gy-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-c8-gy-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade.materialscloud.org/archive/c8-gy> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-vg-ya-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-vg-ya-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade.materialscloud.org/archive/vg-ya> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mcloudarchive-zk-gc-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-zk-gc-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade.materialscloud.org/archive/zk-gc> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mp-mp-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade.materialsproject.org> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpdd-mpdd-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://mpddoptimade.phaseslab.org> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpds-mpds-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://api.mpds.io> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-mpod-mpod-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpod-mpod-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://mpod_optimade.cimav.edu.mx> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-nmd-nmd-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://nomad-lab.eu/prod/rae/optimade/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-odbx-gnome-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade-gnome.odbx.science> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/optimade-omdb-omdb_production-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i> a dcat:Distribution ;
+    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <http://optimade.openmaterialsdb.se> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/06f88b4e-5d6c-4dc1-8ddd-51099c5bd387> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/06f88b4e-5d6c-4dc1-8ddd-51099c5bd387> a psdiDcatExt:Guidance ;
     rdfs:label "Sharing Data and FAIR Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
@@ -926,7 +926,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
     dcat:keyword "accessibility"@en,
         "data"@en,
         "fair"@en,
@@ -938,7 +938,7 @@
         "sharing"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -958,7 +958,7 @@
             vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -967,7 +967,7 @@
         "workflows"@en ;
     dcat:landingPage <https://training.galaxyproject.org/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
@@ -975,7 +975,7 @@
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317> a psdiDcatExt:Guidance ;
     rdfs:label "Metadata Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
@@ -993,7 +993,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
     dcat:keyword "json-ld"@en,
         "metadata"@en,
         "ontologies"@en,
@@ -1002,7 +1002,7 @@
         "vocabularies"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1> a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network: Finding the Muon Stopping Site"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -1022,7 +1022,7 @@
             vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1036,7 +1036,7 @@
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9> a psdiDcatExt:Guidance ;
     rdfs:label "PSDI Resources Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
@@ -1053,7 +1053,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
     dcat:keyword "documentation"@en,
         "guidance"@en,
         "learn"@en,
@@ -1062,7 +1062,7 @@
         "resources"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/74f53465-3cf8-49ff-be58-f7a5b749a981> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/74f53465-3cf8-49ff-be58-f7a5b749a981> a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
@@ -1080,7 +1080,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> ;
     dcat:keyword "data"@en,
         "fair"@en,
         "management"@en,
@@ -1089,7 +1089,7 @@
         "research"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f> a psdiDcatExt:Guidance ;
     rdfs:label "MuSpinSim Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -1109,7 +1109,7 @@
             vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1123,7 +1123,7 @@
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> a psdiDcatExt:Guidance ;
     rdfs:label "Digital Notebooks and ELNs Guidance"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
@@ -1145,7 +1145,7 @@
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
     dcat:keyword "Digital Lab Notebooks"@en,
         "ELN"@en,
         "FAIR Data"@en,
@@ -1161,7 +1161,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58> a psdiDcatExt:Guidance ;
     rdfs:label "Xray Larch Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -1181,7 +1181,7 @@
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1195,7 +1195,7 @@
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4> a psdiDcatExt:Guidance ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
@@ -1214,14 +1214,14 @@
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "Machine Learning"@en,
         "materials simulations"@en,
         "molecular simulations"@en ;
     dcat:landingPage <http://camml.ac.uk/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -1241,7 +1241,7 @@
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1255,7 +1255,7 @@
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> a dcat:Catalog ;
     rdfs:label "OPTIMADE Data Providers"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:furtherInformation <http://www.optimade.org/resources> ;
@@ -1271,31 +1271,31 @@
     dcterms:publisher <http://www.optimade.org/> ;
     dcterms:title "OPTIMADE Data Providers"@en ;
     dcterms:type dcmitype:Collection ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-aflow-aflow>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-alexandria-alexandria-pbe>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-alexandria-alexandria-pbesol>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-cmr-cmr>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-cod-cod>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-2dtopo>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-curated-cofs>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-mc2d>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-mc3d>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-pyrene-mofs>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-scdm>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-stoceriaitf>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-tc-applicability>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-5p-vq>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-c8-gy>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-vg-ya>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mcloudarchive-zk-gc>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mp-mp>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpdd-mpdd>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpds-mpds>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-mpod-mpod>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-nmd-nmd>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-odbx-gnome>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/optimade-omdb-omdb_production> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbe>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cmr-cmr>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cod-cod>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-2dtopo>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-curated-cofs>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc2d>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-pyrene-mofs>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-scdm>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-stoceriaitf>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tc-applicability>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-5p-vq>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-c8-gy>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-vg-ya>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-zk-gc>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mp-mp>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpdd-mpdd>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpds-mpds>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpod-mpod>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> ;
     dcat:contactPoint <http://github.com/Materials-Consortia/OPTIMADE/issues> ;
     dcat:keyword "OPTIMADE"@en,
         "crystals"@en,
@@ -1306,7 +1306,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> ;
     dcat:version "1.2.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/1fc5c6f3-62cc-4087-a5e2-11497f161f27> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/1fc5c6f3-62cc-4087-a5e2-11497f161f27> a dcat:DataService ;
     rdfs:label "CCP-NC MagresView"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1016/j.ssnmr.2016.05.004> ;
@@ -1325,7 +1325,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
     dcat:endpointURL <https://ccp-nc.github.io/magresview-2/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
     dcat:keyword "EFG"@en,
         "Magnetic Shielding"@en,
         "Magres"@en,
@@ -1333,12 +1333,12 @@
         "NMR"@en,
         "SSNMR"@en ;
     dcat:landingPage <https://ccp-nc.github.io/magresview-2/> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/2927c4a2-0178-4cc9-a839-240ec1d343a6> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/2927c4a2-0178-4cc9-a839-240ec1d343a6> a dcat:DataService ;
     rdfs:label "PSDI Knowledge Base"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-knowledgeBase.svg> ;
@@ -1361,7 +1361,7 @@
         "training"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> a dcat:DataService ;
     rdfs:label "PSDI Interactive Learning (Moodle)"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-moodle.png> ;
@@ -1384,31 +1384,31 @@
         "Training"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/7bf5826f-51f8-4242-90aa-b694136deec9> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/7bf5826f-51f8-4242-90aa-b694136deec9> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ec1bc078-cd49-41e4-8087-995c0597a974> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ec1bc078-cd49-41e4-8087-995c0597a974> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
     rdfs:label "Galaxy Workflow Management System Service"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
@@ -1435,7 +1435,7 @@
         [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <http://materialsgalaxy.stfc.ac.uk/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1450,7 +1450,7 @@
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "24.1.2"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/66d10e20-66ea-49a7-a29a-be94cd2be77b> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/66d10e20-66ea-49a7-a29a-be94cd2be77b> a dcat:DataService ;
     rdfs:label "Galaxy API"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
@@ -1478,7 +1478,7 @@
             vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointDescription <http://materialsgalaxy.stfc.ac.uk/api/docs> ;
     dcat:endpointURL <https://materialsgalaxy.stfc.ac.uk/api/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -1493,7 +1493,7 @@
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "1.4.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
@@ -1516,14 +1516,14 @@
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <http://data-conversion.psdi.ac.uk/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
     dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
     dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> a dcat:DataService ;
     rdfs:label "ELN Finder"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://eln-finder.ulb.tu-darmstadt.de/info/page/about> ;
@@ -1547,7 +1547,7 @@
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:endpointURL <https://eln-finder.ulb.tu-darmstadt.de/home> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
     dcat:keyword "Digital Lab Notebooks"@en,
         "ELN"@en,
         "FAIR Data"@en,
@@ -1563,7 +1563,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> a dcat:DataService ;
     rdfs:label "PSDI Data Revival"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
@@ -1612,7 +1612,7 @@
             vcard:Name "Data Revivial contact"@en ;
             vcard:hasEmail "contact@data-revival.com"@en ] ;
     dcat:endpointURL <http://www.data-revival.com/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d> ;
     dcat:keyword "Artificial Intelligence"@en,
         "Chemical Information"@en,
         "Data"@en,
@@ -1623,13 +1623,13 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     prov:qualifiedAttribution <http://labs.futureworlds.com/data-revival/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/22ce2e1a-1e37-4773-a574-27658e395438> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/22ce2e1a-1e37-4773-a574-27658e395438> a psdiDcatExt:Tool ;
     rdfs:label "CCP-NC MagresView 2.0 library"@en ;
     psdiDcatExt:byteSize 8226347 ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:downloadURL <http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> ;
-    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
+    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1016/j.ssnmr.2016.05.004> ;
     psdiDcatExt:installCommand "docker pull http://github.com/CCP-NC/magresview-2/blob/main/Dockerfile"@en ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> ;
@@ -1651,7 +1651,7 @@
             spdx:checksumValue "da96df1f5ef7ea6de9beceae6f2e13522eaeb56650b47eaeffd4e43d322c9a1d"^^xsd:hexBinary ] ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/CCP-NC/magresview-2/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
     dcat:keyword "EFG"@en,
         "Magnetic Shielding"@en,
         "Magres"@en,
@@ -1661,13 +1661,13 @@
         "SSNMR"@en ;
     dcat:landingPage <http://github.com/CCP-NC/magresview-2/tree/main> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f6ab8642-eaad-4a72-8c06-a4961d5fb2ff> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f6ab8642-eaad-4a72-8c06-a4961d5fb2ff> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/290bd5d1-95fa-49f5-958e-f62b2ed66386> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/290bd5d1-95fa-49f5-958e-f62b2ed66386> a psdiDcatExt:Tool ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:installCommand "pip install aiida-mlip"@en ;
@@ -1690,7 +1690,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "AiiDA"@en,
         "MLIP"@en,
         "Machine Learning Interatomic Potentials"@en ;
@@ -1698,7 +1698,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "0.2.1"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/51c04def-007c-4536-8441-015aa097b30c> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/51c04def-007c-4536-8441-015aa097b30c> a psdiDcatExt:Tool ;
     rdfs:label "Soprano"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1721,7 +1721,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/CCP-NC/soprano/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
     dcat:keyword "ASE"@en,
         "CCP-NC"@en,
         "CCPNC"@en,
@@ -1735,13 +1735,13 @@
         "ssNMR"@en ;
     dcat:landingPage <http://github.com/CCP-NC/soprano/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/71e7272d-80f5-480d-8f9a-60712084730e> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/71e7272d-80f5-480d-8f9a-60712084730e> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "0.9.2"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python Library"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1766,18 +1766,18 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
     dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
     dcat:landingPage <https://pypi.org/project/psdi-data-conversion/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6> a psdiDcatExt:Tool ;
     rdfs:label "aiida-amber"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
+    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     psdiDcatExt:furtherInformation <http://aiida-amber.readthedocs.io/en/latest/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaAmber.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"@en ;
@@ -1796,7 +1796,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/PSDI-UK/aiida-amber/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
     dcat:keyword "aiida-gromacs"@en,
         "aiida-plugin"@en,
         "alchemical free energy"@en,
@@ -1832,7 +1832,7 @@
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
     dcat:version "1.0.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Command Line Application"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/> ;
@@ -1854,14 +1854,14 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> ;
     dcat:keyword "Data Conversion"@en,
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
     dcat:landingPage <https://pypi.org/project/psdi-data-conversion/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/6bcaa538-a26f-4720-a505-bada3aa52f55> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/6bcaa538-a26f-4720-a505-bada3aa52f55> a psdiDcatExt:Tool ;
     rdfs:label "janus-core, Machine Learning Interatomic Potentials (MLIP) Tool"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1888,7 +1888,7 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "MLIP"@en,
         "Machine Learning Interatomic Potentials"@en,
         "janus-core"@en ;
@@ -1896,7 +1896,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "0.7.4"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> a psdiDcatExt:Tool ;
     rdfs:label "Demo-BioSimDB"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
@@ -1916,7 +1916,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/PSDI-UK/biosimdb-app/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
     dcat:keyword "alchemical free energy"@en,
         "alphafold"@en,
         "amber"@en,
@@ -1953,7 +1953,7 @@
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
     dcat:version "1.0.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d> a psdiDcatExt:Tool ;
     rdfs:label "DL_MONTE Container Image"@en ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
@@ -1976,7 +1976,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <https://github.com/psdi-uk/dlmonte-container/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> ;
     dcat:keyword "adsorption"@en,
         "apptainer"@en,
         "computer simulation"@en,
@@ -1996,7 +1996,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     dcat:version "0.0.7"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/a363e1c8-e1e0-47a3-a8d7-17f36c731ac2> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/a363e1c8-e1e0-47a3-a8d7-17f36c731ac2> a psdiDcatExt:Tool ;
     rdfs:label "DSync (Data Transfer and Synchronisation) Container"@en ;
     psdiDcatExt:deliveryFormat "application/vnd.docker.distribution.manifest.v2+json"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"@en ;
@@ -2019,7 +2019,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <https://github.com/PSDI-UK/data-transfer-container/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> ;
     dcat:keyword "FAIR"@en,
         "S3"@en,
         "apptainer"@en,
@@ -2033,7 +2033,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800> ;
     dcat:version "0.0.11"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/f988614a-ab07-4fb6-b0ee-83f19024399d> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/f988614a-ab07-4fb6-b0ee-83f19024399d> a psdiDcatExt:Tool ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://libatoms.github.io/abcd/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
@@ -2050,14 +2050,14 @@
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "MLIP"@en,
         "Machine Learning Interatomic Potentials"@en,
         "abcd"@en ;
     dcat:landingPage <http://github.com/libAtoms/abcd/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/fa4cf273-773f-48b3-aace-7aebdbc27306> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/fa4cf273-773f-48b3-aace-7aebdbc27306> a psdiDcatExt:Tool ;
     rdfs:label "Thematic portal code"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -2075,7 +2075,7 @@
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
     dcat:keyword "collaboration links"@en,
         "publishing statistics"@en,
         "research domain clustering"@en,
@@ -2582,7 +2582,7 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://materialsgalaxy.stfc.ac.uk/tours> a rdfs:Resource ;
     rdfs:label "Interactive Galaxy tours"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> a dcat:Dataset ;
     rdfs:label "Cambridge Structural Database (CSD)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.ccdc.cam.ac.uk/support-and-resources/> ;
@@ -2597,7 +2597,7 @@ DOI: 10.1107/S2052520616003954"""@en ;
     dcterms:description """The CSD is the world's largest curated database of real-world, small molecule organic and metal-organic crystal structures. All data are reviewed and annotated by expert scientists to enable easy retrieval and subsequent reuse in a range of contexts. The CSD can be used to guide molecular and materials design by comparing features of new molecules and materials against what has been experimentally observed to identify areas of risk or strategies for optimisation. 
 The CSD can be searched via the PSDI Cross Data Search service allowing results to be combined with other data sources to generate novel insights to guide the design of new molecules and materials."""@en ;
     dcterms:identifier "psdiDcat:data/07d83ee6-bad9-4c23-abea-ac70745b0803"@en ;
-    dcterms:isPartOf <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcterms:issued "1971-12-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <http://www.ccdc.cam.ac.uk/licence-agreement/> ;
@@ -2605,9 +2605,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Cambridge Structural Database (CSD)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/822c7d92-76a0-49ba-ac98-4f00ec4b23ae> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/822c7d92-76a0-49ba-ac98-4f00ec4b23ae> ;
     dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> ;
     dcat:keyword "CCDC"@en,
         "Cambridge Crystallographic Data Centre"@en,
         "CoreTrustSeal"@en,
@@ -2627,7 +2627,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a> ;
     prov:qualifiedAttribution <http://ror.org/00zbfm828> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43> a dcat:Dataset ;
     rdfs:label "Data to Knowledge Community Data Collections"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
@@ -2642,10 +2642,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Data to Knowledge Community Data Collections"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/56b60b60-5e2e-4e97-a1aa-96ec47e3fc00> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/56b60b60-5e2e-4e97-a1aa-96ec47e3fc00> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "AIIDA provenance records"@en,
         "MLIP"@en,
         "Machine Learning Interatomic Potentials"@en,
@@ -2653,7 +2653,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
     rdfs:label "Example Galaxy XAFS RO-Crate Workflows"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -2668,10 +2668,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Example Galaxy XAFS RO-Crate Workflows"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/4df1f995-05f0-4571-9e5a-99ca035c3fea> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/4df1f995-05f0-4571-9e5a-99ca035c3fea> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "FAIR DO"@en,
         "Galaxy"@en,
@@ -2681,11 +2681,11 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "workflows"@en ;
     dcat:landingPage <http://zenodo.org/communities/rexas> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> a psdiDcatExt:Guidance ;
     rdfs:label "Version Control and Github"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2705,7 +2705,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "Branch"@en,
         "Changes"@en,
         "Collaborative Working"@en,
@@ -2725,7 +2725,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Work Flow"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> a psdiDcatExt:Guidance ;
     rdfs:label "Python II"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2744,7 +2744,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "Functions"@en,
         "Good Coding Practise"@en,
         "Iteration"@en,
@@ -2759,7 +2759,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> a psdiDcatExt:Guidance ;
     rdfs:label "Machine Learning Interatomic Potentials (MLIP) Training"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
@@ -2779,16 +2779,16 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
     dcat:keyword "MLIP"@en,
         "Machine Learning Interatomic Potentials"@en ;
     dcat:landingPage <http://github.com/stfc/janus-tutorials/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2808,7 +2808,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "Best Practises"@en,
         "Bias"@en,
         "Collaboration"@en,
@@ -2830,7 +2830,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> a psdiDcatExt:Guidance ;
     rdfs:label "Literature and Referencing"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2850,7 +2850,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "Branch"@en,
         "Changes"@en,
         "Coding"@en,
@@ -2874,7 +2874,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> a psdiDcatExt:Guidance ;
     rdfs:label "Python I"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2893,7 +2893,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "Arrays"@en,
         "Functions"@en,
         "Lists"@en,
@@ -2911,7 +2911,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> a psdiDcatExt:Guidance ;
     rdfs:label "Cloud Based Jupyter aiida-gromacs Demo/Training"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
@@ -2927,7 +2927,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:type dcmitype:Text ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
     dcat:keyword "aiida-gromacs"@en,
         "aiida-plugin"@en,
         "alchemical free energy"@en,
@@ -2959,13 +2959,13 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "trajectory"@en ;
     dcat:landingPage <https://www.ccpbiosim.ac.uk/notebooks> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> a psdiDcatExt:Guidance ;
     rdfs:label "Ethics"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
@@ -2984,7 +2984,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> ;
     dcat:keyword "AI"@en,
         "Applications"@en,
         "Best Practises"@en,
@@ -3003,7 +3003,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Technical"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> a psdiDcatExt:Guidance ;
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> a psdiDcatExt:Guidance ;
     rdfs:label "Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png> ;
@@ -3019,7 +3019,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/Completed> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "FAIR DO"@en,
         "Galaxy"@en,
@@ -3029,12 +3029,12 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "workflows"@en ;
     dcat:landingPage <http://xerte.cardiff.ac.uk/play_22519> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.5"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> a dcat:Catalog ;
     rdfs:label "Cambridge Structural Database (CSD)"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.ccdc.cam.ac.uk/support-and-resources/> ;
@@ -3056,7 +3056,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Cambridge Structural Database (CSD)"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/Completed> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> ;
     dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> ;
     dcat:keyword "CCDC"@en,
         "Cambridge Crystallographic Data Centre"@en,
@@ -3077,7 +3077,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a> ;
     prov:qualifiedAttribution <http://ror.org/00zbfm828> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d> a dcat:Catalog ;
     rdfs:label "PSDI Data Revival"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
@@ -3122,7 +3122,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "PSDI Data Revival"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:Name "Data Revivial contact"@en ;
             vcard:hasEmail "contact@data-revival.com"@en ] ;
@@ -3136,7 +3136,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     prov:qualifiedAttribution <http://labs.futureworlds.com/data-revival/> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3> a dcat:DataService ;
     rdfs:label "CCP-NC MAGRES database search"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.ccpnc.ac.uk/database/faqs.html> ;
@@ -3154,19 +3154,19 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
     dcat:endpointURL <http://www.ccpnc.ac.uk/database/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
     dcat:keyword "Crystallography"@en,
         "DFT"@en,
         "Magres"@en,
         "NMR"@en,
         "SSNMR"@en ;
     dcat:landingPage <http://www.ccpnc.ac.uk/database/> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "1.0.0"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818> a dcat:DataService ;
     rdfs:label "CDI bibliographic data web service"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
@@ -3182,17 +3182,17 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
     dcat:endpointURL <http://cdi.ukcatalysishub.org/get_pubs.json> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
     dcat:keyword "FAIR DO"@en,
         "catalysis"@en,
         "publications"@en,
         "publishing data"@en ;
     dcat:landingPage <http://cdi.ukcatalysishub.org/get_pubs.json> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.9"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> a dcat:DataService ;
     rdfs:label "CDI portal"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
@@ -3208,21 +3208,21 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
     dcat:endpointURL <http://cdi.ukcatalysishub.org/> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
     dcat:keyword "FAIR DO"@en,
         "catalysis"@en,
         "publications"@en,
         "publishing data"@en ;
     dcat:landingPage <http://cdi.ukcatalysishub.org/> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.9"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68> a psdiDcatExt:Tool ;
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68> a psdiDcatExt:Tool ;
     rdfs:label "aiida-gromacs"@en ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"@en ;
     psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
+    psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     psdiDcatExt:furtherInformation <http://aiida-gromacs.readthedocs.io/en/latest/> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaGromacs.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"@en ;
@@ -3241,7 +3241,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:type dcmitype:Software ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <http://github.com/PSDI-UK/aiida-gromacs/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
     dcat:keyword "aiida-gromacs"@en,
         "aiida-plugin"@en,
         "alchemical free energy"@en,
@@ -3273,7 +3273,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "trajectory"@en ;
     dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
@@ -3439,9 +3439,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         foaf:Document ;
     rdfs:label "Materials Galaxy homepage"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> a dcat:Catalog ;
     rdfs:label "PSDI Digital Lab Notebook Resources"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3459,7 +3459,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "PSDI Digital Lab Notebook Resources"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "Digital Lab Notebooks"@en,
@@ -3479,18 +3479,18 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "onenote"@en ;
     dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d35aff20-3b39-4a20-8fb4-1615c729da33> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d35aff20-3b39-4a20-8fb4-1615c729da33> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/dbb85771-a4fe-498b-88b8-a3281b9566fa> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/dbb85771-a4fe-498b-88b8-a3281b9566fa> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> a dcat:Catalog ;
     rdfs:label "Container Image Registry"@en ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/a363e1c8-e1e0-47a3-a8d7-17f36c731ac2> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/a363e1c8-e1e0-47a3-a8d7-17f36c731ac2> ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/containerImageRegistry-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3506,7 +3506,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "container images"@en ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> a dcat:Catalog ;
     rdfs:label "Data Collections for Chemical Modelling"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg> ;
@@ -3526,8 +3526,8 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Data Collections for Chemical Modelling"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "LogS"@en,
@@ -3544,7 +3544,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> a dcat:DataService ;
     rdfs:label "Community Data Collections"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-communityDataCollections.svg> ;
@@ -3570,8 +3570,8 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "re-use"@en,
         "search"@en ;
     dcat:landingPage <http://data-collections.psdi.ac.uk> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://orcid.org/0000-0001-6431-0612> a foaf:Agent ;
@@ -3655,7 +3655,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
     skos:prefLabel "chemical sciences"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> a dcat:Dataset ;
     rdfs:label "CDI database"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
@@ -3664,15 +3664,15 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:creator <http://orcid.org/0000-0001-7348-7612> ;
     dcterms:description "The database model for the CDI underpins the knowledge graph of a research community, linking research products (publications, data) and entities (researchers, institutions). It enables data discovery, showcases collaborations, and provides insights into research output. While centred on Published Works, Researchers, Institutions, Research Themes, and Data Objects, it can be extended to support domain-specific data (e.g., chemical entities, materials, analysis methods) tailored to the needs of different communities."@en ;
     dcterms:identifier "psdiDcat:data/530ae29a-89eb-4562-b918-1fb66d8bfdb2"@en ;
-    dcterms:isPartOf <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcterms:issued "2022-10-14T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Catalysis Data Infrastructure (CDI) Database"@en ;
     dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/c5be2a39-867a-4dcc-a606-8855bc85ca9e> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/c5be2a39-867a-4dcc-a606-8855bc85ca9e> ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> ;
     dcat:keyword "FAIR DO"@en,
         "catalysis"@en,
         "publications"@en,
@@ -3680,7 +3680,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <http://cdi.ukcatalysishub.org/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> a dcat:Dataset ;
     rdfs:label "CCP-NC Magres database"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.ccpnc.ac.uk/database/faqs.html> ;
@@ -3702,9 +3702,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres Database"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/550b01c7-8a32-4ea9-b7fc-34fae7b887d7> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/550b01c7-8a32-4ea9-b7fc-34fae7b887d7> ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> ;
     dcat:keyword "CASTEP"@en,
         "DFT"@en,
         "EFG"@en,
@@ -3717,7 +3717,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> a dcat:Dataset ;
+<http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> a dcat:Dataset ;
     rdfs:label "BioSimDB"@en ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-d-data.svg> ;
@@ -3737,10 +3737,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "BioSimDB (Biomolecular Simulations Database)"@en ;
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> ;
     dcat:keyword "alchemical free energy"@en,
         "alphafold"@en,
         "amber"@en,
@@ -3776,10 +3776,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> a dcat:Catalog ;
     rdfs:label "PSDI Data Conversion"@en ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -3798,7 +3798,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "PSDI Data Conversion"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "Data Conversion"@en,
@@ -3806,7 +3806,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Data Quality Assessment"@en ;
     dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/8070e4aa-9dd5-4f39-9e3b-e121317ef361> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/8070e4aa-9dd5-4f39-9e3b-e121317ef361> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
@@ -3844,9 +3844,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     vcard:Name "ukcathubapp github issues"@en ;
     vcard:hasURL "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> a dcat:Catalog ;
     rdfs:label "Thematic portal"@en ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/fa4cf273-773f-48b3-aace-7aebdbc27306> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/fa4cf273-773f-48b3-aace-7aebdbc27306> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/catalysisDataInfrastructure-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3858,9 +3858,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Thematic Portal (Catalysis Data Infrastructure Example)"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/fc2fbf02-8638-414b-acb9-a16ea44dfff0> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
     dcat:contactPoint <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> ;
     dcat:keyword "FAIR DO"@en,
         "catalysis"@en,
@@ -3868,16 +3868,16 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "publishing data"@en ;
     dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f9e34853-7e01-4fb1-ac10-30d8aced63f9> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f9e34853-7e01-4fb1-ac10-30d8aced63f9> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> a dcat:Catalog ;
     rdfs:label "PSDI Knowledge Base Topics"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/06f88b4e-5d6c-4dc1-8ddd-51099c5bd387>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/74f53465-3cf8-49ff-be58-f7a5b749a981> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/06f88b4e-5d6c-4dc1-8ddd-51099c5bd387>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5f0b1c7b-c645-4d0d-b1ab-d42f8f07f9d9>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/74f53465-3cf8-49ff-be58-f7a5b749a981> ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3942,10 +3942,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a> a skos:Concept ;
     skos:prefLabel "quantum chemistry"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> a dcat:Catalog ;
     rdfs:label "CCP-NC"@en ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/22ce2e1a-1e37-4773-a574-27658e395438>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/51c04def-007c-4536-8441-015aa097b30c> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/22ce2e1a-1e37-4773-a574-27658e395438>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/51c04def-007c-4536-8441-015aa097b30c> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://www.ccpnc.ac.uk/database/faqs.html> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> ;
@@ -3960,9 +3960,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "Collaborative Computational Project for NMR Crystallography (CCP-NC)"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/1fc5c6f3-62cc-4087-a5e2-11497f161f27> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/1fc5c6f3-62cc-4087-a5e2-11497f161f27> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/7e871747-1bd3-4abf-8fe3-dc4ec55b3771> ;
     dcat:contactPoint <http://www.ccpnc.ac.uk/contact> ;
     dcat:keyword "Crystallography"@en,
         "DFT"@en,
@@ -3973,12 +3973,12 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> a dcat:Catalog ;
     rdfs:label "BioSim data resource"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8271-3431>,
@@ -3990,7 +3990,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:title "BioSim (Biomolecular Simulations) Data Resources"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "alchemical free energy"@en,
@@ -4059,14 +4059,14 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
     skos:prefLabel "machine learning"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> a dcat:Catalog ;
     rdfs:label "PSDI Skills4Scientists"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0001-8286-3835>,
@@ -4124,13 +4124,13 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6> a skos:Concept ;
     skos:prefLabel "catalysis"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/aa3bd192-f865-45fd-9d0b-b6a9d6071992> a dcat:Catalog ;
     rdfs:label "MLIP"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4> ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/290bd5d1-95fa-49f5-958e-f62b2ed66386>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/6bcaa538-a26f-4720-a505-bada3aa52f55>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/tool/f988614a-ab07-4fb6-b0ee-83f19024399d> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4> ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/290bd5d1-95fa-49f5-958e-f62b2ed66386>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/6bcaa538-a26f-4720-a505-bada3aa52f55>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/f988614a-ab07-4fb6-b0ee-83f19024399d> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.png> ;
     dcterms:creator <http://orcid.org/0000-0002-7013-6670> ;
@@ -4142,7 +4142,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcterms:title "Data to Knowledge"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "AIIDA provenance records"@en,
@@ -4151,27 +4151,27 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "machine learning"@en ;
     dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> a dcat:Catalog ;
     rdfs:label "Data Sources for PSDI Cross Data Search"@en ;
     psdiDcatExt:displayPriority 3 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiCrossSearchData-r.svg> ;
     dcterms:description "This resource theme includes data sources searchable via the PSDI Cross Data Search service. Users can search for substances (e.g., molecules or crystal structures) or publication references, depending on the selected data sources. It incorporates data from PSDI, partners, OPTIMADE providers, and other relevant external sources, offering a comprehensive discovery tool for the research community."@en ;
-    dcterms:hasPart <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
+    dcterms:hasPart <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
     dcterms:identifier "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"@en ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:publisher <http://www.psdi.ac.uk> ;
     dcterms:title "Data Sources for PSDI Cross Data Search"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/06bdf98c-e51b-4656-a424-2c9e80b68c76>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/e0e14403-1575-43db-a677-89aa515968e4> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/06bdf98c-e51b-4656-a424-2c9e80b68c76>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/e0e14403-1575-43db-a677-89aa515968e4> ;
     dcat:keyword "physical sciences"@en ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
@@ -4205,14 +4205,14 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
 <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
     skos:prefLabel "data processing"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> a dcat:Catalog ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> a dcat:Catalog ;
     rdfs:label "Galaxy"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> ;
     psdiDcatExt:displayPriority 2 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
         <http://galaxyproject.org/>,
@@ -4230,9 +4230,9 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcterms:title "Galaxy Workflow Management System"@en ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a>,
-        <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/66d10e20-66ea-49a7-a29a-be94cd2be77b> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/66d10e20-66ea-49a7-a29a-be94cd2be77b> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
     dcat:contactPoint [ a vcard:Kind ;
             vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
@@ -4296,7 +4296,7 @@ dcmitype:Text a skos:Concept ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
     rdfs:label "OPTIMADE logo"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> a dcat:DataService ;
+<http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"@en ;
     psdiDcatExt:displayPriority 1 ;
     psdiDcatExt:furtherInformation <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> ;
@@ -4322,7 +4322,7 @@ dcmitype:Text a skos:Concept ;
         "physical sciences"@en,
         "search"@en ;
     dcat:landingPage <http://data-search.psdi.ac.uk> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 dcmitype:Dataset a skos:Concept ;

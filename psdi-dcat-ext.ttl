@@ -6,38 +6,38 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix psdiDcatExt: <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#> .
+@prefix psdiDcatExt: <http://metadata.psdi.ac.uk/psdi-dcat-ext#> .
 @prefix sdo: <https://schema.org/> .
 @prefix spdx: <http://spdx.org/rdf/terms#> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#> <rdfs:label> "PSDI DCAT extension"@en ;
+<http://metadata.psdi.ac.uk/psdi-dcat-ext#> <rdfs:label> "PSDI DCAT extension"@en ;
 	dcterms:title "PSDI DCAT extension"@en ;
 	dcterms:description "Extension of DCAT to describe PSDI catalogue"@en ;
 	dc11:Version "0.1.0"@en ;
 	dcterms:created "2024-04-18T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
 	dcterms:modified "2024-09-25T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
-	dcterms:creator <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> ;
+	dcterms:creator <http://metadata.psdi.ac.uk/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	dcterms:publisher <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/psdi.ac.uk> ;
+	dcterms:publisher <http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/psdi.ac.uk> ;
 	dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
-	foaf:fundedBy <http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/ror.org/0439y7842> ;
+	foaf:fundedBy <http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/ror.org/0439y7842> ;
 	a <owl:Ontology> .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> foaf:name "Aileen Day"@en ;
+<http://metadata.psdi.ac.uk/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> foaf:name "Aileen Day"@en ;
 	foaf:openid "https://orcid.org/0000-0003-2397-1996"@en ;
 	a foaf:Person .
 
 <http://id.loc.gov/vocabulary/iso639-1/en> a dcterms:LinguisticSystem ;
 	<rdfs:label> "en"@en .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
+<http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
 	foaf:openid "http://www.psdi.ac.uk"@en ;
 	a foaf:Organisation .
 
 <https://spdx.org/licenses/CC0-1.0.html> <rdfs:label> "Creative Commons Zero v1.0 Universal"@en ;
 	a dcterms:LicenseDocument .
 
-<http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat-ext#organization/ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
+<http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
 	foaf:openid "https://ror.org/0439y7842"@en ;
 	a foaf:Organization .
 

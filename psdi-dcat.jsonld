@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "psdiDcat": "http://metadata.psdi.ac.uk/resource-catalogue/psdi-dcat/",
+        "psdiDcat": "http://metadata.psdi.ac.uk/psdi-dcat/",
         "psdiDcatExt": "http://metadata.psdi.ac.uk/psdi-dcat-ext#",
         "adms": "http://www.w3.org/ns/adms#",
         "dc11": "http://purl.org/dc/elements/1.1/",
@@ -33,7 +33,7 @@
         "dcat:themeTaxonomy": {
             "@id": "http://data.europa.eu/8mn/euroscivoc/40c0f173-baa3-48a3-9fe6-d6e8fb366a00",
             "@type": "skos:ConceptScheme",
-            "dcterms:title": "EuroSciVoc"
+            "rdfs:label": "EuroSciVoc"
         },
         "dcat:landingPage": {
             "@type": "foaf:Document",
