@@ -33,7 +33,8 @@
         "dcat:themeTaxonomy": {
             "@id": "http://data.europa.eu/8mn/euroscivoc/40c0f173-baa3-48a3-9fe6-d6e8fb366a00",
             "@type": "skos:ConceptScheme",
-            "rdfs:label": "EuroSciVoc"
+            "rdfs:label": "EuroSciVoc",
+            "dcterms:title": "EuroSciVoc"
         },
         "dcat:landingPage": {
             "@type": "foaf:Document",
@@ -52,7 +53,7 @@
             "Physical Sciences",
             "Research data"
         ],
-        "dcat:themes": {
+        "dcat:theme": {
             "@id": "http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557",
             "@type": "skosxl:Label",
             "rdfs:label": "physical sciences"
@@ -102,7 +103,6 @@
                 },
                 "dcterms:description": "The PSDI Cross Data Search service enables users to search for data across data sources provided by PSDI and other relevant data sources from the wider community using our online interface. The service provides a number of different ways to perform a search, for example searching substances by chemical formula, name, or number of elements, with the option to refine searches using a periodic table interface. Specialised searches can also be performed for molecules using  molecular structures, crystalline forms, or specific symmetry or periodicity characteristics. There is also an advanced search option, enabling custom queries to be constructed for users who know which fields in the data sources they want to search. The search results provide both a summary of the data and links to the source of the data. Although the majority of data sources are completely open, authentication may be required for some data sources.",
                 "dcat:keyword": [
-                    "physical sciences",
                     "search",
                     "download",
                     "data",
@@ -1259,7 +1259,6 @@
                     "structural chemistry",
                     "FAIR",
                     "physical sciences",
-                    "crystallography",
                     "materials science",
                     "molecular geometry",
                     "molecular interactions",
@@ -1380,7 +1379,6 @@
                         "structural chemistry",
                         "FAIR",
                         "physical sciences",
-                        "crystallography",
                         "materials science",
                         "molecular geometry",
                         "molecular interactions",
@@ -1980,20 +1978,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-aflow-aflow",
                         "dcterms:identifier": "psdiDcat:data/optimade-aflow-aflow",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://aflow.org",
                             "rdfs:label": "homepage for AFLOW"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "AFLOW (aflow)",
+                        "dcterms:title": "AFLOW",
                         "rdfs:label": "AFLOW",
                         "dcterms:description": "Description of provider: Automatic FLOW (AFLOW) database for computational materials science. Description of dataset: The AFLOW OPTIMADE endpoint",
-                        "dcterms:bibliographicCitation": "Please cite: 'AFLOW (aflow)' (https://aflow.org) accessed via OPTIMADE endpoint with base https://aflow.org/API/optimade/ on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'AFLOW' (https://aflow.org) accessed via OPTIMADE endpoint with base https://aflow.org/API/optimade/ on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2026,20 +2028,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-alexandria-alexandria-pbesol",
                         "dcterms:identifier": "psdiDcat:data/optimade-alexandria-alexandria-pbesol",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://tddft.org/bmg/data.php",
                             "rdfs:label": "homepage for alexandria"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Alexandria: alexandria (alexandria-pbesol)",
+                        "dcterms:title": "Alexandria: alexandria-pbesol",
                         "rdfs:label": "alexandria",
                         "dcterms:description": "Description of provider: A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset: A new dataset of 415k stable and metastable materials calculated with the PBEsol and SCAN functionals",
-                        "dcterms:bibliographicCitation": "Please cite: 'Alexandria: alexandria (alexandria-pbesol)' (https://tddft.org/bmg/data.php) accessed via OPTIMADE endpoint with base https://alexandria.icams.rub.de/pbesol on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Alexandria: alexandria-pbesol' (https://tddft.org/bmg/data.php) accessed via OPTIMADE endpoint with base https://alexandria.icams.rub.de/pbesol on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2077,20 +2083,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-alexandria-alexandria-pbe",
                         "dcterms:identifier": "psdiDcat:data/optimade-alexandria-alexandria-pbe",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://tddft.org/bmg/data.php",
                             "rdfs:label": "homepage for alexandria"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Alexandria: alexandria (alexandria-pbe)",
+                        "dcterms:title": "Alexandria: alexandria-pbe",
                         "rdfs:label": "alexandria",
                         "dcterms:description": "Description of provider: A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset: A dataset of 2.5m+ stable and metastable materials calculated with the PBE functional",
-                        "dcterms:bibliographicCitation": "Please cite: 'Alexandria: alexandria (alexandria-pbe)' (https://tddft.org/bmg/data.php) accessed via OPTIMADE endpoint with base https://alexandria.icams.rub.de/pbe on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Alexandria: alexandria-pbe' (https://tddft.org/bmg/data.php) accessed via OPTIMADE endpoint with base https://alexandria.icams.rub.de/pbe on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2128,20 +2138,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-cod-cod",
                         "dcterms:identifier": "psdiDcat:data/optimade-cod-cod",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.crystallography.net/cod",
                             "rdfs:label": "homepage for Crystallography Open Database"
                         },
                         "psdiDcatExt:displayPriority": 2,
-                        "dcterms:title": "Crystallography Open Database (cod)",
+                        "dcterms:title": "Crystallography Open Database",
                         "rdfs:label": "Crystallography Open Database",
                         "dcterms:description": "Open-access collection of crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers",
-                        "dcterms:bibliographicCitation": "Please cite: 'Crystallography Open Database (cod)' (https://www.crystallography.net/cod) accessed via OPTIMADE endpoint with base https://www.crystallography.net/cod/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Crystallography Open Database' (https://www.crystallography.net/cod) accessed via OPTIMADE endpoint with base https://www.crystallography.net/cod/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2179,20 +2193,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-cmr-cmr",
                         "dcterms:identifier": "psdiDcat:data/optimade-cmr-cmr",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://cmr.fysik.dtu.dk",
                             "rdfs:label": "homepage for Computational materials repository (CMR)"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Computational materials repository (CMR) (cmr)",
+                        "dcterms:title": "Computational materials repository (CMR)",
                         "rdfs:label": "Computational materials repository (CMR)",
                         "dcterms:description": "CMR is a collection of materials repositories from different projects such as C2DB, QPOD and many more",
-                        "dcterms:bibliographicCitation": "Please cite: 'Computational materials repository (CMR) (cmr)' (https://cmr.fysik.dtu.dk) accessed via OPTIMADE endpoint with base https://cmr-optimade.fysik.dtu.dk on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Computational materials repository (CMR)' (https://cmr.fysik.dtu.dk) accessed via OPTIMADE endpoint with base https://cmr-optimade.fysik.dtu.dk on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2230,20 +2248,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-mc3d",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-mc3d",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/mc3d",
                             "rdfs:label": "homepage for MC3D - Materials Cloud three-dimensional crystals database"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database (mc3d)",
+                        "dcterms:title": "Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database",
                         "rdfs:label": "MC3D - Materials Cloud three-dimensional crystals database",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database (mc3d)' (https://www.materialscloud.org/explore/mc3d) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/mc3d/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: MC3D - Materials Cloud three-dimensional crystals database' (https://www.materialscloud.org/explore/mc3d) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/mc3d/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2281,20 +2303,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-mc2d",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-mc2d",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/mc2d",
                             "rdfs:label": "homepage for MC2D - Materials Cloud two-dimensional crystals database"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database (mc2d)",
+                        "dcterms:title": "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database",
                         "rdfs:label": "MC2D - Materials Cloud two-dimensional crystals database",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Two-dimensional (2D) materials from high-throughput computational exfoliation of experimentally known compounds.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database (mc2d)' (https://www.materialscloud.org/explore/mc2d) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/mc2d/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database' (https://www.materialscloud.org/explore/mc2d) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/mc2d/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2332,20 +2358,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-2dtopo",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-2dtopo",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/2dtopo",
                             "rdfs:label": "homepage for 2D topological insulators"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: 2D topological insulators (2dtopo)",
+                        "dcterms:title": "Materials Cloud: 2D topological insulators",
                         "rdfs:label": "2D topological insulators",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Quantum spin Hall insulator (QSHI) candidates through DFT band structure calculations.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: 2D topological insulators (2dtopo)' (https://www.materialscloud.org/explore/2dtopo) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/2dtopo/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: 2D topological insulators' (https://www.materialscloud.org/explore/2dtopo) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/2dtopo/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2383,20 +2413,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-tc-applicability",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-tc-applicability",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/tc-applicability",
                             "rdfs:label": "homepage for Applicability of tail-corrections in the molecular simulations of porous materials"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials (tc-applicability)",
+                        "dcterms:title": "Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials",
                         "rdfs:label": "Applicability of tail-corrections in the molecular simulations of porous materials",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Tail-corrections in molecular simulations for adsorption of gasses in a diverse set of nanoporous crystalline materials (zeolites, Covalent Organic Framworks (COFs), and Metal Organic Frameworks (MOFs)).",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials (tc-applicability)' (https://www.materialscloud.org/explore/tc-applicability) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/tc-applicability/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Applicability of tail-corrections in the molecular simulations of porous materials' (https://www.materialscloud.org/explore/tc-applicability) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/tc-applicability/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2434,20 +2468,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-pyrene-mofs",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-pyrene-mofs",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/discover/pyrene-mofs",
                             "rdfs:label": "homepage for Pyrene-based metal organic frameworks"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: Pyrene-based metal organic frameworks (pyrene-mofs)",
+                        "dcterms:title": "Materials Cloud: Pyrene-based metal organic frameworks",
                         "rdfs:label": "Pyrene-based metal organic frameworks",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Pyrene Metal Organic Frameworks (MOFs).",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Pyrene-based metal organic frameworks (pyrene-mofs)' (https://www.materialscloud.org/discover/pyrene-mofs) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/pyrene-mofs/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Pyrene-based metal organic frameworks' (https://www.materialscloud.org/discover/pyrene-mofs) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/pyrene-mofs/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2485,20 +2523,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-curated-cofs",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-curated-cofs",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/discover/curated-cofs",
                             "rdfs:label": "homepage for CURATED covalent organic frameworks database"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: CURATED covalent organic frameworks database (curated-cofs)",
+                        "dcterms:title": "Materials Cloud: CURATED covalent organic frameworks database",
                         "rdfs:label": "CURATED covalent organic frameworks database",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Database of experimentally reported Covalent-Organic Frameworks (COFs), provided with DFT-optimized geometry and DDEC partial charges for molecular simulations.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: CURATED covalent organic frameworks database (curated-cofs)' (https://www.materialscloud.org/discover/curated-cofs) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/curated-cofs/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: CURATED covalent organic frameworks database' (https://www.materialscloud.org/discover/curated-cofs) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/curated-cofs/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2536,20 +2578,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-stoceriaitf",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-stoceriaitf",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/stoceriaitf",
                             "rdfs:label": "homepage for SrTiO3-CeO2 interfaces"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: SrTiO3-CeO2 interfaces (stoceriaitf)",
+                        "dcterms:title": "Materials Cloud: SrTiO3-CeO2 interfaces",
                         "rdfs:label": "SrTiO3-CeO2 interfaces",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Refining random structure searching results of SrTiO3-CeO2 interfaces, and exploring how it can affect ionic conduction. Candidate structures of the DFT validation calculations.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: SrTiO3-CeO2 interfaces (stoceriaitf)' (https://www.materialscloud.org/explore/stoceriaitf) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/stoceriaitf/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: SrTiO3-CeO2 interfaces' (https://www.materialscloud.org/explore/stoceriaitf) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/stoceriaitf/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2587,20 +2633,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-scdm",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-scdm",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/autowannier",
                             "rdfs:label": "homepage for Automated high-throughput Wannierisation"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: Automated high-throughput Wannierisation (scdm)",
+                        "dcterms:title": "Materials Cloud: Automated high-throughput Wannierisation",
                         "rdfs:label": "Automated high-throughput Wannierisation",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Validation results of an automated protocol for generating maximally-localized Wannier functions in a high-throughput framework.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Automated high-throughput Wannierisation (scdm)' (https://www.materialscloud.org/explore/autowannier) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/autowannier/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Automated high-throughput Wannierisation' (https://www.materialscloud.org/explore/autowannier) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/autowannier/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2638,20 +2688,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloud-tin-antimony-sulfoiodide",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-tin-antimony-sulfoiodide",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialscloud.org/explore/tin-antimony-sulfoiodide",
                             "rdfs:label": "homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 (tin-antimony-sulfoiodide)",
+                        "dcterms:title": "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3",
                         "rdfs:label": "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3",
                         "dcterms:description": "Description of provider: A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset: Structural, dynamic and electronic characterisation of a novel mixed-metal chalcohalide revealing hidden symmetry breaking and spontaneous polarisation.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 (tin-antimony-sulfoiodide)' (https://www.materialscloud.org/explore/tin-antimony-sulfoiodide) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3' (https://www.materialscloud.org/explore/tin-antimony-sulfoiodide) accessed via OPTIMADE endpoint with base https://aiida.materialscloud.org/tin-antimony-sulfoiodide/optimade on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2689,20 +2743,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloudarchive-zk-gc",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-zk-gc",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://archive.materialscloud.org/record/2025.32",
                             "rdfs:label": "homepage for MC Archive zk-gc"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud Archive: MC Archive zk-gc (zk-gc)",
+                        "dcterms:title": "Materials Cloud Archive: MC Archive zk-gc",
                         "rdfs:label": "MC Archive zk-gc",
                         "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: Y. He et al., Machine learning on multiple topological materials datasets, Materials Cloud Archive 2025.32 (2025) doi: 10.24435/materialscloud:zk-gc",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive zk-gc (zk-gc)' (https://archive.materialscloud.org/record/2025.32) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/zk-gc on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive zk-gc' (https://archive.materialscloud.org/record/2025.32) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/zk-gc on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2740,20 +2798,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloudarchive-c8-gy",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-c8-gy",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://archive.materialscloud.org/record/2023.181",
                             "rdfs:label": "homepage for MC Archive c8-gy"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud Archive: MC Archive c8-gy (c8-gy)",
+                        "dcterms:title": "Materials Cloud Archive: MC Archive c8-gy",
                         "rdfs:label": "MC Archive c8-gy",
                         "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: Z. Wang et al., Machine learning-accelerated discovery of A2BC2 ternary electrides with diverse anionic electron densities, Materials Cloud Archive 2023.181 (2023) doi: 10.24435/materialscloud:c8-gy",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive c8-gy (c8-gy)' (https://archive.materialscloud.org/record/2023.181) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/c8-gy on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive c8-gy' (https://archive.materialscloud.org/record/2023.181) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/c8-gy on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2791,20 +2853,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloudarchive-5p-vq",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-5p-vq",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://archive.materialscloud.org/record/2024.114",
                             "rdfs:label": "homepage for MC Archive 5p-vq"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud Archive: MC Archive 5p-vq (5p-vq)",
+                        "dcterms:title": "Materials Cloud Archive: MC Archive 5p-vq",
                         "rdfs:label": "MC Archive 5p-vq",
                         "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: V. Trinquet et al., Optical materials discovery and design with federated databases and machine learning, Materials Cloud Archive 2024.114 (2024) doi: 10.24435/materialscloud:5p-vq",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive 5p-vq (5p-vq)' (https://archive.materialscloud.org/record/2024.114) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/5p-vq on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive 5p-vq' (https://archive.materialscloud.org/record/2024.114) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/5p-vq on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2842,20 +2908,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mcloudarchive-vg-ya",
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-vg-ya",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://archive.materialscloud.org/record/2024.65",
                             "rdfs:label": "homepage for MC Archive vg-ya"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Cloud Archive: MC Archive vg-ya (vg-ya)",
+                        "dcterms:title": "Materials Cloud Archive: MC Archive vg-ya",
                         "rdfs:label": "MC Archive vg-ya",
                         "dcterms:description": "Description of provider: Databases contributed by the community to the Materials Cloud Archive. Description of dataset: L. Kahle et al., High-throughput computational screening for solid-state Li-ion conductors, Materials Cloud Archive 2024.65 (2024) doi: 10.24435/materialscloud:vg-ya",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive vg-ya (vg-ya)' (https://archive.materialscloud.org/record/2024.65) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/vg-ya on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Cloud Archive: MC Archive vg-ya' (https://archive.materialscloud.org/record/2024.65) accessed via OPTIMADE endpoint with base https://optimade.materialscloud.org/archive/vg-ya on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2893,20 +2963,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mp-mp",
                         "dcterms:identifier": "psdiDcat:data/optimade-mp-mp",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://www.materialsproject.org",
                             "rdfs:label": "homepage for The Materials Project"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "The Materials Project (mp)",
+                        "dcterms:title": "The Materials Project",
                         "rdfs:label": "The Materials Project",
                         "dcterms:description": "Description of provider: An open database of computed materials properties to accelerate materials discovery and design. Description of dataset: The Materials Project OPTIMADE endpoint",
-                        "dcterms:bibliographicCitation": "Please cite: 'The Materials Project (mp)' (https://www.materialsproject.org) accessed via OPTIMADE endpoint with base https://optimade.materialsproject.org on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'The Materials Project' (https://www.materialsproject.org) accessed via OPTIMADE endpoint with base https://optimade.materialsproject.org on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2944,20 +3018,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mpdd-mpdd",
                         "dcterms:identifier": "psdiDcat:data/optimade-mpdd-mpdd",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://phaseslab.com/mpdd",
                             "rdfs:label": "homepage for Material-Property-Descriptor Database"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Material-Property-Descriptor Database (mpdd)",
+                        "dcterms:title": "Material-Property-Descriptor Database",
                         "rdfs:label": "Material-Property-Descriptor Database",
                         "dcterms:description": "Material-Property-Descriptor Database (MPDD) of atomic structures. Optimized for the high-throughput deployment of material featurizers and ML models. Maintained by Phases Research Lab (phaseslab.org) at The Pennsylvania State University",
-                        "dcterms:bibliographicCitation": "Please cite: 'Material-Property-Descriptor Database (mpdd)' (https://phaseslab.com/mpdd) accessed via OPTIMADE endpoint with base http://mpddoptimade.phaseslab.org on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Material-Property-Descriptor Database' (https://phaseslab.com/mpdd) accessed via OPTIMADE endpoint with base http://mpddoptimade.phaseslab.org on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -2995,20 +3073,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mpds-mpds",
                         "dcterms:identifier": "psdiDcat:data/optimade-mpds-mpds",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://mpds.io",
                             "rdfs:label": "homepage for Materials Platform for Data Science"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Materials Platform for Data Science (mpds)",
+                        "dcterms:title": "Materials Platform for Data Science",
                         "rdfs:label": "Materials Platform for Data Science",
                         "dcterms:description": "A highly curated Pauling File dataset based on ~0.5M publications and backing up Springer Materials, ICDD PDF, ASM APD, MedeA, Pearson Crystal Data, AtomWork Advanced, etc.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Materials Platform for Data Science (mpds)' (https://mpds.io) accessed via OPTIMADE endpoint with base https://api.mpds.io on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Materials Platform for Data Science' (https://mpds.io) accessed via OPTIMADE endpoint with base https://api.mpds.io on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -3046,20 +3128,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-mpod-mpod",
                         "dcterms:identifier": "psdiDcat:data/optimade-mpod-mpod",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "http://mpod.cimav.edu.mx",
                             "rdfs:label": "homepage for Material Properties Open Database (MPOD)"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Material Properties Open Database (MPOD) (mpod)",
+                        "dcterms:title": "Material Properties Open Database (MPOD)",
                         "rdfs:label": "Material Properties Open Database (MPOD)",
                         "dcterms:description": "Description of provider: The Material Properties Open Database (MPOD) is a web-based, open access repository of quantitative information about the physical properties of crystalline materials. MPOD is oriented to design engineers, scientists, science teachers and students. Properties are generally treated as tensor magnitudes. In MPOD the compact matrix notation is applied. To bring an intuitive view of tensor properties, so-called longitudinal properties surfaces are displayed. 3D printing of properties surfaces is implemented via creation of stl files. A dictionary of properties definitions is included. Eventually, comments are added. Syntax and notation in MPOD files is oriented towards matching IUCr standards and so tries to comply with CIF format. Description of dataset: MPOD is a web-based, open access repository of quantitative information about the physical properties of crystalline materials.",
-                        "dcterms:bibliographicCitation": "Please cite: 'Material Properties Open Database (MPOD) (mpod)' (http://mpod.cimav.edu.mx) accessed via OPTIMADE endpoint with base http://mpod_optimade.cimav.edu.mx on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Material Properties Open Database (MPOD)' (http://mpod.cimav.edu.mx) accessed via OPTIMADE endpoint with base http://mpod_optimade.cimav.edu.mx on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -3097,20 +3183,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-nmd-nmd",
                         "dcterms:identifier": "psdiDcat:data/optimade-nmd-nmd",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://nomad-lab.eu",
                             "rdfs:label": "homepage for novel materials discovery (NOMAD)"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "novel materials discovery (NOMAD) (nmd)",
+                        "dcterms:title": "novel materials discovery (NOMAD)",
                         "rdfs:label": "novel materials discovery (NOMAD)",
                         "dcterms:description": "A FAIR data sharing platform for materials science data",
-                        "dcterms:bibliographicCitation": "Please cite: 'novel materials discovery (NOMAD) (nmd)' (https://nomad-lab.eu) accessed via OPTIMADE endpoint with base https://nomad-lab.eu/prod/rae/optimade/ on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'novel materials discovery (NOMAD)' (https://nomad-lab.eu) accessed via OPTIMADE endpoint with base https://nomad-lab.eu/prod/rae/optimade/ on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -3148,20 +3238,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-odbx-gnome",
                         "dcterms:identifier": "psdiDcat:data/optimade-odbx-gnome",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "https://github.com/ml-evs/optimade-gnome",
                             "rdfs:label": "homepage for Google DeepMind's Gnome Dataset"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "open database of xtals: Google DeepMind's Gnome Dataset (gnome)",
+                        "dcterms:title": "open database of xtals: Google DeepMind's Gnome Dataset",
                         "rdfs:label": "Google DeepMind's Gnome Dataset",
                         "dcterms:description": "Description of provider: A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset: An OPTIMADE API for the recent dataset released by Google DeepMind containing 340k new on-hull materials, according to PBE.",
-                        "dcterms:bibliographicCitation": "Please cite: 'open database of xtals: Google DeepMind's Gnome Dataset (gnome)' (https://github.com/ml-evs/optimade-gnome) accessed via OPTIMADE endpoint with base https://optimade-gnome.odbx.science on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'open database of xtals: Google DeepMind's Gnome Dataset' (https://github.com/ml-evs/optimade-gnome) accessed via OPTIMADE endpoint with base https://optimade-gnome.odbx.science on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -3199,20 +3293,24 @@
                             "@type": "dcterms:RightsStatement",
                             "@id": "http://purl.org/coar/access_right/c_abf2"
                         },
-                        "dcterms:isPartOf": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622",
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "@id": "psdiDcat:data/optimade-omdb-omdb_production",
                         "dcterms:identifier": "psdiDcat:data/optimade-omdb-omdb_production",
-                        "dcat:inCatalog": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
                             "@id": "http://openmaterialsdb.se",
                             "rdfs:label": "homepage for Open Materials Database (omdb) production database"
                         },
                         "psdiDcatExt:displayPriority": 3,
-                        "dcterms:title": "Open Materials Database: Open Materials Database (omdb) production database (omdb_production)",
+                        "dcterms:title": "Open Materials Database: Open Materials Database (omdb) production database",
                         "rdfs:label": "Open Materials Database (omdb) production database",
                         "dcterms:description": "Description of provider: The Open Materials Database (omdb) is a database of materials properties maintained by the developers of the High-Throughput Toolkit (httk). It enables easy access to useful materials data, in particular via programmatic interaction using this toolkit. Description of dataset: This is the main production version of the Open Materials Database",
-                        "dcterms:bibliographicCitation": "Please cite: 'Open Materials Database: Open Materials Database (omdb) production database (omdb_production)' (http://openmaterialsdb.se) accessed via OPTIMADE endpoint with base http://optimade.openmaterialsdb.se on CURRENT_DATE",
+                        "dcterms:bibliographicCitation": "Please cite: 'Open Materials Database: Open Materials Database (omdb) production database' (http://openmaterialsdb.se) accessed via OPTIMADE endpoint with base http://optimade.openmaterialsdb.se on CURRENT_DATE",
                         "dcat:Distribution": {
                             "@type": "dcat:Distribution",
                             "dcat:accessService": {
@@ -3245,7 +3343,6 @@
                 },
                 "dcterms:description": "The Physical Sciences Data Infrastructure (PSDI) is set to become the largest UK data infrastructure for the physical sciences, supporting diverse research communities in accessing and sharing data resources. Community portals are designed to provide customized access points, enabling communities to showcase the research outputs generated using PSDI's resources and services. The database, services, code, and deployed portal demonstrate the benefits of community portals, highlighting their adaptability and ease of customization and deployment for diverse research communities.",
                 "dcat:keyword": [
-                    "catalysis",
                     "publications",
                     "FAIR DO",
                     "publishing data"
@@ -3320,7 +3417,6 @@
                     },
                     "dcterms:description": "The database model for the CDI underpins the knowledge graph of a research community, linking research products (publications, data) and entities (researchers, institutions). It enables data discovery, showcases collaborations, and provides insights into research output. While centred on Published Works, Researchers, Institutions, Research Themes, and Data Objects, it can be extended to support domain-specific data (e.g., chemical entities, materials, analysis methods) tailored to the needs of different communities.",
                     "dcat:keyword": [
-                        "catalysis",
                         "publications",
                         "FAIR DO",
                         "publishing data"
@@ -3419,7 +3515,6 @@
                         },
                         "dcterms:description": "The deployed Thematic Portal for the UK Catalysis Hub (CDI) offers summary reports on publications and research impact within this important scientific domain. It provides insights into publications, authors, institutions, top researchers, countries, and themes, while tracking changes over time to identify research trends. This use case illustrates how thematic portals can showcase research productivity, emphasize emerging trends, and simplify access to supporting data.",
                         "dcat:keyword": [
-                            "catalysis",
                             "publications",
                             "FAIR DO",
                             "publishing data"
@@ -3502,7 +3597,6 @@
                         },
                         "dcterms:description": "The data of the community portal is accessible programmatically through custom web services (API calls). Each entity can respond to call with JSON data which can be used to create custom views or feed third party applications. For example, the UK catalysis hub uses a web service that delivers filtered bibliographic lists of publications, is used to populate the publications pages on its website and to generate custom reports. We can assist in developing tailored services to meet specific community requirements.",
                         "dcat:keyword": [
-                            "catalysis",
                             "publications",
                             "FAIR DO",
                             "publishing data"
@@ -5293,8 +5387,6 @@
                     "database",
                     "data storage",
                     "structural biology",
-                    "simulation software",
-                    "molecular biology",
                     "computational biology",
                     "computational biochemistry",
                     "computational chemistry"
@@ -5398,8 +5490,6 @@
                         "database",
                         "data storage",
                         "structural biology",
-                        "simulation software",
-                        "molecular biology",
                         "computational biology",
                         "computational biochemistry",
                         "computational chemistry"
@@ -5551,8 +5641,6 @@
                             "alphafold",
                             "data storage",
                             "structural biology",
-                            "simulation software",
-                            "molecular biology",
                             "computational biology",
                             "computational biochemistry",
                             "computational chemistry",
@@ -5705,8 +5793,6 @@
                             "alphafold",
                             "data storage",
                             "structural biology",
-                            "simulation software",
-                            "molecular biology",
                             "computational biology",
                             "computational biochemistry",
                             "computational chemistry",
@@ -5855,8 +5941,6 @@
                             "database",
                             "data storage",
                             "structural biology",
-                            "simulation software",
-                            "molecular biology",
                             "computational biology",
                             "computational biochemistry",
                             "computational chemistry"
@@ -5988,8 +6072,6 @@
                         "alphafold",
                         "data storage",
                         "structural biology",
-                        "simulation software",
-                        "molecular biology",
                         "computational biology",
                         "computational biochemistry",
                         "computational chemistry",
@@ -6089,8 +6171,7 @@
                 "dcat:keyword": [
                     "Machine Learning Interatomic Potentials",
                     "MLIP",
-                    "AIIDA provenance records",
-                    "machine learning"
+                    "AIIDA provenance records"
                 ],
                 "dcat:theme": {
                     "skos:prefLabel": "machine learning",
@@ -6157,8 +6238,7 @@
                     "dcat:keyword": [
                         "Machine Learning Interatomic Potentials",
                         "MLIP",
-                        "AIIDA provenance records",
-                        "machine learning"
+                        "AIIDA provenance records"
                     ],
                     "dcat:theme": {
                         "skos:prefLabel": "machine learning",
@@ -6658,7 +6738,6 @@
                         },
                         "dcterms:description": "Training is at the core of this resource theme. The Chemistry and Materials Machine Learning (CaMML) school is run by PSDI in collaboration with a range of communities. Training is targeted towards PhD students, in particular those in the Materials and Molecular Simulations field, who have experience of coding but are not highly experienced with machine learning. The aim of this in-person training is to introduce attendees to the latest methods of machine learning for the atomistic simulation of materials.",
                         "dcat:keyword": [
-                            "Machine Learning",
                             "materials simulations",
                             "molecular simulations"
                         ],
@@ -7570,7 +7649,7 @@
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "Galaxy logo",
                     "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                 },
                 "psdiDcatExt:displayPriority": 2,
                 "dcat:Dataset": {
@@ -7655,7 +7734,7 @@
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "Galaxy logo",
                         "@type": "rdfs:Resource",
-                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                     },
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
@@ -7815,7 +7894,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -7969,7 +8048,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8097,7 +8176,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8222,7 +8301,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8338,7 +8417,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8454,7 +8533,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8570,7 +8649,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
@@ -8594,7 +8673,6 @@
                             "FAIR",
                             "Galaxy",
                             "X-ray Absorption Spectroscopy",
-                            "catalysis",
                             "FAIR DO",
                             "publishing data"
                         ],
@@ -8646,7 +8724,7 @@
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Galaxy logo",
                             "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.png"
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg"
                         },
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
