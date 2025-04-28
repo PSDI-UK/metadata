@@ -28,10 +28,10 @@
 		"@type":"xsd:dateTime"
 	},
 	"dcterms:creator": {
-		"@id":"psdiDcatExt:person/orcid.org/0000-0003-2397-1996",
-		"foaf:name":"Aileen Day",
-		"@type":"foaf:Person",
-		"foaf:openid":"https://orcid.org/0000-0003-2397-1996"
+		"foaf:name": "Aileen Day",
+        "@type": "foaf:Agent",
+        "foaf:openid": "http://orcid.org/0000-0003-2397-1996",
+        "@id": "http://orcid.org/0000-0003-2397-1996"
 	},
 	"dcterms:language":{
         "rdfs:label": "en",
@@ -39,10 +39,10 @@
         "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
     },
 	"dcterms:publisher":{
-        "@id":"psdiDcatExt:organization/psdi.ac.uk",
-        "foaf:name":"Physical Sciences Data Infrastructure",
-        "@type":"foaf:Organisation",
-        "foaf:openid": "http://www.psdi.ac.uk"
+        "foaf:name": "PSDI",
+        "@type": "foaf:Agent",
+        "foaf:openid": "http://www.psdi.ac.uk",
+        "@id": "http://www.psdi.ac.uk"
     },
 	"dcterms:license":{
 		"@id":"https://spdx.org/licenses/CC0-1.0.html",
@@ -50,10 +50,10 @@
 		"rdfs:label":"Creative Commons Zero v1.0 Universal"
 	},
 	"foaf:fundedBy":{
-		"@id":"psdiDcatExt:organization/ror.org/0439y7842",
-		"@type":"foaf:Organization",
-		"foaf:name":"Engineering and Physical Sciences Research Council (EPSRC)",
-		"foaf:openid":"https://ror.org/0439y7842"
+		"foaf:name": "Engineering and Physical Sciences Research Council (EPSRC)",
+        "@type": "foaf:Agent",
+        "foaf:openid": "https://ror.org/0439y7842",
+        "@id": "https://ror.org/0439y7842"
 	},
 	"@graph": [
 		{

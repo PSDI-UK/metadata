@@ -16,30 +16,30 @@
 	dc11:Version "0.1.0"@en ;
 	dcterms:created "2024-04-18T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
 	dcterms:modified "2024-09-25T12:01:01Z"^^<https://www.w3.org/2001/XMLSchema#dateTime> ;
-	dcterms:creator <http://metadata.psdi.ac.uk/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> ;
+	dcterms:creator <http://orcid.org/0000-0003-2397-1996> ;
 	dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-	dcterms:publisher <http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/psdi.ac.uk> ;
+	dcterms:publisher <http://www.psdi.ac.uk> ;
 	dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
-	foaf:fundedBy <http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/ror.org/0439y7842> ;
+	foaf:fundedBy <https://ror.org/0439y7842> ;
 	a <owl:Ontology> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat-ext#person/orcid.org/0000-0003-2397-1996> foaf:name "Aileen Day"@en ;
-	foaf:openid "https://orcid.org/0000-0003-2397-1996"@en ;
-	a foaf:Person .
+<http://orcid.org/0000-0003-2397-1996> a foaf:Agent ;
+	foaf:name "Aileen Day"@en ;
+	foaf:openid "http://orcid.org/0000-0003-2397-1996"@en .
 
 <http://id.loc.gov/vocabulary/iso639-1/en> a dcterms:LinguisticSystem ;
 	<rdfs:label> "en"@en .
 
-<http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/psdi.ac.uk> foaf:name "Physical Sciences Data Infrastructure"@en ;
-	foaf:openid "http://www.psdi.ac.uk"@en ;
-	a foaf:Organisation .
+<http://www.psdi.ac.uk> a foaf:Agent ;
+	foaf:name "PSDI"@en ;
+	foaf:openid "http://www.psdi.ac.uk"@en .
 
 <https://spdx.org/licenses/CC0-1.0.html> <rdfs:label> "Creative Commons Zero v1.0 Universal"@en ;
 	a dcterms:LicenseDocument .
 
-<http://metadata.psdi.ac.uk/psdi-dcat-ext#organization/ror.org/0439y7842> foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
-	foaf:openid "https://ror.org/0439y7842"@en ;
-	a foaf:Organization .
+<https://ror.org/0439y7842> a foaf:Agent ;
+	foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
+	foaf:openid "https://ror.org/0439y7842"@en .
 
 psdiDcatExt:Tool <rdfs:subClassOf> "dcat:Resource"@en ;
 	<rdfs:label> "Tool"@en ;
