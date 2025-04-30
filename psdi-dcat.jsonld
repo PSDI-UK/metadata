@@ -425,24 +425,6 @@
                     {
                         "@type": "dcat:Relationship",
                         "dcterms:relation": {
-                            "@id": "psdiDcat:guidance/ec1bc078-cd49-41e4-8087-995c0597a974"
-                        },
-                        "dcat:hadRole": {
-                            "@id": "http://www.iana.org/assignments/relation/describedby"
-                        }
-                    },
-                    {
-                        "@type": "dcat:Relationship",
-                        "dcterms:relation": {
-                            "@id": "psdiDcat:guidance/7bf5826f-51f8-4242-90aa-b694136deec9"
-                        },
-                        "dcat:hadRole": {
-                            "@id": "http://www.iana.org/assignments/relation/describedby"
-                        }
-                    },
-                    {
-                        "@type": "dcat:Relationship",
-                        "dcterms:relation": {
                             "@id": "psdiDcat:guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc"
                         },
                         "dcat:hadRole": {
@@ -3463,15 +3445,6 @@
                     "@type": "dcterms:RightsStatement",
                     "@id": "http://purl.org/coar/access_right/c_abf2"
                 },
-                "dcat:qualifiedRelation": {
-                    "@type": "dcat:Relationship",
-                    "dcterms:relation": {
-                        "@id": "psdiDcat:guidance/f9e34853-7e01-4fb1-ac10-30d8aced63f9"
-                    },
-                    "dcat:hadRole": {
-                        "@id": "http://www.iana.org/assignments/relation/describedby"
-                    }
-                },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "Catalysis Hub CDI logo",
                     "@type": "rdfs:Resource",
@@ -3928,15 +3901,6 @@
                     "rdfs:label": "PSDI Data Conversion Service Documentation",
                     "@type": "rdfs:Resource",
                     "@id": "https://data-conversion.psdi.ac.uk/static/content/documentation.htm"
-                },
-                "dcat:qualifiedRelation": {
-                    "@type": "dcat:Relationship",
-                    "dcterms:relation": {
-                        "@id": "psdiDcat:guidance/8070e4aa-9dd5-4f39-9e3b-e121317ef361"
-                    },
-                    "dcat:hadRole": {
-                        "@id": "http://www.iana.org/assignments/relation/describedby"
-                    }
                 },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "Data Conversion Service logo",
@@ -4829,26 +4793,15 @@
                     "@type": "dcterms:RightsStatement",
                     "@id": "http://purl.org/coar/access_right/c_abf2"
                 },
-                "dcat:qualifiedRelation": [
-                    {
-                        "@type": "dcat:Relationship",
-                        "dcterms:relation": {
-                            "@id": "psdiDcat:guidance/dbb85771-a4fe-498b-88b8-a3281b9566fa"
-                        },
-                        "dcat:hadRole": {
-                            "@id": "http://www.iana.org/assignments/relation/describedby"
-                        }
+                "dcat:qualifiedRelation": {
+                    "@type": "dcat:Relationship",
+                    "dcterms:relation": {
+                        "@id": "psdiDcat:guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41"
                     },
-                    {
-                        "@type": "dcat:Relationship",
-                        "dcterms:relation": {
-                            "@id": "psdiDcat:guidance/d35aff20-3b39-4a20-8fb4-1615c729da33"
-                        },
-                        "dcat:hadRole": {
-                            "@id": "http://www.iana.org/assignments/relation/describedby"
-                        }
+                    "dcat:hadRole": {
+                        "@id": "http://www.iana.org/assignments/relation/describedby"
                     }
-                ],
+                },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI Digital Lab Notebook Resources logo",
                     "@type": "rdfs:Resource",
@@ -5088,6 +5041,15 @@
                     "psdiDcatExt:displayPriority": 2,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
+                    },
+                    "dcat:qualifiedRelation": {
+                        "@type": "dcat:Relationship",
+                        "dcterms:relation": {
+                            "@id": "psdiDcat:resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da"
+                        },
+                        "dcat:hadRole": {
+                            "@id": "http://www.iana.org/assignments/relation/describes"
+                        }
                     }
                 }
             },
@@ -8146,15 +8108,6 @@
                             "@type": "rdfs:Resource",
                             "@id": "http://doi.org/10.1016/j.ssnmr.2016.05.004"
                         },
-                        "dcat:qualifiedRelation": {
-                            "@type": "dcat:Relationship",
-                            "dcterms:relation": {
-                                "@id": "psdiDcat:guidance/f6ab8642-eaad-4a72-8c06-a4961d5fb2ff"
-                            },
-                            "dcat:hadRole": {
-                                "@id": "http://www.iana.org/assignments/relation/describedby"
-                            }
-                        },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "CCP-NC logo",
                             "@type": "rdfs:Resource",
@@ -8299,15 +8252,6 @@
                                 "@id": "http://ccp-nc.github.io/soprano/intro.html"
                             }
                         ],
-                        "dcat:qualifiedRelation": {
-                            "@type": "dcat:Relationship",
-                            "dcterms:relation": {
-                                "@id": "psdiDcat:guidance/71e7272d-80f5-480d-8f9a-60712084730e"
-                            },
-                            "dcat:hadRole": {
-                                "@id": "http://www.iana.org/assignments/relation/describedby"
-                            }
-                        },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "CCP-NC logo",
                             "@type": "rdfs:Resource",
@@ -8458,6 +8402,15 @@
                         "@id": "http://materialsgalaxy.stfc.ac.uk/tours"
                     }
                 ],
+                "dcat:qualifiedRelation": {
+                    "@type": "dcat:Relationship",
+                    "dcterms:relation": {
+                        "@id": "psdiDcat:guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8"
+                    },
+                    "dcat:hadRole": {
+                        "@id": "http://www.iana.org/assignments/relation/describedby"
+                    }
+                },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "Galaxy logo",
                     "@type": "rdfs:Resource",
@@ -9774,6 +9727,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     },
                     {
@@ -9873,6 +9835,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     },
                     {
@@ -9979,6 +9950,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     },
                     {
@@ -10078,6 +10058,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     },
                     {
@@ -10192,6 +10181,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     },
                     {
@@ -10304,6 +10302,15 @@
                         "psdiDcatExt:displayPriority": 2,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7"
+                        },
+                        "dcat:qualifiedRelation": {
+                            "@type": "dcat:Relationship",
+                            "dcterms:relation": {
+                                "@id": "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"
+                            },
+                            "dcat:hadRole": {
+                                "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
                         }
                     }
                 ]

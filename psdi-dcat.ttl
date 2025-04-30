@@ -975,44 +975,6 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution <http://www.linkedin.com/in/stephen-wilson-017a7150/> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> a psdiDcatExt:Guidance ;
-    rdfs:label "Galaxy Training Network"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:bibliographicCitation "Please cite: Leandro Liborio, Patrick Austin and Subindev Devadasan, Galaxy Training Network, https://resources.psdi.ac.uk/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8 (accessed CURRENT_DATE)."@en ;
-    dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
-        <https://orcid.org/0000-0002-6279-7823>,
-        <https://orcid.org/0009-0001-1723-4394> ;
-    dcterms:description "Collection of tutorials developed and maintained by the worldwide Galaxy community. Includes tutorial for galaxy users, developers and administrators."@en ;
-    dcterms:identifier "psdiDcat:guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8"@en ;
-    dcterms:issued "2017-07-19T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Galaxy Training Network"@en ;
-    dcterms:type dcmitype:Text ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
-        [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
-    dcat:keyword "FAIR"@en,
-        "Galaxy"@en,
-        "Muon Spectroscopy"@en,
-        "Neutrons"@en,
-        "X-ray Absorption Spectroscopy"@en,
-        "workflows"@en ;
-    dcat:landingPage <https://training.galaxyproject.org/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
-        <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
-        <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
-        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317> a psdiDcatExt:Guidance ;
     rdfs:label "Metadata Guidance"@en ;
     psdiDcatExt:displayPriority 1 ;
@@ -1060,9 +1022,9 @@
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1152,9 +1114,9 @@
     dcterms:type dcmitype:Text ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
@@ -1168,45 +1130,6 @@
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
         <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
-
-<http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> a psdiDcatExt:Guidance ;
-    rdfs:label "Digital Notebooks and ELNs Guidance"@en ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:bibliographicCitation "Please cite: Samantha Pearman-Kanza, Jeremy G. Frey, Cerys Willoughby, Don Cruickshank and Louise Saul, Digital Notebooks and ELNs Guidance, https://resources.psdi.ac.uk/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41 (accessed CURRENT_DATE)."@en ;
-    dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This topic collection offers practical guidance on selecting and implementing electronic notebooks for research. It covers the benefits and challenges of adopting digital notebooks and advice on choosing the right notebook for your project. Additionally guidance is provided on considerations for moving from paper to digital and steps needed to successfully deploy an ELN solution."@en ;
-    dcterms:identifier "psdiDcat:guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41"@en ;
-    dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "Digital Notebooks and ELNs Guidance"@en ;
-    dcterms:type dcmitype:Text ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "notebook"@en ;
-    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b1dda790-7dcb-4588-899a-238080ed7c58> a psdiDcatExt:Guidance ;
     rdfs:label "Xray Larch Documentation"@en ;
@@ -1401,54 +1324,6 @@
         "training"@en ;
     dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> a dcat:DataService ;
-    rdfs:label "PSDI Interactive Learning (Moodle)"@en ;
-    psdiDcatExt:displayPriority 1 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-moodle.png> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:bibliographicCitation "Please cite: PSDI Interactive Learning (Moodle), https://resources.psdi.ac.uk/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231, PSDI (accessed CURRENT_DATE)."@en ;
-    dcterms:description "A range of interactive, self-paced learning modules provided by PSDI."@en ;
-    dcterms:identifier "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"@en ;
-    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PSDI Interactive Learning (Moodle)"@en ;
-    dcterms:type dcmitype:Service ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:endpointURL <https://learn.psdi.ac.uk> ;
-    dcat:keyword "Coding"@en,
-        "Research Skills"@en,
-        "Self Learning"@en,
-        "Teaching"@en,
-        "Training"@en ;
-    dcat:landingPage <https://learn.psdi.ac.uk> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/7bf5826f-51f8-4242-90aa-b694136deec9> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ec1bc078-cd49-41e4-8087-995c0597a974> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
     rdfs:label "Galaxy Workflow Management System Service"@en ;
     psdiDcatExt:displayPriority 2 ;
@@ -1516,9 +1391,9 @@
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+            vcard:hasEmail "support@psdi.ac.uk"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
     dcat:endpointDescription <http://materialsgalaxy.stfc.ac.uk/api/docs> ;
     dcat:endpointURL <https://materialsgalaxy.stfc.ac.uk/api/> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
@@ -1615,34 +1490,34 @@
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:bibliographicCitation "Please cite: Samuel Munday, Samantha Pearman-Kanza, Jeremy G. Frey, Finlay Morrison, Louis McLean, Hannah Gittins, Georgi Ilev, Cheryl Hardy, Yuehua Yin, Leon Mutter, Nathan Cummings, Daniel Cancado and Ashley Unitt, PSDI Data Revival Service, https://resources.psdi.ac.uk/service/f350b410-23d2-4c25-9a7d-51d7d0263537 (accessed CURRENT_DATE)."@en ;
     dcterms:creator [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
+            foaf:name "Ashley Unitt"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Yuehua Yin"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Finlay Morrison"@en ;
+            foaf:name "Georgi Ilev"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Louis McLean"@en ;
+            foaf:name "Finlay Morrison"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Cheryl Hardy"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Louis McLean"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
             foaf:name "Nathan Cummings"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -1706,9 +1581,6 @@
         "NMR"@en,
         "SSNMR"@en ;
     dcat:landingPage <http://github.com/CCP-NC/magresview-2/tree/main> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f6ab8642-eaad-4a72-8c06-a4961d5fb2ff> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"@en .
@@ -1783,9 +1655,6 @@
         "crystallography"@en,
         "ssNMR"@en ;
     dcat:landingPage <http://github.com/CCP-NC/soprano/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/71e7272d-80f5-480d-8f9a-60712084730e> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "0.9.2"@en .
@@ -2867,7 +2736,48 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tracked Changes"@en,
         "Version Control"@en,
         "Work Flow"@en ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> .
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> a psdiDcatExt:Guidance ;
+    rdfs:label "Galaxy Training Network"@en ;
+    psdiDcatExt:displayPriority 2 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Leandro Liborio, Patrick Austin and Subindev Devadasan, Galaxy Training Network, https://resources.psdi.ac.uk/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8 (accessed CURRENT_DATE)."@en ;
+    dcterms:creator <http://orcid.org/0000-0003-2777-5167>,
+        <https://orcid.org/0000-0002-6279-7823>,
+        <https://orcid.org/0009-0001-1723-4394> ;
+    dcterms:description "Collection of tutorials developed and maintained by the worldwide Galaxy community. Includes tutorial for galaxy users, developers and administrators."@en ;
+    dcterms:identifier "psdiDcat:guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8"@en ;
+    dcterms:issued "2017-07-19T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "Galaxy Training Network"@en ;
+    dcterms:type dcmitype:Text ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
+        [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+    dcat:keyword "FAIR"@en,
+        "Galaxy"@en,
+        "Muon Spectroscopy"@en,
+        "Neutrons"@en,
+        "X-ray Absorption Spectroscopy"@en,
+        "workflows"@en ;
+    dcat:landingPage <https://training.galaxyproject.org/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
+        <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
+        <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6>,
+        <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> a psdiDcatExt:Guidance ;
     rdfs:label "Python II"@en ;
@@ -2902,6 +2812,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Skill"@en,
         "Technical"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> a psdiDcatExt:Guidance ;
@@ -2975,7 +2888,52 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Skill"@en,
         "Technical"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> a psdiDcatExt:Guidance ;
+    rdfs:label "Digital Notebooks and ELNs Guidance"@en ;
+    psdiDcatExt:displayPriority 2 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Samantha Pearman-Kanza, Jeremy G. Frey, Cerys Willoughby, Don Cruickshank and Louise Saul, Digital Notebooks and ELNs Guidance, https://resources.psdi.ac.uk/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41 (accessed CURRENT_DATE)."@en ;
+    dcterms:creator [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "0009-0000-6422-0342"@en ],
+        <http://orcid.org/0000-0002-0777-0855>,
+        <http://orcid.org/0000-0002-4831-9489>,
+        <http://orcid.org/0000-0003-0842-4302>,
+        <http://orcid.org/0000-0003-1721-9212> ;
+    dcterms:description "This topic collection offers practical guidance on selecting and implementing electronic notebooks for research. It covers the benefits and challenges of adopting digital notebooks and advice on choosing the right notebook for your project. Additionally guidance is provided on considerations for moving from paper to digital and steps needed to successfully deploy an ELN solution."@en ;
+    dcterms:identifier "psdiDcat:guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41"@en ;
+    dcterms:issued "2025-01-01T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "Digital Notebooks and ELNs Guidance"@en ;
+    dcterms:type dcmitype:Text ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
+    dcat:keyword "Digital Lab Notebooks"@en,
+        "ELN"@en,
+        "FAIR Data"@en,
+        "Metadata"@en,
+        "Notebooking"@en,
+        "Process Recording"@en,
+        "Research Data Management"@en,
+        "digital-notebook"@en,
+        "electronic-laboratory-notebook"@en,
+        "eln"@en,
+        "notebook"@en ;
+    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> a psdiDcatExt:Guidance ;
     rdfs:label "Literature and Referencing"@en ;
@@ -3020,6 +2978,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Version Control"@en,
         "Work Flow"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> a psdiDcatExt:Guidance ;
@@ -3058,6 +3019,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tuples"@en,
         "Variables"@en ;
     dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> a psdiDcatExt:Guidance ;
@@ -3151,7 +3115,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Self Learning"@en,
         "Skill"@en,
         "Technical"@en ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> .
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> a psdiDcatExt:Guidance ;
     rdfs:label "Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy"@en ;
@@ -3233,7 +3200,25 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator [ a foaf:Agent ;
+            foaf:name "Leon Mutter"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Hannah Gittins"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Cheryl Hardy"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
             foaf:name "Finlay Morrison"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Nathan Cummings"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Georgi Ilev"@en ;
+            foaf:openid "need ORCID"@en ],
+        [ a foaf:Agent ;
+            foaf:name "Ashley Unitt"@en ;
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Louis McLean"@en ;
@@ -3243,24 +3228,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
             foaf:openid "need ORCID"@en ],
         [ a foaf:Agent ;
             foaf:name "Daniel Cancado"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Cheryl Hardy"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Ashley Unitt"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Hannah Gittins"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Georgi Ilev"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Leon Mutter"@en ;
-            foaf:openid "need ORCID"@en ],
-        [ a foaf:Agent ;
-            foaf:name "Nathan Cummings"@en ;
             foaf:openid "need ORCID"@en ],
         <http://orcid.org/0000-0001-5404-6934>,
         <http://orcid.org/0000-0002-4831-9489>,
@@ -3703,54 +3670,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> a dcat:Catalog ;
-    rdfs:label "PSDI Digital Lab Notebook Resources"@en ;
-    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> ;
-    psdiDcatExt:displayPriority 2 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:creator [ a foaf:Agent ;
-            foaf:name "Louise Saul"@en ;
-            foaf:openid "0009-0000-6422-0342"@en ],
-        <http://orcid.org/0000-0002-0777-0855>,
-        <http://orcid.org/0000-0002-4831-9489>,
-        <http://orcid.org/0000-0003-0842-4302>,
-        <http://orcid.org/0000-0003-1721-9212> ;
-    dcterms:description "This resource theme provides a range of services and guidance to help users explore and appreciate the importance of digital notebooks in documenting their experiments and research. The guidance introduces the benefits of both generic digital notebooks and Electronic Laboratory Notebooks (ELNs), and the different considerations for implementation in laboratories. The resource theme includes case studies and exemplars. It also links to ELNFinder which is an external service for which PSDI is an active collaborator. This service helps users find the most suitable ELN based on a comprehensive set of criteria."@en ;
-    dcterms:identifier "psdiDcat:resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.psdi.ac.uk> ;
-    dcterms:title "PSDI Digital Lab Notebook Resources"@en ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
-    dcat:keyword "Digital Lab Notebooks"@en,
-        "ELN"@en,
-        "FAIR Data"@en,
-        "Metadata"@en,
-        "Notebooking"@en,
-        "Process Recording"@en,
-        "Research Data Management"@en,
-        "digital-notebook"@en,
-        "electronic-laboratory-notebook"@en,
-        "eln"@en,
-        "labtrove"@en,
-        "note-taking"@en,
-        "notebook"@en,
-        "notes"@en,
-        "onenote"@en ;
-    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/dbb85771-a4fe-498b-88b8-a3281b9566fa> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d35aff20-3b39-4a20-8fb4-1615c729da33> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
-        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/837eb69a-a3b4-4ed7-a495-d1908dae0e91> a dcat:Catalog ;
     rdfs:label "Container Image Registry"@en ;
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d>,
@@ -4056,6 +3975,51 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
 
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da> a dcat:Catalog ;
+    rdfs:label "PSDI Digital Lab Notebook Resources"@en ;
+    psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> ;
+    psdiDcatExt:displayPriority 2 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:creator [ a foaf:Agent ;
+            foaf:name "Louise Saul"@en ;
+            foaf:openid "0009-0000-6422-0342"@en ],
+        <http://orcid.org/0000-0002-0777-0855>,
+        <http://orcid.org/0000-0002-4831-9489>,
+        <http://orcid.org/0000-0003-0842-4302>,
+        <http://orcid.org/0000-0003-1721-9212> ;
+    dcterms:description "This resource theme provides a range of services and guidance to help users explore and appreciate the importance of digital notebooks in documenting their experiments and research. The guidance introduces the benefits of both generic digital notebooks and Electronic Laboratory Notebooks (ELNs), and the different considerations for implementation in laboratories. The resource theme includes case studies and exemplars. It also links to ELNFinder which is an external service for which PSDI is an active collaborator. This service helps users find the most suitable ELN based on a comprehensive set of criteria."@en ;
+    dcterms:identifier "psdiDcat:resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da"@en ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "PSDI Digital Lab Notebook Resources"@en ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/d520fdb5-ebae-4746-80dd-59c5231cee11> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+    dcat:keyword "Digital Lab Notebooks"@en,
+        "ELN"@en,
+        "FAIR Data"@en,
+        "Metadata"@en,
+        "Notebooking"@en,
+        "Process Recording"@en,
+        "Research Data Management"@en,
+        "digital-notebook"@en,
+        "electronic-laboratory-notebook"@en,
+        "eln"@en,
+        "labtrove"@en,
+        "note-taking"@en,
+        "notebook"@en,
+        "notes"@en,
+        "onenote"@en ;
+    dcat:landingPage <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/notebooks/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/9dd03bfc-4c81-478b-a949-23a42e5ccc41> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
+
 <http://orcid.org/0000-0001-5280-8309> a foaf:Agent ;
     foaf:name "Matthew Partridge"@en ;
     foaf:openid "http://orcid.org/0000-0001-5280-8309"@en .
@@ -4109,9 +4073,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Data Convertors"@en,
         "Data Quality Assessment"@en ;
     dcat:landingPage <http://data-conversion.psdi.ac.uk/> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/8070e4aa-9dd5-4f39-9e3b-e121317ef361> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb> a dcat:Catalog ;
@@ -4136,9 +4097,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "publications"@en,
         "publishing data"@en ;
     dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
-    dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f9e34853-7e01-4fb1-ac10-30d8aced63f9> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> a dcat:Catalog ;
@@ -4384,6 +4342,48 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:landingPage <https://psdi-uk.github.io/docusaurus-pages/docs/training/self-paced-learning/skills4scientists/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
+<http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> a dcat:DataService ;
+    rdfs:label "PSDI Interactive Learning (Moodle)"@en ;
+    psdiDcatExt:displayPriority 1 ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-moodle.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: PSDI Interactive Learning (Moodle), https://resources.psdi.ac.uk/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231, PSDI (accessed CURRENT_DATE)."@en ;
+    dcterms:description "A range of interactive, self-paced learning modules provided by PSDI."@en ;
+    dcterms:identifier "psdiDcat:service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231"@en ;
+    dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "PSDI Interactive Learning (Moodle)"@en ;
+    dcterms:type dcmitype:Service ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint [ a vcard:Kind ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
+    dcat:endpointURL <https://learn.psdi.ac.uk> ;
+    dcat:keyword "Coding"@en,
+        "Research Skills"@en,
+        "Self Learning"@en,
+        "Teaching"@en,
+        "Training"@en ;
+    dcat:landingPage <https://learn.psdi.ac.uk> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
+
 <http://orcid.org/0000-0001-7348-7612> a foaf:Agent ;
     foaf:name "Abraham Nieva De La Hidalga"@en ;
     foaf:openid "http://orcid.org/0000-0001-7348-7612"@en .
@@ -4501,9 +4501,9 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         <http://metadata.psdi.ac.uk/psdi-dcat/service/66d10e20-66ea-49a7-a29a-be94cd2be77b> ;
     dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
     dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail "support@psdi.ac.uk"@en ],
+            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ],
         [ a vcard:Kind ;
-            vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"@en ] ;
+            vcard:hasEmail "support@psdi.ac.uk"@en ] ;
     dcat:keyword "FAIR"@en,
         "Galaxy"@en,
         "Muon Spectroscopy"@en,
@@ -4511,6 +4511,9 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "X-ray Absorption Spectroscopy"@en,
         "workflows"@en ;
     dcat:landingPage <http://materialsgalaxy.stfc.ac.uk/> ;
+    dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0d209bb0-6bda-4d27-b3f0-10346f9a55b8> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
