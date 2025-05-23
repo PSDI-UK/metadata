@@ -220,25 +220,25 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ] .
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"^^xsd:string ;
@@ -738,38 +738,6 @@
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
     dcat:landingPage <https://github.com/ml-evs/optimade-gnome> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_main> a dcat:Dataset ;
-    rdfs:label "odbx"^^xsd:string ;
-    psdiDcatExt:displayPriority 3e+00 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:bibliographicCitation "Please cite: 'open database of xtals: odbx', accessed via PSDI and OPTIMADE endpoint with base https://optimade.odbx.science (accessed on CURRENT_DATE)"^^xsd:string ;
-    dcterms:description "Description of provider: A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset: The Open Database of Xtals is run by the group of Dr Andrew Morris at the universities of Birmingham and Cambridge and is constructed using the matador library."^^xsd:string ;
-    dcterms:identifier "psdiDcat:data/optimade-odbx-odbx_main"^^xsd:string ;
-    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
-    dcterms:title "open database of xtals: odbx"^^xsd:string ;
-    dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
-    dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://odbx.science> .
-
-<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_misc> a dcat:Dataset ;
-    rdfs:label "Miscellaneous Materials Discovery Data"^^xsd:string ;
-    psdiDcatExt:displayPriority 3e+00 ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:bibliographicCitation "Please cite: 'open database of xtals: Miscellaneous Materials Discovery Data', accessed via PSDI and OPTIMADE endpoint with base https://optimade-misc.odbx.science (accessed on CURRENT_DATE)"^^xsd:string ;
-    dcterms:description "Description of provider: A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset: Miscellaneous Materials Discovery Datasets, hosted as an OPTIMADE API (temporarily)."^^xsd:string ;
-    dcterms:identifier "psdiDcat:data/optimade-odbx-odbx_misc"^^xsd:string ;
-    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
-    dcterms:title "open database of xtals: Miscellaneous Materials Discovery Data"^^xsd:string ;
-    dcterms:type dcmitype:Dataset ;
-    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i> ;
-    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
-    dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://github.com/ml-evs/optimade-misc-datasets> .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> a dcat:Dataset ;
     rdfs:label "Open Materials Database (omdb) production database"^^xsd:string ;
     psdiDcatExt:displayPriority 3e+00 ;
@@ -945,14 +913,6 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i> a dcat:Distribution ;
     dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://optimade-gnome.odbx.science> .
-
-<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
-    dcat:accessURL <https://optimade.odbx.science> .
-
-<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i> a dcat:Distribution ;
-    dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
-    dcat:accessURL <https://optimade-misc.odbx.science> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i> a dcat:Distribution ;
     dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
@@ -1258,40 +1218,40 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0002-1406-8802> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/kendrickng1/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0001-9492-6143> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby/> ],
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194/> ],
+            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent/> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482/> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/kendrickng1/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0002-9971-6118> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ] .
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -2497,9 +2457,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://github.com/ml-evs/optimade-gnome> a foaf:Document ;
     rdfs:label "homepage for Google DeepMind's Gnome Dataset"^^xsd:string .
 
-<https://github.com/ml-evs/optimade-misc-datasets> a foaf:Document ;
-    rdfs:label "homepage for Miscellaneous Materials Discovery Data"^^xsd:string .
-
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata> a foaf:Document ;
     rdfs:label "Metadata"^^xsd:string .
 
@@ -2554,14 +2511,8 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://nomad-lab.eu/prod/rae/optimade/> a rdfs:Resource ;
     rdfs:label "base_url for novel materials discovery (NOMAD)"^^xsd:string .
 
-<https://odbx.science> a foaf:Document ;
-    rdfs:label "homepage for odbx"^^xsd:string .
-
 <https://optimade-gnome.odbx.science> a rdfs:Resource ;
     rdfs:label "base_url for Google DeepMind's Gnome Dataset"^^xsd:string .
-
-<https://optimade-misc.odbx.science> a rdfs:Resource ;
-    rdfs:label "base_url for Miscellaneous Materials Discovery Data"^^xsd:string .
 
 <https://optimade.materialscloud.org/archive/5p-vq> a rdfs:Resource ;
     rdfs:label "base_url for MC Archive 5p-vq"^^xsd:string .
@@ -2577,9 +2528,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://optimade.materialsproject.org> a rdfs:Resource ;
     rdfs:label "base_url for The Materials Project"^^xsd:string .
-
-<https://optimade.odbx.science> a rdfs:Resource ;
-    rdfs:label "base_url for odbx"^^xsd:string .
 
 <https://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
     foaf:name "Cerys Willoughby"^^xsd:string .
@@ -4434,22 +4382,22 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Training"^^xsd:string ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
 
 <http://orcid.org/0000-0001-6431-0612> a foaf:Agent ;
@@ -4662,8 +4610,6 @@ dcmitype:Text a skos:Concept ;
         <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpod-mpod>,
         <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd>,
         <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome>,
-        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_main>,
-        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_misc>,
         <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> ;
     dcat:contactPoint <http://github.com/Materials-Consortia/OPTIMADE/issues> ;
     dcat:keyword "OPTIMADE"^^xsd:string,
