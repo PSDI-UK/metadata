@@ -78,7 +78,7 @@ psdiDcatExt:deliveryFormat <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	<rdfs:label> "Delivery Format"@en ;
 	<rdfs:range> "dcterms:MediaType"@en ;
 	<rdfs:subPropertyOf> "dcterms:format"@en ;
-	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry https://www.iana.org/assignments/media-types/, if available. The media type for docker container image is 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA)."@en ;
+	skos:definition "The file format if the tool is available as a single file or package or distribution for download and installation. The format SHOULD be expressed using a media type as defined by IANA media types registry http://www.iana.org/assignments/media-types/media-types.xhtml, if available. The media type for docker container image should have label 'application/vnd.docker.distribution.manifest.v2+json' (this is not currently in IANA)."@en ;
 	skos:scopeNote "This property is to be used when the tool is available as a single file or package or distribution, e.g. in a ZIP file."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
@@ -106,7 +106,7 @@ psdiDcatExt:operatingSystem <rdfs:domain> "psdiDcatExt:Tool"@en ;
 	skos:closeMatch "http://www.ebi.ac.uk/swo/maturity/SWO_9000061"@en ;
 	<rdfs:label> "Operating System"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
-	skos:definition "Optional property - if tool is specific to particular operating systems please indicate them here. Version numbers should be included where needed. Takes values from 'Operating System' classifiers in https://pypi.org/classifiers where possible (e.g. 'Windows :: Wi11, Android'). Multiple values are allowed."@en ;
+	skos:definition "Optional property - if tool is specific to particular operating systems please indicate them here. Version numbers should be included where needed. Takes values from 'Operating System' classifiers in http://pypi.org/classifiers where possible (e.g. 'Operating System :: Windows :: Wi11, Android'). Multiple values are allowed."@en ;
 	skos:editorialNote "This property may be enumerated to a restricted list of possible properties in the future, but for now suggest this light-touch approach to use a string bsed on a well-maintained set of suggested values (although it is not available in a formal ontology) where possible."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
@@ -151,12 +151,12 @@ psdiDcatExt:logoURL <rdfs:domain> "dcat:Resource"@en ;
 dcterms:bibliographicCitation <rdfs:domain> "dcat:Resource"@en ;
 	<rdfs:label> "Bibliographic Citation"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
-	skos:definition "A bibliographic reference for the resource. This field is optional, but should be filled in if the resource license requires its users to provide attribution."@en ;
+	skos:definition "A bibliographic reference for the resource. Preferred way to cite this resource theme or resource. This field should be filled in if the resource license requires its users to provide attribution. Recommended practice is to include sufficient bibliographic detail to identify the resource as unambiguously as possible."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
 psdiDcatExt:displayPriority <rdfs:domain> "dcat:Resource"@en ;
 	<rdfs:label> "Display Priority"@en ;
 	<rdfs:range> "rdfs:Literal"@en ;
-	skos:definition "Integer used to determine order of resources when listed alongside others."@en ;
+	skos:definition "Number used to determine order of resources when listed alongside others."@en ;
 	a <owl:ObjectProperty>, <https://www.w3.org/1999/02/22-rdf-syntax-ns#Property> .
 
