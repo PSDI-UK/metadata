@@ -1,5 +1,8 @@
 # Change Log
 
+## 2025-06-02
+* updated psdi-dcat-shacl.ttl and psdi-dcat-shacl.jsonld so that most of the shapes in it are now closed shapes. There have been some minor updates to the iris of @ids in psdi-dcat.jsonld as a result (so that different @types have different iris).
+
 ## 2025-05-27
 * added psdi-dcat-shacl.ttl and psdi-dcat-shacl.jsonld for validation of psdi-dcat.jsonld
 * updated psdi-dcat as a result of this:

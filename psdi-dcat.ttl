@@ -47,14 +47,13 @@
         <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231>,
         <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c>,
         <http://metadata.psdi.ac.uk/psdi-dcat/service/d81616df-3daf-44c3-98b4-841e277dfe08> ;
-    dcat:contactPoint [ a vcard:Kind ;
-            vcard:hasEmail <mailto:support@psdi.ac.uk> ] ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk> ;
     dcat:keyword "Research data"^^xsd:string ;
     dcat:landingPage <http://www.psdi.ac.uk/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557> ;
     dcat:themeTaxonomy <http://data.europa.eu/8mn/euroscivoc/40c0f173-baa3-48a3-9fe6-d6e8fb366a00> .
 
-<http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> a foaf:Document ;
+<http://WillBeThePureLinkToReportOrTheKnowledgebaseSite/> a foaf:Document ;
     rdfs:label "Case Studies: Discovering Value in Legacy Data"^^xsd:string .
 
 <http://aiida-amber.readthedocs.io/en/latest/> a rdfs:Resource ;
@@ -71,6 +70,21 @@
 
 <http://ccp-nc.github.io/soprano/intro.html> a rdfs:Resource ;
     rdfs:label "Soprano Github pages"^^xsd:string .
+
+<http://cdi.ukcatalysishub.org/get_pubs.json> a rdfs:Resource ;
+    rdfs:label "CDI bibliographic data web service"^^xsd:string .
+
+<http://cdi.ukcatalysishub.org/get_pubs.json/> a foaf:Document ;
+    rdfs:label "CDI bibliographic data web service"^^xsd:string .
+
+<http://data-collections.psdi.ac.uk> a rdfs:Resource ;
+    rdfs:label "PSDI Community Data Collections"^^xsd:string .
+
+<http://data-collections.psdi.ac.uk/> a foaf:Document ;
+    rdfs:label "PSDI Community Data Collections"^^xsd:string .
+
+<http://data-search.psdi.ac.uk/> a foaf:Document ;
+    rdfs:label "PSDI Cross Data Search"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> a skos:Concept ;
     skos:prefLabel "natural sciences"^^xsd:string .
@@ -103,20 +117,83 @@
 <http://doi.org/10.6028/NBS.NSRDS.36> a foaf:Agent ;
     foaf:name "National Institute of Standards and Technology"^^xsd:string .
 
-<http://dx.doi.org/10.5281/zenodo.15295742> a foaf:Document ;
+<http://dx.doi.org/10.5281/zenodo.15295742/> a foaf:Document ;
     rdfs:label "Making ESI Machine-Readable Case Study"^^xsd:string .
 
 <http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> a rdfs:Resource ;
     rdfs:label "magresview github download url"^^xsd:string .
 
+<http://github.com/CCP-NC/magresview-2/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/CCP-NC/magresview-2/issues/> .
+
+<http://github.com/CCP-NC/magresview-2/tree/main> a rdfs:Resource ;
+    rdfs:label "magresview-2 github repository"^^xsd:string .
+
+<http://github.com/CCP-NC/magresview-2/tree/main/> a foaf:Document ;
+    rdfs:label "magresview-2 github repository"^^xsd:string .
+
+<http://github.com/CCP-NC/soprano/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/CCP-NC/soprano/issues/> .
+
+<http://github.com/Materials-Consortia/OPTIMADE/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/Materials-Consortia/OPTIMADE/issues/> .
+
+<http://github.com/PSDI-UK/aiida-amber> a rdfs:Resource ;
+    rdfs:label "aiida-amber github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/aiida-amber/> a foaf:Document ;
+    rdfs:label "aiida-amber github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/aiida-amber/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/PSDI-UK/aiida-amber/issues/> .
+
+<http://github.com/PSDI-UK/aiida-gromacs> a rdfs:Resource ;
+    rdfs:label "aiida-gromacs github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/aiida-gromacs/> a foaf:Document ;
+    rdfs:label "aiida-gromacs github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/aiida-gromacs/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/PSDI-UK/aiida-gromacs/issues/> .
+
+<http://github.com/PSDI-UK/biosimdb-app> a rdfs:Resource ;
+    rdfs:label "biosimdb-app github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/biosimdb-app/> a foaf:Document ;
+    rdfs:label "biosimdb-app github repository"^^xsd:string .
+
+<http://github.com/PSDI-UK/biosimdb-app/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/PSDI-UK/biosimdb-app/issues/> .
+
+<http://github.com/UK-Catalysis-Hub/ukcathubapp> a rdfs:Resource ;
+    rdfs:label "ukcathubapp github repository"^^xsd:string .
+
+<http://github.com/stfc/aiida-mlip> a rdfs:Resource ;
+    rdfs:label "aiida-mlip github repository"^^xsd:string .
+
+<http://github.com/stfc/aiida-mlip/> a foaf:Document ;
+    rdfs:label "aiida-mlip github repository"^^xsd:string .
+
+<http://github.com/stfc/janus-core> a rdfs:Resource ;
+    rdfs:label "janus-core github repository"^^xsd:string .
+
+<http://github.com/stfc/janus-core/> a foaf:Document ;
+    rdfs:label "janus-core github repository"^^xsd:string .
+
 <http://github.com/stfc/janus-tutorials/> a foaf:Document ;
     rdfs:label "janus-tutorials github repository"^^xsd:string .
 
-<http://iupac.org/what-we-do/databases/solubility-data-series/> a foaf:Agent ;
+<http://iupac.org/what-we-do/databases/solubility-data-series> a foaf:Agent ;
     foaf:name "IUPAC: Miscibility"^^xsd:string .
 
 <http://libatoms.github.io/abcd/> a rdfs:Resource ;
     rdfs:label "abcd's documentation"^^xsd:string .
+
+<http://materialsgalaxy.stfc.ac.uk/api/docs> a rdfs:Resource ;
+    rdfs:label "Galaxy API"^^xsd:string .
+
+<http://materialsgalaxy.stfc.ac.uk/api/docs/> a foaf:Document ;
+    rdfs:label "Galaxy API"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6> a dcat:Dataset ;
     rdfs:label "STFC Open Data"^^xsd:string ;
@@ -143,7 +220,7 @@
         "laser"^^xsd:string,
         "simulation data"^^xsd:string,
         "spectra"^^xsd:string ;
-    dcat:landingPage <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> ;
+    dcat:landingPage <https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/06bdf98c-e51b-4656-a424-2c9e80b68c76> a dcat:Dataset ;
@@ -182,7 +259,7 @@
         "reactions"^^xsd:string,
         "refractive index"^^xsd:string,
         "samples"^^xsd:string ;
-    dcat:landingPage <https://www.chemotion-repository.net> ;
+    dcat:landingPage <https://www.chemotion-repository.net/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b> a dcat:Dataset ;
@@ -216,29 +293,29 @@
         "melting points"^^xsd:string,
         "mole fractions"^^xsd:string,
         "solubility"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets> ;
+    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci020280x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ] .
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"^^xsd:string ;
@@ -270,7 +347,7 @@
         "polarizability"^^xsd:string,
         "predicted property"^^xsd:string,
         "solubility"^^xsd:string ;
-    dcat:landingPage <http://www.psds.ac.uk/propersea> ;
+    dcat:landingPage <http://www.psds.ac.uk/propersea/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> a dcat:Dataset ;
@@ -299,7 +376,7 @@
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> ;
     dcat:keyword "critical micelle concentration"^^xsd:string,
         "electronic supplementary information"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> ;
+    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/owner> ;
@@ -329,7 +406,7 @@
         "commercial"^^xsd:string,
         "price"^^xsd:string,
         "supplier"^^xsd:string ;
-    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-product> ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-product/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow> a dcat:Dataset ;
@@ -346,7 +423,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://aflow.org> .
+    dcat:landingPage <https://aflow.org/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbe> a dcat:Dataset ;
     rdfs:label "alexandria"^^xsd:string ;
@@ -363,7 +440,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://tddft.org/bmg/data.php> .
+    dcat:landingPage <https://tddft.org/bmg/data.php/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
     rdfs:label "alexandria"^^xsd:string ;
@@ -380,7 +457,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://tddft.org/bmg/data.php> .
+    dcat:landingPage <https://tddft.org/bmg/data.php/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cmr-cmr> a dcat:Dataset ;
     rdfs:label "Computational materials repository (CMR)"^^xsd:string ;
@@ -397,7 +474,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cmr-cmr-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://cmr.fysik.dtu.dk> .
+    dcat:landingPage <https://cmr.fysik.dtu.dk/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cod-cod> a dcat:Dataset ;
     rdfs:label "Crystallography Open Database"^^xsd:string ;
@@ -414,7 +491,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-cod-cod-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.crystallography.net/cod> .
+    dcat:landingPage <https://www.crystallography.net/cod/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-2dtopo> a dcat:Dataset ;
     rdfs:label "2D topological insulators"^^xsd:string ;
@@ -431,7 +508,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/2dtopo> .
+    dcat:landingPage <https://www.materialscloud.org/explore/2dtopo/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-curated-cofs> a dcat:Dataset ;
     rdfs:label "CURATED covalent organic frameworks database"^^xsd:string ;
@@ -448,7 +525,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/discover/curated-cofs> .
+    dcat:landingPage <https://www.materialscloud.org/discover/curated-cofs/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc2d> a dcat:Dataset ;
     rdfs:label "MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string ;
@@ -465,7 +542,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/mc2d> .
+    dcat:landingPage <https://www.materialscloud.org/explore/mc2d/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d> a dcat:Dataset ;
     rdfs:label "MC3D - Materials Cloud three-dimensional crystals database"^^xsd:string ;
@@ -482,7 +559,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/mc3d> .
+    dcat:landingPage <https://www.materialscloud.org/explore/mc3d/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-pyrene-mofs> a dcat:Dataset ;
     rdfs:label "Pyrene-based metal organic frameworks"^^xsd:string ;
@@ -499,7 +576,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/discover/pyrene-mofs> .
+    dcat:landingPage <https://www.materialscloud.org/discover/pyrene-mofs/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-scdm> a dcat:Dataset ;
     rdfs:label "Automated high-throughput Wannierisation"^^xsd:string ;
@@ -516,7 +593,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-scdm-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/autowannier> .
+    dcat:landingPage <https://www.materialscloud.org/explore/autowannier/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-stoceriaitf> a dcat:Dataset ;
     rdfs:label "SrTiO3-CeO2 interfaces"^^xsd:string ;
@@ -533,7 +610,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/stoceriaitf> .
+    dcat:landingPage <https://www.materialscloud.org/explore/stoceriaitf/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tc-applicability> a dcat:Dataset ;
     rdfs:label "Applicability of tail-corrections in the molecular simulations of porous materials"^^xsd:string ;
@@ -550,7 +627,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tc-applicability-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/tc-applicability> .
+    dcat:landingPage <https://www.materialscloud.org/explore/tc-applicability/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide> a dcat:Dataset ;
     rdfs:label "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string ;
@@ -567,7 +644,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> .
+    dcat:landingPage <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-5p-vq> a dcat:Dataset ;
     rdfs:label "MC Archive 5p-vq"^^xsd:string ;
@@ -584,7 +661,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-5p-vq-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://archive.materialscloud.org/record/2024.114> .
+    dcat:landingPage <https://archive.materialscloud.org/record/2024.114/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-c8-gy> a dcat:Dataset ;
     rdfs:label "MC Archive c8-gy"^^xsd:string ;
@@ -601,7 +678,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-c8-gy-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://archive.materialscloud.org/record/2023.181> .
+    dcat:landingPage <https://archive.materialscloud.org/record/2023.181/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-vg-ya> a dcat:Dataset ;
     rdfs:label "MC Archive vg-ya"^^xsd:string ;
@@ -618,7 +695,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-vg-ya-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://archive.materialscloud.org/record/2024.65> .
+    dcat:landingPage <https://archive.materialscloud.org/record/2024.65/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloudarchive-zk-gc> a dcat:Dataset ;
     rdfs:label "MC Archive zk-gc"^^xsd:string ;
@@ -635,7 +712,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloudarchive-zk-gc-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://archive.materialscloud.org/record/2025.32> .
+    dcat:landingPage <https://archive.materialscloud.org/record/2025.32/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mp-mp> a dcat:Dataset ;
     rdfs:label "The Materials Project"^^xsd:string ;
@@ -652,7 +729,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.materialsproject.org> .
+    dcat:landingPage <https://www.materialsproject.org/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpdd-mpdd> a dcat:Dataset ;
     rdfs:label "Material-Property-Descriptor Database"^^xsd:string ;
@@ -669,7 +746,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://phaseslab.com/mpdd> .
+    dcat:landingPage <https://phaseslab.com/mpdd/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpds-mpds> a dcat:Dataset ;
     rdfs:label "Materials Platform for Data Science"^^xsd:string ;
@@ -686,7 +763,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://mpds.io> .
+    dcat:landingPage <https://mpds.io/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpod-mpod> a dcat:Dataset ;
     rdfs:label "Material Properties Open Database (MPOD)"^^xsd:string ;
@@ -702,7 +779,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpod-mpod-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <http://mpod.cimav.edu.mx> .
+    dcat:landingPage <http://mpod.cimav.edu.mx/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd> a dcat:Dataset ;
     rdfs:label "novel materials discovery (NOMAD)"^^xsd:string ;
@@ -719,7 +796,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://nomad-lab.eu> .
+    dcat:landingPage <https://nomad-lab.eu/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome> a dcat:Dataset ;
     rdfs:label "Google DeepMind's Gnome Dataset"^^xsd:string ;
@@ -736,7 +813,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://github.com/ml-evs/optimade-gnome> .
+    dcat:landingPage <https://github.com/ml-evs/optimade-gnome/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> a dcat:Dataset ;
     rdfs:label "Open Materials Database (omdb) production database"^^xsd:string ;
@@ -753,7 +830,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <http://openmaterialsdb.se> .
+    dcat:landingPage <http://openmaterialsdb.se/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> a dcat:Distribution ;
     dcterms:title "BioSimDB (Biomolecular Simulations Database)"^^xsd:string ;
@@ -947,7 +1024,7 @@
         "reusability"^^xsd:string,
         "reuse"^^xsd:string,
         "sharing"^^xsd:string ;
-    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair> .
+    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0ce7f2d9-d187-4398-b113-947856712ec0> a psdiDcatExt:Guidance ;
     rdfs:label "psdi_shg_exemplar"^^xsd:string ;
@@ -973,13 +1050,13 @@
     dcat:contactPoint <mailto:support@psdi.ac.uk> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a> ;
     dcat:keyword "second harmonic generation"^^xsd:string ;
-    dcat:landingPage <https://doi.org/10.5258/SOTON/PSDI0001> ;
+    dcat:landingPage <https://doi.org/10.5258/SOTON/PSDI0001/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/stephen-wilson-017a7150/> ] .
+            prov:agent <http://www.linkedin.com/in/stephen-wilson-017a7150> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5332f286-8062-410e-a071-2dbe86cf8317> a psdiDcatExt:Guidance ;
     rdfs:label "Metadata Guidance"^^xsd:string ;
@@ -1007,7 +1084,7 @@
         "psdi"^^xsd:string,
         "standards"^^xsd:string,
         "vocabularies"^^xsd:string ;
-    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata> .
+    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/5bbc1e38-2c64-4752-addd-70920f5159f1> a psdiDcatExt:Guidance ;
     rdfs:label "Galaxy Training Network: Finding the Muon Stopping Site"^^xsd:string ;
@@ -1035,7 +1112,7 @@
         "Neutrons"^^xsd:string,
         "X-ray Absorption Spectroscopy"^^xsd:string,
         "workflows"^^xsd:string ;
-    dcat:landingPage <https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html> ;
+    dcat:landingPage <https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
@@ -1067,7 +1144,7 @@
         "psdi"^^xsd:string,
         "psdi-resources"^^xsd:string,
         "resources"^^xsd:string ;
-    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources> .
+    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/74f53465-3cf8-49ff-be58-f7a5b749a981> a psdiDcatExt:Guidance ;
     rdfs:label "Research Data Management Guidance"^^xsd:string ;
@@ -1095,7 +1172,7 @@
         "plan"^^xsd:string,
         "rdm"^^xsd:string,
         "research"^^xsd:string ;
-    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management> .
+    dcat:landingPage <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/95494058-7de8-4a22-9da1-c68f4497c40f> a psdiDcatExt:Guidance ;
     rdfs:label "MuSpinSim Documentation"^^xsd:string ;
@@ -1212,46 +1289,46 @@
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a> ;
     dcat:keyword "critical micelle concentration"^^xsd:string,
         "electronic supplementary information"^^xsd:string ;
-    dcat:landingPage <http://dx.doi.org/10.5281/zenodo.15295742> ;
+    dcat:landingPage <http://dx.doi.org/10.5281/zenodo.15295742/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/kendrickng1/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194/> ],
+            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0001-9492-6143> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ] .
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -1416,7 +1493,7 @@
         "Neutrons"^^xsd:string,
         "X-ray Absorption Spectroscopy"^^xsd:string,
         "workflows"^^xsd:string ;
-    dcat:landingPage <http://materialsgalaxy.stfc.ac.uk/api/docs> ;
+    dcat:landingPage <http://materialsgalaxy.stfc.ac.uk/api/docs/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e>,
@@ -1488,7 +1565,7 @@
         "electronic-laboratory-notebook"^^xsd:string,
         "eln"^^xsd:string,
         "notebook"^^xsd:string ;
-    dcat:landingPage <https://eln-finder.ulb.tu-darmstadt.de/home> ;
+    dcat:landingPage <https://eln-finder.ulb.tu-darmstadt.de/home/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c>,
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
@@ -1526,7 +1603,7 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://labs.futureworlds.com/data-revival/> ] .
+            prov:agent <http://labs.futureworlds.com/data-revival> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/099911e7-a350-44b7-8add-2cba64beb8d8> a psdiDcatExt:Tool ;
     rdfs:label "Metadise Container (Docker format)"^^xsd:string ;
@@ -1567,7 +1644,7 @@
         "molecular simulation"^^xsd:string,
         "solids"^^xsd:string,
         "surface"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/metadise-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/metadise-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     dcat:version "0.0.5"^^xsd:string .
 
@@ -1611,7 +1688,7 @@
         "phase diagram"^^xsd:string,
         "phase transition"^^xsd:string,
         "solids"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/dlmonte-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/dlmonte-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     dcat:version "0.0.7"^^xsd:string .
 
@@ -1651,7 +1728,7 @@
         "Magresview"^^xsd:string,
         "NMR"^^xsd:string,
         "SSNMR"^^xsd:string ;
-    dcat:landingPage <http://github.com/CCP-NC/magresview-2/tree/main> ;
+    dcat:landingPage <http://github.com/CCP-NC/magresview-2/tree/main/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> ;
     dcat:version "2.0.0"^^xsd:string .
@@ -1684,7 +1761,7 @@
     dcat:keyword "AiiDA"^^xsd:string,
         "MLIP"^^xsd:string,
         "Machine Learning Interatomic Potentials"^^xsd:string ;
-    dcat:landingPage <http://github.com/stfc/aiida-mlip> ;
+    dcat:landingPage <http://github.com/stfc/aiida-mlip/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "0.2.1"^^xsd:string .
 
@@ -1761,7 +1838,7 @@
     dcat:keyword "Data Conversion"^^xsd:string,
         "Data Convertors"^^xsd:string,
         "Data Quality Assessment"^^xsd:string ;
-    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#python-library> ;
+    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#python-library/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6> a psdiDcatExt:Tool ;
@@ -1816,7 +1893,7 @@
         "simulation provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <http://github.com/PSDI-UK/aiida-amber> ;
+    dcat:landingPage <http://github.com/PSDI-UK/aiida-amber/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
@@ -1853,7 +1930,7 @@
     dcat:keyword "Data Conversion"^^xsd:string,
         "Data Convertors"^^xsd:string,
         "Data Quality Assessment"^^xsd:string ;
-    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#command-line-application> ;
+    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#command-line-application/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/6bcaa538-a26f-4720-a505-bada3aa52f55> a psdiDcatExt:Tool ;
@@ -1887,7 +1964,7 @@
     dcat:keyword "MLIP"^^xsd:string,
         "Machine Learning Interatomic Potentials"^^xsd:string,
         "janus-core"^^xsd:string ;
-    dcat:landingPage <http://github.com/stfc/janus-core> ;
+    dcat:landingPage <http://github.com/stfc/janus-core/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "0.7.4"^^xsd:string .
 
@@ -1941,7 +2018,7 @@
         "provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <http://github.com/PSDI-UK/biosimdb-app> ;
+    dcat:landingPage <http://github.com/PSDI-UK/biosimdb-app/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
@@ -1986,7 +2063,7 @@
         "phase diagram"^^xsd:string,
         "phase transition"^^xsd:string,
         "solids"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/dlmonte-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/dlmonte-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     dcat:version "0.0.7"^^xsd:string .
 
@@ -2021,7 +2098,7 @@
     dcat:keyword "Data Conversion"^^xsd:string,
         "Data Convertors"^^xsd:string,
         "Data Quality Assessment"^^xsd:string ;
-    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally> ;
+    dcat:landingPage <https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/a363e1c8-e1e0-47a3-a8d7-17f36c731ac2> a psdiDcatExt:Tool ;
@@ -2058,7 +2135,7 @@
         "data sharing"^^xsd:string,
         "data transfer"^^xsd:string,
         "docker"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/data-transfer-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/data-transfer-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800> ;
     dcat:version "0.0.11"^^xsd:string .
 
@@ -2102,7 +2179,7 @@
         "singularity"^^xsd:string,
         "solids"^^xsd:string,
         "surface"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/metadise-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/metadise-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> ;
     dcat:version "0.0.5"^^xsd:string .
 
@@ -2141,7 +2218,7 @@
         "container image"^^xsd:string,
         "data sharing"^^xsd:string,
         "data transfer"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/data-transfer-container> ;
+    dcat:landingPage <https://github.com/PSDI-UK/data-transfer-container/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800> ;
     dcat:version "0.0.11"^^xsd:string .
 
@@ -2196,7 +2273,7 @@
         "publishing statistics"^^xsd:string,
         "research domain clustering"^^xsd:string,
         "research performance indicators"^^xsd:string ;
-    dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
+    dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "1.0"^^xsd:string .
 
@@ -2206,13 +2283,13 @@
 <http://mpddoptimade.phaseslab.org> a rdfs:Resource ;
     rdfs:label "base_url for Material-Property-Descriptor Database"^^xsd:string .
 
-<http://mpod.cimav.edu.mx> a foaf:Document ;
+<http://mpod.cimav.edu.mx/> a foaf:Document ;
     rdfs:label "homepage for Material Properties Open Database (MPOD)"^^xsd:string .
 
 <http://mpod_optimade.cimav.edu.mx> a rdfs:Resource ;
     rdfs:label "base_url for Material Properties Open Database (MPOD)"^^xsd:string .
 
-<http://openmaterialsdb.se> a foaf:Document ;
+<http://openmaterialsdb.se/> a foaf:Document ;
     rdfs:label "homepage for Open Materials Database (omdb) production database"^^xsd:string .
 
 <http://optimade.openmaterialsdb.se> a rdfs:Resource ;
@@ -2313,26 +2390,32 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://www.linkedin.com/in/andrew-harper-654456241> a foaf:Agent ;
     foaf:name "Andrew Harper"^^xsd:string .
 
-<http://www.linkedin.com/in/ben-wilson-kent/> a foaf:Agent ;
+<http://www.linkedin.com/in/ben-wilson-kent> a foaf:Agent ;
     foaf:name "Ben Wilson"^^xsd:string .
 
 <http://www.linkedin.com/in/christina-mellor-78568374> a foaf:Agent ;
     foaf:name "Chris Mellor"^^xsd:string .
 
-<http://www.linkedin.com/in/jessica-boles-a67791194/> a foaf:Agent ;
+<http://www.linkedin.com/in/jessica-boles-a67791194> a foaf:Agent ;
     foaf:name "Jessica E. Boles"^^xsd:string .
 
-<http://www.linkedin.com/in/kendrickng1/> a foaf:Agent ;
+<http://www.linkedin.com/in/kendrickng1> a foaf:Agent ;
     foaf:name "Kendrick K. L. Ng"^^xsd:string .
 
-<http://www.linkedin.com/in/laura-blackholly-74409482/> a foaf:Agent ;
+<http://www.linkedin.com/in/laura-blackholly-74409482> a foaf:Agent ;
     foaf:name "Laura R. Blackholly"^^xsd:string .
 
-<http://www.linkedin.com/in/rebecca-ellaby/> a foaf:Agent ;
+<http://www.linkedin.com/in/rebecca-ellaby> a foaf:Agent ;
     foaf:name "Rebecca J. Ellaby"^^xsd:string .
 
-<http://www.linkedin.com/in/stephen-wilson-017a7150/> a foaf:Agent ;
+<http://www.linkedin.com/in/stephen-wilson-017a7150> a foaf:Agent ;
     foaf:name "Steven M Wilson"^^xsd:string .
+
+<http://www.optimade.org> a foaf:Agent ;
+    foaf:name "OPTIMADE"^^xsd:string .
+
+<http://www.optimade.org/> a foaf:Document ;
+    rdfs:label "OPTIMADE website"^^xsd:string .
 
 <http://www.optimade.org/contributors> a foaf:Agent ;
     foaf:name "The OPTIMADE Consortium"^^xsd:string .
@@ -2343,16 +2426,22 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://www.psdi.ac.uk/> a foaf:Document ;
     rdfs:label "PSDI"^^xsd:string .
 
-<http://www.psds.ac.uk/propersea> a foaf:Document ;
+<http://www.psds.ac.uk/propersea/> a foaf:Document ;
     rdfs:label "About Propersea"^^xsd:string .
 
 <http://www.wwpdb.org/documentation/file-format-content/format32/v3.2.html> a dcterms:Standard ;
     rdfs:label "PDB"^^xsd:string .
 
-<http://xerte.cardiff.ac.uk/play_22519> a foaf:Document ;
+<http://xerte.cardiff.ac.uk/play_22519/> a foaf:Document ;
     rdfs:label "Importing an RO-Crate"^^xsd:string .
 
-<https://aflow.org> a foaf:Document ;
+<http://zenodo.org/communities/rexas> a rdfs:Resource ;
+    rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
+
+<http://zenodo.org/communities/rexas/> a foaf:Document ;
+    rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
+
+<https://aflow.org/> a foaf:Document ;
     rdfs:label "homepage for AFLOW"^^xsd:string .
 
 <https://aflow.org/API/optimade/> a rdfs:Resource ;
@@ -2394,16 +2483,16 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://api.mpds.io> a rdfs:Resource ;
     rdfs:label "base_url for Materials Platform for Data Science"^^xsd:string .
 
-<https://archive.materialscloud.org/record/2023.181> a foaf:Document ;
+<https://archive.materialscloud.org/record/2023.181/> a foaf:Document ;
     rdfs:label "homepage for MC Archive c8-gy"^^xsd:string .
 
-<https://archive.materialscloud.org/record/2024.114> a foaf:Document ;
+<https://archive.materialscloud.org/record/2024.114/> a foaf:Document ;
     rdfs:label "homepage for MC Archive 5p-vq"^^xsd:string .
 
-<https://archive.materialscloud.org/record/2024.65> a foaf:Document ;
+<https://archive.materialscloud.org/record/2024.65/> a foaf:Document ;
     rdfs:label "homepage for MC Archive vg-ya"^^xsd:string .
 
-<https://archive.materialscloud.org/record/2025.32> a foaf:Document ;
+<https://archive.materialscloud.org/record/2025.32/> a foaf:Document ;
     rdfs:label "homepage for MC Archive zk-gc"^^xsd:string .
 
 <https://bioblend.readthedocs.io> a rdfs:Resource ;
@@ -2412,20 +2501,32 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://cmr-optimade.fysik.dtu.dk> a rdfs:Resource ;
     rdfs:label "base_url for Computational materials repository (CMR)"^^xsd:string .
 
-<https://cmr.fysik.dtu.dk> a foaf:Document ;
+<https://cmr.fysik.dtu.dk/> a foaf:Document ;
     rdfs:label "homepage for Computational materials repository (CMR)"^^xsd:string .
 
 <https://cross-domain-interoperability-framework.github.io/cdifbook/metadata/discovery.html> a dcterms:Standard ;
     rdfs:label "CDIF_core_discovery_1.0"^^xsd:string .
 
-<https://data-search.psdi.ac.uk/find-a-product> a foaf:Document ;
+<https://data-collections.psdi.ac.uk/communities/biosimdb> a rdfs:Resource ;
+    rdfs:label "PSDI Community Data Collection - BioSimDB"^^xsd:string .
+
+<https://data-collections.psdi.ac.uk/communities/data-to-knowledge> a rdfs:Resource ;
+    rdfs:label "PSDI Community Data Collection - Data to Knowledge"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-product/> a foaf:Document ;
     rdfs:label "About ChASe"^^xsd:string .
 
-<https://doi.org/10.5258/SOTON/PSDI0001> a foaf:Document ;
+<https://doi.org/10.5258/SOTON/PSDI0001/> a foaf:Document ;
     rdfs:label "Resurrecting SHG Case Study"^^xsd:string .
 
 <https://edata.stfc.ac.uk/info/edata-guidance> a rdfs:Resource ;
     rdfs:label "eData Guidance"^^xsd:string .
+
+<https://eln-finder.ulb.tu-darmstadt.de/home> a rdfs:Resource ;
+    rdfs:label "ELN Finder"^^xsd:string .
+
+<https://eln-finder.ulb.tu-darmstadt.de/home/> a foaf:Document ;
+    rdfs:label "ELN Finder"^^xsd:string .
 
 <https://eln-finder.ulb.tu-darmstadt.de/info/page/about> a rdfs:Resource ;
     rdfs:label "About ELN Finder"^^xsd:string .
@@ -2448,25 +2549,34 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://ghcr.io/psdi-uk/metadise-container/metadise-sif> a rdfs:Resource ;
     rdfs:label "metadise-container download url"^^xsd:string .
 
+<https://github.com/PSDI-UK/psdi-datasets> a rdfs:Resource ;
+    rdfs:label "psdi-datasets github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> a rdfs:Resource ;
+    rdfs:label "CMC_Collection in github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip/> a foaf:Document ;
+    rdfs:label "CMC_Collection in github repository"^^xsd:string .
+
 <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip> a rdfs:Resource ;
     rdfs:label "NIST_Table_of_Critical_Micelle_Concentration_Values"^^xsd:string .
 
 <https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip> a rdfs:Resource ;
     rdfs:label "Physical_Chemistry_Properties_Data_Collection zip file"^^xsd:string .
 
-<https://github.com/ml-evs/optimade-gnome> a foaf:Document ;
+<https://github.com/ml-evs/optimade-gnome/> a foaf:Document ;
     rdfs:label "homepage for Google DeepMind's Gnome Dataset"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata> a foaf:Document ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata/> a foaf:Document ;
     rdfs:label "Metadata"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources> a foaf:Document ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources/> a foaf:Document ;
     rdfs:label "PSDI Resources"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management> a foaf:Document ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management/> a foaf:Document ;
     rdfs:label "Research Data Management"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair> a foaf:Document ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair/> a foaf:Document ;
     rdfs:label "Sharing Data and FAIR"^^xsd:string .
 
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/chase> a rdfs:Resource ;
@@ -2475,28 +2585,34 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/propersea> a rdfs:Resource ;
     rdfs:label "About Propersea"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> a foaf:Document ;
+<https://learn.psdi.ac.uk> a rdfs:Resource ;
+    rdfs:label "PSDI Interactive Learning"^^xsd:string .
+
+<https://learn.psdi.ac.uk/> a foaf:Document ;
+    rdfs:label "PSDI Interactive Learning"^^xsd:string .
+
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/> a foaf:Document ;
     rdfs:label "Ethics Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/> a foaf:Document ;
     rdfs:label "Literature and Referencing Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/> a foaf:Document ;
     rdfs:label "Python I Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/> a foaf:Document ;
     rdfs:label "Python II Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/> a foaf:Document ;
     rdfs:label "Research Data Management Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/> a foaf:Document ;
     rdfs:label "Version Control and Github Skills4Scientists"^^xsd:string .
 
 <https://materialsgalaxy.stfc.ac.uk/api/> a rdfs:Resource ;
     rdfs:label "Materials Galaxy Datasets endpoint"^^xsd:string .
 
-<https://mpds.io> a foaf:Document ;
+<https://mpds.io/> a foaf:Document ;
     rdfs:label "homepage for Materials Platform for Data Science"^^xsd:string .
 
 <https://muon-spectroscopy-computational-project.github.io/mudirac/> a foaf:Document ;
@@ -2505,11 +2621,17 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://muon-spectroscopy-computational-project.github.io/muspinsim/> a foaf:Document ;
     rdfs:label "MuSpinSim's documentation"^^xsd:string .
 
-<https://nomad-lab.eu> a foaf:Document ;
+<https://nomad-lab.eu/> a foaf:Document ;
     rdfs:label "homepage for novel materials discovery (NOMAD)"^^xsd:string .
 
 <https://nomad-lab.eu/prod/rae/optimade/> a rdfs:Resource ;
     rdfs:label "base_url for novel materials discovery (NOMAD)"^^xsd:string .
+
+<https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> a rdfs:Resource ;
+    rdfs:label "About eData"^^xsd:string .
+
+<https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC/> a foaf:Document ;
+    rdfs:label "About eData"^^xsd:string .
 
 <https://optimade-gnome.odbx.science> a rdfs:Resource ;
     rdfs:label "base_url for Google DeepMind's Gnome Dataset"^^xsd:string .
@@ -2535,7 +2657,7 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://orcid.org/0000-0003-4851-1144> a foaf:Agent ;
     foaf:name "Simone Sturniolo"^^xsd:string .
 
-<https://phaseslab.com/mpdd> a foaf:Document ;
+<https://phaseslab.com/mpdd/> a foaf:Document ;
     rdfs:label "homepage for Material-Property-Descriptor Database"^^xsd:string .
 
 <https://psdi-uk.github.io/docusaurus-pages/docs/training/self-paced-learning/skills4scientists/> a foaf:Document ;
@@ -2543,6 +2665,24 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://pypi.org/project/Soprano/#files> a rdfs:Resource ;
     rdfs:label "Soprano PyPI download files"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#command-line-application> a rdfs:Resource ;
+    rdfs:label "psdi-data-conversion command-line application PyPi"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#command-line-application/> a foaf:Document ;
+    rdfs:label "psdi-data-conversion command-line application PyPi"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#python-library> a rdfs:Resource ;
+    rdfs:label "psdi-data-conversion library PyPi"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#python-library/> a foaf:Document ;
+    rdfs:label "psdi-data-conversion library PyPi"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally> a rdfs:Resource ;
+    rdfs:label "psdi-data-conversion python/flask PyPi"^^xsd:string .
+
+<https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally/> a foaf:Document ;
+    rdfs:label "psdi-data-conversion python/flask PyPi"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-d-data.svg> a rdfs:Resource ;
     rdfs:label "BioSimDB logo"^^xsd:string .
@@ -2607,49 +2747,55 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://training.galaxyproject.org/> a foaf:Document ;
     rdfs:label "Galaxy Training"^^xsd:string .
 
-<https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html> a foaf:Document ;
+<https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html/> a foaf:Document ;
     rdfs:label "Finding the muon stopping site with pymuon-suite in Galaxy"^^xsd:string .
 
-<https://www.ccpbiosim.ac.uk/notebooks> a foaf:Document ;
+<https://www.ccpbiosim.ac.uk/notebooks/> a foaf:Document ;
     rdfs:label "Cloud Based Jupyter aiida-gromacs Demo"^^xsd:string .
+
+<https://www.chemotion-repository.net> a rdfs:Resource ;
+    rdfs:label "About Chemotion"^^xsd:string .
+
+<https://www.chemotion-repository.net/> a foaf:Document ;
+    rdfs:label "About Chemotion"^^xsd:string .
 
 <https://www.chemotion.net/docs/repo> a rdfs:Resource ;
     rdfs:label "About Chemotion"^^xsd:string .
 
-<https://www.crystallography.net/cod> a foaf:Document ;
+<https://www.crystallography.net/cod/> a foaf:Document ;
     rdfs:label "homepage for Crystallography Open Database"^^xsd:string .
 
 <https://www.crystallography.net/cod/optimade> a rdfs:Resource ;
     rdfs:label "base_url for Crystallography Open Database"^^xsd:string .
 
-<https://www.materialscloud.org/discover/curated-cofs> a foaf:Document ;
+<https://www.materialscloud.org/discover/curated-cofs/> a foaf:Document ;
     rdfs:label "homepage for CURATED covalent organic frameworks database"^^xsd:string .
 
-<https://www.materialscloud.org/discover/pyrene-mofs> a foaf:Document ;
+<https://www.materialscloud.org/discover/pyrene-mofs/> a foaf:Document ;
     rdfs:label "homepage for Pyrene-based metal organic frameworks"^^xsd:string .
 
-<https://www.materialscloud.org/explore/2dtopo> a foaf:Document ;
+<https://www.materialscloud.org/explore/2dtopo/> a foaf:Document ;
     rdfs:label "homepage for 2D topological insulators"^^xsd:string .
 
-<https://www.materialscloud.org/explore/autowannier> a foaf:Document ;
+<https://www.materialscloud.org/explore/autowannier/> a foaf:Document ;
     rdfs:label "homepage for Automated high-throughput Wannierisation"^^xsd:string .
 
-<https://www.materialscloud.org/explore/mc2d> a foaf:Document ;
+<https://www.materialscloud.org/explore/mc2d/> a foaf:Document ;
     rdfs:label "homepage for MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string .
 
-<https://www.materialscloud.org/explore/mc3d> a foaf:Document ;
+<https://www.materialscloud.org/explore/mc3d/> a foaf:Document ;
     rdfs:label "homepage for MC3D - Materials Cloud three-dimensional crystals database"^^xsd:string .
 
-<https://www.materialscloud.org/explore/stoceriaitf> a foaf:Document ;
+<https://www.materialscloud.org/explore/stoceriaitf/> a foaf:Document ;
     rdfs:label "homepage for SrTiO3-CeO2 interfaces"^^xsd:string .
 
-<https://www.materialscloud.org/explore/tc-applicability> a foaf:Document ;
+<https://www.materialscloud.org/explore/tc-applicability/> a foaf:Document ;
     rdfs:label "homepage for Applicability of tail-corrections in the molecular simulations of porous materials"^^xsd:string .
 
-<https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> a foaf:Document ;
+<https://www.materialscloud.org/explore/tin-antimony-sulfoiodide/> a foaf:Document ;
     rdfs:label "homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string .
 
-<https://www.materialsproject.org> a foaf:Document ;
+<https://www.materialsproject.org/> a foaf:Document ;
     rdfs:label "homepage for The Materials Project"^^xsd:string .
 
 <https://www.researchobject.org/ro-crate/> a dcterms:Standard ;
@@ -2657,14 +2803,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://xraypy.github.io/xraylarch/> a foaf:Document ;
     rdfs:label "Larch, Data Analysis Tools for X-ray Spectroscopy"^^xsd:string .
-
-<http://cdi.ukcatalysishub.org/get_pubs.json> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "CDI bibliographic data web service"^^xsd:string .
-
-<http://data-collections.psdi.ac.uk> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Community Data Collections"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
     skos:prefLabel "organic compound"^^xsd:string .
@@ -2681,62 +2819,19 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://en.wikipedia.org/wiki/Olga_Kennard> a foaf:Agent ;
     foaf:name "Olga Kennard"^^xsd:string .
 
-<http://github.com/CCP-NC/magresview-2/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/CCP-NC/magresview-2/issues> .
-
-<http://github.com/CCP-NC/magresview-2/tree/main> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "magresview-2 github repository"^^xsd:string .
-
 <http://github.com/CCP-NC/soprano/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "soprano github repository"^^xsd:string .
 
-<http://github.com/CCP-NC/soprano/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/CCP-NC/soprano/issues> .
-
-<http://github.com/Materials-Consortia/OPTIMADE/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/Materials-Consortia/OPTIMADE/issues> .
-
-<http://github.com/PSDI-UK/aiida-amber> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "aiida-amber github repository"^^xsd:string .
-
-<http://github.com/PSDI-UK/aiida-amber/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/PSDI-UK/aiida-amber/issues> .
-
-<http://github.com/PSDI-UK/aiida-gromacs> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "aiida-gromacs github repository"^^xsd:string .
-
-<http://github.com/PSDI-UK/aiida-gromacs/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/PSDI-UK/aiida-gromacs/issues> .
-
-<http://github.com/PSDI-UK/biosimdb-app> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "biosimdb-app github repository"^^xsd:string .
-
-<http://github.com/PSDI-UK/biosimdb-app/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/PSDI-UK/biosimdb-app/issues> .
+<http://github.com/UK-Catalysis-Hub/ukcathubapp/> a foaf:Document ;
+    rdfs:label "ukcathubapp github repository"^^xsd:string .
 
 <http://github.com/libAtoms/abcd/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "abcd github repository"^^xsd:string .
 
-<http://github.com/stfc/aiida-mlip> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "aiida-mlip github repository"^^xsd:string .
-
-<http://github.com/stfc/janus-core> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "janus-core github repository"^^xsd:string .
-
-<http://labs.futureworlds.com/data-revival/> a foaf:Agent ;
+<http://labs.futureworlds.com/data-revival> a foaf:Agent ;
     foaf:name "Data Revival"^^xsd:string .
-
-<http://materialsgalaxy.stfc.ac.uk/api/docs> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "Galaxy API"^^xsd:string .
 
 <http://materialsgalaxy.stfc.ac.uk/tours> a rdfs:Resource ;
     rdfs:label "Interactive Galaxy tours"^^xsd:string .
@@ -2765,7 +2860,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:type dcmitype:Dataset ;
     adms:status <http://purl.org/adms/status/Completed> ;
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/822c7d92-76a0-49ba-ac98-4f00ec4b23ae> ;
-    dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> ;
+    dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> ;
     dcat:keyword "CCDC"^^xsd:string,
         "Cambridge Crystallographic Data Centre"^^xsd:string,
@@ -2810,7 +2905,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:keyword "AIIDA provenance records"^^xsd:string,
         "MLIP"^^xsd:string,
         "Machine Learning Interatomic Potentials"^^xsd:string ;
-    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
@@ -2839,7 +2934,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "X-ray Absorption Spectroscopy"^^xsd:string,
         "publishing data"^^xsd:string,
         "workflows"^^xsd:string ;
-    dcat:landingPage <http://zenodo.org/communities/rexas> ;
+    dcat:landingPage <http://zenodo.org/communities/rexas/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
@@ -2883,7 +2978,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tracked Changes"^^xsd:string,
         "Version Control"^^xsd:string,
         "Work Flow"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
@@ -2955,7 +3050,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Research Skill"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3029,7 +3124,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Sharing"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3115,7 +3210,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tracked Changes"^^xsd:string,
         "Version Control"^^xsd:string,
         "Work Flow"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3155,7 +3250,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Technical"^^xsd:string,
         "Tuples"^^xsd:string,
         "Variables"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3206,7 +3301,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "simulation provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <https://www.ccpbiosim.ac.uk/notebooks> ;
+    dcat:landingPage <https://www.ccpbiosim.ac.uk/notebooks/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/772d0dc0-e082-44ef-a450-fa674c775e68> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3250,7 +3345,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Self Learning"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
@@ -3279,7 +3374,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "X-ray Absorption Spectroscopy"^^xsd:string,
         "publishing data"^^xsd:string,
         "workflows"^^xsd:string ;
-    dcat:landingPage <http://xerte.cardiff.ac.uk/play_22519> ;
+    dcat:landingPage <http://xerte.cardiff.ac.uk/play_22519/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3309,7 +3404,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/Completed> ;
     dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> ;
-    dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> ;
+    dcat:contactPoint <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support> ;
     dcat:keyword "CCDC"^^xsd:string,
         "Cambridge Crystallographic Data Centre"^^xsd:string,
         "CoreTrustSeal"^^xsd:string,
@@ -3362,7 +3457,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://labs.futureworlds.com/data-revival/> ] .
+            prov:agent <http://labs.futureworlds.com/data-revival> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/17bd0bec-94e3-41f2-bae4-bcb8ccc0f7a3> a dcat:DataService ;
     rdfs:label "CCP-NC MAGRES database search"^^xsd:string ;
@@ -3415,7 +3510,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:keyword "FAIR DO"^^xsd:string,
         "publications"^^xsd:string,
         "publishing data"^^xsd:string ;
-    dcat:landingPage <http://cdi.ukcatalysishub.org/get_pubs.json> ;
+    dcat:landingPage <http://cdi.ukcatalysishub.org/get_pubs.json/> ;
     dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/530ae29a-89eb-4562-b918-1fb66d8bfdb2> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> ;
     dcat:version "0.9"^^xsd:string .
@@ -3498,7 +3593,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "simulation provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs> ;
+    dcat:landingPage <http://github.com/PSDI-UK/aiida-gromacs/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
@@ -3543,6 +3638,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://www.ccdc.cam.ac.uk/support-and-resources/> a rdfs:Resource ;
     rdfs:label "CCDC Support and Resources"^^xsd:string .
 
+<http://www.ccdc.cam.ac.uk/support-and-resources/contact-support> a vcard:Kind ;
+    vcard:hasURL <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> .
+
 <http://www.coretrustseal.org/> a dcterms:Standard ;
     rdfs:label "CoreTrustSeal"^^xsd:string .
 
@@ -3552,64 +3650,63 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://www.linkedin.com/in/jack-doyle-175183323/> a foaf:Agent ;
     foaf:name "Jack Doyle"^^xsd:string .
 
-<http://www.optimade.org/> a foaf:Agent,
-        foaf:Document ;
-    rdfs:label "OPTIMADE website"^^xsd:string ;
-    foaf:name "OPTIMADE"^^xsd:string .
-
-<http://zenodo.org/communities/rexas> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
-
 <https://ccp-nc.github.io/magresview-2/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "MagresView"^^xsd:string .
 
+<https://data-collections.psdi.ac.uk/communities/biosimdb/> a foaf:Document ;
+    rdfs:label "PSDI Community Data Collection - BioSimDB"^^xsd:string .
+
+<https://data-collections.psdi.ac.uk/communities/data-to-knowledge/> a foaf:Document ;
+    rdfs:label "PSDI Community Data Collection - Data to Knowledge"^^xsd:string .
+
 <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> a rdfs:Resource ;
     rdfs:label "PSDI Data Conversion Service Documentation"^^xsd:string .
 
-<https://eln-finder.ulb.tu-darmstadt.de/home> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "ELN Finder"^^xsd:string .
+<https://github.com/PSDI-UK/data-transfer-container> a rdfs:Resource ;
+    rdfs:label "data-transfer-container github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/data-transfer-container/> a foaf:Document ;
+    rdfs:label "data-transfer-container github repository"^^xsd:string .
 
 <https://github.com/PSDI-UK/data-transfer-container/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "data-transfer-container README"^^xsd:string .
 
+<https://github.com/PSDI-UK/data-transfer-container/issues> a vcard:Kind ;
+    vcard:hasURL <https://github.com/PSDI-UK/data-transfer-container/issues/> .
+
+<https://github.com/PSDI-UK/dlmonte-container> a rdfs:Resource ;
+    rdfs:label "dlmonte-container github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/dlmonte-container/> a foaf:Document ;
+    rdfs:label "dlmonte-container github repository"^^xsd:string .
+
 <https://github.com/PSDI-UK/dlmonte-container/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "dlmonte-container README"^^xsd:string .
+
+<https://github.com/PSDI-UK/metadise-container> a rdfs:Resource ;
+    rdfs:label "metadise-container github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/metadise-container/> a foaf:Document ;
+    rdfs:label "metadise-container github repository"^^xsd:string .
 
 <https://github.com/PSDI-UK/metadise-container/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "metadise-container README"^^xsd:string .
 
-<https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "CMC_Collection in github repository"^^xsd:string .
+<https://github.com/PSDI-UK/metadise-container/issues> a vcard:Kind ;
+    vcard:hasURL <https://github.com/PSDI-UK/metadise-container/issues/> .
+
+<https://github.com/PSDI-UK/psdi-datasets/> a foaf:Document ;
+    rdfs:label "psdi-datasets github repository"^^xsd:string .
 
 <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "Github README"^^xsd:string .
 
-<https://learn.psdi.ac.uk> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Interactive Learning"^^xsd:string .
-
-<https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "About eData"^^xsd:string .
+<https://github.com/psdi-uk/dlmonte-container/issues> a vcard:Kind ;
+    vcard:hasURL <https://github.com/psdi-uk/dlmonte-container/issues/> .
 
 <https://orcid.org/0000-0003-3804-0975> a foaf:Agent ;
     foaf:name "Stephen C. Parker"^^xsd:string .
-
-<https://pypi.org/project/psdi-data-conversion/#command-line-application> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "psdi-data-conversion command-line application PyPi"^^xsd:string .
-
-<https://pypi.org/project/psdi-data-conversion/#python-library> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "psdi-data-conversion library PyPi"^^xsd:string .
-
-<https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "psdi-data-conversion python/flask PyPi"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> a rdfs:Resource ;
     rdfs:label "CCDC logo"^^xsd:string .
@@ -3626,12 +3723,8 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <https://spdx.org/licenses/CC0-1.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC0-1.0"^^xsd:string .
 
-<https://tddft.org/bmg/data.php> a foaf:Document ;
+<https://tddft.org/bmg/data.php/> a foaf:Document ;
     rdfs:label "homepage for alexandria"^^xsd:string .
-
-<https://www.chemotion-repository.net> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "About Chemotion"^^xsd:string .
 
 <https://www.iana.org/assignments/media-types/application/vnd.oci.image.manifest.v1+json> a dcterms:MediaType ;
     rdfs:label "application/vnd.oci.image.manifest.v1+json"^^xsd:string .
@@ -3639,9 +3732,15 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <https://www.iana.org/assignments/media-types/application/zip> a dcterms:MediaType ;
     rdfs:label "application/zip"^^xsd:string .
 
+<mailto:contact@data-revival.com> a vcard:Kind ;
+    vcard:hasEmail "contact@data-revival.com"^^xsd:string .
+
 <http://data-conversion.psdi.ac.uk/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Data Conversion Service"^^xsd:string .
+
+<http://data-search.psdi.ac.uk> a rdfs:Resource ;
+    rdfs:label "PSDI Cross Data Search"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959> a skos:Concept ;
     skos:prefLabel "crystallography"^^xsd:string .
@@ -3654,10 +3753,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <http://github.com/PSDI-UK/psdi-data-conversion> a rdfs:Resource ;
     rdfs:label "psdi-data-conversion github repository"^^xsd:string .
-
-<http://github.com/UK-Catalysis-Hub/ukcathubapp> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "ukcathubapp github repository"^^xsd:string .
 
 <http://help.galaxyproject.org/> a rdfs:Resource ;
     rdfs:label "Galaxy Help"^^xsd:string .
@@ -3691,7 +3786,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:contactPoint <mailto:support@psdi.ac.uk> ;
     dcat:keyword "electronic supplementary information"^^xsd:string,
         "second harmonic generation"^^xsd:string ;
-    dcat:landingPage <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> ;
+    dcat:landingPage <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
@@ -3728,7 +3823,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "mole fractions"^^xsd:string,
         "second harmonic generation"^^xsd:string,
         "solubility"^^xsd:string ;
-    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets> ;
+    dcat:landingPage <https://github.com/PSDI-UK/psdi-datasets/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
@@ -3759,7 +3854,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "data"^^xsd:string,
         "re-use"^^xsd:string,
         "search"^^xsd:string ;
-    dcat:landingPage <http://data-collections.psdi.ac.uk> ;
+    dcat:landingPage <http://data-collections.psdi.ac.uk/> ;
     dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/771d2ae4-7f19-4258-b144-dc212cef6e43>,
         <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
@@ -3786,9 +3881,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         foaf:Document ;
     rdfs:label "Cambridge Structural Database"^^xsd:string .
 
-<http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> a vcard:Kind ;
-    vcard:hasURL <http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/> .
-
 <http://www.ccpnc.ac.uk/database/faqs.html> a rdfs:Resource ;
     rdfs:label "CCP-NC database - Frequently Asked Questions"^^xsd:string .
 
@@ -3798,27 +3890,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <http://www.youtube.com/c/galaxyproject> a rdfs:Resource ;
     rdfs:label "GalaxyProject Youtube channel"^^xsd:string .
-
-<https://data-collections.psdi.ac.uk/communities/biosimdb> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Community Data Collection - BioSimDB"^^xsd:string .
-
-<https://data-collections.psdi.ac.uk/communities/data-to-knowledge> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Community Data Collection - Data to Knowledge"^^xsd:string .
-
-<https://github.com/PSDI-UK/data-transfer-container/issues> a vcard:Kind ;
-    vcard:hasURL <https://github.com/PSDI-UK/data-transfer-container/issues> .
-
-<https://github.com/PSDI-UK/metadise-container/issues> a vcard:Kind ;
-    vcard:hasURL <https://github.com/PSDI-UK/metadise-container/issues> .
-
-<https://github.com/PSDI-UK/psdi-datasets> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "psdi-datasets github repository"^^xsd:string .
-
-<https://github.com/psdi-uk/dlmonte-container/issues> a vcard:Kind ;
-    vcard:hasURL <https://github.com/psdi-uk/dlmonte-container/issues> .
 
 <https://guidance.psdi.ac.uk/docusaurus-pages/> a rdfs:Resource,
         foaf:Document ;
@@ -3845,16 +3916,9 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <https://spdx.org/licenses/BSD-3-Clause.html> a dcterms:LicenseDocument ;
     rdfs:label "BSD-3-Clause"^^xsd:string .
 
-<mailto:contact@data-revival.com> a vcard:Kind ;
-    vcard:hasEmail <mailto:contact@data-revival.com> .
-
 <http://cdi.ukcatalysishub.org/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "Catalysis Data Infrastructure thematic portal"^^xsd:string .
-
-<http://data-search.psdi.ac.uk> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Cross Data Search"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d> a skos:Concept ;
     skos:prefLabel "nonlinear optics"^^xsd:string .
@@ -3975,7 +4039,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb> ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
@@ -4037,20 +4101,14 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://ror.org/00zbfm828> a foaf:Agent ;
     foaf:name "Cambridge Crystallographic Data Centre"^^xsd:string .
 
-<https://github.com/PSDI-UK/data-transfer-container> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "data-transfer-container github repository"^^xsd:string .
-
-<https://github.com/PSDI-UK/dlmonte-container> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "dlmonte-container github repository"^^xsd:string .
-
-<https://github.com/PSDI-UK/metadise-container> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "metadise-container github repository"^^xsd:string .
+<http://www.ccpnc.ac.uk/contact> a vcard:Kind ;
+    vcard:hasURL <http://www.ccpnc.ac.uk/contact/> .
 
 <https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json> a dcterms:MediaType ;
     rdfs:label "application/vnd.docker.distribution.manifest.v2+json"^^xsd:string .
+
+<http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> a vcard:Kind ;
+    vcard:hasURL <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b> a dcat:Catalog ;
     rdfs:label "PSDI Data Conversion"^^xsd:string ;
@@ -4104,7 +4162,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcat:keyword "FAIR DO"^^xsd:string,
         "publications"^^xsd:string,
         "publishing data"^^xsd:string ;
-    dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp> ;
+    dcat:landingPage <http://github.com/UK-Catalysis-Hub/ukcathubapp/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70> a dcat:Catalog ;
@@ -4142,9 +4200,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <http://orcid.org/0009-0002-4762-5852> a foaf:Agent ;
     foaf:name "Raymond Whorley"^^xsd:string .
 
-<http://www.ccpnc.ac.uk/contact> a vcard:Kind ;
-    vcard:hasURL <http://www.ccpnc.ac.uk/contact> .
-
 <http://www.ccpnc.ac.uk/database/> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "CCP-NC Database"^^xsd:string .
@@ -4178,9 +4233,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a> a skos:Concept ;
     skos:prefLabel "quantum chemistry"^^xsd:string .
-
-<http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> a vcard:Kind ;
-    vcard:hasURL <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> a dcat:Catalog ;
     rdfs:label "CCP-NC"^^xsd:string ;
@@ -4260,7 +4312,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "provenance"^^xsd:string,
         "structural biology"^^xsd:string,
         "trajectory"^^xsd:string ;
-    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb> ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb/> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
@@ -4380,24 +4432,24 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Self Learning"^^xsd:string,
         "Teaching"^^xsd:string,
         "Training"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
 
 <http://orcid.org/0000-0001-6431-0612> a foaf:Agent ;
@@ -4444,7 +4496,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcat:keyword "AIIDA provenance records"^^xsd:string,
         "MLIP"^^xsd:string,
         "Machine Learning Interatomic Potentials"^^xsd:string ;
-    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge> ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/data-to-knowledge/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/6974a979-d7f2-4c89-80c7-ba67930661d2> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
@@ -4464,10 +4516,10 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
 <https://orcid.org/0009-0001-1723-4394> a foaf:Agent ;
     foaf:name "Subindev Devadasan"^^xsd:string .
 
-<http://purl.org/cld/freq/irregular> a dcterms:Frequency .
-
 <mailto:galaxy.support@stfc365.onmicrosoft.com> a vcard:Kind ;
-    vcard:hasEmail <mailto:galaxy.support@stfc365.onmicrosoft.com> .
+    vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"^^xsd:string .
+
+<http://purl.org/cld/freq/irregular> a dcterms:Frequency .
 
 <http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> a skos:Concept ;
     skos:prefLabel "data exchange"^^xsd:string .
@@ -4583,7 +4635,7 @@ dcmitype:Text a skos:Concept ;
     dcterms:description "The Open Databases Integration for Materials Design (OPTIMADE) consortium aims to make materials databases interoperable by developing a specification for a common REST API. This resource theme includes data providers who share their datasets through an OPTIMADE endpoint, making them accessible and searchable via the PSDI Cross Data Search Service."^^xsd:string ;
     dcterms:identifier "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"^^xsd:string ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:publisher <http://www.optimade.org/> ;
+    dcterms:publisher <http://www.optimade.org> ;
     dcterms:title "OPTIMADE Data Providers"^^xsd:string ;
     dcterms:type dcmitype:Collection ;
     dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow>,
@@ -4651,7 +4703,7 @@ dcmitype:Text a skos:Concept ;
         "data"^^xsd:string,
         "download"^^xsd:string,
         "search"^^xsd:string ;
-    dcat:landingPage <http://data-search.psdi.ac.uk> ;
+    dcat:landingPage <http://data-search.psdi.ac.uk/> ;
     dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304> .
 
@@ -4680,7 +4732,7 @@ dcmitype:Dataset a skos:Concept ;
     skos:prefLabel "Dataset"^^xsd:string .
 
 <mailto:support@psdi.ac.uk> a vcard:Kind ;
-    vcard:hasEmail <mailto:support@psdi.ac.uk> .
+    vcard:hasEmail "support@psdi.ac.uk"^^xsd:string .
 
 <http://purl.org/adms/status/UnderDevelopment> a rdfs:Resource .
 

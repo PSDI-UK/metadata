@@ -46,9 +46,13 @@
             "@id": "foaf:name",
             "@type": "xsd:string"
         },
+        "dcat:contactPoint": {
+            "@id": "dcat:contactPoint",
+            "@type": "@id"
+        },
         "vcard:hasEmail": {
             "@id": "vcard:hasEmail",
-            "@type": "@id"
+            "@type": "xsd:string"
         },
         "vcard:hasURL": {
             "@id": "vcard:hasURL",
@@ -120,8 +124,9 @@
             "@type": "rdfs:Resource"
         },
         "dcat:contactPoint": {
+            "@id": "mailto:support@psdi.ac.uk",
             "@type": "vcard:Kind",
-            "vcard:hasEmail": "mailto:support@psdi.ac.uk"
+            "vcard:hasEmail": "support@psdi.ac.uk"
         },
         "dcat:keyword": [
             "Research data"
@@ -215,11 +220,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Cross Data Search",
                     "@type": "foaf:Document",
-                    "@id": "http://data-search.psdi.ac.uk"
+                    "@id": "http://data-search.psdi.ac.uk/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -312,11 +317,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Community Data Collections",
                     "@type": "foaf:Document",
-                    "@id": "http://data-collections.psdi.ac.uk"
+                    "@id": "http://data-collections.psdi.ac.uk/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -389,7 +394,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -450,11 +455,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Interactive Learning",
                     "@type": "foaf:Document",
-                    "@id": "https://learn.psdi.ac.uk"
+                    "@id": "https://learn.psdi.ac.uk/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -573,7 +578,7 @@
                 "dcterms:publisher": {
                     "foaf:name": "OPTIMADE",
                     "@type": "foaf:Agent",
-                    "@id": "http://www.optimade.org/"
+                    "@id": "http://www.optimade.org"
                 },
                 "dcterms:creator": {
                     "foaf:name": "The OPTIMADE Consortium",
@@ -587,7 +592,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasURL": "http://github.com/Materials-Consortia/OPTIMADE/issues",
+                    "vcard:hasURL": "http://github.com/Materials-Consortia/OPTIMADE/issues/",
                     "@id": "http://github.com/Materials-Consortia/OPTIMADE/issues"
                 },
                 "dcterms:language": {
@@ -639,7 +644,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-aflow-aflow",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://aflow.org",
+                            "@id": "https://aflow.org/",
                             "rdfs:label": "homepage for AFLOW"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -690,7 +695,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-alexandria-alexandria-pbesol",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://tddft.org/bmg/data.php",
+                            "@id": "https://tddft.org/bmg/data.php/",
                             "rdfs:label": "homepage for alexandria"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -746,7 +751,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-alexandria-alexandria-pbe",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://tddft.org/bmg/data.php",
+                            "@id": "https://tddft.org/bmg/data.php/",
                             "rdfs:label": "homepage for alexandria"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -802,7 +807,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-cod-cod",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.crystallography.net/cod",
+                            "@id": "https://www.crystallography.net/cod/",
                             "rdfs:label": "homepage for Crystallography Open Database"
                         },
                         "psdiDcatExt:displayPriority": 2.0,
@@ -858,7 +863,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-cmr-cmr",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://cmr.fysik.dtu.dk",
+                            "@id": "https://cmr.fysik.dtu.dk/",
                             "rdfs:label": "homepage for Computational materials repository (CMR)"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -914,7 +919,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-mc3d",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/mc3d",
+                            "@id": "https://www.materialscloud.org/explore/mc3d/",
                             "rdfs:label": "homepage for MC3D - Materials Cloud three-dimensional crystals database"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -970,7 +975,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-mc2d",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/mc2d",
+                            "@id": "https://www.materialscloud.org/explore/mc2d/",
                             "rdfs:label": "homepage for MC2D - Materials Cloud two-dimensional crystals database"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1026,7 +1031,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-2dtopo",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/2dtopo",
+                            "@id": "https://www.materialscloud.org/explore/2dtopo/",
                             "rdfs:label": "homepage for 2D topological insulators"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1082,7 +1087,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-tc-applicability",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/tc-applicability",
+                            "@id": "https://www.materialscloud.org/explore/tc-applicability/",
                             "rdfs:label": "homepage for Applicability of tail-corrections in the molecular simulations of porous materials"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1138,7 +1143,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-pyrene-mofs",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/discover/pyrene-mofs",
+                            "@id": "https://www.materialscloud.org/discover/pyrene-mofs/",
                             "rdfs:label": "homepage for Pyrene-based metal organic frameworks"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1194,7 +1199,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-curated-cofs",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/discover/curated-cofs",
+                            "@id": "https://www.materialscloud.org/discover/curated-cofs/",
                             "rdfs:label": "homepage for CURATED covalent organic frameworks database"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1250,7 +1255,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-stoceriaitf",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/stoceriaitf",
+                            "@id": "https://www.materialscloud.org/explore/stoceriaitf/",
                             "rdfs:label": "homepage for SrTiO3-CeO2 interfaces"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1306,7 +1311,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-scdm",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/autowannier",
+                            "@id": "https://www.materialscloud.org/explore/autowannier/",
                             "rdfs:label": "homepage for Automated high-throughput Wannierisation"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1362,7 +1367,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloud-tin-antimony-sulfoiodide",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialscloud.org/explore/tin-antimony-sulfoiodide",
+                            "@id": "https://www.materialscloud.org/explore/tin-antimony-sulfoiodide/",
                             "rdfs:label": "homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1418,7 +1423,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-zk-gc",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://archive.materialscloud.org/record/2025.32",
+                            "@id": "https://archive.materialscloud.org/record/2025.32/",
                             "rdfs:label": "homepage for MC Archive zk-gc"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1474,7 +1479,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-c8-gy",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://archive.materialscloud.org/record/2023.181",
+                            "@id": "https://archive.materialscloud.org/record/2023.181/",
                             "rdfs:label": "homepage for MC Archive c8-gy"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1530,7 +1535,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-5p-vq",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://archive.materialscloud.org/record/2024.114",
+                            "@id": "https://archive.materialscloud.org/record/2024.114/",
                             "rdfs:label": "homepage for MC Archive 5p-vq"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1586,7 +1591,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mcloudarchive-vg-ya",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://archive.materialscloud.org/record/2024.65",
+                            "@id": "https://archive.materialscloud.org/record/2024.65/",
                             "rdfs:label": "homepage for MC Archive vg-ya"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1642,7 +1647,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mp-mp",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://www.materialsproject.org",
+                            "@id": "https://www.materialsproject.org/",
                             "rdfs:label": "homepage for The Materials Project"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1698,7 +1703,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mpdd-mpdd",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://phaseslab.com/mpdd",
+                            "@id": "https://phaseslab.com/mpdd/",
                             "rdfs:label": "homepage for Material-Property-Descriptor Database"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1754,7 +1759,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mpds-mpds",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://mpds.io",
+                            "@id": "https://mpds.io/",
                             "rdfs:label": "homepage for Materials Platform for Data Science"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1810,7 +1815,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-mpod-mpod",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "http://mpod.cimav.edu.mx",
+                            "@id": "http://mpod.cimav.edu.mx/",
                             "rdfs:label": "homepage for Material Properties Open Database (MPOD)"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1861,7 +1866,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-nmd-nmd",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://nomad-lab.eu",
+                            "@id": "https://nomad-lab.eu/",
                             "rdfs:label": "homepage for novel materials discovery (NOMAD)"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1917,7 +1922,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-odbx-gnome",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/ml-evs/optimade-gnome",
+                            "@id": "https://github.com/ml-evs/optimade-gnome/",
                             "rdfs:label": "homepage for Google DeepMind's Gnome Dataset"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -1973,7 +1978,7 @@
                         "dcterms:identifier": "psdiDcat:data/optimade-omdb-omdb_production",
                         "dcat:landingPage": {
                             "@type": "foaf:Document",
-                            "@id": "http://openmaterialsdb.se",
+                            "@id": "http://openmaterialsdb.se/",
                             "rdfs:label": "homepage for Open Materials Database (omdb) production database"
                         },
                         "psdiDcatExt:displayPriority": 3.0,
@@ -2095,11 +2100,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "dlmonte-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/dlmonte-container"
+                            "@id": "https://github.com/PSDI-UK/dlmonte-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/psdi-uk/dlmonte-container/issues",
+                            "vcard:hasURL": "https://github.com/psdi-uk/dlmonte-container/issues/",
                             "@id": "https://github.com/psdi-uk/dlmonte-container/issues"
                         },
                         "dcterms:language": {
@@ -2213,11 +2218,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "data-transfer-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/data-transfer-container"
+                            "@id": "https://github.com/PSDI-UK/data-transfer-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/PSDI-UK/data-transfer-container/issues",
+                            "vcard:hasURL": "https://github.com/PSDI-UK/data-transfer-container/issues/",
                             "@id": "https://github.com/PSDI-UK/data-transfer-container/issues"
                         },
                         "dcterms:language": {
@@ -2336,11 +2341,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "metadise-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/metadise-container"
+                            "@id": "https://github.com/PSDI-UK/metadise-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/PSDI-UK/metadise-container/issues",
+                            "vcard:hasURL": "https://github.com/PSDI-UK/metadise-container/issues/",
                             "@id": "https://github.com/PSDI-UK/metadise-container/issues"
                         },
                         "dcterms:language": {
@@ -2460,11 +2465,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "metadise-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/metadise-container"
+                            "@id": "https://github.com/PSDI-UK/metadise-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/PSDI-UK/metadise-container/issues",
+                            "vcard:hasURL": "https://github.com/PSDI-UK/metadise-container/issues/",
                             "@id": "https://github.com/PSDI-UK/metadise-container/issues"
                         },
                         "dcterms:language": {
@@ -2578,11 +2583,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "dlmonte-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/dlmonte-container"
+                            "@id": "https://github.com/PSDI-UK/dlmonte-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/psdi-uk/dlmonte-container/issues",
+                            "vcard:hasURL": "https://github.com/psdi-uk/dlmonte-container/issues/",
                             "@id": "https://github.com/psdi-uk/dlmonte-container/issues"
                         },
                         "dcterms:language": {
@@ -2697,11 +2702,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "data-transfer-container github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/data-transfer-container"
+                            "@id": "https://github.com/PSDI-UK/data-transfer-container/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "https://github.com/PSDI-UK/data-transfer-container/issues",
+                            "vcard:hasURL": "https://github.com/PSDI-UK/data-transfer-container/issues/",
                             "@id": "https://github.com/PSDI-UK/data-transfer-container/issues"
                         },
                         "dcterms:language": {
@@ -2853,11 +2858,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "About ChASe",
                             "@type": "foaf:Document",
-                            "@id": "https://data-search.psdi.ac.uk/find-a-product"
+                            "@id": "https://data-search.psdi.ac.uk/find-a-product/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -2948,11 +2953,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "About Propersea",
                             "@type": "foaf:Document",
-                            "@id": "http://www.psds.ac.uk/propersea"
+                            "@id": "http://www.psds.ac.uk/propersea/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3086,11 +3091,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "About Chemotion",
                             "@type": "foaf:Document",
-                            "@id": "https://www.chemotion-repository.net"
+                            "@id": "https://www.chemotion-repository.net/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3193,11 +3198,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "About eData",
                             "@type": "foaf:Document",
-                            "@id": "https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC"
+                            "@id": "https://oai.datacite.org/oai?verb=ListRecords&metadataPrefix=oai_dc&set=BL.STFC/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3332,7 +3337,7 @@
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
                     "vcard:hasURL": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/",
-                    "@id": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/"
+                    "@id": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support"
                 },
                 "dcterms:conformsTo": {
                     "rdfs:label": "CoreTrustSeal",
@@ -3448,7 +3453,7 @@
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
                         "vcard:hasURL": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/",
-                        "@id": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support/"
+                        "@id": "http://www.ccdc.cam.ac.uk/support-and-resources/contact-support"
                     },
                     "dcterms:conformsTo": {
                         "rdfs:label": "CoreTrustSeal",
@@ -3547,7 +3552,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -3616,11 +3621,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Research Data Management",
                             "@type": "foaf:Document",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/research-data-management/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3704,11 +3709,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Sharing Data and FAIR",
                             "@type": "foaf:Document",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3789,11 +3794,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Metadata",
                             "@type": "foaf:Document",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/metadata/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3867,11 +3872,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "PSDI Resources",
                             "@type": "foaf:Document",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-resources/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -3949,11 +3954,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "ukcathubapp github repository",
                     "@type": "foaf:Document",
-                    "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp"
+                    "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                    "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/",
                     "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
                 },
                 "dcterms:language": {
@@ -4015,7 +4020,7 @@
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                        "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/",
                         "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
                     },
                     "dcterms:language": {
@@ -4116,7 +4121,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                            "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/",
                             "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
                         },
                         "dcterms:language": {
@@ -4192,11 +4197,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "CDI bibliographic data web service",
                             "@type": "foaf:Document",
-                            "@id": "http://cdi.ukcatalysishub.org/get_pubs.json"
+                            "@id": "http://cdi.ukcatalysishub.org/get_pubs.json/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                            "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/",
                             "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
                         },
                         "dcterms:language": {
@@ -4274,11 +4279,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "ukcathubapp github repository",
                         "@type": "foaf:Document",
-                        "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp"
+                        "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues",
+                        "vcard:hasURL": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues/",
                         "@id": "http://github.com/UK-Catalysis-Hub/ukcathubapp/issues"
                     },
                     "dcterms:language": {
@@ -4390,7 +4395,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -4488,7 +4493,7 @@
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:language": {
@@ -4593,11 +4598,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion library PyPi",
                             "@type": "foaf:Document",
-                            "@id": "https://pypi.org/project/psdi-data-conversion/#python-library"
+                            "@id": "https://pypi.org/project/psdi-data-conversion/#python-library/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -4709,11 +4714,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion command-line application PyPi",
                             "@type": "foaf:Document",
-                            "@id": "https://pypi.org/project/psdi-data-conversion/#command-line-application"
+                            "@id": "https://pypi.org/project/psdi-data-conversion/#command-line-application/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -4825,11 +4830,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion python/flask PyPi",
                             "@type": "foaf:Document",
-                            "@id": "https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally"
+                            "@id": "https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -4963,7 +4968,7 @@
                     "prov:agent": {
                         "foaf:name": "Data Revival",
                         "@type": "foaf:Agent",
-                        "@id": "http://labs.futureworlds.com/data-revival/"
+                        "@id": "http://labs.futureworlds.com/data-revival"
                     }
                 },
                 "dcat:landingPage": {
@@ -4973,7 +4978,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:contact@data-revival.com",
+                    "vcard:hasEmail": "contact@data-revival.com",
                     "@id": "mailto:contact@data-revival.com"
                 },
                 "dcterms:language": {
@@ -5078,7 +5083,7 @@
                         "prov:agent": {
                             "foaf:name": "Data Revival",
                             "@type": "foaf:Agent",
-                            "@id": "http://labs.futureworlds.com/data-revival/"
+                            "@id": "http://labs.futureworlds.com/data-revival"
                         }
                     },
                     "dcat:landingPage": {
@@ -5088,7 +5093,7 @@
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:contact@data-revival.com",
+                        "vcard:hasEmail": "contact@data-revival.com",
                         "@id": "mailto:contact@data-revival.com"
                     },
                     "dcterms:language": {
@@ -5202,7 +5207,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -5306,11 +5311,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "ELN Finder",
                         "@type": "foaf:Document",
-                        "@id": "https://eln-finder.ulb.tu-darmstadt.de/home"
+                        "@id": "https://eln-finder.ulb.tu-darmstadt.de/home/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:language": {
@@ -5428,7 +5433,7 @@
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:language": {
@@ -5561,11 +5566,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "psdi-datasets github repository",
                     "@type": "foaf:Document",
-                    "@id": "https://github.com/PSDI-UK/psdi-datasets"
+                    "@id": "https://github.com/PSDI-UK/psdi-datasets/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -5709,7 +5714,7 @@
                                 "prov:agent": {
                                     "foaf:name": "IUPAC: Miscibility",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://iupac.org/what-we-do/databases/solubility-data-series/"
+                                    "@id": "http://iupac.org/what-we-do/databases/solubility-data-series"
                                 }
                             },
                             {
@@ -5742,11 +5747,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-datasets github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets"
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -5876,11 +5881,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "CMC_Collection in github repository",
                             "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip"
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -6026,11 +6031,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "Case Studies: Discovering Value in Legacy Data",
                     "@type": "foaf:Document",
-                    "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite"
+                    "@id": "http://WillBeThePureLinkToReportOrTheKnowledgebaseSite/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -6137,17 +6142,17 @@
                             "prov:agent": {
                                 "foaf:name": "Steven M Wilson",
                                 "@type": "foaf:Agent",
-                                "@id": "http://www.linkedin.com/in/stephen-wilson-017a7150/"
+                                "@id": "http://www.linkedin.com/in/stephen-wilson-017a7150"
                             }
                         },
                         "dcat:landingPage": {
                             "rdfs:label": "Resurrecting SHG Case Study",
                             "@type": "foaf:Document",
-                            "@id": "https://doi.org/10.5258/SOTON/PSDI0001"
+                            "@id": "https://doi.org/10.5258/SOTON/PSDI0001/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -6281,7 +6286,7 @@
                                 "prov:agent": {
                                     "foaf:name": "Jessica E. Boles",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://www.linkedin.com/in/jessica-boles-a67791194/"
+                                    "@id": "http://www.linkedin.com/in/jessica-boles-a67791194"
                                 }
                             },
                             {
@@ -6320,7 +6325,7 @@
                                 "prov:agent": {
                                     "foaf:name": "Rebecca J. Ellaby",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://www.linkedin.com/in/rebecca-ellaby/"
+                                    "@id": "http://www.linkedin.com/in/rebecca-ellaby"
                                 }
                             },
                             {
@@ -6346,7 +6351,7 @@
                                 "prov:agent": {
                                     "foaf:name": "Kendrick K. L. Ng",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://www.linkedin.com/in/kendrickng1/"
+                                    "@id": "http://www.linkedin.com/in/kendrickng1"
                                 }
                             },
                             {
@@ -6359,7 +6364,7 @@
                                 "prov:agent": {
                                     "foaf:name": "Laura R. Blackholly",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://www.linkedin.com/in/laura-blackholly-74409482/"
+                                    "@id": "http://www.linkedin.com/in/laura-blackholly-74409482"
                                 }
                             },
                             {
@@ -6372,7 +6377,7 @@
                                 "prov:agent": {
                                     "foaf:name": "Ben Wilson",
                                     "@type": "foaf:Agent",
-                                    "@id": "http://www.linkedin.com/in/ben-wilson-kent/"
+                                    "@id": "http://www.linkedin.com/in/ben-wilson-kent"
                                 }
                             },
                             {
@@ -6405,11 +6410,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Making ESI Machine-Readable Case Study",
                             "@type": "foaf:Document",
-                            "@id": "http://dx.doi.org/10.5281/zenodo.15295742"
+                            "@id": "http://dx.doi.org/10.5281/zenodo.15295742/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -6527,11 +6532,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                     "@type": "foaf:Document",
-                    "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb"
+                    "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -6628,11 +6633,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                         "@type": "foaf:Document",
-                        "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb"
+                        "@id": "https://data-collections.psdi.ac.uk/communities/biosimdb/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:conformsTo": [
@@ -6787,11 +6792,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-gromacs github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/PSDI-UK/aiida-gromacs"
+                            "@id": "http://github.com/PSDI-UK/aiida-gromacs/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/PSDI-UK/aiida-gromacs/issues",
+                            "vcard:hasURL": "http://github.com/PSDI-UK/aiida-gromacs/issues/",
                             "@id": "http://github.com/PSDI-UK/aiida-gromacs/issues"
                         },
                         "dcterms:conformsTo": {
@@ -6936,11 +6941,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-amber github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/PSDI-UK/aiida-amber"
+                            "@id": "http://github.com/PSDI-UK/aiida-amber/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/PSDI-UK/aiida-amber/issues",
+                            "vcard:hasURL": "http://github.com/PSDI-UK/aiida-amber/issues/",
                             "@id": "http://github.com/PSDI-UK/aiida-amber/issues"
                         },
                         "dcterms:conformsTo": {
@@ -7077,11 +7082,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "biosimdb-app github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/PSDI-UK/biosimdb-app"
+                            "@id": "http://github.com/PSDI-UK/biosimdb-app/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/PSDI-UK/biosimdb-app/issues",
+                            "vcard:hasURL": "http://github.com/PSDI-UK/biosimdb-app/issues/",
                             "@id": "http://github.com/PSDI-UK/biosimdb-app/issues"
                         },
                         "dcterms:conformsTo": {
@@ -7209,11 +7214,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "Cloud Based Jupyter aiida-gromacs Demo",
                         "@type": "foaf:Document",
-                        "@id": "https://www.ccpbiosim.ac.uk/notebooks"
+                        "@id": "https://www.ccpbiosim.ac.uk/notebooks/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:language": {
@@ -7287,11 +7292,11 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Community Data Collection - Data to Knowledge",
                     "@type": "foaf:Document",
-                    "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge"
+                    "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -7353,11 +7358,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "PSDI Community Data Collection - Data to Knowledge",
                         "@type": "foaf:Document",
-                        "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge"
+                        "@id": "https://data-collections.psdi.ac.uk/communities/data-to-knowledge/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:language": {
@@ -7479,11 +7484,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "janus-core github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/stfc/janus-core"
+                            "@id": "http://github.com/stfc/janus-core/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -7581,11 +7586,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-mlip github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/stfc/aiida-mlip"
+                            "@id": "http://github.com/stfc/aiida-mlip/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -7670,7 +7675,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -7779,7 +7784,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -7891,7 +7896,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -7972,7 +7977,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasURL": "http://www.ccpnc.ac.uk/contact",
+                    "vcard:hasURL": "http://www.ccpnc.ac.uk/contact/",
                     "@id": "http://www.ccpnc.ac.uk/contact"
                 },
                 "dcterms:language": {
@@ -8062,7 +8067,7 @@
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasURL": "http://www.ccpnc.ac.uk/contact",
+                        "vcard:hasURL": "http://www.ccpnc.ac.uk/contact/",
                         "@id": "http://www.ccpnc.ac.uk/contact"
                     },
                     "dcterms:conformsTo": {
@@ -8187,7 +8192,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://www.ccpnc.ac.uk/contact",
+                            "vcard:hasURL": "http://www.ccpnc.ac.uk/contact/",
                             "@id": "http://www.ccpnc.ac.uk/contact"
                         },
                         "dcterms:language": {
@@ -8282,7 +8287,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://www.ccpnc.ac.uk/contact",
+                            "vcard:hasURL": "http://www.ccpnc.ac.uk/contact/",
                             "@id": "http://www.ccpnc.ac.uk/contact"
                         },
                         "dcterms:language": {
@@ -8381,11 +8386,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "magresview-2 github repository",
                             "@type": "foaf:Document",
-                            "@id": "http://github.com/CCP-NC/magresview-2/tree/main"
+                            "@id": "http://github.com/CCP-NC/magresview-2/tree/main/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/CCP-NC/magresview-2/issues",
+                            "vcard:hasURL": "http://github.com/CCP-NC/magresview-2/issues/",
                             "@id": "http://github.com/CCP-NC/magresview-2/issues"
                         },
                         "dcterms:language": {
@@ -8518,7 +8523,7 @@
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/CCP-NC/soprano/issues",
+                            "vcard:hasURL": "http://github.com/CCP-NC/soprano/issues/",
                             "@id": "http://github.com/CCP-NC/soprano/issues"
                         },
                         "dcterms:language": {
@@ -8660,12 +8665,12 @@
                 "dcat:contactPoint": [
                     {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                        "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                         "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                     }
                 ],
@@ -8758,11 +8763,11 @@
                     "dcat:landingPage": {
                         "rdfs:label": "Reproducible XAFS Analyses",
                         "@type": "foaf:Document",
-                        "@id": "http://zenodo.org/communities/rexas"
+                        "@id": "http://zenodo.org/communities/rexas/"
                     },
                     "dcat:contactPoint": {
                         "@type": "vcard:Kind",
-                        "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
                         "@id": "mailto:support@psdi.ac.uk"
                     },
                     "dcterms:conformsTo": {
@@ -8901,12 +8906,12 @@
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9049,17 +9054,17 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Galaxy API",
                             "@type": "foaf:Document",
-                            "@id": "http://materialsgalaxy.stfc.ac.uk/api/docs"
+                            "@id": "http://materialsgalaxy.stfc.ac.uk/api/docs/"
                         },
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9214,12 +9219,12 @@
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9333,17 +9338,17 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Finding the muon stopping site with pymuon-suite in Galaxy",
                             "@type": "foaf:Document",
-                            "@id": "https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html"
+                            "@id": "https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html/"
                         },
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9453,12 +9458,12 @@
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9568,12 +9573,12 @@
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9683,12 +9688,12 @@
                         "dcat:contactPoint": [
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
                                 "@id": "mailto:support@psdi.ac.uk"
                             },
                             {
                                 "@type": "vcard:Kind",
-                                "vcard:hasEmail": "mailto:galaxy.support@stfc365.onmicrosoft.com",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
                                 "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
                             }
                         ],
@@ -9759,11 +9764,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Importing an RO-Crate",
                             "@type": "foaf:Document",
-                            "@id": "http://xerte.cardiff.ac.uk/play_22519"
+                            "@id": "http://xerte.cardiff.ac.uk/play_22519/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -9889,7 +9894,7 @@
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
-                    "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
                     "@id": "mailto:support@psdi.ac.uk"
                 },
                 "dcterms:language": {
@@ -9966,11 +9971,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Python I Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python1"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -10071,11 +10076,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Python II Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python2"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -10182,11 +10187,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Version Control and Github Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -10287,11 +10292,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Ethics Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -10406,11 +10411,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Literature and Referencing Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
@@ -10523,11 +10528,11 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Research Data Management Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
-                            "vcard:hasEmail": "mailto:support@psdi.ac.uk",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
                             "@id": "mailto:support@psdi.ac.uk"
                         },
                         "dcterms:language": {
