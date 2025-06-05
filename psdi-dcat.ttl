@@ -1503,7 +1503,7 @@
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
@@ -1810,7 +1810,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python Library"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#python-library> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -1902,7 +1902,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Command Line Application"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#command-line-application> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -2070,7 +2070,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/95a3c301-c9b5-4214-88cd-7c3150fa442b> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python/Flask Application"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion'[gui]'"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -4115,7 +4115,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039>,
         <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a>,
         <http://metadata.psdi.ac.uk/psdi-dcat/tool/95a3c301-c9b5-4214-88cd-7c3150fa442b> ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
