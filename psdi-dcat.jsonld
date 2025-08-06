@@ -455,7 +455,7 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Interactive Learning",
                     "@type": "foaf:Document",
-                    "@id": "https://learn.psdi.ac.uk/"
+                    "@id": "https://learn.psdi.ac.uk"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -5477,483 +5477,6 @@
                 }
             },
             {
-                "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204",
-                "dcterms:identifier": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204",
-                "@type": "dcat:Catalog",
-                "dcterms:title": "Data Collections for Chemical Modelling",
-                "rdfs:label": "Data Collections for Chemical Modelling",
-                "dcterms:type": {
-                    "skos:prefLabel": "Collection",
-                    "@type": "skos:Concept",
-                    "@id": "http://purl.org/dc/dcmitype/Collection"
-                },
-                "dcterms:description": "This resource theme offers access to carefully curated data collections from diverse sources, as well as data exemplars developed through case studies. These exemplars explore innovative methods to enhance data capture, improve quality, facilitate sharing, and revive legacy data in meaningful ways. Our goal is to create, store, and manage robust data collections in the physical sciences, ensuring they are easily accessible to researchers. By simplifying data discovery and reuse, we promote broader utilisation and accelerate scientific advancements.",
-                "dcat:keyword": [
-                    "solubility",
-                    "boiling points",
-                    "henrys law constants",
-                    "LogS",
-                    "melting points",
-                    "mole fractions",
-                    "critical micelle concentration",
-                    "electronic supplementary information",
-                    "second harmonic generation"
-                ],
-                "dcat:theme": [
-                    {
-                        "skos:prefLabel": "data processing",
-                        "@type": "skos:Concept",
-                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
-                    },
-                    {
-                        "skos:prefLabel": "chemical sciences",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
-                    },
-                    {
-                        "skos:prefLabel": "nonlinear optics",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d"
-                    }
-                ],
-                "dcterms:publisher": {
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Agent",
-                    "@id": "http://www.psdi.ac.uk"
-                },
-                "dcterms:creator": [
-                    {
-                        "foaf:name": "Jeremy G. Frey",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0003-0842-4302"
-                    },
-                    {
-                        "foaf:name": "Samantha Pearman-Kanza",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0002-4831-9489"
-                    },
-                    {
-                        "foaf:name": "Joshua Cheung",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0003-9952-3468"
-                    },
-                    {
-                        "foaf:name": "Joanna Grundy",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0003-2583-5680"
-                    },
-                    {
-                        "foaf:name": "Samuel Munday",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0001-5404-6934"
-                    },
-                    {
-                        "foaf:name": "Ashley Unitt",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0007-0037-0035"
-                    },
-                    {
-                        "foaf:name": "Thomas Allam",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0009-9897-333X"
-                    },
-                    {
-                        "foaf:name": "Matthew Partridge",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0001-5280-8309"
-                    }
-                ],
-                "dcat:landingPage": {
-                    "rdfs:label": "psdi-datasets github repository",
-                    "@type": "foaf:Document",
-                    "@id": "https://github.com/PSDI-UK/psdi-datasets/"
-                },
-                "dcat:contactPoint": {
-                    "@type": "vcard:Kind",
-                    "vcard:hasEmail": "support@psdi.ac.uk",
-                    "@id": "mailto:support@psdi.ac.uk"
-                },
-                "dcterms:language": {
-                    "rdfs:label": "en",
-                    "@type": "dcterms:LinguisticSystem",
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                },
-                "adms:status": {
-                    "@type": "rdfs:Resource",
-                    "@id": "http://purl.org/adms/status/UnderDevelopment"
-                },
-                "dcterms:accessRights": {
-                    "rdfs:label": "open access",
-                    "@type": "dcterms:RightsStatement",
-                    "@id": "http://purl.org/coar/access_right/c_abf2"
-                },
-                "psdiDcatExt:logoURL": {
-                    "rdfs:label": "Data Collections for Chemical Modelling logo",
-                    "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
-                },
-                "psdiDcatExt:displayPriority": 2.0,
-                "dcat:Dataset": [
-                    {
-                        "@id": "psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
-                        "dcterms:identifier": "psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
-                        "@type": "dcat:Dataset",
-                        "dcterms:title": "Physical Chemistry Properties Data Collection",
-                        "rdfs:label": "psdi_physical_chemistry_properties_data",
-                        "dcterms:type": {
-                            "skos:prefLabel": "Dataset",
-                            "@type": "skos:Concept",
-                            "@id": "http://purl.org/dc/dcmitype/Dataset"
-                        },
-                        "dcterms:description": "This collection of datasets focuses on solubility-related information, including boiling points, Henry's law constants, LogS, melting points, and mole fractions. The Physical Chemistry Properties Data Collection provides carefully curated and standardized data on key chemical properties, empowering researchers to effectively model, analyze, and drive innovation in the field of physical chemistry.",
-                        "dcat:keyword": [
-                            "solubility",
-                            "boiling points",
-                            "henrys law constants",
-                            "LogS",
-                            "melting points",
-                            "mole fractions"
-                        ],
-                        "dcat:theme": {
-                            "skos:prefLabel": "chemical sciences",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
-                        },
-                        "dcterms:publisher": {
-                            "foaf:name": "PSDI",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.psdi.ac.uk"
-                        },
-                        "dcterms:creator": [
-                            {
-                                "foaf:name": "Jeremy G. Frey",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0003-0842-4302"
-                            },
-                            {
-                                "foaf:name": "Samantha Pearman-Kanza",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0002-4831-9489"
-                            },
-                            {
-                                "foaf:name": "Joshua Cheung",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0009-0003-9952-3468"
-                            },
-                            {
-                                "foaf:name": "Joanna Grundy",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0003-2583-5680"
-                            },
-                            {
-                                "foaf:name": "Matthew Partridge",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0001-5280-8309"
-                            }
-                        ],
-                        "prov:qualifiedAttribution": [
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "BioQuest: Boiling Point, Melting Point",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "Sander2023: HLC",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://doi.org/10.5194/acp-23-10901-2023"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "Bergstrom2003: Melting Point",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://doi.org/10.1021/ci020280x"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "DDB2023: Miscibility",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://www.ddbst.com/ddb-vle.html"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "IUPAC: Miscibility",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://iupac.org/what-we-do/databases/solubility-data-series"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "Delaney2004: Solubility",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://doi.org/10.1021/ci034243x"
-                                }
-                            },
-                            {
-                                "@type": "prov:Attribution",
-                                "dcat:hadRole": {
-                                    "rdfs:label": "Resource provider",
-                                    "@type": "rdfs:Resource",
-                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
-                                },
-                                "prov:agent": {
-                                    "foaf:name": "Meng2022: Solubility",
-                                    "@type": "foaf:Agent",
-                                    "@id": "http://doi.org/10.1038/s41597-022-01154-3"
-                                }
-                            }
-                        ],
-                        "dcat:landingPage": {
-                            "rdfs:label": "psdi-datasets github repository",
-                            "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/"
-                        },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "support@psdi.ac.uk",
-                            "@id": "mailto:support@psdi.ac.uk"
-                        },
-                        "dcterms:language": {
-                            "rdfs:label": "en",
-                            "@type": "dcterms:LinguisticSystem",
-                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                        },
-                        "adms:status": {
-                            "@type": "rdfs:Resource",
-                            "@id": "http://purl.org/adms/status/UnderDevelopment"
-                        },
-                        "dcterms:issued": {
-                            "@value": "2024-10-20T00:00:00Z",
-                            "@type": "xsd:dateTime"
-                        },
-                        "dcterms:license": {
-                            "rdfs:label": "CC-BY-4.0",
-                            "@type": "dcterms:LicenseDocument",
-                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
-                        },
-                        "dcterms:accessRights": {
-                            "rdfs:label": "open access",
-                            "@type": "dcterms:RightsStatement",
-                            "@id": "http://purl.org/coar/access_right/c_abf2"
-                        },
-                        "psdiDcatExt:furtherInformation": {
-                            "rdfs:label": "Github README",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md"
-                        },
-                        "psdiDcatExt:logoURL": {
-                            "rdfs:label": "Data Collections for Chemical Modelling logo",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
-                        },
-                        "dcterms:bibliographicCitation": "Please cite: Jeremy G. Frey, Samantha Pearman-Kanza, Joshua Cheung, Joanna Grundy and Matthew Partridge, Physical Chemistry Properties Data Collection, https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b (accessed CURRENT_DATE).",
-                        "psdiDcatExt:displayPriority": 2.0,
-                        "dcat:inCatalog": {
-                            "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
-                        },
-                        "dcterms:accrualPeriodicity": {
-                            "@type": "dcterms:Frequency",
-                            "@id": "http://purl.org/cld/freq/irregular"
-                        },
-                        "dcat:Distribution": {
-                            "@id": "psdiDcat:distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21",
-                            "@type": "dcat:Distribution",
-                            "dcterms:title": "Physical Chemistry Properties Data Collection",
-                            "dcat:downloadURL": {
-                                "rdfs:label": "Physical_Chemistry_Properties_Data_Collection zip file",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip"
-                            },
-                            "dcat:accessURL": {
-                                "rdfs:label": "psdi-datasets github repository",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://github.com/PSDI-UK/psdi-datasets"
-                            },
-                            "dcat:mediaType": {
-                                "@type": "dcterms:MediaType",
-                                "@id": "https://www.iana.org/assignments/media-types/application/zip",
-                                "rdfs:label": "application/zip"
-                            }
-                        }
-                    },
-                    {
-                        "@id": "psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34",
-                        "dcterms:identifier": "psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34",
-                        "@type": "dcat:Dataset",
-                        "dcterms:title": "Critical Micelle Concentration (CMC) Data Collection",
-                        "rdfs:label": "psdi_cmc_data",
-                        "dcterms:type": {
-                            "skos:prefLabel": "Dataset",
-                            "@type": "skos:Concept",
-                            "@id": "http://purl.org/dc/dcmitype/Dataset"
-                        },
-                        "dcterms:description": "This dataset is derived from the National Institute of Standards and Technology (NIST) publication, \"Critical Micelle Concentrations of Aqueous Surfactant Systems\" (http://doi.org/10.6028/NBS.NSRDS.36). The data was extracted using the AI-driven Data Revival service (http://www.data-revival.com/), then manually enhanced by adding SMILES strings, and finally reprocessed by Data Revival to be fully converted into a machine-readable format for improved accessibility and interoperability.",
-                        "dcat:keyword": [
-                            "critical micelle concentration",
-                            "electronic supplementary information"
-                        ],
-                        "dcat:theme": {
-                            "skos:prefLabel": "chemical sciences",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
-                        },
-                        "dcterms:publisher": {
-                            "foaf:name": "PSDI",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.psdi.ac.uk"
-                        },
-                        "dcterms:creator": [
-                            {
-                                "foaf:name": "Jeremy G. Frey",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0003-0842-4302"
-                            },
-                            {
-                                "foaf:name": "Samantha Pearman-Kanza",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0002-4831-9489"
-                            },
-                            {
-                                "foaf:name": "Samuel Munday",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0001-5404-6934"
-                            },
-                            {
-                                "foaf:name": "Thomas Allam",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0009-0009-9897-333X"
-                            }
-                        ],
-                        "prov:qualifiedAttribution": {
-                            "@type": "prov:Attribution",
-                            "dcat:hadRole": {
-                                "rdfs:label": "Owner",
-                                "@type": "rdfs:Resource",
-                                "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/owner"
-                            },
-                            "prov:agent": {
-                                "foaf:name": "National Institute of Standards and Technology",
-                                "@type": "foaf:Agent",
-                                "@id": "http://doi.org/10.6028/NBS.NSRDS.36"
-                            }
-                        },
-                        "dcat:landingPage": {
-                            "rdfs:label": "CMC_Collection in github repository",
-                            "@type": "foaf:Document",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip/"
-                        },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "support@psdi.ac.uk",
-                            "@id": "mailto:support@psdi.ac.uk"
-                        },
-                        "dcterms:language": {
-                            "rdfs:label": "en",
-                            "@type": "dcterms:LinguisticSystem",
-                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                        },
-                        "adms:status": {
-                            "@type": "rdfs:Resource",
-                            "@id": "http://purl.org/adms/status/UnderDevelopment"
-                        },
-                        "dcterms:issued": {
-                            "@value": "2024-10-20T00:00:00Z",
-                            "@type": "xsd:dateTime"
-                        },
-                        "dcterms:license": {
-                            "rdfs:label": "CC-BY-4.0",
-                            "@type": "dcterms:LicenseDocument",
-                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
-                        },
-                        "dcterms:accessRights": {
-                            "rdfs:label": "open access",
-                            "@type": "dcterms:RightsStatement",
-                            "@id": "http://purl.org/coar/access_right/c_abf2"
-                        },
-                        "psdiDcatExt:furtherInformation": {
-                            "rdfs:label": "Github README",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md"
-                        },
-                        "psdiDcatExt:logoURL": {
-                            "rdfs:label": "Data Collections for Chemical Modelling logo",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
-                        },
-                        "dcterms:bibliographicCitation": "Please cite: Jeremy G. Frey, Samantha Pearman-Kanza, Samuel Munday and Thomas Allam, Critical Micelle Concentration (CMC) Data Collection, https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34 (accessed CURRENT_DATE).",
-                        "psdiDcatExt:displayPriority": 2.0,
-                        "dcat:inCatalog": {
-                            "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
-                        },
-                        "dcterms:accrualPeriodicity": {
-                            "@type": "dcterms:Frequency",
-                            "@id": "http://purl.org/cld/freq/irregular"
-                        },
-                        "dcat:Distribution": {
-                            "@id": "psdiDcat:distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c",
-                            "@type": "dcat:Distribution",
-                            "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
-                            "dcat:downloadURL": {
-                                "rdfs:label": "NIST_Table_of_Critical_Micelle_Concentration_Values",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip"
-                            },
-                            "dcat:accessURL": {
-                                "rdfs:label": "CMC_Collection in github repository",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip"
-                            },
-                            "dcat:mediaType": {
-                                "@type": "dcterms:MediaType",
-                                "@id": "https://www.iana.org/assignments/media-types/application/zip",
-                                "rdfs:label": "application/zip"
-                            }
-                        }
-                    }
-                ]
-            },
-            {
                 "@id": "psdiDcat:resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a",
                 "dcterms:identifier": "psdiDcat:resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a",
                 "@type": "dcat:Catalog",
@@ -9971,7 +9494,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Python I Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python1"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10076,7 +9599,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Python II Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=python2"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10187,7 +9710,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Version Control and Github Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10292,7 +9815,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Ethics Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10411,7 +9934,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Literature and Referencing Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10528,7 +10051,7 @@
                         "dcat:landingPage": {
                             "rdfs:label": "Research Data Management Skills4Scientists",
                             "@type": "foaf:Document",
-                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/"
+                            "@id": "https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm"
                         },
                         "dcat:contactPoint": {
                             "@type": "vcard:Kind",
@@ -10575,6 +10098,490 @@
                             },
                             "dcat:hadRole": {
                                 "@id": "http://www.iana.org/assignments/relation/describes"
+                            }
+                        }
+                    }
+                ]
+            },
+            {
+                "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204",
+                "dcterms:identifier": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204",
+                "@type": "dcat:Catalog",
+                "dcterms:title": "Data Collections for Chemical Modelling",
+                "rdfs:label": "Data Collections for Chemical Modelling",
+                "dcterms:type": {
+                    "skos:prefLabel": "Collection",
+                    "@type": "skos:Concept",
+                    "@id": "http://purl.org/dc/dcmitype/Collection"
+                },
+                "dcterms:description": "This resource theme offers access to carefully curated data collections from diverse sources, as well as data exemplars developed through case studies. These exemplars explore innovative methods to enhance data capture, improve quality, facilitate sharing, and revive legacy data in meaningful ways. Our goal is to create, store, and manage robust data collections in the physical sciences, ensuring they are easily accessible to researchers. By simplifying data discovery and reuse, we promote broader utilisation and accelerate scientific advancements.",
+                "dcat:keyword": [
+                    "solubility",
+                    "boiling points",
+                    "henrys law constants",
+                    "LogS",
+                    "melting points",
+                    "mole fractions",
+                    "critical micelle concentration",
+                    "electronic supplementary information",
+                    "second harmonic generation"
+                ],
+                "dcat:theme": [
+                    {
+                        "skos:prefLabel": "data processing",
+                        "@type": "skos:Concept",
+                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                    },
+                    {
+                        "skos:prefLabel": "chemical sciences",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
+                    },
+                    {
+                        "skos:prefLabel": "nonlinear optics",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d"
+                    }
+                ],
+                "dcterms:publisher": {
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Agent",
+                    "@id": "http://www.psdi.ac.uk"
+                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Joshua Cheung",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0003-9952-3468"
+                    },
+                    {
+                        "foaf:name": "Joanna Grundy",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-2583-5680"
+                    },
+                    {
+                        "foaf:name": "Samuel Munday",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5404-6934"
+                    },
+                    {
+                        "foaf:name": "Ashley Unitt",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0007-0037-0035"
+                    },
+                    {
+                        "foaf:name": "Thomas Allam",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0009-9897-333X"
+                    },
+                    {
+                        "foaf:name": "Matthew Partridge",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5280-8309"
+                    }
+                ],
+                "dcat:landingPage": {
+                    "rdfs:label": "psdi-datasets github repository",
+                    "@type": "foaf:Document",
+                    "@id": "https://github.com/PSDI-UK/psdi-datasets/"
+                },
+                "dcat:contactPoint": {
+                    "@type": "vcard:Kind",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
+                    "@id": "mailto:support@psdi.ac.uk"
+                },
+                "dcterms:language": {
+                    "rdfs:label": "en",
+                    "@type": "dcterms:LinguisticSystem",
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                },
+                "adms:status": {
+                    "@type": "rdfs:Resource",
+                    "@id": "http://purl.org/adms/status/UnderDevelopment"
+                },
+                "dcterms:accessRights": {
+                    "rdfs:label": "open access",
+                    "@type": "dcterms:RightsStatement",
+                    "@id": "http://purl.org/coar/access_right/c_abf2"
+                },
+                "psdiDcatExt:logoURL": {
+                    "rdfs:label": "Data Collections for Chemical Modelling logo",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
+                },
+                "psdiDcatExt:displayPriority": 2.0,
+                "dcat:Dataset": [
+                    {
+                        "@id": "psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
+                        "dcterms:identifier": "psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b",
+                        "@type": "dcat:Dataset",
+                        "dcterms:title": "Physical Chemistry Properties Data Collection",
+                        "rdfs:label": "psdi_physical_chemistry_properties_data",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcterms:description": "This collection of datasets focuses on solubility-related information, including boiling points, Henry's law constants, LogS, melting points, and mole fractions. The Physical Chemistry Properties Data Collection provides carefully curated and standardized data on key chemical properties, empowering researchers to effectively model, analyze, and drive innovation in the field of physical chemistry.",
+                        "dcat:keyword": [
+                            "solubility",
+                            "boiling points",
+                            "henrys law constants",
+                            "LogS",
+                            "melting points",
+                            "mole fractions"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "chemical sciences",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
+                        },
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.psdi.ac.uk"
+                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Joshua Cheung",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0003-9952-3468"
+                            },
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Matthew Partridge",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5280-8309"
+                            }
+                        ],
+                        "prov:qualifiedAttribution": [
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "BioQuest: Boiling Point, Melting Point",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Sander2023: HLC",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://doi.org/10.5194/acp-23-10901-2023"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Bergstrom2003: Melting Point",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://doi.org/10.1021/ci020280x"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "DDB2023: Miscibility",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://www.ddbst.com/ddb-vle.html"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "IUPAC: Miscibility",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://iupac.org/what-we-do/databases/solubility-data-series"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Delaney2004: Solubility",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://doi.org/10.1021/ci034243x"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Meng2022: Solubility",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://doi.org/10.1038/s41597-022-01154-3"
+                                }
+                            }
+                        ],
+                        "dcat:landingPage": {
+                            "rdfs:label": "psdi-datasets github repository",
+                            "@type": "foaf:Document",
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
+                            "@id": "mailto:support@psdi.ac.uk"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:issued": {
+                            "@value": "2024-10-20T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "CC-BY-4.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "rdfs:label": "Github README",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md"
+                            },
+                            {
+                                "rdfs:label": "Physical Chemistry Properties Data Collection",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://zenodo.org/records/15656342"
+                            }
+                        ],
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "Data Collections for Chemical Modelling logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Jeremy G. Frey, Samantha Pearman-Kanza, Joshua Cheung, Joanna Grundy and Matthew Partridge, Physical Chemistry Properties Data Collection, https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b (accessed CURRENT_DATE).",
+                        "psdiDcatExt:displayPriority": 2.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
+                        },
+                        "dcterms:accrualPeriodicity": {
+                            "@type": "dcterms:Frequency",
+                            "@id": "http://purl.org/cld/freq/irregular"
+                        },
+                        "dcat:Distribution": {
+                            "@id": "psdiDcat:distribution/1b9bfe49-a77f-466c-8d50-8b00ef15ee21",
+                            "@type": "dcat:Distribution",
+                            "dcterms:title": "Physical Chemistry Properties Data Collection",
+                            "dcat:downloadURL": {
+                                "rdfs:label": "Physical_Chemistry_Properties_Data_Collection zip file",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/datasets.zip"
+                            },
+                            "dcat:accessURL": {
+                                "rdfs:label": "psdi-datasets github repository",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/psdi-datasets"
+                            },
+                            "dcat:mediaType": {
+                                "@type": "dcterms:MediaType",
+                                "@id": "https://www.iana.org/assignments/media-types/application/zip",
+                                "rdfs:label": "application/zip"
+                            }
+                        }
+                    },
+                    {
+                        "@id": "psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34",
+                        "dcterms:identifier": "psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34",
+                        "@type": "dcat:Dataset",
+                        "dcterms:title": "Critical Micelle Concentration (CMC) Data Collection",
+                        "rdfs:label": "psdi_cmc_data",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcterms:description": "This dataset is derived from the National Institute of Standards and Technology (NIST) publication, \"Critical Micelle Concentrations of Aqueous Surfactant Systems\" (http://doi.org/10.6028/NBS.NSRDS.36). The data was extracted using the AI-driven Data Revival service (http://www.data-revival.com/), then manually enhanced by adding SMILES strings, and finally reprocessed by Data Revival to be fully converted into a machine-readable format for improved accessibility and interoperability.",
+                        "dcat:keyword": [
+                            "critical micelle concentration",
+                            "electronic supplementary information"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "chemical sciences",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
+                        },
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.psdi.ac.uk"
+                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Samuel Munday",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5404-6934"
+                            },
+                            {
+                                "foaf:name": "Thomas Allam",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0009-9897-333X"
+                            }
+                        ],
+                        "prov:qualifiedAttribution": {
+                            "@type": "prov:Attribution",
+                            "dcat:hadRole": {
+                                "rdfs:label": "Owner",
+                                "@type": "rdfs:Resource",
+                                "@id": "http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/owner"
+                            },
+                            "prov:agent": {
+                                "foaf:name": "National Institute of Standards and Technology",
+                                "@type": "foaf:Agent",
+                                "@id": "http://doi.org/10.6028/NBS.NSRDS.36"
+                            }
+                        },
+                        "dcat:landingPage": {
+                            "rdfs:label": "CMC_Collection in github repository",
+                            "@type": "foaf:Document",
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip/"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
+                            "@id": "mailto:support@psdi.ac.uk"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:issued": {
+                            "@value": "2024-10-20T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "CC-BY-4.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "psdiDcatExt:furtherInformation": {
+                            "rdfs:label": "Github README",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "Data Collections for Chemical Modelling logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Jeremy G. Frey, Samantha Pearman-Kanza, Samuel Munday and Thomas Allam, Critical Micelle Concentration (CMC) Data Collection, https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34 (accessed CURRENT_DATE).",
+                        "psdiDcatExt:displayPriority": 2.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
+                        },
+                        "dcterms:accrualPeriodicity": {
+                            "@type": "dcterms:Frequency",
+                            "@id": "http://purl.org/cld/freq/irregular"
+                        },
+                        "dcat:Distribution": {
+                            "@id": "psdiDcat:distribution/5e1d3fcf-5131-44d2-bd44-513cdb84a63c",
+                            "@type": "dcat:Distribution",
+                            "dcterms:title": "PSDI Critical Micelle Concentration (CMC) Data Collection",
+                            "dcat:downloadURL": {
+                                "rdfs:label": "NIST_Table_of_Critical_Micelle_Concentration_Values",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/psdi-datasets/raw/refs/heads/main/CMC%20dataset.zip"
+                            },
+                            "dcat:accessURL": {
+                                "rdfs:label": "CMC_Collection in github repository",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/psdi-datasets/blob/main/CMC%20dataset.zip"
+                            },
+                            "dcat:mediaType": {
+                                "@type": "dcterms:MediaType",
+                                "@id": "https://www.iana.org/assignments/media-types/application/zip",
+                                "rdfs:label": "application/zip"
                             }
                         }
                     }

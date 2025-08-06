@@ -265,7 +265,8 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/data/44160b2f-5938-442e-9f0a-652eb55d1c2b> a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md> ;
+    psdiDcatExt:furtherInformation <https://github.com/PSDI-UK/psdi-datasets/blob/main/README.md>,
+        <https://zenodo.org/records/15656342> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -297,25 +298,25 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci034243x> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ] .
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"^^xsd:string ;
@@ -1295,40 +1296,40 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ] .
+            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -2585,28 +2586,22 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/propersea> a rdfs:Resource ;
     rdfs:label "About Propersea"^^xsd:string .
 
-<https://learn.psdi.ac.uk> a rdfs:Resource ;
-    rdfs:label "PSDI Interactive Learning"^^xsd:string .
-
-<https://learn.psdi.ac.uk/> a foaf:Document ;
-    rdfs:label "PSDI Interactive Learning"^^xsd:string .
-
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> a foaf:Document ;
     rdfs:label "Ethics Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> a foaf:Document ;
     rdfs:label "Literature and Referencing Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> a foaf:Document ;
     rdfs:label "Python I Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> a foaf:Document ;
     rdfs:label "Python II Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> a foaf:Document ;
     rdfs:label "Research Data Management Skills4Scientists"^^xsd:string .
 
-<https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/> a foaf:Document ;
+<https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> a foaf:Document ;
     rdfs:label "Version Control and Github Skills4Scientists"^^xsd:string .
 
 <https://materialsgalaxy.stfc.ac.uk/api/> a rdfs:Resource ;
@@ -2804,6 +2799,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://xraypy.github.io/xraylarch/> a foaf:Document ;
     rdfs:label "Larch, Data Analysis Tools for X-ray Spectroscopy"^^xsd:string .
 
+<https://zenodo.org/records/15656342> a rdfs:Resource ;
+    rdfs:label "Physical Chemistry Properties Data Collection"^^xsd:string .
+
 <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
     skos:prefLabel "organic compound"^^xsd:string .
 
@@ -2978,7 +2976,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tracked Changes"^^xsd:string,
         "Version Control"^^xsd:string,
         "Work Flow"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=versioncontrol> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
@@ -3050,7 +3048,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Research Skill"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python2> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3124,7 +3122,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Sharing"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=rdm> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3210,7 +3208,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Tracked Changes"^^xsd:string,
         "Version Control"^^xsd:string,
         "Work Flow"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=litandref> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3250,7 +3248,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Technical"^^xsd:string,
         "Tuples"^^xsd:string,
         "Variables"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=python1> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
@@ -3345,7 +3343,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Self Learning"^^xsd:string,
         "Skill"^^xsd:string,
         "Technical"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk/moodle/course/view.php?name=ethics> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/service/62af1a1c-f4c9-48ee-acc2-45b19fb8b231> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] .
@@ -3704,6 +3702,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <https://github.com/psdi-uk/dlmonte-container/issues> a vcard:Kind ;
     vcard:hasURL <https://github.com/psdi-uk/dlmonte-container/issues/> .
+
+<https://learn.psdi.ac.uk> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "PSDI Interactive Learning"^^xsd:string .
 
 <https://orcid.org/0000-0003-3804-0975> a foaf:Agent ;
     foaf:name "Stephen C. Parker"^^xsd:string .
@@ -4432,9 +4434,12 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
         "Self Learning"^^xsd:string,
         "Teaching"^^xsd:string,
         "Training"^^xsd:string ;
-    dcat:landingPage <https://learn.psdi.ac.uk/> ;
+    dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
@@ -4443,13 +4448,10 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
 
 <http://orcid.org/0000-0001-6431-0612> a foaf:Agent ;

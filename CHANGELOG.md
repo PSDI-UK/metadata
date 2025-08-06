@@ -1,5 +1,8 @@
 # Change Log
 
+## 2025-08-06
+* updated psdi-dcat.jsonld and psdi-dcat.ttl so correct dcat:landingPage id values for "https://learn.psdi.ac.uk/" urls and add Further Information link for https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b
+
 ## 2025-06-02
 * updated psdi-dcat-shacl.ttl and psdi-dcat-shacl.jsonld so that most of the shapes in it are now closed shapes. There have been some minor updates to the iris of @ids in psdi-dcat.jsonld as a result (so that different @types have different iris).
 
