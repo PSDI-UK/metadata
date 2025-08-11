@@ -21,8 +21,20 @@
 
   <script type="module" src="https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js"></script>
 
+  <script type="module">
+    $("button.expand-all").click(() => $("details").attr("open", "true"));
+    $("button.collapse-all").click(() => $("details").removeAttr("open"));
+  </script>
+
   
   <style>
+    button.expand-all,
+    button.collapse-all {
+      margin-left: 0.5rem;
+      margin-right: 0rem;
+      margin-bottom: 0.5rem;
+    }
+
     .max-width-box>details {
       width: min(95vw, 1320px);
     }
@@ -196,18 +208,22 @@
   
   <div name="content">
     <div class="max-width-box">
+
+      <button class="button expand-all">+ Expand all</button>
+      <button class="button collapse-all">– Collapse all</button>
+
       
-      <details><summary class="depth0"><a href="https://www.psdi.ac.uk/">Physical Sciences Data Infrastructure</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://www.psdi.ac.uk/">Physical Sciences Data Infrastructure</a></summary>
       <ul>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/about-psdi">About PSDI</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/about-psdi">About PSDI</a></summary>
         <ul>
-          <details><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/governance">Governance</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/governance">Governance</a></summary>
           <ul>
             <li class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/governance/advisory-board">Advisory Board</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/history">Our History</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/history">Our History</a></summary>
           <ul>
-            <details><summary class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/history/psdi-phase-1">PSDI Phase 1</a></summary>
+            <details class="depth3"><summary class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/history/psdi-phase-1">PSDI Phase 1</a></summary>
             <ul>
               <li class="depth4"><a href="https://www.psdi.ac.uk/about-psdi/history/psdi-phase-1/wp1-governance">WP1</a></li>
               <li class="depth4"><a href="https://www.psdi.ac.uk/about-psdi/history/psdi-phase-1/wp2-communications">WP2</a></li>
@@ -219,7 +235,7 @@
             <li class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/history/statement-of-need">Statement of Need</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/history/the-pilot">The Pilot</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/our-outputs">Our Outputs</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/about-psdi/our-outputs">Our Outputs</a></summary>
           <ul>
             <li class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/our-outputs/biosim">Biomolecular Simulation</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/about-psdi/our-outputs/cross-data-search">Cross Data Search</a></li>
@@ -237,9 +253,9 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/case-study-3">Case Study 3: Combining data sources in Materials Physics</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/case-study-4">Case Study 4: Spectroscopic data infrastructure</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/case-study-5">Case Study 5: Data curation and availability at instrument-based facilities</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/case-study-6">Case Study 6: Process Recording and Digital Research Notebooks</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/case-study-6">Case Study 6: Process Recording and Digital Research Notebooks</a></summary>
         <ul>
-          <details><summary class="depth2"><a href="https://www.psdi.ac.uk/case-study-6/resources">Case Study 6</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/case-study-6/resources">Case Study 6</a></summary>
           <ul>
             <li class="depth3"><a href="https://www.psdi.ac.uk/case-study-6/resources/astronomy">Astronomy</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/case-study-6/resources/user-stories">CS6</a></li>
@@ -265,7 +281,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/dr-webinar-recording-available">Data Revival: webinar recording available</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/edinburgh-open-research-conference">Edinburgh Open Research Conference 2024</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/event-funding-call">Event Funding Call</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/event">Events from 29 June 2023 &#8211; 20 June 2024 &#8211; Physical Sciences Data Infrastructure</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/event">Events from 29 June 2023 &#8211; 20 June 2024 &#8211; Physical Sciences Data Infrastructure</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/exploring-data-curation-and-management-in-physical-sciences-psdi-roadshow-cambridge">Exploring Data Curation and Management in Physical Sciences: PSDI Roadshow @ Cambridge</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/machine-learning-autumn-school-2023">Machine Learning for Atomistic Modelling Autumn School 2023</a></li>
@@ -298,7 +314,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/love-data-week-2024">Love Data Week 2024</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/madices-2-workshop-2024">MADICES 2 Workshop 2024</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/fairest-metadata">Mirror mirror on the wall, how do I make the FAIRest metadata of them all?</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/news">News and Updates</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/news">News and Updates</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/news/page/2">News and Updates</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/news/page/3">News and Updates</a></li>
@@ -306,7 +322,7 @@
         </ul></details>
         <li class="depth1"><a href="https://www.psdi.ac.uk/webinar-recording-available-15">Once Upon A Data Steward : webinar recording available</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/webinar-recording-available-14">Open Science Explained: webinar recording available</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/collaborators">Our Collaborators</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/collaborators">Our Collaborators</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/collaborators/ccdc">CCDC</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/collaborators/ccp-biosim">CCP-BioSim</a></li>
@@ -319,7 +335,7 @@
           <li class="depth2"><a href="https://www.psdi.ac.uk/collaborators/the-university-of-sheffield">The University of Sheffield</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/collaborators/university-of-southampton">University of Southampton</a></li>
         </ul></details>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/people">Our team</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/people">Our team</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/people/abraham-nieva-de-la-hidalga">Abraham Nieva de la Hidalga</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/people/alin-marin-elena">Alin-Marin Elena</a></li>
@@ -345,7 +361,7 @@
         </ul></details>
         <li class="depth1"><a href="https://www.psdi.ac.uk/process-recording-survey">PSDI</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/funding-call-2025">PSDI Funding Call</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/psdi-phase-1">PSDI Phase 1</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/psdi-phase-1">PSDI Phase 1</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-phase-1/wp4-pathfinders">WP4</a></li>
         </ul></details>
@@ -372,7 +388,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/terms-and-conditions">Terms &amp; Conditions</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/how-to-implement-elns-properly">The Bare Necessities: How to implement Electronic Lab Notebooks properly!</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/the-development-of-the-chemists-notebook">The Development of the Chemists Notebook</a></li>
-        <details><summary class="depth1"><a href="https://www.psdi.ac.uk/the-pilot">The Pilot</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/the-pilot">The Pilot</a></summary>
         <ul>
           <li class="depth2"><a href="https://www.psdi.ac.uk/the-pilot/report">https://www.psdi.ac.uk/the-pilot/report</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/the-pilot/recommendations">Pilot Recommendations</a></li>
@@ -387,7 +403,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/current-work/wp4-pathfinders">WP4</a></li>
         <li class="depth1"><a href="https://www.psdi.ac.uk/webinar-announcement-pathfinders">Webinar Announcement: Pathfinders</a></li>
       </ul></details>
-      <details><summary class="depth0"><a href="https://resources.psdi.ac.uk">What We Provide</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://resources.psdi.ac.uk">What We Provide</a></summary>
       <ul>
         <li class="depth1"><a href="https://resources.psdi.ac.uk/data/optimade-aflow-aflow">AFLOW</a></li>
         <li class="depth1"><a href="https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbe">Alexandria: alexandria-pbe</a></li>
@@ -430,7 +446,7 @@
         <li class="depth1"><a href="https://resources.psdi.ac.uk/service/66d10e20-66ea-49a7-a29a-be94cd2be77b">Galaxy API</a></li>
         <li class="depth1"><a href="https://resources.psdi.ac.uk/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14">Galaxy Workflow Management System</a></li>
         <li class="depth1"><a href="https://resources.psdi.ac.uk/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a">Galaxy Workflow Management System Service</a></li>
-        <details><summary class="depth1"><a href="https://resources.psdi.ac.uk/guidance">Guidance</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://resources.psdi.ac.uk/guidance">Guidance</a></summary>
         <ul>
           <li class="depth2"><a href="https://resources.psdi.ac.uk/guidance/cdbcfbaf-90fc-4336-a7bd-ecc8ed8baaf4">Chemistry and Materials Machine Learning School (CAMML)</a></li>
           <li class="depth2"><a href="https://resources.psdi.ac.uk/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57">Cloud Based Jupyter aiida-gromacs Demo/Training</a></li>
@@ -504,9 +520,9 @@
         <li class="depth1"><a href="https://resources.psdi.ac.uk/data/optimade-nmd-nmd">novel materials discovery (NOMAD)</a></li>
         <li class="depth1"><a href="https://resources.psdi.ac.uk/data/optimade-odbx-gnome">open database of xtals: Google DeepMind&#x27;s Gnome Dataset</a></li>
       </ul></details>
-      <details><summary class="depth0"><a href="https://guidance.psdi.ac.uk">Knowledge Base</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://guidance.psdi.ac.uk">Knowledge Base</a></summary>
       <ul>
-        <details><summary class="depth1"><a href="https://guidance.psdi.ac.uk/docusaurus-pages">Knowledge Base</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://guidance.psdi.ac.uk/docusaurus-pages">Knowledge Base</a></summary>
         <ul>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/case-studies">Case Studies</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/guidance">Guidance</a></li>
@@ -518,38 +534,38 @@
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair">Sharing Data and FAIR</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/training">Training</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/repository">Choosing a Repository for Your Research Data</a></li>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/package">Creating a Data Package to Share Your Research Data</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/package">Creating a Data Package to Share Your Research Data</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/package/readme-file">Creating a README File for Your Shared Data</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks">Introduction to Digital Notebooks and Electronic Laboratory Notebooks</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks">Introduction to Digital Notebooks and Electronic Laboratory Notebooks</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/barriers">Adopting Digital Notebooks and Electronic Laboratory Notebooks</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/benefits">Benefits of Digital Notebooks</a></li>
-            <details><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/choosing">Choosing an Electronic Laboratory Notebook</a></summary>
+            <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/choosing">Choosing an Electronic Laboratory Notebook</a></summary>
             <ul>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/choosing/providers">Choosing a Provider for Your Digital Notebook or Electronic Laboratory Notebook</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/choosing/requirements">Determining Requirements for an Electronic Laboratory Notebook</a></li>
             </ul></details>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/deploying">Deploying an Electronic Laboratory Notebook</a></li>
-            <details><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/examples">Examples of Electronic Laboratory Notebooks</a></summary>
+            <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/examples">Examples of Electronic Laboratory Notebooks</a></summary>
             <ul>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/examples/onenote">Using Microsoft OneNote as an ELN</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/examples/ai4green">Using OneNote as an ELN</a></li>
             </ul></details>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/notebooks/types">Types of Digital Notebooks</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-case-studies">Introduction to PSDI Case Studies</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-case-studies">Introduction to PSDI Case Studies</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-case-studies/esi">Electronic Supplementary Information Case Study</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-case-studies/shg">Resurrecting Second Harmonic Generation (SHG) Data Case Study</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources">Introduction to PSDI Resources</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources">Introduction to PSDI Resources</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/chase">Chemical Availability Search (ChASe)</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-conversion">PSDI Data Conversion Service</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/propersea">Propersea</a></li>
-            <details><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search">Using PSDI Cross Data Search</a></summary>
+            <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search">Using PSDI Cross Data Search</a></summary>
             <ul>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/advanced-search">Creating a Search Query for an Advanced Search</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/chase-search">Searching Chemical Availability (ChASe)</a></li>
@@ -558,7 +574,7 @@
             </ul></details>
           </ul></details>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/license">Licences for Sharing Your Research Data</a></li>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata">Metadata in the Physical Sciences</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata">Metadata in the Physical Sciences</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-checking-guidelines">PSDI Metadata Checking Guidelines</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-general-guidelines">PSDI Metadata General Guidelines</a></li>
@@ -569,17 +585,17 @@
           </ul></details>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/sharing">Sharing Your Research Data</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/steps">Steps to Making Your Research Data FAIR</a></li>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/fair">What are FAIR Research Data?</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/fair">What are FAIR Research Data?</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/fair/fair-principles">The FAIR Principles</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management">What is Research Data Management?</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management">What is Research Data Management?</a></summary>
           <ul>
-            <details><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning">Introduction to Data Management Planning</a></summary>
+            <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning">Introduction to Data Management Planning</a></summary>
             <ul>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/collaboration">Collaborative Research</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/getting-help-rdm">Getting Help with Research Data Management</a></li>
-              <details><summary class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/dmps">Using Data Management Plans</a></summary>
+              <details class="depth4"><summary class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/dmps">Using Data Management Plans</a></summary>
               <ul>
                 <li class="depth5"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/dmps/dmps-for-ps">Completed Data Management Plan Example for Physical Scientists</a></li>
                 <li class="depth5"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/data-management/data-management-planning/dmps/contributor-record">Contributor Record for Research in the Physical Sciences</a></li>
@@ -594,7 +610,7 @@
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/it-support/support">Getting help with PSDI</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/it-support/policies">PSDI Policies</a></li>
           <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/in-person-training">In-person training and learning opportunities</a></li>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars">Recorded Webinars</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars">Recorded Webinars</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars/ccp-nc-database">CCP-NC Database</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars/catalysis">Data Capture in Catalysis</a></li>
@@ -609,17 +625,17 @@
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars/ampletracks">Sample Tracking with Ampletracks</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/webinars/universal-usability">Universal Usability</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/self-paced-learning">Self-paced Learning Resources</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/self-paced-learning">Self-paced Learning Resources</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/self-paced-learning/galaxy-ro-crate">Galaxy RO-Crate Mini Tutorials</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/self-paced-learning/skills4scientists">Skills4Scientists</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/tutorials">Tutorials</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/tutorials">Tutorials</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/tutorials/biosim">BioSim Workflows aiida-gromacs Tutorials</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/training/tutorials/mlip">Machine Learnt Interatomic Potentials (MLIP) Tutorials</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/intro">Getting started with PSDI</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/intro">Getting started with PSDI</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/intro/data-stewards">Resources for Data Stewards</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/intro/technical">Resources for Research Technicians and Research Technical Professionals</a></li>
@@ -628,15 +644,15 @@
           </ul></details>
         </ul></details>
       </ul></details>
-      <details><summary class="depth0"><a href="https://data-collections.psdi.ac.uk">Community Data Collections</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://data-collections.psdi.ac.uk">Community Data Collections</a></summary>
       <ul>
-        <details><summary class="depth1"><a href="https://data-collections.psdi.ac.uk/communities">Communities</a></summary>
+        <details class="depth1"><summary class="depth1"><a href="https://data-collections.psdi.ac.uk/communities">Communities</a></summary>
         <ul>
-          <details><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb">Search BioSimDB</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb">Search BioSimDB</a></summary>
           <ul>
             <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb/about">Community Data Collections</a></li>
           </ul></details>
-          <details><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge">Search Data to Knowledge</a></summary>
+          <details class="depth2"><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge">Search Data to Knowledge</a></summary>
           <ul>
             <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge/about">Community Data Collections</a></li>
           </ul></details>
@@ -648,7 +664,7 @@
         <li class="depth1"><a href="https://data-collections.psdi.ac.uk/me/uploads">Sign in to Physical Sciences Data Infrastructure</a></li>
         <li class="depth1"><a href="https://data-collections.psdi.ac.uk/uploads/new">Sign in to Physical Sciences Data Infrastructure</a></li>
       </ul></details>
-      <details><summary class="depth0"><a href="https://data-conversion.psdi.ac.uk">PSDI Data Conversion Service</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://data-conversion.psdi.ac.uk">PSDI Data Conversion Service</a></summary>
       <ul>
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/accessibility.htm">Accessibility</a></li>
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/documentation.htm">Documentation</a></li>
@@ -656,7 +672,7 @@
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/feedback.htm">Feedback</a></li>
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/report.htm">Report</a></li>
       </ul></details>
-      <details><summary class="depth0"><a href="https://data-search.psdi.ac.uk">PSDI Cross Data Search</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://data-search.psdi.ac.uk">PSDI Cross Data Search</a></summary>
       <ul>
         <li class="depth1"><a href="https://data-search.psdi.ac.uk/advanced-search">PSDI Cross Data Search</a></li>
         <li class="depth1"><a href="https://data-search.psdi.ac.uk/fields-explorer">PSDI Cross Data Search</a></li>
@@ -664,7 +680,7 @@
         <li class="depth1"><a href="https://data-search.psdi.ac.uk/find-a-reference">PSDI Cross Data Search</a></li>
         <li class="depth1"><a href="https://data-search.psdi.ac.uk/find-a-substance">PSDI Cross Data Search</a></li>
       </ul></details>
-      <details><summary class="depth0"><a href="https://metadata.psdi.ac.uk">PSDI metadata</a></summary>
+      <details class="depth0"><summary class="depth0"><a href="https://metadata.psdi.ac.uk">PSDI metadata</a></summary>
       <ul>
         <li class="depth1"><a href="https://metadata.psdi.ac.uk/psdi-dcat-ext.jsonld">https://metadata.psdi.ac.uk/psdi-dcat-ext.jsonld</a></li>
         <li class="depth1"><a href="https://metadata.psdi.ac.uk/psdi-dcat-shacl.jsonld">https://metadata.psdi.ac.uk/psdi-dcat-shacl.jsonld</a></li>
