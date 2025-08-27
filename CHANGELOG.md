@@ -1,7 +1,17 @@
 # Change Log
 
+## 2025-08-27
+* updated psdi-dcat.jsonld and psdi-dcat.ttl to:
+   * add new Skills4Scientists courses: "Databases Skills4Scientists" (guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88), "Data Visualisation Skills4Scientists" (guidance/3894adca-5032-495d-aa36-8a0d00cfd37c) and "Command Line: Bash and Git Skills4Scientists" (guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28) (and linked them to "PSDI Interactive Learning (Moodle)" service)
+   * renamed existing Skills4Scientists guidance resources to say " Skills4Scientist" after their name
+   * renamed "Community Data Collections" to "PSDI Community Data Collections"
+   * added data/optimade-tcod-tcod, data/optimade-oqmd-oqmd, data/optimade-twodmatpedia-twodmatpedia
+   * add "Critical Micelle Concentration (CMC) Data Collection" psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34 to "Data Sources for PSDI Cross Data Search" psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622 and reverse link
+   * added exemptions so that urls which contain "zenodo.org/" or ".html" do not have a "/" appended to them
+   * change dcat:theme for top level PSDI from http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557 to http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304	
+
 ## 2025-08-06
-* updated psdi-dcat.jsonld and psdi-dcat.ttl so correct dcat:landingPage id values for "https://learn.psdi.ac.uk/" urls and add Further Information link for https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b
+* updated psdi-dcat.jsonld and psdi-dcat.ttl to correct dcat:landingPage id values for "https://learn.psdi.ac.uk/" urls and add Further Information link for https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b
 
 ## 2025-06-02
 * updated psdi-dcat-shacl.ttl and psdi-dcat-shacl.jsonld so that most of the shapes in it are now closed shapes. There have been some minor updates to the iris of @ids in psdi-dcat.jsonld as a result (so that different @types have different iris).
