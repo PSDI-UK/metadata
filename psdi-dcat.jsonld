@@ -200,11 +200,23 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Gemma Poulter",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0009-0001-9720-3378"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Mehmet Giritli",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0001-7735-0100"
+                    },
+                    {
+                        "foaf:name": "Callum Webb",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0005-9011-2472"
+                    },
+                    {
+                        "foaf:name": "Gemma Poulter",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0001-9720-3378"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Cross Data Search",
                     "@type": "foaf:Document",
@@ -285,11 +297,23 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Callum Webb",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0009-0005-9011-2472"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Andrew Harper",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.linkedin.com/in/andrew-harper-654456241"
+                    },
+                    {
+                        "foaf:name": "Gemma Poulter",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0001-9720-3378"
+                    },
+                    {
+                        "foaf:name": "Callum Webb",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0005-9011-2472"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Community Data Collections",
                     "@type": "foaf:Document",
@@ -431,7 +455,7 @@
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Interactive Learning",
                     "@type": "foaf:Document",
-                    "@id": "https://learn.psdi.ac.uk"
+                    "@id": "https://learn.psdi.ac.uk/"
                 },
                 "dcat:contactPoint": {
                     "@type": "vcard:Kind",
@@ -2466,11 +2490,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Tom Underwood",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-6431-0612"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Amali Pawula Hewage",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/amali-shashiprabha-rajapaksha"
+                            },
+                            {
+                                "foaf:name": "Tom Underwood",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-6431-0612"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "data-transfer-container github repository",
                             "@type": "foaf:Document",
@@ -2582,11 +2613,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Stephen C. Parker",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0003-3804-0975"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Tom Underwood",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-6431-0612"
+                            },
+                            {
+                                "foaf:name": "Stephen C. Parker",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-3804-0975"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "metadise-container github repository",
                             "@type": "foaf:Document",
@@ -2699,11 +2737,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Stephen C. Parker",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0003-3804-0975"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Tom Underwood",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-6431-0612"
+                            },
+                            {
+                                "foaf:name": "Stephen C. Parker",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-3804-0975"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "metadise-container github repository",
                             "@type": "foaf:Document",
@@ -2929,11 +2974,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Tom Underwood",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-6431-0612"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Amali Pawula Hewage",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/amali-shashiprabha-rajapaksha"
+                            },
+                            {
+                                "foaf:name": "Tom Underwood",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-6431-0612"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "data-transfer-container github repository",
                             "@type": "foaf:Document",
@@ -3284,11 +3336,48 @@
                             "@type": "foaf:Agent",
                             "@id": "http://ror.org/04t3en479"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Dr. Felix Bach",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-5035-7978"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Prof. Stefan Bräse",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-4845-3191"
+                            },
+                            {
+                                "foaf:name": "Dr. Nicole Jung",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-9513-2468"
+                            },
+                            {
+                                "foaf:name": "Dr. Pierre Tremouilhac",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0487-3947"
+                            },
+                            {
+                                "foaf:name": "Pei-Chi Huang",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-9976-4507"
+                            },
+                            {
+                                "foaf:name": "Chia-Lin Lin",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-9772-0455"
+                            },
+                            {
+                                "foaf:name": "Dr. Yu-Chieh Huang",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4261-9886"
+                            },
+                            {
+                                "foaf:name": "Dr. An Nguyen",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-1692-6778"
+                            },
+                            {
+                                "foaf:name": "Dr. Felix Bach",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-5035-7978"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "About Chemotion",
                             "@type": "foaf:Document",
@@ -3807,11 +3896,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Louise Saul",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0009-0000-6422-0342"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1721-9212"
+                            },
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Research Data Management",
                             "@type": "foaf:Document",
@@ -3888,11 +3984,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Louise Saul",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0009-0000-6422-0342"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1721-9212"
+                            },
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Sharing Data and FAIR",
                             "@type": "foaf:Document",
@@ -3966,11 +4069,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Aileen Day",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0003-2397-1996"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1721-9212"
+                            },
+                            {
+                                "foaf:name": "Aileen Day",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2397-1996"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Metadata",
                             "@type": "foaf:Document",
@@ -4536,11 +4646,38 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Samuel Hyder",
-                    "@type": "foaf:Agent",
-                    "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Raymond Whorley",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0002-4762-5852"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Donald Cruickshank",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-0777-0855"
+                    },
+                    {
+                        "foaf:name": "Bryan Gillis",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4478-1270"
+                    },
+                    {
+                        "foaf:name": "Samuel Hyder",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Data Conversion Service",
                     "@type": "foaf:Document",
@@ -4607,11 +4744,38 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Samuel Hyder",
-                        "@type": "foaf:Agent",
-                        "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Raymond Whorley",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0002-4762-5852"
+                        },
+                        {
+                            "foaf:name": "Samantha Pearman-Kanza",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-4831-9489"
+                        },
+                        {
+                            "foaf:name": "Jeremy G. Frey",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-0842-4302"
+                        },
+                        {
+                            "foaf:name": "Donald Cruickshank",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-0777-0855"
+                        },
+                        {
+                            "foaf:name": "Bryan Gillis",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-4478-1270"
+                        },
+                        {
+                            "foaf:name": "Samuel Hyder",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "PSDI Data Conversion Service",
                         "@type": "foaf:Document",
@@ -4689,11 +4853,38 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Hyder",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Raymond Whorley",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0002-4762-5852"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Bryan Gillis",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4478-1270"
+                            },
+                            {
+                                "foaf:name": "Samuel Hyder",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion library PyPi",
                             "@type": "foaf:Document",
@@ -4778,11 +4969,38 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Hyder",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Raymond Whorley",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0002-4762-5852"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Bryan Gillis",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4478-1270"
+                            },
+                            {
+                                "foaf:name": "Samuel Hyder",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion command-line application PyPi",
                             "@type": "foaf:Document",
@@ -4867,11 +5085,38 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Hyder",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Raymond Whorley",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0002-4762-5852"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Bryan Gillis",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4478-1270"
+                            },
+                            {
+                                "foaf:name": "Samuel Hyder",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/sam-hyder-172a86250"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "psdi-data-conversion python/flask PyPi",
                             "@type": "foaf:Document",
@@ -4961,11 +5206,48 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Cheryl Hardy",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0009-0005-7585-3432"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Samuel Munday",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5404-6934"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Ashley Unitt",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0007-0037-0035"
+                    },
+                    {
+                        "foaf:name": "Louis McLean",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0004-2240-0109"
+                    },
+                    {
+                        "foaf:name": "Daniel Cancado",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0005-1180-1326"
+                    },
+                    {
+                        "foaf:name": "Yuehua Yin",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0006-2746-7104"
+                    },
+                    {
+                        "foaf:name": "Cheryl Hardy",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0005-7585-3432"
+                    }
+                ],
                 "prov:qualifiedAttribution": {
                     "@type": "prov:Attribution",
                     "dcat:hadRole": {
@@ -5039,11 +5321,48 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Cheryl Hardy",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0005-7585-3432"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Samuel Munday",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0001-5404-6934"
+                        },
+                        {
+                            "foaf:name": "Samantha Pearman-Kanza",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-4831-9489"
+                        },
+                        {
+                            "foaf:name": "Jeremy G. Frey",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-0842-4302"
+                        },
+                        {
+                            "foaf:name": "Ashley Unitt",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0007-0037-0035"
+                        },
+                        {
+                            "foaf:name": "Louis McLean",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0004-2240-0109"
+                        },
+                        {
+                            "foaf:name": "Daniel Cancado",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0005-1180-1326"
+                        },
+                        {
+                            "foaf:name": "Yuehua Yin",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0006-2746-7104"
+                        },
+                        {
+                            "foaf:name": "Cheryl Hardy",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0005-7585-3432"
+                        }
+                    ],
                     "prov:qualifiedAttribution": {
                         "@type": "prov:Attribution",
                         "dcat:hadRole": {
@@ -5144,11 +5463,33 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Louise Saul",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0009-0000-6422-0342"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Cerys Willoughby",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-1721-9212"
+                    },
+                    {
+                        "foaf:name": "Donald Cruickshank",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-0777-0855"
+                    },
+                    {
+                        "foaf:name": "Louise Saul",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0000-6422-0342"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "Introduction to Digital Notebooks and Electronic Laboratory Notebooks",
                     "@type": "foaf:Document",
@@ -5230,11 +5571,33 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Louise Saul",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0000-6422-0342"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Samantha Pearman-Kanza",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-4831-9489"
+                        },
+                        {
+                            "foaf:name": "Jeremy G. Frey",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-0842-4302"
+                        },
+                        {
+                            "foaf:name": "Cerys Willoughby",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-1721-9212"
+                        },
+                        {
+                            "foaf:name": "Donald Cruickshank",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-0777-0855"
+                        },
+                        {
+                            "foaf:name": "Louise Saul",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0000-6422-0342"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "ELN Finder",
                         "@type": "foaf:Document",
@@ -5326,11 +5689,33 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Louise Saul",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0000-6422-0342"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Samantha Pearman-Kanza",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-4831-9489"
+                        },
+                        {
+                            "foaf:name": "Jeremy G. Frey",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-0842-4302"
+                        },
+                        {
+                            "foaf:name": "Cerys Willoughby",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0003-1721-9212"
+                        },
+                        {
+                            "foaf:name": "Donald Cruickshank",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-0777-0855"
+                        },
+                        {
+                            "foaf:name": "Louise Saul",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0009-0000-6422-0342"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "Introduction to Digital Notebooks and Electronic Laboratory Notebooks",
                         "@type": "foaf:Document",
@@ -5426,11 +5811,48 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Matthew Partridge",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0000-0001-5280-8309"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Joshua Cheung",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0003-9952-3468"
+                    },
+                    {
+                        "foaf:name": "Joanna Grundy",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-2583-5680"
+                    },
+                    {
+                        "foaf:name": "Samuel Munday",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5404-6934"
+                    },
+                    {
+                        "foaf:name": "Ashley Unitt",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0007-0037-0035"
+                    },
+                    {
+                        "foaf:name": "Thomas Allam",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0009-9897-333X"
+                    },
+                    {
+                        "foaf:name": "Matthew Partridge",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5280-8309"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "psdi-datasets github repository",
                     "@type": "foaf:Document",
@@ -5492,11 +5914,33 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Matthew Partridge",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-5280-8309"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Joshua Cheung",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0003-9952-3468"
+                            },
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Matthew Partridge",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5280-8309"
+                            }
+                        ],
                         "prov:qualifiedAttribution": [
                             {
                                 "@type": "prov:Attribution",
@@ -5696,11 +6140,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Thomas Allam",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0009-0009-9897-333X"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Samuel Munday",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5404-6934"
+                            },
+                            {
+                                "foaf:name": "Thomas Allam",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0009-9897-333X"
+                            }
+                        ],
                         "prov:qualifiedAttribution": {
                             "@type": "prov:Attribution",
                             "dcat:hadRole": {
@@ -5830,11 +6291,43 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Matthew Partridge",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0000-0001-5280-8309"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Jeremy G. Frey",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0842-4302"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Thomas Allam",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0009-9897-333X"
+                    },
+                    {
+                        "foaf:name": "Stephen Gow",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-0121-1697"
+                    },
+                    {
+                        "foaf:name": "Donald Cruickshank",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-0777-0855"
+                    },
+                    {
+                        "foaf:name": "Jack Doyle",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.linkedin.com/in/jack-doyle-175183323"
+                    },
+                    {
+                        "foaf:name": "Matthew Partridge",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-5280-8309"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "Case Studies: Discovering Value in Legacy Data",
                     "@type": "foaf:Document",
@@ -5907,11 +6400,38 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Matthew Partridge",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-5280-8309"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Stephen Gow",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0121-1697"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Jack Doyle",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/jack-doyle-175183323"
+                            },
+                            {
+                                "foaf:name": "Matthew Partridge",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5280-8309"
+                            }
+                        ],
                         "prov:qualifiedAttribution": {
                             "@type": "prov:Attribution",
                             "dcat:hadRole": {
@@ -6007,11 +6527,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Stephen Gow",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0003-0121-1697"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Jeremy G. Frey",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0842-4302"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Thomas Allam",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0009-9897-333X"
+                            },
+                            {
+                                "foaf:name": "Stephen Gow",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-0121-1697"
+                            }
+                        ],
                         "prov:qualifiedAttribution": [
                             {
                                 "@type": "prov:Attribution",
@@ -6280,11 +6817,18 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Jas Kalayan",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0000-0002-6833-1864"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "James Gebbie-Rayet",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-8271-3431"
+                    },
+                    {
+                        "foaf:name": "Jas Kalayan",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-6833-1864"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                     "@type": "foaf:Document",
@@ -6374,11 +6918,18 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Jas Kalayan",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0002-6833-1864"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "James Gebbie-Rayet",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0001-8271-3431"
+                        },
+                        {
+                            "foaf:name": "Jas Kalayan",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-6833-1864"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "PSDI Community Data Collection - BioSimDB",
                         "@type": "foaf:Document",
@@ -6526,11 +7077,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Jas Kalayan",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-6833-1864"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "James Gebbie-Rayet",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8271-3431"
+                            },
+                            {
+                                "foaf:name": "Jas Kalayan",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6833-1864"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-gromacs github repository",
                             "@type": "foaf:Document",
@@ -6668,11 +7226,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Jas Kalayan",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-6833-1864"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "James Gebbie-Rayet",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8271-3431"
+                            },
+                            {
+                                "foaf:name": "Jas Kalayan",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6833-1864"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-amber github repository",
                             "@type": "foaf:Document",
@@ -6802,11 +7367,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Jas Kalayan",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-6833-1864"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "James Gebbie-Rayet",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8271-3431"
+                            },
+                            {
+                                "foaf:name": "Jas Kalayan",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6833-1864"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "biosimdb-app github repository",
                             "@type": "foaf:Document",
@@ -6927,11 +7499,18 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "Jas Kalayan",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0000-0002-6833-1864"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "James Gebbie-Rayet",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0001-8271-3431"
+                        },
+                        {
+                            "foaf:name": "Jas Kalayan",
+                            "@type": "foaf:Agent",
+                            "@id": "http://orcid.org/0000-0002-6833-1864"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "Cloud Based Jupyter aiida-gromacs Demo",
                         "@type": "foaf:Document",
@@ -7165,11 +7744,43 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Alin Marin Elena",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-7013-6670"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Elliott Kasoar",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0005-2015-9478"
+                            },
+                            {
+                                "foaf:name": "Federica Zanca",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6054-9260"
+                            },
+                            {
+                                "foaf:name": "Harvey Devereux",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-9449-7350"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "David Mason",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-1857-1085"
+                            },
+                            {
+                                "foaf:name": "Jacob Wilkins",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0004-9147-3475"
+                            },
+                            {
+                                "foaf:name": "Alin Marin Elena",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-7013-6670"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "janus-core github repository",
                             "@type": "foaf:Document",
@@ -7250,11 +7861,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Alin Marin Elena",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-7013-6670"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Elliott Kasoar",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0005-2015-9478"
+                            },
+                            {
+                                "foaf:name": "Federica Zanca",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6054-9260"
+                            },
+                            {
+                                "foaf:name": "Jacob Wilkins",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0004-9147-3475"
+                            },
+                            {
+                                "foaf:name": "Alin Marin Elena",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-7013-6670"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "aiida-mlip github repository",
                             "@type": "foaf:Document",
@@ -7422,11 +8050,33 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Alin Marin Elena",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-7013-6670"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Elliott Kasoar",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0005-2015-9478"
+                            },
+                            {
+                                "foaf:name": "Federica Zanca",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-6054-9260"
+                            },
+                            {
+                                "foaf:name": "Harvey Devereux",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-9449-7350"
+                            },
+                            {
+                                "foaf:name": "Jacob Wilkins",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0004-9147-3475"
+                            },
+                            {
+                                "foaf:name": "Alin Marin Elena",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-7013-6670"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "janus-tutorials github repository",
                             "@type": "foaf:Document",
@@ -7502,11 +8152,43 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Nicola Knight",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-8286-3835"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Alin Marin Elena",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-7013-6670"
+                            },
+                            {
+                                "foaf:name": "Keith Butler",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-5432-5597"
+                            },
+                            {
+                                "foaf:name": "Reinhard Maurer",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-3004-785X"
+                            },
+                            {
+                                "foaf:name": "Alex Ganose",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4486-3321"
+                            },
+                            {
+                                "foaf:name": "Ioan-Bogdan Magdău",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-3963-5076"
+                            },
+                            {
+                                "foaf:name": "Chris Mellor",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.linkedin.com/in/christina-mellor-78568374"
+                            },
+                            {
+                                "foaf:name": "Nicola Knight",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8286-3835"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "CaMML - Chemistry and Materials Machine Learning School",
                             "@type": "foaf:Document",
@@ -7576,11 +8258,18 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "John Kane Shenton",
-                    "@type": "foaf:Agent",
-                    "@id": "https://orcid.org/0000-0003-4485-3446"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Sathya Sai Seetharaman",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0009-0006-9138-9585"
+                    },
+                    {
+                        "foaf:name": "John Kane Shenton",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0003-4485-3446"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "CCP-NC Database",
                     "@type": "foaf:Document",
@@ -7659,11 +8348,18 @@
                         "@type": "foaf:Agent",
                         "@id": "http://www.psdi.ac.uk"
                     },
-                    "dcterms:creator": {
-                        "foaf:name": "John Kane Shenton",
-                        "@type": "foaf:Agent",
-                        "@id": "https://orcid.org/0000-0003-4485-3446"
-                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Sathya Sai Seetharaman",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0009-0006-9138-9585"
+                        },
+                        {
+                            "foaf:name": "John Kane Shenton",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0003-4485-3446"
+                        }
+                    ],
                     "dcat:landingPage": {
                         "rdfs:label": "CCP-NC Database",
                         "@type": "foaf:Document",
@@ -8108,11 +8804,18 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Simone Sturniolo",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0003-4851-1144"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "John Kane Shenton",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-4485-3446"
+                            },
+                            {
+                                "foaf:name": "Simone Sturniolo",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-4851-1144"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "soprano github repository",
                             "@type": "foaf:Document",
@@ -8237,21 +8940,40 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Subindev Devadasan",
-                    "@type": "foaf:Agent",
-                    "@id": "https://orcid.org/0009-0001-1723-4394"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Leandro Liborio",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-2777-5167"
+                    },
+                    {
+                        "foaf:name": "Patrick Austin",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-6279-7823"
+                    },
+                    {
+                        "foaf:name": "Subindev Devadasan",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0009-0001-1723-4394"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "Materials Galaxy homepage",
                     "@type": "foaf:Document",
                     "@id": "http://materialsgalaxy.stfc.ac.uk/"
                 },
-                "dcat:contactPoint": {
-                    "@type": "vcard:Kind",
-                    "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                    "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                },
+                "dcat:contactPoint": [
+                    {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
+                        "@id": "mailto:support@psdi.ac.uk"
+                    },
+                    {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                        "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                    }
+                ],
                 "dcterms:language": {
                     "rdfs:label": "en",
                     "@type": "dcterms:LinguisticSystem",
@@ -8459,21 +9181,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Materials Galaxy homepage",
                             "@type": "foaf:Document",
                             "@id": "http://materialsgalaxy.stfc.ac.uk/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -8593,21 +9334,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Galaxy API",
                             "@type": "foaf:Document",
                             "@id": "http://materialsgalaxy.stfc.ac.uk/api/docs/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -8734,21 +9494,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Galaxy Training",
                             "@type": "foaf:Document",
                             "@id": "https://training.galaxyproject.org/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -8839,21 +9618,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Finding the muon stopping site with pymuon-suite in Galaxy",
                             "@type": "foaf:Document",
                             "@id": "https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -8935,21 +9733,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "MuSpinSim's documentation",
                             "@type": "foaf:Document",
                             "@id": "https://muon-spectroscopy-computational-project.github.io/muspinsim/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -9031,21 +9848,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "MuDirac's documentation",
                             "@type": "foaf:Document",
                             "@id": "https://muon-spectroscopy-computational-project.github.io/mudirac/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -9127,21 +9963,40 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Subindev Devadasan",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0001-1723-4394"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Leandro Liborio",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2777-5167"
+                            },
+                            {
+                                "foaf:name": "Patrick Austin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-6279-7823"
+                            },
+                            {
+                                "foaf:name": "Subindev Devadasan",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0001-1723-4394"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Larch, Data Analysis Tools for X-ray Spectroscopy",
                             "@type": "foaf:Document",
                             "@id": "https://xraypy.github.io/xraylarch/"
                         },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
-                            "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
-                        },
+                        "dcat:contactPoint": [
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "support@psdi.ac.uk",
+                                "@id": "mailto:support@psdi.ac.uk"
+                            },
+                            {
+                                "@type": "vcard:Kind",
+                                "vcard:hasEmail": "galaxy.support@stfc365.onmicrosoft.com",
+                                "@id": "mailto:galaxy.support@stfc365.onmicrosoft.com"
+                            }
+                        ],
                         "dcterms:language": {
                             "rdfs:label": "en",
                             "@type": "dcterms:LinguisticSystem",
@@ -9300,11 +10155,38 @@
                     "@type": "foaf:Agent",
                     "@id": "http://www.psdi.ac.uk"
                 },
-                "dcterms:creator": {
-                    "foaf:name": "Nicola Knight",
-                    "@type": "foaf:Agent",
-                    "@id": "http://orcid.org/0000-0001-8286-3835"
-                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Philip Leadbitter",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-1886-0378"
+                    },
+                    {
+                        "foaf:name": "Joanna Grundy",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0003-2583-5680"
+                    },
+                    {
+                        "foaf:name": "Donald Cruickshank",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-0777-0855"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Louise Saul",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0000-6422-0342"
+                    },
+                    {
+                        "foaf:name": "Nicola Knight",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0000-0001-8286-3835"
+                    }
+                ],
                 "dcat:landingPage": {
                     "rdfs:label": "Skills4Scientists",
                     "@type": "foaf:Document",
@@ -9369,11 +10251,33 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Munday",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-5404-6934"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Stephen Gow",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-0121-1697"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Samuel Munday",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-5404-6934"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Python I Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9462,11 +10366,33 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Munday",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-5404-6934"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Stephen Gow",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-0121-1697"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Samuel Munday",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-5404-6934"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Python II Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9556,11 +10482,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Donald Cruickshank",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0002-0777-0855"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Version Control and Github Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9649,11 +10592,23 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Nicola Knight",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-8286-3835"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Nicola Knight",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8286-3835"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Ethics Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9751,11 +10706,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Nicola Knight",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0001-8286-3835"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Nicola Knight",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8286-3835"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Literature and Referencing Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9851,11 +10823,28 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Cerys Willoughby",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0003-1721-9212"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Nicola Knight",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0001-8286-3835"
+                            },
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-1721-9212"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Research Data Management Skills4Scientists",
                             "@type": "foaf:Document",
@@ -9920,7 +10909,7 @@
                             "@type": "skos:Concept",
                             "@id": "http://purl.org/dc/dcmitype/Text"
                         },
-                        "dcterms:description": "This course is intended to give you an overview of the structure of databases, why they are important, how to organise data within a database, and how to query databases. It also includes information on different types of database and a more focused look at SQL, how to identify where it can be be used and basic SQL statements and commands",
+                        "dcterms:description": "This course is intended to give you an overview of the structure of databases, why they are important, how to organise data within a database, and how to query databases. It also includes information on different types of databases with a more focused look at SQL - how to identify where it can be used and basic SQL statements and commands.",
                         "dcat:keyword": [
                             "Skill",
                             "Research Skill",
@@ -9945,11 +10934,23 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Philip Leadbitter",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0003-1886-0378"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Databases Skills4Scientists",
                             "@type": "foaf:Document",
@@ -10043,11 +11044,33 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Samuel Munday",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-5404-6934"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            },
+                            {
+                                "foaf:name": "Stephen Gow",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-0121-1697"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0002-0777-0855"
+                            },
+                            {
+                                "foaf:name": "Samuel Munday",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-5404-6934"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Data Visualisation Skills4Scientists",
                             "@type": "foaf:Document",
@@ -10112,7 +11135,7 @@
                             "@type": "skos:Concept",
                             "@id": "http://purl.org/dc/dcmitype/Text"
                         },
-                        "dcterms:description": "This course provides an introduction to using Command line functionality basics such as Shell, Echo and other commands. it also covers navigating a directory structure, understanding input, output and error streams from programs in shell and how to write a Bash scrip to undertake repetitave tasks. Covered here is how to use Git as a version control tool in the command line.",
+                        "dcterms:description": "This course provides an introduction to using Command line functionality basics such as Shell, Echo and other commands. It also covers navigating a directory structure, understanding input, output and error streams from programs in shell and how to write a Bash scrip to undertake repetitive tasks. Covered here is how to use Git as a version control tool in the command line.",
                         "dcat:keyword": [
                             "Skill",
                             "Research Skill",
@@ -10142,11 +11165,23 @@
                             "@type": "foaf:Agent",
                             "@id": "http://www.psdi.ac.uk"
                         },
-                        "dcterms:creator": {
-                            "foaf:name": "Philip Leadbitter",
-                            "@type": "foaf:Agent",
-                            "@id": "http://orcid.org/0000-0003-1886-0378"
-                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Louise Saul",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0009-0000-6422-0342"
+                            },
+                            {
+                                "foaf:name": "Joanna Grundy",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-2583-5680"
+                            },
+                            {
+                                "foaf:name": "Philip Leadbitter",
+                                "@type": "foaf:Agent",
+                                "@id": "http://orcid.org/0000-0003-1886-0378"
+                            }
+                        ],
                         "dcat:landingPage": {
                             "rdfs:label": "Command Line: Bash and Git Skills4Scientists",
                             "@type": "foaf:Document",

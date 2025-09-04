@@ -1,5 +1,10 @@
 # Change Log
 
+## 2025-09-04
+* updated psdi-dcat.jsonld and psdi-dcat.ttl to:
+   * revise descriptions of new Skills4Scientists courses
+   * fixed bug where urls and emails which were in lists were reduced down to a single value (e.g. creator)*
+
 ## 2025-08-27
 * updated psdi-dcat.jsonld and psdi-dcat.ttl to:
    * add new Skills4Scientists courses: "Databases Skills4Scientists" (guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88), "Data Visualisation Skills4Scientists" (guidance/3894adca-5032-495d-aa36-8a0d00cfd37c) and "Command Line: Bash and Git Skills4Scientists" (guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28) (and linked them to "PSDI Interactive Learning (Moodle)" service)
