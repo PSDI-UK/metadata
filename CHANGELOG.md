@@ -2,6 +2,7 @@
 
 ## 2025-09-11
 * updated psdi-dcat.jsonld and psdi-dcat.ttl to replaced invalid url for alexandria OPTIMADE provider to https://www.optimade.org/providers-dashboard/providers/alexandria.html
+* changed priority of PSDI Data Conversion Service and Data Revival Service to 1 (from 2)
 
 ## 2025-09-04
 * updated psdi-dcat.jsonld and psdi-dcat.ttl to:

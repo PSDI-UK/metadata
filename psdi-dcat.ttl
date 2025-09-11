@@ -298,22 +298,22 @@
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci020280x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/resourceProvider> ;
             prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ] .
@@ -409,7 +409,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.optimade.org/providers-dashboard/providers/alexandria.html> .
+    dcat:landingPage <https://alexandria.icams.rub.de/pbe/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
     rdfs:label "alexandria"^^xsd:string ;
@@ -426,7 +426,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://www.optimade.org/providers-dashboard/providers/alexandria.html> .
+    dcat:landingPage <https://alexandria.icams.rub.de/pbesol/> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cmr-cmr> a dcat:Dataset ;
     rdfs:label "Computational materials repository (CMR)"^^xsd:string ;
@@ -1365,40 +1365,40 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0001-9492-6143> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0002-9971-6118> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0002-3706-2905> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
+            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
             prov:agent <http://orcid.org/0000-0001-6162-8895> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
+            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
         [ a prov:Attribution ;
             dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
-            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ] .
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml:isotc211/CI_RoleCode/author> ;
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -1573,7 +1573,7 @@
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
@@ -1641,7 +1641,7 @@
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> a dcat:DataService ;
     rdfs:label "PSDI Data Revival"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:bibliographicCitation "Please cite: Samuel Munday, Samantha Pearman-Kanza, Jeremy G. Frey, Ashley Unitt, Louis McLean, Daniel Cancado, Yuehua Yin and Cheryl Hardy, PSDI Data Revival Service, https://resources.psdi.ac.uk/service/f350b410-23d2-4c25-9a7d-51d7d0263537 (accessed CURRENT_DATE)."^^xsd:string ;
@@ -1880,7 +1880,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python Library"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#python-library> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -1972,7 +1972,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Command Line Application"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#command-line-application> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -2140,7 +2140,7 @@
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/95a3c301-c9b5-4214-88cd-7c3150fa442b> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Data Conversion Python/Flask Application"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://pypi.org/project/psdi-data-conversion/#running-the-pythonflask-app-locally> ;
     psdiDcatExt:installCommand "pip install psdi-data-conversion'[gui]'"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
@@ -2517,8 +2517,14 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://alexandria.icams.rub.de/pbe> a rdfs:Resource ;
     rdfs:label "base_url for alexandria"^^xsd:string .
 
+<https://alexandria.icams.rub.de/pbe/> a foaf:Document ;
+    rdfs:label "homepage for alexandria"^^xsd:string .
+
 <https://alexandria.icams.rub.de/pbesol> a rdfs:Resource ;
     rdfs:label "base_url for alexandria"^^xsd:string .
+
+<https://alexandria.icams.rub.de/pbesol/> a foaf:Document ;
+    rdfs:label "homepage for alexandria"^^xsd:string .
 
 <https://api.mpds.io> a rdfs:Resource ;
     rdfs:label "base_url for Materials Platform for Data Science"^^xsd:string .
@@ -3164,7 +3170,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:creator <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0000-0003-2583-5680>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course provides an introduction to using Command line functionality basics such as Shell, Echo and commands. It also covers: navigating a directory structure; understanding input, output and error streams from programs in shells; and how to write a Bash script to undertake repetitive tasks; how to use Git as a version control tool in the command line."^^xsd:string ;
+    dcterms:description "This course provides an introduction to using Command line functionality basics such as Shell, Echo and other commands. It also covers navigating a directory structure, understanding input, output and error streams from programs in shell and how to write a Bash scrip to undertake repetitive tasks. Covered here is how to use Git as a version control tool in the command line."^^xsd:string ;
     dcterms:identifier "psdiDcat:guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28"^^xsd:string ;
     dcterms:issued "2025-08-27T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3450,7 +3456,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     dcterms:creator <http://orcid.org/0000-0002-4831-9489>,
         <http://orcid.org/0000-0003-1886-0378>,
         <http://orcid.org/0009-0000-6422-0342> ;
-    dcterms:description "This course is intended to give you an overview of the structure of databases, why they are important, how to organise data within a database, and how to query databases. It also includes information on different types of databases with a more focused look at SQL - how to identify where it can be used and basic SQL statements and commands."^^xsd:string ;
+    dcterms:description "This course provides an introduction to using Command line functionality basics such as Shell, Echo and commands. It also covers: navigating a directory structure; understanding input, output and error streams from programs in shells; and how to write a Bash script to undertake repetitive tasks; how to use Git as a version control tool in the command line."^^xsd:string ;
     dcterms:identifier "psdiDcat:guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88"^^xsd:string ;
     dcterms:issued "2025-08-27T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -3692,7 +3698,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1d0c399d-2fc8-4b10-abcd-cd17ef0bcb8d> a dcat:Catalog ;
     rdfs:label "PSDI Data Revival"^^xsd:string ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataRevival-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:creator <http://orcid.org/0000-0001-5404-6934>,
@@ -3988,9 +3994,6 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 
 <https://spdx.org/licenses/CC-BY-SA-4.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC-BY-SA-4.0"^^xsd:string .
-
-<https://www.optimade.org/providers-dashboard/providers/alexandria.html> a foaf:Document ;
-    rdfs:label "homepage for alexandria"^^xsd:string .
 
 <https://www.iana.org/assignments/media-types/application/vnd.oci.image.manifest.v1+json> a dcterms:MediaType ;
     rdfs:label "application/vnd.oci.image.manifest.v1+json"^^xsd:string .
@@ -4390,7 +4393,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/5ccd88f7-c182-42a1-9c55-c325ffe30039>,
         <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a>,
         <http://metadata.psdi.ac.uk/psdi-dcat/tool/95a3c301-c9b5-4214-88cd-7c3150fa442b> ;
-    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://data-conversion.psdi.ac.uk/static/content/documentation.htm> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataConversion-r.svg> ;
     dcterms:creator <http://orcid.org/0000-0002-0777-0855>,
@@ -4781,13 +4784,10 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "Training"^^xsd:string ;
     dcat:landingPage <https://learn.psdi.ac.uk/> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
@@ -4796,16 +4796,19 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource ;
