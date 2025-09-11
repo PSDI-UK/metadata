@@ -117,7 +117,7 @@
 <http://doi.org/10.6028/NBS.NSRDS.36> a foaf:Agent ;
     foaf:name "National Institute of Standards and Technology"^^xsd:string .
 
-<http://dx.doi.org/10.5281/zenodo.15295742/> a foaf:Document ;
+<http://dx.doi.org/10.5281/zenodo.15295742> a foaf:Document ;
     rdfs:label "Making ESI Machine-Readable Case Study"^^xsd:string .
 
 <http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> a rdfs:Resource ;
@@ -1359,7 +1359,7 @@
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a> ;
     dcat:keyword "critical micelle concentration"^^xsd:string,
         "electronic supplementary information"^^xsd:string ;
-    dcat:landingPage <http://dx.doi.org/10.5281/zenodo.15295742/> ;
+    dcat:landingPage <http://dx.doi.org/10.5281/zenodo.15295742> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
