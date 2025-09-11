@@ -409,7 +409,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://tddft.org/bmg/data.php/> .
+    dcat:landingPage <https://www.optimade.org/providers-dashboard/providers/alexandria.html> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
     rdfs:label "alexandria"^^xsd:string ;
@@ -426,7 +426,7 @@
     dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i> ;
     dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
     dcat:keyword "OPTIMADE provider"^^xsd:string ;
-    dcat:landingPage <https://tddft.org/bmg/data.php/> .
+    dcat:landingPage <https://www.optimade.org/providers-dashboard/providers/alexandria.html> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cmr-cmr> a dcat:Dataset ;
     rdfs:label "Computational materials repository (CMR)"^^xsd:string ;
@@ -3989,7 +3989,7 @@ The CSD can be searched via the PSDI Cross Data Search service allowing results 
 <https://spdx.org/licenses/CC-BY-SA-4.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC-BY-SA-4.0"^^xsd:string .
 
-<https://tddft.org/bmg/data.php/> a foaf:Document ;
+<https://www.optimade.org/providers-dashboard/providers/alexandria.html> a foaf:Document ;
     rdfs:label "homepage for alexandria"^^xsd:string .
 
 <https://www.iana.org/assignments/media-types/application/vnd.oci.image.manifest.v1+json> a dcterms:MediaType ;

@@ -1,5 +1,8 @@
 # Change Log
 
+## 2025-09-11
+* updated psdi-dcat.jsonld and psdi-dcat.ttl to replace invalide url for alexandria OPTIMADE provider to https://www.optimade.org/providers-dashboard/providers/alexandria.html
+
 ## 2025-09-04
 * updated psdi-dcat.jsonld and psdi-dcat.ttl to:
    * revise descriptions of new Skills4Scientists courses
