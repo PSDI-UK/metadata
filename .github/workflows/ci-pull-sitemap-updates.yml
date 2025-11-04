@@ -23,8 +23,21 @@ jobs:
         uses: actions/checkout@v5
         with:
           repository: psdi-uk/metadata-processing
-          token: ${{ secrets.MP_CHECKOUT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
           path: tmp/metadata-processing
 
       - name: Copy the XML and HTML sitemaps
         run: cp tmp/metadata-processing/*.xml tmp/metadata-processing/*.html sitemap/
+
+      - name: Open a change request for any changes
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto-update-sitemap
+          commit-message: "Automated update PSDI sitemap"
+          title: "Automated update of PSDI sitemaps"
+          body:
+            "This PR contains automated updates to the PSDI XML and HTML sitemaps. Please to check to ensure that
+            no spurious changes are included due to e.g. a site being down."
+          labels: automated
+          base: main
