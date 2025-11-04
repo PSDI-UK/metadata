@@ -1,4 +1,9 @@
 # Workflow for periodically updating XML and HTML sitemaps to match those generated in the metadata-processing repo
+#
+# When run periodically, errors in the execution of this workflow will be emailed to the last person to edit this file.
+# If you wish this to be you, edit in your name below.
+#
+# Maintained by: Bryan Gillis
 
 name: CI - Pull Sitemap Updates
 run-name: Pull Sitemap Updates
@@ -35,6 +40,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: auto-update-sitemap
+          assignees: brgillis
           commit-message: "Automated update PSDI sitemap"
           title: "Automated update of PSDI sitemaps"
           body:
