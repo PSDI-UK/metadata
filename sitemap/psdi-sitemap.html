@@ -43,8 +43,30 @@
       margin-bottom: 0.5rem;
     }
 
-    .max-width-box>details {
+    .max-width-box>ul>details {
       width: min(95vw, 1320px);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 2.5rem;
+    }
+
+    ul:has(> details.depth0) {
+      padding-left: 0;
+    }
+
+    li::marker {
+      content: "";
+      display: none;
+    }
+
+    li::before {
+      content: "●";
+      display: inline-block;
+      width: 1rem;
+      margin-left: -0.25rem;
+      margin-right: 2rem;
     }
 
     details ul,
@@ -119,7 +141,7 @@
     }
 
     li :first-child {
-      margin-left: calc(-0.5rem*var(--depth-scale));
+      margin-left: calc(-3rem + 1rem * var(--depth-scale));
     }
 
     li:last-child {
@@ -218,10 +240,11 @@
   <div name="content">
     <div class="max-width-box">
 
-      <button class="button expand-all">+ Expand/collapse all</button>
-      <button class="button collapse-all" style="display:none">– Expand/collapse all</button>
+      <button type="button" class="button expand-all">+ Expand/collapse all</button>
+      <button type="button" class="button collapse-all" style="display:none">– Expand/collapse all</button>
 
-      
+      <ul>
+        
       <details class="depth0"><summary class="depth0"><a href="https://www.psdi.ac.uk">Physical Sciences Data Infrastructure</a></summary>
       <ul>
         <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/about-psdi">About PSDI</a></summary>
@@ -316,12 +339,12 @@
         <ul>
           <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/collaborators">Our Collaborators</a></summary>
           <ul>
+            <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/biomolecular-simulation-data-resources-biosimdr">Biomolecular Simulation Data Resources (BioSimDR)</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccdc">CCDC</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp-biosim">CCP-BioSim</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp-nc">CCP-NC</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp5">CCP5</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/catalysis-hub">CatalysisHub</a></li>
-            <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/loughborough-university-2">Loughborough University</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/loughborough-university">Loughborough University</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/stfc">Science and Technology Facilities Council</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/dcc">The Digital Curation Centre</a></li>
@@ -334,6 +357,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/cookie-policy">Cookies</a></li>
         <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/events">Events from 29 June 2023 - 20 June 2024</a></summary>
         <ul>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/event/cammls-2025-2">Chemical and Materials Machine Learning School 2026</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/cammls-2025">Chemical and materials machine learning school 2025</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/exploring-data-curation-and-management-in-physical-sciences-psdi-roadshow-cambridge">Exploring Data Curation and Management in Physical Sciences: PSDI Roadshow @ Cambridge</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/exploring-data-curation-and-management-in-physical-sciences-psdi-roadshow-southampton">Exploring Data Curation and Management in Physical Sciences: PSDI Roadshow @ Southampton</a></li>
@@ -740,6 +764,8 @@
         </ul></details>
       </ul></details>
 
+      </ul>
+
 
       <br>
       <p>
@@ -751,7 +777,7 @@
 
   <div class="secondary">
     <div class="max-width-box">
-      Sitemap generated 2025-10-20 15:22 UTC.
+      Sitemap generated 2025-11-04 14:56 UTC.
     </div>
   </div>
   
