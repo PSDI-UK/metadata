@@ -22,7 +22,7 @@ jobs:
       - name: Checkout the metadata-processing repo
         uses: actions/checkout@v5
         with:
-          repository: psdi-uk/metadata-processing
+          repository: PSDI-UK/metadata-processing
           token: ${{ secrets.GITHUB_TOKEN }}
           path: tmp/metadata-processing
 
