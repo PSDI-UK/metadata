@@ -40,7 +40,8 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: auto-update-sitemap
-          commit-message: "Automated update PSDI sitemap"
+          assignees: brgillis
+          commit-message: "Automated update of PSDI sitemaps"
           title: "Automated update of PSDI sitemaps"
           body:
             "This PR contains automated updates to the PSDI XML and HTML sitemaps. Please to check to ensure that
