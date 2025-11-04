@@ -28,7 +28,7 @@ jobs:
           path: tmp/metadata-processing
 
       - name: Copy the XML and HTML sitemaps
-        run: cp tmp/metadata-processing/*.xml tmp/metadata-processing/*.html sitemap/
+        run: cp tmp/metadata-processing/sitemap/output/*.xml tmp/metadata-processing/sitemap/output/.html sitemap/
 
       - name: Open a change request for any changes
         uses: peter-evans/create-pull-request@v7
