@@ -38,16 +38,24 @@ jobs:
       - name: Check for changes in staged files
         id: check-changes
         run: |
-          # Get the list of modified, added, or deleted files
-          CHANGED_FILES=$(git status --porcelain)
+          # Get the number of changed files
+          NUM_CHANGED_FILES=$(git status --porcelain | wc | gawk '{print $1}')
 
-          # Check if there are any changes
-          if [ -z "$CHANGED_FILES" ]; then
-            echo "No assets have been updated"
-            echo "has_changes=0" >> $GITHUB_OUTPUT
-          else
+          # Check if there are any changes beyond simply an update to the timestamp in the HTML sitemap
+          if [ $NUM_CHANGED_FILES -gt 1 ]; then
+            # At least one file other than the HTML sitemap has been updated
             echo "Assets have been updated"
             echo "has_changes=1" >> $GITHUB_OUTPUT
+          else
+            # Only the HTML sitemap has been changed. Check how many changed lines it has, to see if more has been
+            # changed than just the timestamp
+            NUM_CHANGED_LINES=`git diff sitemap/psdi-sitemap.html | wc | awk '{print $1}'`
+            if [ $NUM_CHANGED_FILES -gt 1 ]; then
+              echo "Assets have been updated"
+              echo "has_changes=1" >> $GITHUB_OUTPUT
+            else
+              echo "No assets have been updated"
+              echo "has_changes=0" >> $GITHUB_OUTPUT
           fi
 
       - name: Open a change request for any changes
