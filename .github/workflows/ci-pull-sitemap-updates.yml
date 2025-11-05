@@ -53,7 +53,7 @@ jobs:
             # Only the HTML sitemap has been changed. Check how many changed lines it has, to see if more has been
             # changed than just the timestamp
             NUM_CHANGED_LINES=`git diff sitemap/psdi-sitemap.html | wc | awk '{print $1}'`
-            if [ $NUM_CHANGED_FILES -gt 1 ]; then
+            if [ $NUM_CHANGED_LINES -gt 13 ]; then
               echo "Assets have been updated"
               echo "has_changes=1" >> $GITHUB_OUTPUT
             else
