@@ -35,7 +35,23 @@ jobs:
       - name: Copy the XML and HTML sitemaps
         run: cp tmp/metadata-processing/sitemap/output/*.xml tmp/metadata-processing/sitemap/output/*.html sitemap/
 
+      - name: Check for changes in staged files
+        id: check-changes
+        run: |
+          # Get the list of modified, added, or deleted files
+          CHANGED_FILES=$(git status --porcelain)
+
+          # Check if there are any changes
+          if [ -z "$CHANGED_FILES" ]; then
+            echo "No assets have been updated"
+            echo "has_changes=0" >> $GITHUB_OUTPUT
+          else
+            echo "Assets have been updated"
+            echo "has_changes=1" >> $GITHUB_OUTPUT
+          fi
+
       - name: Open a change request for any changes
+        if: steps.check-changes.outputs.has_changes == '1'
         uses: peter-evans/create-pull-request@v7
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
