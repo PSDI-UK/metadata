@@ -59,6 +59,7 @@ jobs:
             else
               echo "No assets have been updated"
               echo "has_changes=0" >> $GITHUB_OUTPUT
+            fi
           fi
 
       - name: Open a change request for any changes
