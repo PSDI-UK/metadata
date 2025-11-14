@@ -17,7 +17,7 @@
 # 4. Manually trigger this workflow to confirm it works with the new token. If it doesn't, likely the permissions for
 #    the token were not set up correctly.
 # 5. In this file, update the date in the paragraph above these instructions for when the new token will expire, then
-#    commit and push the change. 
+#    commit and push the change.
 #
 # When run periodically, errors in the execution of this workflow will be emailed to the last person to edit this file.
 # If you wish this to be you, edit in your name below.
@@ -87,7 +87,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: auto-update-sitemap
-          assignees: brgillis
+          assignees: brgillis, a-e-day
           commit-message: "Automated update of PSDI sitemaps"
           title: "Automated update of PSDI sitemaps"
           body:
