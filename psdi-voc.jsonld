@@ -9,6 +9,7 @@
             "skosxl":"http://www.w3.org/2008/05/skos-xl#",
             "foaf":"http://xmlns.com/foaf/0.1/",
             "obo":"http://purl.obolibrary.org/obo/",
+            "owl":"http://www.w3.org/2002/07/owl#",
             "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
             "rdfs:":"http://www.w3.org/2000/01/rdf-schema#",
             "xsd":"http://www.w3.org/2001/XMLSchema#",
@@ -42,17 +43,18 @@
     "@id": "psdiVoc:vocabulary",
     "dcterms:title": "PSDI vocabulary",
     "rdfs:label": "PSDI vocabulary",
-    "dcterms:description": "SKOS vocabulary definining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
-    "dc11:Version": "1.0.0",
+    "dcterms:description": "SKOS vocabulary defining nomenclature used within the PSDI project and the resulting PSDI infrastructure and its platform.",
+    "dc11:Version": "1.1.0",
     "dcterms:conformsTo": "CDIF_core_controlled_vocabulary_1.0",
     "dcterms:created": {
         "@value": "2024-04-18T12:01:01Z",
         "@type": "xsd:dateTime"
     },
     "dcterms:modified": {
-        "@value": "2025-03-27T14:37:01Z",
+        "@value": "2025-11-17T14:36:01Z",
         "@type": "xsd:dateTime"
     },
+    "skos:historyNote": "November 2025: Reviewed terminology as PSDI programme progressed beyond early deployment phase, which resulted in: replacement of some terms (ids and names); update of definitions and examples; and correction of errors in broader and narrower relationships.",
     "dcterms:creator": {
         "@id": "http://orcid.org/0000-0003-2397-1996",
         "foaf:name": "Aileen Day",
@@ -185,6 +187,12 @@
             "foaf:name": "Peter Holt",
             "@type": "foaf:Person",
             "foaf:openid": "http://orcid.org/0000-0002-0846-7831"
+        },
+    {
+            "@id": "https://orcid.org/0000-0003-0121-1697",
+            "foaf:name": "Stephen Gow",
+            "@type": "foaf:Person",
+            "foaf:openid": "https://orcid.org/0000-0003-0121-1697"
         }
     ],
     "dcterms:publisher": {
@@ -206,9 +214,14 @@
     },
     "dc11:subject": [
         {
-            "@id": "http://data.europa.eu/8mn/euroscivoc/ff3c21f8-d2ca-4a8e-ad5a-a23190ab8557",
+            "@id": "http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee",
             "@type": "skosxl:Label",
-            "rdfs:label": "physical sciences"
+            "rdfs:label": "natural sciences"
+        },
+        {
+            "@id": "http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "@type": "skosxl:Label",
+            "rdfs:label": "engineering and technology"
         }
     ],
     "skos:ConceptScheme": {
@@ -217,9 +230,8 @@
         "skos:prefLabel": "PSDI Vocabulary concept scheme",
         "skos:hasTopConcept": [
             "psdiVoc:psdi",
-            "psdiVoc:psdiProject",
-            "psdiVoc:pathfinder",
-            "psdiVoc:psdiDeliverable"
+            "psdiVoc:psdiProgramme",
+            "psdiVoc:psdiOutput"
         ]
     },
     "skos:Collection": [
@@ -229,9 +241,9 @@
             "skos:prefLabel": "PSDI top-level terms collection",
             "skos:member": [
                 "psdiVoc:psdi",
-                "psdiVoc:psdiProject",
-                "psdiVoc:pathfinder",
-                "psdiVoc:psdiDeliverable",
+                "psdiVoc:psdiProgramme",
+                "psdiVoc:psdiPartnerProject",
+                "psdiVoc:psdiOutput",
                 "psdiVoc:psdiPlatform",
                 "psdiVoc:service",
                 "psdiVoc:tool",
@@ -249,14 +261,15 @@
             "@type": "skos:Concept",
             "skos:prefLabel": "Physical Sciences Data Infrastructure",
             "skos:altLabel": "PSDI",
-            "skos:definition": "An Integrated Data Infrastructure* for the Physical Sciences in the UK that brings together and builds upon the various data systems researchers currently use. *'IT Infrastructure' - 'All of the hardware, software, networks, facilities etc. that are required to develop, test, deliver, monitor, control or learning material applications and IT services' [ITIL Glossary of Terms English v.1.0]",
+            "skos:definition": "An Integrated Data Infrastructure* that directly supports researchers in the physical sciences in the UK to manage, transform and share their data. *'IT Infrastructure' - 'All of the hardware, software, networks, and facilities that are required to develop, test, deliver, monitor, manage, and support IT services' [ITIL Glossary of Terms English v.1.0]",
             "skos:related": [
-                "psdiVoc:psdiProject",
-                "psdiVoc:psdiDeliverable"
+                "psdiVoc:psdiProgramme",
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-            "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+            "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition."
         },
         {
             "@id": "psdiVoc:psdiProject",
@@ -264,14 +277,30 @@
             "skos:prefLabel": "PSDI project",
             "skos:definition": "The project to produce the Physical Sciences Data Infrastructure, its PSDI platform and community activities.",
             "rdf:type": "foaf:Project",
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "owl:deprecated": {
+                "@value": "True",
+                "@type": "xsd:boolean"
+            },
+            "dcterms:isReplacedBy": "psdiVoc:psdiProgramme",
+            "skos:historyNote": "November 2025: Term was replaced to distinguish the overall PSDI programme from partner projects within it."
+        },
+        {
+            "@id": "psdiVoc:psdiProgramme",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "PSDI programme",
+            "skos:definition": "The project to produce the Physical Sciences Data Infrastructure, its PSDI platform, resources and community activities.",
+            "rdf:type": "foaf:Project",
+            "skos:narrower": "psdiVoc:psdiPartnerProject",
             "skos:related": [
                 "psdiVoc:psdi",
-                "psdiVoc:pathfinder",
-                "psdiVoc:psdiDeliverable"
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-            "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+            "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme",
+            "dcterms:replaces": "psdiVoc:psdiProject",
+            "skos:historyNote": "November 2025: Term was replaced to distinguish the overall PSDI programme from partner projects within it."
         },
         {
             "@id": "psdiVoc:pathfinder",
@@ -279,21 +308,49 @@
             "skos:prefLabel": "Pathfinder",
             "skos:definition": "Early deployment project which is part of the wider PSDI project, to seed the PSDI platform with exemplar resource themes.",
             "rdf:type": "foaf:Project",
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "owl:deprecated": {
+                "@value": "True",
+                "@type": "xsd:boolean"
+            },
+            "dcterms:isReplacedBy": "psdiVoc:psdiPartnerProject",
+            "skos:historyNote": "November 2025: Term was replaced as PSDI programme progressed beyond early deployment phase."
+        },
+        {
+            "@id": "psdiVoc:psdiPartnerProject",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "PSDI partner project",
+            "skos:definition": "Project developed by PSDI partners in collaboration with PSDI core team to deliver a user-facing resource theme or community activity that directly supports a Physical Sciences research activity and that can be accessed through the PSDI platform.",
+            "rdf:type": "foaf:Project",
+            "skos:broader": "psdiVoc:psdiProgramme",
             "skos:related": [
-                "psdiVoc:psdiProject",
-                "psdiVoc:psdiDeliverable",
+                "psdiVoc:psdiOutput",
                 "psdiVoc:resourceTheme"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
-            "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme"
+            "dcterms:replaces": "psdiVoc:pathfinder",
+            "skos:historyNote": "November 2025: Term was replaced as PSDI programme progressed beyond early deployment phase."
         },
         {
             "@id": "psdiVoc:psdiDeliverable",
             "@type": "skos:Concept",
             "skos:prefLabel": "PSDI deliverable",
-            "skos:definition": "Top-level deliverable* of the PSDI project. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/6700491441)",
-            "skos:broader": [
+            "skos:definition": "Deliverable* of the PSDI programme. *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/6700491441)",
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "owl:deprecated": {
+                "@value": "True",
+                "@type": "xsd:boolean"
+            },
+            "dcterms:isReplacedBy": "psdiVoc:psdiOutput",
+            "skos:historyNote": "November 2025: Term was replaced."
+        },
+        {
+            "@id": "psdiVoc:psdiOutput",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "PSDI output",
+            "skos:definition": "Top-level deliverable* of the PSDI project . *' Deliverable, N.' - 'Chiefly in plural. Something which may be delivered or provided; spec. a tangible result of a development process.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/6700491441)",
+            "skos:narrower": [
                 "psdiVoc:psdiPlatform",
                 "psdiVoc:resource",
                 "psdiVoc:metadata",
@@ -302,76 +359,83 @@
             ],
             "skos:related": [
                 "psdiVoc:psdi",
-                "psdiVoc:psdiProject",
-                "psdiVoc:pathfinder"
+                "psdiVoc:psdiProgramme",
+                "psdiVoc:psdiPartnerProject"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:topConceptOf": "psdiVoc:vocabularyConceptScheme",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "dcterms:replaces": "psdiVoc:psdiDeliverable",
+            "skos:historyNote": "November 2025: Replaced previous term."
         },
         {
             "@id": "psdiVoc:psdiPlatform",
             "@type": "skos:Concept",
             "skos:prefLabel": "PSDI platform",
-            "skos:definition": "The PSDI platform* is the interface which sits on the Physical Sciences Data Infrastructure and provides common services, tools, metadata and guidance for the various resource themes in it. *'Platform, N., Sense I.11.a.' - 'A standard system architecture; a (type of) machine and/or operating system, regarded as the base on which software applications are run.' [Oxford English Dictionary, Oxford UP, March 2024](http://doi.org/10.1093/OED/1049097135)",
-            "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+            "skos:definition": "The PSDI platform is the interface* between the users and the outputs and description of the PSDI programme. *'user interface' - 'An interface that enables information to be passed between a human user and hardware or software components of a computer system.' [IEEE Standard Computer Dictionary, 1991]",
+            "skos:broader": [
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition."
         },
         {
             "@id": "psdiVoc:service",
             "@type": "skos:Concept",
             "skos:prefLabel": "service",
             "rdf:type": "dcat:DataService",
-            "skos:definition": "Each service is software - either used directly within the PSDI platform itself or within a web application accessed from it - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). Some services are PSDI-wide and used within different resource themes and some are specific to a particular resource theme.",
+            "skos:definition": "Each service is online software - either used directly within the PSDI platform itself or within a web application accessed from it - that is related to data (either facilitating access to data, or performing data processing functions, or providing guidance and learning about data and data best practices). Some services are PSDI-wide and used within different resource themes and some are specific to a particular resource theme.",
             "skos:example": [
-                "user registration",
-                "access management",
-                "structure searching",
-                "format conversion service"
+                "search service",
+                "conversion service",
+                "analysis service"
             ],
-            "skos:narrower": [
+            "skos:broader": [
                 "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition and examples."
         },
         {
             "@id": "psdiVoc:tool",
             "@type": "skos:Concept",
             "skos:prefLabel": "tool",
-            "skos:definition": "A tool is software* - downloaded from the PSDI platform and run via one's own non-PSDI infrastructure - that facilitates access to or performs data processing functions on data (available through the PSDI platform or other data). *'Software' - 'Computer programs, procedures, and possibly associated documentation and data pertaining to the operation of a computer System.' [IEEE Standard Computer Dictionary, 1991](http://doi.org/10.1109/IEEESTD.1991.106963)",
+            "skos:definition": "A tool is downloadable software* - downloaded via the PSDI platform and subsequently run on one's own non-PSDI infrastructure - that is related to data (either facilitating access to data, or performing data processing functions, or providing guidance and learning about data and data best practices). *'Application Software, N.' - 'Software designed to carry out a specific task other than one relating to the operation of the computer itself; application programs regarded collectively' (Oxford English Dictionary, Oxford UP, June 2025)[https://doi.org/10.1093/OED/8027463070].",
             "skos:example": [
-                "format conversion tool",
-                "MagresView library"
+                "Python library",
+                "container image"
             ],
-            "skos:narrower": [
+            "skos:broader": [
                 "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition and examples."
         },
         {
             "@id": "psdiVoc:guidance",
             "@type": "skos:Concept",
             "skos:prefLabel": "guidance",
-            "skos:definition": "Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance* about PSDI, its resource themes and data management and reproducibility principals. *'Guidance, N., Sense 2.' - 'Something which guides or leads.' [Oxford English Dictionary, Oxford UP, December 2023](http://doi.org/10.1093/OED/8957051667)",
+            "skos:definition": "Advice, information and learning made available to PSDI users and contributors via the PSDI platform to inform and educate users about PSDI, its resources, and best practices on topics that are relevant to the physical sciences community, such as data management, reproducibility, and electronic notebooks.",
             "skos:example": [
-                "knowledgebase",
-                "support",
-                "helpdesk",
-                "FAQs",
-                "known issue",
-                "policy",
-                "training resource"
+                "knowledge base article",
+                "FAQs", 
+                "training resource", 
+                "journal article", 
+                "tutorial", 
+                "interactive course", 
+                "video", 
+                "documentation", 
+                "case study"
             ],
-            "skos:narrower": [
+            "skos:broader": [
                 "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition and examples."
         },
         {
             "@id": "psdiVoc:metadata",
@@ -379,8 +443,8 @@
             "skos:prefLabel": "metadata",
             "skos:definition": "The PSDI metadata is 'data about data' that describes the PSDI platform and its resource themes, data, services and guidance to facilitate its access and document its provenance.",
             "rdf:type": "obo:IAO_0000120",
-            "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+            "skos:broader": [
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
             "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
@@ -389,16 +453,17 @@
             "@id": "psdiVoc:resourceTheme",
             "@type": "skos:Concept",
             "skos:prefLabel": "resource theme",
-            "skos:definition": "A set of data and/or services and/or tools and/or guidance that can be accessed through the PSDI platform and has been developed by a PSDI contributing group relating to a particular Physical Sciences research theme (e.g. as part of a Pathfinder project).",
+            "skos:definition": "A set of user-facing resources (data and/or services and/or tools and/or guidance) that directly supports a Physical Sciences research activity and that can be accessed through the PSDI platform and are grouped by a particular Physical Sciences research theme and the project that produced them (e.g. PSDI partner project) or common access point.",
             "rdf:type": "dcat:Catalog",
             "skos:related": [
-                "psdiVoc:pathfinder"
+                "psdiVoc:psdiPartnerProject"
             ],
-            "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+            "skos:broader": [
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition and examples."
         },
         {
             "@id": "psdiVoc:data",
@@ -410,50 +475,51 @@
                 "database",
                 "dataset",
                 "data collection",
-                "repository",
-                "catalogue"
+                "repository"
             ],
-            "skos:narrower": [
+            "skos:broader": [
                 "psdiVoc:resource"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated examples."
         },
         {
             "@id": "psdiVoc:resource",
             "@type": "skos:Concept",
             "skos:prefLabel": "resource",
-            "skos:definition": "A general term for data or a service, tool or guidance associated with Physical Sciences and made available for access or download through the PSDI platform.",
+            "skos:definition": "A general term for data or a service or a tool or guidance that directly supports a Physical Sciences research activity and is made available for access or download through the PSDI platform.",
             "rdf:type": "dcat:Resource",
-            "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
-            ],
             "skos:broader": [
+                "psdiVoc:psdiOutput"
+            ],
+            "skos:narrower": [
                 "psdiVoc:data",
                 "psdiVoc:service",
                 "psdiVoc:tool",
                 "psdiVoc:guidance"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition."
         },
         {
             "@id": "psdiVoc:communityActivity",
             "@type": "skos:Concept",
             "skos:prefLabel": "community activity",
-            "skos:definition": "Activity* organised as part of the PSDI project to support and build up its community of users and contributors and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' [Oxford English Dictionary, Oxford UP, July 2023](http://doi.org/10.1093/OED/5595022164)",
+            "skos:definition": "Activity* organised as part of the PSDI programme to guide, support and build up its community of users and partners in their use and development of PSDI outputs and data best practices, and foster collaborations related to it. *' Activity, N., Sense 3.a.' - 'Something which a person, animal, or group chooses to do; an occupation, a pursuit. Frequently in plural.' Oxford English Dictionary, Oxford UP, July 2023.",
             "skos:example": [
                 "event",
                 "conference",
                 "town hall meeting",
-                "training course",
-                "news"
+                "training course"
             ],
-            "skos:narrower": [
-                "psdiVoc:psdiDeliverable"
+            "skos:broader": [
+                "psdiVoc:psdiOutput"
             ],
             "skos:Collection": "psdiVoc:psdiOverviewCollection",
-            "skos:inScheme": "psdiVoc:vocabularyConceptScheme"
+            "skos:inScheme": "psdiVoc:vocabularyConceptScheme",
+            "skos:changeNote": "November 2025: Updated definition and examples."
         }
     ]
 }

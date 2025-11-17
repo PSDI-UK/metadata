@@ -1,5 +1,8 @@
 # Change Log
 
+## 2025-11-17
+* updated psdi-voc.jsonld and psd-voc.ttl as a result of a terminology review prompted by PSDI programme progressed beyond early deployment phase.
+
 ## 2025-09-11
 * updated psdi-dcat.jsonld and psdi-dcat.ttl to replaced invalid url for alexandria OPTIMADE provider to https://www.optimade.org/providers-dashboard/providers/alexandria.html
 * changed priority of PSDI Data Conversion Service and Data Revival Service to 1 (from 2)
