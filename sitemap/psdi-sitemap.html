@@ -43,8 +43,30 @@
       margin-bottom: 0.5rem;
     }
 
-    .max-width-box>details {
+    .max-width-box>ul>details {
       width: min(95vw, 1320px);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 2.5rem;
+    }
+
+    ul:has(> details.depth0) {
+      padding-left: 0;
+    }
+
+    li::marker {
+      content: "";
+      display: none;
+    }
+
+    li::before {
+      content: "●";
+      display: inline-block;
+      width: 1rem;
+      margin-left: -0.25rem;
+      margin-right: 2rem;
     }
 
     details ul,
@@ -119,7 +141,7 @@
     }
 
     li :first-child {
-      margin-left: calc(-0.5rem*var(--depth-scale));
+      margin-left: calc(-3rem + 1rem * var(--depth-scale));
     }
 
     li:last-child {
@@ -218,10 +240,11 @@
   <div name="content">
     <div class="max-width-box">
 
-      <button class="button expand-all">+ Expand/collapse all</button>
-      <button class="button collapse-all" style="display:none">– Expand/collapse all</button>
+      <button type="button" class="button expand-all">+ Expand/collapse all</button>
+      <button type="button" class="button collapse-all" style="display:none">– Expand/collapse all</button>
 
-      
+      <ul>
+        
       <details class="depth0"><summary class="depth0"><a href="https://www.psdi.ac.uk">Physical Sciences Data Infrastructure</a></summary>
       <ul>
         <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/about-psdi">About PSDI</a></summary>
@@ -316,12 +339,12 @@
         <ul>
           <details class="depth2"><summary class="depth2"><a href="https://www.psdi.ac.uk/collaborators">Our Collaborators</a></summary>
           <ul>
+            <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/biomolecular-simulation-data-resources-biosimdr">Biomolecular Simulation Data Resources (BioSimDR)</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccdc">CCDC</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp-biosim">CCP-BioSim</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp-nc">CCP-NC</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/ccp5">CCP5</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/catalysis-hub">CatalysisHub</a></li>
-            <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/loughborough-university-2">Loughborough University</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/loughborough-university">Loughborough University</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/stfc">Science and Technology Facilities Council</a></li>
             <li class="depth3"><a href="https://www.psdi.ac.uk/collaborators/dcc">The Digital Curation Centre</a></li>
@@ -334,6 +357,7 @@
         <li class="depth1"><a href="https://www.psdi.ac.uk/cookie-policy">Cookies</a></li>
         <details class="depth1"><summary class="depth1"><a href="https://www.psdi.ac.uk/events">Events from 29 June 2023 - 20 June 2024</a></summary>
         <ul>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/event/cammls-2025-2">Chemical and Materials Machine Learning School 2026</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/cammls-2025">Chemical and materials machine learning school 2025</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/exploring-data-curation-and-management-in-physical-sciences-psdi-roadshow-cambridge">Exploring Data Curation and Management in Physical Sciences: PSDI Roadshow @ Cambridge</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/exploring-data-curation-and-management-in-physical-sciences-psdi-roadshow-southampton">Exploring Data Curation and Management in Physical Sciences: PSDI Roadshow @ Southampton</a></li>
@@ -573,20 +597,8 @@
       <ul>
         <details class="depth1"><summary class="depth1"><a href="https://data-collections.psdi.ac.uk/communities">Communities</a></summary>
         <ul>
-          <details class="depth2"><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb">Search BioSimDB</a></summary>
-          <ul>
-            <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb/about">PSDI Community Data Collections</a></li>
-            <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/biosimdb/curation-policy">PSDI Community Data Collections</a></li>
-          </ul></details>
-          <details class="depth2"><summary class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge">Search Data to Knowledge</a></summary>
-          <ul>
-            <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge/about">PSDI Community Data Collections</a></li>
-            <li class="depth3"><a href="https://data-collections.psdi.ac.uk/communities/data-to-knowledge/curation-policy">PSDI Community Data Collections</a></li>
-          </ul></details>
           <li class="depth2"><a href="https://data-collections.psdi.ac.uk/communities/search">Search communities</a></li>
         </ul></details>
-        <li class="depth1"><a href="https://data-collections.psdi.ac.uk/request-community-membership/biosimdb">PSDI Community Data Collections</a></li>
-        <li class="depth1"><a href="https://data-collections.psdi.ac.uk/request-community-membership/datatoknowledge">PSDI Community Data Collections</a></li>
         <li class="depth1"><a href="https://data-collections.psdi.ac.uk/policy">PSDI Community Data Collections Policy</a></li>
       </ul></details>
       <details class="depth0"><summary class="depth0"><a href="https://data-conversion.psdi.ac.uk">PSDI Data Conversion Service</a></summary>
@@ -597,13 +609,7 @@
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/feedback.htm">Feedback</a></li>
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/report.htm">Report</a></li>
       </ul></details>
-      <details class="depth0"><summary class="depth0"><a href="https://data-search.psdi.ac.uk">PSDI Cross Data Search</a></summary>
-      <ul>
-        <li class="depth1"><a href="https://data-search.psdi.ac.uk/advanced-search">PSDI Cross Data Search</a></li>
-        <li class="depth1"><a href="https://data-search.psdi.ac.uk/fields-explorer">PSDI Cross Data Search</a></li>
-        <li class="depth1"><a href="https://data-search.psdi.ac.uk/find-a-product">PSDI Cross Data Search</a></li>
-        <li class="depth1"><a href="https://data-search.psdi.ac.uk/find-a-reference">PSDI Cross Data Search</a></li>
-      </ul></details>
+      <li class="depth0"><a href="https://data-search.psdi.ac.uk">PSDI Cross Data Search</a></li>
       <li class="depth0"><a href="https://learn.psdi.ac.uk/moodle">PSDI Interactive Learning (Moodle)</a></li>
       <details class="depth0"><summary class="depth0"><a href="https://metadata.psdi.ac.uk">PSDI Metadata</a></summary>
       <ul>
@@ -650,10 +656,16 @@
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/chase">Chemical Availability Search (ChASe)</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/community-data">PSDI Community Data Collections</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-conversion">PSDI Data Conversion Service</a></li>
+            <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit">PSDI Organic Toolkit</a></summary>
+            <ul>
+              <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/glorius">PSDI Glorius Plot Generator</a></li>
+            </ul></details>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/propersea">Propersea - Property Prediction</a></li>
             <details class="depth3"><summary class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search">Using PSDI Cross Data Search</a></summary>
             <ul>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/advanced-search">Creating a Search Query for an Advanced Search</a></li>
+              <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/preferences">Cross Data Search Preferences</a></li>
+              <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/favourites">Saving Favourites</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/chase-search">Searching Chemical Availability (ChASe)</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/reference-search">Searching for Publication References</a></li>
               <li class="depth4"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/substance-search">Searching for a Substance</a></li>
@@ -662,13 +674,16 @@
           <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata">Metadata in the Physical Sciences</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-metadata">PSDI Metadata</a></li>
-            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-checking-guidelines">PSDI Metadata Checking Guidelines</a></li>
-            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-general-guidelines">PSDI Metadata General Guidelines</a></li>
-            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-metadata-overview">PSDI Metadata overview</a></li>
-            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-resource-catalogue-guidelines">PSDI Resource Catalogue Description</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/documentation/psdi-checking-guidelines">PSDI Metadata Checking Guidelines</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-metadata-documentation">PSDI Metadata Documentation</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/documentation/psdi-general-guidelines">PSDI Metadata General Guidelines</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/documentation/psdi-metadata-overview">PSDI Metadata overview</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/documentation/psdi-resource-catalogue-guidelines">PSDI Resource Catalogue Description</a></li>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-terminology">PSDI Terminology</a></li>
-            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/psdi-vocabulary-guidelines">PSDI Vocabulary Description</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/documentation/psdi-vocabulary-guidelines">PSDI Vocabulary Description</a></li>
+            <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/metadata/psdi-metadata/guidance-for-contributors/psdi-metadata-recommended-fields">PSDI recommended fields</a></li>
           </ul></details>
+          <li class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-contributor-guidance">PSDI Contributor Guidance</a></li>
           <details class="depth2"><summary class="depth2"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair">Sharing Data and FAIR</a></summary>
           <ul>
             <li class="depth3"><a href="https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/fair/repository">Choosing a Repository for Your Research Data</a></li>
@@ -740,6 +755,8 @@
         </ul></details>
       </ul></details>
 
+      </ul>
+
 
       <br>
       <p>
@@ -751,7 +768,7 @@
 
   <div class="secondary">
     <div class="max-width-box">
-      Sitemap generated 2025-10-20 15:22 UTC.
+      Sitemap generated 2025-11-15 00:19 UTC.
     </div>
   </div>
   

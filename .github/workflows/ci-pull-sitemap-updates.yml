@@ -1,0 +1,97 @@
+# Workflow for periodically updating XML and HTML sitemaps to match those generated in the metadata-processing repo
+#
+# IMPORTANT: This workflow requires a Personal Access Token in order to checkout the changes to the metadata-processing
+# repository. Per organisational policy, all PATs must expire within a year, so the current PAT is set to expire in
+# early November 2026. If the workflow starts failing around then, this is most likely why. To fix this, a new PAT will
+# need to be created through the following steps:
+#
+# 1. Follow the guide at https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-fine-grained-personal-access-token
+#    to createa a PAT (in short in case the doc link changes, go to your personal settings, then Developer Settings in
+#    the left bar, then select the option to create a Fine-grained access token). Create a token owned by PSDI-UK,
+#    with the only permission granted being "Contents" access for the metadata-processing repo.
+# 2. Copy the resulting token and paste it somewhere temporary. If you lose this before storing it, delete the created
+#    token and make a new one, as you won't be able to retrieve the previous one.
+# 3. Go to the project settings for this repo, then to "Environments" in the left bar, and select the "sitemap"
+#    environment. Scroll down to the "Environment Secrets" section, and click the edit button next to the
+#    MP_READ_TOKEN secret. This will allow you to paste in the new token you've created. Do so.
+# 4. Manually trigger this workflow to confirm it works with the new token. If it doesn't, likely the permissions for
+#    the token were not set up correctly.
+# 5. In this file, update the date in the paragraph above these instructions for when the new token will expire, then
+#    commit and push the change.
+#
+# When run periodically, errors in the execution of this workflow will be emailed to the last person to edit this file.
+# If you wish this to be you, edit in your name below.
+#
+# Maintained by: Bryan Gillis
+#
+# The person the created pull request is assigned to is assigned on the "assignees" line in the last step of this file.
+# Change this there (search for "assignees: " to quickly find it) to change who the PR will be assigned to
+
+name: CI - Pull Sitemap Updates
+run-name: Pull Sitemap Updates
+
+on:
+  schedule:
+    # Run weekly, the day after the run is triggered in the metadata-processing repo to update sitemaps
+    - cron: "00 0 2,9,16,23 * *"
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  pull-sitemap-updates:
+    name: Pull Sitemap Updates
+    runs-on: ubuntu-latest
+    environment: sitemap
+
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v5
+
+      - name: Checkout the metadata-processing repo
+        uses: actions/checkout@v5
+        with:
+          repository: PSDI-UK/metadata-processing
+          token: ${{ secrets.MP_READ_TOKEN }}
+          path: tmp/metadata-processing
+
+      - name: Copy the XML and HTML sitemaps
+        run: cp tmp/metadata-processing/sitemap/output/*.xml tmp/metadata-processing/sitemap/output/*.html sitemap/
+
+      - name: Check for changes in staged files
+        id: check-changes
+        run: |
+          # Get the number of changed files
+          NUM_CHANGED_FILES=$(git status --porcelain | wc | gawk '{print $1}')
+
+          # Check if there are any changes beyond simply an update to the timestamp in the HTML sitemap
+          if [ $NUM_CHANGED_FILES -gt 1 ]; then
+            # At least one file other than the HTML sitemap has been updated
+            echo "Assets have been updated"
+            echo "has_changes=1" >> $GITHUB_OUTPUT
+          else
+            # Only the HTML sitemap has been changed. Check how many changed lines it has, to see if more has been
+            # changed than just the timestamp
+            NUM_CHANGED_LINES=`git diff sitemap/psdi-sitemap.html | wc | awk '{print $1}'`
+            if [ $NUM_CHANGED_LINES -gt 13 ]; then
+              echo "Assets have been updated"
+              echo "has_changes=1" >> $GITHUB_OUTPUT
+            else
+              echo "No assets have been updated"
+              echo "has_changes=0" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Open a change request for any changes
+        if: steps.check-changes.outputs.has_changes == '1'
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: auto-update-sitemap
+          assignees: brgillis, a-e-day
+          commit-message: "Automated update of PSDI sitemaps"
+          title: "Automated update of PSDI sitemaps"
+          body:
+            "This PR contains automated updates to the PSDI XML and HTML sitemaps. Please to check to ensure that
+            no spurious changes are included due to e.g. a site being down."
+          labels: automated
+          base: main
