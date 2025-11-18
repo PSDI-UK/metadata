@@ -305,7 +305,7 @@ psdiVoc:psdiPartnerProject a skos:Concept,
     skos:Collection psdiVoc:psdiOverviewCollection ;
     skos:broader psdiVoc:psdiProgramme ;
     skos:definition "Project developed by PSDI partners in collaboration with PSDI core team to deliver a user-facing resource theme or community activity that directly supports a Physical Sciences research activity and that can be accessed through the PSDI platform."@en ;
-    skos:historyNote "November 2025: Term was replaced as PSDI programme progressed beyond early deployment phase."@en ;
+    skos:historyNote "November 2025: Replaced previous term as PSDI programme progressed beyond early deployment phase."@en ;
     skos:inScheme psdiVoc:vocabularyConceptScheme ;
     skos:prefLabel "PSDI partner project"@en ;
     skos:related psdiVoc:psdiOutput,
@@ -316,7 +316,7 @@ psdiVoc:psdiProgramme a skos:Concept,
     dcterms:replaces "psdiVoc:psdiProject"@en ;
     skos:Collection psdiVoc:psdiOverviewCollection ;
     skos:definition "The project to produce the Physical Sciences Data Infrastructure, its PSDI platform, resources and community activities."@en ;
-    skos:historyNote "November 2025: Term was replaced to distinguish the overall PSDI programme from partner projects within it."@en ;
+    skos:historyNote "November 2025: Replaced previous term to distinguish the overall PSDI programme from partner projects within it."@en ;
     skos:inScheme psdiVoc:vocabularyConceptScheme ;
     skos:narrower psdiVoc:psdiPartnerProject ;
     skos:prefLabel "PSDI programme"@en ;
