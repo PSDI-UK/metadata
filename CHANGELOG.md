@@ -1,5 +1,17 @@
 # Change Log
 
+## 2025-02-10
+* updated psdi-dcat.jsonld and psdi-dcat.ttl to:
+   * renamed resource "Catalysis Data Infrastructure (CDI) Database" to "Catalysis Data Infrastructure (CDI) Data Objects" and add a parallel resource "Catalysis Data Infrastructure (CDI) Publications" in line with the PSDI Cross Data Search (see https://resources.psdi.ac.uk/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb and https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622)
+   * added new guidance resource "Use of OneNote as an ELN Case Study" to "PSDI Digital Lab Notebook Resources" resource theme (see https://resources.psdi.ac.uk/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da)
+   * updated repository and contact links in "Amber Plugin for AiiDA" (https://resources.psdi.ac.uk/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6 ) and "GROMACS Plugin for AiiDA" (https://resources.psdi.ac.uk/tool/772d0dc0-e082-44ef-a450-fa674c775e68) resources that start "http://github.com/PSDI-UK/" to "http://github.com/ccpbiosim/" and link landing page links to their PyPi repositories https://pypi.org/project/aiida-amber/ and https://pypi.org/project/aiida-gromacs/ respectively
+   * fixed link in landing page of "Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy" https://resources.psdi.ac.uk/guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e (which previously had a "/" at the end of it and wasn't resolving, so it now doesn't)
+   * updated links to further information for "Chemical Availability Search (ChASe)" (https://resources.psdi.ac.uk/data/6304dad5-8c21-4d05-aa38-349b641ffbf6) to https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/chase and "Propersea (Property Prediction)" (https://resources.psdi.ac.uk/data/e0e14403-1575-43db-a677-89aa515968e4) to https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/propersea   
+    * updated link to further information for PSDI Data Conversion Service https://resources.psdi.ac.uk/service/8334f94b-1c6e-4034-a5ab-71c6df375cba from https://data-conversion.psdi.ac.uk/static/content/documentation.htm to https://data-conversion.psdi.ac.uk/documentation.htm
+    * refreshed OPTIMADE databases to reflect latest list available in PSDI Cross Data Search – added optimade-mcloud-mc3d-pbesol-v1 and optimade-mcloud-mc3d-pbesol-v2, removed optimade-mcloud-tc-applicability and all databases from the provider mcloudarchive
+    * revised dcat:theme (subject categorisation) of many resources/resource themes
+    * populated license of many resource themes that were blank (with concatenation of licenses in the resources that they contain)
+
 ## 2025-11-17
 * updated psdi-voc.jsonld and psd-voc.ttl as a result of a terminology review prompted by PSDI programme progressed beyond early deployment phase.
 
