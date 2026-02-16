@@ -1,7 +1,14 @@
 # Change Log
+##2025-02-14
+* updated psdi-dcat.jsonld and psdi-dcat.ttl:
+   * added "Data Sources for PSDI Cross Data Search" (https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622) as a secondary resource theme for "Catalysis Data Infrastructure (CDI) Publications" (https://resources.psdi.ac.uk/data/caca6b34-2c2a-41ab-a1b3-2b789cc76421) and removed it as a secondary resource theme for Critical Micelle Concentration (CMC) Data Collection https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34 from 
+   * updated dcat:themes for Cambridge Structural Database (CSD) resource theme https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5 and its data resource https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803
+	* added dcat:theme organic chemistry (http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15) for Data Sources for PSDI Cross Data Search https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622
+	* added dcat:theme physical chemistry (http://data.europa.eu/8mn/euroscivoc/57ae94b9-b0e2-4066-b910-3b58c015c17e) for "Data Collections for Chemical Modelling" (https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b)
+	* removed resource "Demo BioSim Database With Local Web Interface" (https://resources.psdi.ac.uk/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef) 
 
 ## 2025-02-10
-* updated psdi-dcat.jsonld and psdi-dcat.ttl to:
+* updated psdi-dcat.jsonld and psdi-dcat.ttl:
    * renamed resource "Catalysis Data Infrastructure (CDI) Database" to "Catalysis Data Infrastructure (CDI) Data Objects" and add a parallel resource "Catalysis Data Infrastructure (CDI) Publications" in line with the PSDI Cross Data Search (see https://resources.psdi.ac.uk/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb and https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622)
    * added new guidance resource "Use of OneNote as an ELN Case Study" to "PSDI Digital Lab Notebook Resources" resource theme (see https://resources.psdi.ac.uk/resource-theme/7fcea4ac-4f68-4ff9-b93b-faa75bc898da)
    * updated repository and contact links in "Amber Plugin for AiiDA" (https://resources.psdi.ac.uk/tool/60d5fc04-1980-4362-9fd8-fe4cb37c02c6 ) and "GROMACS Plugin for AiiDA" (https://resources.psdi.ac.uk/tool/772d0dc0-e082-44ef-a450-fa674c775e68) resources that start "http://github.com/PSDI-UK/" to "http://github.com/ccpbiosim/" and link landing page links to their PyPi repositories https://pypi.org/project/aiida-amber/ and https://pypi.org/project/aiida-gromacs/ respectively

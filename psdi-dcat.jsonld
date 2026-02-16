@@ -622,12 +622,12 @@
                 ],
                 "dcat:theme": [
                     {
-                        "skos:prefLabel": "crystallography",
+                        "skos:prefLabel": "crystals",
                         "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959"
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
                     },
                     {
-                        "skos:prefLabel": "organic compound",
+                        "skos:prefLabel": "organic chemistry",
                         "@type": "skos:Concept",
                         "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                     },
@@ -743,7 +743,7 @@
                             "@id": "http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959"
                         },
                         {
-                            "skos:prefLabel": "organic compound",
+                            "skos:prefLabel": "organic chemistry",
                             "@type": "skos:Concept",
                             "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
@@ -1657,11 +1657,18 @@
                     "data",
                     "search"
                 ],
-                "dcat:theme": {
-                    "skos:prefLabel": "multidisciplinary",
-                    "@type": "skos:Concept",
-                    "@id": "http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary"
-                },
+                "dcat:theme": [
+                    {
+                        "skos:prefLabel": "multidisciplinary",
+                        "@type": "skos:Concept",
+                        "@id": "http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary"
+                    },
+                    {
+                        "skos:prefLabel": "organic chemistry",
+                        "@type": "skos:Concept",
+                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                    }
+                ],
                 "dcterms:publisher": {
                     "foaf:name": "PSDI",
                     "@type": "foaf:Agent",
@@ -1713,10 +1720,10 @@
                         "@id": "psdiDcat:data/530ae29a-89eb-4562-b918-1fb66d8bfdb2"
                     },
                     {
-                        "@id": "psdiDcat:data/07d83ee6-bad9-4c23-abea-ac70745b0803"
+                        "@id": "psdiDcat:data/caca6b34-2c2a-41ab-a1b3-2b789cc76421"
                     },
                     {
-                        "@id": "psdiDcat:data/a7c82670-d2e2-46c6-920a-74294289aa34"
+                        "@id": "psdiDcat:data/07d83ee6-bad9-4c23-abea-ac70745b0803"
                     }
                 ],
                 "dcat:Dataset": [
@@ -1780,7 +1787,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "About ChASe",
                             "@type": "rdfs:Resource",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/chase"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/chase/"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Data Sources for PSDI Cross Data Search logo",
@@ -1880,7 +1887,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "About Propersea",
                             "@type": "rdfs:Resource",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/propersea"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/propersea/"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "Data Sources for PSDI Cross Data Search logo",
@@ -6280,6 +6287,11 @@
                         "skos:prefLabel": "chemical sciences",
                         "@type": "skos:Concept",
                         "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8"
+                    },
+                    {
+                        "skos:prefLabel": "physical chemistry",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/57ae94b9-b0e2-4066-b910-3b58c015c17e"
                     }
                 ],
                 "dcterms:publisher": {
@@ -7803,138 +7815,6 @@
                         "psdiDcatExt:exampleData": {
                             "@id": "psdiDcat:data/bc930fa5-63da-4707-80f8-3c642960796a"
                         }
-                    },
-                    {
-                        "@id": "psdiDcat:tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
-                        "dcterms:identifier": "psdiDcat:tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef",
-                        "@type": "psdiDcatExt:Tool",
-                        "dcterms:title": "Demo BioSim Database With Local Web Interface",
-                        "rdfs:label": "Demo-BioSimDB",
-                        "dcterms:type": {
-                            "skos:prefLabel": "Software",
-                            "@type": "skos:Concept",
-                            "@id": "http://purl.org/dc/dcmitype/Software"
-                        },
-                        "dcterms:description": "This demo application will create an SQLite database that can be used to include aiida archive files produced from several aiida plugins (aiida -gromacs and -amber presently). This database can be used to store and explore archive files and gives a taster for how biomolecular MD simulation data provenance can be stored for multiple research projects.",
-                        "dcat:keyword": [
-                            "molecular dynamics",
-                            "biomolecular simulation",
-                            "trajectory",
-                            "gromacs",
-                            "amber",
-                            "namd",
-                            "lammps",
-                            "protein dynamics",
-                            "drug discovery",
-                            "pdb",
-                            "biomolecules",
-                            "proteins",
-                            "dna",
-                            "membranes",
-                            "provenance",
-                            "enhanced sampling",
-                            "metadynamics",
-                            "free energy",
-                            "alchemical free energy",
-                            "protein folding",
-                            "alphafold",
-                            "machine learning",
-                            "database",
-                            "data storage",
-                            "structural biology",
-                            "computational biology",
-                            "computational biochemistry",
-                            "computational chemistry"
-                        ],
-                        "dcat:theme": [
-                            {
-                                "skos:prefLabel": "simulation software",
-                                "@type": "skos:Concept",
-                                "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
-                            },
-                            {
-                                "skos:prefLabel": "molecular biology",
-                                "@type": "skos:Concept",
-                                "@id": "http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b"
-                            },
-                            {
-                                "skos:prefLabel": "soft matter physics",
-                                "@type": "skos:Concept",
-                                "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
-                            }
-                        ],
-                        "dcterms:publisher": {
-                            "foaf:name": "PSDI",
-                            "@type": "foaf:Agent",
-                            "@id": "http://www.psdi.ac.uk"
-                        },
-                        "dcterms:creator": [
-                            {
-                                "foaf:name": "James Gebbie-Rayet",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0001-8271-3431"
-                            },
-                            {
-                                "foaf:name": "Jas Kalayan",
-                                "@type": "foaf:Agent",
-                                "@id": "http://orcid.org/0000-0002-6833-1864"
-                            }
-                        ],
-                        "dcat:landingPage": {
-                            "rdfs:label": "biosimdb-app github repository",
-                            "@type": "foaf:Document",
-                            "@id": "http://github.com/ccpbiosim/biosimdb-app/"
-                        },
-                        "dcat:contactPoint": {
-                            "@type": "vcard:Kind",
-                            "vcard:hasURL": "http://github.com/ccpbiosim/biosimdb-app/issues/",
-                            "@id": "http://github.com/ccpbiosim/biosimdb-app/issues"
-                        },
-                        "dcterms:conformsTo": {
-                            "rdfs:label": "PEP8",
-                            "@type": "dcterms:Standard",
-                            "@id": "http://peps.python.org/pep-0008/"
-                        },
-                        "dcterms:language": {
-                            "rdfs:label": "en",
-                            "@type": "dcterms:LinguisticSystem",
-                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                        },
-                        "adms:status": {
-                            "@type": "rdfs:Resource",
-                            "@id": "http://purl.org/adms/status/UnderDevelopment"
-                        },
-                        "dcterms:issued": {
-                            "@value": "2024-09-01T00:00:00Z",
-                            "@type": "xsd:dateTime"
-                        },
-                        "dcterms:license": {
-                            "rdfs:label": "MIT",
-                            "@type": "dcterms:LicenseDocument",
-                            "@id": "https://spdx.org/licenses/MIT.html"
-                        },
-                        "dcterms:accessRights": {
-                            "rdfs:label": "open access",
-                            "@type": "dcterms:RightsStatement",
-                            "@id": "http://purl.org/coar/access_right/c_abf2"
-                        },
-                        "dcat:version": "1.0.0",
-                        "psdiDcatExt:logoURL": {
-                            "rdfs:label": "BioSimDR logo",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg"
-                        },
-                        "dcterms:bibliographicCitation": "Please cite: James Gebbie-Rayet and Jas Kalayan, Demo BioSim Database With Local Web Interface, https://resources.psdi.ac.uk/tool/89d1dbbb-1528-4f18-8dcd-3e6b9999b2ef (v1.0.0, accessed CURRENT_DATE).",
-                        "psdiDcatExt:displayPriority": 2.0,
-                        "dcat:inCatalog": {
-                            "@id": "psdiDcat:resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4"
-                        },
-                        "psdiDcatExt:repositoryURL": {
-                            "rdfs:label": "biosimdb-app github repository",
-                            "@type": "rdfs:Resource",
-                            "@id": "http://github.com/ccpbiosim/biosimdb-app"
-                        },
-                        "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.1"
                     }
                 ],
                 "psdiDcatExt:Guidance": {
