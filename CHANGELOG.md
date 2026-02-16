@@ -1,5 +1,10 @@
 # Change Log
-##2025-02-14
+##2025-02-16
+* updated psdi-dcat.jsonld and psdi-dcat.ttl:
+   * remove psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622 (Data Sources for PSDI Cross Data Search) as dcterms:isPartOf from https://resources-dev.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34 (Critical Micelle Concentration (CMC) Data Collection) and add it to psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b (Physical Chemistry Properties Data Collection)
+   * updated dcat:theme of data source https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803 (Cambridge Structural Database (CSD)) from crystallography to crystals (http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe)
+
+##2025-02-16
 * updated psdi-dcat.jsonld and psdi-dcat.ttl:
    * added "Data Sources for PSDI Cross Data Search" (https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622) as a secondary resource theme for "Catalysis Data Infrastructure (CDI) Publications" (https://resources.psdi.ac.uk/data/caca6b34-2c2a-41ab-a1b3-2b789cc76421) and removed it as a secondary resource theme for Critical Micelle Concentration (CMC) Data Collection https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34 from 
    * updated dcat:themes for Cambridge Structural Database (CSD) resource theme https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5 and its data resource https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803

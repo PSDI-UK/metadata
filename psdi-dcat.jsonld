@@ -738,9 +738,9 @@
                     ],
                     "dcat:theme": [
                         {
-                            "skos:prefLabel": "crystallography",
+                            "skos:prefLabel": "crystals",
                             "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/391c6d9f-9472-4ce3-b7bf-8be268890959"
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
                         },
                         {
                             "skos:prefLabel": "organic chemistry",
@@ -1724,6 +1724,9 @@
                     },
                     {
                         "@id": "psdiDcat:data/07d83ee6-bad9-4c23-abea-ac70745b0803"
+                    },
+                    {
+                        "@id": "psdiDcat:data/44160b2f-5938-442e-9f0a-652eb55d1c2b"
                     }
                 ],
                 "dcat:Dataset": [
@@ -6589,6 +6592,9 @@
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
                         },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
                         "dcterms:accrualPeriodicity": {
                             "@type": "dcterms:Frequency",
                             "@id": "http://purl.org/cld/freq/irregular"
@@ -6729,9 +6735,6 @@
                         "psdiDcatExt:displayPriority": 2.0,
                         "dcat:inCatalog": {
                             "@id": "psdiDcat:resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204"
-                        },
-                        "dcterms:isPartOf": {
-                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
                         },
                         "dcterms:accrualPeriodicity": {
                             "@type": "dcterms:Frequency",
