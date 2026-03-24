@@ -1,8 +1,12 @@
 # Change Log
+##2026-03-24
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl to update:
+   * qualified attributions in "Physical Chemistry Properties Data Collection" (https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b ) 
+   * citations of resources in OPTIMADE Data Providers (https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38
 ##2025-03-18
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl to update ChASe and Propersea, PChProp, “Data to Knowledge” resources, automatically generated citations, qualified attributions, and landing pages of all data sources made available via cross data search:
    * updated resource "Chemical Availability Search (ChASe)" (https://resources.psdi.ac.uk/data/e0e14403-1575-43db-a677-89aa515968e4 ) and "Propersea (Property Prediction)" ( https://resources.psdi.ac.uk/data/6304dad5-8c21-4d05-aa38-349b641ffbf6 )
-   * updated resource "Physical Chemistry Properties Data Collection" (https://resources.psdi.ac.uk/data/ ) and added resource "Physical Chemistry Properties Data Collection" ( https://resources.psdi.ac.uk/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2 )
+   * updated resource "Physical Chemistry Properties Data Collection" (https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b ) and added resource "Physical Chemistry Properties Data Collection" ( https://resources.psdi.ac.uk/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2 )
    * added resource "PSDI Community Data Collections API Python Code" ( https://resources.psdi.ac.uk/tool/c57a182b-d108-44e9-97b0-ccc6b4137611 ) and "ML-PEG (Machine Learning Performance and Extrapolation Guide) Github Repository" ( https://resources.psdi.ac.uk/tool/1a4047ca-1994-4fcc-876f-abd9ab43d937 )
    * changed distribution/ of most other resources available via PSDI Cross Data Search so that they are now the url which points to a search of just them in the PSDI Cross Data Search. This affects these resources:
       * "Chemotion Repository" (https://resources.psdi.ac.uk/data/06bdf98c-e51b-4656-a424-2c9e80b68c76 
