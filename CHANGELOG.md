@@ -1,10 +1,30 @@
 # Change Log
+##2026-04-13
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl for Change Request PSDI-RC002-003 to update PSDS migrated resources ("PSDI Subscribed resources" resource theme) and additions for resource themes produced during "PSDI-Funding_Call-2025-FC1" and "PSDI-AI_for_Science_2025": 
+   * updated existing resource catalogue resources "Generalised Cambridge Structural Database (CSD)" resource theme (https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5) to "PSDI Subscribed Resources"
+   * updated "Cambridge Structural Database (CSD)" data resource (https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803) with latest information and updated its landing page to point to Cross Data Search entry point
+   * added new resources to "PSDI Subscribed Resources" resource theme:
+      * "Inorganic Crystal Structure Database (ICSD)" (https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803)
+      * "CSD Software (Remote Desktop Access)" (https://resources.psdi.ac.uk/service/68ff025c-335e-486a-b44d-ec40b1f691b3)
+      * "Web Access to Cambridge Structural Database (webCSD)" (https://resources.psdi.ac.uk/service/12bde9eb-5553-4dc8-8341-63cbf9e26c37)
+      * "Web access to Inorganic Crystal Structure Database (ICSD Web)" (https://resources.psdi.ac.uk/service/d9556f5e-9a66-4ae6-ab20-d2235957c22b)
+      * "Web access to DETHERM (Thermophysical Property Data)" (https://resources.psdi.ac.uk/service/43f76f68-abd1-4fa4-802a-1d76ec2e1358)
+   * added resource themes:
+     * "Project M - Calcium Carbonate Diffraction Datasets With Fit and Parameter Data" (https://resources.psdi.ac.uk/resource-theme/89226c44-9d53-4952-99ec-0db48da3c58b)
+     * "SimpNMR (Software for ab initio Analysis of pNMR Data) and SimpNMR_DB (a Curated Database)" (https://resources.psdi.ac.uk/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4 )
+     * "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery" (https://resources.psdi.ac.uk/resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221 ) 
+     * "Machine Learning for Next-Generation Transmission Electron Microscopy (TEM)" (https://resources.psdi.ac.uk/resource-theme/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75 ) 
+     * "CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)" (https://resources.psdi.ac.uk/resource-theme/37242589-7d89-462a-afad-29386bcfcda4 ) 
+     * "AI Ready Datasets" (https://resources.psdi.ac.uk/resource-theme/9cf2919c-fcc2-4dfc-9e60-2d43cb0d6b1e ) 
+     * "TopoStats and AFMDB - Resources for Batch Processing Atomic Force Microscopy (AFM) Images" (https://resources.psdi.ac.uk/resource-theme/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a )
+
+
 ##2026-03-24
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl to update:
    * qualified attributions in "Physical Chemistry Properties Data Collection" (https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b ) 
    * citations of resources in OPTIMADE Data Providers (https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38
 ##2025-03-18
-* Updates to psdi-dcat.jsonld and psdi-dcat.ttl to update ChASe and Propersea, PChProp, “Data to Knowledge” resources, automatically generated citations, qualified attributions, and landing pages of all data sources made available via cross data search:
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl to update ChASe and Propersea, PChProp, "Data to Knowledge" resources, automatically generated citations, qualified attributions, and landing pages of all data sources made available via cross data search:
    * updated resource "Chemical Availability Search (ChASe)" (https://resources.psdi.ac.uk/data/e0e14403-1575-43db-a677-89aa515968e4 ) and "Propersea (Property Prediction)" ( https://resources.psdi.ac.uk/data/6304dad5-8c21-4d05-aa38-349b641ffbf6 )
    * updated resource "Physical Chemistry Properties Data Collection" (https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b ) and added resource "Physical Chemistry Properties Data Collection" ( https://resources.psdi.ac.uk/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2 )
    * added resource "PSDI Community Data Collections API Python Code" ( https://resources.psdi.ac.uk/tool/c57a182b-d108-44e9-97b0-ccc6b4137611 ) and "ML-PEG (Machine Learning Performance and Extrapolation Guide) Github Repository" ( https://resources.psdi.ac.uk/tool/1a4047ca-1994-4fcc-876f-abd9ab43d937 )
