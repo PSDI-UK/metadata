@@ -346,13 +346,13 @@
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-9543-6725> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-7003-9566> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8035-5757> ] .
+            prov:agent <https://orcid.org/0000-0001-8035-5757> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-9543-6725> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/1efa3139-865d-4a81-9426-3ca372217a7e> a dcat:Dataset ;
     rdfs:label "AI Ready Datasets"^^xsd:string ;
@@ -388,31 +388,31 @@
             prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-9929-726X> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0005-2972-9975> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-3272-3161> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-9929-726X> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2498-4214> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-0371-4047> ] .
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2> a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"^^xsd:string ;
@@ -451,22 +451,22 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci034243x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://www.ddbst.com/ddb-vle.html> ] .
@@ -513,14 +513,14 @@
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
             prov:agent <https://orcid.org/0000-0001-8286-3835> ],
         [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
             prov:agent <https://orcid.org/0000-0001-5280-8309> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0002-3342-3160> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ] .
@@ -666,11 +666,11 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:theme <http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
-            prov:agent <https://orcid.org/0000-0002-3342-3160> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <https://orcid.org/0000-0003-1546-5911> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
+            prov:agent <https://orcid.org/0000-0002-3342-3160> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
             prov:agent <https://orcid.org/0000-0001-8286-3835> ],
@@ -1725,22 +1725,10 @@ Use the Visit or resource landing page link to search the CSD using the PSDI Cro
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0001-6162-8895> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0003-2502-5274> ],
@@ -1749,13 +1737,25 @@ Use the Visit or resource landing page link to search the CSD using the PSDI Cro
             prov:agent <http://orcid.org/0000-0001-9492-6143> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0002-9971-6118> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ] .
@@ -1905,7 +1905,7 @@ Use the Visit or resource landing page link to search the CSD using the dedicate
     rdfs:label "PXRD-conditioned CrystaLLM-pi Web Application"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://crystallm-pi.psdi.ac.uk/usage> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "Please cite: Keith Butler, Bradley A. A. Martin, Cyprien Bone and Ricardo Grau-Crespo. PXRD-conditioned CrystaLLM-pi Web Application (AI-driven Prediction of Crystal Structure). Online. 12 March 2026. Available from: https://resources.psdi.ac.uk/service/32e801c3-7a81-488b-a15b-8f9240ea74b4. [accessed YYYY-MM-DD]."^^xsd:string ;
     dcterms:creator <https://orcid.org/0000-0001-5432-5597>,
@@ -2253,10 +2253,10 @@ Access to ICSD through PSDI is restricted to authenticated users from the UK aca
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022/> ],
+            prov:agent <https://orcid.org/0000-0002-6267-2692> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://orcid.org/0000-0002-6267-2692> ] .
+            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> a dcat:DataService ;
     rdfs:label "PSDI Data Revival Service"^^xsd:string ;
@@ -2898,7 +2898,7 @@ Access to ICSD through PSDI is restricted to authenticated users from the UK aca
     psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.10"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/C-Bone-UCL/CrystaLLM-pi/> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -2972,7 +2972,7 @@ Access to ICSD through PSDI is restricted to authenticated users from the UK aca
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> ;
     psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/crystallm-pi:latest"^^xsd:string ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.10"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/C-Bone-UCL/CrystaLLM-pi/> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -4596,34 +4596,34 @@ This collection is part of the "AI for Science" PSDI sub-project ("Provision of 
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-9929-726X> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-3081-5644> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2514-5762> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0005-2972-9975> ] .
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-0371-4047> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221> a dcat:Catalog ;
     rdfs:label "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery"^^xsd:string ;
@@ -5195,25 +5195,25 @@ This collection is part of the "AI for Science" PSDI sub-project ("Provision of 
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ] .
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/97557d0d-af8e-4ce2-97f4-f943e21e3925> a psdiDcatExt:Guidance ;
     rdfs:label "TEMPOS Documentation"^^xsd:string ;
@@ -5755,10 +5755,10 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
         "paramanetic NMR"^^xsd:string ;
     dcat:landingPage <https://simpnmr.org> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
@@ -5773,7 +5773,7 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://crystallm-pi.psdi.ac.uk/usage>,
         <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <https://orcid.org/0000-0001-5432-5597>,
         <https://orcid.org/0000-0001-8845-1719>,
@@ -5914,7 +5914,7 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 <https://orcid.org/0009-0002-7801-5272> a foaf:Agent ;
     foaf:name "Cyprien Bone"^^xsd:string .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r> a rdfs:Resource ;
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> a rdfs:Resource ;
     rdfs:label "CrystalLM-pi logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg> a rdfs:Resource ;
@@ -6534,31 +6534,31 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "Training"^^xsd:string ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary> .
 
