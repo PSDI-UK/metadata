@@ -1,4 +1,10 @@
 # Change Log
+##2026-04-22
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-003 including temporary removal of:
+   * "TopoStats and AFMDB - Resources for Batch Processing Atomic Force Microscopy (AFM) Images" (https://resources.psdi.ac.uk/resource-theme/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a )
+   * "Inorganic Crystal Structure Database (ICSD)" (https://resources.psdi.ac.uk/data/07d83ee6-bad9-4c23-abea-ac70745b0803)
+   * "Web access to DETHERM (Thermophysical Property Data)" (https://resources.psdi.ac.uk/service/43f76f68-abd1-4fa4-802a-1d76ec2e1358)
+
 ##2026-04-13
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl for Change Request PSDI-RC002-003 to update PSDS migrated resources ("PSDI Subscribed resources" resource theme) and additions for resource themes produced during "PSDI-Funding_Call-2025-FC1" and "PSDI-AI_for_Science_2025": 
    * updated existing resource catalogue resources "Generalised Cambridge Structural Database (CSD)" resource theme (https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5) to "PSDI Subscribed Resources"
