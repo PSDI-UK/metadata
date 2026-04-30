@@ -1,4 +1,12 @@
 # Change Log
+##2026-04-29
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-006 to update resource catalogue for DETHERM, Organic toolkit T1 and T2, and more PSDI-Funding_Call-2025-FC1 resources including addition of:
+   * Add Service resource "Web Access to DETHERM (Thermophysical Property Data)" to resource theme [PSDI Subscribed Resources](https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5 )
+   * Add Tool resource "Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure)" to resource theme [CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)]( https://resources.psdi.ac.uk/resource-theme/37242589-7d89-462a-afad-29386bcfcda4 )
+   * Add new resource themes:
+       * "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis"
+       * "PSDI Organic Toolkit"
+
 ##2026-04-22
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-003 including temporary removal of:
    * "TopoStats and AFMDB - Resources for Batch Processing Atomic Force Microscopy (AFM) Images" (https://resources.psdi.ac.uk/resource-theme/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a )

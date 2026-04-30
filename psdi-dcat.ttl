@@ -33,6 +33,7 @@
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/37242589-7d89-462a-afad-29386bcfcda4>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/7bcc430a-fdc9-413e-bf32-bf163236430b>,
@@ -45,6 +46,7 @@
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dac6ab91-fd6e-43e1-b54a-55adc7548b14>,
         <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/dbb09221-f69d-4751-9f51-7623209d2c70>,
@@ -204,6 +206,9 @@
 <http://dx.doi.org/10.5281/zenodo.15295742> a foaf:Document ;
     rdfs:label "Making ESI Machine-Readable Case Study"^^xsd:string .
 
+<http://ghcr.io/psdi-uk/crystallm-pi:latest> a foaf:Document ;
+    rdfs:label "CrystaLLM-pi Docker registry location"^^xsd:string .
+
 <http://github.com/CCP-NC/magresview-2/archive/refs/heads/gh-pages.zip> a rdfs:Resource ;
     rdfs:label "magresview github download url"^^xsd:string .
 
@@ -330,13 +335,13 @@
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-9543-6725> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-7003-9566> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8035-5757> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-9543-6725> ] .
+            prov:agent <https://orcid.org/0000-0001-8035-5757> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/1efa3139-865d-4a81-9426-3ca372217a7e> a dcat:Dataset ;
     rdfs:label "AI Ready Datasets"^^xsd:string ;
@@ -369,19 +374,16 @@
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
+            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0005-2972-9975> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0000-9662-0869> ],
@@ -390,16 +392,19 @@
             prov:agent <https://orcid.org/0000-0002-0371-4047> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-9929-726X> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ] .
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2> a dcat:Dataset ;
     rdfs:label "psdi_physical_chemistry_properties_data"^^xsd:string ;
@@ -438,25 +443,25 @@
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci034243x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ] .
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/6304dad5-8c21-4d05-aa38-349b641ffbf6> a dcat:Dataset ;
     rdfs:label "Propersea (Property Prediction)"^^xsd:string ;
@@ -503,14 +508,14 @@
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
             prov:agent <https://orcid.org/0000-0001-5280-8309> ],
         [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
+        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
-            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ] .
+            prov:agent <https://orcid.org/0000-0001-8286-3835> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> a dcat:Dataset ;
     rdfs:label "psdi_cmc_data"^^xsd:string ;
@@ -545,6 +550,43 @@
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_owner> ;
             prov:agent <http://doi.org/10.6028/NBS.NSRDS.36> ] .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/b21d01f6-20df-49da-a19a-88f7b42fbd11> a dcat:Dataset ;
+    rdfs:label "AFMDB"^^xsd:string ;
+    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:furtherInformation <https://data-collections.psdi.ac.uk/communities/afmdb/about> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-d-AFMDB.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Thomas E Catley, Sylvia Whittle and Alice Pyne. Atomic Force Microscopy Database (AFMDB). Online. 05 March 2026. Available from: https://resources.psdi.ac.uk/data/b21d01f6-20df-49da-a19a-88f7b42fbd11. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0002-2658-8987>,
+        <https://orcid.org/0000-0002-8919-2701>,
+        <https://orcid.org/0009-0008-9164-9513> ;
+    dcterms:description "AFMDB is a centralised collection of Atomic Force Microscopy (AFM) data covering a range of physical and biological materials, hosted within the PSDI Community Data Collections. Each entry includes the original AFM files along with a processed image generated during analysis. Initial examples demonstrate the output from our open-source tool TopoStats which has been used to process images and standardised the data output. By making these datasets openly available, AFMDB supports good data sharing practices and provides high quality, standardised examples that can be used to train and evaluate deep learning methods for enhanced AFM analysis. Researchers are encouraged to contribute AFM data from their publications and to test TopoStats, helping refine the tool through community feedback."^^xsd:string ;
+    dcterms:identifier "psdiDcat:data/b21d01f6-20df-49da-a19a-88f7b42fbd11"^^xsd:string ;
+    dcterms:issued "2026-03-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:modified "2026-03-05T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "Atomic Force Microscopy Database (AFMDB)"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/2051d706-bcb7-404b-8b4e-858a70729790> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a> ;
+    dcat:keyword "AFM"^^xsd:string,
+        "Atomic Force Microscopy"^^xsd:string,
+        "DNA"^^xsd:string,
+        "batch processing"^^xsd:string,
+        "deep learning"^^xsd:string,
+        "materials science"^^xsd:string,
+        "perovskites"^^xsd:string,
+        "polymers"^^xsd:string,
+        "proteins"^^xsd:string,
+        "structural biology"^^xsd:string ;
+    dcat:landingPage <https://data-collections.psdi.ac.uk/communities/afmdb> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/c7a5caf4-5417-4de3-b2a2-c16cc24e36cb> a dcat:Dataset ;
     rdfs:label "Project M"^^xsd:string ;
@@ -615,17 +657,17 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:theme <http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
-            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0002-3342-3160> ],
         [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ] .
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
+            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow> a dcat:Dataset ;
     rdfs:label "AFLOW"^^xsd:string ;
@@ -1120,6 +1162,10 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcterms:description "This distribution of the Physical Chemistry Properties Data Set (PChProp) is available via an OPTIMADE (https://www.optimade.org/) API so that queries to it can be standardised with those to databases by other OPTIMADE providers. There are PChProp endpoints for structures and references."^^xsd:string ;
     dcterms:title "Physical Chemistry Properties (PChProp) Data Sets - OPTIMADE API"^^xsd:string ;
     dcat:accessURL <https://pchprop-optimade.psdi.ac.uk/> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/2051d706-bcb7-404b-8b4e-858a70729790> a dcat:Distribution ;
+    dcterms:title "Atomic Force Microscopy Database (AFMDB)"^^xsd:string ;
+    dcat:accessURL <https://data-collections.psdi.ac.uk/communities/afmdb> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/distribution/46037893-187b-46b7-accb-2a480db72482> a dcat:Distribution ;
     dcterms:title "SimpNMR_DB (a Curated Database of SimpNMR Inputs)"^^xsd:string ;
@@ -1660,10 +1706,13 @@ Check the supplier's website for the most up to date product information."""^^xs
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
+            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0002-1406-8802> ],
@@ -1672,28 +1721,25 @@ Check the supplier's website for the most up to date product information."""^^xs
             prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/kendrickng1> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0002-9971-6118> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0001-9492-6143> ] .
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -1724,6 +1770,35 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:landingPage <https://muon-spectroscopy-computational-project.github.io/mudirac> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808>,
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/service/03290708-a2af-476b-a42a-d3f787dce487> a dcat:DataService ;
+    rdfs:label "PSDI Variability Plot Generator"^^xsd:string ;
+    psdiDcatExt:displayPriority 1e+00 ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/variability> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t1Variability.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Variability Plot Generator. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/service/03290708-a2af-476b-a42a-d3f787dce487. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0002-0777-0855>,
+        <https://orcid.org/0000-0002-4478-1270>,
+        <https://orcid.org/0000-0002-4831-9489>,
+        <https://orcid.org/0000-0003-1721-9212>,
+        <https://orcid.org/0000-0003-2219-3635>,
+        <https://orcid.org/0009-0002-4762-5852> ;
+    dcterms:description "This service enables you to produce plots that describe the reproducibility of any numerical reaction outcome. The generated scatterplot displays the mean value of the outcome and the associated confidence interval."^^xsd:string ;
+    dcterms:identifier "psdiDcat:service/03290708-a2af-476b-a42a-d3f787dce487"^^xsd:string ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/Apache-2.0.html> ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "PSDI Variability Plot Generator"^^xsd:string ;
+    dcterms:type dcmitype:Service ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:endpointURL <https://organic-toolkit.psdi.ac.uk/variability-plot> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2> ;
+    dcat:keyword "reproducibility of reaction outcomes"^^xsd:string ;
+    dcat:landingPage <https://organic-toolkit.psdi.ac.uk/variability-plot> ;
+    dcat:theme <https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
+    dcat:version "1.0.0"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/1fc5c6f3-62cc-4087-a5e2-11497f161f27> a dcat:DataService ;
     rdfs:label "CCP-NC MagresView"^^xsd:string ;
@@ -1823,6 +1898,55 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
 
+<http://metadata.psdi.ac.uk/psdi-dcat/service/43f76f68-abd1-4fa4-802a-1d76ec2e1358> a dcat:DataService ;
+    rdfs:label "Web Access to DETHERM"^^xsd:string ;
+    psdiDcatExt:displayPriority 1e+00 ;
+    psdiDcatExt:furtherInformation <https://dechema.de/en/detherm.html>,
+        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/detherm> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-s-detherm.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
+    dcterms:bibliographicCitation "U. Westhaus, T. Droge, R. Sass, DETHERM-a thermophysical property database, Fluid Phase Equilibria, Volumes 158-160, 1999, Pages 429-435, ISSN 0378-3812, https://doi.org/10.1016/S0378-3812(99)00139-9."^^xsd:string ;
+    dcterms:creator <http://www.ddbst.com/>,
+        <https://ror.org/000gm1k91/>,
+        <https://ror.org/01eezs655/>,
+        <https://ror.org/01hsw0492/>,
+        <https://ror.org/049px0x49/>,
+        <https://ror.org/04qtj9h94/>,
+        <https://ror.org/05ggn0a85/> ;
+    dcterms:description "DETHERM, developed and maintained by DECHEMA, is one of the world's largest collections of thermophysical property data. It brings together more than 13 million datasets covering over 100,000 pure compounds and 200,000 mixtures. The database includes a wide range of experimentally measured and evaluated properties - such as phase equilibrium data, vapour pressures, thermodynamic and transport properties, surface tensions, and electrolyte behaviour - along with associated bibliographic information, descriptors, and abstracts. The resource integrates data from several established collections, including the Dortmunder Datenbank (DDB), ELDAR, INFOTHERM, COMDOR, C DATA, BDBB, CAPEC SDB, and additional DECHEMA datasets. Access to DETHERM through PSDI is available to authenticated users within the UK academic community through its dedicated web portal, where searches can be refined by phase, temperature, pressure, and number of components. Note that users must be attached to an academic network to search DETHERM and download data."^^xsd:string ;
+    dcterms:identifier "psdiDcat:service/43f76f68-abd1-4fa4-802a-1d76ec2e1358"^^xsd:string ;
+    dcterms:issued "1999-01-03T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://dechema.de/en/impressum.html> ;
+    dcterms:modified "2025-07-01T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:publisher <https://ror.org/01hsw0492/> ;
+    dcterms:title "Web Access to DETHERM (Thermophysical Property Data)"^^xsd:string ;
+    dcterms:type dcmitype:Service ;
+    adms:status <http://purl.org/adms/status/Completed> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:endpointURL <https://detherm.psdi.ac.uk> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> ;
+    dcat:keyword "PSDS"^^xsd:string,
+        "Physical Sciences Data-Science Service"^^xsd:string,
+        "critical point"^^xsd:string,
+        "electrolyte"^^xsd:string,
+        "excess properties"^^xsd:string,
+        "mixture"^^xsd:string,
+        "phase equilibrium"^^xsd:string,
+        "pure substance"^^xsd:string,
+        "solubility"^^xsd:string,
+        "surface tension"^^xsd:string,
+        "thermodynamic properties"^^xsd:string,
+        "thermophysical properties"^^xsd:string,
+        "transport properties"^^xsd:string,
+        "vapor pressure"^^xsd:string ;
+    dcat:landingPage <https://detherm.psdi.ac.uk> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914>,
+        <http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213> ;
+    prov:qualifiedAttribution [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <https://ror.org/01hsw0492/> ] .
+
 <http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
     rdfs:label "Galaxy Workflow Management System Service"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
@@ -1900,6 +2024,36 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
         <http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary> ;
     dcat:version "1.4.0"^^xsd:string .
 
+<http://metadata.psdi.ac.uk/psdi-dcat/service/7b208979-1ac8-48b4-9ebc-a43581a10926> a dcat:DataService ;
+    rdfs:label "PSDI Glorius Plot Generator"^^xsd:string ;
+    psdiDcatExt:displayPriority 1e+00 ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/glorius> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t2Glorius.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Glorius Plot Generator. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/service/7b208979-1ac8-48b4-9ebc-a43581a10926. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0002-0777-0855>,
+        <https://orcid.org/0000-0002-4478-1270>,
+        <https://orcid.org/0000-0002-4831-9489>,
+        <https://orcid.org/0000-0003-1721-9212>,
+        <https://orcid.org/0000-0003-2219-3635>,
+        <https://orcid.org/0009-0002-4762-5852> ;
+    dcterms:description "This service enables users to visualise the sensitivity of a given chemical transformation to user-defined reaction conditions, using a Glorius plot."^^xsd:string ;
+    dcterms:identifier "psdiDcat:service/7b208979-1ac8-48b4-9ebc-a43581a10926"^^xsd:string ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/Apache-2.0.html> ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "PSDI Glorius Plot Generator"^^xsd:string ;
+    dcterms:type dcmitype:Service ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:endpointURL <https://organic-toolkit.psdi.ac.uk/glorius-plot> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2> ;
+    dcat:keyword "Glorius plot"^^xsd:string,
+        "reaction scope"^^xsd:string ;
+    dcat:landingPage <https://organic-toolkit.psdi.ac.uk/glorius-plot> ;
+    dcat:theme <https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
+    dcat:version "1.0.0"^^xsd:string .
+
 <http://metadata.psdi.ac.uk/psdi-dcat/service/8334f94b-1c6e-4034-a5ab-71c6df375cba> a dcat:DataService ;
     rdfs:label "PSDI Data Conversion Service"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
@@ -1974,7 +2128,8 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/d9556f5e-9a66-4ae6-ab20-d2235957c22b> a dcat:DataService ;
     rdfs:label "Web Access to Inorganic Crystal Structure Database (ICSD Web)"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd>,
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/>,
+        <https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd>,
         <https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+web> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-d-icsd.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
@@ -2005,16 +2160,15 @@ Bergerhoff, G. & Brown, I.D. in "Crystallographic Databases", F.H. Allen et al. 
         "organometallic crystal"^^xsd:string,
         "theoretical data"^^xsd:string ;
     dcat:landingPage <https://icsd-web.psdi.ac.uk> ;
-    dcat:servesDataset <http://metadata.psdi.ac.uk/psdi-dcat/data/9e2e6f90-262c-439e-97f1-3644fa89cb0e> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe>,
         <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a>,
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022> ],
+            prov:agent <https://orcid.org/0000-0002-6267-2692> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://orcid.org/0000-0002-6267-2692> ] .
+            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/f350b410-23d2-4c25-9a7d-51d7d0263537> a dcat:DataService ;
     rdfs:label "PSDI Data Revival Service"^^xsd:string ;
@@ -2546,7 +2700,7 @@ Bergerhoff, G. & Brown, I.D. in "Crystallographic Databases", F.H. Allen et al. 
     dcterms:bibliographicCitation "Please cite: Thomas Rocke and James Kermode. Universal HAL Python package. Online. Version 0.1.0. 24 March 2026. Available from: https://resources.psdi.ac.uk/tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0. [accessed YYYY-MM-DD]."^^xsd:string ;
     dcterms:creator <https://orcid.org/0000-0001-6755-6271>,
         <https://orcid.org/0000-0002-4612-9112> ;
-    dcterms:description "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation stepby steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally."^^xsd:string ;
+    dcterms:description "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally."^^xsd:string ;
     dcterms:identifier "psdiDcat:tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0"^^xsd:string ;
     dcterms:issued "2026-03-24T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -2689,10 +2843,10 @@ Bergerhoff, G. & Brown, I.D. in "Crystallographic Databases", F.H. Allen et al. 
         <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/c57a182b-d108-44e9-97b0-ccc6b4137611> a psdiDcatExt:Tool ;
     rdfs:label "PSDI Community Data Collections API Python Code"^^xsd:string ;
@@ -2722,6 +2876,105 @@ Bergerhoff, G. & Brown, I.D. in "Crystallographic Databases", F.H. Allen et al. 
     dcat:landingPage <https://github.com/psDI-UK/data-collections-API> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> ;
     dcat:version "0.1.0"^^xsd:string .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/d2f426b2-04df-4ed1-8778-c2082852088c> a psdiDcatExt:Tool ;
+    rdfs:label "Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure)"^^xsd:string ;
+    psdiDcatExt:deliveryFormat <https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json> ;
+    psdiDcatExt:developmentStatus "Development Status :: 4 - Beta"^^xsd:string ;
+    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:furtherInformation <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md>,
+        <https://github.com/PSDI-UK/crystallm-pi-webapp-deployment/blob/main/README.md> ;
+    psdiDcatExt:installCommand "docker pull ghcr.io/psdi-uk/crystallm-pi:latest"^^xsd:string ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
+    psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.10"^^xsd:string ;
+    psdiDcatExt:repositoryURL <https://github.com/C-Bone-UCL/CrystaLLM-pi/tree/main/docker> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Keith Butler, Bradley A. A. Martin, Cyprien Bone and Ricardo Grau-Crespo. Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure). Online. 16 March 2025. Available from: https://resources.psdi.ac.uk/tool/d2f426b2-04df-4ed1-8778-c2082852088c. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0001-5432-5597>,
+        <https://orcid.org/0000-0001-8845-1719>,
+        <https://orcid.org/0000-0003-1583-254X>,
+        <https://orcid.org/0009-0002-7801-5272> ;
+    dcterms:description """Docker container for Crystallm-pi - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern.
+The Docker container provides a ready made environment for running Crystallm pi locally. It bundles all required dependencies and configuration so users can run the model without setting up the software stack themselves, making it easier to test the tool, reproduce results, or integrate it into existing workflows."""^^xsd:string ;
+    dcterms:identifier "psdiDcat:tool/d2f426b2-04df-4ed1-8778-c2082852088c"^^xsd:string ;
+    dcterms:issued "2025-03-16T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/>,
+        <https://spdx.org/licenses/MIT.html> ;
+    dcterms:modified "2025-04-21T00:00:00+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure)"^^xsd:string ;
+    dcterms:type dcmitype:Software ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint <https://github.com/C-Bone-UCL/CrystaLLM-pi/issues> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/37242589-7d89-462a-afad-29386bcfcda4> ;
+    dcat:keyword "crystal structure generation"^^xsd:string,
+        "crystallographic data"^^xsd:string,
+        "generative machine learning"^^xsd:string,
+        "inverse materials design"^^xsd:string,
+        "materials discovery"^^xsd:string ;
+    dcat:landingPage <http://ghcr.io/psdi-uk/crystallm-pi:latest> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98>,
+        <http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9>,
+        <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d>,
+        <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
+    prov:qualifiedAttribution [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d> a psdiDcatExt:Tool ;
+    rdfs:label "TopoStats"^^xsd:string ;
+    psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"^^xsd:string ;
+    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest/> ;
+    psdiDcatExt:installCommand "pip install topostats"^^xsd:string ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> ;
+    psdiDcatExt:operatingSystem "Operating System :: OS Independent"^^xsd:string ;
+    psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11"^^xsd:string ;
+    psdiDcatExt:repositoryURL <https://github.com/AFM-SPM/TopoStats> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Shephard, N., Whittle, S., Gamill, M., Du, M., & Pyne, A. (2023). TopoStats - Atomic Force Microscopy image processing and analysis (Version 2). The University of Sheffield. https://doi.org/10.15131/shef.data.22633528.v2 and Beton, J. G., Moorehead, R., Helfmann, L., Gray, R., Hoogenboom, B. W., Joseph, A. P., Topf, M., & Pyne, A. L. (2021). TopoStats - A program for automated tracing of biomolecules from AFM images. Methods, 193, 68-79. https://doi.org/10.1016/j.ymeth.2021.01.008"^^xsd:string ;
+    dcterms:creator <https://github.com/TFirth2>,
+        <https://github.com/bobturneruk>,
+        <https://github.com/tobyallwood>,
+        <https://orcid.org/0000-0001-7499-3867>,
+        <https://orcid.org/0000-0001-8301-6857>,
+        <https://orcid.org/0000-0002-2658-8987>,
+        <https://orcid.org/0000-0002-8919-2701>,
+        <https://orcid.org/0000-0003-4615-2379>,
+        <https://orcid.org/0009-0007-3250-5299>,
+        <https://orcid.org/0009-0008-9164-9513>,
+        <https://orcid.org/0009-0008-9452-5719> ;
+    dcterms:description "TopoStats is a Python toolkit that automates the processing and analysis of Atomic Force Microscopy (AFM) data. It batch processes raw AFM files to identify molecules or other features, trace their shapes, and generate image outputs at each stage of the workflow. The software produces rich quantitative measurements in both tabular and graphical formats, and is developed in line with FAIR research software principles to support transparent, reproducible AFM analysis."^^xsd:string ;
+    dcterms:identifier "psdiDcat:tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d"^^xsd:string ;
+    dcterms:issued "2019-01-29T15:00:56+00:00"^^xsd:dateTime ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/GPL-3.0-only.html>,
+        <https://spdx.org/licenses/LGPL-3.0-only.html> ;
+    dcterms:modified "2026-03-30T15:18:34+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "TopoStats: Batch Processing Atomic Force Microscopy (AFM) Images"^^xsd:string ;
+    dcterms:type dcmitype:Software ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:contactPoint <https://github.com/AFM-SPM/TopoStats/issues> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a> ;
+    dcat:keyword "AFM"^^xsd:string,
+        "Atomic Force Microscopy"^^xsd:string,
+        "DNA"^^xsd:string,
+        "batch processing"^^xsd:string,
+        "deep learning"^^xsd:string,
+        "materials science"^^xsd:string,
+        "perovskites"^^xsd:string,
+        "polymers"^^xsd:string,
+        "proteins"^^xsd:string,
+        "structural biology"^^xsd:string ;
+    dcat:landingPage <https://pypi.org/project/topostats> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
+    dcat:version "2.4.0"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/f85c7c18-28b4-4efb-8edd-33d472683905> a psdiDcatExt:Tool ;
     rdfs:label "DSync (Data Transfer and Synchronisation) Container (SIF format)"^^xsd:string ;
@@ -2919,6 +3172,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://www.data-revival.com/> a rdfs:Resource ;
     rdfs:label "PSDI Data Revival service"^^xsd:string .
 
+<http://www.ddbst.com/> a foaf:Agent ;
+    foaf:name "Dortmund Data Bank Software & Separation Technology GmbH"^^xsd:string .
+
 <http://www.linkedin.com/in/andrew-harper-654456241> a foaf:Agent ;
     foaf:name "Andrew Harper"^^xsd:string .
 
@@ -3009,6 +3265,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://data-search.psdi.ac.uk/find-a-substance/molecule?db=psdi.pchprop> a foaf:Document ;
     rdfs:label "Search PChProp at PSDI Cross Data Search"^^xsd:string .
 
+<https://dechema.de/en/detherm.html> a rdfs:Resource ;
+    rdfs:label "About DETHERM"^^xsd:string .
+
 <https://doi.org/10.5258/SOTON/PSDI0001> a foaf:Document ;
     rdfs:label "Resurrecting SHG Case Study"^^xsd:string .
 
@@ -3039,6 +3298,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://ghcr.io/psdi-uk/metadise-container/metadise-sif> a rdfs:Resource ;
     rdfs:label "metadise-container download url"^^xsd:string .
 
+<https://github.com/AFM-SPM/TopoStats> a rdfs:Resource ;
+    rdfs:label "TopoStats Github Repository"^^xsd:string .
+
 <https://github.com/AMCLab/TEMPOS/blob/main/README.md> a foaf:Document ;
     rdfs:label "TEMPOS Github repository README"^^xsd:string .
 
@@ -3047,6 +3309,12 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://github.com/C-Bone-UCL/CrystaLLM-pi/> a rdfs:Resource ;
     rdfs:label "CrystaLLM-pi github repository"^^xsd:string .
+
+<https://github.com/C-Bone-UCL/CrystaLLM-pi/tree/main/docker> a rdfs:Resource ;
+    rdfs:label "CrystaLLM-pi Docker files in github repository"^^xsd:string .
+
+<https://github.com/PSDI-UK/crystallm-pi-webapp-deployment/blob/main/README.md> a rdfs:Resource ;
+    rdfs:label "CrystaLLM-pi Docker Container registry README"^^xsd:string .
 
 <https://github.com/PSDI-UK/psdi-datasets> a foaf:Document ;
     rdfs:label "psdi-datasets github repository"^^xsd:string .
@@ -3063,6 +3331,12 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://github.com/PSDI-UK/psdi-datasets/tree/main/Data_Collection_DataSets> a foaf:Document ;
     rdfs:label "psdi-datasets github repository"^^xsd:string .
 
+<https://github.com/TFirth2> a foaf:Agent ;
+    foaf:name "Tobias Firth"^^xsd:string .
+
+<https://github.com/bobturneruk> a foaf:Agent ;
+    foaf:name "Robert Turner"^^xsd:string .
+
 <https://github.com/ddmms/ml-peg/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "ML-PEG github repository readme"^^xsd:string .
 
@@ -3077,6 +3351,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://github.com/stfc/janus-core/blob/main/README.md> a rdfs:Resource ;
     rdfs:label "janus-core github repository README"^^xsd:string .
+
+<https://github.com/tobyallwood> a foaf:Agent ;
+    foaf:name "Toby Allwood"^^xsd:string .
 
 <https://gitlab.com/suturina-group/simpnmr> a rdfs:Resource ;
     rdfs:label "SimpNMR GitLab repository"^^xsd:string .
@@ -3107,6 +3384,21 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/propersea> a rdfs:Resource ;
     rdfs:label "About Propersea"^^xsd:string .
+
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/detherm> a rdfs:Resource ;
+    rdfs:label "DETHERM guidance"^^xsd:string .
+
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/> a rdfs:Resource ;
+    rdfs:label "PSDI Knowledge Base article about ICSD"^^xsd:string .
+
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/> a rdfs:Resource ;
+    rdfs:label "PSDI Organic Toolkit Knowledgebase article"^^xsd:string .
+
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/glorius> a rdfs:Resource ;
+    rdfs:label "PSDI Glorius Plot Generator"^^xsd:string .
+
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/variability> a rdfs:Resource ;
+    rdfs:label "PSDI Variability Plot Generator"^^xsd:string .
 
 <https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd> a rdfs:Resource ;
     rdfs:label "About ICSD"^^xsd:string .
@@ -3171,8 +3463,14 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://orcid.org/0000-0001-7003-9566> a foaf:Agent ;
     foaf:name "Gearoid Mangan"^^xsd:string .
 
+<https://orcid.org/0000-0001-7499-3867> a foaf:Agent ;
+    foaf:name "Joseph G. Beton"^^xsd:string .
+
 <https://orcid.org/0000-0001-8035-5757> a foaf:Agent ;
     foaf:name "Lee Cronin"^^xsd:string .
+
+<https://orcid.org/0000-0001-8301-6857> a foaf:Agent ;
+    foaf:name "Neil Shephard"^^xsd:string .
 
 <https://orcid.org/0000-0002-6267-2692> a foaf:Agent ;
     foaf:name "Ian David Brown"^^xsd:string .
@@ -3183,11 +3481,20 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://orcid.org/0000-0002-9543-6725> a foaf:Agent ;
     foaf:name "Mary Scott"^^xsd:string .
 
-<https://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
-    foaf:name "Cerys Willoughby"^^xsd:string .
+<https://orcid.org/0000-0003-4615-2379> a foaf:Agent ;
+    foaf:name "Laura Wiggins"^^xsd:string .
 
 <https://orcid.org/0000-0003-4851-1144> a foaf:Agent ;
     foaf:name "Simone Sturniolo"^^xsd:string .
+
+<https://orcid.org/0009-0007-3250-5299> a foaf:Agent ;
+    foaf:name "Max Gamill"^^xsd:string .
+
+<https://orcid.org/0009-0008-9452-5719> a foaf:Agent ;
+    foaf:name "Mingxue Du"^^xsd:string .
+
+<https://organic-toolkit.psdi.ac.uk> a foaf:Document ;
+    rdfs:label "PSDI Organic Toolkit"^^xsd:string .
 
 <https://phaseslab.com/mpdd> a foaf:Document ;
     rdfs:label "homepage for Material-Property-Descriptor Database"^^xsd:string .
@@ -3213,6 +3520,9 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://pypi.org/project/simpnmr> a foaf:Document ;
     rdfs:label "SIMPNMR on PyPi"^^xsd:string .
 
+<https://pypi.org/project/topostats> a foaf:Document ;
+    rdfs:label "topostats PyPi page"^^xsd:string .
+
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-d-data.svg> a rdfs:Resource ;
     rdfs:label "BioSimDB logo"^^xsd:string .
 
@@ -3230,6 +3540,15 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-t-janusCore.png> a rdfs:Resource ;
     rdfs:label "janus-core logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit-r.png> a rdfs:Resource ;
+    rdfs:label "PSDI Organic Toolkit logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t1Variability.png> a rdfs:Resource ;
+    rdfs:label "PSDI Variability Plot Generator logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t2Glorius.png> a rdfs:Resource ;
+    rdfs:label "PSDI Glorius Plot generator logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-communityDataCollections.svg> a rdfs:Resource ;
     rdfs:label "PSDI Community Data Collections logo"^^xsd:string .
@@ -3266,6 +3585,27 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-r.svg> a rdfs:Resource ;
     rdfs:label "PSDI subscribed resources logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-s-detherm.svg> a rdfs:Resource ;
+    rdfs:label "DECHEMA logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-d-AFMDB.svg> a rdfs:Resource ;
+    rdfs:label "AFMDB logo"^^xsd:string .
+
+<https://ror.org/000gm1k91/> a foaf:Agent ;
+    foaf:name "Wiley-VCH"^^xsd:string .
+
+<https://ror.org/01eezs655/> a foaf:Agent ;
+    foaf:name "University of Regensburg"^^xsd:string .
+
+<https://ror.org/049px0x49/> a foaf:Agent ;
+    foaf:name "Dow Chemical Netherlands"^^xsd:string .
+
+<https://ror.org/04qtj9h94/> a foaf:Agent ;
+    foaf:name "Technical University of Denmark"^^xsd:string .
+
+<https://ror.org/05ggn0a85/> a foaf:Agent ;
+    foaf:name "University of Chemistry and Technology Prague"^^xsd:string .
 
 <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> a rdfs:Resource ;
     rdfs:label "Editor"^^xsd:string .
@@ -3353,6 +3693,12 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <http://data-search.psdi.ac.uk> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Cross Data Search"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914> a skos:Concept ;
+    skos:prefLabel "thermodynamics"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213> a skos:Concept ;
+    skos:prefLabel "fluid mechanics"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d> a skos:Concept ;
     skos:prefLabel "nonlinear optics"^^xsd:string .
@@ -4187,37 +4533,37 @@ Note that this repository is currently under rapid and active development."""^^x
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-0371-4047> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0000-9662-0869> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-9929-726X> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2498-4214> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0005-2972-9975> ] .
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221> a dcat:Catalog ;
     rdfs:label "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery"^^xsd:string ;
@@ -4229,7 +4575,7 @@ Note that this repository is currently under rapid and active development."""^^x
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <https://orcid.org/0000-0001-6755-6271>,
         <https://orcid.org/0000-0002-4612-9112> ;
-    dcterms:description "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation stepby steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling."^^xsd:string ;
+    dcterms:description "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling."^^xsd:string ;
     dcterms:identifier "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221"^^xsd:string ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:license <https://spdx.org/licenses/MIT.html> ;
@@ -4579,6 +4925,9 @@ For users who want to reproduce or extend the workflow, the repository also incl
         foaf:Document ;
     rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
 
+<https://afm-spm.github.io/TopoStats/latest/> a rdfs:Resource ;
+    rdfs:label "TopoStats Github Documentation"^^xsd:string .
+
 <https://alexandria.icams.rub.de> a foaf:Document ;
     rdfs:label "homepage for alexandria"^^xsd:string .
 
@@ -4587,7 +4936,14 @@ For users who want to reproduce or extend the workflow, the repository also incl
     rdfs:label "PXRD-conditioned CrystaLLM-pi Web Application"^^xsd:string .
 
 <https://crystallm-pi.psdi.ac.uk/usage> a rdfs:Resource ;
-    rdfs:label "Guidance for CrystalLM-pi web application"^^xsd:string .
+    rdfs:label "Guidance for CrystaLLM-pi web application"^^xsd:string .
+
+<https://data-collections.psdi.ac.uk/communities/afmdb> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Atomic Force Microscopy Database, AFMDB"^^xsd:string .
+
+<https://data-collections.psdi.ac.uk/communities/afmdb/about> a rdfs:Resource ;
+    rdfs:label "About AFMDB"^^xsd:string .
 
 <https://data-collections.psdi.ac.uk/communities/ai-ready-datasets/about> a rdfs:Resource ;
     rdfs:label "About AI Ready Datasets"^^xsd:string .
@@ -4616,6 +4972,13 @@ For users who want to reproduce or extend the workflow, the repository also incl
     rdfs:label "Cambridge Structural Database"^^xsd:string,
         "Cambridge Structural Database via PSDI Cross Data Search"^^xsd:string .
 
+<https://dechema.de/en/impressum.html> a dcterms:LicenseDocument ;
+    rdfs:label "DECHEMA Legal Notice"^^xsd:string .
+
+<https://detherm.psdi.ac.uk> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "DETHERM"^^xsd:string .
+
 <https://doi.org/10.1039/D3CE01173A> a rdfs:Resource ;
     rdfs:label "Project M: investigating the effect of additives on calcium carbonate crystallisation through a school citizen science program"^^xsd:string .
 
@@ -4626,15 +4989,12 @@ For users who want to reproduce or extend the workflow, the repository also incl
         foaf:Document ;
     rdfs:label "ELN Finder"^^xsd:string .
 
+<https://github.com/AFM-SPM/TopoStats/issues> a vcard:Kind ;
+    vcard:hasURL <https://github.com/AFM-SPM/TopoStats/issues> .
+
 <https://github.com/AMCLab/TEMPOS> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "TEMPOS Github repository"^^xsd:string .
-
-<https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> a rdfs:Resource ;
-    rdfs:label "CrystalLM-pi github readme"^^xsd:string .
-
-<https://github.com/C-Bone-UCL/CrystaLLM-pi/issues> a vcard:Kind ;
-    vcard:hasURL <https://github.com/C-Bone-UCL/CrystaLLM-pi/issues> .
 
 <https://github.com/PSDI-UK/data-collections-API/issues> a vcard:Kind ;
     vcard:hasURL <https://github.com/PSDI-UK/data-collections-API/issues> .
@@ -4719,6 +5079,14 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://orcid.org/0009-0000-9662-0869> a foaf:Agent ;
     foaf:name "Malin Zollner"^^xsd:string .
 
+<https://organic-toolkit.psdi.ac.uk/glorius-plot> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "PSDI Glorius Plot Generator"^^xsd:string .
+
+<https://organic-toolkit.psdi.ac.uk/variability-plot> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "PSDI Variability Plot Generator"^^xsd:string .
+
 <https://pchprop-optimade.psdi.ac.uk/> a rdfs:Resource ;
     rdfs:label "PChProp OPTIMADE base url"^^xsd:string,
         "PChProp OPTIMADE endpoint"^^xsd:string .
@@ -4750,6 +5118,9 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/projectM-r.png> a rdfs:Resource ;
     rdfs:label "Project M logo"^^xsd:string .
 
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> a rdfs:Resource ;
+    rdfs:label "TopoStats logo"^^xsd:string .
+
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png> a rdfs:Resource ;
     rdfs:label "universalHAL logo"^^xsd:string .
 
@@ -4765,9 +5136,6 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://simpnmr.org> a foaf:Document ;
     rdfs:label "SimpNMR homepage"^^xsd:string,
         "User and Developer Guides for SimpNMR software"^^xsd:string .
-
-<https://spdx.org/licenses/LGPL-3.0-only.html> a dcterms:LicenseDocument ;
-    rdfs:label "LGPL-3.0"^^xsd:string .
 
 <https://spdx.org/licenses/ODC-By-1.0.html> a dcterms:LicenseDocument ;
     rdfs:label "ODC-By-1.0"^^xsd:string .
@@ -4793,8 +5161,8 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <mailto:projectm@diamond.ac.uk/> a vcard:Kind ;
     vcard:hasEmail "projectm@diamond.ac.uk"^^xsd:string .
 
-<http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98> a skos:Concept ;
-    skos:prefLabel "solid-state physics"^^xsd:string .
+<http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41> a skos:Concept ;
+    skos:prefLabel "microscopy"^^xsd:string .
 
 <http://doi.org/10.1093/nar/gkae410> a rdfs:Resource ;
     rdfs:label "The Galaxy platform for accessible, reproducible, and collaborative data analyses: 2024 update"^^xsd:string .
@@ -4854,25 +5222,25 @@ For users who want to reproduce or extend the workflow, the repository also incl
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci034243x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.ddbst.com/ddb-vle.html> ],
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ],
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ] .
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/97557d0d-af8e-4ce2-97f4-f943e21e3925> a psdiDcatExt:Guidance ;
     rdfs:label "TEMPOS Documentation"^^xsd:string ;
@@ -4911,44 +5279,41 @@ For users who want to reproduce or extend the workflow, the repository also incl
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/81c628f1-5365-4517-ae99-a6bdcc65ba24>,
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> .
 
-<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/37242589-7d89-462a-afad-29386bcfcda4> a dcat:Catalog ;
-    rdfs:label "CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)"^^xsd:string ;
-    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/b33b210b-93b1-495a-aa10-f38b01cd703f> ;
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a> a dcat:Catalog ;
+    rdfs:label "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis"^^xsd:string ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d> ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://crystallm-pi.psdi.ac.uk/usage>,
-        <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
+    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest/>,
+        <https://data-collections.psdi.ac.uk/communities/afmdb/about> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
-    dcterms:creator <https://orcid.org/0000-0001-5432-5597>,
-        <https://orcid.org/0000-0001-8845-1719>,
-        <https://orcid.org/0000-0003-1583-254X>,
-        <https://orcid.org/0009-0002-7801-5272> ;
-    dcterms:description """CrystaLLM-pi is an open-source, transformer-based tool for generating crystalline materials directly in CIF format using large language model techniques. It enables rapid exploration of crystal structure space and supports both unconditional generation and property-conditioned design, allowing users to target materials with specific characteristics such as band gap, density, photovoltaic efficiency, or XRD patterns.
-Designed for materials scientists, it provides a fast, data-driven complement to traditional simulation methods, helping to generate candidate structures for further study or interpret experimental data. CrystaLLM-pi is available as source code and a web application for interactive use."""^^xsd:string ;
-    dcterms:identifier "psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4"^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0002-2658-8987>,
+        <https://orcid.org/0000-0002-8919-2701>,
+        <https://orcid.org/0009-0008-9164-9513> ;
+    dcterms:description "This resource theme contains AFM (Atomic Force Microscopy) resources that bring together tools and data collections to support the processing, analysis, and sharing of AFM datasets. The TopoStats tool enables the batch processing of AFM datafiles to obtain rich, quantitative statistics and is developed with the FAIR principles for research software in mind. The accompanying Community Data Collection, AFMDB, provides a platform for the sharing of AFM datafiles, along with processed images, to encourage open data practices and aid the devlopment of deep learning tools for enhanced AFM analysis."^^xsd:string ;
+    dcterms:identifier "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a"^^xsd:string ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <https://spdx.org/licenses/MIT.html> ;
+    dcterms:license <https://spdx.org/licenses/>,
+        <https://spdx.org/licenses/GPL-3.0-only.html>,
+        <https://spdx.org/licenses/LGPL-3.0-only.html> ;
     dcterms:publisher <http://www.psdi.ac.uk/> ;
-    dcterms:title "CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)"^^xsd:string ;
+    dcterms:title "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis"^^xsd:string ;
     dcterms:type dcmitype:Collection ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/32e801c3-7a81-488b-a15b-8f9240ea74b4> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/b21d01f6-20df-49da-a19a-88f7b42fbd11> ;
     dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
-    dcat:keyword "crystal structure generation"^^xsd:string,
-        "crystallographic data"^^xsd:string,
-        "generative machine learning"^^xsd:string,
-        "inverse materials design"^^xsd:string,
-        "materials discovery"^^xsd:string ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98>,
-        <http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9>,
-        <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d>,
-        <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
-    prov:qualifiedAttribution [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
+    dcat:keyword "AFM"^^xsd:string,
+        "Atomic Force Microscopy"^^xsd:string,
+        "DNA"^^xsd:string,
+        "batch processing"^^xsd:string,
+        "deep learning"^^xsd:string,
+        "materials science"^^xsd:string,
+        "perovskites"^^xsd:string,
+        "polymers"^^xsd:string,
+        "proteins"^^xsd:string,
+        "structural biology"^^xsd:string ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41>,
+        <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a> a dcat:Catalog ;
     rdfs:label "Case Studies: Discovering Value in Legacy Data"^^xsd:string ;
@@ -4980,6 +5345,37 @@ Designed for materials scientists, it provides a fast, data-driven complement to
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d>,
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2> a dcat:Catalog ;
+    rdfs:label "PSDI Organic Toolkit"^^xsd:string ;
+    psdiDcatExt:displayPriority 1e+00 ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Organic Toolkit. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:creator <https://orcid.org/0000-0002-0777-0855>,
+        <https://orcid.org/0000-0002-4478-1270>,
+        <https://orcid.org/0000-0002-4831-9489>,
+        <https://orcid.org/0000-0003-1721-9212>,
+        <https://orcid.org/0000-0003-2219-3635>,
+        <https://orcid.org/0009-0002-4762-5852> ;
+    dcterms:description "The PSDI Organic Toolkit is a suite of web apps to support organic chemistry researchers in transparent and high-quality data-reporting. We provide services for visualisation of reaction scope and the variability of numeric reaction outcomes."^^xsd:string ;
+    dcterms:identifier "psdiDcat:resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2"^^xsd:string ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/Apache-2.0.html> ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "PSDI Organic Toolkit"^^xsd:string ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/03290708-a2af-476b-a42a-d3f787dce487>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/7b208979-1ac8-48b4-9ebc-a43581a10926> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:keyword "Glorius plot"^^xsd:string,
+        "reaction scope"^^xsd:string,
+        "reproducibility of reaction outcomes"^^xsd:string ;
+    dcat:landingPage <https://organic-toolkit.psdi.ac.uk> ;
+    dcat:theme <https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
+    dcat:version "1.0.0"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/7a029bb3-5a5b-474e-8592-679a36d73818> a dcat:DataService ;
     rdfs:label "CDI bibliographic data web service"^^xsd:string ;
@@ -5117,6 +5513,12 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 <https://github.com/AMCLab/TEMPOS/issues> a vcard:Kind ;
     vcard:hasURL <https://github.com/AMCLab/TEMPOS/issues> .
 
+<https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> a rdfs:Resource ;
+    rdfs:label "CrystaLLM-pi github readme"^^xsd:string .
+
+<https://github.com/C-Bone-UCL/CrystaLLM-pi/issues> a vcard:Kind ;
+    vcard:hasURL <https://github.com/C-Bone-UCL/CrystaLLM-pi/issues> .
+
 <https://github.com/PSDI-UK/data-transfer-container/issues> a vcard:Kind ;
     vcard:hasURL <https://github.com/PSDI-UK/data-transfer-container/issues> .
 
@@ -5143,26 +5545,38 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 <https://orcid.org/0000-0001-5404-6934> a foaf:Agent ;
     foaf:name "Samuel Munday"^^xsd:string .
 
-<https://orcid.org/0000-0001-5432-5597> a foaf:Agent ;
-    foaf:name "Keith Butler"^^xsd:string .
+<https://orcid.org/0000-0002-0777-0855> a foaf:Agent ;
+    foaf:name "Donald Cruickshank"^^xsd:string .
 
-<https://orcid.org/0000-0001-8845-1719> a foaf:Agent ;
-    foaf:name "Ricardo Grau-Crespo"^^xsd:string .
+<https://orcid.org/0000-0002-2658-8987> a foaf:Agent ;
+    foaf:name "Alice Pyne"^^xsd:string .
 
-<https://orcid.org/0000-0002-4867-5635> a foaf:Agent ;
-    foaf:name "Luis Antunes"^^xsd:string .
+<https://orcid.org/0000-0002-4478-1270> a foaf:Agent ;
+    foaf:name "Bryan Gillis"^^xsd:string .
+
+<https://orcid.org/0000-0002-4831-9489> a foaf:Agent ;
+    foaf:name "Samantha Pearman-Kanza"^^xsd:string .
+
+<https://orcid.org/0000-0002-8919-2701> a foaf:Agent ;
+    foaf:name "Thomas E Catley"^^xsd:string .
 
 <https://orcid.org/0000-0003-0121-1697> a foaf:Agent ;
     foaf:name "Stephen Gow"^^xsd:string .
 
-<https://orcid.org/0000-0003-1583-254X> a foaf:Agent ;
-    foaf:name "Bradley A. A. Martin"^^xsd:string .
+<https://orcid.org/0000-0003-2219-3635> a foaf:Agent ;
+    foaf:name "Sally Bloodworth"^^xsd:string .
 
-<https://orcid.org/0009-0002-7801-5272> a foaf:Agent ;
-    foaf:name "Cyprien Bone"^^xsd:string .
+<https://orcid.org/0009-0002-4762-5852> a foaf:Agent ;
+    foaf:name "Raymond Whorley"^^xsd:string .
 
 <https://orcid.org/0009-0006-9138-9585> a foaf:Agent ;
     foaf:name "Sathya Sai Seetharaman"^^xsd:string .
+
+<https://orcid.org/0009-0008-9164-9513> a foaf:Agent ;
+    foaf:name "Sylvia Whittle"^^xsd:string .
+
+<https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
+    skos:prefLabel "organic chemistry"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/caseStudies-r.svg> a rdfs:Resource ;
     rdfs:label "Case Studies Resource Theme logo"^^xsd:string .
@@ -5170,22 +5584,22 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> a rdfs:Resource ;
     rdfs:label "CCDC logo"^^xsd:string .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> a rdfs:Resource ;
-    rdfs:label "CrystalLM-pi logo"^^xsd:string .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/digitalLabNotebooks-r.svg> a rdfs:Resource ;
     rdfs:label "PSDI Digital Lab Notebook Resources logo"^^xsd:string .
 
+<https://ror.org/01hsw0492/> a foaf:Agent ;
+    foaf:name "DECHEMA"^^xsd:string .
+
 <https://ror.org/057g20z61/> a foaf:Agent ;
     foaf:name "Science and Technology Facilities Council"^^xsd:string .
-
-<https://www.linkedin.com/in/kuangdai-leng-669328157> a foaf:Agent ;
-    foaf:name "Kuangdai Leng"^^xsd:string .
 
 <https://www.materialscloud.org/discover/mc3d> a foaf:Document ;
     rdfs:label "homepage for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
         "homepage for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
         "homepage for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98> a skos:Concept ;
+    skos:prefLabel "solid-state physics"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
     skos:prefLabel "organic chemistry"^^xsd:string .
@@ -5441,16 +5855,56 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
         "paramanetic NMR"^^xsd:string ;
     dcat:landingPage <https://simpnmr.org> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/37242589-7d89-462a-afad-29386bcfcda4> a dcat:Catalog ;
+    rdfs:label "CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)"^^xsd:string ;
+    psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/b33b210b-93b1-495a-aa10-f38b01cd703f>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/tool/d2f426b2-04df-4ed1-8778-c2082852088c> ;
+    psdiDcatExt:displayPriority 2e+00 ;
+    psdiDcatExt:furtherInformation <https://crystallm-pi.psdi.ac.uk/usage>,
+        <https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:creator <https://orcid.org/0000-0001-5432-5597>,
+        <https://orcid.org/0000-0001-8845-1719>,
+        <https://orcid.org/0000-0003-1583-254X>,
+        <https://orcid.org/0009-0002-7801-5272> ;
+    dcterms:description """CrystaLLM-pi is an open-source, transformer-based tool for generating crystalline materials directly in CIF format using large language model techniques. It enables rapid exploration of crystal structure space and supports both unconditional generation and property-conditioned design, allowing users to target materials with specific characteristics such as band gap, density, photovoltaic efficiency, or XRD patterns.
+Designed for materials scientists, it provides a fast, data-driven complement to traditional simulation methods, helping to generate candidate structures for further study or interpret experimental data. CrystaLLM-pi is available as source code, a prebuilt container for local deployment, and a web application for interactive use."""^^xsd:string ;
+    dcterms:identifier "psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4"^^xsd:string ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <https://spdx.org/licenses/MIT.html> ;
+    dcterms:publisher <http://www.psdi.ac.uk/> ;
+    dcterms:title "CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data)"^^xsd:string ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/32e801c3-7a81-488b-a15b-8f9240ea74b4> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:keyword "crystal structure generation"^^xsd:string,
+        "crystallographic data"^^xsd:string,
+        "generative machine learning"^^xsd:string,
+        "inverse materials design"^^xsd:string,
+        "materials discovery"^^xsd:string ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98>,
+        <http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9>,
+        <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d>,
+        <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
+    prov:qualifiedAttribution [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> a dcat:Catalog ;
     rdfs:label "Data Collections for Chemical Modelling"^^xsd:string ;
@@ -5518,11 +5972,17 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
         foaf:Document ;
     rdfs:label "metadise-container github repository"^^xsd:string .
 
+<https://orcid.org/0000-0001-5432-5597> a foaf:Agent ;
+    foaf:name "Keith Butler"^^xsd:string .
+
 <https://orcid.org/0000-0001-8283-2959> a foaf:Agent ;
     foaf:name "James W. Whipham"^^xsd:string .
 
 <https://orcid.org/0000-0001-8414-9272> a foaf:Agent ;
     foaf:name "Simon J. Coles"^^xsd:string .
+
+<https://orcid.org/0000-0001-8845-1719> a foaf:Agent ;
+    foaf:name "Ricardo Grau-Crespo"^^xsd:string .
 
 <https://orcid.org/0000-0001-9488-8204> a foaf:Agent ;
     foaf:name "Jon G. C. Kragskow"^^xsd:string .
@@ -5533,11 +5993,26 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://orcid.org/0000-0002-2514-5762> a foaf:Agent ;
     foaf:name "Julia Parker"^^xsd:string .
 
+<https://orcid.org/0000-0002-4867-5635> a foaf:Agent ;
+    foaf:name "Luis Antunes"^^xsd:string .
+
 <https://orcid.org/0000-0002-8306-3634> a foaf:Agent ;
     foaf:name "Claire Murray"^^xsd:string .
 
+<https://orcid.org/0000-0003-1583-254X> a foaf:Agent ;
+    foaf:name "Bradley A. A. Martin"^^xsd:string .
+
+<https://orcid.org/0000-0003-1721-9212> a foaf:Agent ;
+    foaf:name "Cerys Willoughby"^^xsd:string .
+
 <https://orcid.org/0000-0003-4407-1882> a foaf:Agent ;
     foaf:name "Elizaveta Suturina"^^xsd:string .
+
+<https://orcid.org/0009-0002-7801-5272> a foaf:Agent ;
+    foaf:name "Cyprien Bone"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png> a rdfs:Resource ;
+    rdfs:label "CrystaLLM-pi logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/dataCollectionsForChemicalModelling-r.svg> a rdfs:Resource ;
     rdfs:label "Data Collections for Chemical Modelling logo"^^xsd:string .
@@ -5560,14 +6035,14 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://spdx.org/licenses/CC-BY-SA-4.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC-BY-SA-4.0"^^xsd:string .
 
-<https://spdx.org/licenses/GPL-3.0-only.html> a dcterms:LicenseDocument ;
-    rdfs:label "GNU General Public License v3.0 only"^^xsd:string .
-
-<https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json> a dcterms:MediaType ;
-    rdfs:label "application/vnd.docker.distribution.manifest.v2+json"^^xsd:string .
+<https://spdx.org/licenses/LGPL-3.0-only.html> a dcterms:LicenseDocument ;
+    rdfs:label "LGPL-3.0"^^xsd:string .
 
 <https://www.linkedin.com/in/ernestborysenko> a foaf:Agent ;
     foaf:name "Ernest Borysenko"^^xsd:string .
+
+<https://www.linkedin.com/in/kuangdai-leng-669328157> a foaf:Agent ;
+    foaf:name "Kuangdai Leng"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a> a skos:Concept ;
     skos:prefLabel "soft matter physics"^^xsd:string .
@@ -5583,34 +6058,6 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 
 <http://data.europa.eu/8mn/euroscivoc/a0e8e102-e50a-4883-a021-733345a8f1b1> a skos:Concept ;
     skos:prefLabel "software development"^^xsd:string .
-
-<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> a dcat:Catalog ;
-    rdfs:label "PSDI Subscribed Resources"^^xsd:string ;
-    psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-subscribed-resources> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-r.svg> ;
-    dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
-    dcterms:description "This resource theme brings together trusted proprietary data sources and services developed by external providers, which PSDI subscribes to in order to make them available to its users. These include resources developed by the Cambridge Crystallographic Data Centre (CCDC) and FIZ Karlsruhe. Resources from the CCDC comprise the Cambridge Structural Database (CSD) and associated software which can be accessed through the PSDI Cross Data Search, the CCDC web interface, and via remote desktop. FIZ Karlsruhe develop and maintain the Inorganic Crystal Structure Database (ICSD), which is available in its own search web interface. Access to these resources requires PSDI login credentials, and certain datasets or tools may be restricted to specific PSDI user groups."^^xsd:string ;
-    dcterms:identifier "psdiDcat:resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5"^^xsd:string ;
-    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
-    dcterms:license <http://www.ccdc.cam.ac.uk/licence-agreement/>,
-        <https://www.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_AGB_E_2021.pdf> ;
-    dcterms:title "PSDI Subscribed Resources"^^xsd:string ;
-    dcterms:type dcmitype:Collection ;
-    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
-    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/12bde9eb-5553-4dc8-8341-63cbf9e26c37>,
-        <http://metadata.psdi.ac.uk/psdi-dcat/service/68ff025c-335e-486a-b44d-ec40b1f691b3>,
-        <http://metadata.psdi.ac.uk/psdi-dcat/service/d9556f5e-9a66-4ae6-ab20-d2235957c22b> ;
-    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> ;
-    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
-    dcat:keyword "PSDS"^^xsd:string,
-        "Physical Sciences Data-Science Service"^^xsd:string,
-        "data"^^xsd:string,
-        "physical sciences"^^xsd:string ;
-    dcat:theme <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15>,
-        <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe>,
-        <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a>,
-        <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> a dcat:Catalog ;
     rdfs:label "Machine Learning for Next-Generation Transmission Electron Microscopy (TEM)"^^xsd:string ;
@@ -5878,14 +6325,46 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/knowledgeBaseTopics-r.svg> a rdfs:Resource ;
     rdfs:label "PSDI Knowledge Base Topics"^^xsd:string .
 
-<https://spdx.org/licenses/Apache-2.0.html> a dcterms:LicenseDocument ;
-    rdfs:label "Apache-2.0"^^xsd:string .
-
 <https://spdx.org/licenses/CC0-1.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC0-1.0"^^xsd:string .
 
+<https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json> a dcterms:MediaType ;
+    rdfs:label "application/vnd.docker.distribution.manifest.v2+json"^^xsd:string .
+
 <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a> a skos:Concept ;
     skos:prefLabel "quantum chemistry"^^xsd:string .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> a dcat:Catalog ;
+    rdfs:label "PSDI Subscribed Resources"^^xsd:string ;
+    psdiDcatExt:displayPriority 1e+00 ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/psdi-subscribed-resources> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-r.svg> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
+    dcterms:description "This resource theme brings together trusted proprietary data sources and services developed by external providers, which PSDI subscribes to in order to make them available to its users. These include resources developed by the Cambridge Crystallographic Data Centre (CCDC), FIZ Karlsruhe and DECHEMA. Resources from the CCDC comprise the Cambridge Structural Database (CSD) and associated software which can be accessed through the PSDI Cross Data Search, the CCDC web interface, and via remote desktop. FIZ Karlsruhe develop and maintain the Inorganic Crystal Structure Database (ICSD), which is available in its own search web interface. DECHEMA develop and maintain DETHERM (Thermophysical Property Data) which is available via its own search web interface. Access to these resources requires PSDI login credentials, and certain datasets or tools may be restricted to specific PSDI user groups."^^xsd:string ;
+    dcterms:identifier "psdiDcat:resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5"^^xsd:string ;
+    dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
+    dcterms:license <http://www.ccdc.cam.ac.uk/licence-agreement/>,
+        <https://dechema.de/en/impressum.html>,
+        <https://www.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_AGB_E_2021.pdf> ;
+    dcterms:title "PSDI Subscribed Resources"^^xsd:string ;
+    dcterms:type dcmitype:Collection ;
+    adms:status <http://purl.org/adms/status/UnderDevelopment> ;
+    dcat:DataService <http://metadata.psdi.ac.uk/psdi-dcat/service/12bde9eb-5553-4dc8-8341-63cbf9e26c37>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/43f76f68-abd1-4fa4-802a-1d76ec2e1358>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/68ff025c-335e-486a-b44d-ec40b1f691b3>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/service/d9556f5e-9a66-4ae6-ab20-d2235957c22b> ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> ;
+    dcat:contactPoint <mailto:support@psdi.ac.uk/> ;
+    dcat:keyword "PSDS"^^xsd:string,
+        "Physical Sciences Data-Science Service"^^xsd:string,
+        "data"^^xsd:string,
+        "physical sciences"^^xsd:string ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914>,
+        <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15>,
+        <http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213>,
+        <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe>,
+        <http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a>,
+        <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/6e9f15c1-d2b3-444e-9de8-b6a8f530ab0e> a dcat:Catalog ;
     rdfs:label "CCP-NC"^^xsd:string ;
@@ -5968,6 +6447,9 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccpnc-r.svg> a rdfs:Resource ;
     rdfs:label "CCP-NC logo"^^xsd:string .
 
+<https://spdx.org/licenses/GPL-3.0-only.html> a dcterms:LicenseDocument ;
+    rdfs:label "GNU General Public License v3.0 only"^^xsd:string .
+
 <http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f> a skos:Concept ;
     skos:prefLabel "catalysis"^^xsd:string .
 
@@ -6016,9 +6498,6 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://spdx.org/licenses/0BSD.html> a dcterms:LicenseDocument ;
     rdfs:label "0BSD"^^xsd:string .
 
-<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
-    skos:prefLabel "data processing"^^xsd:string .
-
 <http://orcid.org/0000-0001-7348-7612> a foaf:Agent ;
     foaf:name "Abraham Nieva De La Hidalga"^^xsd:string .
 
@@ -6034,6 +6513,9 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://orcid.org/0009-0001-1723-4394> a foaf:Agent ;
     foaf:name "Subindev Devadasan"^^xsd:string .
 
+<https://spdx.org/licenses/Apache-2.0.html> a dcterms:LicenseDocument ;
+    rdfs:label "Apache-2.0"^^xsd:string .
+
 <mailto:galaxy.support@stfc365.onmicrosoft.com/> a vcard:Kind ;
     vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"^^xsd:string .
 
@@ -6042,9 +6524,6 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 
 <http://orcid.org/0000-0003-2583-5680> a foaf:Agent ;
     foaf:name "Joanna Grundy"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9> a skos:Concept ;
-    skos:prefLabel "inorganic chemistry"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/2ac608e9-ad90-4216-881d-30004331ebf7> a dcat:Catalog ;
     rdfs:label "PSDI Skills4Scientists"^^xsd:string ;
@@ -6151,19 +6630,22 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "Training"^^xsd:string ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
@@ -6172,23 +6654,24 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary> .
 
 <http://orcid.org/0000-0003-1886-0378> a foaf:Agent ;
     foaf:name "Philip Leadbitter"^^xsd:string .
 
-<http://purl.org/adms/status/Completed> a rdfs:Resource .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> a rdfs:Resource ;
     rdfs:label "Galaxy logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/skills4scientists-r.svg> a rdfs:Resource ;
     rdfs:label "Skills4Scientists logo"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9> a skos:Concept ;
+    skos:prefLabel "inorganic chemistry"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
+    skos:prefLabel "data processing"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf> a skos:Concept ;
     skos:prefLabel "condensed matter physics"^^xsd:string .
@@ -6242,6 +6725,8 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         <http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf>,
         <http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary> .
 
+<http://purl.org/adms/status/Completed> a rdfs:Resource .
+
 <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
     skos:prefLabel "chemical sciences"^^xsd:string .
 
@@ -6262,11 +6747,11 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
 <http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
     skos:prefLabel "machine learning"^^xsd:string .
 
-dcmitype:Service a skos:Concept ;
-    skos:prefLabel "Service"^^xsd:string .
-
 <http://orcid.org/0000-0003-0842-4302> a foaf:Agent ;
     foaf:name "Jeremy G. Frey"^^xsd:string .
+
+dcmitype:Service a skos:Concept ;
+    skos:prefLabel "Service"^^xsd:string .
 
 <http://purl.org/coar/access_right/c_16ec> a dcterms:RightsStatement ;
     rdfs:label "restricted access"^^xsd:string .
@@ -6286,11 +6771,11 @@ dcmitype:Collection a skos:Concept ;
 dcmitype:Software a skos:Concept ;
     skos:prefLabel "Software"^^xsd:string .
 
-<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> a rdfs:Resource ;
-    rdfs:label "Resource provider"^^xsd:string .
-
 <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> a rdfs:Resource ;
     rdfs:label "Contributor"^^xsd:string .
+
+<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> a rdfs:Resource ;
+    rdfs:label "Resource provider"^^xsd:string .
 
 dcmitype:Text a skos:Concept ;
     skos:prefLabel "Text"^^xsd:string .
@@ -6355,10 +6840,6 @@ dcmitype:Text a skos:Concept ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
     dcat:version "1.2.0"^^xsd:string .
 
-<https://spdx.org/licenses/> a dcterms:LicenseDocument ;
-    rdfs:label "Multiple licenses"^^xsd:string,
-        "Other licenses for software in image"^^xsd:string .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
@@ -6420,6 +6901,10 @@ dcmitype:Text a skos:Concept ;
     dcat:landingPage <https://data-search.psdi.ac.uk> ;
     dcat:theme <http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary>,
         <http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> .
+
+<https://spdx.org/licenses/> a dcterms:LicenseDocument ;
+    rdfs:label "Multiple licenses"^^xsd:string,
+        "Other licenses for software in image"^^xsd:string .
 
 <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> a skos:Concept ;
     skos:prefLabel "crystals"^^xsd:string .

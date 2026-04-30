@@ -12640,7 +12640,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Collection"
                 },
-                "dcterms:description": "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation stepby steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling.",
+                "dcterms:description": "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling.",
                 "dcat:keyword": [
                     "atomic simulation environment",
                     "ASE",
@@ -12731,7 +12731,7 @@
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Software"
                     },
-                    "dcterms:description": "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation stepby steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally.",
+                    "dcterms:description": "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally.",
                     "dcat:keyword": [
                         "atomic simulation environment",
                         "ASE",
@@ -14036,7 +14036,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Collection"
                 },
-                "dcterms:description": "CrystaLLM-pi is an open-source, transformer-based tool for generating crystalline materials directly in CIF format using large language model techniques. It enables rapid exploration of crystal structure space and supports both unconditional generation and property-conditioned design, allowing users to target materials with specific characteristics such as band gap, density, photovoltaic efficiency, or XRD patterns.\nDesigned for materials scientists, it provides a fast, data-driven complement to traditional simulation methods, helping to generate candidate structures for further study or interpret experimental data. CrystaLLM-pi is available as source code and a web application for interactive use.",
+                "dcterms:description": "CrystaLLM-pi is an open-source, transformer-based tool for generating crystalline materials directly in CIF format using large language model techniques. It enables rapid exploration of crystal structure space and supports both unconditional generation and property-conditioned design, allowing users to target materials with specific characteristics such as band gap, density, photovoltaic efficiency, or XRD patterns.\nDesigned for materials scientists, it provides a fast, data-driven complement to traditional simulation methods, helping to generate candidate structures for further study or interpret experimental data. CrystaLLM-pi is available as source code, a prebuilt container for local deployment, and a web application for interactive use.",
                 "dcat:keyword": [
                     "materials discovery",
                     "crystal structure generation",
@@ -14147,18 +14147,18 @@
                 },
                 "psdiDcatExt:furtherInformation": [
                     {
-                        "rdfs:label": "Guidance for CrystalLM-pi web application",
+                        "rdfs:label": "Guidance for CrystaLLM-pi web application",
                         "@type": "rdfs:Resource",
                         "@id": "https://crystallm-pi.psdi.ac.uk/usage"
                     },
                     {
-                        "rdfs:label": "CrystalLM-pi github readme",
+                        "rdfs:label": "CrystaLLM-pi github readme",
                         "@type": "rdfs:Resource",
                         "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md"
                     }
                 ],
                 "psdiDcatExt:logoURL": {
-                    "rdfs:label": "CrystalLM-pi logo",
+                    "rdfs:label": "CrystaLLM-pi logo",
                     "@type": "rdfs:Resource",
                     "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png"
                 },
@@ -14292,12 +14292,12 @@
                         "@id": "http://purl.org/coar/access_right/c_abf2"
                     },
                     "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "Guidance for CrystalLM-pi web application",
+                        "rdfs:label": "Guidance for CrystaLLM-pi web application",
                         "@type": "rdfs:Resource",
                         "@id": "https://crystallm-pi.psdi.ac.uk/usage"
                     },
                     "psdiDcatExt:logoURL": {
-                        "rdfs:label": "CrystalLM-pi logo",
+                        "rdfs:label": "CrystaLLM-pi logo",
                         "@type": "rdfs:Resource",
                         "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png"
                     },
@@ -14312,162 +14312,661 @@
                         "@id": "https://crystallm-pi.psdi.ac.uk"
                     }
                 },
-                "psdiDcatExt:Tool": {
-                    "@id": "psdiDcat:tool/b33b210b-93b1-495a-aa10-f38b01cd703f",
-                    "dcterms:identifier": "psdiDcat:tool/b33b210b-93b1-495a-aa10-f38b01cd703f",
-                    "@type": "psdiDcatExt:Tool",
-                    "dcterms:title": "CrystaLLM-pi (AI-driven Prediction of Crystal Structure) Github Repository",
-                    "rdfs:label": "CrystaLLM-pi Github Repository",
-                    "dcterms:type": {
-                        "skos:prefLabel": "Software",
-                        "@type": "skos:Concept",
-                        "@id": "http://purl.org/dc/dcmitype/Software"
+                "psdiDcatExt:Tool": [
+                    {
+                        "@id": "psdiDcat:tool/b33b210b-93b1-495a-aa10-f38b01cd703f",
+                        "dcterms:identifier": "psdiDcat:tool/b33b210b-93b1-495a-aa10-f38b01cd703f",
+                        "@type": "psdiDcatExt:Tool",
+                        "dcterms:title": "CrystaLLM-pi (AI-driven Prediction of Crystal Structure) Github Repository",
+                        "rdfs:label": "CrystaLLM-pi Github Repository",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Software",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Software"
+                        },
+                        "dcterms:description": "Github repository for Crystallm-pi code - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern. The GitHub repository provides the full source code for users who wish to install and run it in their own environment.",
+                        "dcat:keyword": [
+                            "materials discovery",
+                            "crystal structure generation",
+                            "generative machine learning",
+                            "inverse materials design",
+                            "crystallographic data"
+                        ],
+                        "dcat:theme": [
+                            {
+                                "skos:prefLabel": "crystals",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                            },
+                            {
+                                "skos:prefLabel": "inorganic chemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9"
+                            },
+                            {
+                                "skos:prefLabel": "machine learning",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
+                            },
+                            {
+                                "skos:prefLabel": "solid-state physics",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98"
+                            }
+                        ],
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.psdi.ac.uk/"
+                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Keith Butler",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-5432-5597"
+                            },
+                            {
+                                "foaf:name": "Bradley A. A. Martin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-1583-254X"
+                            },
+                            {
+                                "foaf:name": "Cyprien Bone",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0002-7801-5272"
+                            },
+                            {
+                                "foaf:name": "Ricardo Grau-Crespo",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-8845-1719"
+                            }
+                        ],
+                        "prov:qualifiedAttribution": [
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Luis Antunes",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://orcid.org/0000-0002-4867-5635"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Kuangdai Leng",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://www.linkedin.com/in/kuangdai-leng-669328157"
+                                }
+                            }
+                        ],
+                        "dcat:landingPage": {
+                            "rdfs:label": "CrystaLLM-pi github repository",
+                            "@type": "foaf:Document",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasURL": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:issued": {
+                            "@value": "2025-09-23T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:modified": {
+                            "@value": "2026-03-19T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "MIT",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/MIT.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "psdiDcatExt:furtherInformation": {
+                            "rdfs:label": "CrystaLLM-pi github readme",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "CrystaLLM-pi logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Keith Butler, Bradley A. A. Martin, Cyprien Bone and Ricardo Grau-Crespo. CrystaLLM-pi (AI-driven Prediction of Crystal Structure) Github Repository. Online. 23 September 2025. Available from: https://resources.psdi.ac.uk/tool/b33b210b-93b1-495a-aa10-f38b01cd703f. [accessed YYYY-MM-DD].",
+                        "psdiDcatExt:displayPriority": 2.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4"
+                        },
+                        "psdiDcatExt:repositoryURL": {
+                            "rdfs:label": "CrystaLLM-pi github repository",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/"
+                        },
+                        "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.10",
+                        "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta"
                     },
-                    "dcterms:description": "Github repository for Crystallm-pi code - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern. The GitHub repository provides the full source code for users who wish to install and run it in their own environment.",
-                    "dcat:keyword": [
-                        "materials discovery",
-                        "crystal structure generation",
-                        "generative machine learning",
-                        "inverse materials design",
-                        "crystallographic data"
-                    ],
-                    "dcat:theme": [
-                        {
-                            "skos:prefLabel": "crystals",
+                    {
+                        "@id": "psdiDcat:tool/d2f426b2-04df-4ed1-8778-c2082852088c",
+                        "dcterms:identifier": "psdiDcat:tool/d2f426b2-04df-4ed1-8778-c2082852088c",
+                        "@type": "psdiDcatExt:Tool",
+                        "dcterms:title": "Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure)",
+                        "rdfs:label": "Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure)",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Software",
                             "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                            "@id": "http://purl.org/dc/dcmitype/Software"
                         },
-                        {
-                            "skos:prefLabel": "inorganic chemistry",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9"
+                        "dcterms:description": "Docker container for Crystallm-pi - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern.\nThe Docker container provides a ready made environment for running Crystallm pi locally. It bundles all required dependencies and configuration so users can run the model without setting up the software stack themselves, making it easier to test the tool, reproduce results, or integrate it into existing workflows.",
+                        "dcat:keyword": [
+                            "materials discovery",
+                            "crystal structure generation",
+                            "generative machine learning",
+                            "inverse materials design",
+                            "crystallographic data"
+                        ],
+                        "dcat:theme": [
+                            {
+                                "skos:prefLabel": "crystals",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                            },
+                            {
+                                "skos:prefLabel": "inorganic chemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9"
+                            },
+                            {
+                                "skos:prefLabel": "machine learning",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
+                            },
+                            {
+                                "skos:prefLabel": "solid-state physics",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98"
+                            }
+                        ],
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.psdi.ac.uk/"
                         },
-                        {
-                            "skos:prefLabel": "machine learning",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Keith Butler",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-5432-5597"
+                            },
+                            {
+                                "foaf:name": "Bradley A. A. Martin",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-1583-254X"
+                            },
+                            {
+                                "foaf:name": "Cyprien Bone",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0002-7801-5272"
+                            },
+                            {
+                                "foaf:name": "Ricardo Grau-Crespo",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0001-8845-1719"
+                            }
+                        ],
+                        "prov:qualifiedAttribution": [
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Luis Antunes",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://orcid.org/0000-0002-4867-5635"
+                                }
+                            },
+                            {
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Resource provider",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Kuangdai Leng",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://www.linkedin.com/in/kuangdai-leng-669328157"
+                                }
+                            }
+                        ],
+                        "dcat:landingPage": {
+                            "rdfs:label": "CrystaLLM-pi Docker registry location",
+                            "@type": "foaf:Document",
+                            "@id": "http://ghcr.io/psdi-uk/crystallm-pi:latest"
                         },
-                        {
-                            "skos:prefLabel": "solid-state physics",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98"
-                        }
-                    ],
-                    "dcterms:publisher": {
-                        "foaf:name": "PSDI",
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasURL": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:issued": {
+                            "@value": "2025-03-16T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:modified": {
+                            "@value": "2025-04-21T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:license": [
+                            {
+                                "rdfs:label": "MIT",
+                                "@type": "dcterms:LicenseDocument",
+                                "@id": "https://spdx.org/licenses/MIT.html"
+                            },
+                            {
+                                "rdfs:label": "Other licenses for software in image",
+                                "@type": "dcterms:LicenseDocument",
+                                "@id": "https://spdx.org/licenses/"
+                            }
+                        ],
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "rdfs:label": "CrystaLLM-pi Docker Container registry README",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/PSDI-UK/crystallm-pi-webapp-deployment/blob/main/README.md"
+                            },
+                            {
+                                "rdfs:label": "CrystaLLM-pi github readme",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md"
+                            }
+                        ],
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "CrystaLLM-pi logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Keith Butler, Bradley A. A. Martin, Cyprien Bone and Ricardo Grau-Crespo. Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure). Online. 16 March 2025. Available from: https://resources.psdi.ac.uk/tool/d2f426b2-04df-4ed1-8778-c2082852088c. [accessed YYYY-MM-DD].",
+                        "psdiDcatExt:displayPriority": 2.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4"
+                        },
+                        "psdiDcatExt:repositoryURL": {
+                            "rdfs:label": "CrystaLLM-pi Docker files in github repository",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/tree/main/docker"
+                        },
+                        "psdiDcatExt:installCommand": "docker pull ghcr.io/psdi-uk/crystallm-pi:latest",
+                        "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.10",
+                        "psdiDcatExt:deliveryFormat": {
+                            "@type": "dcterms:MediaType",
+                            "@id": "https://www.iana.org/assignments/media-types/application/vnd.docker.distribution.manifest.v2+json",
+                            "rdfs:label": "application/vnd.docker.distribution.manifest.v2+json"
+                        },
+                        "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta"
+                    }
+                ]
+            },
+            {
+                "@id": "psdiDcat:resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2",
+                "dcterms:identifier": "psdiDcat:resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2",
+                "@type": "dcat:Catalog",
+                "dcterms:title": "PSDI Organic Toolkit",
+                "rdfs:label": "PSDI Organic Toolkit",
+                "dcterms:type": {
+                    "skos:prefLabel": "Collection",
+                    "@type": "skos:Concept",
+                    "@id": "http://purl.org/dc/dcmitype/Collection"
+                },
+                "dcterms:description": "The PSDI Organic Toolkit is a suite of web apps to support organic chemistry researchers in transparent and high-quality data-reporting. We provide services for visualisation of reaction scope and the variability of numeric reaction outcomes.",
+                "dcat:keyword": [
+                    "reproducibility of reaction outcomes",
+                    "reaction scope",
+                    "Glorius plot"
+                ],
+                "dcat:theme": {
+                    "skos:prefLabel": "organic chemistry",
+                    "@type": "skos:Concept",
+                    "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                },
+                "dcterms:publisher": {
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Agent",
+                    "@id": "http://www.psdi.ac.uk/"
+                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Sally Bloodworth",
                         "@type": "foaf:Agent",
-                        "@id": "http://www.psdi.ac.uk/"
+                        "@id": "https://orcid.org/0000-0003-2219-3635"
                     },
-                    "dcterms:creator": [
-                        {
-                            "foaf:name": "Keith Butler",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-5432-5597"
+                    {
+                        "foaf:name": "Bryan Gillis",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-4478-1270"
+                    },
+                    {
+                        "foaf:name": "Cerys Willoughby",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0003-1721-9212"
+                    },
+                    {
+                        "foaf:name": "Samantha Pearman-Kanza",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-4831-9489"
+                    },
+                    {
+                        "foaf:name": "Raymond Whorley",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0009-0002-4762-5852"
+                    },
+                    {
+                        "foaf:name": "Donald Cruickshank",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-0777-0855"
+                    }
+                ],
+                "dcat:landingPage": {
+                    "rdfs:label": "PSDI Organic Toolkit",
+                    "@type": "foaf:Document",
+                    "@id": "https://organic-toolkit.psdi.ac.uk"
+                },
+                "dcat:contactPoint": {
+                    "@type": "vcard:Kind",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
+                    "@id": "mailto:support@psdi.ac.uk/"
+                },
+                "dcterms:language": {
+                    "rdfs:label": "en",
+                    "@type": "dcterms:LinguisticSystem",
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                },
+                "adms:status": {
+                    "@type": "rdfs:Resource",
+                    "@id": "http://purl.org/adms/status/UnderDevelopment"
+                },
+                "dcterms:license": {
+                    "rdfs:label": "Apache-2.0",
+                    "@type": "dcterms:LicenseDocument",
+                    "@id": "https://spdx.org/licenses/Apache-2.0.html"
+                },
+                "dcterms:accessRights": {
+                    "rdfs:label": "open access",
+                    "@type": "dcterms:RightsStatement",
+                    "@id": "http://purl.org/coar/access_right/c_abf2"
+                },
+                "dcat:version": "1.0.0",
+                "psdiDcatExt:furtherInformation": {
+                    "rdfs:label": "PSDI Organic Toolkit Knowledgebase article",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/"
+                },
+                "psdiDcatExt:logoURL": {
+                    "rdfs:label": "PSDI Organic Toolkit logo",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit-r.png"
+                },
+                "dcterms:bibliographicCitation": "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Organic Toolkit. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2. [accessed YYYY-MM-DD].",
+                "psdiDcatExt:displayPriority": 1.0,
+                "dcat:DataService": [
+                    {
+                        "@id": "psdiDcat:service/03290708-a2af-476b-a42a-d3f787dce487",
+                        "dcterms:identifier": "psdiDcat:service/03290708-a2af-476b-a42a-d3f787dce487",
+                        "@type": "dcat:DataService",
+                        "dcterms:title": "PSDI Variability Plot Generator",
+                        "rdfs:label": "PSDI Variability Plot Generator",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Service",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Service"
                         },
-                        {
-                            "foaf:name": "Bradley A. A. Martin",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0003-1583-254X"
+                        "dcterms:description": "This service enables you to produce plots that describe the reproducibility of any numerical reaction outcome. The generated scatterplot displays the mean value of the outcome and the associated confidence interval.",
+                        "dcat:keyword": [
+                            "reproducibility of reaction outcomes"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "organic chemistry",
+                            "@type": "skos:Concept",
+                            "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
-                        {
-                            "foaf:name": "Cyprien Bone",
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
                             "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0009-0002-7801-5272"
+                            "@id": "http://www.psdi.ac.uk/"
                         },
-                        {
-                            "foaf:name": "Ricardo Grau-Crespo",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-8845-1719"
-                        }
-                    ],
-                    "prov:qualifiedAttribution": [
-                        {
-                            "@type": "prov:Attribution",
-                            "dcat:hadRole": {
-                                "rdfs:label": "Resource provider",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
-                            },
-                            "prov:agent": {
-                                "foaf:name": "Luis Antunes",
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Sally Bloodworth",
                                 "@type": "foaf:Agent",
-                                "@id": "https://orcid.org/0000-0002-4867-5635"
-                            }
-                        },
-                        {
-                            "@type": "prov:Attribution",
-                            "dcat:hadRole": {
-                                "rdfs:label": "Resource provider",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                                "@id": "https://orcid.org/0000-0003-2219-3635"
                             },
-                            "prov:agent": {
-                                "foaf:name": "Kuangdai Leng",
+                            {
+                                "foaf:name": "Bryan Gillis",
                                 "@type": "foaf:Agent",
-                                "@id": "https://www.linkedin.com/in/kuangdai-leng-669328157"
+                                "@id": "https://orcid.org/0000-0002-4478-1270"
+                            },
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-1721-9212"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Raymond Whorley",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0002-4762-5852"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-0777-0855"
                             }
+                        ],
+                        "dcat:landingPage": {
+                            "rdfs:label": "PSDI Variability Plot Generator",
+                            "@type": "foaf:Document",
+                            "@id": "https://organic-toolkit.psdi.ac.uk/variability-plot"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
+                            "@id": "mailto:support@psdi.ac.uk/"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "Apache-2.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/Apache-2.0.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:version": "1.0.0",
+                        "psdiDcatExt:furtherInformation": {
+                            "rdfs:label": "PSDI Variability Plot Generator",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/variability"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "PSDI Variability Plot Generator logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t1Variability.png"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Variability Plot Generator. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/service/03290708-a2af-476b-a42a-d3f787dce487. [accessed YYYY-MM-DD].",
+                        "psdiDcatExt:displayPriority": 1.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2"
+                        },
+                        "dcat:endpointURL": {
+                            "rdfs:label": "PSDI Variability Plot Generator",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://organic-toolkit.psdi.ac.uk/variability-plot"
                         }
-                    ],
-                    "dcat:landingPage": {
-                        "rdfs:label": "CrystaLLM-pi github repository",
-                        "@type": "foaf:Document",
-                        "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi"
                     },
-                    "dcat:contactPoint": {
-                        "@type": "vcard:Kind",
-                        "vcard:hasURL": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues",
-                        "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/issues"
-                    },
-                    "dcterms:language": {
-                        "rdfs:label": "en",
-                        "@type": "dcterms:LinguisticSystem",
-                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                    },
-                    "adms:status": {
-                        "@type": "rdfs:Resource",
-                        "@id": "http://purl.org/adms/status/UnderDevelopment"
-                    },
-                    "dcterms:issued": {
-                        "@value": "2025-09-23T00:00:00Z",
-                        "@type": "xsd:dateTime"
-                    },
-                    "dcterms:modified": {
-                        "@value": "2026-03-19T00:00:00Z",
-                        "@type": "xsd:dateTime"
-                    },
-                    "dcterms:license": {
-                        "rdfs:label": "MIT",
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "https://spdx.org/licenses/MIT.html"
-                    },
-                    "dcterms:accessRights": {
-                        "rdfs:label": "open access",
-                        "@type": "dcterms:RightsStatement",
-                        "@id": "http://purl.org/coar/access_right/c_abf2"
-                    },
-                    "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "CrystalLM-pi github readme",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/blob/main/README.md"
-                    },
-                    "psdiDcatExt:logoURL": {
-                        "rdfs:label": "CrystalLM-pi logo",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/crystalLMpi-r.png"
-                    },
-                    "dcterms:bibliographicCitation": "Please cite: Keith Butler, Bradley A. A. Martin, Cyprien Bone and Ricardo Grau-Crespo. CrystaLLM-pi (AI-driven Prediction of Crystal Structure) Github Repository. Online. 23 September 2025. Available from: https://resources.psdi.ac.uk/tool/b33b210b-93b1-495a-aa10-f38b01cd703f. [accessed YYYY-MM-DD].",
-                    "psdiDcatExt:displayPriority": 2.0,
-                    "dcat:inCatalog": {
-                        "@id": "psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4"
-                    },
-                    "psdiDcatExt:repositoryURL": {
-                        "rdfs:label": "CrystaLLM-pi github repository",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://github.com/C-Bone-UCL/CrystaLLM-pi/"
-                    },
-                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.10",
-                    "psdiDcatExt:developmentStatus": "Development Status :: 4 - Beta"
-                }
+                    {
+                        "@id": "psdiDcat:service/7b208979-1ac8-48b4-9ebc-a43581a10926",
+                        "dcterms:identifier": "psdiDcat:service/7b208979-1ac8-48b4-9ebc-a43581a10926",
+                        "@type": "dcat:DataService",
+                        "dcterms:title": "PSDI Glorius Plot Generator",
+                        "rdfs:label": "PSDI Glorius Plot Generator",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Service",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Service"
+                        },
+                        "dcterms:description": "This service enables users to visualise the sensitivity of a given chemical transformation to user-defined reaction conditions, using a Glorius plot.",
+                        "dcat:keyword": [
+                            "reaction scope",
+                            "Glorius plot"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "organic chemistry",
+                            "@type": "skos:Concept",
+                            "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                        },
+                        "dcterms:publisher": {
+                            "foaf:name": "PSDI",
+                            "@type": "foaf:Agent",
+                            "@id": "http://www.psdi.ac.uk/"
+                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "Sally Bloodworth",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-2219-3635"
+                            },
+                            {
+                                "foaf:name": "Bryan Gillis",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-4478-1270"
+                            },
+                            {
+                                "foaf:name": "Cerys Willoughby",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0003-1721-9212"
+                            },
+                            {
+                                "foaf:name": "Samantha Pearman-Kanza",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-4831-9489"
+                            },
+                            {
+                                "foaf:name": "Raymond Whorley",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0009-0002-4762-5852"
+                            },
+                            {
+                                "foaf:name": "Donald Cruickshank",
+                                "@type": "foaf:Agent",
+                                "@id": "https://orcid.org/0000-0002-0777-0855"
+                            }
+                        ],
+                        "dcat:landingPage": {
+                            "rdfs:label": "PSDI Glorius Plot Generator",
+                            "@type": "foaf:Document",
+                            "@id": "https://organic-toolkit.psdi.ac.uk/glorius-plot"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
+                            "@id": "mailto:support@psdi.ac.uk/"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/UnderDevelopment"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "Apache-2.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/Apache-2.0.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:version": "1.0.0",
+                        "psdiDcatExt:furtherInformation": {
+                            "rdfs:label": "PSDI Glorius Plot Generator",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/glorius"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "PSDI Glorius Plot generator logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit_t_t2Glorius.png"
+                        },
+                        "dcterms:bibliographicCitation": "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Glorius Plot Generator. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/service/7b208979-1ac8-48b4-9ebc-a43581a10926. [accessed YYYY-MM-DD].",
+                        "psdiDcatExt:displayPriority": 1.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2"
+                        },
+                        "dcat:endpointURL": {
+                            "rdfs:label": "PSDI Glorius Plot Generator",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://organic-toolkit.psdi.ac.uk/glorius-plot"
+                        }
+                    }
+                ]
             },
             {
                 "@id": "psdiDcat:resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5",
@@ -14480,7 +14979,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Collection"
                 },
-                "dcterms:description": "This resource theme brings together trusted proprietary data sources and services developed by external providers, which PSDI subscribes to in order to make them available to its users. These include resources developed by the Cambridge Crystallographic Data Centre (CCDC) and FIZ Karlsruhe. Resources from the CCDC comprise the Cambridge Structural Database (CSD) and associated software which can be accessed through the PSDI Cross Data Search, the CCDC web interface, and via remote desktop. FIZ Karlsruhe develop and maintain the Inorganic Crystal Structure Database (ICSD), which is available in its own search web interface. Access to these resources requires PSDI login credentials, and certain datasets or tools may be restricted to specific PSDI user groups.",
+                "dcterms:description": "This resource theme brings together trusted proprietary data sources and services developed by external providers, which PSDI subscribes to in order to make them available to its users. These include resources developed by the Cambridge Crystallographic Data Centre (CCDC), FIZ Karlsruhe and DECHEMA. Resources from the CCDC comprise the Cambridge Structural Database (CSD) and associated software which can be accessed through the PSDI Cross Data Search, the CCDC web interface, and via remote desktop. FIZ Karlsruhe develop and maintain the Inorganic Crystal Structure Database (ICSD), which is available in its own search web interface. DECHEMA develop and maintain DETHERM (Thermophysical Property Data) which is available via its own search web interface. Access to these resources requires PSDI login credentials, and certain datasets or tools may be restricted to specific PSDI user groups.",
                 "dcat:keyword": [
                     "data",
                     "physical sciences",
@@ -14507,6 +15006,16 @@
                         "skos:prefLabel": "inorganic compounds",
                         "@type": "skos:Concept",
                         "@id": "http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77"
+                    },
+                    {
+                        "skos:prefLabel": "thermodynamics",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914"
+                    },
+                    {
+                        "skos:prefLabel": "fluid mechanics",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213"
                     }
                 ],
                 "dcat:contactPoint": {
@@ -14533,6 +15042,11 @@
                         "rdfs:label": "ICSD License Agreement",
                         "@type": "dcterms:LicenseDocument",
                         "@id": "https://www.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_AGB_E_2021.pdf"
+                    },
+                    {
+                        "rdfs:label": "DECHEMA Legal Notice",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://dechema.de/en/impressum.html"
                     }
                 ],
                 "dcterms:accessRights": {
@@ -15132,6 +15646,11 @@
                         },
                         "psdiDcatExt:furtherInformation": [
                             {
+                                "rdfs:label": "PSDI Knowledge Base article about ICSD",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/"
+                            },
+                            {
                                 "rdfs:label": "About  Web ICSD",
                                 "@type": "rdfs:Resource",
                                 "@id": "https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+web"
@@ -15157,8 +15676,570 @@
                             "@type": "rdfs:Resource",
                             "@id": "https://icsd-web.psdi.ac.uk"
                         }
+                    },
+                    {
+                        "@id": "psdiDcat:service/43f76f68-abd1-4fa4-802a-1d76ec2e1358",
+                        "dcterms:identifier": "psdiDcat:service/43f76f68-abd1-4fa4-802a-1d76ec2e1358",
+                        "@type": "dcat:DataService",
+                        "dcterms:title": "Web Access to DETHERM (Thermophysical Property Data)",
+                        "rdfs:label": "Web Access to DETHERM",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Service",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Service"
+                        },
+                        "dcterms:description": "DETHERM, developed and maintained by DECHEMA, is one of the world's largest collections of thermophysical property data. It brings together more than 13 million datasets covering over 100,000 pure compounds and 200,000 mixtures. The database includes a wide range of experimentally measured and evaluated properties - such as phase equilibrium data, vapour pressures, thermodynamic and transport properties, surface tensions, and electrolyte behaviour - along with associated bibliographic information, descriptors, and abstracts. The resource integrates data from several established collections, including the Dortmunder Datenbank (DDB), ELDAR, INFOTHERM, COMDOR, C DATA, BDBB, CAPEC SDB, and additional DECHEMA datasets. Access to DETHERM through PSDI is available to authenticated users within the UK academic community through its dedicated web portal, where searches can be refined by phase, temperature, pressure, and number of components. Note that users must be attached to an academic network to search DETHERM and download data.",
+                        "dcat:keyword": [
+                            "thermodynamic properties",
+                            "transport properties",
+                            "phase equilibrium",
+                            "vapor pressure",
+                            "critical point",
+                            "surface tension",
+                            "electrolyte",
+                            "pure substance",
+                            "mixture",
+                            "thermophysical properties",
+                            "solubility",
+                            "excess properties",
+                            "PSDS",
+                            "Physical Sciences Data-Science Service"
+                        ],
+                        "dcat:theme": [
+                            {
+                                "skos:prefLabel": "thermodynamics",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914"
+                            },
+                            {
+                                "skos:prefLabel": "fluid mechanics",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213"
+                            }
+                        ],
+                        "dcterms:publisher": {
+                            "foaf:name": "DECHEMA",
+                            "@type": "foaf:Agent",
+                            "@id": "https://ror.org/01hsw0492/"
+                        },
+                        "dcterms:creator": [
+                            {
+                                "foaf:name": "DECHEMA",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/01hsw0492/"
+                            },
+                            {
+                                "foaf:name": "Dortmund Data Bank Software & Separation Technology GmbH",
+                                "@type": "foaf:Agent",
+                                "@id": "http://www.ddbst.com/"
+                            },
+                            {
+                                "foaf:name": "University of Regensburg",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/01eezs655/"
+                            },
+                            {
+                                "foaf:name": "Wiley-VCH",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/000gm1k91/"
+                            },
+                            {
+                                "foaf:name": "University of Chemistry and Technology Prague",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/05ggn0a85/"
+                            },
+                            {
+                                "foaf:name": "Technical University of Denmark",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/04qtj9h94/"
+                            },
+                            {
+                                "foaf:name": "Dow Chemical Netherlands",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/049px0x49/"
+                            }
+                        ],
+                        "prov:qualifiedAttribution": {
+                            "@type": "prov:Attribution",
+                            "dcat:hadRole": {
+                                "rdfs:label": "Resource provider",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
+                            },
+                            "prov:agent": {
+                                "foaf:name": "DECHEMA",
+                                "@type": "foaf:Agent",
+                                "@id": "https://ror.org/01hsw0492/"
+                            }
+                        },
+                        "dcat:landingPage": {
+                            "rdfs:label": "DETHERM",
+                            "@type": "foaf:Document",
+                            "@id": "https://detherm.psdi.ac.uk"
+                        },
+                        "dcat:contactPoint": {
+                            "@type": "vcard:Kind",
+                            "vcard:hasEmail": "support@psdi.ac.uk",
+                            "@id": "mailto:support@psdi.ac.uk/"
+                        },
+                        "dcterms:language": {
+                            "rdfs:label": "en",
+                            "@type": "dcterms:LinguisticSystem",
+                            "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                        },
+                        "adms:status": {
+                            "@type": "rdfs:Resource",
+                            "@id": "http://purl.org/adms/status/Completed"
+                        },
+                        "dcterms:issued": {
+                            "@value": "1999-01-03T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:modified": {
+                            "@value": "2025-07-01T00:00:00Z",
+                            "@type": "xsd:dateTime"
+                        },
+                        "dcterms:license": {
+                            "rdfs:label": "DECHEMA Legal Notice",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://dechema.de/en/impressum.html"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "restricted access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_16ec"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "rdfs:label": "DETHERM guidance",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/detherm"
+                            },
+                            {
+                                "rdfs:label": "About DETHERM",
+                                "@type": "rdfs:Resource",
+                                "@id": "https://dechema.de/en/detherm.html"
+                            }
+                        ],
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "DECHEMA logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-s-detherm.svg"
+                        },
+                        "dcterms:bibliographicCitation": "U. Westhaus, T. Droge, R. Sass, DETHERM-a thermophysical property database, Fluid Phase Equilibria, Volumes 158-160, 1999, Pages 429-435, ISSN 0378-3812, https://doi.org/10.1016/S0378-3812(99)00139-9.",
+                        "psdiDcatExt:displayPriority": 1.0,
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5"
+                        },
+                        "dcat:endpointURL": {
+                            "rdfs:label": "DETHERM",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://detherm.psdi.ac.uk"
+                        }
                     }
                 ]
+            },
+            {
+                "@id": "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a",
+                "dcterms:identifier": "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a",
+                "@type": "dcat:Catalog",
+                "dcterms:title": "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis",
+                "rdfs:label": "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis",
+                "dcterms:type": {
+                    "skos:prefLabel": "Collection",
+                    "@type": "skos:Concept",
+                    "@id": "http://purl.org/dc/dcmitype/Collection"
+                },
+                "dcterms:description": "This resource theme contains AFM (Atomic Force Microscopy) resources that bring together tools and data collections to support the processing, analysis, and sharing of AFM datasets. The TopoStats tool enables the batch processing of AFM datafiles to obtain rich, quantitative statistics and is developed with the FAIR principles for research software in mind. The accompanying Community Data Collection, AFMDB, provides a platform for the sharing of AFM datafiles, along with processed images, to encourage open data practices and aid the devlopment of deep learning tools for enhanced AFM analysis.",
+                "dcat:keyword": [
+                    "AFM",
+                    "Atomic Force Microscopy",
+                    "DNA",
+                    "proteins",
+                    "polymers",
+                    "perovskites",
+                    "batch processing",
+                    "deep learning",
+                    "structural biology",
+                    "materials science"
+                ],
+                "dcat:theme": [
+                    {
+                        "skos:prefLabel": "microscopy",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41"
+                    },
+                    {
+                        "skos:prefLabel": "data processing",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                    }
+                ],
+                "dcterms:publisher": {
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Agent",
+                    "@id": "http://www.psdi.ac.uk/"
+                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Thomas E Catley",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-8919-2701"
+                    },
+                    {
+                        "foaf:name": "Sylvia Whittle",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0009-0008-9164-9513"
+                    },
+                    {
+                        "foaf:name": "Alice Pyne",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-2658-8987"
+                    }
+                ],
+                "dcat:contactPoint": {
+                    "@type": "vcard:Kind",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
+                    "@id": "mailto:support@psdi.ac.uk/"
+                },
+                "dcterms:language": {
+                    "rdfs:label": "en",
+                    "@type": "dcterms:LinguisticSystem",
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                },
+                "adms:status": {
+                    "@type": "rdfs:Resource",
+                    "@id": "http://purl.org/adms/status/UnderDevelopment"
+                },
+                "dcterms:license": [
+                    {
+                        "rdfs:label": "Multiple licenses",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/"
+                    },
+                    {
+                        "rdfs:label": "LGPL-3.0",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/LGPL-3.0-only.html"
+                    },
+                    {
+                        "rdfs:label": "GNU General Public License v3.0 only",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/GPL-3.0-only.html"
+                    }
+                ],
+                "dcterms:accessRights": {
+                    "rdfs:label": "open access",
+                    "@type": "dcterms:RightsStatement",
+                    "@id": "http://purl.org/coar/access_right/c_abf2"
+                },
+                "psdiDcatExt:furtherInformation": [
+                    {
+                        "rdfs:label": "About AFMDB",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://data-collections.psdi.ac.uk/communities/afmdb/about"
+                    },
+                    {
+                        "rdfs:label": "TopoStats Github Documentation",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                    }
+                ],
+                "psdiDcatExt:logoURL": {
+                    "rdfs:label": "TopoStats logo",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg"
+                },
+                "psdiDcatExt:displayPriority": 2.0,
+                "dcat:Dataset": {
+                    "@id": "psdiDcat:data/b21d01f6-20df-49da-a19a-88f7b42fbd11",
+                    "dcterms:identifier": "psdiDcat:data/b21d01f6-20df-49da-a19a-88f7b42fbd11",
+                    "@type": "dcat:Dataset",
+                    "dcterms:title": "Atomic Force Microscopy Database (AFMDB)",
+                    "rdfs:label": "AFMDB",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Dataset",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Dataset"
+                    },
+                    "dcterms:description": "AFMDB is a centralised collection of Atomic Force Microscopy (AFM) data covering a range of physical and biological materials, hosted within the PSDI Community Data Collections. Each entry includes the original AFM files along with a processed image generated during analysis. Initial examples demonstrate the output from our open-source tool TopoStats which has been used to process images and standardised the data output. By making these datasets openly available, AFMDB supports good data sharing practices and provides high quality, standardised examples that can be used to train and evaluate deep learning methods for enhanced AFM analysis. Researchers are encouraged to contribute AFM data from their publications and to test TopoStats, helping refine the tool through community feedback.",
+                    "dcat:keyword": [
+                        "AFM",
+                        "Atomic Force Microscopy",
+                        "DNA",
+                        "proteins",
+                        "polymers",
+                        "perovskites",
+                        "batch processing",
+                        "deep learning",
+                        "structural biology",
+                        "materials science"
+                    ],
+                    "dcat:theme": [
+                        {
+                            "skos:prefLabel": "microscopy",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41"
+                        },
+                        {
+                            "skos:prefLabel": "data processing",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                        }
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.psdi.ac.uk/"
+                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Thomas E Catley",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-8919-2701"
+                        },
+                        {
+                            "foaf:name": "Sylvia Whittle",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0009-0008-9164-9513"
+                        },
+                        {
+                            "foaf:name": "Alice Pyne",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-2658-8987"
+                        }
+                    ],
+                    "dcat:landingPage": {
+                        "rdfs:label": "Atomic Force Microscopy Database, AFMDB",
+                        "@type": "foaf:Document",
+                        "@id": "https://data-collections.psdi.ac.uk/communities/afmdb"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasEmail": "support@psdi.ac.uk",
+                        "@id": "mailto:support@psdi.ac.uk/"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2026-03-05T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:modified": {
+                        "@value": "2026-03-05T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": {
+                        "rdfs:label": "Multiple licenses",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/"
+                    },
+                    "dcterms:accessRights": {
+                        "rdfs:label": "open access",
+                        "@type": "dcterms:RightsStatement",
+                        "@id": "http://purl.org/coar/access_right/c_abf2"
+                    },
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "About AFMDB",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://data-collections.psdi.ac.uk/communities/afmdb/about"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "AFMDB logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-d-AFMDB.svg"
+                    },
+                    "dcterms:bibliographicCitation": "Please cite: Thomas E Catley, Sylvia Whittle and Alice Pyne. Atomic Force Microscopy Database (AFMDB). Online. 05 March 2026. Available from: https://resources.psdi.ac.uk/data/b21d01f6-20df-49da-a19a-88f7b42fbd11. [accessed YYYY-MM-DD].",
+                    "psdiDcatExt:displayPriority": 2.0,
+                    "dcat:inCatalog": {
+                        "@id": "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a"
+                    },
+                    "dcat:Distribution": {
+                        "@id": "psdiDcat:distribution/2051d706-bcb7-404b-8b4e-858a70729790",
+                        "@type": "dcat:Distribution",
+                        "dcterms:title": "Atomic Force Microscopy Database (AFMDB)",
+                        "dcat:accessURL": {
+                            "rdfs:label": "Atomic Force Microscopy Database, AFMDB",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://data-collections.psdi.ac.uk/communities/afmdb"
+                        }
+                    }
+                },
+                "psdiDcatExt:Tool": {
+                    "@id": "psdiDcat:tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d",
+                    "dcterms:identifier": "psdiDcat:tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d",
+                    "@type": "psdiDcatExt:Tool",
+                    "dcterms:title": "TopoStats: Batch Processing Atomic Force Microscopy (AFM) Images",
+                    "rdfs:label": "TopoStats",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Software",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Software"
+                    },
+                    "dcterms:description": "TopoStats is a Python toolkit that automates the processing and analysis of Atomic Force Microscopy (AFM) data. It batch processes raw AFM files to identify molecules or other features, trace their shapes, and generate image outputs at each stage of the workflow. The software produces rich quantitative measurements in both tabular and graphical formats, and is developed in line with FAIR research software principles to support transparent, reproducible AFM analysis.",
+                    "dcat:keyword": [
+                        "AFM",
+                        "Atomic Force Microscopy",
+                        "DNA",
+                        "proteins",
+                        "polymers",
+                        "perovskites",
+                        "batch processing",
+                        "deep learning",
+                        "structural biology",
+                        "materials science"
+                    ],
+                    "dcat:theme": [
+                        {
+                            "skos:prefLabel": "microscopy",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41"
+                        },
+                        {
+                            "skos:prefLabel": "data processing",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                        }
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.psdi.ac.uk/"
+                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Thomas E Catley",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-8919-2701"
+                        },
+                        {
+                            "foaf:name": "Sylvia Whittle",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0009-0008-9164-9513"
+                        },
+                        {
+                            "foaf:name": "Alice Pyne",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-2658-8987"
+                        },
+                        {
+                            "foaf:name": "Max Gamill",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0009-0007-3250-5299"
+                        },
+                        {
+                            "foaf:name": "Laura Wiggins",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0003-4615-2379"
+                        },
+                        {
+                            "foaf:name": "Neil Shephard",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0001-8301-6857"
+                        },
+                        {
+                            "foaf:name": "Toby Allwood",
+                            "@type": "foaf:Agent",
+                            "@id": "https://github.com/tobyallwood"
+                        },
+                        {
+                            "foaf:name": "Mingxue Du",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0009-0008-9452-5719"
+                        },
+                        {
+                            "foaf:name": "Joseph G. Beton",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0001-7499-3867"
+                        },
+                        {
+                            "foaf:name": "Robert Turner",
+                            "@type": "foaf:Agent",
+                            "@id": "https://github.com/bobturneruk"
+                        },
+                        {
+                            "foaf:name": "Tobias Firth",
+                            "@type": "foaf:Agent",
+                            "@id": "https://github.com/TFirth2"
+                        }
+                    ],
+                    "dcat:landingPage": {
+                        "rdfs:label": "topostats PyPi page",
+                        "@type": "foaf:Document",
+                        "@id": "https://pypi.org/project/topostats"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasURL": "https://github.com/AFM-SPM/TopoStats/issues",
+                        "@id": "https://github.com/AFM-SPM/TopoStats/issues"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/UnderDevelopment"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2019-01-29T15:00:56Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:modified": {
+                        "@value": "2026-03-30T15:18:34Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": [
+                        {
+                            "rdfs:label": "LGPL-3.0",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/LGPL-3.0-only.html"
+                        },
+                        {
+                            "rdfs:label": "GNU General Public License v3.0 only",
+                            "@type": "dcterms:LicenseDocument",
+                            "@id": "https://spdx.org/licenses/GPL-3.0-only.html"
+                        }
+                    ],
+                    "dcterms:accessRights": {
+                        "rdfs:label": "open access",
+                        "@type": "dcterms:RightsStatement",
+                        "@id": "http://purl.org/coar/access_right/c_abf2"
+                    },
+                    "dcat:version": "2.4.0",
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "TopoStats Github Documentation",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                    },
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "TopoStats logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg"
+                    },
+                    "dcterms:bibliographicCitation": "Please cite: Shephard, N., Whittle, S., Gamill, M., Du, M., & Pyne, A. (2023). TopoStats - Atomic Force Microscopy image processing and analysis (Version 2). The University of Sheffield. https://doi.org/10.15131/shef.data.22633528.v2 and Beton, J. G., Moorehead, R., Helfmann, L., Gray, R., Hoogenboom, B. W., Joseph, A. P., Topf, M., & Pyne, A. L. (2021). TopoStats - A program for automated tracing of biomolecules from AFM images. Methods, 193, 68-79. https://doi.org/10.1016/j.ymeth.2021.01.008",
+                    "psdiDcatExt:displayPriority": 2.0,
+                    "dcat:inCatalog": {
+                        "@id": "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a"
+                    },
+                    "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "TopoStats Github Repository",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://github.com/AFM-SPM/TopoStats"
+                    },
+                    "psdiDcatExt:installCommand": "pip install topostats",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3; Programming Language :: Python :: 3.10; Programming Language :: Python :: 3.11",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 5 - Production/Stable",
+                    "psdiDcatExt:operatingSystem": "Operating System :: OS Independent"
+                }
             }
         ]
     }
