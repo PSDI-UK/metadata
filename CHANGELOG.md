@@ -1,4 +1,7 @@
 # Change Log
+##2026-05-11
+* Further minor updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-006
+
 ##2026-04-29
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-006 to update resource catalogue for DETHERM, Organic toolkit T1 and T2, and more PSDI-Funding_Call-2025-FC1 resources including addition of:
    * Add Service resource "Web Access to DETHERM (Thermophysical Property Data)" to resource theme [PSDI Subscribed Resources](https://resources.psdi.ac.uk/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5 )

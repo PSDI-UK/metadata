@@ -272,108 +272,6 @@
                 }
             },
             {
-                "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08",
-                "dcterms:identifier": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08",
-                "@type": "dcat:DataService",
-                "dcterms:title": "PSDI Community Data Collections",
-                "rdfs:label": "PSDI Community Data Collections",
-                "dcterms:type": {
-                    "skos:prefLabel": "Service",
-                    "@type": "skos:Concept",
-                    "@id": "http://purl.org/dc/dcmitype/Service"
-                },
-                "dcterms:description": "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets, currently serving the BioSim and Data to Knowledge communities, to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future.",
-                "dcat:keyword": [
-                    "data",
-                    "search",
-                    "FAIR",
-                    "re-use",
-                    "bio simulations",
-                    "AiiDA",
-                    "MLIP"
-                ],
-                "dcat:theme": {
-                    "skos:prefLabel": "multidisciplinary",
-                    "@type": "skos:Concept",
-                    "@id": "http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary"
-                },
-                "dcterms:publisher": {
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Agent",
-                    "@id": "http://www.psdi.ac.uk/"
-                },
-                "dcterms:creator": [
-                    {
-                        "foaf:name": "Andrew Harper",
-                        "@type": "foaf:Agent",
-                        "@id": "http://www.linkedin.com/in/andrew-harper-654456241"
-                    },
-                    {
-                        "foaf:name": "Gemma Poulter",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0001-9720-3378"
-                    },
-                    {
-                        "foaf:name": "Callum Webb",
-                        "@type": "foaf:Agent",
-                        "@id": "http://orcid.org/0009-0005-9011-2472"
-                    }
-                ],
-                "dcat:landingPage": {
-                    "rdfs:label": "PSDI Community Data Collections",
-                    "@type": "foaf:Document",
-                    "@id": "http://data-collections.psdi.ac.uk"
-                },
-                "dcat:contactPoint": {
-                    "@type": "vcard:Kind",
-                    "vcard:hasEmail": "support@psdi.ac.uk",
-                    "@id": "mailto:support@psdi.ac.uk/"
-                },
-                "dcterms:language": {
-                    "rdfs:label": "en",
-                    "@type": "dcterms:LinguisticSystem",
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                },
-                "adms:status": {
-                    "@type": "rdfs:Resource",
-                    "@id": "http://purl.org/adms/status/UnderDevelopment"
-                },
-                "dcterms:issued": {
-                    "@value": "2025-03-31T00:00:00Z",
-                    "@type": "xsd:dateTime"
-                },
-                "dcterms:license": {
-                    "rdfs:label": "Multiple licenses",
-                    "@type": "dcterms:LicenseDocument",
-                    "@id": "https://spdx.org/licenses/"
-                },
-                "dcterms:accessRights": {
-                    "rdfs:label": "open access",
-                    "@type": "dcterms:RightsStatement",
-                    "@id": "http://purl.org/coar/access_right/c_abf2"
-                },
-                "psdiDcatExt:logoURL": {
-                    "rdfs:label": "PSDI Community Data Collections logo",
-                    "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-communityDataCollections.svg"
-                },
-                "dcterms:bibliographicCitation": "Please cite: Andrew Harper, Gemma Poulter and Callum Webb. PSDI Community Data Collections. Online. Physical Sciences Data Infrastructure (PSDI), 31 March 2025. Available from: https://resources.psdi.ac.uk/service/d81616df-3daf-44c3-98b4-841e277dfe08. [accessed YYYY-MM-DD].",
-                "psdiDcatExt:displayPriority": 1.0,
-                "dcat:endpointURL": {
-                    "rdfs:label": "PSDI Community Data Collections",
-                    "@type": "rdfs:Resource",
-                    "@id": "http://data-collections.psdi.ac.uk"
-                },
-                "dcat:servesDataset": [
-                    {
-                        "@id": "psdiDcat:data/bc930fa5-63da-4707-80f8-3c642960796a"
-                    },
-                    {
-                        "@id": "psdiDcat:data/771d2ae4-7f19-4258-b144-dc212cef6e43"
-                    }
-                ]
-            },
-            {
                 "@id": "psdiDcat:service/2927c4a2-0178-4cc9-a839-240ec1d343a6",
                 "dcterms:identifier": "psdiDcat:service/2927c4a2-0178-4cc9-a839-240ec1d343a6",
                 "@type": "dcat:DataService",
@@ -595,6 +493,123 @@
                     "@type": "rdfs:Resource",
                     "@id": "https://learn.psdi.ac.uk"
                 }
+            },
+            {
+                "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08",
+                "dcterms:identifier": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08",
+                "@type": "dcat:DataService",
+                "dcterms:title": "PSDI Community Data Collections",
+                "rdfs:label": "PSDI Community Data Collections",
+                "dcterms:type": {
+                    "skos:prefLabel": "Service",
+                    "@type": "skos:Concept",
+                    "@id": "http://purl.org/dc/dcmitype/Service"
+                },
+                "dcterms:description": "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets, currently serving the BioSim and Data to Knowledge communities, to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future.",
+                "dcat:keyword": [
+                    "data",
+                    "search",
+                    "FAIR",
+                    "re-use",
+                    "bio simulations",
+                    "AiiDA",
+                    "MLIP"
+                ],
+                "dcat:theme": {
+                    "skos:prefLabel": "multidisciplinary",
+                    "@type": "skos:Concept",
+                    "@id": "http://metadata.psdi.ac.uk/psdi-voc-subject#multidisciplinary"
+                },
+                "dcterms:publisher": {
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Agent",
+                    "@id": "http://www.psdi.ac.uk/"
+                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Andrew Harper",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.linkedin.com/in/andrew-harper-654456241"
+                    },
+                    {
+                        "foaf:name": "Gemma Poulter",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0001-9720-3378"
+                    },
+                    {
+                        "foaf:name": "Callum Webb",
+                        "@type": "foaf:Agent",
+                        "@id": "http://orcid.org/0009-0005-9011-2472"
+                    }
+                ],
+                "dcat:landingPage": {
+                    "rdfs:label": "PSDI Community Data Collections",
+                    "@type": "foaf:Document",
+                    "@id": "http://data-collections.psdi.ac.uk"
+                },
+                "dcat:contactPoint": {
+                    "@type": "vcard:Kind",
+                    "vcard:hasEmail": "support@psdi.ac.uk",
+                    "@id": "mailto:support@psdi.ac.uk/"
+                },
+                "dcterms:language": {
+                    "rdfs:label": "en",
+                    "@type": "dcterms:LinguisticSystem",
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                },
+                "adms:status": {
+                    "@type": "rdfs:Resource",
+                    "@id": "http://purl.org/adms/status/UnderDevelopment"
+                },
+                "dcterms:issued": {
+                    "@value": "2025-03-31T00:00:00Z",
+                    "@type": "xsd:dateTime"
+                },
+                "dcterms:license": {
+                    "rdfs:label": "Multiple licenses",
+                    "@type": "dcterms:LicenseDocument",
+                    "@id": "https://spdx.org/licenses/"
+                },
+                "dcterms:accessRights": {
+                    "rdfs:label": "open access",
+                    "@type": "dcterms:RightsStatement",
+                    "@id": "http://purl.org/coar/access_right/c_abf2"
+                },
+                "psdiDcatExt:logoURL": {
+                    "rdfs:label": "PSDI Community Data Collections logo",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-communityDataCollections.svg"
+                },
+                "dcterms:bibliographicCitation": "Please cite: Andrew Harper, Gemma Poulter and Callum Webb. PSDI Community Data Collections. Online. Physical Sciences Data Infrastructure (PSDI), 31 March 2025. Available from: https://resources.psdi.ac.uk/service/d81616df-3daf-44c3-98b4-841e277dfe08. [accessed YYYY-MM-DD].",
+                "psdiDcatExt:displayPriority": 1.0,
+                "dcat:endpointURL": {
+                    "rdfs:label": "PSDI Community Data Collections",
+                    "@type": "rdfs:Resource",
+                    "@id": "http://data-collections.psdi.ac.uk"
+                },
+                "dcat:servesDataset": [
+                    {
+                        "@id": "psdiDcat:data/bc930fa5-63da-4707-80f8-3c642960796a"
+                    },
+                    {
+                        "@id": "psdiDcat:data/771d2ae4-7f19-4258-b144-dc212cef6e43"
+                    },
+                    {
+                        "@id": "psdiDcat:data/37ddb0ce-30ab-4928-a1c2-35f719470137"
+                    },
+                    {
+                        "@id": "psdiDcat:data/1efa3139-865d-4a81-9426-3ca372217a7e"
+                    },
+                    {
+                        "@id": "psdiDcat:data/c7a5caf4-5417-4de3-b2a2-c16cc24e36cb"
+                    },
+                    {
+                        "@id": "psdiDcat:data/1c588bd2-6c7d-4f74-8b61-426b7d864d3a"
+                    },
+                    {
+                        "@id": "psdiDcat:data/b21d01f6-20df-49da-a19a-88f7b42fbd11"
+                    }
+                ]
             }
         ],
         "dcat:Catalog": [
@@ -12114,6 +12129,217 @@
                 ]
             },
             {
+                "@id": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221",
+                "dcterms:identifier": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221",
+                "@type": "dcat:Catalog",
+                "dcterms:title": "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery",
+                "rdfs:label": "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery",
+                "dcterms:type": {
+                    "skos:prefLabel": "Collection",
+                    "@type": "skos:Concept",
+                    "@id": "http://purl.org/dc/dcmitype/Collection"
+                },
+                "dcterms:description": "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling.",
+                "dcat:keyword": [
+                    "atomic simulation environment",
+                    "ASE",
+                    "MLIP",
+                    "machine learning interatomic potentials",
+                    "ACE",
+                    "MACE"
+                ],
+                "dcat:theme": [
+                    {
+                        "skos:prefLabel": "simulation software",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
+                    },
+                    {
+                        "skos:prefLabel": "machine learning",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
+                    }
+                ],
+                "dcterms:publisher": {
+                    "foaf:name": "PSDI",
+                    "@type": "foaf:Agent",
+                    "@id": "http://www.psdi.ac.uk/"
+                },
+                "dcterms:creator": [
+                    {
+                        "foaf:name": "Thomas Rocke",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0002-4612-9112"
+                    },
+                    {
+                        "foaf:name": "James Kermode",
+                        "@type": "foaf:Agent",
+                        "@id": "https://orcid.org/0000-0001-6755-6271"
+                    }
+                ],
+                "dcat:contactPoint": {
+                    "@type": "vcard:Kind",
+                    "vcard:hasURL": "https://github.com/kermodegroup/ase_uhal/issues",
+                    "@id": "https://github.com/kermodegroup/ase_uhal/issues"
+                },
+                "dcterms:language": {
+                    "rdfs:label": "en",
+                    "@type": "dcterms:LinguisticSystem",
+                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                },
+                "adms:status": {
+                    "@type": "rdfs:Resource",
+                    "@id": "http://purl.org/adms/status/Completed"
+                },
+                "dcterms:license": {
+                    "rdfs:label": "MIT",
+                    "@type": "dcterms:LicenseDocument",
+                    "@id": "https://spdx.org/licenses/MIT.html"
+                },
+                "dcterms:accessRights": {
+                    "rdfs:label": "open access",
+                    "@type": "dcterms:RightsStatement",
+                    "@id": "http://purl.org/coar/access_right/c_abf2"
+                },
+                "psdiDcatExt:furtherInformation": [
+                    {
+                        "rdfs:label": "ase_uhal's documentation",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://kermodegroup.github.io/ase_uhal/"
+                    },
+                    {
+                        "rdfs:label": "ase-uhal PyPi page",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://pypi.org/project/ase-uhal/"
+                    }
+                ],
+                "psdiDcatExt:logoURL": {
+                    "rdfs:label": "universalHAL logo",
+                    "@type": "rdfs:Resource",
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png"
+                },
+                "psdiDcatExt:displayPriority": 2.0,
+                "psdiDcatExt:Tool": {
+                    "@id": "psdiDcat:tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0",
+                    "dcterms:identifier": "psdiDcat:tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0",
+                    "@type": "psdiDcatExt:Tool",
+                    "dcterms:title": "Universal HAL Python package",
+                    "rdfs:label": "Universal HAL Python package",
+                    "dcterms:type": {
+                        "skos:prefLabel": "Software",
+                        "@type": "skos:Concept",
+                        "@id": "http://purl.org/dc/dcmitype/Software"
+                    },
+                    "dcterms:description": "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally.",
+                    "dcat:keyword": [
+                        "atomic simulation environment",
+                        "ASE",
+                        "MLIP",
+                        "machine learning interatomic potentials",
+                        "ACE",
+                        "MACE"
+                    ],
+                    "dcat:theme": [
+                        {
+                            "skos:prefLabel": "simulation software",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
+                        },
+                        {
+                            "skos:prefLabel": "machine learning",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
+                        }
+                    ],
+                    "dcterms:publisher": {
+                        "foaf:name": "PSDI",
+                        "@type": "foaf:Agent",
+                        "@id": "http://www.psdi.ac.uk/"
+                    },
+                    "dcterms:creator": [
+                        {
+                            "foaf:name": "Thomas Rocke",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-4612-9112"
+                        },
+                        {
+                            "foaf:name": "James Kermode",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0001-6755-6271"
+                        }
+                    ],
+                    "dcat:landingPage": {
+                        "rdfs:label": "ase_uhal github repository",
+                        "@type": "foaf:Document",
+                        "@id": "https://github.com/kermodegroup/ase_uhal"
+                    },
+                    "dcat:contactPoint": {
+                        "@type": "vcard:Kind",
+                        "vcard:hasURL": "https://github.com/kermodegroup/ase_uhal/issues",
+                        "@id": "https://github.com/kermodegroup/ase_uhal/issues"
+                    },
+                    "dcterms:language": {
+                        "rdfs:label": "en",
+                        "@type": "dcterms:LinguisticSystem",
+                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
+                    },
+                    "adms:status": {
+                        "@type": "rdfs:Resource",
+                        "@id": "http://purl.org/adms/status/Completed"
+                    },
+                    "dcterms:issued": {
+                        "@value": "2026-03-24T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:modified": {
+                        "@value": "2026-03-24T00:00:00Z",
+                        "@type": "xsd:dateTime"
+                    },
+                    "dcterms:license": {
+                        "rdfs:label": "MIT",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/MIT.html"
+                    },
+                    "dcterms:accessRights": {
+                        "rdfs:label": "open access",
+                        "@type": "dcterms:RightsStatement",
+                        "@id": "http://purl.org/coar/access_right/c_abf2"
+                    },
+                    "dcat:version": "0.1.0",
+                    "psdiDcatExt:furtherInformation": [
+                        {
+                            "rdfs:label": "ase_uhal's documentation",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://kermodegroup.github.io/ase_uhal/"
+                        },
+                        {
+                            "rdfs:label": "ase-uhal PyPi page",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://pypi.org/project/ase-uhal/"
+                        }
+                    ],
+                    "psdiDcatExt:logoURL": {
+                        "rdfs:label": "universalHAL logo",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png"
+                    },
+                    "dcterms:bibliographicCitation": "Please cite: Thomas Rocke and James Kermode. Universal HAL Python package. Online. Version 0.1.0. 24 March 2026. Available from: https://resources.psdi.ac.uk/tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0. [accessed YYYY-MM-DD].",
+                    "psdiDcatExt:displayPriority": 2.0,
+                    "dcat:inCatalog": {
+                        "@id": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221"
+                    },
+                    "psdiDcatExt:repositoryURL": {
+                        "rdfs:label": "ase_uhal github repository",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://github.com/kermodegroup/ase_uhal"
+                    },
+                    "psdiDcatExt:installCommand": "pip install ase-uhal",
+                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.10 and greater",
+                    "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha",
+                    "psdiDcatExt:operatingSystem": "Operating System :: OS Independent"
+                }
+            },
+            {
                 "@id": "psdiDcat:resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4",
                 "dcterms:identifier": "psdiDcat:resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4",
                 "@type": "dcat:Catalog",
@@ -12358,6 +12584,9 @@
                             "rdfs:label": "SimpNMR_DB Community Data Collection",
                             "@type": "rdfs:Resource",
                             "@id": "https://data-collections.psdi.ac.uk/communities/simpnmr_db"
+                        },
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08"
                         }
                     }
                 },
@@ -12627,217 +12856,6 @@
                             }
                         }
                     ]
-                }
-            },
-            {
-                "@id": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221",
-                "dcterms:identifier": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221",
-                "@type": "dcat:Catalog",
-                "dcterms:title": "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery",
-                "rdfs:label": "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery",
-                "dcterms:type": {
-                    "skos:prefLabel": "Collection",
-                    "@type": "skos:Concept",
-                    "@id": "http://purl.org/dc/dcmitype/Collection"
-                },
-                "dcterms:description": "Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling.",
-                "dcat:keyword": [
-                    "atomic simulation environment",
-                    "ASE",
-                    "MLIP",
-                    "machine learning interatomic potentials",
-                    "ACE",
-                    "MACE"
-                ],
-                "dcat:theme": [
-                    {
-                        "skos:prefLabel": "simulation software",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
-                    },
-                    {
-                        "skos:prefLabel": "machine learning",
-                        "@type": "skos:Concept",
-                        "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
-                    }
-                ],
-                "dcterms:publisher": {
-                    "foaf:name": "PSDI",
-                    "@type": "foaf:Agent",
-                    "@id": "http://www.psdi.ac.uk/"
-                },
-                "dcterms:creator": [
-                    {
-                        "foaf:name": "Thomas Rocke",
-                        "@type": "foaf:Agent",
-                        "@id": "https://orcid.org/0000-0002-4612-9112"
-                    },
-                    {
-                        "foaf:name": "James Kermode",
-                        "@type": "foaf:Agent",
-                        "@id": "https://orcid.org/0000-0001-6755-6271"
-                    }
-                ],
-                "dcat:contactPoint": {
-                    "@type": "vcard:Kind",
-                    "vcard:hasURL": "https://github.com/kermodegroup/ase_uhal/issues",
-                    "@id": "https://github.com/kermodegroup/ase_uhal/issues"
-                },
-                "dcterms:language": {
-                    "rdfs:label": "en",
-                    "@type": "dcterms:LinguisticSystem",
-                    "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                },
-                "adms:status": {
-                    "@type": "rdfs:Resource",
-                    "@id": "http://purl.org/adms/status/Completed"
-                },
-                "dcterms:license": {
-                    "rdfs:label": "MIT",
-                    "@type": "dcterms:LicenseDocument",
-                    "@id": "https://spdx.org/licenses/MIT.html"
-                },
-                "dcterms:accessRights": {
-                    "rdfs:label": "open access",
-                    "@type": "dcterms:RightsStatement",
-                    "@id": "http://purl.org/coar/access_right/c_abf2"
-                },
-                "psdiDcatExt:furtherInformation": [
-                    {
-                        "rdfs:label": "ase_uhal's documentation",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://kermodegroup.github.io/ase_uhal/"
-                    },
-                    {
-                        "rdfs:label": "ase-uhal PyPi page",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://pypi.org/project/ase-uhal/"
-                    }
-                ],
-                "psdiDcatExt:logoURL": {
-                    "rdfs:label": "universalHAL logo",
-                    "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png"
-                },
-                "psdiDcatExt:displayPriority": 2.0,
-                "psdiDcatExt:Tool": {
-                    "@id": "psdiDcat:tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0",
-                    "dcterms:identifier": "psdiDcat:tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0",
-                    "@type": "psdiDcatExt:Tool",
-                    "dcterms:title": "Universal HAL Python package",
-                    "rdfs:label": "Universal HAL Python package",
-                    "dcterms:type": {
-                        "skos:prefLabel": "Software",
-                        "@type": "skos:Concept",
-                        "@id": "http://purl.org/dc/dcmitype/Software"
-                    },
-                    "dcterms:description": "Implementation of 'Universal HyperActive Learning' compatible with the Atomic Simulation Environment (ASE). Building accurate machine learning models of atomic interactions requires carefully curated training datasets, but generating these datasets is often the hardest and most time-consuming part of the process. ase-uhal is a Python tool that automates and accelerates this data generation step by steering atomistic simulations towards configurations the model finds most informative, avoiding redundant calculations. Its 'universal' extension to the hyperactive learning (HAL) approach makes it compatible with the new generation of foundation models that can be fine-tuned for specific applications, and introduces a batched workflow that significantly improves throughput over existing methods. Available via 'pip install ase-uhal' and integrated with the widely used ASE ecosystem, the approach is demonstrated on an InGaP alloy system, showing that models fit to diverse training data outperform those fitted using random sampling. This tool is available as code which can be installed from a github repository or PyPi and run locally.",
-                    "dcat:keyword": [
-                        "atomic simulation environment",
-                        "ASE",
-                        "MLIP",
-                        "machine learning interatomic potentials",
-                        "ACE",
-                        "MACE"
-                    ],
-                    "dcat:theme": [
-                        {
-                            "skos:prefLabel": "simulation software",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
-                        },
-                        {
-                            "skos:prefLabel": "machine learning",
-                            "@type": "skos:Concept",
-                            "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d"
-                        }
-                    ],
-                    "dcterms:publisher": {
-                        "foaf:name": "PSDI",
-                        "@type": "foaf:Agent",
-                        "@id": "http://www.psdi.ac.uk/"
-                    },
-                    "dcterms:creator": [
-                        {
-                            "foaf:name": "Thomas Rocke",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0002-4612-9112"
-                        },
-                        {
-                            "foaf:name": "James Kermode",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0001-6755-6271"
-                        }
-                    ],
-                    "dcat:landingPage": {
-                        "rdfs:label": "ase_uhal github repository",
-                        "@type": "foaf:Document",
-                        "@id": "https://github.com/kermodegroup/ase_uhal"
-                    },
-                    "dcat:contactPoint": {
-                        "@type": "vcard:Kind",
-                        "vcard:hasURL": "https://github.com/kermodegroup/ase_uhal/issues",
-                        "@id": "https://github.com/kermodegroup/ase_uhal/issues"
-                    },
-                    "dcterms:language": {
-                        "rdfs:label": "en",
-                        "@type": "dcterms:LinguisticSystem",
-                        "@id": "http://id.loc.gov/vocabulary/iso639-1/en"
-                    },
-                    "adms:status": {
-                        "@type": "rdfs:Resource",
-                        "@id": "http://purl.org/adms/status/Completed"
-                    },
-                    "dcterms:issued": {
-                        "@value": "2026-03-24T00:00:00Z",
-                        "@type": "xsd:dateTime"
-                    },
-                    "dcterms:modified": {
-                        "@value": "2026-03-24T00:00:00Z",
-                        "@type": "xsd:dateTime"
-                    },
-                    "dcterms:license": {
-                        "rdfs:label": "MIT",
-                        "@type": "dcterms:LicenseDocument",
-                        "@id": "https://spdx.org/licenses/MIT.html"
-                    },
-                    "dcterms:accessRights": {
-                        "rdfs:label": "open access",
-                        "@type": "dcterms:RightsStatement",
-                        "@id": "http://purl.org/coar/access_right/c_abf2"
-                    },
-                    "dcat:version": "0.1.0",
-                    "psdiDcatExt:furtherInformation": [
-                        {
-                            "rdfs:label": "ase_uhal's documentation",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://kermodegroup.github.io/ase_uhal/"
-                        },
-                        {
-                            "rdfs:label": "ase-uhal PyPi page",
-                            "@type": "rdfs:Resource",
-                            "@id": "https://pypi.org/project/ase-uhal/"
-                        }
-                    ],
-                    "psdiDcatExt:logoURL": {
-                        "rdfs:label": "universalHAL logo",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png"
-                    },
-                    "dcterms:bibliographicCitation": "Please cite: Thomas Rocke and James Kermode. Universal HAL Python package. Online. Version 0.1.0. 24 March 2026. Available from: https://resources.psdi.ac.uk/tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0. [accessed YYYY-MM-DD].",
-                    "psdiDcatExt:displayPriority": 2.0,
-                    "dcat:inCatalog": {
-                        "@id": "psdiDcat:resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221"
-                    },
-                    "psdiDcatExt:repositoryURL": {
-                        "rdfs:label": "ase_uhal github repository",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://github.com/kermodegroup/ase_uhal"
-                    },
-                    "psdiDcatExt:installCommand": "pip install ase-uhal",
-                    "psdiDcatExt:programmingLanguage": "Programming Language :: Python :: 3.10 and greater",
-                    "psdiDcatExt:developmentStatus": "Development Status :: 3 - Alpha",
-                    "psdiDcatExt:operatingSystem": "Operating System :: OS Independent"
                 }
             },
             {
@@ -13311,6 +13329,9 @@
                             "rdfs:label": "AI Ready Datasets",
                             "@type": "rdfs:Resource",
                             "@id": "https://data-collections.psdi.ac.uk/communities/ai-ready-datasets"
+                        },
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08"
                         }
                     }
                 }
@@ -13544,6 +13565,9 @@
                             "rdfs:label": "Project M",
                             "@type": "rdfs:Resource",
                             "@id": "https://data-collections.psdi.ac.uk/communities/project-m"
+                        },
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08"
                         }
                     }
                 }
@@ -13791,6 +13815,9 @@
                             "rdfs:label": "TEM-ParticlesDB Community Data Collection",
                             "@type": "rdfs:Resource",
                             "@id": "https://data-collections.psdi.ac.uk/communities/tem-particlesdb"
+                        },
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08"
                         }
                     }
                 },
@@ -13883,6 +13910,11 @@
                         "@id": "http://purl.org/coar/access_right/c_abf2"
                     },
                     "dcat:version": "1.0.0",
+                    "psdiDcatExt:furtherInformation": {
+                        "rdfs:label": "TEMPOS github readme",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://github.com/AMCLab/TEMPOS/blob/main/README.md"
+                    },
                     "dcat:qualifiedRelation": {
                         "@type": "dcat:Relationship",
                         "dcterms:relation": {
@@ -14324,7 +14356,7 @@
                             "@type": "skos:Concept",
                             "@id": "http://purl.org/dc/dcmitype/Software"
                         },
-                        "dcterms:description": "Github repository for Crystallm-pi code - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern. The GitHub repository provides the full source code for users who wish to install and run it in their own environment.",
+                        "dcterms:description": "Github repository for CrystaLLM-pi code - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern. The GitHub repository provides the full source code for users who wish to install and run it in their own environment.",
                         "dcat:keyword": [
                             "materials discovery",
                             "crystal structure generation",
@@ -14480,13 +14512,16 @@
                             "@type": "skos:Concept",
                             "@id": "http://purl.org/dc/dcmitype/Software"
                         },
-                        "dcterms:description": "Docker container for Crystallm-pi - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern.\nThe Docker container provides a ready made environment for running Crystallm pi locally. It bundles all required dependencies and configuration so users can run the model without setting up the software stack themselves, making it easier to test the tool, reproduce results, or integrate it into existing workflows.",
+                        "dcterms:description": "Docker container for CrystaLLM-pi - a generative model for producing plausible structures for crystalline materials. It can be run in several ways: de novo to generate a plausible material with no constraints; to propose a crystal structure for a given chemical composition; or to produce a structure that is consistent with a supplied X ray diffraction (XRD) pattern.\nThe Docker container provides a ready made environment for running CrystaLLM-pi locally. It bundles all required dependencies and configuration so users can run the model without setting up the software stack themselves, making it easier to test the tool, reproduce results, or integrate it into existing workflows.",
                         "dcat:keyword": [
                             "materials discovery",
                             "crystal structure generation",
                             "generative machine learning",
                             "inverse materials design",
-                            "crystallographic data"
+                            "crystallographic data",
+                            "Docker",
+                            "container",
+                            "container image"
                         ],
                         "dcat:theme": [
                             {
@@ -15688,7 +15723,7 @@
                             "@type": "skos:Concept",
                             "@id": "http://purl.org/dc/dcmitype/Service"
                         },
-                        "dcterms:description": "DETHERM, developed and maintained by DECHEMA, is one of the world's largest collections of thermophysical property data. It brings together more than 13 million datasets covering over 100,000 pure compounds and 200,000 mixtures. The database includes a wide range of experimentally measured and evaluated properties - such as phase equilibrium data, vapour pressures, thermodynamic and transport properties, surface tensions, and electrolyte behaviour - along with associated bibliographic information, descriptors, and abstracts. The resource integrates data from several established collections, including the Dortmunder Datenbank (DDB), ELDAR, INFOTHERM, COMDOR, C DATA, BDBB, CAPEC SDB, and additional DECHEMA datasets. Access to DETHERM through PSDI is available to authenticated users within the UK academic community through its dedicated web portal, where searches can be refined by phase, temperature, pressure, and number of components. Note that users must be attached to an academic network to search DETHERM and download data.",
+                        "dcterms:description": "DETHERM, developed and maintained by DECHEMA, is one of the world's largest collections of thermophysical property data. It brings together more than 13 million datasets covering over 100,000 pure compounds and 200,000 mixtures. The database includes a wide range of experimentally measured and evaluated properties - such as phase equilibrium data, vapour pressures, thermodynamic and transport properties, surface tensions, and electrolyte behaviour - along with associated bibliographic information, descriptors, and abstracts. The resource integrates data from several established collections, including DDB (Dortmunder Datenbank), ELDAR (Electrolyte Data Collection), INFOTHERM (Thermophysical Database), COMDOR (Thermophysical Parameter Database), C-DATA (Data Collection), BDBB (Basic Database Bohlen), CAPEC-SDB (Solubility Database), and additional DECHEMA datasets. Access to DETHERM through PSDI is available to authenticated users within the UK academic community through its dedicated web portal, where searches can be refined by phase, temperature, pressure, and number of components. Note that users must be attached to an academic network to access DETHERM data.",
                         "dcat:keyword": [
                             "thermodynamic properties",
                             "transport properties",
@@ -15722,56 +15757,91 @@
                             "@type": "foaf:Agent",
                             "@id": "https://ror.org/01hsw0492/"
                         },
-                        "dcterms:creator": [
+                        "dcterms:creator": {
+                            "foaf:name": "DECHEMA",
+                            "@type": "foaf:Agent",
+                            "@id": "https://ror.org/01hsw0492/"
+                        },
+                        "prov:qualifiedAttribution": [
                             {
-                                "foaf:name": "DECHEMA",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/01hsw0492/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Dortmund Data Bank Software & Separation Technology GmbH",
+                                    "@type": "foaf:Agent",
+                                    "@id": "http://www.ddbst.com/"
+                                }
                             },
                             {
-                                "foaf:name": "Dortmund Data Bank Software & Separation Technology GmbH",
-                                "@type": "foaf:Agent",
-                                "@id": "http://www.ddbst.com/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "University of Regensburg",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://ror.org/01eezs655/"
+                                }
                             },
                             {
-                                "foaf:name": "University of Regensburg",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/01eezs655/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Wiley-VCH",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://ror.org/000gm1k91/"
+                                }
                             },
                             {
-                                "foaf:name": "Wiley-VCH",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/000gm1k91/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "University of Chemistry and Technology Prague",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://ror.org/05ggn0a85/"
+                                }
                             },
                             {
-                                "foaf:name": "University of Chemistry and Technology Prague",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/05ggn0a85/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Technical University of Denmark",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://ror.org/04qtj9h94/"
+                                }
                             },
                             {
-                                "foaf:name": "Technical University of Denmark",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/04qtj9h94/"
-                            },
-                            {
-                                "foaf:name": "Dow Chemical Netherlands",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/049px0x49/"
+                                "@type": "prov:Attribution",
+                                "dcat:hadRole": {
+                                    "rdfs:label": "Collaborator",
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator"
+                                },
+                                "prov:agent": {
+                                    "foaf:name": "Dow Chemical Netherlands",
+                                    "@type": "foaf:Agent",
+                                    "@id": "https://ror.org/049px0x49/"
+                                }
                             }
                         ],
-                        "prov:qualifiedAttribution": {
-                            "@type": "prov:Attribution",
-                            "dcat:hadRole": {
-                                "rdfs:label": "Resource provider",
-                                "@type": "rdfs:Resource",
-                                "@id": "https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider"
-                            },
-                            "prov:agent": {
-                                "foaf:name": "DECHEMA",
-                                "@type": "foaf:Agent",
-                                "@id": "https://ror.org/01hsw0492/"
-                            }
-                        },
                         "dcat:landingPage": {
                             "rdfs:label": "DETHERM",
                             "@type": "foaf:Document",
@@ -15850,7 +15920,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Collection"
                 },
-                "dcterms:description": "This resource theme contains AFM (Atomic Force Microscopy) resources that bring together tools and data collections to support the processing, analysis, and sharing of AFM datasets. The TopoStats tool enables the batch processing of AFM datafiles to obtain rich, quantitative statistics and is developed with the FAIR principles for research software in mind. The accompanying Community Data Collection, AFMDB, provides a platform for the sharing of AFM datafiles, along with processed images, to encourage open data practices and aid the devlopment of deep learning tools for enhanced AFM analysis.",
+                "dcterms:description": "This resource theme contains AFM (Atomic Force Microscopy) resources that bring together tools and data collections to support the processing, analysis, and sharing of AFM datasets. The TopoStats tool enables the batch processing of AFM datafiles to obtain rich, quantitative statistics and is developed with the FAIR principles for research software in mind. The accompanying Community Data Collection, AFMDB, provides a platform for the sharing of AFM datafiles, along with processed images, to encourage open data practices and aid the development of deep learning tools for enhanced AFM analysis.",
                 "dcat:keyword": [
                     "AFM",
                     "Atomic Force Microscopy",
@@ -15943,6 +16013,11 @@
                         "rdfs:label": "TopoStats Github Documentation",
                         "@type": "rdfs:Resource",
                         "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                    },
+                    {
+                        "rdfs:label": "Deep Learning-Enhanced TopoStats for the Automated Quantification of DNA and Complex Biomolecular Structures",
+                        "@type": "rdfs:Resource",
+                        "@id": "https://doi.org/10.64898/2026.05.06.723223"
                     }
                 ],
                 "psdiDcatExt:logoURL": {
@@ -16069,6 +16144,9 @@
                             "rdfs:label": "Atomic Force Microscopy Database, AFMDB",
                             "@type": "rdfs:Resource",
                             "@id": "https://data-collections.psdi.ac.uk/communities/afmdb"
+                        },
+                        "dcat:accessService": {
+                            "@id": "psdiDcat:service/d81616df-3daf-44c3-98b4-841e277dfe08"
                         }
                     }
                 },
@@ -16115,19 +16193,9 @@
                     },
                     "dcterms:creator": [
                         {
-                            "foaf:name": "Thomas E Catley",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0002-8919-2701"
-                        },
-                        {
                             "foaf:name": "Sylvia Whittle",
                             "@type": "foaf:Agent",
                             "@id": "https://orcid.org/0009-0008-9164-9513"
-                        },
-                        {
-                            "foaf:name": "Alice Pyne",
-                            "@type": "foaf:Agent",
-                            "@id": "https://orcid.org/0000-0002-2658-8987"
                         },
                         {
                             "foaf:name": "Max Gamill",
@@ -16150,6 +16218,11 @@
                             "@id": "https://github.com/tobyallwood"
                         },
                         {
+                            "foaf:name": "Tobias Firth",
+                            "@type": "foaf:Agent",
+                            "@id": "https://github.com/TFirth2"
+                        },
+                        {
                             "foaf:name": "Mingxue Du",
                             "@type": "foaf:Agent",
                             "@id": "https://orcid.org/0009-0008-9452-5719"
@@ -16165,9 +16238,14 @@
                             "@id": "https://github.com/bobturneruk"
                         },
                         {
-                            "foaf:name": "Tobias Firth",
+                            "foaf:name": "Thomas E Catley",
                             "@type": "foaf:Agent",
-                            "@id": "https://github.com/TFirth2"
+                            "@id": "https://orcid.org/0000-0002-8919-2701"
+                        },
+                        {
+                            "foaf:name": "Alice Pyne",
+                            "@type": "foaf:Agent",
+                            "@id": "https://orcid.org/0000-0002-2658-8987"
                         }
                     ],
                     "dcat:landingPage": {
@@ -16215,17 +16293,24 @@
                         "@id": "http://purl.org/coar/access_right/c_abf2"
                     },
                     "dcat:version": "2.4.0",
-                    "psdiDcatExt:furtherInformation": {
-                        "rdfs:label": "TopoStats Github Documentation",
-                        "@type": "rdfs:Resource",
-                        "@id": "https://afm-spm.github.io/TopoStats/latest/"
-                    },
+                    "psdiDcatExt:furtherInformation": [
+                        {
+                            "rdfs:label": "TopoStats Github Documentation",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                        },
+                        {
+                            "rdfs:label": "Deep Learning-Enhanced TopoStats for the Automated Quantification of DNA and Complex Biomolecular Structures",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://doi.org/10.64898/2026.05.06.723223"
+                        }
+                    ],
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "TopoStats logo",
                         "@type": "rdfs:Resource",
                         "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg"
                     },
-                    "dcterms:bibliographicCitation": "Please cite: Shephard, N., Whittle, S., Gamill, M., Du, M., & Pyne, A. (2023). TopoStats - Atomic Force Microscopy image processing and analysis (Version 2). The University of Sheffield. https://doi.org/10.15131/shef.data.22633528.v2 and Beton, J. G., Moorehead, R., Helfmann, L., Gray, R., Hoogenboom, B. W., Joseph, A. P., Topf, M., & Pyne, A. L. (2021). TopoStats - A program for automated tracing of biomolecules from AFM images. Methods, 193, 68-79. https://doi.org/10.1016/j.ymeth.2021.01.008",
+                    "dcterms:bibliographicCitation": "Please cite: 'Whittle, S., Firth, T. A., Gamill, M. C., Wiggins, L., Shephard, N., Allwood, T., Catley, T. E., Pyne, A. L. B., (2026). Deep Learning-Enhanced TopoStats for the Automated Quantification of DNA and Complex Biomolecular Structures. bioRxiv 2026.05.06.723223. https://doi.org/10.64898/2026.05.06.723223' and 'Beton, J. G., Moorehead, R., Helfmann, L., Gray, R., Hoogenboom, B. W., Joseph, A. P., Topf, M., & Pyne, A. L. (2021). TopoStats - A program for automated tracing of biomolecules from AFM images. Methods, 193, 68-79. https://doi.org/10.1016/j.ymeth.2021.01.008'",
                     "psdiDcatExt:displayPriority": 2.0,
                     "dcat:inCatalog": {
                         "@id": "psdiDcat:resource-theme/3e2af553-056d-4c3c-be77-ef13a90c286a"
