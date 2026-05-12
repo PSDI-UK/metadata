@@ -244,12 +244,16 @@
                     "@value": "2025-03-31T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
+                "dcterms:modified": {
+                    "@value": "2026-04-13T00:00:00Z",
+                    "@type": "xsd:dateTime"
+                },
                 "dcterms:accessRights": {
                     "rdfs:label": "open access",
                     "@type": "dcterms:RightsStatement",
                     "@id": "http://purl.org/coar/access_right/c_abf2"
                 },
-                "dcat:version": "1.1.0",
+                "dcat:version": "1.2.0",
                 "psdiDcatExt:furtherInformation": {
                     "rdfs:label": "Using PSDI Cross Data Search",
                     "@type": "rdfs:Resource",
@@ -1638,7 +1642,7 @@
                         },
                         "dcat:version": "1.0.0",
                         "psdiDcatExt:furtherInformation": {
-                            "rdfs:label": "About ChASe",
+                            "rdfs:label": "PSDI Knowledge Base article about ChASe",
                             "@type": "rdfs:Resource",
                             "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/chase"
                         },
@@ -1838,7 +1842,7 @@
                         },
                         "dcat:version": "1.0.0",
                         "psdiDcatExt:furtherInformation": {
-                            "rdfs:label": "About Propersea",
+                            "rdfs:label": "PSDI Knowledge Base article about Propersea",
                             "@type": "rdfs:Resource",
                             "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/propersea"
                         },
@@ -15214,7 +15218,7 @@
                     },
                     "psdiDcatExt:furtherInformation": [
                         {
-                            "rdfs:label": "About CSD",
+                            "rdfs:label": "PSDI Knowledge Base article about CSD",
                             "@type": "rdfs:Resource",
                             "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/csd"
                         },
@@ -15536,7 +15540,7 @@
                         },
                         "psdiDcatExt:furtherInformation": [
                             {
-                                "rdfs:label": "About CSD",
+                                "rdfs:label": "PSDI Knowledge Base article about CSD",
                                 "@type": "rdfs:Resource",
                                 "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/csd"
                             },
@@ -15881,7 +15885,7 @@
                         },
                         "psdiDcatExt:furtherInformation": [
                             {
-                                "rdfs:label": "DETHERM guidance",
+                                "rdfs:label": "PSDI Knowledge Base article about DETHERM",
                                 "@type": "rdfs:Resource",
                                 "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/detherm"
                             },
