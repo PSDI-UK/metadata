@@ -1,4 +1,17 @@
 # Change Log
+
+##2026-06-03
+* Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of Change Request PSDI-RC002-007:
+   * [Open-source Repositories for Flow Battery Data](https://resources.psdi.ac.uk/resource-theme/74250c87-eac4-4f18-b6ee-71b98c2df0c0)
+   * [High-Accuracy Excited-State Reference Benchmark Dataset for Organic Semiconductors](https://resources.psdi.ac.uk/resource-theme/30711e67-4d00-4fad-b7ea-f9b98c4467a8)
+* Updates of existing resources:
+   * Added new keywords to enable search "PSDI-pathfinder", "PSDI-funding-call-FC1-A1-2025" and "PSDI-funding-call-FC1-2025"
+   * Updated [OPTIMADE Data Providers](https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38)
+      * corrected dcat:Distribution/dcat:accessURL, moved dcat:landingPage (OPTIMADE homepage) to psdiDcatExt:furtherInformation and filled dcat:landingPage with OPTIMADE base_url
+      * added new OPTIMADE resource: [Matterverse](https://resources.psdi.ac.uk/optimade-matterverse-matterverse)
+   * Updated [Physical Chemistry Properties Data Sets (PChProp)](https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b) dcat:version and URL for OPTIMADE endpoint from https://pchprop-optimade.psdi.ac.uk to https://index.psdi.ac.uk/optimade/pchprop
+   * Added reverse dcat:servesDataset link to all data sources which have [PSDI Cross Data Search]( https://resources.psdi.ac.uk/service/6bc7c64d-ee3d-430b-be09-f26040886c3c) as an dcat:accessService 
+
 ##2026-05-11
 * Further minor updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-006
 

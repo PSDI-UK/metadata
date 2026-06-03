@@ -1,0 +1,547 @@
+@prefix dc11: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix euroscivoc: <http://data.europa.eu/8mn/euroscivoc/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <rdfs:> .
+@prefix psdiVocSubject: <http://metadata.psdi.ac.uk/psdi-voc-subject#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+psdiVocSubject:vocabulary dc11:Version "1.0.0"@en ;
+    dc11:subject euroscivoc:3d76a7f4-5a16-411e-ae44-7b712d5222ee,
+        euroscivoc:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    dcterms:conformsTo "CDIF_core_controlled_vocabulary_1.0"@en ;
+    dcterms:contributor <http://orcid.org/0000-0003-2397-1996> ;
+    dcterms:created "2025-12-09T15:26:01+00:00"^^xsd:dateTime ;
+    dcterms:creator <https://orcid.org/0000-0003-0121-1697> ;
+    dcterms:description "SKOS vocabulary defining nomenclature from EuroSciVoc used within the PSDI project."@en ;
+    dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
+    dcterms:modified "2025-12-17T11:40:01+00:00"^^xsd:dateTime ;
+    dcterms:publisher <http://www.psdi.ac.uk> ;
+    dcterms:title "PSDI subject vocabulary"@en ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:Concept psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a,
+        psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41,
+        psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9,
+        psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c,
+        psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452,
+        psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b,
+        psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15,
+        psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9,
+        psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f,
+        psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1,
+        psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d,
+        psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d,
+        psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8,
+        psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e,
+        psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db,
+        psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d,
+        psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe,
+        psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808,
+        psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac,
+        psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a,
+        psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a,
+        psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1,
+        psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0,
+        psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e,
+        psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539,
+        psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a,
+        psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1,
+        psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4,
+        psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10,
+        psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6,
+        psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
+        psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf,
+        psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
+        psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1,
+        psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad,
+        psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf,
+        psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f,
+        psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
+        psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382,
+        psdiVocSubject:multidisciplinary,
+        psdiVocSubject:other ;
+    skos:ConceptScheme psdiVocSubject:vocabularyConceptScheme ;
+    foaf:fundedBy <http://ror.org/0439y7842> ;
+    ns1:label "PSDI subject vocabulary"@en .
+
+euroscivoc:081ec693-4e8c-46cb-b4d7-4deb186b534a a skos:Concept .
+
+euroscivoc:0c67e976-ff93-4ca9-8ec7-ac06876e3e41 a skos:Concept .
+
+euroscivoc:10352c4c-328e-4dac-a89c-44b6be1420e9 a skos:Concept .
+
+euroscivoc:119b0e70-ed46-44ae-97e9-fe00411af08c a skos:Concept .
+
+euroscivoc:14e75836-6f05-46f9-9c82-ca12468b0452 a skos:Concept .
+
+euroscivoc:1d61ac8a-6360-432d-9729-f180ba76f24b a skos:Concept .
+
+euroscivoc:2d07f15f-2b3a-45d7-a246-411d3a061f15 a skos:Concept .
+
+euroscivoc:3d76a7f4-5a16-411e-ae44-7b712d5222ee a skosxl:Label ;
+    ns1:label "natural sciences"@en .
+
+euroscivoc:45e374e6-da15-44da-9995-9ddd9b01fea9 a skos:Concept .
+
+euroscivoc:4a8788fc-4172-461c-ae94-40be4f39043f a skos:Concept .
+
+euroscivoc:4b85aedb-f755-4e39-9c09-e387cc6ce3e1 a skos:Concept .
+
+euroscivoc:4c8f4b46-6f5c-41d9-9079-7de85c16431d a skos:Concept .
+
+euroscivoc:527ab165-56f2-4020-8975-e7cd3f21d01d a skos:Concept .
+
+euroscivoc:531bd18a-eedd-4345-8b2f-5464f96615f8 a skos:Concept .
+
+euroscivoc:57ae94b9-b0e2-4066-b910-3b58c015c17e a skos:Concept .
+
+euroscivoc:5ac3ab8e-7d50-4091-94e2-0eec71c915db a skos:Concept .
+
+euroscivoc:5ccac6a4-396a-4789-9506-de4ee54aae3d a skos:Concept .
+
+euroscivoc:61a310a8-87ce-448c-b5e5-28feab37defe a skos:Concept .
+
+euroscivoc:623da52d-1079-4ebc-bfe9-3072181d2808 a skos:Concept .
+
+euroscivoc:739766f0-539e-4fba-8144-9249bb38719a a skos:Concept .
+
+euroscivoc:7aca9814-d7a5-43b2-8521-0fa53e8bd36a a skos:Concept .
+
+euroscivoc:803cff73-504b-41ae-9873-1836c76c15d1 a skos:Concept .
+
+euroscivoc:8e469a25-b5fd-4bf3-8cc1-d14800e650e0 a skos:Concept .
+
+euroscivoc:995f4448-d135-4ba0-925f-e7afa18a0d0e a skos:Concept .
+
+euroscivoc:9db99312-b7aa-4a85-ba0e-b2dd05135539 a skos:Concept .
+
+euroscivoc:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a a skos:Concept .
+
+euroscivoc:a0e8e102-e50a-4883-a021-733345a8f1b1 a skos:Concept .
+
+euroscivoc:aafff649-e02a-496e-b436-284ce76044c4 a skos:Concept .
+
+euroscivoc:b078d965-cd9f-438b-888e-a86a2137ca10 a skos:Concept .
+
+euroscivoc:b3f4a4bc-41a0-4bd8-abff-f182893550c6 a skos:Concept .
+
+euroscivoc:bce870dd-43f3-4656-8866-d76b0d71f5b8 a skos:Concept .
+
+euroscivoc:c61cf6c6-8b52-4fbb-9b30-b09659e476cf a skos:Concept .
+
+euroscivoc:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 a skos:Concept .
+
+euroscivoc:dc1b3723-476f-453c-a596-c7ccfde9b4b1 a skos:Concept .
+
+euroscivoc:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad a skos:Concept .
+
+euroscivoc:dd6b64d9-afef-4d5e-8a93-6c251d2565cf a skos:Concept .
+
+euroscivoc:dde8eea3-9315-4c49-8464-f26a2deb949f a skos:Concept .
+
+euroscivoc:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 a skos:Concept .
+
+euroscivoc:f3cb3d46-1a4f-4c29-9e80-46a854f53382 a skos:Concept .
+
+<http://orcid.org/0000-0003-2397-1996> a foaf:Person ;
+    foaf:name "Aileen Day"@en ;
+    foaf:openid "http://orcid.org/0000-0003-2397-1996"@en .
+
+<http://ror.org/0439y7842> a foaf:Organization ;
+    foaf:name "Engineering and Physical Sciences Research Council (EPSRC)"@en ;
+    foaf:openid "http://ror.org/0439y7842"@en .
+
+<http://www.psdi.ac.uk> a foaf:Organization ;
+    foaf:name "Physical Sciences Data Infrastructure"@en ;
+    foaf:openid "http://www.psdi.ac.uk"@en .
+
+<https://orcid.org/0000-0003-0121-1697> a foaf:Person ;
+    foaf:name "Stephen Gow"@en ;
+    foaf:openid "https://orcid.org/0000-0003-0121-1697"@en .
+
+<https://spdx.org/licenses/CC0-1.0.html> a dcterms:LicenseDocument ;
+    ns1:label "Creative Commons Zero v1.0 Universal"@en .
+
+euroscivoc:64605fff-1946-4fd4-b021-e2e83b71dcac a skos:Concept,
+        skosxl:Label ;
+    ns1:label "engineering and technology"@en .
+
+psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf ;
+    skos:exactMatch euroscivoc:081ec693-4e8c-46cb-b4d7-4deb186b534a ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "soft matter physics"@en .
+
+psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:exactMatch euroscivoc:0c67e976-ff93-4ca9-8ec7-ac06876e3e41 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "microscopy"@en .
+
+psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:exactMatch euroscivoc:10352c4c-328e-4dac-a89c-44b6be1420e9 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "chemical engineering"@en .
+
+psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10 ;
+    skos:exactMatch euroscivoc:119b0e70-ed46-44ae-97e9-fe00411af08c ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "data exchange"@en .
+
+psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:exactMatch euroscivoc:14e75836-6f05-46f9-9c82-ca12468b0452 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "other engineering and technologies"@en .
+
+psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1 ;
+    skos:exactMatch euroscivoc:1d61ac8a-6360-432d-9729-f180ba76f24b ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "molecular biology"@en .
+
+psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:2d07f15f-2b3a-45d7-a246-411d3a061f15 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "organic chemistry"@en .
+
+psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4 ;
+    skos:exactMatch euroscivoc:4b85aedb-f755-4e39-9c09-e387cc6ce3e1 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "simulation software"@en .
+
+psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d ;
+    skos:exactMatch euroscivoc:527ab165-56f2-4020-8975-e7cd3f21d01d ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "machine learning"@en .
+
+psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:exactMatch euroscivoc:531bd18a-eedd-4345-8b2f-5464f96615f8 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "environmental engineering"@en .
+
+psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:5ac3ab8e-7d50-4091-94e2-0eec71c915db ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "mathematics"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:exactMatch euroscivoc:5ccac6a4-396a-4789-9506-de4ee54aae3d ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "nonlinear optics"@en .
+
+psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad ;
+    skos:exactMatch euroscivoc:61a310a8-87ce-448c-b5e5-28feab37defe ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "crystals"@en .
+
+psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:exactMatch euroscivoc:623da52d-1079-4ebc-bfe9-3072181d2808 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "absorption spectroscopy"@en .
+
+psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:exactMatch euroscivoc:739766f0-539e-4fba-8144-9249bb38719a ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "nanotechnology"@en .
+
+psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e ;
+    skos:exactMatch euroscivoc:7aca9814-d7a5-43b2-8521-0fa53e8bd36a ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "quantum chemistry"@en .
+
+psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f ;
+    skos:exactMatch euroscivoc:8e469a25-b5fd-4bf3-8cc1-d14800e650e0 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "environmental sciences"@en .
+
+psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10 ;
+    skos:exactMatch euroscivoc:995f4448-d135-4ba0-925f-e7afa18a0d0e ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "data processing"@en .
+
+psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:9db99312-b7aa-4a85-ba0e-b2dd05135539 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "polymer sciences"@en .
+
+psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9 ;
+    skos:exactMatch euroscivoc:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "organometallic chemistry"@en .
+
+psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4 ;
+    skos:exactMatch euroscivoc:a0e8e102-e50a-4883-a021-733345a8f1b1 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "software development"@en .
+
+psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:b3f4a4bc-41a0-4bd8-abff-f182893550c6 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "catalysis"@en .
+
+psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:dc1b3723-476f-453c-a596-c7ccfde9b4b1 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "analytical chemistry"@en .
+
+psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
+    skos:exactMatch euroscivoc:dd6b64d9-afef-4d5e-8a93-6c251d2565cf ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "computational science"@en .
+
+psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1 ;
+    skos:exactMatch euroscivoc:dde8eea3-9315-4c49-8464-f26a2deb949f ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "biochemistry"@en .
+
+psdiVocSubject:multidisciplinary a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:definition "Category for PSDI resources which fall under more than one of the subjects defined in this concept scheme."@en ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "multidisciplinary"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:other a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:definition "Category for PSDI resources which do not fall under any of the subjects defined in this concept scheme."@en ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:prefLabel "other"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:45e374e6-da15-44da-9995-9ddd9b01fea9 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a ;
+    skos:prefLabel "inorganic chemistry"@en .
+
+psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:4a8788fc-4172-461c-ae94-40be4f39043f ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0 ;
+    skos:prefLabel "earth and related environmental sciences"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
+    skos:exactMatch euroscivoc:4c8f4b46-6f5c-41d9-9079-7de85c16431d ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d ;
+    skos:prefLabel "artificial intelligence"@en .
+
+psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:exactMatch euroscivoc:57ae94b9-b0e2-4066-b910-3b58c015c17e ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a ;
+    skos:prefLabel "physical chemistry"@en .
+
+psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 ;
+    skos:exactMatch euroscivoc:c61cf6c6-8b52-4fbb-9b30-b09659e476cf ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a ;
+    skos:prefLabel "condensed matter physics"@en .
+
+psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:exactMatch euroscivoc:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe ;
+    skos:prefLabel "materials engineering"@en .
+
+psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:803cff73-504b-41ae-9873-1836c76c15d1 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b,
+        psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f ;
+    skos:prefLabel "biological sciences"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
+    skos:exactMatch euroscivoc:aafff649-e02a-496e-b436-284ce76044c4 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1,
+        psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1 ;
+    skos:prefLabel "software"@en .
+
+psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
+    skos:exactMatch euroscivoc:b078d965-cd9f-438b-888e-a86a2137ca10 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c,
+        psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e ;
+    skos:prefLabel "data science"@en .
+
+psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:altLabel "physical sciences"@en ;
+    skos:exactMatch euroscivoc:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf,
+        psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:prefLabel "physics"@en ;
+    skos:scopeNote "In EuroSciVoc, this concept is referred to as 'physical sciences'; within PSDI, the term 'physical sciences' is typically used in a broader sense encompassing all of the top-level concepts described in this concept scheme."@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:broader psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 ;
+    skos:exactMatch euroscivoc:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41,
+        psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d,
+        psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808 ;
+    skos:prefLabel "optics"@en .
+
+psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d,
+        psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4,
+        psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10,
+        psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf ;
+    skos:prefLabel "computer and information sciences"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9,
+        psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452,
+        psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8,
+        psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a,
+        psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad ;
+    skos:prefLabel "engineering and technology"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 a skos:Concept ;
+    skos:Collection psdiVocSubject:psdiSubjectCollection ;
+    skos:exactMatch euroscivoc:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:inScheme psdiVocSubject:vocabularyConceptScheme ;
+    skos:narrower psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15,
+        psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9,
+        psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e,
+        psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539,
+        psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6,
+        psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1 ;
+    skos:prefLabel "chemical sciences"@en ;
+    skos:topConceptOf psdiVocSubject:vocabularyConceptScheme .
+
+psdiVocSubject:psdiSubjectCollection a skos:Collection ;
+    skos:member psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a,
+        psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41,
+        psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9,
+        psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c,
+        psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452,
+        psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b,
+        psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15,
+        psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9,
+        psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f,
+        psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1,
+        psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d,
+        psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d,
+        psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8,
+        psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e,
+        psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db,
+        psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d,
+        psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe,
+        psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808,
+        psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac,
+        psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a,
+        psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a,
+        psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1,
+        psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0,
+        psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e,
+        psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539,
+        psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a,
+        psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1,
+        psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4,
+        psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10,
+        psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6,
+        psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
+        psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf,
+        psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
+        psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1,
+        psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad,
+        psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf,
+        psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f,
+        psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
+        psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382,
+        psdiVocSubject:multidisciplinary,
+        psdiVocSubject:other ;
+    skos:prefLabel "PSDI subjects top-level terms collection"@en .
+
+psdiVocSubject:vocabularyConceptScheme a skos:ConceptScheme ;
+    skos:hasTopConcept psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f,
+        psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db,
+        psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac,
+        psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1,
+        psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
+        psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
+        psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
+        psdiVocSubject:multidisciplinary,
+        psdiVocSubject:other ;
+    skos:prefLabel "PSDI subject Vocabulary concept scheme"@en .
+
