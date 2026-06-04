@@ -43,25 +43,25 @@
       margin-bottom: 0.5rem;
     }
 
-    .max-width-box>ul>details {
+    .content>.max-width-box>ul>details {
       width: min(95vw, 1320px);
     }
 
-    ul {
+    .content ul {
       list-style: none;
       padding-left: 2.5rem;
     }
 
-    ul:has(> details.depth0) {
+    .content ul:has(> details.depth0) {
       padding-left: 0;
     }
 
-    li::marker {
+    .content li::marker {
       content: "";
       display: none;
     }
 
-    li::before {
+    .content li::before {
       content: "●";
       display: inline-block;
       width: 1rem;
@@ -69,32 +69,32 @@
       margin-right: 2rem;
     }
 
-    details ul,
-    li.depth0 {
+    .content details ul,
+    .content li.depth0 {
       list-style-position: inside
     }
 
-    details {
+    .content details {
       --depth-scale: 1;
       overflow: hidden;
       margin-right: 0.5rem;
     }
 
-    details:has(> summary.depth0) {
+    .content details:has(> summary.depth0) {
       border: 1px solid var(--ifm-font-color-base);
       border-radius: calc(0.5rem*var(--depth-scale));
     }
 
-    details,
-    li {
+    .content details,
+    .content li {
       margin-bottom: calc(0.5rem*var(--depth-scale));
     }
 
-    ul {
+    .content ul {
       margin: 0.5rem;
     }
 
-    summary {
+    .content summary {
       display: block;
       padding-left: 1rem;
       position: relative;
@@ -102,7 +102,7 @@
       user-select: none;
     }
 
-    details>summary:before {
+    .content details>summary:before {
       content: "+";
       border: 1px solid var(--ifm-font-color-base);
       border-radius: calc(0.1rem*var(--depth-scale));
@@ -117,64 +117,64 @@
       text-align: center;
     }
 
-    details[open]>summary:before {
+    .content details[open]>summary:before {
       /* n-dash is used here, which is slightly wider than a hyphen */
       content: "–";
     }
 
-    details summary:hover {
+    .content details summary:hover {
       background-color: var(--ifm-background-color-secondary);
     }
 
-    li {
+    .content li {
       margin-left: 1rem;
     }
 
-    li,
-    details summary {
+    .content li,
+    .content details summary {
       font-size: calc(1rem*var(--depth-scale));
     }
 
-    details summary.depth0,
-    li.depth0 {
+    .content details summary.depth0,
+    .content li.depth0 {
       --depth-scale: 2;
     }
 
-    li :first-child {
+    .content li :first-child {
       margin-left: calc(-3rem + 1rem * var(--depth-scale));
     }
 
-    li:last-child {
+    .content li:last-child {
       margin-bottom: 0;
     }
 
-    details summary.depth1,
-    li.depth1 {
+    .content details summary.depth1,
+    .content li.depth1 {
       --depth-scale: 1.75;
     }
 
-    details summary.depth2,
-    li.depth2 {
+    .content details summary.depth2,
+    .content li.depth2 {
       --depth-scale: 1.6;
     }
 
-    details summary.depth3,
-    li.depth3 {
+    .content details summary.depth3,
+    .content li.depth3 {
       --depth-scale: 1.45;
     }
 
-    details summary.depth4,
-    li.depth4 {
+    .content details summary.depth4,
+    .content li.depth4 {
       --depth-scale: 1.3;
     }
 
-    details summary.depth5,
-    li.depth5 {
+    .content details summary.depth5,
+    .content li.depth5 {
       --depth-scale: 1.15;
     }
 
-    details summary.depth6,
-    li.depth6 {
+    .content details summary.depth6,
+    .content li.depth6 {
       --depth-scale: 1;
     }
   </style>
@@ -235,7 +235,7 @@
   
 
   
-  <div name="content">
+  <div name="content" class="content">
     <div class="max-width-box">
 
       <button type="button" class="button expand-all">+ Expand/collapse all</button>
@@ -384,6 +384,7 @@
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/idcc26-workshop-7-evolving-data-management-plans">IDCC26: Workshop 7 - Evolving data management plans</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/machine-learning-autumn-school-2023">Machine Learning for Atomistic Modelling Autumn School 2023</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/electronic-research-notebooks">Online Meeting on Electronic Research Notebooks: Implementation &amp; Adoption Success Stories</a></li>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/event/psdi_royce_materials_data_summit">PSDI &amp; Royce Materials Data Summit</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/psdi-showcase">PSDI Showcase</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/psdi-townhall">PSDI Townhall</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/polymer-workshop">Polymer workshop - FAIR access for everyone</a></li>
@@ -417,6 +418,7 @@
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/webinar-universal-usability">Webinar: Universal Usability</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/webinar-galaxy-platform">Webinar: Using the Galaxy Platform in Large Scale Experiments</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/webinar-data-auditing">Webinar: We can only have good science if we have good data - the case for data auditing</a></li>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/event/5th-ontologies4chem-workshop">Workshop: 5th Ontologies4Chem - Limburg, Germany</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/nmr_workshop_bath">Workshop: NMR Data Analysis of Paramagnetic Metal Complexes</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/workshop-ontologies4chem">Workshop: Ontologies4Chem - Limburg, Germany</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/event/psdi-community-workshop-southampton">Workshop: PSDI Community Workshop Southampton</a></li>
@@ -438,6 +440,7 @@
           <li class="depth2"><a href="https://www.psdi.ac.uk/event-funding-call">Event Funding Call</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/webinar-recording-available-19">FAIR materials database for NMR Crystallography: webinar recording available</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/webinar-recording-available-24">From Project to Platform: New Resources on PSDI - Session 1: webinar recording available</a></li>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/webinar-recording-available-25">From Project to Platform: New Resources on PSDI - Session 2: webinar recording available</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/green-algorithms-green-disc-and-greener-principles">Green Algorithms, Green DiSC and GREENER Principles: Making Computational Science more Environmentally Sustainable</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/webinar-recording-available-20">How do we use metadata to plug your Physical Science data or software into PSDI: webinar recording available</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/how-do-you-implement-an-electronic-lab-notebook">How do you implement an Electronic Lab Notebook? - The Southampton ELN trial and research</a></li>
@@ -461,6 +464,7 @@
           <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-updates-november-2023">PSDI Updates: November 2023</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-updates-september-2023-2">PSDI Updates: September 2023</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-webinar-updates-july-2023">PSDI Updates: Webinars July 2023</a></li>
+          <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-at-future-labs-live-2026-fair-data-elns-and-the-reality-of-ai-ready-research">PSDI at Future Labs Live 2026: FAIR Data, ELNs and the Reality of AI\xe2\x80\x91Ready Research</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/psdi-at-london-lab-live-2026-digital-labs-data-revival-and-the-next-decade-of-research-infrastructure">PSDI at London Lab Live 2026: digital labs, data revival and the next decade of research infrastructure</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/psds-transition">PSDS Transition</a></li>
           <li class="depth2"><a href="https://www.psdi.ac.uk/pathfinder-1-webinar-recording-available-2">Pathfinder 1 - Data processing in Catalysis: webinar recording available</a></li>
@@ -688,6 +692,18 @@
         <li class="depth1"><a href="https://data-conversion.psdi.ac.uk/report.htm">Report</a></li>
       </ul></details>
       <li class="depth0"><a href="https://data-search.psdi.ac.uk">PSDI Cross Data Search</a></li>
+      <details class="depth0"><summary class="depth0"><a href="https://organic-toolkit.psdi.ac.uk">PSDI Organic Toolkit</a></summary>
+      <ul>
+        <li class="depth1"><a href="https://organic-toolkit.psdi.ac.uk/documentation.html">Documentation</a></li>
+        <details class="depth1"><summary class="depth1"><a href="https://organic-toolkit.psdi.ac.uk/glorius-plot">PSDI Glorius Plot Generator</a></summary>
+        <ul>
+          <li class="depth2"><a href="https://organic-toolkit.psdi.ac.uk/glorius-plot/documentation.html">Documentation</a></li>
+        </ul></details>
+        <details class="depth1"><summary class="depth1"><a href="https://organic-toolkit.psdi.ac.uk/variability-plot">PSDI Variability Plot Generator</a></summary>
+        <ul>
+          <li class="depth2"><a href="https://organic-toolkit.psdi.ac.uk/variability-plot/documentation.html">Documentation</a></li>
+        </ul></details>
+      </ul></details>
       <li class="depth0"><a href="https://learn.psdi.ac.uk/moodle">PSDI Interactive Learning (Moodle)</a></li>
       <details class="depth0"><summary class="depth0"><a href="https://metadata.psdi.ac.uk">PSDI Metadata</a></summary>
       <ul>
@@ -878,7 +894,7 @@
 
   <div class="secondary">
     <div class="max-width-box">
-      Sitemap generated 2026-05-27 14:39 UTC.
+      Sitemap generated 2026-06-04 15:19 UTC.
     </div>
   </div>
   
