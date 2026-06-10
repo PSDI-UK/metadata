@@ -1,4 +1,10 @@
 # Change Log
+* Further minor updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-0067:
+   * updated dcterms:bibliographicCitation for [High-Accuracy Excited-State Reference Benchmark Dataset for Organic Semiconductors](https://resources.psdi.ac.uk/resource-theme/30711e67-4d00-4fad-b7ea-f9b98c4467a8 ) and the resources in it
+   * updated name of "OPTIMADE Providers' Datasets" resource theme (https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38) and shuffled urls displayed
+   * updated logo for [Physical Chemistry Properties Data Sets (PChProp)](https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b)
+
+##2026-06-10
 
 ##2026-06-03
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of Change Request PSDI-RC002-007:
