@@ -135,11 +135,18 @@
         "dcat:keyword": [
             "Research data"
         ],
-        "dcat:theme": {
-            "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
-            "@type": "skos:Concept",
-            "skos:prefLabel": "physical sciences"
-        },
+        "dcat:theme": [
+            {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee",
+                "@type": "skos:Concept",
+                "skos:prefLabel": "natural sciences"
+            },
+            {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac",
+                "@type": "skos:Concept",
+                "skos:prefLabel": "engineering and technology"
+            }
+        ],
         "dcterms:conformsTo": {
             "@id": "https://cross-domain-interoperability-framework.github.io/cdifbook/metadata/discovery.html",
             "rdfs:label": "CDIF_core_discovery_1.0",
@@ -1468,7 +1475,7 @@
                     {
                         "skos:prefLabel": "organic chemistry",
                         "@type": "skos:Concept",
-                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                     }
                 ],
                 "dcterms:publisher": {
@@ -1562,7 +1569,7 @@
                         "dcat:theme": {
                             "skos:prefLabel": "organic chemistry",
                             "@type": "skos:Concept",
-                            "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
                         "dcterms:publisher": {
                             "foaf:name": "PSDI",
@@ -1749,7 +1756,7 @@
                         "dcat:theme": {
                             "skos:prefLabel": "organic chemistry",
                             "@type": "skos:Concept",
-                            "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
                         "dcterms:publisher": {
                             "foaf:name": "PSDI",
@@ -6500,7 +6507,7 @@
                     {
                         "skos:prefLabel": "data processing",
                         "@type": "skos:Concept",
-                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                     },
                     {
                         "skos:prefLabel": "chemical sciences",
@@ -6615,7 +6622,7 @@
                             {
                                 "skos:prefLabel": "data processing",
                                 "@type": "skos:Concept",
-                                "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                             },
                             {
                                 "skos:prefLabel": "nonlinear optics",
@@ -6737,7 +6744,7 @@
                             {
                                 "skos:prefLabel": "data processing",
                                 "@type": "skos:Concept",
-                                "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                             },
                             {
                                 "skos:prefLabel": "chemical sciences",
@@ -14247,7 +14254,7 @@
                 "dcat:theme": {
                     "skos:prefLabel": "organic chemistry",
                     "@type": "skos:Concept",
-                    "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                    "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                 },
                 "dcterms:publisher": {
                     "foaf:name": "PSDI",
@@ -14347,7 +14354,7 @@
                         "dcat:theme": {
                             "skos:prefLabel": "organic chemistry",
                             "@type": "skos:Concept",
-                            "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
                         "dcterms:publisher": {
                             "foaf:name": "PSDI",
@@ -14456,7 +14463,7 @@
                         "dcat:theme": {
                             "skos:prefLabel": "organic chemistry",
                             "@type": "skos:Concept",
-                            "@id": "https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15"
                         },
                         "dcterms:publisher": {
                             "foaf:name": "PSDI",
@@ -16623,7 +16630,7 @@
                     {
                         "skos:prefLabel": "data processing",
                         "@type": "skos:Concept",
-                        "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                     },
                     {
                         "skos:prefLabel": "chemical sciences",
@@ -16744,7 +16751,7 @@
                             {
                                 "skos:prefLabel": "data processing",
                                 "@type": "skos:Concept",
-                                "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                             },
                             {
                                 "skos:prefLabel": "physical chemistry",
@@ -16978,7 +16985,7 @@
                             {
                                 "skos:prefLabel": "data processing",
                                 "@type": "skos:Concept",
-                                "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                             },
                             {
                                 "skos:prefLabel": "chemical sciences",
@@ -17124,7 +17131,7 @@
                             {
                                 "skos:prefLabel": "data processing",
                                 "@type": "skos:Concept",
-                                "@id": "http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e"
                             },
                             {
                                 "skos:prefLabel": "physical chemistry",

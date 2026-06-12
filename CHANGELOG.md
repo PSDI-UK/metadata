@@ -1,4 +1,23 @@
 # Change Log
+* Updated psdi-dcat.jsonld and psdi-dcat.ttl to tidy up dcat:theme values:
+   * changed overall dcat:theme from physical sciences (http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304) to [natural sciences] (http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee) and [engineering and technology](http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac)
+   * Replaced dcat:theme @id values of http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 with http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 for:
+      * [Chemical Availability Search (ChASe)](https://resources.psdi.ac.uk/data/e0e14403-1575-43db-a677-89aa515968e4)
+      * [Propersea (Property Prediction)](https://resources.psdi.ac.uk/data/6304dad5-8c21-4d05-aa38-349b641ffbf6)
+      * [Data Sources for PSDI Cross Data Search](https://resources.psdi.ac.uk/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622)
+    * Replaced dcat:theme @id values for "organic chemistry" of https://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 with http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 for:
+      * [PSDI Organic Toolkit](https://resources.psdi.ac.uk/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2)
+      * [PSDI Variability Plot Generator](https://resources.psdi.ac.uk/service/03290708-a2af-476b-a42a-d3f787dce487)
+      * [PSDI Glorius Plot Generator](https://resources.psdi.ac.uk/service/7b208979-1ac8-48b4-9ebc-a43581a10926)
+    * Replaced dcat:theme @id values for "data processing" of http://publications.europa.eu/resource/authority/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e with http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e
+       * [Case Studies: Discovering Value in Legacy Data](https://resources.psdi.ac.uk/resource-theme/61577a4d-ced8-4ebd-9443-88a54b74de1a)
+       * [Resurrecting Second Harmonic Generation (SHG) Case Study](https://resources.psdi.ac.uk/guidance/0ce7f2d9-d187-4398-b113-947856712ec0)
+       * [Making Electronic Supplementary Information (ESI) Machine-Readable Case Study](https://resources.psdi.ac.uk/guidance/e29a8e03-eec9-4fd4-9d14-6a86c19938cd)
+       * [Data Collections for Chemical Modelling](https://resources.psdi.ac.uk/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204)
+       * [Physical Chemistry Properties Data Sets (PChProp)](https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b)
+       * [Critical Micelle Concentration (CMC) Data Collection](https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34)
+       * [Physical Chemistry Properties Data Collection](https://resources.psdi.ac.uk/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2)
+
 * Further minor updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-0067:
    * updated dcterms:bibliographicCitation for [High-Accuracy Excited-State Reference Benchmark Dataset for Organic Semiconductors](https://resources.psdi.ac.uk/resource-theme/30711e67-4d00-4fad-b7ea-f9b98c4467a8 ) and the resources in it
    * updated name of "OPTIMADE Providers' Datasets" resource theme (https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38) and shuffled urls displayed
