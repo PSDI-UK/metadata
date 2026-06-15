@@ -1,4 +1,31 @@
 # Change Log
+
+##2026-06-15
+* Added first versions of psdi-voc-subject.jsonld, psdi-voc-subject.ttl, processed/subject_folders.json
+* Updated psdi-dcat.jsonld and psdi-dcat.ttl to tidy up dcat:theme values:
+   * Replaced dcat:theme @id values of http://data.europa.eu/8mn/euroscivoc/462e1880-f414-4394-9f47-905b6ed23b9f with http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6 (catalysis) for:
+      * Thematic Portal (Catalysis Data Infrastructure Example)(psdiDcat:resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb)
+      * Catalysis Data Infrastructure (CDI) Data Objects 
+      (psdiDcat:data/530ae29a-89eb-4562-b918-1fb66d8bfdb2)
+      * Catalysis Data Infrastructure (CDI) Publications (psdiDcat:data/caca6b34-2c2a-41ab-a1b3-2b789cc76421)
+      * Catalysis Data Infrastructure (CDI) Portal (psdiDcat:service/fc2fbf02-8638-414b-acb9-a16ea44dfff0)
+      * Catalysis Data Infrastructure (CDI) Bibliographic Data Web Service (psdiDcat:service/7a029bb3-5a5b-474e-8592-679a36d73818)
+      * Example Galaxy XAFS RO-Crate Workflows (psdiDcat:data/f40b1d5b-2b86-4381-959b-74ec89b854c7)
+      * Mini-Tutorials for XAFS RO-Crate Workflows in Galaxy (psdiDcat:guidance/f8c98217-7299-44f5-9a35-dac6c32ec52e)
+    * Replaced dcat:tehem @id values of http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea (inorganic chemistry) with http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77 (inorganic compounds) for:
+       * Thematic Portal (Catalysis Data Infrastructure Example)(psdiDcat:resource-theme/c670ea46-1db5-4439-9fef-a922c6452ebb)
+       * Catalysis Data Infrastructure (CDI) Data Objects 
+      (psdiDcat:data/530ae29a-89eb-4562-b918-1fb66d8bfdb2)
+       * Catalysis Data Infrastructure (CDI) Publications (psdiDcat:data/caca6b34-2c2a-41ab-a1b3-2b789cc76421)
+       * Catalysis Data Infrastructure (CDI) Portal (psdiDcat:service/fc2fbf02-8638-414b-acb9-a16ea44dfff0)
+       * Catalysis Data Infrastructure (CDI) Bibliographic Data Web Service (psdiDcat:service/7a029bb3-5a5b-474e-8592-679a36d73818)
+       * Example Galaxy XAFS RO-Crate Workflows (psdiDcat:data/f40b1d5b-2b86-4381-959b-74ec89b854c7)
+       * CrystaLLM-pi (AI-driven Prediction of Crystal Structure from Composition and Experimental Data) (psdiDcat:resource-theme/37242589-7d89-462a-afad-29386bcfcda4)
+       * PXRD-conditioned CrystaLLM-pi Web Application (AI-driven Prediction of Crystal Structure) (psdiDcat:service/32e801c3-7a81-488b-a15b-8f9240ea74b4)
+       * CrystaLLM-pi (AI-driven Prediction of Crystal Structure) Github Repository (psdiDcat:tool/b33b210b-93b1-495a-aa10-f38b01cd703f)
+       * Docker Container of CrystaLLM-pi (AI-driven Prediction of Crystal Structure) (psdiDcat:tool/d2f426b2-04df-4ed1-8778-c2082852088c)
+
+##2026-06-12
 * Updated psdi-dcat.jsonld and psdi-dcat.ttl to tidy up dcat:theme values:
    * changed overall dcat:theme from physical sciences (http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304) to [natural sciences] (http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee) and [engineering and technology](http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac)
    * Replaced dcat:theme @id values of http://publications.europa.eu/resource/authority/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 with http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15 for:
@@ -18,12 +45,11 @@
        * [Critical Micelle Concentration (CMC) Data Collection](https://resources.psdi.ac.uk/data/a7c82670-d2e2-46c6-920a-74294289aa34)
        * [Physical Chemistry Properties Data Collection](https://resources.psdi.ac.uk/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2)
 
+##2026-06-10
 * Further minor updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of testing for Change Request PSDI-RC002-0067:
    * updated dcterms:bibliographicCitation for [High-Accuracy Excited-State Reference Benchmark Dataset for Organic Semiconductors](https://resources.psdi.ac.uk/resource-theme/30711e67-4d00-4fad-b7ea-f9b98c4467a8 ) and the resources in it
    * updated name of "OPTIMADE Providers' Datasets" resource theme (https://resources.psdi.ac.uk/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38) and shuffled urls displayed
    * updated logo for [Physical Chemistry Properties Data Sets (PChProp)](https://resources.psdi.ac.uk/data/44160b2f-5938-442e-9f0a-652eb55d1c2b)
-
-##2026-06-10
 
 ##2026-06-03
 * Updates to psdi-dcat.jsonld and psdi-dcat.ttl as a result of Change Request PSDI-RC002-007:

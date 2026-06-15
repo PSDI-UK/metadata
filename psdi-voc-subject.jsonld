@@ -1,0 +1,887 @@
+{
+    "@context": [
+        {
+            "psdiVocSubject":"http://metadata.psdi.ac.uk/psdi-voc-subject#",
+            "dc11":"http://purl.org/dc/elements/1.1/",
+            "dcat":"http://www.w3.org/ns/dcat#",
+            "dcterms":"http://purl.org/dc/terms/",
+            "euroscivoc": "http://data.europa.eu/8mn/euroscivoc/",
+            "skos":"http://www.w3.org/2004/02/skos/core#",
+            "skosxl":"http://www.w3.org/2008/05/skos-xl#",
+            "foaf":"http://xmlns.com/foaf/0.1/",
+            "obo":"http://purl.obolibrary.org/obo/",
+            "owl":"http://www.w3.org/2002/07/owl#",
+            "rdf":"http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "rdfs:":"http://www.w3.org/2000/01/rdf-schema#",
+            "xsd":"http://www.w3.org/2001/XMLSchema#",
+            "skos:broader":{
+                "@type":"@id"
+            },
+            "skos:Collection":{
+                "@type":"@id"
+            },
+            "skos:exactMatch":{
+                "@type":"@id"
+            },
+            "skos:hasTopConcept":{
+                "@type":"@id"
+            },
+            "skos:inScheme":{
+                "@type":"@id"
+            },
+            "skos:member":{
+                "@type":"@id"
+            },
+            "skos:narrower":{
+                "@type":"@id"
+            },
+            "skos:related":{
+                "@type":"@id"
+            },
+            "skos:topConceptOf": {
+                "@type":"@id"
+            },
+            "@language":"en"
+        }
+    ],
+    "@id": "psdiVocSubject:vocabulary",
+    "dcterms:title": "PSDI subject vocabulary",
+    "rdfs:label": "PSDI subject vocabulary",
+    "dcterms:description": "SKOS vocabulary defining nomenclature from EuroSciVoc used within the PSDI project.",
+    "dc11:Version": "1.0.0",
+    "dcterms:conformsTo": "CDIF_core_controlled_vocabulary_1.0",
+    "dcterms:created": {
+        "@value": "2025-12-09T15:26:01Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:modified": {
+        "@value": "2025-12-17T11:40:01Z",
+        "@type": "xsd:dateTime"
+    },
+    "dcterms:creator": {
+        "@id": "https://orcid.org/0000-0003-0121-1697",
+        "foaf:name": "Stephen Gow",
+        "@type": "foaf:Person",
+        "foaf:openid": "https://orcid.org/0000-0003-0121-1697"
+     },
+    "dcterms:contributor": [
+        {
+			"@id": "http://orcid.org/0000-0003-2397-1996",
+			"foaf:name": "Aileen Day",
+			"@type": "foaf:Person",
+			"foaf:openid": "http://orcid.org/0000-0003-2397-1996"
+        }
+    ],
+    "dcterms:publisher": {
+        "@id": "http://www.psdi.ac.uk",
+        "foaf:name": "Physical Sciences Data Infrastructure",
+        "@type": "foaf:Organization",
+        "foaf:openid": "http://www.psdi.ac.uk"
+    },
+    "dcterms:license": {
+        "@id": "https://spdx.org/licenses/CC0-1.0.html",
+        "@type": "dcterms:LicenseDocument",
+        "rdfs:label": "Creative Commons Zero v1.0 Universal"
+    },
+    "foaf:fundedBy": {
+        "@id": "http://ror.org/0439y7842",
+        "@type": "foaf:Organization",
+        "foaf:name": "Engineering and Physical Sciences Research Council (EPSRC)",
+        "foaf:openid": "http://ror.org/0439y7842"
+    },
+    "dc11:subject": [
+        {
+            "@id": "http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee",
+            "@type": "skosxl:Label",
+            "rdfs:label": "natural sciences"
+        },
+        {
+            "@id": "http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "@type": "skosxl:Label",
+            "rdfs:label": "engineering and technology"
+        }
+    ],
+    "skos:ConceptScheme": {
+        "@id": "psdiVocSubject:vocabularyConceptScheme",
+        "@type": "skos:ConceptScheme",
+        "skos:prefLabel": "PSDI subject Vocabulary concept scheme",
+        "skos:hasTopConcept": [
+            "psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f",
+            "psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db",
+            "psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1",
+            "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "psdiVocSubject:other",
+            "psdiVocSubject:multidisciplinary"
+        ]
+    },
+    "skos:Collection": [
+        {
+            "@id": "psdiVocSubject:psdiSubjectFolderCollection",
+            "@type": "skos:Collection",
+            "skos:prefLabel": "PSDI subjects folders",
+            "skos:member": [
+                "psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f",
+                "psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0",
+                "psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db",
+                "psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1",
+                "psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b",
+                "psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f",
+                "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+                "psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15",
+                "psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9",
+                "psdiVocSubject:4e705211-8770-4a2a-8596-dbc25b41c83b",
+                "psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e",
+                "psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539",
+                "psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6",
+                "psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1",
+                "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+                "psdiVocSubject:05cb3438-9392-4a86-b945-2ff240183683",
+                "psdiVocSubject:0fce4b31-70e0-42f1-b844-5f7f0ce74914",
+                "psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213",
+                "psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+                "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+                "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+                "psdiVocSubject:1f6c74df-a512-462e-99aa-8dcbaa98972a",
+                "psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d",
+                "psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4",
+                "psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10",
+                "psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf",
+                "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+                "psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9",
+                "psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452",
+                "psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8",
+                "psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a",
+                "psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
+                "psdiVocSubject:other",
+                "psdiVocSubject:multidisciplinary"
+            ]
+        },
+        {
+            "@id": "psdiVocSubject:psdiSubjectTermCollection",
+            "@type": "skos:Collection",
+            "skos:prefLabel": "PSDI subjects terms",
+            "skos:member": [
+                "psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
+                "psdiVocSubject:e9da6561-23b9-48ac-9377-b68b13393e77",
+                "psdiVocSubject:2322520f-4e32-45e3-8f8b-bedc5ab4ba9b",
+                "psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a",
+                "psdiVocSubject:aa916836-94a3-4ae6-8d69-8d9d938a69ab",
+                "psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a",
+                "psdiVocSubject:1e41a6e4-0f75-496a-964e-adf5c3ec4b98",
+                "psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+                "psdiVocSubject:81c628f1-5365-4517-ae99-a6bdcc65ba24",
+                "psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d",
+                "psdiVocSubject:7b38f8b4-3f5a-4a59-84f8-d270c33146c8",
+                "psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808",
+                "psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d",
+                "psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1",
+                "psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1",
+                "psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c",
+                "psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                "psdiVocSubject:9f2d4860-d6ab-446c-bad7-a6e7e4801cf1",
+                "psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe"
+            ]
+        }
+    ],
+    "skos:Concept": [
+        {
+            "@id": "psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "earth and related environmental sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/4a8788fc-4172-461c-ae94-40be4f39043f",
+                "@type": "skos:Concept"
+            },
+            "skos:narrower": "psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:8e469a25-b5fd-4bf3-8cc1-d14800e650e0",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "environmental sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/8e469a25-b5fd-4bf3-8cc1-d14800e650e0",
+                "@type": "skos:Concept" 
+            },
+            "skos:broader": "psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:5ac3ab8e-7d50-4091-94e2-0eec71c915db",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "mathematics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/5ac3ab8e-7d50-4091-94e2-0eec71c915db",
+                "@type": "skos:Concept"
+            },
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "biological sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/803cff73-504b-41ae-9873-1836c76c15d1",
+                "@type": "skos:Concept"
+            },
+            "skos:narrower": [
+                "psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b",
+                "psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:1d61ac8a-6360-432d-9729-f180ba76f24b",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "molecular biology",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "biochemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "chemical sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8",
+                "@type": "skos:Concept" 
+            },
+            "skos:narrower": [
+                "psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15",
+                "psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9",
+                "psdiVocSubject:4e705211-8770-4a2a-8596-dbc25b41c83b",
+                "psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e",
+                "psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539",
+                "psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6",
+                "psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:2d07f15f-2b3a-45d7-a246-411d3a061f15",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "organic chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "inorganic chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/45e374e6-da15-44da-9995-9ddd9b01fea9",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:narrower": [
+                "psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
+                "psdiVocSubject:e9da6561-23b9-48ac-9377-b68b13393e77"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "organometallic chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:e9da6561-23b9-48ac-9377-b68b13393e77",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "inorganic compounds",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:45e374e6-da15-44da-9995-9ddd9b01fea9",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:4e705211-8770-4a2a-8596-dbc25b41c83b",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "electrochemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/4e705211-8770-4a2a-8596-dbc25b41c83b",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:narrower": "psdiVocSubject:2322520f-4e32-45e3-8f8b-bedc5ab4ba9b",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:2322520f-4e32-45e3-8f8b-bedc5ab4ba9b",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "electric batteries",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/2322520f-4e32-45e3-8f8b-bedc5ab4ba9b",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:4e705211-8770-4a2a-8596-dbc25b41c83b",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "physical chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/57ae94b9-b0e2-4066-b910-3b58c015c17e",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:narrower": "psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:7aca9814-d7a5-43b2-8521-0fa53e8bd36a",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "quantum chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:9db99312-b7aa-4a85-ba0e-b2dd05135539",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "polymer sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/9db99312-b7aa-4a85-ba0e-b2dd05135539",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:b3f4a4bc-41a0-4bd8-abff-f182893550c6",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "catalysis",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:dc1b3723-476f-453c-a596-c7ccfde9b4b1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "analytical chemistry",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/dc1b3723-476f-453c-a596-c7ccfde9b4b1",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "physics",
+            "skos:altLabel": "physical sciences",
+            "skos:scopeNote": "In EuroSciVoc, this concept is referred to as 'physical sciences'; within PSDI, the term 'physical sciences' is typically used in a broader sense encompassing all of the top-level concepts described in this concept scheme.",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+                "@type": "skos:Concept"
+            },
+            "skos:narrower": [
+                "psdiVocSubject:05cb3438-9392-4a86-b945-2ff240183683",
+                "psdiVocSubject:0fce4b31-70e0-42f1-b844-5f7f0ce74914",
+                "psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213",
+                "psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+                "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:05cb3438-9392-4a86-b945-2ff240183683",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "electromagnetism and electronics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/05cb3438-9392-4a86-b945-2ff240183683",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "skos:narrower": "psdiVocSubject:aa916836-94a3-4ae6-8d69-8d9d938a69ab",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:aa916836-94a3-4ae6-8d69-8d9d938a69ab",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "semiconductivity",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/aa916836-94a3-4ae6-8d69-8d9d938a69ab",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:05cb3438-9392-4a86-b945-2ff240183683",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:0fce4b31-70e0-42f1-b844-5f7f0ce74914",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "thermodynamics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/0fce4b31-70e0-42f1-b844-5f7f0ce74914",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "fluid mechanics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "condensed matter physics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "skos:narrower": [
+                "psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a",
+                "psdiVocSubject:1e41a6e4-0f75-496a-964e-adf5c3ec4b98"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "soft matter physics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a",
+                "@type": "skos:Concept" 
+            },
+            "skos:broader": "psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:1e41a6e4-0f75-496a-964e-adf5c3ec4b98",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "solid-state physics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/1e41a6e4-0f75-496a-964e-adf5c3ec4b98",
+                "@type": "skos:Concept" 
+            },
+            "skos:broader": "psdiVocSubject:c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "optics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304",
+            "skos:narrower": [
+                "psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+                "psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d",
+                "psdiVocSubject:7b38f8b4-3f5a-4a59-84f8-d270c33146c8"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "microscopy",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+            "skos:narrower": "psdiVocSubject:81c628f1-5365-4517-ae99-a6bdcc65ba24",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:81c628f1-5365-4517-ae99-a6bdcc65ba24",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "electron microscopy",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "nonlinear optics",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/5ccac6a4-396a-4789-9506-de4ee54aae3d",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:7b38f8b4-3f5a-4a59-84f8-d270c33146c8",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "spectroscopy",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382",
+            "skos:narrower": "psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "absorption spectroscopy",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/623da52d-1079-4ebc-bfe9-3072181d2808",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:7b38f8b4-3f5a-4a59-84f8-d270c33146c8",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "computer and information sciences",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+                "@type": "skos:Concept"
+            },
+            "skos:narrower": [
+                "psdiVocSubject:1f6c74df-a512-462e-99aa-8dcbaa98972a",
+                "psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d",
+                "psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4",
+                "psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10",
+                "psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:1f6c74df-a512-462e-99aa-8dcbaa98972a",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "databases",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/1f6c74df-a512-462e-99aa-8dcbaa98972a",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "artificial intelligence",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/4c8f4b46-6f5c-41d9-9079-7de85c16431d",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "skos:narrower": "psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:527ab165-56f2-4020-8975-e7cd3f21d01d",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "machine learning",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:4c8f4b46-6f5c-41d9-9079-7de85c16431d",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "software",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/aafff649-e02a-496e-b436-284ce76044c4",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "skos:narrower": [
+                "psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1",
+                "psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "software development",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/a0e8e102-e50a-4883-a021-733345a8f1b1",
+                "@type": "skos:Concept" 
+            },
+            "skos:broader": "psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:4b85aedb-f755-4e39-9c09-e387cc6ce3e1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "simulation software",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "data science",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/b078d965-cd9f-438b-888e-a86a2137ca10",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "skos:narrower": [
+                "psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c",
+                "psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "data exchange",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:995f4448-d135-4ba0-925f-e7afa18a0d0e",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "data processing",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:b078d965-cd9f-438b-888e-a86a2137ca10",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:dd6b64d9-afef-4d5e-8a93-6c251d2565cf",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "computational science",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/dd6b64d9-afef-4d5e-8a93-6c251d2565cf",
+                "@type": "skos:Concept" 
+            },
+            "skos:broader": "psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "engineering and technology",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac",
+                "@type": "skos:Concept"
+            },
+            "skos:narrower": [
+                "psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9",
+                "psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452",
+                "psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8",
+                "psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a",
+                "psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad"
+            ],
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:10352c4c-328e-4dac-a89c-44b6be1420e9",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "chemical engineering",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/10352c4c-328e-4dac-a89c-44b6be1420e9",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "other engineering and technologies",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/14e75836-6f05-46f9-9c82-ca12468b0452",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:531bd18a-eedd-4345-8b2f-5464f96615f8",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "environmental engineering",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/531bd18a-eedd-4345-8b2f-5464f96615f8",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "nanotechnology",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/739766f0-539e-4fba-8144-9249bb38719a",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "skos:narrower": "psdiVocSubject:9f2d4860-d6ab-446c-bad7-a6e7e4801cf1",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:9f2d4860-d6ab-446c-bad7-a6e7e4801cf1",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "nano-materials",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:739766f0-539e-4fba-8144-9249bb38719a",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "materials engineering",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac",
+            "skos:narrower": "psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+		{
+            "@id": "psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "crystals",
+            "skos:exactMatch": {
+                "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe",
+                "@type": "skos:Concept"
+            },
+            "skos:broader": "psdiVocSubject:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
+            "skos:Collection": "psdiVocSubject:psdiSubjectTermCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:other",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "other",
+            "skos:definition": "Category for PSDI resources which do not fall under any of the subjects defined in this concept scheme.",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        },
+        {
+            "@id": "psdiVocSubject:multidisciplinary",
+            "@type": "skos:Concept",
+            "skos:prefLabel": "multidisciplinary",
+            "skos:definition": "Category for PSDI resources which fall under more than one of the subjects defined in this concept scheme.",
+            "skos:Collection": "psdiVocSubject:psdiSubjectFolderCollection",
+            "skos:inScheme": "psdiVocSubject:vocabularyConceptScheme",
+            "skos:topConceptOf": "psdiVocSubject:vocabularyConceptScheme"
+        }
+    ]
+}
