@@ -32,8 +32,8 @@ run-name: Pull Sitemap Updates
 
 on:
   schedule:
-    # Run weekly, the day after the run is triggered in the metadata-processing repo to update sitemaps
-    - cron: "00 0 2,9,16,23 * *"
+    # Run weekly on Monday morning (the sources are updated Sunday morning, so this will create a PR the following day)
+    - cron: "00 0 * * mon"
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
