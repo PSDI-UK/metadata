@@ -1,4 +1,6 @@
 # Change Log
+##2026-06-26
+* Filled in blank dcterms:issued values for 19 resource themes and 5 services
 
 ##2026-06-15
 * Added first versions of psdi-voc-subject.jsonld, psdi-voc-subject.ttl, processed/subject_folders.json
