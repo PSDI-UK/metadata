@@ -1,4 +1,7 @@
 # Change Log
+##2026-07-02
+* Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl ahead of upcoming changes to dcterms:identifier
+
 ##2026-06-26
 * Filled in blank dcterms:issued values for 19 resource themes and 5 services
 

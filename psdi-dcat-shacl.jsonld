@@ -742,7 +742,7 @@
       },
       "sh:description": {
         "@language": "en",
-        "@value": "Link to a description of a relationship with another resource. describedBy: Refers to a resource providing information about the link's context. Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it. This property should be populated with the dcterms:identifier of that Guidance resource. Can be a list if there are more than one."
+        "@value": "Link to a description of a relationship with another resource. describedBy: Refers to a resource providing information about the link's context. Advice/information made available to PSDI users and contributors via the PSDI platform to provide guidance about this resource or associated with it. This property should be populated with the @id of that Guidance resource. Can be a list if there are more than one."
       },
       "sh:name": "Qualified Relation",
       "sh:path": {
@@ -1109,7 +1109,7 @@
       },
       "sh:description": {
         "@language": "en",
-        "@value": "The identifier is a text string which is assigned to the resource to provide an unambiguous reference within a particular context. For PSDI resources in the PSDI catalogue this identifier should be a version4 UUID."
+        "@value": "The identifier is a text string which is assigned to the resource to provide an unambiguous reference within a particular context. In DCAT this is a unique identifier of the resource being described or cataloged. In PSDI this is the url of the resource or resource theme being described in this PSDI catalogue."
       },
       "sh:maxCount": 1,
       "sh:minCount": 1,
@@ -1120,7 +1120,7 @@
       "sh:path": {
         "@id": "dcterms:identifier"
       },
-      "sh:pattern": "^(http:\\/\\/metadata.psdi.ac.uk\\/psdi-dcat\\/|psdiDcat:)(catalogue|resource-theme|data|service|tool|guidance)\\/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|optimade(.*)|resourceCatalogue)$"
+      "sh:pattern": "^(http:\\/\\/metadata.psdi.ac.uk\\/psdi-dcat\\/|https:\\/\\/resources.psdi.ac.uk\\/|psdiDcat:)(catalogue|resource-theme|data|service|tool|guidance)\\/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|optimade(.*)|resourceCatalogue)$"
     },
     {
       "@id": "psdiDcatShacl:DCTypePropertyShape",
@@ -1345,7 +1345,7 @@
       "rdfs:seeAlso": "https://www.w3.org/TR/vocab-dcat-3/#Property:data_service_serves_dataset",
       "sh:description": {
         "@language": "en",
-        "@value": "A collection of data that this data service can distribute. Should contain the dcterms:identifier of the dcat:Dataset that is served by this dataservice."
+        "@value": "A collection of data that this data service can distribute. Should contain the @id of the dcat:Dataset that is served by this dataservice."
       },
       "sh:name": "ServesDataset",
       "sh:nodeKind": {
@@ -1529,7 +1529,7 @@
       "rdfs:seeAlso": "http://purl.org/dc/terms/isPartOf",
       "sh:description": {
         "@language": "en",
-        "@value": "A related resource in which the described resource is physically or logically included. This property is intended to be used with non-literal values. This property is an inverse property of dcterms:hasPart. Additional (non-primary) parent resource theme that this resource belongs to - can be multiple values. If this resource belongs to additional resource theme(s), as well as its primary resource theme then this property should be populated with the dcterms:identifier of the DCAT catalog that contains it."
+        "@value": "A related resource in which the described resource is physically or logically included. This property is intended to be used with non-literal values. This property is an inverse property of dcterms:hasPart. Additional (non-primary) parent resource theme that this resource belongs to - can be multiple values. If this resource belongs to additional resource theme(s), as well as its primary resource theme then this property should be populated with the @id of the DCAT catalog that contains it."
       },
       "sh:name": "Is Part Of",
       "sh:nodeKind": {
@@ -1545,7 +1545,7 @@
       "@type": "sh:PropertyShape",
       "sh:description": {
         "@language": "en",
-        "@value": "Inverse of dcat:resource. Primary parent resource theme that this resource belongs to. If this resource belongs to a resource theme (true for everything apart from core-PSDI resources) this property should be populated with the dcterms:identifier of the DCAT catalog that contains it."
+        "@value": "Inverse of dcat:resource. Primary parent resource theme that this resource belongs to. If this resource belongs to a resource theme (true for everything apart from core-PSDI resources) this property should be populated with the @id of the DCAT catalog that contains it."
       },
       "sh:name": "In Catalog",
       "sh:nodeKind": {
@@ -2244,7 +2244,7 @@
       "rdfs:seeAlso": "https://www.w3.org/TR/vocab-dcat-3/#Property:distribution_access_service",
       "sh:description": {
         "@language": "en",
-        "@value": "A data service that gives access to the distribution of the dataset. dcat:accessService SHOULD be used to link to a description of a dcat:DataService that can provide access to this distribution. If data distribution is accessible (1) for the whole dataset to be downloaded as a direct link as a whole then use dcat:downloadURL:, (2) as a service, accessible via a direct url then use accessURL; (3) as a service or download from a landing page which governs access then use dcat:landingPage or (4) use accessService if it corresponds to a service that is described as a dcat:DataService (with an endpoint Url) - in this case accessService should contain its dcterms:identifier"
+        "@value": "A data service that gives access to the distribution of the dataset. dcat:accessService SHOULD be used to link to a description of a dcat:DataService that can provide access to this distribution. If data distribution is accessible (1) for the whole dataset to be downloaded as a direct link as a whole then use dcat:downloadURL:, (2) as a service, accessible via a direct url then use accessURL; (3) as a service or download from a landing page which governs access then use dcat:landingPage or (4) use accessService if it corresponds to a service that is described as a dcat:DataService (with an endpoint Url) - in this case accessService should contain its @id"
       },
       "sh:name": "Access Service",
       "sh:nodeKind": {
@@ -2301,7 +2301,7 @@
       "rdfs:seeAlso": "http://metadata.psdi.ac.uk/dcatExt#exampleData",
       "sh:description": {
         "@language": "en",
-        "@value": "An input dataset for this tool. This should be expressed as the dcterms:identifier of an appropriate DCAT dataset."
+        "@value": "An input dataset for this tool. This should be expressed as the @id of an appropriate DCAT dataset."
       },
       "sh:name": "Example Data",
       "sh:nodeKind": {
