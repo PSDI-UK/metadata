@@ -1120,7 +1120,7 @@
       "sh:path": {
         "@id": "dcterms:identifier"
       },
-      "sh:pattern": "^(http:\\/\\/metadata.psdi.ac.uk\\/psdi-dcat\\/|https:\\/\\/resources.psdi.ac.uk\\/|psdiDcat:)(catalogue|resource-theme|data|service|tool|guidance)\\/([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|optimade(.*)|resourceCatalogue)$"
+      "sh:pattern": "^(http:\\/\\/metadata.psdi.ac.uk\\/psdi-dcat\\/|https:\\/\\/resources.psdi.ac.uk\\/|psdiDcat:)(catalogue|resource-theme|data|service|tool|guidance)?(\\/)?([0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[1-5][0-9a-fA-F]{3}-[89abAB][0-9a-fA-F]{3}-[0-9a-fA-F]{12}|optimade(.*)|resourceCatalogue)?$"
     },
     {
       "@id": "psdiDcatShacl:DCTypePropertyShape",
