@@ -12750,6 +12750,2400 @@
                     {
                         "@id": "psdiDcat:data/01c14e6c-7dd2-4e25-96f2-75bb02400ed6"
                     }
+                ],
+                "dcat:Dataset": [
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-aflow-aflow",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-aflow-aflow",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search AFLOW in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=aflow.aflow"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://aflow.org",
+                                "rdfs:label": "OPTIMADE homepage for AFLOW"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://aflow.org/API/optimade/",
+                                "rdfs:label": "OPTIMADE base_url for AFLOW"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "AFLOW",
+                        "rdfs:label": "AFLOW",
+                        "dcterms:description": "Description of provider (AFLOW): Automatic FLOW (AFLOW) database for computational materials science. Description of dataset (AFLOW): The AFLOW OPTIMADE endpoint",
+                        "dcterms:bibliographicCitation": "Please cite: AFLOW. Online. Available from: https://resources.psdi.ac.uk/data/optimade-aflow-aflow. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-aflow-aflow-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=aflow.aflow",
+                                    "rdfs:label": "Search AFLOW in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search AFLOW in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search AFLOW alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-aflow-aflow-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://aflow.org/API/optimade/",
+                                    "rdfs:label": "OPTIMADE base_url for AFLOW"
+                                },
+                                "dcterms:title": "Query AFLOW using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for AFLOW"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-aflow-aflow-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://aflow.org",
+                                    "rdfs:label": "OPTIMADE homepage for AFLOW"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for AFLOW",
+                                "dcterms:description": "Homepage for AFLOW as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-alexandria-alexandria-pbesol",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbesol",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search alexandria in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbesol"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://alexandria.icams.rub.de",
+                                "rdfs:label": "OPTIMADE homepage for alexandria"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://alexandria.icams.rub.de/pbesol",
+                                "rdfs:label": "OPTIMADE base_url for alexandria"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Alexandria: alexandria-pbesol",
+                        "rdfs:label": "alexandria",
+                        "dcterms:description": "Description of provider (Alexandria): A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset (alexandria): A new dataset of 415k stable and metastable materials calculated with the PBEsol and SCAN functionals",
+                        "dcterms:bibliographicCitation": "Please cite: Alexandria: alexandria-pbesol. Online. Available from: https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbesol. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbesol-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbesol",
+                                    "rdfs:label": "Search alexandria in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Alexandria: alexandria-pbesol in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Alexandria: alexandria-pbesol alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbesol-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://alexandria.icams.rub.de/pbesol",
+                                    "rdfs:label": "OPTIMADE base_url for Alexandria: alexandria-pbesol"
+                                },
+                                "dcterms:title": "Query Alexandria: alexandria-pbesol using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Alexandria: alexandria-pbesol"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbesol-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://alexandria.icams.rub.de",
+                                    "rdfs:label": "OPTIMADE homepage for alexandria"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Alexandria: alexandria-pbesol",
+                                "dcterms:description": "Homepage for Alexandria: alexandria-pbesol as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-alexandria-alexandria-pbe",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbe",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search alexandria in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbe"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://alexandria.icams.rub.de",
+                                "rdfs:label": "OPTIMADE homepage for alexandria"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://alexandria.icams.rub.de/pbe",
+                                "rdfs:label": "OPTIMADE base_url for alexandria"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Alexandria: alexandria-pbe",
+                        "rdfs:label": "alexandria",
+                        "dcterms:description": "Description of provider (Alexandria): A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset (alexandria): A dataset of 2.5m+ stable and metastable materials calculated with the PBE functional",
+                        "dcterms:bibliographicCitation": "Please cite: Alexandria: alexandria-pbe. Online. Available from: https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbe. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbe-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbe",
+                                    "rdfs:label": "Search alexandria in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Alexandria: alexandria-pbe in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Alexandria: alexandria-pbe alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbe-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://alexandria.icams.rub.de/pbe",
+                                    "rdfs:label": "OPTIMADE base_url for Alexandria: alexandria-pbe"
+                                },
+                                "dcterms:title": "Query Alexandria: alexandria-pbe using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Alexandria: alexandria-pbe"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-alexandria-alexandria-pbe-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://alexandria.icams.rub.de",
+                                    "rdfs:label": "OPTIMADE homepage for alexandria"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Alexandria: alexandria-pbe",
+                                "dcterms:description": "Homepage for Alexandria: alexandria-pbe as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-mc3d-pbe-v1",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbe-v1",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search MC3D (PBE-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbe-v1"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/mc3d",
+                                "rdfs:label": "OPTIMADE homepage for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/mc3d-pbe-v1",
+                                "rdfs:label": "OPTIMADE base_url for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database",
+                        "rdfs:label": "MC3D (PBE-v1) - Materials Cloud 3D Structures Database",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBE-v1) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbe-v1. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbe-v1-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbe-v1",
+                                    "rdfs:label": "Search MC3D (PBE-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbe-v1-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/mc3d-pbe-v1",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "Query Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbe-v1-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/mc3d",
+                                    "rdfs:label": "OPTIMADE homepage for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database",
+                                "dcterms:description": "Homepage for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-mc3d-pbesol-v1",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v1",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v1"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/mc3d",
+                                "rdfs:label": "OPTIMADE homepage for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/mc3d-pbesol-v1",
+                                "rdfs:label": "OPTIMADE base_url for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database",
+                        "rdfs:label": "MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v1. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v1-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v1",
+                                    "rdfs:label": "Search MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v1-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/mc3d-pbesol-v1",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "Query Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v1-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/mc3d",
+                                    "rdfs:label": "OPTIMADE homepage for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database",
+                                "dcterms:description": "Homepage for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-mc3d-pbesol-v2",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v2",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v2"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/mc3d",
+                                "rdfs:label": "OPTIMADE homepage for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/mc3d-pbesol-v2",
+                                "rdfs:label": "OPTIMADE base_url for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database",
+                        "rdfs:label": "MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v2. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v2-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v2",
+                                    "rdfs:label": "Search MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v2-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/mc3d-pbesol-v2",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "Query Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc3d-pbesol-v2-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/mc3d",
+                                    "rdfs:label": "OPTIMADE homepage for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database",
+                                "dcterms:description": "Homepage for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-mc2d",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-mc2d",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search MC2D - Materials Cloud two-dimensional crystals database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc2d"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/mc2d",
+                                "rdfs:label": "OPTIMADE homepage for MC2D - Materials Cloud two-dimensional crystals database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/mc2d",
+                                "rdfs:label": "OPTIMADE base_url for MC2D - Materials Cloud two-dimensional crystals database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database",
+                        "rdfs:label": "MC2D - Materials Cloud two-dimensional crystals database",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC2D - Materials Cloud two-dimensional crystals database): Two-dimensional (2D) materials from high-throughput computational exfoliation of experimentally known compounds.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc2d. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc2d-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc2d",
+                                    "rdfs:label": "Search MC2D - Materials Cloud two-dimensional crystals database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc2d-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/mc2d",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"
+                                },
+                                "dcterms:title": "Query Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-mc2d-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/mc2d",
+                                    "rdfs:label": "OPTIMADE homepage for MC2D - Materials Cloud two-dimensional crystals database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database",
+                                "dcterms:description": "Homepage for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-2dtopo",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-2dtopo",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search 2D topological insulators in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.2dtopo"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/2dtopo",
+                                "rdfs:label": "OPTIMADE homepage for 2D topological insulators"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/2dtopo",
+                                "rdfs:label": "OPTIMADE base_url for 2D topological insulators"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: 2D topological insulators",
+                        "rdfs:label": "2D topological insulators",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (2D topological insulators): Quantum spin Hall insulator (QSHI) candidates through DFT band structure calculations.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: 2D topological insulators. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-2dtopo. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-2dtopo-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.2dtopo",
+                                    "rdfs:label": "Search 2D topological insulators in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: 2D topological insulators in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: 2D topological insulators alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-2dtopo-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/2dtopo",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: 2D topological insulators"
+                                },
+                                "dcterms:title": "Query Materials Cloud: 2D topological insulators using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: 2D topological insulators"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-2dtopo-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/2dtopo",
+                                    "rdfs:label": "OPTIMADE homepage for 2D topological insulators"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: 2D topological insulators",
+                                "dcterms:description": "Homepage for Materials Cloud: 2D topological insulators as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-pyrene-mofs",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-pyrene-mofs",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Pyrene-based metal organic frameworks in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.pyrene-mofs"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/pyrene-mofs",
+                                "rdfs:label": "OPTIMADE homepage for Pyrene-based metal organic frameworks"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/pyrene-mofs",
+                                "rdfs:label": "OPTIMADE base_url for Pyrene-based metal organic frameworks"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: Pyrene-based metal organic frameworks",
+                        "rdfs:label": "Pyrene-based metal organic frameworks",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Pyrene-based metal organic frameworks): Pyrene Metal Organic Frameworks (MOFs).",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: Pyrene-based metal organic frameworks. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-pyrene-mofs. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-pyrene-mofs-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.pyrene-mofs",
+                                    "rdfs:label": "Search Pyrene-based metal organic frameworks in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: Pyrene-based metal organic frameworks in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: Pyrene-based metal organic frameworks alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-pyrene-mofs-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/pyrene-mofs",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: Pyrene-based metal organic frameworks"
+                                },
+                                "dcterms:title": "Query Materials Cloud: Pyrene-based metal organic frameworks using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Pyrene-based metal organic frameworks"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-pyrene-mofs-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/pyrene-mofs",
+                                    "rdfs:label": "OPTIMADE homepage for Pyrene-based metal organic frameworks"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: Pyrene-based metal organic frameworks",
+                                "dcterms:description": "Homepage for Materials Cloud: Pyrene-based metal organic frameworks as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-curated-cofs",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-curated-cofs",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search CURATED covalent organic frameworks database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.curated-cofs"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/discover/curated-cofs",
+                                "rdfs:label": "OPTIMADE homepage for CURATED covalent organic frameworks database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/curated-cofs",
+                                "rdfs:label": "OPTIMADE base_url for CURATED covalent organic frameworks database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: CURATED covalent organic frameworks database",
+                        "rdfs:label": "CURATED covalent organic frameworks database",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (CURATED covalent organic frameworks database): Database of experimentally reported Covalent-Organic Frameworks (COFs), provided with DFT-optimized geometry and DDEC partial charges for molecular simulations.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: CURATED covalent organic frameworks database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-curated-cofs. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-curated-cofs-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.curated-cofs",
+                                    "rdfs:label": "Search CURATED covalent organic frameworks database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: CURATED covalent organic frameworks database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: CURATED covalent organic frameworks database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-curated-cofs-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/curated-cofs",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: CURATED covalent organic frameworks database"
+                                },
+                                "dcterms:title": "Query Materials Cloud: CURATED covalent organic frameworks database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: CURATED covalent organic frameworks database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-curated-cofs-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/discover/curated-cofs",
+                                    "rdfs:label": "OPTIMADE homepage for CURATED covalent organic frameworks database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: CURATED covalent organic frameworks database",
+                                "dcterms:description": "Homepage for Materials Cloud: CURATED covalent organic frameworks database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-stoceriaitf",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-stoceriaitf",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search SrTiO3-CeO2 interfaces in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.stoceriaitf"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/explore/stoceriaitf",
+                                "rdfs:label": "OPTIMADE homepage for SrTiO3-CeO2 interfaces"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/stoceriaitf",
+                                "rdfs:label": "OPTIMADE base_url for SrTiO3-CeO2 interfaces"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: SrTiO3-CeO2 interfaces",
+                        "rdfs:label": "SrTiO3-CeO2 interfaces",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (SrTiO3-CeO2 interfaces): Refining random structure searching results of SrTiO3-CeO2 interfaces, and exploring how it can affect ionic conduction. Candidate structures of the DFT validation calculations.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: SrTiO3-CeO2 interfaces. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-stoceriaitf. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-stoceriaitf-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.stoceriaitf",
+                                    "rdfs:label": "Search SrTiO3-CeO2 interfaces in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: SrTiO3-CeO2 interfaces in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: SrTiO3-CeO2 interfaces alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-stoceriaitf-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/stoceriaitf",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: SrTiO3-CeO2 interfaces"
+                                },
+                                "dcterms:title": "Query Materials Cloud: SrTiO3-CeO2 interfaces using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: SrTiO3-CeO2 interfaces"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-stoceriaitf-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/explore/stoceriaitf",
+                                    "rdfs:label": "OPTIMADE homepage for SrTiO3-CeO2 interfaces"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: SrTiO3-CeO2 interfaces",
+                                "dcterms:description": "Homepage for Materials Cloud: SrTiO3-CeO2 interfaces as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-autowannier",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-autowannier",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Automated high-throughput Wannierisation in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.autowannier"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/explore/autowannier",
+                                "rdfs:label": "OPTIMADE homepage for Automated high-throughput Wannierisation"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/autowannier",
+                                "rdfs:label": "OPTIMADE base_url for Automated high-throughput Wannierisation"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: Automated high-throughput Wannierisation",
+                        "rdfs:label": "Automated high-throughput Wannierisation",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Automated high-throughput Wannierisation): Validation results of an automated protocol for generating maximally-localized Wannier functions in a high-throughput framework.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: Automated high-throughput Wannierisation. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-autowannier. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-autowannier-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.autowannier",
+                                    "rdfs:label": "Search Automated high-throughput Wannierisation in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: Automated high-throughput Wannierisation in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: Automated high-throughput Wannierisation alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-autowannier-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/autowannier",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: Automated high-throughput Wannierisation"
+                                },
+                                "dcterms:title": "Query Materials Cloud: Automated high-throughput Wannierisation using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Automated high-throughput Wannierisation"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-autowannier-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/explore/autowannier",
+                                    "rdfs:label": "OPTIMADE homepage for Automated high-throughput Wannierisation"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: Automated high-throughput Wannierisation",
+                                "dcterms:description": "Homepage for Materials Cloud: Automated high-throughput Wannierisation as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mcloud-tin-antimony-sulfoiodide",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mcloud-tin-antimony-sulfoiodide",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.tin-antimony-sulfoiodide"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialscloud.org/explore/tin-antimony-sulfoiodide",
+                                "rdfs:label": "OPTIMADE homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide",
+                                "rdfs:label": "OPTIMADE base_url for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3",
+                        "rdfs:label": "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3",
+                        "dcterms:description": "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3): Structural, dynamic and electronic characterisation of a novel mixed-metal chalcohalide revealing hidden symmetry breaking and spontaneous polarisation.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-tin-antimony-sulfoiodide. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.tin-antimony-sulfoiodide",
+                                    "rdfs:label": "Search Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
+                                },
+                                "dcterms:title": "Query Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialscloud.org/explore/tin-antimony-sulfoiodide",
+                                    "rdfs:label": "OPTIMADE homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3",
+                                "dcterms:description": "Homepage for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "Multiple licenses"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mp-mp",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mp-mp",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search The Materials Project in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mp.mp"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.materialsproject.org",
+                                "rdfs:label": "OPTIMADE homepage for The Materials Project"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.materialsproject.org",
+                                "rdfs:label": "OPTIMADE base_url for The Materials Project"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "The Materials Project",
+                        "rdfs:label": "The Materials Project",
+                        "dcterms:description": "Description of provider (The Materials Project): An open database of computed materials properties to accelerate materials discovery and design. Description of dataset (The Materials Project): The Materials Project OPTIMADE endpoint",
+                        "dcterms:bibliographicCitation": "Please cite: The Materials Project. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mp-mp. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mp-mp-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mp.mp",
+                                    "rdfs:label": "Search The Materials Project in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search The Materials Project in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search The Materials Project alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mp-mp-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.materialsproject.org",
+                                    "rdfs:label": "OPTIMADE base_url for The Materials Project"
+                                },
+                                "dcterms:title": "Query The Materials Project using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for The Materials Project"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mp-mp-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.materialsproject.org",
+                                    "rdfs:label": "OPTIMADE homepage for The Materials Project"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for The Materials Project",
+                                "dcterms:description": "Homepage for The Materials Project as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mpdd-mpdd",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mpdd-mpdd",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Material-Property-Descriptor Database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mpdd.mpdd"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://phaseslab.com/mpdd",
+                                "rdfs:label": "OPTIMADE homepage for Material-Property-Descriptor Database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "http://mpddoptimade.phaseslab.org",
+                                "rdfs:label": "OPTIMADE base_url for Material-Property-Descriptor Database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Material-Property-Descriptor Database",
+                        "rdfs:label": "Material-Property-Descriptor Database",
+                        "dcterms:description": "Material-Property-Descriptor Database (MPDD) of atomic structures. Optimized for the high-throughput deployment of material featurizers and ML models. Maintained by Phases Research Lab (phaseslab.org) at The Pennsylvania State University",
+                        "dcterms:bibliographicCitation": "Please cite: Material-Property-Descriptor Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mpdd-mpdd. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpdd-mpdd-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mpdd.mpdd",
+                                    "rdfs:label": "Search Material-Property-Descriptor Database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Material-Property-Descriptor Database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Material-Property-Descriptor Database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpdd-mpdd-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://mpddoptimade.phaseslab.org",
+                                    "rdfs:label": "OPTIMADE base_url for Material-Property-Descriptor Database"
+                                },
+                                "dcterms:title": "Query Material-Property-Descriptor Database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Material-Property-Descriptor Database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpdd-mpdd-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://phaseslab.com/mpdd",
+                                    "rdfs:label": "OPTIMADE homepage for Material-Property-Descriptor Database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Material-Property-Descriptor Database",
+                                "dcterms:description": "Homepage for Material-Property-Descriptor Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-NC-SA-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-NC-SA-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-mpds-mpds",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-mpds-mpds",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Materials Platform for Data Science in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mpds.mpds"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://mpds.io",
+                                "rdfs:label": "OPTIMADE homepage for Materials Platform for Data Science"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://api.mpds.io",
+                                "rdfs:label": "OPTIMADE base_url for Materials Platform for Data Science"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Materials Platform for Data Science",
+                        "rdfs:label": "Materials Platform for Data Science",
+                        "dcterms:description": "A highly curated Pauling File dataset based on ~0.5M publications and backing up Springer Materials, ICDD PDF, ASM APD, MedeA, Pearson Crystal Data, AtomWork Advanced, etc.",
+                        "dcterms:bibliographicCitation": "Please cite: Materials Platform for Data Science. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mpds-mpds. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpds-mpds-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=mpds.mpds",
+                                    "rdfs:label": "Search Materials Platform for Data Science in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Materials Platform for Data Science in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Materials Platform for Data Science alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpds-mpds-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://api.mpds.io",
+                                    "rdfs:label": "OPTIMADE base_url for Materials Platform for Data Science"
+                                },
+                                "dcterms:title": "Query Materials Platform for Data Science using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Materials Platform for Data Science"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-mpds-mpds-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://mpds.io",
+                                    "rdfs:label": "OPTIMADE homepage for Materials Platform for Data Science"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Materials Platform for Data Science",
+                                "dcterms:description": "Homepage for Materials Platform for Data Science as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-matterverse-matterverse",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-matterverse-matterverse",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Matterverse in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=matterverse.matterverse"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://matterverse.ai",
+                                "rdfs:label": "OPTIMADE homepage for Matterverse"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.matterverse.ai",
+                                "rdfs:label": "OPTIMADE base_url for Matterverse"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Matterverse",
+                        "rdfs:label": "Matterverse",
+                        "dcterms:description": "Database of machine learning property predictions for over 31 million hypothetical materials and materials in the Materials Project.",
+                        "dcterms:bibliographicCitation": "Please cite: Matterverse. Online. Available from: https://resources.psdi.ac.uk/data/optimade-matterverse-matterverse. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-matterverse-matterverse-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=matterverse.matterverse",
+                                    "rdfs:label": "Search Matterverse in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Matterverse in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Matterverse alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-matterverse-matterverse-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.matterverse.ai",
+                                    "rdfs:label": "OPTIMADE base_url for Matterverse"
+                                },
+                                "dcterms:title": "Query Matterverse using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Matterverse"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-matterverse-matterverse-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://matterverse.ai",
+                                    "rdfs:label": "OPTIMADE homepage for Matterverse"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Matterverse",
+                                "dcterms:description": "Homepage for Matterverse as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-nmd-nmd",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-nmd-nmd",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search novel materials discovery (NOMAD) in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=nmd.nmd"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://nomad-lab.eu",
+                                "rdfs:label": "OPTIMADE homepage for novel materials discovery (NOMAD)"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://nomad-lab.eu/prod/v1/optimade/",
+                                "rdfs:label": "OPTIMADE base_url for novel materials discovery (NOMAD)"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "novel materials discovery (NOMAD)",
+                        "rdfs:label": "novel materials discovery (NOMAD)",
+                        "dcterms:description": "A FAIR data sharing platform for materials science data",
+                        "dcterms:bibliographicCitation": "Please cite: novel materials discovery (NOMAD). Online. Available from: https://resources.psdi.ac.uk/data/optimade-nmd-nmd. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-nmd-nmd-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=nmd.nmd",
+                                    "rdfs:label": "Search novel materials discovery (NOMAD) in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search novel materials discovery (NOMAD) in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search novel materials discovery (NOMAD) alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-nmd-nmd-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://nomad-lab.eu/prod/v1/optimade/",
+                                    "rdfs:label": "OPTIMADE base_url for novel materials discovery (NOMAD)"
+                                },
+                                "dcterms:title": "Query novel materials discovery (NOMAD) using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for novel materials discovery (NOMAD)"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-nmd-nmd-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://nomad-lab.eu",
+                                    "rdfs:label": "OPTIMADE homepage for novel materials discovery (NOMAD)"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for novel materials discovery (NOMAD)",
+                                "dcterms:description": "Homepage for novel materials discovery (NOMAD) as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-odbx-odbx_main",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-odbx-odbx_main",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search odbx in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_main"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://odbx.science",
+                                "rdfs:label": "OPTIMADE homepage for odbx"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade.odbx.science",
+                                "rdfs:label": "OPTIMADE base_url for odbx"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "open database of xtals: odbx",
+                        "rdfs:label": "odbx",
+                        "dcterms:description": "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (odbx): The Open Database of Xtals is run by the group of Dr Andrew Morris at the universities of Birmingham and Cambridge and is constructed using the matador library.",
+                        "dcterms:bibliographicCitation": "Please cite: open database of xtals: odbx. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-odbx_main. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_main-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_main",
+                                    "rdfs:label": "Search odbx in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search open database of xtals: odbx in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search open database of xtals: odbx alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_main-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade.odbx.science",
+                                    "rdfs:label": "OPTIMADE base_url for open database of xtals: odbx"
+                                },
+                                "dcterms:title": "Query open database of xtals: odbx using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for open database of xtals: odbx"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_main-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://odbx.science",
+                                    "rdfs:label": "OPTIMADE homepage for odbx"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for open database of xtals: odbx",
+                                "dcterms:description": "Homepage for open database of xtals: odbx as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-odbx-odbx_misc",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-odbx-odbx_misc",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Miscellaneous Materials Discovery Data in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_misc"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://github.com/ml-evs/optimade-misc-datasets",
+                                "rdfs:label": "OPTIMADE homepage for Miscellaneous Materials Discovery Data"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade-misc.odbx.science",
+                                "rdfs:label": "OPTIMADE base_url for Miscellaneous Materials Discovery Data"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "open database of xtals: Miscellaneous Materials Discovery Data",
+                        "rdfs:label": "Miscellaneous Materials Discovery Data",
+                        "dcterms:description": "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (Miscellaneous Materials Discovery Data): Miscellaneous Materials Discovery Datasets, hosted as an OPTIMADE API (temporarily).",
+                        "dcterms:bibliographicCitation": "Please cite: open database of xtals: Miscellaneous Materials Discovery Data. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-odbx_misc. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_misc-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_misc",
+                                    "rdfs:label": "Search Miscellaneous Materials Discovery Data in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search open database of xtals: Miscellaneous Materials Discovery Data in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search open database of xtals: Miscellaneous Materials Discovery Data alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_misc-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade-misc.odbx.science",
+                                    "rdfs:label": "OPTIMADE base_url for open database of xtals: Miscellaneous Materials Discovery Data"
+                                },
+                                "dcterms:title": "Query open database of xtals: Miscellaneous Materials Discovery Data using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for open database of xtals: Miscellaneous Materials Discovery Data"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-odbx_misc-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://github.com/ml-evs/optimade-misc-datasets",
+                                    "rdfs:label": "OPTIMADE homepage for Miscellaneous Materials Discovery Data"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for open database of xtals: Miscellaneous Materials Discovery Data",
+                                "dcterms:description": "Homepage for open database of xtals: Miscellaneous Materials Discovery Data as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": [
+                            {
+                                "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                                "@type": "dcterms:LicenseDocument",
+                                "rdfs:label": "CC-BY-4.0"
+                            },
+                            {
+                                "@id": "https://spdx.org/licenses/MIT.html",
+                                "@type": "dcterms:LicenseDocument",
+                                "rdfs:label": "MIT"
+                            }
+                        ]
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-odbx-gnome",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-odbx-gnome",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Google DeepMind's Gnome Dataset in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.gnome"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://github.com/ml-evs/optimade-gnome",
+                                "rdfs:label": "OPTIMADE homepage for Google DeepMind's Gnome Dataset"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://optimade-gnome.odbx.science",
+                                "rdfs:label": "OPTIMADE base_url for Google DeepMind's Gnome Dataset"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "open database of xtals: Google DeepMind's Gnome Dataset",
+                        "rdfs:label": "Google DeepMind's Gnome Dataset",
+                        "dcterms:description": "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (Google DeepMind's Gnome Dataset): An OPTIMADE API for the recent dataset released by Google DeepMind containing 340k new on-hull materials, according to PBE.",
+                        "dcterms:bibliographicCitation": "Please cite: open database of xtals: Google DeepMind's Gnome Dataset. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-gnome. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-gnome-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=odbx.gnome",
+                                    "rdfs:label": "Search Google DeepMind's Gnome Dataset in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search open database of xtals: Google DeepMind's Gnome Dataset in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search open database of xtals: Google DeepMind's Gnome Dataset alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-gnome-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://optimade-gnome.odbx.science",
+                                    "rdfs:label": "OPTIMADE base_url for open database of xtals: Google DeepMind's Gnome Dataset"
+                                },
+                                "dcterms:title": "Query open database of xtals: Google DeepMind's Gnome Dataset using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for open database of xtals: Google DeepMind's Gnome Dataset"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-odbx-gnome-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://github.com/ml-evs/optimade-gnome",
+                                    "rdfs:label": "OPTIMADE homepage for Google DeepMind's Gnome Dataset"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for open database of xtals: Google DeepMind's Gnome Dataset",
+                                "dcterms:description": "Homepage for open database of xtals: Google DeepMind's Gnome Dataset as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-NC-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-NC-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-omdb-omdb_production",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-omdb-omdb_production",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Open Materials Database (omdb) production database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=omdb.omdb_production"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "http://openmaterialsdb.se",
+                                "rdfs:label": "OPTIMADE homepage for Open Materials Database (omdb) production database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "http://optimade.openmaterialsdb.se",
+                                "rdfs:label": "OPTIMADE base_url for Open Materials Database (omdb) production database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Open Materials Database: Open Materials Database (omdb) production database",
+                        "rdfs:label": "Open Materials Database (omdb) production database",
+                        "dcterms:description": "Description of provider (Open Materials Database): The Open Materials Database (omdb) is a database of materials properties maintained by the developers of the High-Throughput Toolkit (httk). It enables easy access to useful materials data, in particular via programmatic interaction using this toolkit. Description of dataset (Open Materials Database (omdb) production database): This is the main production version of the Open Materials Database",
+                        "dcterms:bibliographicCitation": "Please cite: Open Materials Database: Open Materials Database (omdb) production database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-omdb-omdb_production. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-omdb-omdb_production-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=omdb.omdb_production",
+                                    "rdfs:label": "Search Open Materials Database (omdb) production database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Open Materials Database: Open Materials Database (omdb) production database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Open Materials Database: Open Materials Database (omdb) production database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-omdb-omdb_production-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://optimade.openmaterialsdb.se",
+                                    "rdfs:label": "OPTIMADE base_url for Open Materials Database: Open Materials Database (omdb) production database"
+                                },
+                                "dcterms:title": "Query Open Materials Database: Open Materials Database (omdb) production database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Open Materials Database: Open Materials Database (omdb) production database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-omdb-omdb_production-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://openmaterialsdb.se",
+                                    "rdfs:label": "OPTIMADE homepage for Open Materials Database (omdb) production database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Open Materials Database: Open Materials Database (omdb) production database",
+                                "dcterms:description": "Homepage for Open Materials Database: Open Materials Database (omdb) production database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-oqmd-oqmd",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-oqmd-oqmd",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search The OQMD in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=oqmd.oqmd"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://oqmd.org",
+                                "rdfs:label": "OPTIMADE homepage for The OQMD"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://oqmd.org/optimade/",
+                                "rdfs:label": "OPTIMADE base_url for The OQMD"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "The Open Quantum Materials Database (OQMD): The OQMD",
+                        "rdfs:label": "The OQMD",
+                        "dcterms:description": "Description of provider (The Open Quantum Materials Database (OQMD)): The OQMD is a database of DFT calculated thermodynamic and structural properties of materials. Description of dataset (The OQMD): The Open Quantum Materials Database endpoint",
+                        "dcterms:bibliographicCitation": "Please cite: The Open Quantum Materials Database (OQMD): The OQMD. Online. Available from: https://resources.psdi.ac.uk/data/optimade-oqmd-oqmd. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-oqmd-oqmd-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=oqmd.oqmd",
+                                    "rdfs:label": "Search The OQMD in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search The Open Quantum Materials Database (OQMD): The OQMD in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search The Open Quantum Materials Database (OQMD): The OQMD alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-oqmd-oqmd-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://oqmd.org/optimade/",
+                                    "rdfs:label": "OPTIMADE base_url for The Open Quantum Materials Database (OQMD): The OQMD"
+                                },
+                                "dcterms:title": "Query The Open Quantum Materials Database (OQMD): The OQMD using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for The Open Quantum Materials Database (OQMD): The OQMD"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-oqmd-oqmd-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://oqmd.org",
+                                    "rdfs:label": "OPTIMADE homepage for The OQMD"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for The Open Quantum Materials Database (OQMD): The OQMD",
+                                "dcterms:description": "Homepage for The Open Quantum Materials Database (OQMD): The OQMD as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-tcod-tcod",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-tcod-tcod",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search Theoretical Crystallography Open Database in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=tcod.tcod"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "https://www.crystallography.net/tcod",
+                                "rdfs:label": "OPTIMADE homepage for Theoretical Crystallography Open Database"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "https://www.crystallography.net/tcod/optimade",
+                                "rdfs:label": "OPTIMADE base_url for Theoretical Crystallography Open Database"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "Theoretical Crystallography Open Database",
+                        "rdfs:label": "Theoretical Crystallography Open Database",
+                        "dcterms:description": "Open-access collection of theoretically calculated or refined crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers",
+                        "dcterms:bibliographicCitation": "Please cite: Theoretical Crystallography Open Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-tcod-tcod. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-tcod-tcod-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=tcod.tcod",
+                                    "rdfs:label": "Search Theoretical Crystallography Open Database in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search Theoretical Crystallography Open Database in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search Theoretical Crystallography Open Database alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-tcod-tcod-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.crystallography.net/tcod/optimade",
+                                    "rdfs:label": "OPTIMADE base_url for Theoretical Crystallography Open Database"
+                                },
+                                "dcterms:title": "Query Theoretical Crystallography Open Database using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for Theoretical Crystallography Open Database"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-tcod-tcod-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://www.crystallography.net/tcod",
+                                    "rdfs:label": "OPTIMADE homepage for Theoretical Crystallography Open Database"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for Theoretical Crystallography Open Database",
+                                "dcterms:description": "Homepage for Theoretical Crystallography Open Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC0-1.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC0-1.0"
+                        }
+                    },
+                    {
+                        "@type": "dcat:Dataset",
+                        "dcterms:type": {
+                            "skos:prefLabel": "Dataset",
+                            "@type": "skos:Concept",
+                            "@id": "http://purl.org/dc/dcmitype/Dataset"
+                        },
+                        "dcat:keyword": [
+                            "OPTIMADE"
+                        ],
+                        "dcat:theme": {
+                            "skos:prefLabel": "crystals",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe"
+                        },
+                        "psdiDcatExt:logoURL": {
+                            "rdfs:label": "OPTIMADE logo",
+                            "@type": "rdfs:Resource",
+                            "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png"
+                        },
+                        "dcterms:accessRights": {
+                            "rdfs:label": "open access",
+                            "@type": "dcterms:RightsStatement",
+                            "@id": "http://purl.org/coar/access_right/c_abf2"
+                        },
+                        "dcat:inCatalog": {
+                            "@id": "psdiDcat:resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38"
+                        },
+                        "dcterms:isPartOf": {
+                            "@id": "psdiDcat:resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622"
+                        },
+                        "@id": "psdiDcat:data/optimade-twodmatpedia-twodmatpedia",
+                        "dcterms:identifier": "https://resources.psdi.ac.uk/data/optimade-twodmatpedia-twodmatpedia",
+                        "dcat:landingPage": {
+                            "@type": "foaf:Document",
+                            "rdfs:label": "Search 2DMatpedia in PSDI Cross Data Search",
+                            "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=twodmatpedia.twodmatpedia"
+                        },
+                        "psdiDcatExt:furtherInformation": [
+                            {
+                                "@type": "foaf:Document",
+                                "@id": "http://2dmatpedia.org",
+                                "rdfs:label": "OPTIMADE homepage for 2DMatpedia"
+                            },
+                            {
+                                "@type": "rdfs:Resource",
+                                "@id": "http://optimade.2dmatpedia.org",
+                                "rdfs:label": "OPTIMADE base_url for 2DMatpedia"
+                            }
+                        ],
+                        "psdiDcatExt:displayPriority": 3,
+                        "dcterms:title": "2DMatpedia",
+                        "rdfs:label": "2DMatpedia",
+                        "dcterms:description": "2DMatpedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches",
+                        "dcterms:bibliographicCitation": "Please cite: 2DMatpedia. Online. Available from: https://resources.psdi.ac.uk/data/optimade-twodmatpedia-twodmatpedia. [accessed YYYY-MM-DD].",
+                        "dcat:Distribution": [
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-twodmatpedia-twodmatpedia-i-data-search",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "https://data-search.psdi.ac.uk/find-a-substance?db=twodmatpedia.twodmatpedia",
+                                    "rdfs:label": "Search 2DMatpedia in PSDI Cross Data Search"
+                                },
+                                "dcterms:title": "Search 2DMatpedia in PSDI Cross Data Search",
+                                "dcterms:description": "Use PSDI Cross Data Search web user interface to search 2DMatpedia alongside other PSDI data sources by commonly defined fields."
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-twodmatpedia-twodmatpedia-i-base_url",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://optimade.2dmatpedia.org",
+                                    "rdfs:label": "OPTIMADE base_url for 2DMatpedia"
+                                },
+                                "dcterms:title": "Query 2DMatpedia using OPTIMADE endpoint",
+                                "dcterms:description": "Use this base_url when constructing OPTIMADE API queries for 2DMatpedia"
+                            },
+                            {
+                                "@type": "dcat:Distribution",
+                                "@id": "psdiDcat:distribution/optimade-twodmatpedia-twodmatpedia-i-homepage",
+                                "dcat:accessURL": {
+                                    "@type": "rdfs:Resource",
+                                    "@id": "http://2dmatpedia.org",
+                                    "rdfs:label": "OPTIMADE homepage for 2DMatpedia"
+                                },
+                                "dcterms:title": "OPTIMADE homepage for 2DMatpedia",
+                                "dcterms:description": "Homepage for 2DMatpedia as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."
+                            }
+                        ],
+                        "dcterms:license": {
+                            "@id": "https://spdx.org/licenses/CC-BY-4.0.html",
+                            "@type": "dcterms:LicenseDocument",
+                            "rdfs:label": "CC-BY-4.0"
+                        }
+                    }
                 ]
             },
             {

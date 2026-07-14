@@ -179,25 +179,25 @@
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ] .
+            prov:agent <http://doi.org/10.1021/ci034243x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/a7c82670-d2e2-46c6-920a-74294289aa34> a dcat:Dataset ;
     rdfs:label "psdi_cmc_data"^^xsd:string ;
@@ -233,6 +233,71 @@
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_owner> ;
             prov:agent <http://doi.org/10.6028/NBS.NSRDS.36> ] .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow> a dcat:Dataset ;
+    rdfs:label "AFLOW"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://aflow.org>,
+        <https://aflow.org/API/optimade/> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: AFLOW. Online. Available from: https://resources.psdi.ac.uk/data/optimade-aflow-aflow. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (AFLOW): Automatic FLOW (AFLOW) database for computational materials science. Description of dataset (AFLOW): The AFLOW OPTIMADE endpoint"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-aflow-aflow"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:title "AFLOW"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=aflow.aflow> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbe> a dcat:Dataset ;
+    rdfs:label "alexandria"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://alexandria.icams.rub.de>,
+        <https://alexandria.icams.rub.de/pbe> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Alexandria: alexandria-pbe. Online. Available from: https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbe. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Alexandria): A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset (alexandria): A dataset of 2.5m+ stable and metastable materials calculated with the PBE functional"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbe"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "Alexandria: alexandria-pbe"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbe> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol> a dcat:Dataset ;
+    rdfs:label "alexandria"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://alexandria.icams.rub.de>,
+        <https://alexandria.icams.rub.de/pbesol> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Alexandria: alexandria-pbesol. Online. Available from: https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbesol. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Alexandria): A collection of databases from the group of Prof Miguel A. L. Marques at Ruhr University Bochum. Description of dataset (alexandria): A new dataset of 415k stable and metastable materials calculated with the PBEsol and SCAN functionals"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-alexandria-alexandria-pbesol"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "Alexandria: alexandria-pbesol"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbesol> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cod-cod> a dcat:Dataset ;
     rdfs:label "PSDI COD"^^xsd:string ;
@@ -285,6 +350,489 @@
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <https://www.crystallography.net/cod/> ] .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-matterverse-matterverse> a dcat:Dataset ;
+    rdfs:label "Matterverse"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://matterverse.ai>,
+        <https://optimade.matterverse.ai> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Matterverse. Online. Available from: https://resources.psdi.ac.uk/data/optimade-matterverse-matterverse. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Database of machine learning property predictions for over 31 million hypothetical materials and materials in the Materials Project."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-matterverse-matterverse"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:title "Matterverse"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=matterverse.matterverse> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-2dtopo> a dcat:Dataset ;
+    rdfs:label "2D topological insulators"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/2dtopo>,
+        <https://www.materialscloud.org/discover/2dtopo> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: 2D topological insulators. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-2dtopo. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (2D topological insulators): Quantum spin Hall insulator (QSHI) candidates through DFT band structure calculations."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-2dtopo"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: 2D topological insulators"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.2dtopo> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-autowannier> a dcat:Dataset ;
+    rdfs:label "Automated high-throughput Wannierisation"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/autowannier>,
+        <https://www.materialscloud.org/explore/autowannier> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: Automated high-throughput Wannierisation. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-autowannier. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Automated high-throughput Wannierisation): Validation results of an automated protocol for generating maximally-localized Wannier functions in a high-throughput framework."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-autowannier"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: Automated high-throughput Wannierisation"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.autowannier> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-curated-cofs> a dcat:Dataset ;
+    rdfs:label "CURATED covalent organic frameworks database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/curated-cofs>,
+        <https://www.materialscloud.org/discover/curated-cofs> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: CURATED covalent organic frameworks database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-curated-cofs. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (CURATED covalent organic frameworks database): Database of experimentally reported Covalent-Organic Frameworks (COFs), provided with DFT-optimized geometry and DDEC partial charges for molecular simulations."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-curated-cofs"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: CURATED covalent organic frameworks database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.curated-cofs> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc2d> a dcat:Dataset ;
+    rdfs:label "MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/mc2d>,
+        <https://www.materialscloud.org/discover/mc2d> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc2d. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC2D - Materials Cloud two-dimensional crystals database): Two-dimensional (2D) materials from high-throughput computational exfoliation of experimentally known compounds."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-mc2d"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc2d> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbe-v1> a dcat:Dataset ;
+    rdfs:label "MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/mc3d-pbe-v1>,
+        <https://www.materialscloud.org/discover/mc3d> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbe-v1. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBE-v1) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbe-v1"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbe-v1> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbesol-v1> a dcat:Dataset ;
+    rdfs:label "MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/mc3d-pbesol-v1>,
+        <https://www.materialscloud.org/discover/mc3d> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v1. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v1"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v1> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbesol-v2> a dcat:Dataset ;
+    rdfs:label "MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/mc3d-pbesol-v2>,
+        <https://www.materialscloud.org/discover/mc3d> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v2. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database): Curated set of relaxed three-dimensional crystal structures based on raw CIF data from the experimental databases MPDS, COD, and ICSD."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-mc3d-pbesol-v2"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v2> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-pyrene-mofs> a dcat:Dataset ;
+    rdfs:label "Pyrene-based metal organic frameworks"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/pyrene-mofs>,
+        <https://www.materialscloud.org/discover/pyrene-mofs> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: Pyrene-based metal organic frameworks. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-pyrene-mofs. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Pyrene-based metal organic frameworks): Pyrene Metal Organic Frameworks (MOFs)."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-pyrene-mofs"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: Pyrene-based metal organic frameworks"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.pyrene-mofs> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-stoceriaitf> a dcat:Dataset ;
+    rdfs:label "SrTiO3-CeO2 interfaces"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/stoceriaitf>,
+        <https://www.materialscloud.org/explore/stoceriaitf> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: SrTiO3-CeO2 interfaces. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-stoceriaitf. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (SrTiO3-CeO2 interfaces): Refining random structure searching results of SrTiO3-CeO2 interfaces, and exploring how it can affect ionic conduction. Candidate structures of the DFT validation calculations."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-stoceriaitf"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: SrTiO3-CeO2 interfaces"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.stoceriaitf> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide> a dcat:Dataset ;
+    rdfs:label "Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide>,
+        <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mcloud-tin-antimony-sulfoiodide. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Materials Cloud): A platform for Open Science built for seamless sharing of resources in computational materials science. Description of dataset (Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3): Structural, dynamic and electronic characterisation of a novel mixed-metal chalcohalide revealing hidden symmetry breaking and spontaneous polarisation."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mcloud-tin-antimony-sulfoiodide"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/> ;
+    dcterms:title "Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.tin-antimony-sulfoiodide> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mp-mp> a dcat:Dataset ;
+    rdfs:label "The Materials Project"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://optimade.materialsproject.org>,
+        <https://www.materialsproject.org> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: The Materials Project. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mp-mp. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (The Materials Project): An open database of computed materials properties to accelerate materials discovery and design. Description of dataset (The Materials Project): The Materials Project OPTIMADE endpoint"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mp-mp"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "The Materials Project"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mp.mp> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpdd-mpdd> a dcat:Dataset ;
+    rdfs:label "Material-Property-Descriptor Database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <http://mpddoptimade.phaseslab.org>,
+        <https://phaseslab.com/mpdd> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Material-Property-Descriptor Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mpdd-mpdd. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Material-Property-Descriptor Database (MPDD) of atomic structures. Optimized for the high-throughput deployment of material featurizers and ML models. Maintained by Phases Research Lab (phaseslab.org) at The Pennsylvania State University"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mpdd-mpdd"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-NC-SA-4.0.html> ;
+    dcterms:title "Material-Property-Descriptor Database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mpdd.mpdd> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpds-mpds> a dcat:Dataset ;
+    rdfs:label "Materials Platform for Data Science"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://api.mpds.io>,
+        <https://mpds.io> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Materials Platform for Data Science. Online. Available from: https://resources.psdi.ac.uk/data/optimade-mpds-mpds. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "A highly curated Pauling File dataset based on ~0.5M publications and backing up Springer Materials, ICDD PDF, ASM APD, MedeA, Pearson Crystal Data, AtomWork Advanced, etc."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-mpds-mpds"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "Materials Platform for Data Science"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=mpds.mpds> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd> a dcat:Dataset ;
+    rdfs:label "novel materials discovery (NOMAD)"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://nomad-lab.eu>,
+        <https://nomad-lab.eu/prod/v1/optimade/> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: novel materials discovery (NOMAD). Online. Available from: https://resources.psdi.ac.uk/data/optimade-nmd-nmd. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "A FAIR data sharing platform for materials science data"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-nmd-nmd"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "novel materials discovery (NOMAD)"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=nmd.nmd> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome> a dcat:Dataset ;
+    rdfs:label "Google DeepMind's Gnome Dataset"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://github.com/ml-evs/optimade-gnome>,
+        <https://optimade-gnome.odbx.science> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: open database of xtals: Google DeepMind's Gnome Dataset. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-gnome. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (Google DeepMind's Gnome Dataset): An OPTIMADE API for the recent dataset released by Google DeepMind containing 340k new on-hull materials, according to PBE."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-odbx-gnome"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-NC-4.0.html> ;
+    dcterms:title "open database of xtals: Google DeepMind's Gnome Dataset"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.gnome> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_main> a dcat:Dataset ;
+    rdfs:label "odbx"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://odbx.science>,
+        <https://optimade.odbx.science> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: open database of xtals: odbx. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-odbx_main. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (odbx): The Open Database of Xtals is run by the group of Dr Andrew Morris at the universities of Birmingham and Cambridge and is constructed using the matador library."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-odbx-odbx_main"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:title "open database of xtals: odbx"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_main> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_misc> a dcat:Dataset ;
+    rdfs:label "Miscellaneous Materials Discovery Data"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://github.com/ml-evs/optimade-misc-datasets>,
+        <https://optimade-misc.odbx.science> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: open database of xtals: Miscellaneous Materials Discovery Data. Online. Available from: https://resources.psdi.ac.uk/data/optimade-odbx-odbx_misc. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (open database of xtals): A public database of crystal structures mostly derived from ab initio structure prediction from the group of Dr Andrew Morris at the University of Birmingham https://ajm143.github.io. Description of dataset (Miscellaneous Materials Discovery Data): Miscellaneous Materials Discovery Datasets, hosted as an OPTIMADE API (temporarily)."^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-odbx-odbx_misc"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html>,
+        <https://spdx.org/licenses/MIT.html> ;
+    dcterms:title "open database of xtals: Miscellaneous Materials Discovery Data"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_misc> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production> a dcat:Dataset ;
+    rdfs:label "Open Materials Database (omdb) production database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <http://openmaterialsdb.se>,
+        <http://optimade.openmaterialsdb.se> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Open Materials Database: Open Materials Database (omdb) production database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-omdb-omdb_production. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (Open Materials Database): The Open Materials Database (omdb) is a database of materials properties maintained by the developers of the High-Throughput Toolkit (httk). It enables easy access to useful materials data, in particular via programmatic interaction using this toolkit. Description of dataset (Open Materials Database (omdb) production database): This is the main production version of the Open Materials Database"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-omdb-omdb_production"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "Open Materials Database: Open Materials Database (omdb) production database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=omdb.omdb_production> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-oqmd-oqmd> a dcat:Dataset ;
+    rdfs:label "The OQMD"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://oqmd.org>,
+        <https://oqmd.org/optimade/> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: The Open Quantum Materials Database (OQMD): The OQMD. Online. Available from: https://resources.psdi.ac.uk/data/optimade-oqmd-oqmd. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Description of provider (The Open Quantum Materials Database (OQMD)): The OQMD is a database of DFT calculated thermodynamic and structural properties of materials. Description of dataset (The OQMD): The Open Quantum Materials Database endpoint"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-oqmd-oqmd"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "The Open Quantum Materials Database (OQMD): The OQMD"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=oqmd.oqmd> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-tcod-tcod> a dcat:Dataset ;
+    rdfs:label "Theoretical Crystallography Open Database"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <https://www.crystallography.net/tcod>,
+        <https://www.crystallography.net/tcod/optimade> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: Theoretical Crystallography Open Database. Online. Available from: https://resources.psdi.ac.uk/data/optimade-tcod-tcod. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "Open-access collection of theoretically calculated or refined crystal structures of organic, inorganic, metal-organic compounds and minerals, excluding biopolymers"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-tcod-tcod"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC0-1.0.html> ;
+    dcterms:title "Theoretical Crystallography Open Database"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=tcod.tcod> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-twodmatpedia-twodmatpedia> a dcat:Dataset ;
+    rdfs:label "2DMatpedia"^^xsd:string ;
+    psdiDcatExt:displayPriority 3e+00 ;
+    psdiDcatExt:furtherInformation <http://2dmatpedia.org>,
+        <http://optimade.2dmatpedia.org> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> ;
+    dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
+    dcterms:bibliographicCitation "Please cite: 2DMatpedia. Online. Available from: https://resources.psdi.ac.uk/data/optimade-twodmatpedia-twodmatpedia. [accessed YYYY-MM-DD]."^^xsd:string ;
+    dcterms:description "2DMatpedia, an open computational database of two-dimensional materials from top-down and bottom-up approaches"^^xsd:string ;
+    dcterms:identifier "https://resources.psdi.ac.uk/data/optimade-twodmatpedia-twodmatpedia"^^xsd:string ;
+    dcterms:isPartOf <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> ;
+    dcterms:license <https://spdx.org/licenses/CC-BY-4.0.html> ;
+    dcterms:title "2DMatpedia"^^xsd:string ;
+    dcterms:type dcmitype:Dataset ;
+    dcat:Distribution <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-base_url>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-data-search>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-homepage> ;
+    dcat:inCatalog <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> ;
+    dcat:keyword "OPTIMADE"^^xsd:string ;
+    dcat:landingPage <https://data-search.psdi.ac.uk/find-a-substance?db=twodmatpedia.twodmatpedia> ;
+    dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/distribution/027b6677-4cb7-4f0e-b109-4d6881f8276a> a dcat:Distribution ;
     dcterms:description "PSDI Community Data Colletion for BioSimDB"^^xsd:string ;
@@ -518,6 +1066,381 @@
     dcterms:title "Propersea (Property Prediction)"^^xsd:string ;
     dcat:accessService <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> ;
     dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance/molecule?db=psdi.propersea> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for AFLOW"^^xsd:string ;
+    dcterms:title "Query AFLOW using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://aflow.org/API/optimade/> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search AFLOW alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search AFLOW in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=aflow.aflow> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-aflow-aflow-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for AFLOW as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for AFLOW"^^xsd:string ;
+    dcat:accessURL <https://aflow.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Alexandria: alexandria-pbe"^^xsd:string ;
+    dcterms:title "Query Alexandria: alexandria-pbe using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://alexandria.icams.rub.de/pbe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Alexandria: alexandria-pbe alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Alexandria: alexandria-pbe in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbe> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbe-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Alexandria: alexandria-pbe as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Alexandria: alexandria-pbe"^^xsd:string ;
+    dcat:accessURL <https://alexandria.icams.rub.de> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Alexandria: alexandria-pbesol"^^xsd:string ;
+    dcterms:title "Query Alexandria: alexandria-pbesol using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://alexandria.icams.rub.de/pbesol> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Alexandria: alexandria-pbesol alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Alexandria: alexandria-pbesol in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbesol> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-alexandria-alexandria-pbesol-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Alexandria: alexandria-pbesol as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Alexandria: alexandria-pbesol"^^xsd:string ;
+    dcat:accessURL <https://alexandria.icams.rub.de> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Matterverse"^^xsd:string ;
+    dcterms:title "Query Matterverse using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.matterverse.ai> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Matterverse alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Matterverse in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=matterverse.matterverse> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-matterverse-matterverse-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Matterverse as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Matterverse"^^xsd:string ;
+    dcat:accessURL <https://matterverse.ai> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: 2D topological insulators"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: 2D topological insulators using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/2dtopo> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: 2D topological insulators alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: 2D topological insulators in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.2dtopo> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-2dtopo-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: 2D topological insulators as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: 2D topological insulators"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/2dtopo> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Automated high-throughput Wannierisation"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: Automated high-throughput Wannierisation using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/autowannier> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: Automated high-throughput Wannierisation alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: Automated high-throughput Wannierisation in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.autowannier> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-autowannier-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: Automated high-throughput Wannierisation as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: Automated high-throughput Wannierisation"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/explore/autowannier> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: CURATED covalent organic frameworks database"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: CURATED covalent organic frameworks database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/curated-cofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: CURATED covalent organic frameworks database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: CURATED covalent organic frameworks database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.curated-cofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-curated-cofs-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: CURATED covalent organic frameworks database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: CURATED covalent organic frameworks database"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/curated-cofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/mc2d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc2d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc2d-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/mc2d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/mc3d-pbe-v1> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbe-v1> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbe-v1-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/mc3d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/mc3d-pbesol-v1> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v1> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v1-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/mc3d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/mc3d-pbesol-v2> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v2> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-mc3d-pbesol-v2-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/mc3d> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Pyrene-based metal organic frameworks"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: Pyrene-based metal organic frameworks using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/pyrene-mofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: Pyrene-based metal organic frameworks alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: Pyrene-based metal organic frameworks in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.pyrene-mofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-pyrene-mofs-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: Pyrene-based metal organic frameworks as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: Pyrene-based metal organic frameworks"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/discover/pyrene-mofs> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: SrTiO3-CeO2 interfaces"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: SrTiO3-CeO2 interfaces using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/stoceriaitf> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: SrTiO3-CeO2 interfaces alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: SrTiO3-CeO2 interfaces in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.stoceriaitf> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-stoceriaitf-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: SrTiO3-CeO2 interfaces as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: SrTiO3-CeO2 interfaces"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/explore/stoceriaitf> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string ;
+    dcterms:title "Query Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.tin-antimony-sulfoiodide> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mcloud-tin-antimony-sulfoiodide-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string ;
+    dcat:accessURL <https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for The Materials Project"^^xsd:string ;
+    dcterms:title "Query The Materials Project using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.materialsproject.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search The Materials Project alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search The Materials Project in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mp.mp> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mp-mp-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for The Materials Project as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for The Materials Project"^^xsd:string ;
+    dcat:accessURL <https://www.materialsproject.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Material-Property-Descriptor Database"^^xsd:string ;
+    dcterms:title "Query Material-Property-Descriptor Database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <http://mpddoptimade.phaseslab.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Material-Property-Descriptor Database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Material-Property-Descriptor Database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mpdd.mpdd> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpdd-mpdd-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Material-Property-Descriptor Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Material-Property-Descriptor Database"^^xsd:string ;
+    dcat:accessURL <https://phaseslab.com/mpdd> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Materials Platform for Data Science"^^xsd:string ;
+    dcterms:title "Query Materials Platform for Data Science using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://api.mpds.io> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Materials Platform for Data Science alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Materials Platform for Data Science in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=mpds.mpds> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-mpds-mpds-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Materials Platform for Data Science as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Materials Platform for Data Science"^^xsd:string ;
+    dcat:accessURL <https://mpds.io> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for novel materials discovery (NOMAD)"^^xsd:string ;
+    dcterms:title "Query novel materials discovery (NOMAD) using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://nomad-lab.eu/prod/v1/optimade/> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search novel materials discovery (NOMAD) alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search novel materials discovery (NOMAD) in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=nmd.nmd> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-nmd-nmd-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for novel materials discovery (NOMAD) as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for novel materials discovery (NOMAD)"^^xsd:string ;
+    dcat:accessURL <https://nomad-lab.eu> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for open database of xtals: Google DeepMind's Gnome Dataset"^^xsd:string ;
+    dcterms:title "Query open database of xtals: Google DeepMind's Gnome Dataset using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade-gnome.odbx.science> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search open database of xtals: Google DeepMind's Gnome Dataset alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search open database of xtals: Google DeepMind's Gnome Dataset in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.gnome> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-gnome-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for open database of xtals: Google DeepMind's Gnome Dataset as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for open database of xtals: Google DeepMind's Gnome Dataset"^^xsd:string ;
+    dcat:accessURL <https://github.com/ml-evs/optimade-gnome> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for open database of xtals: odbx"^^xsd:string ;
+    dcterms:title "Query open database of xtals: odbx using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade.odbx.science> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search open database of xtals: odbx alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search open database of xtals: odbx in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_main> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_main-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for open database of xtals: odbx as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for open database of xtals: odbx"^^xsd:string ;
+    dcat:accessURL <https://odbx.science> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for open database of xtals: Miscellaneous Materials Discovery Data"^^xsd:string ;
+    dcterms:title "Query open database of xtals: Miscellaneous Materials Discovery Data using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://optimade-misc.odbx.science> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search open database of xtals: Miscellaneous Materials Discovery Data alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search open database of xtals: Miscellaneous Materials Discovery Data in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_misc> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-odbx-odbx_misc-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for open database of xtals: Miscellaneous Materials Discovery Data as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for open database of xtals: Miscellaneous Materials Discovery Data"^^xsd:string ;
+    dcat:accessURL <https://github.com/ml-evs/optimade-misc-datasets> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Open Materials Database: Open Materials Database (omdb) production database"^^xsd:string ;
+    dcterms:title "Query Open Materials Database: Open Materials Database (omdb) production database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <http://optimade.openmaterialsdb.se> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Open Materials Database: Open Materials Database (omdb) production database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Open Materials Database: Open Materials Database (omdb) production database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=omdb.omdb_production> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-omdb-omdb_production-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Open Materials Database: Open Materials Database (omdb) production database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Open Materials Database: Open Materials Database (omdb) production database"^^xsd:string ;
+    dcat:accessURL <http://openmaterialsdb.se> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for The Open Quantum Materials Database (OQMD): The OQMD"^^xsd:string ;
+    dcterms:title "Query The Open Quantum Materials Database (OQMD): The OQMD using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://oqmd.org/optimade/> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search The Open Quantum Materials Database (OQMD): The OQMD alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search The Open Quantum Materials Database (OQMD): The OQMD in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=oqmd.oqmd> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-oqmd-oqmd-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for The Open Quantum Materials Database (OQMD): The OQMD as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for The Open Quantum Materials Database (OQMD): The OQMD"^^xsd:string ;
+    dcat:accessURL <https://oqmd.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for Theoretical Crystallography Open Database"^^xsd:string ;
+    dcterms:title "Query Theoretical Crystallography Open Database using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <https://www.crystallography.net/tcod/optimade> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search Theoretical Crystallography Open Database alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search Theoretical Crystallography Open Database in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=tcod.tcod> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-tcod-tcod-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for Theoretical Crystallography Open Database as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for Theoretical Crystallography Open Database"^^xsd:string ;
+    dcat:accessURL <https://www.crystallography.net/tcod> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-base_url> a dcat:Distribution ;
+    dcterms:description "Use this base_url when constructing OPTIMADE API queries for 2DMatpedia"^^xsd:string ;
+    dcterms:title "Query 2DMatpedia using OPTIMADE endpoint"^^xsd:string ;
+    dcat:accessURL <http://optimade.2dmatpedia.org> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-data-search> a dcat:Distribution ;
+    dcterms:description "Use PSDI Cross Data Search web user interface to search 2DMatpedia alongside other PSDI data sources by commonly defined fields."^^xsd:string ;
+    dcterms:title "Search 2DMatpedia in PSDI Cross Data Search"^^xsd:string ;
+    dcat:accessURL <https://data-search.psdi.ac.uk/find-a-substance?db=twodmatpedia.twodmatpedia> .
+
+<http://metadata.psdi.ac.uk/psdi-dcat/distribution/optimade-twodmatpedia-twodmatpedia-i-homepage> a dcat:Distribution ;
+    dcterms:description "Homepage for 2DMatpedia as specified by OPTIMADE endpoint. OPTIMADE homepages give information about this dataset and often give an additional access point to it."^^xsd:string ;
+    dcterms:title "OPTIMADE homepage for 2DMatpedia"^^xsd:string ;
+    dcat:accessURL <http://2dmatpedia.org> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/06f88b4e-5d6c-4dc1-8ddd-51099c5bd387> a psdiDcatExt:Guidance ;
     rdfs:label "Sharing Data and FAIR Guidance"^^xsd:string ;
@@ -859,13 +1782,28 @@
         <http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0003-2502-5274> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0002-9971-6118> ],
@@ -874,25 +1812,10 @@
             prov:agent <http://orcid.org/0000-0002-1406-8802> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+            prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0001-6162-8895> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ] .
+            prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -1050,10 +1973,10 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/43f76f68-abd1-4fa4-802a-1d76ec2e1358> a dcat:DataService ;
     rdfs:label "Web Access to DETHERM"^^xsd:string ;
@@ -1096,22 +2019,22 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
         <http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/049px0x49/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
             prov:agent <http://www.ddbst.com/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/000gm1k91/> ],
+            prov:agent <https://ror.org/049px0x49/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
             prov:agent <https://ror.org/05ggn0a85/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/04qtj9h94/> ],
+            prov:agent <https://ror.org/000gm1k91/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/01eezs655/> ] .
+            prov:agent <https://ror.org/01eezs655/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
+            prov:agent <https://ror.org/04qtj9h94/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
     rdfs:label "Galaxy Workflow Management System Service"^^xsd:string ;
@@ -1336,10 +2259,10 @@ Bergerhoff, G. & Brown, I.D. in "Crystallographic Databases", F.H. Allen et al. 
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://orcid.org/0000-0002-6267-2692> ],
+            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
-            prov:agent <https://www.webofscience.com/wos/author/record/ENO-4093-2022> ] .
+            prov:agent <https://orcid.org/0000-0002-6267-2692> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/ef31fc5e-7f42-44af-b248-0fd6c871d77f> a dcat:DataService ;
     rdfs:label "Flow Battery Experimental Data Dashboard"^^xsd:string ;
@@ -2062,10 +2985,10 @@ At present, the dashboard is populated with data and metadata gathered through t
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/c397ce31-8a34-4624-b3db-4559588478dd> a psdiDcatExt:Tool ;
     rdfs:label "PSDI_Benchmark_Set_1500 Code Github Repository"^^xsd:string ;
@@ -2872,9 +3795,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-d-cod.svg> a rdfs:Resource ;
     rdfs:label "COD logo"^^xsd:string .
 
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
-    rdfs:label "OPTIMADE logo"^^xsd:string .
-
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit-r.png> a rdfs:Resource ;
     rdfs:label "PSDI Organic Toolkit logo"^^xsd:string .
 
@@ -2953,6 +3873,12 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_owner> a rdfs:Resource ;
     rdfs:label "Owner"^^xsd:string .
 
+<https://spdx.org/licenses/CC-BY-NC-4.0.html> a dcterms:LicenseDocument ;
+    rdfs:label "CC-BY-NC-4.0"^^xsd:string .
+
+<https://spdx.org/licenses/CC-BY-NC-SA-4.0.html> a dcterms:LicenseDocument ;
+    rdfs:label "CC-BY-NC-SA-4.0"^^xsd:string .
+
 <https://training.ccpbiosim.org> a foaf:Document ;
     rdfs:label "Cloud Based Jupyter aiida-gromacs Demo"^^xsd:string .
 
@@ -3003,6 +3929,10 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://xraypy.github.io/xraylarch> a foaf:Document ;
     rdfs:label "Larch, Data Analysis Tools for X-ray Spectroscopy"^^xsd:string .
+
+<http://2dmatpedia.org> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for 2DMatpedia"^^xsd:string .
 
 <http://cdi.ukcatalysishub.org/articles> a rdfs:Resource,
         foaf:Document ;
@@ -3136,13 +4066,13 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-9543-6725> ],
+            prov:agent <https://orcid.org/0000-0001-8035-5757> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-7003-9566> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8035-5757> ] .
+            prov:agent <https://orcid.org/0000-0002-9543-6725> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/1efa3139-865d-4a81-9426-3ca372217a7e> a dcat:Dataset ;
     rdfs:label "AI Ready Datasets"^^xsd:string ;
@@ -3177,37 +4107,37 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
+            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-9929-726X> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-3081-5644> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ] .
+            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2498-4214> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/5b597322-c7d9-4913-98d2-3e4ac313013a> a dcat:Dataset ;
     rdfs:label "Flow Battery Experimental Metadata Repository"^^xsd:string ;
@@ -3285,14 +4215,14 @@ In future phases, the catalogue will be open to submissions from the wider commu
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <https://orcid.org/0000-0003-1546-5911> ],
         [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
             prov:agent <https://orcid.org/0000-0001-8286-3835> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0002-3342-3160> ] .
@@ -3368,16 +4298,16 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
-            prov:agent <https://orcid.org/0000-0002-3342-3160> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
-            prov:agent <https://orcid.org/0000-0001-8286-3835> ] .
+            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
+            prov:agent <https://orcid.org/0000-0002-3342-3160> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
     rdfs:label "Example Galaxy XAFS RO-Crate Workflows"^^xsd:string ;
@@ -4095,37 +5025,37 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-9929-726X> ],
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
+            prov:agent <https://orcid.org/0000-0001-9929-726X> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0000-9662-0869> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2514-5762> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2498-4214> ] .
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-0371-4047> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/a5859fae-3d1d-46ee-9751-8e2d2a566221> a dcat:Catalog ;
     rdfs:label "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery"^^xsd:string ;
@@ -4437,6 +5367,20 @@ For users who want to reproduce or extend the workflow, the repository also incl
         <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
     dcat:version "2.0.8"^^xsd:string .
 
+<http://mpddoptimade.phaseslab.org> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Material-Property-Descriptor Database"^^xsd:string .
+
+<http://openmaterialsdb.se> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Open Materials Database (omdb) production database"^^xsd:string .
+
+<http://optimade.2dmatpedia.org> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for 2DMatpedia"^^xsd:string .
+
+<http://optimade.openmaterialsdb.se> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Open Materials Database (omdb) production database"^^xsd:string,
+        "OPTIMADE base_url for Open Materials Database: Open Materials Database (omdb) production database"^^xsd:string .
+
 <http://orcid.org/0000-0001-9449-7350> a foaf:Agent ;
     foaf:name "Harvey Devereux"^^xsd:string .
 
@@ -4491,8 +5435,26 @@ For users who want to reproduce or extend the workflow, the repository also incl
         foaf:Document ;
     rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
 
+<https://aflow.org> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for AFLOW"^^xsd:string .
+
+<https://aflow.org/API/optimade/> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for AFLOW"^^xsd:string .
+
 <https://afm-spm.github.io/TopoStats/latest/> a rdfs:Resource ;
     rdfs:label "TopoStats Github Documentation"^^xsd:string .
+
+<https://alexandria.icams.rub.de/pbe> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Alexandria: alexandria-pbe"^^xsd:string,
+        "OPTIMADE base_url for alexandria"^^xsd:string .
+
+<https://alexandria.icams.rub.de/pbesol> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Alexandria: alexandria-pbesol"^^xsd:string,
+        "OPTIMADE base_url for alexandria"^^xsd:string .
+
+<https://api.mpds.io> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Materials Platform for Data Science"^^xsd:string .
 
 <https://crystallm-pi.psdi.ac.uk> a rdfs:Resource,
         foaf:Document ;
@@ -4538,10 +5500,110 @@ For users who want to reproduce or extend the workflow, the repository also incl
     rdfs:label "Access Propersea"^^xsd:string,
         "Search Propersea in PSDI Cross Data Search"^^xsd:string .
 
+<https://data-search.psdi.ac.uk/find-a-substance?db=aflow.aflow> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search AFLOW in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbe> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search alexandria in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=alexandria.alexandria-pbesol> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search alexandria in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=matterverse.matterverse> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Matterverse in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.2dtopo> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search 2D topological insulators in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.autowannier> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Automated high-throughput Wannierisation in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.curated-cofs> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search CURATED covalent organic frameworks database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc2d> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search MC2D - Materials Cloud two-dimensional crystals database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbe-v1> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search MC3D (PBE-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v1> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.mc3d-pbesol-v2> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.pyrene-mofs> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Pyrene-based metal organic frameworks in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.stoceriaitf> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search SrTiO3-CeO2 interfaces in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mcloud.tin-antimony-sulfoiodide> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3 in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mp.mp> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search The Materials Project in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mpdd.mpdd> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Material-Property-Descriptor Database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=mpds.mpds> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Materials Platform for Data Science in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=nmd.nmd> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search novel materials discovery (NOMAD) in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=odbx.gnome> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Google DeepMind's Gnome Dataset in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_main> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search odbx in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=odbx.odbx_misc> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Miscellaneous Materials Discovery Data in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=omdb.omdb_production> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Open Materials Database (omdb) production database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=oqmd.oqmd> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search The OQMD in PSDI Cross Data Search"^^xsd:string .
+
 <https://data-search.psdi.ac.uk/find-a-substance?db=psdi.csd> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "Cambridge Structural Database"^^xsd:string,
         "Cambridge Structural Database via PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=tcod.tcod> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search Theoretical Crystallography Open Database in PSDI Cross Data Search"^^xsd:string .
+
+<https://data-search.psdi.ac.uk/find-a-substance?db=twodmatpedia.twodmatpedia> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "Search 2DMatpedia in PSDI Cross Data Search"^^xsd:string .
 
 <https://dechema.de/en/impressum.html> a dcterms:LicenseDocument ;
     rdfs:label "DECHEMA Legal Notice"^^xsd:string .
@@ -4608,6 +5670,14 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://github.com/libAtoms/abcd/issues> a vcard:Kind ;
     vcard:hasURL <https://github.com/libAtoms/abcd/issues> .
 
+<https://github.com/ml-evs/optimade-gnome> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Google DeepMind's Gnome Dataset"^^xsd:string .
+
+<https://github.com/ml-evs/optimade-misc-datasets> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Miscellaneous Materials Discovery Data"^^xsd:string .
+
 <https://github.com/psDI-UK/data-collections-API> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "data-collections-API github repository"^^xsd:string .
@@ -4639,6 +5709,91 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://learn.psdi.ac.uk> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Interactive Learning"^^xsd:string .
+
+<https://matterverse.ai> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Matterverse"^^xsd:string .
+
+<https://mpds.io> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Materials Platform for Data Science"^^xsd:string .
+
+<https://nomad-lab.eu> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for novel materials discovery (NOMAD)"^^xsd:string .
+
+<https://nomad-lab.eu/prod/v1/optimade/> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for novel materials discovery (NOMAD)"^^xsd:string .
+
+<https://odbx.science> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for odbx"^^xsd:string .
+
+<https://optimade-gnome.odbx.science> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Google DeepMind's Gnome Dataset"^^xsd:string,
+        "OPTIMADE base_url for open database of xtals: Google DeepMind's Gnome Dataset"^^xsd:string .
+
+<https://optimade-misc.odbx.science> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Miscellaneous Materials Discovery Data"^^xsd:string,
+        "OPTIMADE base_url for open database of xtals: Miscellaneous Materials Discovery Data"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/2dtopo> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for 2D topological insulators"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: 2D topological insulators"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/autowannier> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Automated high-throughput Wannierisation"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: Automated high-throughput Wannierisation"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/curated-cofs> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for CURATED covalent organic frameworks database"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: CURATED covalent organic frameworks database"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/mc2d> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/mc3d-pbe-v1> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/mc3d-pbesol-v1> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/mc3d-pbesol-v2> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/pyrene-mofs> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Materials Cloud: Pyrene-based metal organic frameworks"^^xsd:string,
+        "OPTIMADE base_url for Pyrene-based metal organic frameworks"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/stoceriaitf> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Materials Cloud: SrTiO3-CeO2 interfaces"^^xsd:string,
+        "OPTIMADE base_url for SrTiO3-CeO2 interfaces"^^xsd:string .
+
+<https://optimade.materialscloud.org/main/tin-antimony-sulfoiodide> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string,
+        "OPTIMADE base_url for Materials Cloud: Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string .
+
+<https://optimade.materialsproject.org> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for The Materials Project"^^xsd:string .
+
+<https://optimade.matterverse.ai> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Matterverse"^^xsd:string .
+
+<https://optimade.odbx.science> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for odbx"^^xsd:string,
+        "OPTIMADE base_url for open database of xtals: odbx"^^xsd:string .
+
+<https://oqmd.org> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for The OQMD"^^xsd:string .
+
+<https://oqmd.org/optimade/> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for The OQMD"^^xsd:string,
+        "OPTIMADE base_url for The Open Quantum Materials Database (OQMD): The OQMD"^^xsd:string .
 
 <https://orcid.org/0000-0001-5358-7181> a foaf:Agent ;
     foaf:name "Christian Stolze"^^xsd:string .
@@ -4677,6 +5832,10 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://organic-toolkit.psdi.ac.uk/variability-plot> a rdfs:Resource,
         foaf:Document ;
     rdfs:label "PSDI Variability Plot Generator"^^xsd:string .
+
+<https://phaseslab.com/mpdd> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Material-Property-Descriptor Database"^^xsd:string .
 
 <https://pypi.org/project/ase-uhal/> a rdfs:Resource ;
     rdfs:label "ase-uhal PyPi page"^^xsd:string .
@@ -4733,6 +5892,13 @@ For users who want to reproduce or extend the workflow, the repository also incl
 <https://spdx.org/licenses/PDDL-1.0.html> a dcterms:LicenseDocument ;
     rdfs:label "PDDL-1.0"^^xsd:string .
 
+<https://www.crystallography.net/tcod> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Theoretical Crystallography Open Database"^^xsd:string .
+
+<https://www.crystallography.net/tcod/optimade> a rdfs:Resource ;
+    rdfs:label "OPTIMADE base_url for Theoretical Crystallography Open Database"^^xsd:string .
+
 <https://www.fiz-karlsruhe.de/sites/default/files/ICSD/documents/terms/ICSD_AGB_E_2021.pdf> a dcterms:LicenseDocument ;
     rdfs:label "ICSD License Agreement"^^xsd:string .
 
@@ -4741,6 +5907,38 @@ For users who want to reproduce or extend the workflow, the repository also incl
 
 <https://www.iana.org/assignments/media-types/application/zip> a dcterms:MediaType ;
     rdfs:label "application/zip"^^xsd:string .
+
+<https://www.materialscloud.org/discover/2dtopo> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for 2D topological insulators"^^xsd:string .
+
+<https://www.materialscloud.org/discover/curated-cofs> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for CURATED covalent organic frameworks database"^^xsd:string .
+
+<https://www.materialscloud.org/discover/mc2d> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for MC2D - Materials Cloud two-dimensional crystals database"^^xsd:string .
+
+<https://www.materialscloud.org/discover/pyrene-mofs> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Pyrene-based metal organic frameworks"^^xsd:string .
+
+<https://www.materialscloud.org/explore/autowannier> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Automated high-throughput Wannierisation"^^xsd:string .
+
+<https://www.materialscloud.org/explore/stoceriaitf> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for SrTiO3-CeO2 interfaces"^^xsd:string .
+
+<https://www.materialscloud.org/explore/tin-antimony-sulfoiodide> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for Hidden spontaneous polarisation in the chalcohalide photovoltaic Sn2SbS2I3"^^xsd:string .
+
+<https://www.materialsproject.org> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for The Materials Project"^^xsd:string .
 
 <https://zenodo.org/records/15656342> a rdfs:Resource ;
     rdfs:label "Physical Chemistry Properties Data Collection"^^xsd:string .
@@ -4809,10 +6007,10 @@ For users who want to reproduce or extend the workflow, the repository also incl
         "synthetic"^^xsd:string ;
     dcat:landingPage <https://github.com/AMCLab/TEMPOS/blob/main/README.md> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/323cc7d7-4538-47ca-bdd3-ab02194b7834> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/323cc7d7-4538-47ca-bdd3-ab02194b7834> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/81c628f1-5365-4517-ae99-a6bdcc65ba24>,
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> .
@@ -5469,10 +6667,10 @@ For users who want to reproduce or extend the workflow, the repository also incl
         "paramanetic NMR"^^xsd:string ;
     dcat:landingPage <https://simpnmr.org> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
@@ -5517,10 +6715,10 @@ Designed for materials scientists, it provides a fast, data-driven complement to
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/d9b4f050-69bb-467a-bc6c-c58bc0f25204> a dcat:Catalog ;
     rdfs:label "Data Collections for Chemical Modelling"^^xsd:string ;
@@ -5574,6 +6772,10 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 
 <http://www.ccpnc.ac.uk/contact/> a vcard:Kind ;
     vcard:hasURL <http://www.ccpnc.ac.uk/contact> .
+
+<https://alexandria.icams.rub.de> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for alexandria"^^xsd:string .
 
 <https://chemrxiv.org/doi/full/10.26434/chemrxiv.15001463/v1> a rdfs:Resource ;
     rdfs:label "Ab initio-assisted analysis of NMR data of paramagnetic metal complexes in solution"^^xsd:string .
@@ -5811,25 +7013,25 @@ Note that this repository is currently under rapid and active development."""^^x
     dcat:version "1.2.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ] .
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> a dcat:Catalog ;
     rdfs:label "Machine Learning for Next-Generation Transmission Electron Microscopy (TEM)"^^xsd:string ;
@@ -6298,6 +7500,12 @@ Note that this repository is currently under rapid and active development."""^^x
 <https://spdx.org/licenses/GPL-3.0-only.html> a dcterms:LicenseDocument ;
     rdfs:label "GNU General Public License v3.0 only"^^xsd:string .
 
+<https://www.materialscloud.org/discover/mc3d> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "OPTIMADE homepage for MC3D (PBE-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
+        "OPTIMADE homepage for MC3D (PBEsol-v1) - Materials Cloud 3D Structures Database"^^xsd:string,
+        "OPTIMADE homepage for MC3D (PBEsol-v2) - Materials Cloud 3D Structures Database"^^xsd:string .
+
 <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> a vcard:Kind ;
     vcard:hasURL <http://github.com/UK-Catalysis-Hub/ukcathubapp/issues> .
 
@@ -6409,9 +7617,6 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <https://spdx.org/licenses/0BSD.html> a dcterms:LicenseDocument ;
     rdfs:label "0BSD"^^xsd:string .
 
-<https://spdx.org/licenses/CC0-1.0.html> a dcterms:LicenseDocument ;
-    rdfs:label "CC0-1.0"^^xsd:string .
-
 <http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6> a skos:Concept ;
     skos:prefLabel "catalysis"^^xsd:string .
 
@@ -6432,6 +7637,9 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 
 <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> a rdfs:Resource ;
     rdfs:label "Collaborator"^^xsd:string .
+
+<https://spdx.org/licenses/CC0-1.0.html> a dcterms:LicenseDocument ;
+    rdfs:label "CC0-1.0"^^xsd:string .
 
 <mailto:galaxy.support@stfc365.onmicrosoft.com/> a vcard:Kind ;
     vcard:hasEmail "galaxy.support@stfc365.onmicrosoft.com"^^xsd:string .
@@ -6601,7 +7809,19 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         "Training"^^xsd:string ;
     dcat:landingPage <https://learn.psdi.ac.uk> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
@@ -6613,19 +7833,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> .
 
@@ -6769,6 +7977,76 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77>,
         <http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> .
 
+<http://purl.org/adms/status/Completed> a rdfs:Resource .
+
+<http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
+    skos:prefLabel "chemical sciences"^^xsd:string .
+
+<http://orcid.org/0009-0000-6422-0342> a foaf:Agent ;
+    foaf:name "Louise Saul"^^xsd:string .
+
+<http://purl.org/cld/freq/irregular> a dcterms:Frequency .
+
+<http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> a skos:Concept ;
+    skos:prefLabel "data exchange"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
+    skos:prefLabel "organic chemistry"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> a skos:Concept ;
+    skos:prefLabel "inorganic compounds"^^xsd:string .
+
+<http://orcid.org/0000-0002-0777-0855> a foaf:Agent ;
+    foaf:name "Donald Cruickshank"^^xsd:string .
+
+<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> a rdfs:Resource ;
+    rdfs:label "Author"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
+    skos:prefLabel "machine learning"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
+    skos:prefLabel "data processing"^^xsd:string .
+
+<http://orcid.org/0000-0003-0842-4302> a foaf:Agent ;
+    foaf:name "Jeremy G. Frey"^^xsd:string .
+
+<http://purl.org/coar/access_right/c_16ec> a dcterms:RightsStatement ;
+    rdfs:label "restricted access"^^xsd:string .
+
+<https://spdx.org/licenses/MIT.html> a dcterms:LicenseDocument ;
+    rdfs:label "MIT"^^xsd:string .
+
+<http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> a skos:Concept ;
+    skos:prefLabel "simulation software"^^xsd:string .
+
+<http://orcid.org/0000-0002-4831-9489> a foaf:Agent ;
+    foaf:name "Samantha Pearman-Kanza"^^xsd:string .
+
+dcmitype:Service a skos:Concept ;
+    skos:prefLabel "Service"^^xsd:string .
+
+<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> a rdfs:Resource ;
+    rdfs:label "Contributor"^^xsd:string .
+
+dcmitype:Software a skos:Concept ;
+    skos:prefLabel "Software"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-r.png> a rdfs:Resource ;
+    rdfs:label "OPTIMADE logo"^^xsd:string .
+
+dcmitype:Collection a skos:Concept ;
+    skos:prefLabel "Collection"^^xsd:string .
+
+dcmitype:Text a skos:Concept ;
+    skos:prefLabel "Text"^^xsd:string .
+
+<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> a rdfs:Resource ;
+    rdfs:label "Resource provider"^^xsd:string .
+
+<http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> a skos:Concept ;
+    skos:prefLabel "Multidisciplinary"^^xsd:string .
+
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/e0ed08b6-6d44-4cc8-8385-4929078cd622> a dcat:Catalog ;
     rdfs:label "Data Sources for PSDI Cross Data Search"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
@@ -6801,11 +8079,6 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15>,
         <http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> .
 
-<http://purl.org/adms/status/Completed> a rdfs:Resource .
-
-<http://data.europa.eu/8mn/euroscivoc/bce870dd-43f3-4656-8866-d76b0d71f5b8> a skos:Concept ;
-    skos:prefLabel "chemical sciences"^^xsd:string .
-
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/33e34aed-745c-412c-8e90-f11bb2270a38> a dcat:Catalog ;
     rdfs:label "OPTIMADE Providers' Datasets"^^xsd:string ;
     psdiDcatExt:displayPriority 3e+00 ;
@@ -6836,6 +8109,31 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcterms:publisher <http://www.optimade.org/> ;
     dcterms:title "OPTIMADE Providers' Datasets"^^xsd:string ;
     dcterms:type dcmitype:Collection ;
+    dcat:Dataset <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-aflow-aflow>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbe>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-alexandria-alexandria-pbesol>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-matterverse-matterverse>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-2dtopo>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-autowannier>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-curated-cofs>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc2d>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbe-v1>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbesol-v1>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-mc3d-pbesol-v2>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-pyrene-mofs>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-stoceriaitf>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mcloud-tin-antimony-sulfoiodide>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mp-mp>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpdd-mpdd>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-mpds-mpds>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-nmd-nmd>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-gnome>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_main>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-odbx-odbx_misc>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-omdb-omdb_production>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-oqmd-oqmd>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-tcod-tcod>,
+        <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-twodmatpedia-twodmatpedia> ;
     dcat:contactPoint <http://github.com/Materials-Consortia/OPTIMADE/issues> ;
     dcat:keyword "OPTIMADE"^^xsd:string,
         "database"^^xsd:string,
@@ -6845,77 +8143,15 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> ;
     dcat:version "1.2.0"^^xsd:string .
 
-<http://orcid.org/0009-0000-6422-0342> a foaf:Agent ;
-    foaf:name "Louise Saul"^^xsd:string .
-
 <http://data.europa.eu/8mn/euroscivoc/61a310a8-87ce-448c-b5e5-28feab37defe> a skos:Concept ;
     skos:prefLabel "crystals"^^xsd:string .
-
-<http://purl.org/cld/freq/irregular> a dcterms:Frequency .
-
-<http://data.europa.eu/8mn/euroscivoc/119b0e70-ed46-44ae-97e9-fe00411af08c> a skos:Concept ;
-    skos:prefLabel "data exchange"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> a skos:Concept ;
-    skos:prefLabel "organic chemistry"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> a skos:Concept ;
-    skos:prefLabel "inorganic compounds"^^xsd:string .
-
-<http://orcid.org/0000-0002-0777-0855> a foaf:Agent ;
-    foaf:name "Donald Cruickshank"^^xsd:string .
-
-<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> a rdfs:Resource ;
-    rdfs:label "Author"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/527ab165-56f2-4020-8975-e7cd3f21d01d> a skos:Concept ;
-    skos:prefLabel "machine learning"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> a skos:Concept ;
-    skos:prefLabel "data processing"^^xsd:string .
-
-<http://orcid.org/0000-0003-0842-4302> a foaf:Agent ;
-    foaf:name "Jeremy G. Frey"^^xsd:string .
-
-<https://spdx.org/licenses/MIT.html> a dcterms:LicenseDocument ;
-    rdfs:label "MIT"^^xsd:string .
-
-<http://purl.org/coar/access_right/c_16ec> a dcterms:RightsStatement ;
-    rdfs:label "restricted access"^^xsd:string .
-
-<http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> a skos:Concept ;
-    skos:prefLabel "simulation software"^^xsd:string .
-
-<http://orcid.org/0000-0002-4831-9489> a foaf:Agent ;
-    foaf:name "Samantha Pearman-Kanza"^^xsd:string .
-
-dcmitype:Dataset a skos:Concept ;
-    skos:prefLabel "Dataset"^^xsd:string .
-
-dcmitype:Service a skos:Concept ;
-    skos:prefLabel "Service"^^xsd:string .
-
-<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> a rdfs:Resource ;
-    rdfs:label "Contributor"^^xsd:string .
-
-dcmitype:Software a skos:Concept ;
-    skos:prefLabel "Software"^^xsd:string .
-
-dcmitype:Collection a skos:Concept ;
-    skos:prefLabel "Collection"^^xsd:string .
-
-dcmitype:Text a skos:Concept ;
-    skos:prefLabel "Text"^^xsd:string .
-
-<https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> a rdfs:Resource ;
-    rdfs:label "Resource provider"^^xsd:string .
 
 <https://spdx.org/licenses/> a dcterms:LicenseDocument ;
     rdfs:label "Multiple licenses"^^xsd:string,
         "Other licenses for software in image"^^xsd:string .
 
-<http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> a skos:Concept ;
-    skos:prefLabel "Multidisciplinary"^^xsd:string .
+dcmitype:Dataset a skos:Concept ;
+    skos:prefLabel "Dataset"^^xsd:string .
 
 <https://spdx.org/licenses/CC-BY-4.0.html> a dcterms:LicenseDocument ;
     rdfs:label "CC-BY-4.0"^^xsd:string .
@@ -6925,12 +8161,12 @@ dcmitype:Text a skos:Concept ;
 
 <http://purl.org/adms/status/UnderDevelopment> a rdfs:Resource .
 
-<http://purl.org/coar/access_right/c_abf2> a dcterms:RightsStatement ;
-    rdfs:label "open access"^^xsd:string .
-
 <http://www.psdi.ac.uk/> a foaf:Agent ;
     foaf:name "PSDI"^^xsd:string .
 
 <http://id.loc.gov/vocabulary/iso639-1/en> a dcterms:LinguisticSystem ;
     rdfs:label "en"^^xsd:string .
+
+<http://purl.org/coar/access_right/c_abf2> a dcterms:RightsStatement ;
+    rdfs:label "open access"^^xsd:string .
 
