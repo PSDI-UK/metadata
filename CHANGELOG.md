@@ -1,4 +1,12 @@
 # Change Log
+##2026-97-15
+* Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl according to PSDI-00029 and PSDI-RC002-008 to:
+   * update dcterms:identifier values throughout the catalogue to link to the relevant resource catalogue page for the resources (rather than these being duplicates of @id values)
+   * added new service PSDI Index Search (https://resources.psdi.ac.uk/service/7cd7df8f-3511-4f72-9847-509867ce2957)
+   * update all data sources served up by this service to display link to it and new access urls
+   * update optimade data sources to contain multiple distributions to reflect different ways of accessing them
+   * replaced existing data resource https://resources.psdi.ac.uk/data/optimade-cod-cod (Crystallography Open Database (PSDI Mirror)) to describe PSDI COD mirror and its access points 
+
 ##2026-07-02
 * Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl ahead of upcoming changes to dcterms:identifier
 
