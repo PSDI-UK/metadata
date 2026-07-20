@@ -75,8 +75,6 @@ psdiVocSubject:vocabulary dc11:Version "1.0.0"@en ;
         psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
         psdiVocSubject:e9da6561-23b9-48ac-9377-b68b13393e77,
         psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382,
-        psdiVocSubject:multidisciplinary,
-        psdiVocSubject:other,
         psdiVocSubject:psdiAnalyticalChemistry,
         psdiVocSubject:psdiBiochemistry,
         psdiVocSubject:psdiCatalysis,
@@ -89,8 +87,10 @@ psdiVocSubject:vocabulary dc11:Version "1.0.0"@en ;
         psdiVocSubject:psdiMaterials,
         psdiVocSubject:psdiMetalOrganic,
         psdiVocSubject:psdiMethods,
+        psdiVocSubject:psdiMultidisciplinary,
         psdiVocSubject:psdiNanotech,
         psdiVocSubject:psdiOrganicAndPharmaceutical,
+        psdiVocSubject:psdiOther,
         psdiVocSubject:psdiPhysicalChemistry,
         psdiVocSubject:psdiPolymers,
         psdiVocSubject:psdiSolidStatePhysics,
@@ -308,6 +308,7 @@ psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f a skos:Concept ;
 psdiVocSubject:psdiAnalyticalChemistry a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Analytical Biosciences', 'Microanalytical', 'Automation and Analytical Management', 'Water Science', 'Separation Science', 'Thermal Methods' and 'Electroanalytical Sensing Systems'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Molecular Omics', 'Analyst', 'Analytical Methods', 'Sensors and Diagnostics' and 'Journal of Analytical Atomic Spectrometry'."@en ;
     skos:exactMatch euroscivoc:dc1b3723-476f-453c-a596-c7ccfde9b4b1 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Analytical Chemistry"@en .
@@ -315,6 +316,7 @@ psdiVocSubject:psdiAnalyticalChemistry a skos:Concept ;
 psdiVocSubject:psdiBiochemistry a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Protein & Peptide Science', 'Biotechnology', 'Radiochemistry', 'Inorganic Biochemistry', 'Biomaterials Chemistry', 'Nucleic Acids' and 'Biophysical Chemistry'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Organic & Biomolecular Chemistry', 'Biomaterials Science' and 'RSC Medicinal Chemistry'."@en ;
     skos:exactMatch euroscivoc:dde8eea3-9315-4c49-8464-f26a2deb949f ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Biochemistry"@en .
@@ -322,6 +324,7 @@ psdiVocSubject:psdiBiochemistry a skos:Concept ;
 psdiVocSubject:psdiCatalysis a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Applied Catalysis' and 'Surface Reactivity & Catalysis'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Catalysis and Reaction Engineering'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Catalysis Science & Technology' and 'EES Catalysis'."@en ;
     skos:exactMatch euroscivoc:b3f4a4bc-41a0-4bd8-abff-f182893550c6 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Catalysis"@en .
@@ -329,6 +332,7 @@ psdiVocSubject:psdiCatalysis a skos:Concept ;
 psdiVocSubject:psdiChemicalBiology a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Chemical Biology & Bioorganic', 'Biological & Medicinal Chemistry' and 'Carbohydrate'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Natural Product Reports', 'RSC Chemical Biology', 'Organic and Biomolecular Chemistry', 'Journal of Materials Chemistry B', 'Biomaterials Science' and 'RSC Medicinal Chemistry'."@en ;
     skos:exactMatch euroscivoc:1d61ac8a-6360-432d-9729-f180ba76f24b ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Chemical Biology"@en .
@@ -336,6 +340,7 @@ psdiVocSubject:psdiChemicalBiology a skos:Concept ;
 psdiVocSubject:psdiChemicalEngineering a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Process Chemistry & Technology Group', 'Industrial Physical Chemistry', 'Particle Characterisation' and 'Formulation Science & Technology'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Pharma', 'Biochemical Engineering', 'Sustainability', 'Clean Energy', 'Oil, Gas and Energy Transition' and 'Particle Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Molecular Systems Design & Engineering', 'Industrial Chemistry & Materials' and 'Reaction Chemistry & Engineering'."@en ;
     skos:exactMatch euroscivoc:10352c4c-328e-4dac-a89c-44b6be1420e9 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Chemical Engineering"@en .
@@ -343,7 +348,7 @@ psdiVocSubject:psdiChemicalEngineering a skos:Concept ;
 psdiVocSubject:psdiEnvironmental a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f ;
-    skos:definition "Corresponds to blah"@en ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Water Science', 'Agriculture', 'Environmental Chemistry', 'Radiochemistry', 'Toxicology Group' and 'Astrochemistry'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Water' and 'Environment and Clean Technology'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Environmental Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Environmental Science: Atmospheres', 'Environmental Science: Nano', 'Environmental Science: Advances', 'Energy & Environmental Science', 'Environmental Science: Water Research & Technology' and 'Environmental Science: Processes & Impacts'."@en ;
     skos:exactMatch euroscivoc:8e469a25-b5fd-4bf3-8cc1-d14800e650e0 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Environmental"@en .
@@ -351,6 +356,7 @@ psdiVocSubject:psdiEnvironmental a skos:Concept ;
 psdiVocSubject:psdiFood a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest group: 'Food'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest group: 'Food and Drink'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Food Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Sustainable Food Technology' and 'Food & Function'."@en ;
     skos:exactMatch euroscivoc:e4062af9-fc49-4826-9bdb-e549f3f0f191 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Food"@en .
@@ -358,6 +364,7 @@ psdiVocSubject:psdiFood a skos:Concept ;
 psdiVocSubject:psdiMetalOrganic a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Main Group Chemistry', 'Porous Materials', 'Radiochemistry', 'Inorganic Biochemistry', 'Coordination & Organometallic Chemistry Discussion', 'Inorganic Reaction Mechanisms' and 'Macrocyclic & Supramolecular Chemistry'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Inorganic Chemistry Frontiers' and 'Dalton Transactions'."@en ;
     skos:exactMatch euroscivoc:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Metal Organic"@en .
@@ -365,6 +372,7 @@ psdiVocSubject:psdiMetalOrganic a skos:Concept ;
 psdiVocSubject:psdiOrganicAndPharmaceutical a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Heterocyclic & Synthesis', 'Physical Organic Chemistry', 'Macrocyclic & Supramolecular Chemistry', 'Joint Pharmaceutical Analysis', 'Fluorine Chemistry' and 'Carbohydrate'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Pharma'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'RSC Pharmaceutics', 'Organic Chemistry Frontiers' and 'Organic & Biomolecular Chemistry'."@en ;
     skos:exactMatch euroscivoc:2d07f15f-2b3a-45d7-a246-411d3a061f15 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Organic and Pharmaceutical"@en .
@@ -372,6 +380,7 @@ psdiVocSubject:psdiOrganicAndPharmaceutical a skos:Concept ;
 psdiVocSubject:psdiPolymers a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Polymer Physics' and 'Macro Group UK'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Polymer Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Polymer Chemistry' and 'RSC Applied Polymers'."@en ;
     skos:exactMatch euroscivoc:9db99312-b7aa-4a85-ba0e-b2dd05135539 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Polymers"@en .
@@ -474,7 +483,7 @@ psdiVocSubject:57ae94b9-b0e2-4066-b910-3b58c015c17e a skos:Concept ;
 psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213 a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetTermCollection ;
     skos:broader psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
-        psdiVocSubject:other ;
+        psdiVocSubject:psdiOther ;
     skos:exactMatch euroscivoc:594795fd-81a0-47bb-8676-fb24f97a0213 ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
@@ -598,6 +607,7 @@ psdiVocSubject:e9da6561-23b9-48ac-9377-b68b13393e77 a skos:Concept ;
 psdiVocSubject:psdiMaterials a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Applied Materials Chemistry' and 'British Carbon'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Thin Films and Surfaces' and 'British Carbon'."@en ;
     skos:exactMatch euroscivoc:dc9a4100-9eb3-4956-8fd8-b67ea07a70ad ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:61a310a8-87ce-448c-b5e5-28feab37defe ;
@@ -606,6 +616,7 @@ psdiVocSubject:psdiMaterials a skos:Concept ;
 psdiVocSubject:psdiNanotech a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest group: 'Chemical Nanoscience and Nanotechnology'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Nanoscale Physics and Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Nanoscale', 'Nanoscale Advances', 'Nanoscale Horizons' and 'Lab on a Chip'."@en ;
     skos:exactMatch euroscivoc:739766f0-539e-4fba-8144-9249bb38719a ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:9f2d4860-d6ab-446c-bad7-a6e7e4801cf1 ;
@@ -614,6 +625,7 @@ psdiVocSubject:psdiNanotech a skos:Concept ;
 psdiVocSubject:psdiSustainabilityAndEnergy a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:64605fff-1946-4fd4-b021-e2e83b71dcac ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Energy' and 'Electrochemistry'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Sustainability', 'Clean Energy', 'Oil, Gas and Energy Transition' and 'Nuclear Technology'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Energy', 'Nuclear Industry' and 'Nuclear Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Sustainability', 'Sustainable Energy & Fuels', 'Energy Advances', 'EES Solar', 'Journal of Materials Chemistry A', 'Green Chemistry' and 'EES Batteries'."@en ;
     skos:exactMatch euroscivoc:531bd18a-eedd-4345-8b2f-5464f96615f8 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:2322520f-4e32-45e3-8f8b-bedc5ab4ba9b ;
@@ -621,12 +633,12 @@ psdiVocSubject:psdiSustainabilityAndEnergy a skos:Concept ;
 
 psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41 a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetTermCollection ;
-    skos:broader psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 ;
+    skos:broader psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382,
+        psdiVocSubject:psdiMethods ;
     skos:exactMatch euroscivoc:0c67e976-ff93-4ca9-8ec7-ac06876e3e41 ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
-    skos:narrower psdiVocSubject:81c628f1-5365-4517-ae99-a6bdcc65ba24,
-        psdiVocSubject:psdiMethods ;
+    skos:narrower psdiVocSubject:81c628f1-5365-4517-ae99-a6bdcc65ba24 ;
     skos:prefLabel "microscopy"@en .
 
 psdiVocSubject:14e75836-6f05-46f9-9c82-ca12468b0452 a skos:Concept ;
@@ -688,19 +700,20 @@ psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4 a skos:Concept ;
         psdiVocSubject:a0e8e102-e50a-4883-a021-733345a8f1b1 ;
     skos:prefLabel "software"@en .
 
-psdiVocSubject:multidisciplinary a skos:Concept ;
+psdiVocSubject:psdiMultidisciplinary a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetFolderCollection,
         psdiVocSubject:psdiDomainFolderCollection ;
     skos:definition "Category for PSDI resources which fall under more than one of the subjects defined in this concept scheme."@en ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
-    skos:prefLabel "multidisciplinary"@en ;
+    skos:prefLabel "Multidisciplinary"@en ;
     skos:topConceptOf psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme .
 
 psdiVocSubject:psdiPhysicalChemistry a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Spectroscopy and Dynamics', 'Photophysics & Photochemistry Group', 'Stat. Mech. & Thermodynamics' and 'Gas Kinetics'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Molecular Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Faraday Discussions', 'RSC Applied Interfaces' and 'Physical Chemistry Chemical Physics'."@en ;
     skos:exactMatch euroscivoc:57ae94b9-b0e2-4066-b910-3b58c015c17e ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:0fce4b31-70e0-42f1-b844-5f7f0ce74914,
@@ -711,6 +724,7 @@ psdiVocSubject:psdiSolidStatePhysics a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304 ;
     skos:closeMatch euroscivoc:c61cf6c6-8b52-4fbb-9b30-b09659e476cf ;
+    skos:definition "Aligns with 'Institute of Physics (IOP)' special interest groups: 'Theory of Condensed Matter', 'Structural Condensed Matter Physics', 'Superconductivity', 'Quantum Electronics and Photonics', 'Magnetism', 'Atomic and Molecular Interactions', 'Quantum Optics, Quantum Information and Quantum Control', 'Semiconductor Physics' and 'Materials and Characterisation'."@en ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:1e41a6e4-0f75-496a-964e-adf5c3ec4b98,
         psdiVocSubject:aa916836-94a3-4ae6-8d69-8d9d938a69ab ;
@@ -748,14 +762,14 @@ psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 a skos:Concept ;
         psdiVocSubject:7b38f8b4-3f5a-4a59-84f8-d270c33146c8 ;
     skos:prefLabel "optics"@en .
 
-psdiVocSubject:other a skos:Concept ;
+psdiVocSubject:psdiOther a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetFolderCollection,
         psdiVocSubject:psdiDomainFolderCollection ;
     skos:definition "Category for PSDI resources which do not fall under any of the subjects defined in this concept scheme."@en ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213 ;
-    skos:prefLabel "other"@en ;
+    skos:prefLabel "Other"@en ;
     skos:topConceptOf psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme .
 
@@ -774,6 +788,7 @@ psdiVocSubject:4a8788fc-4172-461c-ae94-40be4f39043f a skos:Concept ;
 psdiVocSubject:psdiChemistryMaterials a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
     skos:broader psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8 ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Solid State Chemistry', 'British Carbon' and 'Applied Materials Chemistry'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Thin Films and Surfaces' and 'British Carbon'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Journal of Materials Chemistry B', 'Materials Advances', 'Materials Chemistry Frontiers', 'Materials Horizons', 'Journal of Materials Chemistry A' and 'Journal of Materials Chemistry C'."@en ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:081ec693-4e8c-46cb-b4d7-4deb186b534a,
         psdiVocSubject:2322520f-4e32-45e3-8f8b-bedc5ab4ba9b,
@@ -784,6 +799,7 @@ psdiVocSubject:psdiChemistryMaterials a skos:Concept ;
 
 psdiVocSubject:psdiMethods a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Atomic Spectroscopy', 'Molecular Spectroscopy', 'ESR Spectroscopy', 'NMR Discussion' and 'Neutron Scattering'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'British Radiofrequency Spectroscopy', 'Neutron Scattering', 'Electron Microscopy and Analysis' and 'Instrument Science and Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'CrystEngComm' and 'RSC Mechanochemistry'."@en ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:0c67e976-ff93-4ca9-8ec7-ac06876e3e41,
         psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d,
@@ -821,6 +837,7 @@ psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 a skos:Concept ;
 
 psdiVocSubject:psdiComputational a skos:Concept ;
     skos:Collection psdiVocSubject:psdiDomainFolderCollection ;
+    skos:definition "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Theoretical Chemistry' and 'Chemical Information & Computer Applications'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Computational Physics' and 'Mathematical and Theoretical Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Digital Discovery'."@en ;
     skos:exactMatch euroscivoc:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800 ;
     skos:inScheme psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:119b0e70-ed46-44ae-97e9-fe00411af08c,
@@ -924,8 +941,6 @@ psdiVocSubject:psdiDomainFolderCollection a skos:Collection ;
         psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
         psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
         psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
-        psdiVocSubject:multidisciplinary,
-        psdiVocSubject:other,
         psdiVocSubject:psdiAnalyticalChemistry,
         psdiVocSubject:psdiBiochemistry,
         psdiVocSubject:psdiCatalysis,
@@ -938,8 +953,10 @@ psdiVocSubject:psdiDomainFolderCollection a skos:Collection ;
         psdiVocSubject:psdiMaterials,
         psdiVocSubject:psdiMetalOrganic,
         psdiVocSubject:psdiMethods,
+        psdiVocSubject:psdiMultidisciplinary,
         psdiVocSubject:psdiNanotech,
         psdiVocSubject:psdiOrganicAndPharmaceutical,
+        psdiVocSubject:psdiOther,
         psdiVocSubject:psdiPhysicalChemistry,
         psdiVocSubject:psdiPolymers,
         psdiVocSubject:psdiSolidStatePhysics,
@@ -979,8 +996,8 @@ psdiVocSubject:euroscivocSubsetFolderCollection a skos:Collection ;
         psdiVocSubject:dde8eea3-9315-4c49-8464-f26a2deb949f,
         psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
         psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382,
-        psdiVocSubject:multidisciplinary,
-        psdiVocSubject:other ;
+        psdiVocSubject:psdiMultidisciplinary,
+        psdiVocSubject:psdiOther ;
     skos:prefLabel "PSDI subject folders from EuroSciVoc"@en .
 
 psdiVocSubject:psdiDomainConceptScheme a skos:ConceptScheme ;
@@ -990,10 +1007,10 @@ psdiVocSubject:psdiDomainConceptScheme a skos:ConceptScheme ;
         psdiVocSubject:803cff73-504b-41ae-9873-1836c76c15d1,
         psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
         psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
-        psdiVocSubject:multidisciplinary,
-        psdiVocSubject:other,
         psdiVocSubject:psdiComputational,
-        psdiVocSubject:psdiMethods ;
+        psdiVocSubject:psdiMethods,
+        psdiVocSubject:psdiMultidisciplinary,
+        psdiVocSubject:psdiOther ;
     skos:prefLabel "Concept Scheme Defining PSDI Subject Domains to Categorise PSDI Resource Catalogue and their Hierarchy"@en .
 
 psdiVocSubject:euroscivocSubsetConceptScheme a skos:ConceptScheme ;
@@ -1004,7 +1021,7 @@ psdiVocSubject:euroscivocSubsetConceptScheme a skos:ConceptScheme ;
         psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8,
         psdiVocSubject:d3b09b78-ac5c-4fc3-b58a-9573daf0e304,
         psdiVocSubject:e437ed99-4a4e-4fb3-af7e-fae6a2c2a800,
-        psdiVocSubject:multidisciplinary,
-        psdiVocSubject:other ;
+        psdiVocSubject:psdiMultidisciplinary,
+        psdiVocSubject:psdiOther ;
     skos:prefLabel "Concept Scheme Defining Subset of EuroSciVoc Subjects Used Within PSDI Resource Catalogue and their Hierarchy"@en .
 

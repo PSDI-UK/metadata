@@ -1,5 +1,10 @@
 # Change Log
-##2026-97-15
+##2026-07-20
+* Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl as refinements associated with PSDI-00029 and PSDI-RC002-008
+* Added aligned RSC, IChemE and IOP interest groups to psdi-voc-subject
+* updated shacl to more strictly check dcterms:identifier values in light of recent updates
+
+##2026-07-15
 * Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl according to PSDI-00029 and PSDI-RC002-008 to:
    * update dcterms:identifier values throughout the catalogue to link to the relevant resource catalogue page for the resources (rather than these being duplicates of @id values)
    * added new service PSDI Index Search (https://resources.psdi.ac.uk/service/7cd7df8f-3511-4f72-9847-509867ce2957)

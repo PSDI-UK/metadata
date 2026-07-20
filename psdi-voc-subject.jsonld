@@ -282,7 +282,7 @@
             "@id": "psdiVocSubject:psdiEnvironmental",
             "@type": "skos:Concept",
             "skos:prefLabel": "Environmental",
-            "skos:definition": "Corresponds to blah",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Water Science', 'Agriculture', 'Environmental Chemistry', 'Radiochemistry', 'Toxicology Group' and 'Astrochemistry'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Water' and 'Environment and Clean Technology'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Environmental Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Environmental Science: Atmospheres', 'Environmental Science: Nano', 'Environmental Science: Advances', 'Energy & Environmental Science', 'Environmental Science: Water Research & Technology' and 'Environmental Science: Processes & Impacts'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/8e469a25-b5fd-4bf3-8cc1-d14800e650e0",
                 "@type": "skos:Concept" 
@@ -355,6 +355,7 @@
             "@id": "psdiVocSubject:psdiChemicalBiology",
             "@type": "skos:Concept",
             "skos:prefLabel": "Chemical Biology",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Chemical Biology & Bioorganic', 'Biological & Medicinal Chemistry' and 'Carbohydrate'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Natural Product Reports', 'RSC Chemical Biology', 'Organic and Biomolecular Chemistry', 'Journal of Materials Chemistry B', 'Biomaterials Science' and 'RSC Medicinal Chemistry'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b",
                 "@type": "skos:Concept"
@@ -379,6 +380,7 @@
             "@id": "psdiVocSubject:psdiBiochemistry",
             "@type": "skos:Concept",
             "skos:prefLabel": "Biochemistry",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Protein & Peptide Science', 'Biotechnology', 'Radiochemistry', 'Inorganic Biochemistry', 'Biomaterials Chemistry', 'Nucleic Acids' and 'Biophysical Chemistry'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Organic & Biomolecular Chemistry', 'Biomaterials Science' and 'RSC Medicinal Chemistry'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f",
                 "@type": "skos:Concept"
@@ -428,6 +430,7 @@
             "@id": "psdiVocSubject:psdiChemistryMaterials",
             "@type": "skos:Concept",
             "skos:prefLabel": "Chemistry Materials",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Solid State Chemistry', 'British Carbon' and 'Applied Materials Chemistry'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Thin Films and Surfaces' and 'British Carbon'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Journal of Materials Chemistry B', 'Materials Advances', 'Materials Chemistry Frontiers', 'Materials Horizons', 'Journal of Materials Chemistry A' and 'Journal of Materials Chemistry C'.",
             "skos:broader": "psdiVocSubject:bce870dd-43f3-4656-8866-d76b0d71f5b8",
             "skos:narrower": [
                 "psdiVocSubject:9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
@@ -459,6 +462,7 @@
             "@id": "psdiVocSubject:psdiOrganicAndPharmaceutical",
             "@type": "skos:Concept",
             "skos:prefLabel": "Organic and Pharmaceutical",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Heterocyclic & Synthesis', 'Physical Organic Chemistry', 'Macrocyclic & Supramolecular Chemistry', 'Joint Pharmaceutical Analysis', 'Fluorine Chemistry' and 'Carbohydrate'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Pharma'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'RSC Pharmaceutics', 'Organic Chemistry Frontiers' and 'Organic & Biomolecular Chemistry'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15",
                 "@type": "skos:Concept"
@@ -505,6 +509,7 @@
             "@id": "psdiVocSubject:psdiMetalOrganic",
             "@type": "skos:Concept",
             "skos:prefLabel": "Metal Organic",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Main Group Chemistry', 'Porous Materials', 'Radiochemistry', 'Inorganic Biochemistry', 'Coordination & Organometallic Chemistry Discussion', 'Inorganic Reaction Mechanisms' and 'Macrocyclic & Supramolecular Chemistry'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Inorganic Chemistry Frontiers' and 'Dalton Transactions'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/9e5be1eb-bf25-4136-a4e5-2c68aa7cd80a",
                 "@type": "skos:Concept"
@@ -580,6 +585,7 @@
             "@id": "psdiVocSubject:psdiPhysicalChemistry",
             "@type": "skos:Concept",
             "skos:prefLabel": "Physical Chemistry",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Spectroscopy and Dynamics', 'Photophysics & Photochemistry Group', 'Stat. Mech. & Thermodynamics' and 'Gas Kinetics'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Molecular Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Faraday Discussions', 'RSC Applied Interfaces' and 'Physical Chemistry Chemical Physics'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/57ae94b9-b0e2-4066-b910-3b58c015c17e",
                 "@type": "skos:Concept"
@@ -626,6 +632,7 @@
             "@id": "psdiVocSubject:psdiPolymers",
             "@type": "skos:Concept",
             "skos:prefLabel": "Polymers",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Polymer Physics' and 'Macro Group UK'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Polymer Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Polymer Chemistry' and 'RSC Applied Polymers'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/9db99312-b7aa-4a85-ba0e-b2dd05135539",
                 "@type": "skos:Concept"
@@ -650,6 +657,7 @@
             "@id": "psdiVocSubject:psdiCatalysis",
             "@type": "skos:Concept",
             "skos:prefLabel": "Catalysis",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Applied Catalysis' and 'Surface Reactivity & Catalysis'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Catalysis and Reaction Engineering'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Catalysis Science & Technology' and 'EES Catalysis'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/b3f4a4bc-41a0-4bd8-abff-f182893550c6",
                 "@type": "skos:Concept"
@@ -674,6 +682,7 @@
             "@id": "psdiVocSubject:psdiAnalyticalChemistry",
             "@type": "skos:Concept",
             "skos:prefLabel": "Analytical Chemistry",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Analytical Biosciences', 'Microanalytical', 'Automation and Analytical Management', 'Water Science', 'Separation Science', 'Thermal Methods' and 'Electroanalytical Sensing Systems'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Molecular Omics', 'Analyst', 'Analytical Methods', 'Sensors and Diagnostics' and 'Journal of Analytical Atomic Spectrometry'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/dc1b3723-476f-453c-a596-c7ccfde9b4b1",
                 "@type": "skos:Concept"
@@ -803,6 +812,7 @@
             "@id": "psdiVocSubject:psdiSolidStatePhysics",
             "@type": "skos:Concept",
             "skos:prefLabel": "Solid-state Physics",
+            "skos:definition": "Aligns with 'Institute of Physics (IOP)' special interest groups: 'Theory of Condensed Matter', 'Structural Condensed Matter Physics', 'Superconductivity', 'Quantum Electronics and Photonics', 'Magnetism', 'Atomic and Molecular Interactions', 'Quantum Optics, Quantum Information and Quantum Control', 'Semiconductor Physics' and 'Materials and Characterisation'.",
             "skos:closeMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/c61cf6c6-8b52-4fbb-9b30-b09659e476cf",
                 "@type": "skos:Concept"
@@ -988,6 +998,7 @@
             "@id": "psdiVocSubject:psdiComputational",
             "@type": "skos:Concept",
             "skos:prefLabel": "Computational",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Theoretical Chemistry' and 'Chemical Information & Computer Applications'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Computational Physics' and 'Mathematical and Theoretical Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Digital Discovery'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/e437ed99-4a4e-4fb3-af7e-fae6a2c2a800",
                 "@type": "skos:Concept"
@@ -1224,6 +1235,7 @@
             "@id": "psdiVocSubject:psdiChemicalEngineering",
             "@type": "skos:Concept",
             "skos:prefLabel": "Chemical Engineering",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Process Chemistry & Technology Group', 'Industrial Physical Chemistry', 'Particle Characterisation' and 'Formulation Science & Technology'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Pharma', 'Biochemical Engineering', 'Sustainability', 'Clean Energy', 'Oil, Gas and Energy Transition' and 'Particle Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Molecular Systems Design & Engineering', 'Industrial Chemistry & Materials' and 'Reaction Chemistry & Engineering'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/10352c4c-328e-4dac-a89c-44b6be1420e9",
                 "@type": "skos:Concept"
@@ -1270,6 +1282,7 @@
             "@id": "psdiVocSubject:psdiFood",
             "@type": "skos:Concept",
             "skos:prefLabel": "Food",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest group: 'Food'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest group: 'Food and Drink'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Food Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Sustainable Food Technology' and 'Food & Function'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/e4062af9-fc49-4826-9bdb-e549f3f0f191",
                 "@type": "skos:Concept"
@@ -1294,6 +1307,7 @@
             "@id": "psdiVocSubject:psdiSustainabilityAndEnergy",
             "@type": "skos:Concept",
             "skos:prefLabel": "Sustainability and Energy",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Energy' and 'Electrochemistry'. Aligns with 'Institution of Chemical Engineers (IChemE)' special interest groups: 'Sustainability', 'Clean Energy', 'Oil, Gas and Energy Transition' and 'Nuclear Technology'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Energy', 'Nuclear Industry' and 'Nuclear Physics'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Sustainability', 'Sustainable Energy & Fuels', 'Energy Advances', 'EES Solar', 'Journal of Materials Chemistry A', 'Green Chemistry' and 'EES Batteries'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/531bd18a-eedd-4345-8b2f-5464f96615f8",
                 "@type": "skos:Concept"
@@ -1320,6 +1334,7 @@
             "@id": "psdiVocSubject:psdiNanotech",
             "@type": "skos:Concept",
             "skos:prefLabel": "Nanotech",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest group: 'Chemical Nanoscience and Nanotechnology'. Aligns with 'Institute of Physics (IOP)' special interest group: 'Nanoscale Physics and Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'Nanoscale', 'Nanoscale Advances', 'Nanoscale Horizons' and 'Lab on a Chip'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/739766f0-539e-4fba-8144-9249bb38719a",
                 "@type": "skos:Concept"
@@ -1364,6 +1379,7 @@
             "@id": "psdiVocSubject:psdiMaterials",
             "@type": "skos:Concept",
             "skos:prefLabel": "Materials",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Applied Materials Chemistry' and 'British Carbon'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'Thin Films and Surfaces' and 'British Carbon'.",
             "skos:exactMatch": {
                 "@id": "http://data.europa.eu/8mn/euroscivoc/dc9a4100-9eb3-4956-8fd8-b67ea07a70ad",
                 "@type": "skos:Concept"
@@ -1432,6 +1448,7 @@
             "@id": "psdiVocSubject:psdiMethods",
             "@type": "skos:Concept",
             "skos:prefLabel": "Methods",
+            "skos:definition": "Aligns with 'Royal Society of Chemistry (RSC)' interest groups: 'Atomic Spectroscopy', 'Molecular Spectroscopy', 'ESR Spectroscopy', 'NMR Discussion' and 'Neutron Scattering'. Aligns with 'Institute of Physics (IOP)' special interest groups: 'British Radiofrequency Spectroscopy', 'Neutron Scattering', 'Electron Microscopy and Analysis' and 'Instrument Science and Technology'. Aligns with 'Royal Society of Chemistry (RSC)' journals: 'CrystEngComm' and 'RSC Mechanochemistry'.",
             "skos:narrower":[
                 "psdiVocSubject:5ccac6a4-396a-4789-9506-de4ee54aae3d",
                 "psdiVocSubject:623da52d-1079-4ebc-bfe9-3072181d2808",
