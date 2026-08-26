@@ -703,7 +703,7 @@ psdiVocSubject:aafff649-e02a-496e-b436-284ce76044c4 a skos:Concept ;
 psdiVocSubject:psdiMultidisciplinary a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetFolderCollection,
         psdiVocSubject:psdiDomainFolderCollection ;
-    skos:definition "Category for PSDI resources which fall under more than one of the subjects defined in this concept scheme."@en ;
+    skos:definition "Category for PSDI resources which are not specifically associated to a particular field of science."@en ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
     skos:prefLabel "Multidisciplinary"@en ;
@@ -765,7 +765,7 @@ psdiVocSubject:f3cb3d46-1a4f-4c29-9e80-46a854f53382 a skos:Concept ;
 psdiVocSubject:psdiOther a skos:Concept ;
     skos:Collection psdiVocSubject:euroscivocSubsetFolderCollection,
         psdiVocSubject:psdiDomainFolderCollection ;
-    skos:definition "Category for PSDI resources which do not fall under any of the subjects defined in this concept scheme."@en ;
+    skos:definition "Category for PSDI resources which do not fall under the primary scope of PSDI - which correspond to EuroSciVoc terms which do not fall under [natural sciences](http://data.europa.eu/8mn/euroscivoc/3d76a7f4-5a16-411e-ae44-7b712d5222ee) or [engineering and technology](http://data.europa.eu/8mn/euroscivoc/64605fff-1946-4fd4-b021-e2e83b71dcac)."@en ;
     skos:inScheme psdiVocSubject:euroscivocSubsetConceptScheme,
         psdiVocSubject:psdiDomainConceptScheme ;
     skos:narrower psdiVocSubject:594795fd-81a0-47bb-8676-fb24f97a0213 ;

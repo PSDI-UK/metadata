@@ -1,4 +1,8 @@
 # Change Log
+##2026-08-26
+* Updated psdi-dcat.jsonld and psdi-dcat.ttl for changes associated with PSDI-RC002-009: Updates to resource catalogue for more PSDI-Funding_Call-2025-FC1 resources: from FC1-05-Vernuccio-Southampton and FC1-06-Garcia-Heriot_Watt and other changes. 
+* Updated psdi-voc-subject.jsonld and psdi-voc-subject.ttl to update definitions of psdiVocSubject:psdiMultidisciplinary and psdiVocSubject:psdiOther
+
 ##2026-07-20
 * Updated psdi-dcat-shacl.jsonld and psdi-dcat-shacl.ttl as refinements associated with PSDI-00029 and PSDI-RC002-008
 * Added aligned RSC, IChemE and IOP interest groups to psdi-voc-subject
