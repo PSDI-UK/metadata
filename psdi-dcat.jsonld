@@ -6122,6 +6122,11 @@
                         "rdfs:label": "MIT",
                         "@type": "dcterms:LicenseDocument",
                         "@id": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "rdfs:label": "GNU General Public License v3.0 only",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/GPL-3.0-only.html"
                     }
                 ],
                 "dcterms:accessRights": {
@@ -9459,11 +9464,18 @@
                     "@value": "2026-04-14T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
-                "dcterms:license": {
-                    "rdfs:label": "Multiple licenses",
-                    "@type": "dcterms:LicenseDocument",
-                    "@id": "https://spdx.org/licenses/"
-                },
+                "dcterms:license": [
+                    {
+                        "rdfs:label": "Multiple licenses",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/"
+                    },
+                    {
+                        "rdfs:label": "GNU General Public License v3.0 only",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/GPL-3.0-only.html"
+                    }
+                ],
                 "dcterms:accessRights": {
                     "rdfs:label": "open access",
                     "@type": "dcterms:RightsStatement",
@@ -9997,11 +10009,18 @@
                     "@value": "2026-04-14T00:00:00Z",
                     "@type": "xsd:dateTime"
                 },
-                "dcterms:license": {
-                    "rdfs:label": "MIT",
-                    "@type": "dcterms:LicenseDocument",
-                    "@id": "https://spdx.org/licenses/MIT.html"
-                },
+                "dcterms:license": [
+                    {
+                        "rdfs:label": "MIT",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/MIT.html"
+                    },
+                    {
+                        "rdfs:label": "Other licenses for software in image",
+                        "@type": "dcterms:LicenseDocument",
+                        "@id": "https://spdx.org/licenses/"
+                    }
+                ],
                 "dcterms:accessRights": {
                     "rdfs:label": "open access",
                     "@type": "dcterms:RightsStatement",
