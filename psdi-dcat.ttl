@@ -71,10 +71,10 @@
 <http://WillBeThePureLinkToReportOrTheKnowledgebaseSite> a foaf:Document ;
     rdfs:label "Case Studies: Discovering Value in Legacy Data"^^xsd:string .
 
-<http://aiida-amber.readthedocs.io/en/latest/> a rdfs:Resource ;
+<http://aiida-amber.readthedocs.io/en/latest> a rdfs:Resource ;
     rdfs:label "aiida-amber documentation"^^xsd:string .
 
-<http://aiida-gromacs.readthedocs.io/en/latest/> a rdfs:Resource ;
+<http://aiida-gromacs.readthedocs.io/en/latest> a rdfs:Resource ;
     rdfs:label "aiida-gromacs documentation"^^xsd:string .
 
 <http://aiida.readthedocs.io/projects/aiida-core/en/stable/internals/storage/sqlite_zip.html> a dcterms:Standard ;
@@ -129,7 +129,7 @@
 <http://github.com/stfc/janus-tutorials> a foaf:Document ;
     rdfs:label "janus-tutorials github repository"^^xsd:string .
 
-<http://libatoms.github.io/abcd/> a rdfs:Resource ;
+<http://libatoms.github.io/abcd> a rdfs:Resource ;
     rdfs:label "abcd's documentation"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/31dcd324-1574-4eeb-ba17-e8c2e9b4e0f2> a dcat:Dataset ;
@@ -170,25 +170,25 @@
         <http://data.europa.eu/8mn/euroscivoc/995f4448-d135-4ba0-925f-e7afa18a0d0e> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ] .
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/440450db-70f2-44e6-ab7b-361316af8554> a dcat:Dataset ;
     rdfs:label """ORKiM is an open-access database designed for the storage, dissemination, and retrieval of kinetic mechanisms describing reacting processes. The mechanisms hosted within ORKiM serve as foundational building blocks for the development of kinetic models, which are essential tools in chemical engineering for describing, analysing, and predicting the behaviour of reacting systems.
@@ -1833,25 +1833,19 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
         <http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0001-9492-6143> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/ben-wilson-kent> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/jessica-boles-a67791194> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
+            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/rebecca-ellaby> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://orcid.org/0000-0001-6162-8895> ],
@@ -1860,13 +1854,19 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
             prov:agent <http://orcid.org/0000-0003-2502-5274> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0002-9971-6118> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <http://orcid.org/0000-0002-3706-2905> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
             prov:agent <http://www.linkedin.com/in/kendrickng1> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://orcid.org/0000-0003-0832-4475> ],
+            prov:agent <http://orcid.org/0000-0002-1406-8802> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <http://www.linkedin.com/in/laura-blackholly-74409482> ] .
+            prov:agent <http://orcid.org/0000-0001-9492-6143> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> a psdiDcatExt:Guidance ;
     rdfs:label "MuDirac Documentation"^^xsd:string ;
@@ -2070,29 +2070,29 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
         <http://data.europa.eu/8mn/euroscivoc/594795fd-81a0-47bb-8676-fb24f97a0213> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/000gm1k91/> ],
+            prov:agent <https://ror.org/049px0x49/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
             prov:agent <http://www.ddbst.com/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/049px0x49/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/04qtj9h94/> ],
+            prov:agent <https://ror.org/05ggn0a85/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
             prov:agent <https://ror.org/01eezs655/> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
-            prov:agent <https://ror.org/05ggn0a85/> ] .
+            prov:agent <https://ror.org/000gm1k91/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_collaborator> ;
+            prov:agent <https://ror.org/04qtj9h94/> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/65c2df45-5a3a-4796-8cbc-9922ee5d2a6a> a dcat:DataService ;
     rdfs:label "Galaxy Workflow Management System Service"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
-        <http://galaxyproject.org/>,
-        <http://help.galaxyproject.org/>,
+        <http://galaxyproject.org>,
+        <http://help.galaxyproject.org>,
         <http://materialsgalaxy.stfc.ac.uk/tours>,
         <http://www.youtube.com/c/galaxyproject> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
@@ -2130,8 +2130,8 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
     rdfs:label "Galaxy API"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
-        <http://galaxyproject.org/>,
-        <http://help.galaxyproject.org/>,
+        <http://galaxyproject.org>,
+        <http://help.galaxyproject.org>,
         <http://www.youtube.com/c/galaxyproject>,
         <https://bioblend.readthedocs.io> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
@@ -2198,26 +2198,26 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
     dcat:version "1.0.0"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20> a dcat:DataService ;
-    rdfs:label "PSD Data Lakehouse"^^xsd:string ;
+    rdfs:label "PSDI Data Lakehouse"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://epubs.stfc.ac.uk/work/66187592>,
         <https://epubs.stfc.ac.uk/work/66346320>,
         <https://github.com/PSDI-UK/lakehouse-tutorials>,
-        <https://lakehouse.psdi.ac.uk/> ;
-    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-IndexSearch.svg> ;
-    dcterms:bibliographicCitation "Please cite: Amali Pawula Hewage, Alexander Belozerov, Tom Underwood, Vasily Bunakov and Stuart Meacham. PSD Data Lakehouse. Online. 28 July 2026. Available from: https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20. [accessed YYYY-MM-DD]."^^xsd:string ;
+        <https://lakehouse.psdi.ac.uk> ;
+    psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-dataLakehouse.png> ;
+    dcterms:bibliographicCitation "Please cite: Amali Pawula Hewage, Alexander Belozerov, Tom Underwood, Vasily Bunakov and Stuart Meacham. PSDI Data Lakehouse. Online. 28 July 2026. Available from: https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20. [accessed YYYY-MM-DD]."^^xsd:string ;
     dcterms:creator <http://orcid.org/0000-0001-6431-0612>,
         <https://orcid.org/0000-0001-9506-8718>,
         <https://orcid.org/0000-0002-3667-6059>,
         <https://orcid.org/0000-0003-3467-5690>,
         <https://orcid.org/0009-0007-1746-7685> ;
-    dcterms:description "The PSDI Data Lakehouse is a centralised platform that makes heterogeneous scientific datasets instantly queryable across research teams without downloading files, writing data transformations, or managing infrastructure. It's built to ingest large volumes of data in many formats and from many sources, and make them accessible through a single common interface which enables the data to be queried. Raw data is ingested, transformed into analysis-ready files, and made available as versioned Iceberg tables within the Data Lakehouse setup. These are the features of the Data Lakehouse: (1) Direct access - Query scientific datasets with the SQL query language using Trino, with minimal setup, working out of the box in a notebook or AI/ML pipeline (2) Full version history - Every update to datasets is stored, allowing users to query the datasets in any historical state for reproducibility and citation purposes (3) Governed access - Fine-grained access control is provided via OPA (Open Policy Agent) policies with identity management using Keycloak (OpenID Connect) (4) Dataset metadata - Licensing and version information are queryable together with the data, providing full provenance from raw source to Iceberg tables (5) AI-ready - The same data that users query for everyday analysis can also be used for AI and ML work, with no separate copy or pipeline needed. That makes the Data Lakehouse a natural foundation as AI-driven research tools continue to develop (6) Open standards, no vendor lock-in - Data is stored in open formats, portable across tools and engines rather than tied to one vendor."^^xsd:string ;
+    dcterms:description "The PSDI Data Lakehouse is a centralised platform that offers a programmatic access to various datasets that are hosted in the cloud environment. It is built to ingest large volumes of data from multiple sources and make them accessible remotely through a uniform machine interface without the need to download full datasets locally. All data in the lakehouse can be queried using the same syntax thus avoiding a lock-in with a specific API for a specific dataset. From the FAIR (Findable, Accessible, Interoperable and Reusable) data principles perspective, what the data lakehouse enables compared to a traditional research data repository is 'I': data interoperability. To achieve it, the original data sources are transformed in a common internal representation, so that a reasonable data search, data filtering and data aggregation performance can be achieved over an individual large dataset or a combination of them. The PSDI data lakehouse can support queries in users' own computational notebooks, scripts, executable workflows or AI jobs. We offer computational notebooks with examples of queries; they can be a good starting point to explore the lakehouse content and functionality."^^xsd:string ;
     dcterms:identifier "https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20"^^xsd:string ;
     dcterms:issued "2026-07-28T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
     dcterms:modified "2026-07-28T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:publisher <http://www.psdi.ac.uk/> ;
-    dcterms:title "PSD Data Lakehouse"^^xsd:string ;
+    dcterms:title "PSDI Data Lakehouse"^^xsd:string ;
     dcterms:type dcmitype:Service ;
     adms:status <http://purl.org/adms/status/UnderDevelopment> ;
     dcat:contactPoint <mailto:support@psdi.ac.uk> ;
@@ -2305,7 +2305,7 @@ Designed for ease of use, the webapp enables interactive exploration of crystal 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/d9556f5e-9a66-4ae6-ab20-d2235957c22b> a dcat:DataService ;
     rdfs:label "Web Access to Inorganic Crystal Structure Database (ICSD Web)"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/>,
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd>,
         <https://icsd.products.fiz-karlsruhe.de/en/about/about-icsd>,
         <https://icsd.products.fiz-karlsruhe.de/en/products/icsd-products#icsd+web> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdiSubscribedResources-d-icsd.png> ;
@@ -2702,7 +2702,7 @@ At present, the dashboard is populated with data and metadata gathered through t
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
-    psdiDcatExt:furtherInformation <http://aiida-amber.readthedocs.io/en/latest/> ;
+    psdiDcatExt:furtherInformation <http://aiida-amber.readthedocs.io/en/latest> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaAmber.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://pypi.org/project/aiida-amber/> ;
@@ -2753,7 +2753,8 @@ At present, the dashboard is populated with data and metadata gathered through t
     dcat:landingPage <https://pypi.org/project/aiida-amber> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     dcat:version "1.0.0"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/64af3a23-2d41-4079-a014-db366096434a> a psdiDcatExt:Tool ;
@@ -2832,7 +2833,7 @@ At present, the dashboard is populated with data and metadata gathered through t
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/82226ecb-e72a-44d9-8f12-92565b9c0b98> a psdiDcatExt:Tool ;
     rdfs:label "biosim-extractor"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://biosim-extractor.readthedocs.io/> ;
+    psdiDcatExt:furtherInformation <https://biosim-extractor.readthedocs.io> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/CCPBioSim/biosim-extractor> ;
@@ -2883,7 +2884,8 @@ At present, the dashboard is populated with data and metadata gathered through t
     dcat:landingPage <https://github.com/CCPBioSim/biosim-extractor> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     dcat:version "0.0.15"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/94032602-00a9-4640-a730-b6cd7bf3547d> a psdiDcatExt:Tool ;
@@ -2969,8 +2971,8 @@ At present, the dashboard is populated with data and metadata gathered through t
     rdfs:label "Universal HAL Python package"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 3 - Alpha"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://kermodegroup.github.io/ase_uhal/>,
-        <https://pypi.org/project/ase-uhal/> ;
+    psdiDcatExt:furtherInformation <https://kermodegroup.github.io/ase_uhal>,
+        <https://pypi.org/project/ase-uhal> ;
     psdiDcatExt:installCommand "pip install ase-uhal"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png> ;
     psdiDcatExt:operatingSystem "Operating System :: OS Independent"^^xsd:string ;
@@ -3125,17 +3127,17 @@ At present, the dashboard is populated with data and metadata gathered through t
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/c397ce31-8a34-4624-b3db-4559588478dd> a psdiDcatExt:Tool ;
     rdfs:label "PSDI_Benchmark_Set_1500 Code Github Repository"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 6 - Mature"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://github.com/OrganicAI-Lab/PSDI_Benchmark_Set_1500/blob/main/README.md>,
-        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/> ;
+        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicSemiconductorBenchmarkDataset-r.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/OrganicAI-Lab/PSDI_Benchmark_Set_1500> ;
@@ -3211,7 +3213,7 @@ At present, the dashboard is populated with data and metadata gathered through t
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/c7097735-ba52-4114-b72d-2662851e1208> a psdiDcatExt:Tool ;
     rdfs:label "biosim-interface"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://biosimdb-interface.readthedocs.io/en/latest/> ;
+    psdiDcatExt:furtherInformation <https://biosimdb-interface.readthedocs.io/en/latest> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/CCPBioSim/biosimdb-interface> ;
@@ -3265,13 +3267,14 @@ At present, the dashboard is populated with data and metadata gathered through t
     dcat:landingPage <https://github.com/CCPBioSim/biosimdb-interface> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     dcat:version "0.0.1"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/d5e955c3-db82-49e2-8d36-d1cd675e7bbc> a psdiDcatExt:Tool ;
     rdfs:label "biosim-schema"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://biosim-schema.readthedocs.io/> ;
+    psdiDcatExt:furtherInformation <https://biosim-schema.readthedocs.io> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-r.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://github.com/CCPBioSim/biosim-schema> ;
@@ -3322,14 +3325,15 @@ At present, the dashboard is populated with data and metadata gathered through t
     dcat:landingPage <https://github.com/CCPBioSim/biosim-schema> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     dcat:version "0.0.8"^^xsd:string .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d> a psdiDcatExt:Tool ;
     rdfs:label "TopoStats"^^xsd:string ;
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest/>,
+    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest>,
         <https://doi.org/10.64898/2026.05.06.723223> ;
     psdiDcatExt:installCommand "pip install topostats"^^xsd:string ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> ;
@@ -3419,7 +3423,7 @@ At present, the dashboard is populated with data and metadata gathered through t
 <http://metadata.psdi.ac.uk/psdi-dcat/tool/f988614a-ab07-4fb6-b0ee-83f19024399d> a psdiDcatExt:Tool ;
     rdfs:label "abcd (MLIP)"^^xsd:string ;
     psdiDcatExt:displayPriority 2.3e+00 ;
-    psdiDcatExt:furtherInformation <http://libatoms.github.io/abcd/> ;
+    psdiDcatExt:furtherInformation <http://libatoms.github.io/abcd> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/mlip-r.svg> ;
     psdiDcatExt:repositoryURL <http://github.com/libAtoms/abcd/> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
@@ -3554,7 +3558,7 @@ At present, the dashboard is populated with data and metadata gathered through t
 <http://orcid.org/0009-0005-0461-1436> a foaf:Agent ;
     foaf:name "Joseph Hart"^^xsd:string .
 
-<http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> a rdfs:Resource ;
+<http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search> a rdfs:Resource ;
     rdfs:label "Using PSDI Cross Data Search"^^xsd:string .
 
 <http://purl.org/cld/freq/daily> a dcterms:Frequency .
@@ -3565,7 +3569,7 @@ At present, the dashboard is populated with data and metadata gathered through t
 spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     rdfs:label "checksumAlgorithm_sha256"^^xsd:string .
 
-<http://www.ccdc.cam.ac.uk/support-and-resources/> a rdfs:Resource ;
+<http://www.ccdc.cam.ac.uk/support-and-resources> a rdfs:Resource ;
     rdfs:label "CCDC Support and resources"^^xsd:string .
 
 <http://www.ccpnc.ac.uk/docs/magres/magres-format.pdf> a dcterms:Standard ;
@@ -3628,13 +3632,13 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://bioblend.readthedocs.io> a rdfs:Resource ;
     rdfs:label "BioBlend documentation"^^xsd:string .
 
-<https://biosim-extractor.readthedocs.io/> a rdfs:Resource ;
+<https://biosim-extractor.readthedocs.io> a rdfs:Resource ;
     rdfs:label "biosim-extractor documentation"^^xsd:string .
 
-<https://biosim-schema.readthedocs.io/> a rdfs:Resource ;
+<https://biosim-schema.readthedocs.io> a rdfs:Resource ;
     rdfs:label "biosim-schema documentation"^^xsd:string .
 
-<https://biosimdb-interface.readthedocs.io/en/latest/> a rdfs:Resource ;
+<https://biosimdb-interface.readthedocs.io/en/latest> a rdfs:Resource ;
     rdfs:label "biosim-interface documentation"^^xsd:string .
 
 <https://ccpbiosim.ac.uk/notebooks/hub/spawn?profile=aiida-gpcr-workshop> a foaf:Document ;
@@ -3787,7 +3791,7 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/category/sharing-data-and-fair> a foaf:Document ;
     rdfs:label "Sharing Data and FAIR"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> a rdfs:Resource ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search> a rdfs:Resource ;
     rdfs:label "Using Cross Data Search"^^xsd:string .
 
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/chase> a rdfs:Resource ;
@@ -3799,13 +3803,13 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/detherm> a rdfs:Resource ;
     rdfs:label "PSDI Knowledge Base article about DETHERM"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/> a rdfs:Resource ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd> a rdfs:Resource ;
     rdfs:label "PSDI Knowledge Base article about ICSD"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service/> a rdfs:Resource ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service> a rdfs:Resource ;
     rdfs:label "PSDI Indexing Service"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/> a rdfs:Resource ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit> a rdfs:Resource ;
     rdfs:label "PSDI Organic Toolkit Knowledgebase article"^^xsd:string .
 
 <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/glorius> a rdfs:Resource ;
@@ -3852,9 +3856,6 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 
 <https://index.psdi.ac.uk/optimade/stfc-open> a rdfs:Resource ;
     rdfs:label "OPTIMADE base_url for STFC Open Data"^^xsd:string .
-
-<https://lakehouse.psdi.ac.uk/> a rdfs:Resource ;
-    rdfs:label "PSDI Data Lakehouse"^^xsd:string .
 
 <https://learn.psdi.ac.uk/moodle/course/view.php?name=bashgit> a foaf:Document ;
     rdfs:label "Command Line: Bash and Git Skills4Scientists"^^xsd:string .
@@ -4099,11 +4100,17 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/prisma-r.png> a rdfs:Resource ;
     rdfs:label "PrISMa logo"^^xsd:string .
 
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-IndexSearch.svg> a rdfs:Resource ;
+    rdfs:label "PSDI logo"^^xsd:string .
+
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-communityDataCollections.svg> a rdfs:Resource ;
     rdfs:label "PSDI Community Data Collections logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-crossDataSearch.svg> a rdfs:Resource ;
     rdfs:label "PSDI Cross Data Search logo"^^xsd:string .
+
+<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-dataLakehouse.png> a rdfs:Resource ;
+    rdfs:label "PSDI Data Lakehouse logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-knowledgeBase.svg> a rdfs:Resource ;
     rdfs:label "Knowledge Base logo"^^xsd:string .
@@ -4180,13 +4187,13 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
 <https://training.galaxyproject.org/training-material/topics/materials-science/tutorials/muon-stopping-sites-muairss-uep/tutorial.html> a foaf:Document ;
     rdfs:label "Finding the muon stopping site with pymuon-suite in Galaxy"^^xsd:string .
 
-<https://wiki.crystallography.net/> a rdfs:Resource ;
+<https://wiki.crystallography.net> a rdfs:Resource ;
     rdfs:label "COD wiki"^^xsd:string .
 
 <https://www.archie-west.ac.uk/> a foaf:Agent ;
     foaf:name "ARCHIE-WeSt regional supercomputer centre"^^xsd:string .
 
-<https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services/> a rdfs:Resource ;
+<https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services> a rdfs:Resource ;
     rdfs:label "CCDC Support and Resources"^^xsd:string .
 
 <https://www.chemotion-repository.net> a foaf:Document ;
@@ -4362,13 +4369,13 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-7003-9566> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-9543-6725> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8035-5757> ] .
+            prov:agent <https://orcid.org/0000-0001-8035-5757> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-7003-9566> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/1efa3139-865d-4a81-9426-3ca372217a7e> a dcat:Dataset ;
     rdfs:label "AI Ready Datasets"^^xsd:string ;
@@ -4403,37 +4410,37 @@ spdx:d4e4247 a spdx:ChecksumAlgorithm ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-0371-4047> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-9929-726X> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-8306-3634> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0005-2972-9975> ] .
+            prov:agent <https://orcid.org/0000-0002-3272-3161> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2514-5762> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0005-2972-9975> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-2498-4214> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-9929-726X> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/5b597322-c7d9-4913-98d2-3e4ac313013a> a dcat:Dataset ;
     rdfs:label "Flow Battery Experimental Metadata Repository"^^xsd:string ;
@@ -4508,25 +4515,25 @@ In future phases, the catalogue will be open to submissions from the wider commu
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
             prov:agent <https://orcid.org/0000-0001-8286-3835> ],
         [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
-            prov:agent <https://orcid.org/0000-0002-3342-3160> ],
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_editor> ;
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ] .
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
+            prov:agent <https://orcid.org/0000-0002-3342-3160> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/66a76b1e-532b-4d7c-aae5-2343098d32f6> a dcat:Dataset ;
     rdfs:label "MOFevaluator Database"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://prisma-platform.org/tool/mofevaluator-visual-frontend/> ;
+    psdiDcatExt:furtherInformation <https://prisma-platform.org/tool/mofevaluator-visual-frontend> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/prisma-d-mofEvaluator.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/irregular> ;
@@ -4534,7 +4541,7 @@ In future phases, the catalogue will be open to submissions from the wider commu
     dcterms:creator <https://orcid.org/0000-0002-3713-311X>,
         <https://orcid.org/0000-0002-4546-0452>,
         <https://orcid.org/0000-0003-4653-8562> ;
-    dcterms:description "A database of experimentally and computationally synthesised Metal Organic Frameworks (MOFs) for carbon capture applications. Data content includes CIF files, chemical compositions, geometric descriptions, and isotherms relating to the absorption of carbon dioxide, nitrogen and water. The data relates to a variety of carbon dioxide point sources, e.g. coal or natural gas power generation and cement production."^^xsd:string ;
+    dcterms:description "A database of experimentally and computationally synthesised Metal Organic Frameworks (MOFs) for carbon capture applications. Data content includes CIF files, chemical compositions, geometric descriptions, and isotherms relating to the adsorption of carbon dioxide, nitrogen and water. The data relates to a variety of carbon dioxide point sources, e.g. coal or natural gas power generation and cement production."^^xsd:string ;
     dcterms:identifier "https://resources.psdi.ac.uk/data/66a76b1e-532b-4d7c-aae5-2343098d32f6"^^xsd:string ;
     dcterms:issued "2026-04-17T12:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;
@@ -4631,17 +4638,17 @@ Check the supplier's website for the most up to date product information."""^^xs
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/2d07f15f-2b3a-45d7-a246-411d3a061f15> ;
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
-            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
-            prov:agent <https://orcid.org/0000-0003-1546-5911> ],
-        [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
             prov:agent <https://orcid.org/0000-0002-3342-3160> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_principalInvestigator> ;
-            prov:agent <https://orcid.org/0000-0001-8414-9272> ] .
+            prov:agent <https://orcid.org/0000-0001-8414-9272> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
+            prov:agent <https://orcid.org/0000-0001-8286-3835> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_author> ;
+            prov:agent <https://orcid.org/0000-0003-1546-5911> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/data/f40b1d5b-2b86-4381-959b-74ec89b854c7> a dcat:Dataset ;
     rdfs:label "Example Galaxy XAFS RO-Crate Workflows"^^xsd:string ;
@@ -4680,7 +4687,7 @@ Check the supplier's website for the most up to date product information."""^^xs
 <http://metadata.psdi.ac.uk/psdi-dcat/data/optimade-cod-cod> a dcat:Dataset ;
     rdfs:label "PSDI COD"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://wiki.crystallography.net/> ;
+    psdiDcatExt:furtherInformation <https://wiki.crystallography.net> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/optimade-d-cod.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
@@ -4727,16 +4734,16 @@ Check the supplier's website for the most up to date product information."""^^xs
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_distributor> ;
-            prov:agent <https://orcid.org/0000-0002-3667-6059> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_distributor> ;
             prov:agent <https://orcid.org/0000-0001-9506-8718> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_distributor> ;
             prov:agent <https://orcid.org/0009-0008-5433-5275> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.crystallography.net/cod/> ] .
+            prov:agent <https://www.crystallography.net/cod/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_distributor> ;
+            prov:agent <https://orcid.org/0000-0002-3667-6059> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> a psdiDcatExt:Guidance ;
     rdfs:label "Version Control and Github Skills4Scientists"^^xsd:string ;
@@ -5246,7 +5253,8 @@ Check the supplier's website for the most up to date product information."""^^xs
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_originator> ;
             prov:agent <https://orcid.org/0000-0001-6661-8653> ] .
@@ -5379,7 +5387,8 @@ Check the supplier's website for the most up to date product information."""^^xs
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_coAuthor> ;
             prov:agent <https://orcid.org/0009-0008-1486-7090> ] .
@@ -5517,7 +5526,10 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
     dcat:version "1.0.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-3272-3161> ],
@@ -5526,25 +5538,22 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
             prov:agent <https://orcid.org/0000-0001-9929-726X> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
+            prov:agent <https://orcid.org/0000-0001-5280-8309> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2514-5762> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-8306-3634> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0009-0000-9662-0869> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0001-8414-9272> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-3081-5644> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0009-0005-2972-9975> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
-            prov:agent <https://orcid.org/0000-0002-0371-4047> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_contributor> ;
             prov:agent <https://orcid.org/0000-0002-2498-4214> ] .
@@ -5553,8 +5562,8 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
     rdfs:label "Universal Hyper Active Learning: A Data Pipeline to Accelerate Materials Discovery"^^xsd:string ;
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/a1cf2550-f834-4b94-9cce-95da5c8c17f0> ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://kermodegroup.github.io/ase_uhal/>,
-        <https://pypi.org/project/ase-uhal/> ;
+    psdiDcatExt:furtherInformation <https://kermodegroup.github.io/ase_uhal>,
+        <https://pypi.org/project/ase-uhal> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/universalHAL-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:creator <https://orcid.org/0000-0001-6755-6271>,
@@ -5583,7 +5592,7 @@ By enabling the dissemination and long-term preservation of kinetic mechanisms, 
     rdfs:label "Web Access to Cambridge Structural Database (webCSD)"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
     psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/csd>,
-        <https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services/> ;
+        <https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
     dcterms:bibliographicCitation """The preferred general citation to the Cambridge Structural Database is:
@@ -5666,7 +5675,7 @@ DOI: 10.1107/S2052520616003954"""^^xsd:string ;
 <http://metadata.psdi.ac.uk/psdi-dcat/service/56a73ed0-69e6-4f76-8a37-9974fb21605e> a dcat:DataService ;
     rdfs:label "MOFevaluator Web Application"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://prisma-platform.org/tool/mofevaluator-visual-frontend/> ;
+    psdiDcatExt:furtherInformation <https://prisma-platform.org/tool/mofevaluator-visual-frontend> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/prisma-d-mofEvaluator.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "Please cite: Susana Garcia Lopez, Berend Smit and Peter McCallum. MOFevaluator Web Application (for Carbon Capture). Online. 17 April 2026. Available from: https://resources.psdi.ac.uk/service/56a73ed0-69e6-4f76-8a37-9974fb21605e. [accessed YYYY-MM-DD]."^^xsd:string ;
@@ -5879,10 +5888,10 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         <http://data.europa.eu/8mn/euroscivoc/e9da6561-23b9-48ac-9377-b68b13393e77> ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ],
+            prov:agent <https://orcid.org/0000-0002-4867-5635> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <https://orcid.org/0000-0002-4867-5635> ] .
+            prov:agent <https://www.linkedin.com/in/kuangdai-leng-669328157> ] .
 
 <http://openmaterialsdb.se> a rdfs:Resource,
         foaf:Document ;
@@ -5936,7 +5945,7 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         foaf:Document ;
     rdfs:label "Reproducible XAFS Analyses"^^xsd:string .
 
-<https://afm-spm.github.io/TopoStats/latest/> a rdfs:Resource ;
+<https://afm-spm.github.io/TopoStats/latest> a rdfs:Resource ;
     rdfs:label "TopoStats Github Documentation"^^xsd:string .
 
 <https://ccp-nc.github.io/magresview-2> a rdfs:Resource,
@@ -6239,12 +6248,8 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         foaf:Document ;
     rdfs:label "ICSD Web"^^xsd:string .
 
-<https://kermodegroup.github.io/ase_uhal/> a rdfs:Resource ;
+<https://kermodegroup.github.io/ase_uhal> a rdfs:Resource ;
     rdfs:label "ase_uhal's documentation"^^xsd:string .
-
-<https://lakehouse.psdi.ac.uk> a rdfs:Resource,
-        foaf:Document ;
-    rdfs:label "PSDI Data Lakehouse"^^xsd:string .
 
 <https://learn.psdi.ac.uk> a rdfs:Resource,
         foaf:Document ;
@@ -6318,10 +6323,10 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         foaf:Document ;
     rdfs:label "MOFevaluator in PrISMa Platform"^^xsd:string .
 
-<https://prisma-platform.org/tool/mofevaluator-visual-frontend/> a rdfs:Resource ;
+<https://prisma-platform.org/tool/mofevaluator-visual-frontend> a rdfs:Resource ;
     rdfs:label "Guidance about MOFevaluator: Visual Frontend"^^xsd:string .
 
-<https://pypi.org/project/ase-uhal/> a rdfs:Resource ;
+<https://pypi.org/project/ase-uhal> a rdfs:Resource ;
     rdfs:label "ase-uhal PyPi page"^^xsd:string .
 
 <https://pypi.org/project/psdi-data-conversion/#command-line-application> a rdfs:Resource,
@@ -6350,9 +6355,6 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/projectM-r.png> a rdfs:Resource ;
     rdfs:label "Project M logo"^^xsd:string .
-
-<https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-IndexSearch.svg> a rdfs:Resource ;
-    rdfs:label "PSDI logo"^^xsd:string .
 
 <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> a rdfs:Resource ;
     rdfs:label "TopoStats logo"^^xsd:string .
@@ -6462,7 +6464,7 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
 <http://en.wikipedia.org/wiki/Olga_Kennard> a foaf:Agent ;
     foaf:name "Olga Kennard"^^xsd:string .
 
-<http://galaxyproject.org/> a rdfs:Resource ;
+<http://galaxyproject.org> a rdfs:Resource ;
     rdfs:label "Galaxy community hub"^^xsd:string .
 
 <http://github.com/PSDI-UK/psdi-data-conversion> a rdfs:Resource ;
@@ -6472,7 +6474,7 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         foaf:Document ;
     rdfs:label "ukcathubapp github repository"^^xsd:string .
 
-<http://help.galaxyproject.org/> a rdfs:Resource ;
+<http://help.galaxyproject.org> a rdfs:Resource ;
     rdfs:label "Galaxy Help"^^xsd:string .
 
 <http://materialsgalaxy.stfc.ac.uk> a rdfs:Resource,
@@ -6509,10 +6511,10 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
         "synthetic"^^xsd:string ;
     dcat:landingPage <https://github.com/AMCLab/TEMPOS/blob/main/README.md> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/323cc7d7-4538-47ca-bdd3-ab02194b7834> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/323cc7d7-4538-47ca-bdd3-ab02194b7834> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/81c628f1-5365-4517-ae99-a6bdcc65ba24>,
         <http://data.europa.eu/8mn/euroscivoc/9f2d4860-d6ab-446c-bad7-a6e7e4801cf1> .
@@ -6522,7 +6524,7 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/c397ce31-8a34-4624-b3db-4559588478dd> ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://doi.org/10.1039/D6TA04292A>,
-        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/> ;
+        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicSemiconductorBenchmarkDataset-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "The preferred general citation is: Malin Zollner, Tahereh Nematiaram; A multireference excited state database for correlation-aware screening of organic semiconductors in excitonic energy-materials discovery. J. Mater. Chem. A 2026; https://doi.org/10.1039/d6ta04292a"^^xsd:string ;
@@ -6565,7 +6567,7 @@ The Docker container provides a ready made environment for running CrystaLLM-pi 
     rdfs:label "TopoStats and AFMDB: Resources for Atomic Force Microscopy (AFM) Image Analysis"^^xsd:string ;
     psdiDcatExt:Tool <http://metadata.psdi.ac.uk/psdi-dcat/tool/e03c049a-fac0-4c00-8f71-a61f45d22d4d> ;
     psdiDcatExt:displayPriority 2e+00 ;
-    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest/>,
+    psdiDcatExt:furtherInformation <https://afm-spm.github.io/TopoStats/latest>,
         <https://data-collections.psdi.ac.uk/communities/afmdb/about>,
         <https://doi.org/10.64898/2026.05.06.723223> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/topostats-r.svg> ;
@@ -6702,7 +6704,7 @@ The PrISMa Platform encompasses several interconnected projects, including the M
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2> a dcat:Catalog ;
     rdfs:label "PSDI Organic Toolkit"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/> ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicToolkit-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "Please cite: Sally Bloodworth, Bryan Gillis, Cerys Willoughby, Samantha Pearman-Kanza, Raymond Whorley and Donald Cruickshank. PSDI Organic Toolkit. Online. Version 1.0.0. Available from: https://resources.psdi.ac.uk/resource-theme/cdc51239-2a31-43f4-8207-a9eed84b24c2. [accessed YYYY-MM-DD]."^^xsd:string ;
@@ -6796,7 +6798,7 @@ The PrISMa Platform encompasses several interconnected projects, including the M
     psdiDcatExt:developmentStatus "Development Status :: 5 - Production/Stable"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:exampleData <http://metadata.psdi.ac.uk/psdi-dcat/data/bc930fa5-63da-4707-80f8-3c642960796a> ;
-    psdiDcatExt:furtherInformation <http://aiida-gromacs.readthedocs.io/en/latest/> ;
+    psdiDcatExt:furtherInformation <http://aiida-gromacs.readthedocs.io/en/latest> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/bioSimDataResources-t-aiidaGromacs.svg> ;
     psdiDcatExt:programmingLanguage "Programming Language :: Python :: 3.8"^^xsd:string ;
     psdiDcatExt:repositoryURL <https://pypi.org/project/aiida-gromacs/> ;
@@ -6846,14 +6848,15 @@ The PrISMa Platform encompasses several interconnected projects, including the M
         "trajectory"^^xsd:string ;
     dcat:landingPage <https://pypi.org/project/aiida-gromacs> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/fc34eacc-04c4-44dc-b4c9-28c3e3192d42> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/fc34eacc-04c4-44dc-b4c9-28c3e3192d42> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> ;
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> ;
     dcat:version "2.0.8"^^xsd:string .
 
 <http://orcid.org/0000-0002-6054-9260> a foaf:Agent ;
@@ -6933,8 +6936,12 @@ The PrISMa Platform encompasses several interconnected projects, including the M
         foaf:Document ;
     rdfs:label "PSDI Knowledge Base"^^xsd:string .
 
-<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/> a rdfs:Resource ;
+<https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500> a rdfs:Resource ;
     rdfs:label "KnowledgeBase Guidance about BenchmarkSet1500"^^xsd:string .
+
+<https://lakehouse.psdi.ac.uk> a rdfs:Resource,
+        foaf:Document ;
+    rdfs:label "PSDI Data Lakehouse"^^xsd:string .
 
 <https://orcid.org/0000-0001-5280-8309> a foaf:Agent ;
     foaf:name "Matthew Partridge"^^xsd:string .
@@ -7111,7 +7118,7 @@ The PrISMa Platform encompasses several interconnected projects, including the M
     rdfs:label "BenchmarkSet1500"^^xsd:string ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <https://doi.org/10.1039/D6TA04292A>,
-        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/> ;
+        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/organicSemiconductorBenchmarkDataset-r.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "The preferred general citation is: Malin Zollner, Tahereh Nematiaram; A multireference excited state database for correlation-aware screening of organic semiconductors in excitonic energy-materials discovery. J. Mater. Chem. A 2026; https://doi.org/10.1039/d6ta04292a"^^xsd:string ;
@@ -7299,13 +7306,13 @@ The PrISMa Platform encompasses several interconnected projects, including the M
         "paramanetic NMR"^^xsd:string ;
     dcat:landingPage <https://simpnmr.org> ;
     dcat:qualifiedRelation [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
-        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/bb0f915a-8c4d-4d4c-a4ab-aade7f0ecbf4> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/data/37ddb0ce-30ab-4928-a1c2-35f719470137> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describes> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/tool/3961b931-e0e5-4a0c-a65d-083b68d4f142> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describes> ] ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
         <http://data.europa.eu/8mn/euroscivoc/7b38f8b4-3f5a-4a59-84f8-d270c33146c8> .
@@ -7517,8 +7524,8 @@ Designed for materials scientists, it provides a fast, data-driven complement to
 <http://metadata.psdi.ac.uk/psdi-dcat/data/07d83ee6-bad9-4c23-abea-ac70745b0803> a dcat:Dataset ;
     rdfs:label "Cambridge Structural Database (CSD)"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <http://www.ccdc.cam.ac.uk/support-and-resources/>,
-        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/>,
+    psdiDcatExt:furtherInformation <http://www.ccdc.cam.ac.uk/support-and-resources>,
+        <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search>,
         <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/csd> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/ccdc-r.png> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_16ec> ;
@@ -7652,25 +7659,25 @@ Note that this repository is currently under rapid and active development."""^^x
     dcat:version "1.2.0"^^xsd:string ;
     prov:qualifiedAttribution [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci034243x> ],
-        [ a prov:Attribution ;
-            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+            prov:agent <http://doi.org/10.1021/ci020280x> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
             prov:agent <http://www.ddbst.com/ddb-vle.html> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ],
+            prov:agent <http://doi.org/10.5194/acp-23-10901-2023> ],
         [ a prov:Attribution ;
             dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
-            prov:agent <http://doi.org/10.1021/ci020280x> ] .
+            prov:agent <http://iupac.org/what-we-do/databases/solubility-data-series/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://www.aatbio.com/data-sets/boiling-point-bp-and-melting-point-mp-reference-table/> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1021/ci034243x> ],
+        [ a prov:Attribution ;
+            dcat:hadRole <https://schemas.isotc211.org/Resources/codelists.xml#ISO19115-1.1.cit.CI_RoleCode_resourceProvider> ;
+            prov:agent <http://doi.org/10.1038/s41597-022-01154-3> ] .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/27774cac-6e13-4602-a547-ae5c68032a75> a dcat:Catalog ;
     rdfs:label "Machine Learning for Next-Generation Transmission Electron Microscopy (TEM)"^^xsd:string ;
@@ -7910,7 +7917,8 @@ Note that this repository is currently under rapid and active development."""^^x
     dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/1c4e7833-32a5-45ce-8c89-b5678de085a5> a dcat:Catalog ;
     rdfs:label "PSDI Subscribed Resources"^^xsd:string ;
@@ -8246,6 +8254,9 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
 <http://data.europa.eu/8mn/euroscivoc/7aca9814-d7a5-43b2-8521-0fa53e8bd36a> a skos:Concept ;
     skos:prefLabel "quantum chemistry"^^xsd:string .
 
+<http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> a skos:Concept ;
+    skos:prefLabel "biochemistry"^^xsd:string .
+
 <http://metadata.psdi.ac.uk/psdi-dcat/resource-theme/b01dc999-4bb5-49d8-8a45-23cef457d6b4> a dcat:Catalog ;
     rdfs:label "BioSim data resource"^^xsd:string ;
     psdiDcatExt:Guidance <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d543bbab-ce55-41ca-a4ab-b61ff0bbfd57>,
@@ -8304,7 +8315,8 @@ Within CDI, publications are linked to researchers (authors), institutions, rese
     dcat:landingPage <https://data-collections.psdi.ac.uk/communities/biosimdb> ;
     dcat:theme <http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a>,
         <http://data.europa.eu/8mn/euroscivoc/1d61ac8a-6360-432d-9729-f180ba76f24b>,
-        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1> .
+        <http://data.europa.eu/8mn/euroscivoc/4b85aedb-f755-4e39-9c09-e387cc6ce3e1>,
+        <http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f> .
 
 <http://orcid.org/0000-0001-8271-3431> a foaf:Agent ;
     foaf:name "James Gebbie-Rayet"^^xsd:string .
@@ -8435,35 +8447,35 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/1dd4ec08-6ab7-478a-b685-211f3fb3ce28> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/76a1e069-ada0-41a6-bff9-fa7236d3a4ae> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/e14e0d9e-8bca-43d1-96c5-36f274a5ace0> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/b67907c2-490b-445c-8420-fee8cdde1cd1> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
         [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/3894adca-5032-495d-aa36-8a0d00cfd37c> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
+            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/c6f97277-b785-4951-bd2d-3a45b96a7f88> ;
+            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
+        [ a dcat:Relationship ;
             dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/d3e919be-ec5c-4164-95f8-8b94c83280f7> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/0b8c77cf-0e18-4f15-b75f-81a8ed655fbc> ;
-            dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ],
-        [ a dcat:Relationship ;
-            dcterms:relation <http://metadata.psdi.ac.uk/psdi-dcat/guidance/294760c8-20de-4155-9951-08bccc87a593> ;
             dcat:hadRole <http://www.iana.org/assignments/relation/describedby> ] ;
     dcat:theme <http://metadata.psdi.ac.uk/psdi-voc-subject#psdiMultidisciplinary> .
 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/6bc7c64d-ee3d-430b-be09-f26040886c3c> a dcat:DataService ;
     rdfs:label "PSDI Cross Data Search"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/> ;
+    psdiDcatExt:furtherInformation <http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-crossDataSearch.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "Please cite: Mehmet Giritli, Callum Webb and Gemma Poulter. PSDI Cross Data Search. Online. Version 1.2.0. Physical Sciences Data Infrastructure (PSDI), 31 March 2025. Available from: https://resources.psdi.ac.uk/service/6bc7c64d-ee3d-430b-be09-f26040886c3c. [accessed YYYY-MM-DD]."^^xsd:string ;
@@ -8517,8 +8529,8 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
         <http://metadata.psdi.ac.uk/psdi-dcat/guidance/ff6a1907-c519-4f6e-99a5-f6c27bb43775> ;
     psdiDcatExt:displayPriority 2e+00 ;
     psdiDcatExt:furtherInformation <http://doi.org/10.1093/nar/gkae410>,
-        <http://galaxyproject.org/>,
-        <http://help.galaxyproject.org/>,
+        <http://galaxyproject.org>,
+        <http://help.galaxyproject.org>,
         <http://materialsgalaxy.stfc.ac.uk/tours>,
         <http://www.youtube.com/c/galaxyproject> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/galaxy-r.svg> ;
@@ -8561,7 +8573,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
 <http://metadata.psdi.ac.uk/psdi-dcat/service/7cd7df8f-3511-4f72-9847-509867ce2957> a dcat:DataService ;
     rdfs:label "PSDI Index Search"^^xsd:string ;
     psdiDcatExt:displayPriority 1e+00 ;
-    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service/> ;
+    psdiDcatExt:furtherInformation <https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service> ;
     psdiDcatExt:logoURL <https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-IndexSearch.svg> ;
     dcterms:accessRights <http://purl.org/coar/access_right/c_abf2> ;
     dcterms:bibliographicCitation "Please cite: Alexander Belozerov, Stuart Meacham and Amali Pawula Hewage. PSDI Index Search. Online. Physical Sciences Data Infrastructure (PSDI), 03 March 2026. Available from: https://resources.psdi.ac.uk/service/7cd7df8f-3511-4f72-9847-509867ce2957. [accessed YYYY-MM-DD]."^^xsd:string ;
@@ -8610,7 +8622,7 @@ The Data to Knowledge collections comprise curated datasets designed for use in 
     dcterms:creator <http://orcid.org/0009-0001-9720-3378>,
         <http://orcid.org/0009-0005-9011-2472>,
         <http://www.linkedin.com/in/andrew-harper-654456241> ;
-    dcterms:description "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future."^^xsd:string ;
+    dcterms:description "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets to facilitate the publication, sharing, discovery, and reuse of valuable data. Each collection adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future."^^xsd:string ;
     dcterms:identifier "https://resources.psdi.ac.uk/service/d81616df-3daf-44c3-98b4-841e277dfe08"^^xsd:string ;
     dcterms:issued "2025-03-31T00:00:00+00:00"^^xsd:dateTime ;
     dcterms:language <http://id.loc.gov/vocabulary/iso639-1/en> ;

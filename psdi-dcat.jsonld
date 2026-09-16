@@ -487,7 +487,7 @@
                 "psdiDcatExt:furtherInformation": {
                     "rdfs:label": "Using PSDI Cross Data Search",
                     "@type": "rdfs:Resource",
-                    "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/"
+                    "@id": "http://psdi-uk.github.io/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search"
                 },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI Cross Data Search logo",
@@ -542,7 +542,7 @@
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Service"
                 },
-                "dcterms:description": "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets to facilitate the publication, sharing, discovery, and reuse of valuable data. The repository adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future.",
+                "dcterms:description": "PSDI Community Data Collections is a collaborative, subject-focused research data repository within the Physical Sciences Data Infrastructure (PSDI). It provides openly accessible datasets to facilitate the publication, sharing, discovery, and reuse of valuable data. Each collection adheres to FAIR principles by implementing a comprehensive metadata schema that incorporates both standard properties and custom fields tailored to scientific needs. Metadata and full datasets are freely available to all users, and plans are in place to expand PSDI Community Data Collections by including additional relevant scientific communities in the future.",
                 "dcat:keyword": [
                     "data",
                     "search",
@@ -658,14 +658,14 @@
                 "@id": "psdiDcat:service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20",
                 "dcterms:identifier": "https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20",
                 "@type": "dcat:DataService",
-                "dcterms:title": "PSD Data Lakehouse",
-                "rdfs:label": "PSD Data Lakehouse",
+                "dcterms:title": "PSDI Data Lakehouse",
+                "rdfs:label": "PSDI Data Lakehouse",
                 "dcterms:type": {
                     "skos:prefLabel": "Service",
                     "@type": "skos:Concept",
                     "@id": "http://purl.org/dc/dcmitype/Service"
                 },
-                "dcterms:description": "The PSDI Data Lakehouse is a centralised platform that makes heterogeneous scientific datasets instantly queryable across research teams without downloading files, writing data transformations, or managing infrastructure. It's built to ingest large volumes of data in many formats and from many sources, and make them accessible through a single common interface which enables the data to be queried. Raw data is ingested, transformed into analysis-ready files, and made available as versioned Iceberg tables within the Data Lakehouse setup. These are the features of the Data Lakehouse: (1) Direct access - Query scientific datasets with the SQL query language using Trino, with minimal setup, working out of the box in a notebook or AI/ML pipeline (2) Full version history - Every update to datasets is stored, allowing users to query the datasets in any historical state for reproducibility and citation purposes (3) Governed access - Fine-grained access control is provided via OPA (Open Policy Agent) policies with identity management using Keycloak (OpenID Connect) (4) Dataset metadata - Licensing and version information are queryable together with the data, providing full provenance from raw source to Iceberg tables (5) AI-ready - The same data that users query for everyday analysis can also be used for AI and ML work, with no separate copy or pipeline needed. That makes the Data Lakehouse a natural foundation as AI-driven research tools continue to develop (6) Open standards, no vendor lock-in - Data is stored in open formats, portable across tools and engines rather than tied to one vendor.",
+                "dcterms:description": "The PSDI Data Lakehouse is a centralised platform that offers a programmatic access to various datasets that are hosted in the cloud environment. It is built to ingest large volumes of data from multiple sources and make them accessible remotely through a uniform machine interface without the need to download full datasets locally. All data in the lakehouse can be queried using the same syntax thus avoiding a lock-in with a specific API for a specific dataset. From the FAIR (Findable, Accessible, Interoperable and Reusable) data principles perspective, what the data lakehouse enables compared to a traditional research data repository is 'I': data interoperability. To achieve it, the original data sources are transformed in a common internal representation, so that a reasonable data search, data filtering and data aggregation performance can be achieved over an individual large dataset or a combination of them. The PSDI data lakehouse can support queries in users' own computational notebooks, scripts, executable workflows or AI jobs. We offer computational notebooks with examples of queries; they can be a good starting point to explore the lakehouse content and functionality.",
                 "dcat:keyword": [
                     "data",
                     "lakehouse"
@@ -745,7 +745,7 @@
                     {
                         "rdfs:label": "PSDI Data Lakehouse",
                         "@type": "rdfs:Resource",
-                        "@id": "https://lakehouse.psdi.ac.uk/"
+                        "@id": "https://lakehouse.psdi.ac.uk"
                     },
                     {
                         "rdfs:label": "PSDI Data Lakehouse: Technical Report",
@@ -764,11 +764,11 @@
                     }
                 ],
                 "psdiDcatExt:logoURL": {
-                    "rdfs:label": "PSDI logo",
+                    "rdfs:label": "PSDI Data Lakehouse logo",
                     "@type": "rdfs:Resource",
-                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-IndexSearch.svg"
+                    "@id": "https://raw.githubusercontent.com/PSDI-UK/psdi-common-style/refs/heads/main/store/resource-catalogue-logos/psdi-s-dataLakehouse.png"
                 },
-                "dcterms:bibliographicCitation": "Please cite: Amali Pawula Hewage, Alexander Belozerov, Tom Underwood, Vasily Bunakov and Stuart Meacham. PSD Data Lakehouse. Online. 28 July 2026. Available from: https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20. [accessed YYYY-MM-DD].",
+                "dcterms:bibliographicCitation": "Please cite: Amali Pawula Hewage, Alexander Belozerov, Tom Underwood, Vasily Bunakov and Stuart Meacham. PSDI Data Lakehouse. Online. 28 July 2026. Available from: https://resources.psdi.ac.uk/service/80b5c61f-4d53-4810-9f10-ee9ebd9cfe20. [accessed YYYY-MM-DD].",
                 "psdiDcatExt:displayPriority": 1.0,
                 "dcat:endpointURL": {
                     "rdfs:label": "PSDI Data Lakehouse",
@@ -860,7 +860,7 @@
                 "psdiDcatExt:furtherInformation": {
                     "rdfs:label": "PSDI Indexing Service",
                     "@type": "rdfs:Resource",
-                    "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service/"
+                    "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/indexing-service"
                 },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI logo",
@@ -1769,7 +1769,7 @@
                     {
                         "rdfs:label": "Galaxy Help",
                         "@type": "rdfs:Resource",
-                        "@id": "http://help.galaxyproject.org/"
+                        "@id": "http://help.galaxyproject.org"
                     },
                     {
                         "rdfs:label": "GalaxyProject Youtube channel",
@@ -1779,7 +1779,7 @@
                     {
                         "rdfs:label": "Galaxy community hub",
                         "@type": "rdfs:Resource",
-                        "@id": "http://galaxyproject.org/"
+                        "@id": "http://galaxyproject.org"
                     },
                     {
                         "rdfs:label": "Interactive Galaxy tours",
@@ -2019,7 +2019,7 @@
                             {
                                 "rdfs:label": "Galaxy Help",
                                 "@type": "rdfs:Resource",
-                                "@id": "http://help.galaxyproject.org/"
+                                "@id": "http://help.galaxyproject.org"
                             },
                             {
                                 "rdfs:label": "GalaxyProject Youtube channel",
@@ -2029,7 +2029,7 @@
                             {
                                 "rdfs:label": "Galaxy community hub",
                                 "@type": "rdfs:Resource",
-                                "@id": "http://galaxyproject.org/"
+                                "@id": "http://galaxyproject.org"
                             },
                             {
                                 "rdfs:label": "Interactive Galaxy tours",
@@ -2158,7 +2158,7 @@
                             {
                                 "rdfs:label": "Galaxy Help",
                                 "@type": "rdfs:Resource",
-                                "@id": "http://help.galaxyproject.org/"
+                                "@id": "http://help.galaxyproject.org"
                             },
                             {
                                 "rdfs:label": "GalaxyProject Youtube channel",
@@ -2168,7 +2168,7 @@
                             {
                                 "rdfs:label": "Galaxy community hub",
                                 "@type": "rdfs:Resource",
-                                "@id": "http://galaxyproject.org/"
+                                "@id": "http://galaxyproject.org"
                             },
                             {
                                 "rdfs:label": "BioBlend documentation",
@@ -2887,12 +2887,12 @@
                     {
                         "rdfs:label": "ase_uhal's documentation",
                         "@type": "rdfs:Resource",
-                        "@id": "https://kermodegroup.github.io/ase_uhal/"
+                        "@id": "https://kermodegroup.github.io/ase_uhal"
                     },
                     {
                         "rdfs:label": "ase-uhal PyPi page",
                         "@type": "rdfs:Resource",
-                        "@id": "https://pypi.org/project/ase-uhal/"
+                        "@id": "https://pypi.org/project/ase-uhal"
                     }
                 ],
                 "psdiDcatExt:logoURL": {
@@ -2993,12 +2993,12 @@
                         {
                             "rdfs:label": "ase_uhal's documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "https://kermodegroup.github.io/ase_uhal/"
+                            "@id": "https://kermodegroup.github.io/ase_uhal"
                         },
                         {
                             "rdfs:label": "ase-uhal PyPi page",
                             "@type": "rdfs:Resource",
-                            "@id": "https://pypi.org/project/ase-uhal/"
+                            "@id": "https://pypi.org/project/ase-uhal"
                         }
                     ],
                     "psdiDcatExt:logoURL": {
@@ -3838,7 +3838,7 @@
                 "psdiDcatExt:furtherInformation": {
                     "rdfs:label": "PSDI Organic Toolkit Knowledgebase article",
                     "@type": "rdfs:Resource",
-                    "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit/"
+                    "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/organic-toolkit"
                 },
                 "psdiDcatExt:logoURL": {
                     "rdfs:label": "PSDI Organic Toolkit logo",
@@ -6886,7 +6886,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "COD wiki",
                             "@type": "rdfs:Resource",
-                            "@id": "https://wiki.crystallography.net/"
+                            "@id": "https://wiki.crystallography.net"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "COD logo",
@@ -7866,7 +7866,7 @@
                         "@type": "skos:Concept",
                         "@id": "http://purl.org/dc/dcmitype/Dataset"
                     },
-                    "dcterms:description": "A database of experimentally and computationally synthesised Metal Organic Frameworks (MOFs) for carbon capture applications. Data content includes CIF files, chemical compositions, geometric descriptions, and isotherms relating to the absorption of carbon dioxide, nitrogen and water. The data relates to a variety of carbon dioxide point sources, e.g. coal or natural gas power generation and cement production.",
+                    "dcterms:description": "A database of experimentally and computationally synthesised Metal Organic Frameworks (MOFs) for carbon capture applications. Data content includes CIF files, chemical compositions, geometric descriptions, and isotherms relating to the adsorption of carbon dioxide, nitrogen and water. The data relates to a variety of carbon dioxide point sources, e.g. coal or natural gas power generation and cement production.",
                     "dcat:keyword": [
                         "PSDI-funding-call-FC1-2025",
                         "Metal-Organic Frameworks",
@@ -7957,7 +7957,7 @@
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "Guidance about MOFevaluator: Visual Frontend",
                         "@type": "rdfs:Resource",
-                        "@id": "https://prisma-platform.org/tool/mofevaluator-visual-frontend/"
+                        "@id": "https://prisma-platform.org/tool/mofevaluator-visual-frontend"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "mofEvaluator logo",
@@ -8080,7 +8080,7 @@
                     "psdiDcatExt:furtherInformation": {
                         "rdfs:label": "Guidance about MOFevaluator: Visual Frontend",
                         "@type": "rdfs:Resource",
-                        "@id": "https://prisma-platform.org/tool/mofevaluator-visual-frontend/"
+                        "@id": "https://prisma-platform.org/tool/mofevaluator-visual-frontend"
                     },
                     "psdiDcatExt:logoURL": {
                         "rdfs:label": "mofEvaluator logo",
@@ -8206,7 +8206,7 @@
                     {
                         "rdfs:label": "KnowledgeBase Guidance about BenchmarkSet1500",
                         "@type": "rdfs:Resource",
-                        "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/"
+                        "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500"
                     },
                     {
                         "rdfs:label": "A multireference excited state database for correlation-aware screening of organic semiconductors in excitonic energy-materials discovery",
@@ -8355,7 +8355,7 @@
                         {
                             "rdfs:label": "KnowledgeBase Guidance about BenchmarkSet1500",
                             "@type": "rdfs:Resource",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500"
                         },
                         {
                             "rdfs:label": "A multireference excited state database for correlation-aware screening of organic semiconductors in excitonic energy-materials discovery",
@@ -8546,7 +8546,7 @@
                         {
                             "rdfs:label": "KnowledgeBase Guidance about BenchmarkSet1500",
                             "@type": "rdfs:Resource",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500/"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/partner-projects/benchmarkset1500"
                         },
                         {
                             "rdfs:label": "README for PSDI_Benchmark_Set_1500 github repository",
@@ -15403,6 +15403,11 @@
                         "skos:prefLabel": "soft matter physics",
                         "@type": "skos:Concept",
                         "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                    },
+                    {
+                        "skos:prefLabel": "biochemistry",
+                        "@type": "skos:Concept",
+                        "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                     }
                 ],
                 "dcterms:publisher": {
@@ -15526,6 +15531,11 @@
                             "skos:prefLabel": "soft matter physics",
                             "@type": "skos:Concept",
                             "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                        },
+                        {
+                            "skos:prefLabel": "biochemistry",
+                            "@type": "skos:Concept",
+                            "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                         }
                     ],
                     "dcterms:publisher": {
@@ -15706,6 +15716,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -15767,7 +15782,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "aiida-gromacs documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "http://aiida-gromacs.readthedocs.io/en/latest/"
+                            "@id": "http://aiida-gromacs.readthedocs.io/en/latest"
                         },
                         "dcat:qualifiedRelation": [
                             {
@@ -15867,6 +15882,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -15928,7 +15948,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "aiida-amber documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "http://aiida-amber.readthedocs.io/en/latest/"
+                            "@id": "http://aiida-amber.readthedocs.io/en/latest"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "aiida-amber logo",
@@ -16008,6 +16028,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -16068,7 +16093,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "biosim-schema documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "https://biosim-schema.readthedocs.io/"
+                            "@id": "https://biosim-schema.readthedocs.io"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "BioSimDR logo",
@@ -16144,6 +16169,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -16204,7 +16234,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "biosim-extractor documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "https://biosim-extractor.readthedocs.io/"
+                            "@id": "https://biosim-extractor.readthedocs.io"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "BioSimDR logo",
@@ -16283,6 +16313,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -16343,7 +16378,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "biosim-interface documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "https://biosimdb-interface.readthedocs.io/en/latest/"
+                            "@id": "https://biosimdb-interface.readthedocs.io/en/latest"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "BioSimDR logo",
@@ -16421,6 +16456,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -16567,6 +16607,11 @@
                                 "skos:prefLabel": "soft matter physics",
                                 "@type": "skos:Concept",
                                 "@id": "http://data.europa.eu/8mn/euroscivoc/081ec693-4e8c-46cb-b4d7-4deb186b534a"
+                            },
+                            {
+                                "skos:prefLabel": "biochemistry",
+                                "@type": "skos:Concept",
+                                "@id": "http://data.europa.eu/8mn/euroscivoc/dde8eea3-9315-4c49-8464-f26a2deb949f"
                             }
                         ],
                         "dcterms:publisher": {
@@ -17170,7 +17215,7 @@
                         "psdiDcatExt:furtherInformation": {
                             "rdfs:label": "abcd's documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "http://libatoms.github.io/abcd/"
+                            "@id": "http://libatoms.github.io/abcd"
                         },
                         "psdiDcatExt:logoURL": {
                             "rdfs:label": "MLIP logo",
@@ -17826,12 +17871,12 @@
                         {
                             "rdfs:label": "CCDC Support and resources",
                             "@type": "rdfs:Resource",
-                            "@id": "http://www.ccdc.cam.ac.uk/support-and-resources/"
+                            "@id": "http://www.ccdc.cam.ac.uk/support-and-resources"
                         },
                         {
                             "rdfs:label": "Using Cross Data Search",
                             "@type": "rdfs:Resource",
-                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search/"
+                            "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/cross-data-search"
                         }
                     ],
                     "psdiDcatExt:logoURL": {
@@ -18157,7 +18202,7 @@
                             {
                                 "rdfs:label": "CCDC Support and Resources",
                                 "@type": "rdfs:Resource",
-                                "@id": "https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services/"
+                                "@id": "https://www.ccdc.cam.ac.uk/support-and-resources/hosted-services"
                             }
                         ],
                         "psdiDcatExt:logoURL": {
@@ -18297,7 +18342,7 @@
                             {
                                 "rdfs:label": "PSDI Knowledge Base article about ICSD",
                                 "@type": "rdfs:Resource",
-                                "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd/"
+                                "@id": "https://guidance.psdi.ac.uk/docusaurus-pages/docs/guidance/psdi-resources/data-sources/subscribed/icsd"
                             },
                             {
                                 "rdfs:label": "About  Web ICSD",
@@ -19821,7 +19866,7 @@
                     {
                         "rdfs:label": "TopoStats Github Documentation",
                         "@type": "rdfs:Resource",
-                        "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                        "@id": "https://afm-spm.github.io/TopoStats/latest"
                     },
                     {
                         "rdfs:label": "Deep Learning-Enhanced TopoStats for the Automated Quantification of DNA and Complex Biomolecular Structures",
@@ -20126,7 +20171,7 @@
                         {
                             "rdfs:label": "TopoStats Github Documentation",
                             "@type": "rdfs:Resource",
-                            "@id": "https://afm-spm.github.io/TopoStats/latest/"
+                            "@id": "https://afm-spm.github.io/TopoStats/latest"
                         },
                         {
                             "rdfs:label": "Deep Learning-Enhanced TopoStats for the Automated Quantification of DNA and Complex Biomolecular Structures",
