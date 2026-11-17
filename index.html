@@ -2,25 +2,25 @@
 <!-- saved from url=(0052)https://psdi-uk.github.io/css-template/template.html -->
 <html lang="en" data-theme="null">
 
-  <div class="announcementBar_mb4j mathjax_ignore info" role="banner">
-    <div class="max-width-box announcementBarContent_xLdY">
-      <strong>Share Your User Experience:</strong> Fill in the <a href="https://forms.cloud.microsoft/e/N1QrmjuGqW">PSDI
-        tools, services and resources feedback form</a> by 20 Nov 2026
-    </div>
+<div class="announcementBar_mb4j mathjax_ignore info" role="banner">
+  <div class="max-width-box announcementBarContent_xLdY">
+    <strong>Share Your User Experience:</strong> Fill in the <a href="https://forms.cloud.microsoft/e/N1QrmjuGqW">PSDI
+      tools, services and resources feedback form</a> by 20 Nov 2026
   </div>
+</div>
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" type="image/x-icon" href="https://psdi-uk.github.io/psdi-common-style/img/logo.svg">
+  <link rel="icon" type="image/x-icon" href="./img/logo.svg">
   <link href="https://fonts.googleapis.com/css?family=Lato:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lexend:400" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://psdi-uk.github.io/psdi-common-style/css/psdi-common.css">
+  <link rel="stylesheet" href="./css/psdi-common.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
-  <script src="https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js" type="module"></script>
+  <script src="./js/psdi-common.js" type="module"></script>
   <title>Home - PSDI Metadata</title>
 </head>
 
@@ -36,9 +36,10 @@
   <header class="header" id="psdi-header"></header>
 
   <script type="module">
-    import { setTitle, setHeaderLinksSource } from "https://psdi-uk.github.io/psdi-common-style/js/psdi-common.js";
+    import { setTitle, setHeaderLinksSource, setHeaderSource } from "./js/psdi-common.js";
     setTitle("Metadata");
     setHeaderLinksSource("index_files/header-links.html");
+    setHeaderSource("html/psdi-common-header.html");
   </script>
 
   <div class="hero">
@@ -68,20 +69,16 @@
       <p>
       <ul>
         <li><a href="https://metadata.psdi.ac.uk/">https://metadata.psdi.ac.uk/</a></li>
-        <li>├── <a
-            href="./psdi-voc.jsonld">psdi-voc.jsonld</a>/<a
-            href="./psdi-voc.ttl">psdi-voc.ttl</a> -SKOS vocabulary definining nomenclature used within
+        <li>├── <a href="./psdi-voc.jsonld">psdi-voc.jsonld</a>/<a href="./psdi-voc.ttl">psdi-voc.ttl</a> -SKOS
+          vocabulary definining nomenclature used within
           the PSDI project and the resulting PSDI infrastructure and its platform</li>
-        <li>├── <a
-            href="./psdi-dcat.jsonld">psdi-dcat.jsonld</a>/<a
-            href="./psdi-dcat.ttl">psdi-dcat.ttl</a> -DCAT description of catalogue of
+        <li>├── <a href="./psdi-dcat.jsonld">psdi-dcat.jsonld</a>/<a href="./psdi-dcat.ttl">psdi-dcat.ttl</a> -DCAT
+          description of catalogue of
           resources (data, services, tools and guidance) made available via PSDI</li>
-		<li>├── <a
-            href="./psdi-dcat-ext.jsonld">psdi-dcat-ext.jsonld</a>/<a
+        <li>├── <a href="./psdi-dcat-ext.jsonld">psdi-dcat-ext.jsonld</a>/<a
             href="./psdi-dcat-ext.ttl">psdi-dcat-ext.ttl</a> - extension of DCAT to describe
           PSDI catalogue</li>
-		<li>└── <a
-            href="./psdi-dcat-shacl.jsonld">psdi-dcat-shacl.jsonld</a>/<a
+        <li>└── <a href="./psdi-dcat-shacl.jsonld">psdi-dcat-shacl.jsonld</a>/<a
             href="./psdi-dcat-shacl.ttl">psdi-dcat-shacl.ttl</a> - shacl shape for validation of psdi-dcat
           PSDI catalogue</li>
       </ul>
@@ -90,6 +87,12 @@
   </div>
 
   <footer class="footer fallback" id="psdi-footer">
+
+    <script type="module">
+      import { setTitle, setHeaderLinksSource, setFooterSource } from "./js/psdi-common.js";
+      setFooterSource("html/psdi-common-footer.html");
+    </script>
+
     <div class="max-width-box">
       <div class="footer__links">
         <div id="footer__links__left">
@@ -107,16 +110,12 @@
           </ul>
           <ul class="footer__col footer__items clean-list">
             <li>
-              <img class="lm-only" src="https://psdi-uk.github.io/psdi-common-style/img/ukri-logo-lighttext.png"
-                alt="UKRI logo">
-              <img class="dm-only" src="https://psdi-uk.github.io/psdi-common-style/img/ukri-logo-darktext.png"
-                alt="UKRI logo">
+              <img class="lm-only" src="./img/ukri-logo-lighttext.png" alt="UKRI logo">
+              <img class="dm-only" src="./img/ukri-logo-darktext.png" alt="UKRI logo">
             </li>
             <li>
-              <img class="lm-only" src="https://psdi-uk.github.io/psdi-common-style/img/ukri-epsr-logo-lighttext.png"
-                alt="UKRI EPSR logo">
-              <img class="dm-only" src="https://psdi-uk.github.io/psdi-common-style/img/ukri-epsr-logo-darktext.png"
-                alt="UKRI EPSR logo">
+              <img class="lm-only" src="./img/ukri-epsr-logo-lighttext.png" alt="UKRI EPSR logo">
+              <img class="dm-only" src="./img/ukri-epsr-logo-darktext.png" alt="UKRI EPSR logo">
             </li>
           </ul>
           <div class="footer__hline small-screen-only">
@@ -143,34 +142,24 @@
             <li><a href="https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=PSDI&A=1">Mailing List</a></li>
             <li id="footer-icon-list">
               <a href="https://www.linkedin.com/company/psdiuk/" class="footer-icon">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-linkedin-white.png"
-                  alt="LinkedIn icon" class="lm-only">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-linkedin-black.png"
-                  alt="LinkedIn icon" class="dm-only">
+                <img src="./img/social-logo-linkedin-white.png" alt="LinkedIn icon" class="lm-only">
+                <img src="./img/social-logo-linkedin-black.png" alt="LinkedIn icon" class="dm-only">
               </a>
               <a href="https://twitter.com/psdi_uk" class="footer-icon">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-x-white.svg" alt="X icon"
-                  class="lm-only">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-x-black.svg" alt="X icon"
-                  class="dm-only">
+                <img src="./img/social-logo-x-white.svg" alt="X icon" class="lm-only">
+                <img src="./img/social-logo-x-black.svg" alt="X icon" class="dm-only">
               </a>
               <a href="https://www.youtube.com/@PSDI_UK" class="footer-icon">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-youtube-white.png"
-                  alt="YouTube icon" class="lm-only">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-youtube-black.png"
-                  alt="YouTube icon" class="dm-only">
+                <img src="./img/social-logo-youtube-white.png" alt="YouTube icon" class="lm-only">
+                <img src="./img/social-logo-youtube-black.png" alt="YouTube icon" class="dm-only">
               </a>
               <a href="https://bsky.app/profile/psdi-uk.bsky.social" class="footer-icon">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-bluesky-white.svg"
-                  alt="Bluesky icon" class="lm-only">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-bluesky-black.svg"
-                  alt="Bluesky icon" class="dm-only">
+                <img src="./img/social-logo-bluesky-white.svg" alt="Bluesky icon" class="lm-only">
+                <img src="./img/social-logo-bluesky-black.svg" alt="Bluesky icon" class="dm-only">
               </a>
               <a href="https://mstdn.science/@PSDI" class="footer-icon">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-mastodon-white.svg"
-                  alt="Mastodon icon" class="lm-only">
-                <img src="https://psdi-uk.github.io/psdi-common-style/img/social-logo-mastodon-black.svg"
-                  alt="Mastodon icon" class="dm-only">
+                <img src="./img/social-logo-mastodon-white.svg" alt="Mastodon icon" class="lm-only">
+                <img src="./img/social-logo-mastodon-black.svg" alt="Mastodon icon" class="dm-only">
               </a>
             </li>
           </ul>
