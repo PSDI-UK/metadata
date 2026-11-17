@@ -43,8 +43,11 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           branch: auto-update-assets
+          assignees: brgillis, a-e-day
           commit-message: "Automated update of PSDI common assets"
           title: "Automated update of PSDI common assets"
-          body: "This PR contains automated updates to the PSDI common assets."
+          body:
+            "This PR contains automated updates to the PSDI common assets. Please to check to ensure that
+            no changes here break the site before approving"
           labels: automated
           base: main
