@@ -1,0 +1,13 @@
+# Use Dependabot to track updates for github actions
+
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    # We place our actions in .github/workflows, the default
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    groups:
+      all:
+        patterns:
+          - "*"
