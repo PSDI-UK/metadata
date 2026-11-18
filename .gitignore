@@ -1,2 +1,14 @@
 # Ignore any files in the tmp directory
 tmp/*
+
+# Compiled files
+*.pyc
+*.pyo
+
+# Scripts created to clean up and purge downloaded assets
+scripts/cleanup-common-style.sh
+scripts/purge-common-style.sh
+
+# Downloaded assets
+psdi-assets.tar.gz
+psdi-common-style-*.*.*
