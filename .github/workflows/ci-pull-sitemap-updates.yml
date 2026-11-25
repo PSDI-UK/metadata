@@ -45,10 +45,10 @@ jobs:
 
     steps:
       - name: Checkout this repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
 
       - name: Checkout the metadata-processing repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v7
         with:
           repository: PSDI-UK/metadata-processing
           token: ${{ secrets.MP_READ_TOKEN }}
